@@ -1,5 +1,5 @@
 .studentTuition{max-width:1050px;margin:28px auto 0;padding:24px 28px;border:1px solid #dceaf9;border-radius:24px;background:linear-gradient(115deg,#f3f9ff 0%,#fff 65%,#fff8ed 100%);box-shadow:0 10px 32px #184e8120;color:#193456}
-.studentTuitionHeader{display:flex;justify-content:space-between;align-items:flex-start;gap:15px}
+.studentTuitionHeader{display:flex;justify-content:space-between;align-items:flex-start;gap:15px;position:static;height:auto;padding:0;background:transparent;border:0;backdrop-filter:none;z-index:auto}
 .studentTuitionEyebrow{display:inline-flex;align-items:center;gap:7px;color:#1166c9;font-size:.78rem;font-weight:850;text-transform:uppercase;letter-spacing:.02em}
 .studentTuitionEyebrow svg{width:19px;height:19px}
 .studentTuitionHeader h2{font-size:clamp(1.3rem,2vw,1.7rem);margin:8px 0 5px;color:#153659}

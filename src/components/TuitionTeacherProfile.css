@@ -2,7 +2,7 @@
 .tuitionBack{display:inline-flex;gap:9px;align-items:center;background:transparent;border:0;color:#175ba5;font-weight:800;padding:8px 0;margin:0 0 20px;cursor:pointer}
 .tuitionBack svg{width:19px;height:19px}
 .tuitionBack:hover{text-decoration:underline}
-.tuitionProfileHero{display:flex;gap:26px;align-items:center;background:linear-gradient(120deg,#e5f2ff 0%,#f2f8ff 65%,#fff1df 100%);border-radius:26px;padding:36px}
+.tuitionProfileHero{display:flex;gap:26px;align-items:center;background:linear-gradient(120deg,#e5f2ff 0%,#f2f8ff 65%,#fff1df 100%);border-radius:26px;padding:36px;position:static;height:auto;z-index:auto;backdrop-filter:none}
 .tuitionProfilePortrait{width:138px;height:138px;display:grid;place-items:center;flex:none;border-radius:30px;color:#337bd5;background:white;box-shadow:0 10px 24px #1767a41a}
 .tuitionProfilePortrait svg{width:75px;height:75px}
 .tuitionProfileIdentity h1{font-size:clamp(1.7rem,3vw,2.6rem);margin:10px 0 7px}
