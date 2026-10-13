@@ -1,0 +1,211 @@
+/* H — Studio Pelajar. This scope follows the active student profile only. */
+.focusApp[data-theme='secondary'] {
+  --focus-plum: #167a79;
+  --focus-ink: #172e41;
+  --focus-muted: #536778;
+  --focus-border: #dce5e8;
+  --focus-rose: #e4f1ef;
+  --focus-sky: #edf5f5;
+  --secondary-deep: #105c5c;
+  background: #fff;
+  color: var(--focus-ink);
+  font-family: 'Avenir Next', 'Segoe UI', system-ui, sans-serif;
+}
+.focusApp[data-theme='secondary'] :is(h1,h2,h3) { letter-spacing: -.025em; }
+.focusApp[data-theme='secondary'] :is(button,a,input,select,textarea,summary):focus-visible { outline-color: #167a79; }
+.focusApp[data-theme='secondary'] .focusSidebar { background: #f8fafb; border-color: #dfe7ea; }
+.focusApp[data-theme='secondary'] .focusBrandButton { color: #183b50; }
+.focusApp[data-theme='secondary'] .focusBrand > span { font-weight: 700; letter-spacing: -.04em; }
+.focusApp[data-theme='secondary'] .focusSidebar nav { gap: 8px; }
+.focusApp[data-theme='secondary'] .focusSidebar nav button { color: #536778; border-radius: 8px; font-weight: 600; }
+.focusApp[data-theme='secondary'] .focusSidebar nav button[aria-current='page'] { color: #115e5f; background: #e3f0ef; font-weight: 700; }
+.focusApp[data-theme='secondary'] .focusSidebar nav button:hover { background: #edf4f4; }
+.focusApp[data-theme='secondary'] .focusUserAvatar { background: #e2efee; color: #167a79; }
+.focusApp[data-theme='secondary'] .focusSidebarBottom > button,
+.focusApp[data-theme='secondary'] .focusAccount small { color: #536778; }
+.focusApp[data-theme='secondary'] .primary { border-radius: 8px; background: #167a79; box-shadow: none; font-weight: 650; }
+.focusApp[data-theme='secondary'] .primary:hover:enabled { background: #105c5c; }
+.focusApp[data-theme='secondary'] .miniButton { border-radius: 8px; border-color: #cbdadc; color: #1a5e63; }
+.focusApp[data-theme='secondary'] .miniButton:hover:enabled { background: #eef6f5; border-color: #7daead; }
+.focusApp[data-theme='secondary'] :is(.back,.textButton) { color: #167a79; }
+.focusApp[data-theme='secondary'] .focusMain .metrics > div { background: #eef6f5; border-color: #dce9e7; border-radius: 10px; }
+.focusApp[data-theme='secondary'] .focusMain .metrics > div b { color: #167a79; }
+.focusApp[data-theme='secondary'] :is(.bar,.subbar,.qbar) > i,
+.focusApp[data-theme='secondary'] .subbar > div > i { background: #258d8a; }
+.focusApp[data-theme='secondary'] .focusMain .studyPlan button > span,
+.focusApp[data-theme='secondary'] .head > div > small { color: #167a79; }
+.focusApp[data-theme='secondary'] .focusMain > .syncNotice { color: #155d5e; background: #e9f4f2; }
+.focusApp[data-theme='secondary'] .focusFooter { border-color: #dfe7ea; }
+
+.secondaryDashboard { max-width: 1250px; padding: 44px 48px 32px; }
+.secondaryGreeting { margin-bottom: 28px; }
+.secondaryGreeting > span { display: block; color: #536778; font-size: 12px; font-weight: 600; margin-bottom: 13px; }
+.secondaryGreeting h1 { margin: 0 0 10px; font-size: clamp(27px,2.8vw,37px); font-weight: 650; line-height: 1.25; overflow-wrap: anywhere; }
+.secondaryGreeting p { margin: 0; color: #536778; font-size: 15px; }
+.secondaryLayout { display: grid; grid-template-columns: minmax(0,1fr) 258px; gap: 30px; align-items: start; }
+.secondaryLearning, .secondaryAside { min-width: 0; }
+.secondaryCurrent { padding: 25px 28px 22px; border: 1px solid #d5e7e4; border-radius: 12px; background: #edf6f4; }
+.secondaryCurrentMeta { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 13px; font-size: 12px; color: #3e686c; }
+.secondaryCurrentMeta > span:first-child { font-weight: 700; }
+.secondaryCurrentMeta > span:last-child { font-size: 11px; padding: 5px 8px; border-radius: 5px; background: #fff9; }
+.secondaryCurrent h2 { margin: 0; font-size: 23px; line-height: 1.4; font-weight: 650; overflow-wrap: anywhere; }
+.secondaryCurrent > p { margin: 10px 0 20px; color: #4d686e; font-size: 14px; line-height: 1.7; max-width: 62ch; }
+.secondaryCurrent > .primary { min-width: 190px; justify-content: space-between; font-size: 13px; }
+.secondarySteps { display: flex; margin-top: 24px; padding-top: 18px; border-top: 1px solid #d2e3e0; gap: 24px; }
+.secondarySteps button { display: inline-flex; align-items: center; gap: 9px; padding: 0; min-height: 44px; border: 0; background: transparent; color: #405f68; font-size: 12px; font-weight: 600; }
+.secondarySteps button:hover { color: #105c5c; }
+.secondarySteps button > span { display: grid; place-items: center; width: 23px; height: 23px; border: 1px solid #b4ceca; border-radius: 50%; background: #fff; color: #37686a; font-size: 11px; font-weight: 700; }
+.secondarySteps button > .isDone { background: #167a79; color: #fff; border-color: #167a79; }
+.secondarySteps svg { width: 14px; height: 14px; }
+.secondarySubjects, .secondaryNotes { margin-top: 31px; }
+.secondarySectionHeading { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 9px; }
+.secondarySectionHeading h2 { font-size: 19px; font-weight: 650; margin: 0; }
+.secondarySectionHeading > span { font-size: 12px; color: #536778; }
+.secondarySectionHeading .textButton { font-size: 12px; padding: 0; }
+.secondarySubjectList { display: grid; }
+.secondarySubjectList > button { display: flex; align-items: center; gap: 13px; width: 100%; min-height: 72px; padding: 13px 0; background: transparent; color: #172e41; text-align: left; border: 0; border-top: 1px solid #e2e9eb; }
+.secondarySubjectList > button:hover { background: #f3f8f7; }
+.secondarySubjectList > button > span:nth-child(2) { min-width: 0; flex: 1; }
+.secondaryMonogram { display: grid; place-items: center; width: 42px; height: 42px; flex: none; border: 1px solid #d5e5e3; border-radius: 8px; background: #edf5f3; color: #1d6264; font-size: 13px; font-weight: 700; }
+.secondarySubjectList b { display: block; font-size: 15px; font-weight: 600; line-height: 1.4; }
+.secondarySubjectList small { display: block; color: #637783; font-size: 12px; margin-top: 3px; }
+.secondarySubjectList > button > svg { width: 17px; height: 17px; color: #6d818a; flex: none; }
+.secondaryNoteShelf { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; }
+.secondaryNoteShelf > button { position: relative; display: flex; align-items: flex-start; gap: 12px; padding: 18px 13px; min-height: 140px; min-width: 0; background: #fff; border: 1px solid #dce5e8; border-radius: 9px; text-align: left; color: #172e41; }
+.secondaryNoteShelf > button:hover { border-color: #8db7b2; background: #fafdfc; }
+.secondaryDocument { display: grid; place-items: center; flex: none; width: 35px; height: 44px; border: 1px solid #d2e1dd; background: #f0f7f4; border-radius: 4px; color: #3d7570; }
+.secondaryDocument svg { width: 23px; height: 23px; }
+.secondaryNoteShelf > button > span:nth-child(2) { min-width: 0; flex: 1; padding-bottom: 7px; }
+.secondaryNoteShelf small { display: block; color: #537278; font-size: 11px; line-height: 1.5; margin-bottom: 7px; }
+.secondaryNoteShelf b { display: block; font-size: 13px; line-height: 1.5; font-weight: 600; overflow-wrap: anywhere; }
+.secondaryNoteShelf em { display: block; font-size: 11px; color: #637783; font-style: normal; margin-top: 10px; }
+.secondaryNoteShelf > button > svg { position: absolute; bottom: 10px; right: 10px; width: 15px; height: 15px; color: #789090; }
+.secondaryAside { display: grid; gap: 21px; }
+.secondaryNext { padding: 23px 19px 7px; border: 1px solid #dce5e8; border-radius: 11px; background: #fff; }
+.secondaryNext h2 { margin: 0 0 8px; font-size: 17px; font-weight: 650; }
+.secondaryNext > p { margin: 0 0 16px; color: #647680; font-size: 12px; line-height: 1.6; }
+.secondaryNext > button { display: flex; align-items: center; gap: 11px; width: 100%; min-height: 75px; padding: 16px 0; color: #203e4e; border: 0; border-top: 1px solid #e5ebed; background: transparent; text-align: left; }
+.secondaryNext > button:hover { color: #167a79; }
+.secondaryNext > button > svg:first-child { width: 19px; height: 19px; color: #377a7a; }
+.secondaryNext > button > span { flex: 1; min-width: 0; }
+.secondaryNext b { display: block; font-size: 13px; font-weight: 650; }
+.secondaryNext small { display: block; margin-top: 5px; font-size: 11px; color: #647680; line-height: 1.5; }
+.secondaryNext > button > svg:last-child { width: 15px; height: 15px; color: #7c9499; }
+.secondaryTutor { padding: 23px 21px; border: 1px solid #d8e8e5; border-radius: 11px; background: #f0f7f5; }
+.secondaryTutor > svg { width: 24px; height: 24px; color: #267878; margin-bottom: 13px; }
+.secondaryTutor h2 { font-size: 18px; font-weight: 650; line-height: 1.4; margin: 0 0 10px; }
+.secondaryTutor p { color: #577177; font-size: 12px; line-height: 1.8; margin: 0 0 20px; }
+.secondaryTutor .primary { width: 100%; justify-content: space-between; padding: 11px 13px; font-size: 12px; }
+.secondaryProgress { display: flex; align-items: center; gap: 10px; padding: 12px 4px; border: 0; background: transparent; color: #296870; text-align: left; font-size: 12px; font-weight: 600; }
+.secondaryProgress > svg { width: 19px; height: 19px; }
+.secondaryProgress > span { flex: 1; }
+.secondaryProgress > svg:last-child { width: 15px; height: 15px; }
+
+/* Keep learning illustrations and answer feedback intact. Hide decoration only. */
+.focusApp[data-theme='secondary'] .libraryHeroArt > img,
+.focusApp[data-theme='secondary'] .unitWelcomeIllustration,
+.focusApp[data-theme='secondary'] .examEmptyVisual > img { display: none; }
+.focusApp[data-theme='secondary'] .libraryPage .libraryHero { background: #eef6f4; border: 1px solid #dce9e6; border-radius: 12px; padding: 28px; }
+.focusApp[data-theme='secondary'] .libraryHeroArt { flex-basis: auto; }
+.focusApp[data-theme='secondary'] .libraryPage .libraryCount { color: #27676b; background: #fff; border-color: #d2e3df; }
+.focusApp[data-theme='secondary'] .libraryPage :is(.resourceCard,.readerCard,.sourceCard) { border-radius: 11px; box-shadow: none; }
+.focusApp[data-theme='secondary'] .libraryPage .resourceCard { border-top-color: #b4cfca; }
+.focusApp[data-theme='secondary'] .libraryPage .libraryTabs button { border-radius: 7px; }
+.focusApp[data-theme='secondary'] .libraryPage .libraryTabs button.active { background: #167a79; color: #fff; border-color: #167a79; }
+.focusApp[data-theme='secondary'] .libraryPage .libraryUnitNav button[aria-current='page'] { background: #e4f1ee; color: #155e5e; border-color: #9cc5be; }
+.focusApp[data-theme='secondary'] .libraryPage .readerTools { background: #f2f7f6; border-color: #dce8e4; }
+.focusApp[data-theme='secondary'] :is(.unitLessonWelcome,.unitTeachingCard,.unitQuestionCard,.quiz > section,.topic) { border-radius: 11px; }
+.focusApp[data-theme='secondary'] .unitLessonWelcome > h2 { margin-top: 0; }
+.focusApp[data-theme='secondary'] .unitLessonText { font-size: 18px; line-height: 1.85; }
+.focusApp[data-theme='secondary'] .unitRevision .unitLessonHeading { border-radius: 12px; }
+.focusApp[data-theme='secondary'] .quiz > section > small { color: #167a79; }
+.focusApp[data-theme='secondary'] .examRevision .examEmptyVisual { grid-template-columns: minmax(0,1fr); background: #eef6f4; border-color: #d2e4de; border-radius: 12px; }
+.focusApp[data-theme='secondary'] .examEmptyVisual h3 { color: #172e41; }
+.focusApp[data-theme='secondary'] .examEmptyVisual button { background: #167a79; }
+.focusApp[data-theme='secondary'] .examScores strong { color: #155e5e; }
+.focusApp[data-theme='secondary'] .tutorPanel > .orb { border-radius: 12px; }
+.focusApp[data-theme='secondary'] .tutorPanel :is(small,.miniButton,.tutorSelectedNote summary,.tutorSources summary,.tutorBusy,.tutorQuickActions button,.providerBadge) { color: #226a6d; }
+.focusApp[data-theme='secondary'] .tutorChat > .user { background: #1e5364; }
+.focusApp[data-theme='secondary'] .tutorChat .tutorMessageRole { color: #d0eae8; }
+.focusApp[data-theme='secondary'] .tutorChat > .tutorWelcome { border-color: #d4e5df; }
+.focusApp[data-theme='secondary'] .tutorQuickActions button { border-color: #a8c7c2; border-radius: 8px; }
+.focusApp[data-theme='secondary'] .tutorPanel .miniButton:hover:enabled,
+.focusApp[data-theme='secondary'] .tutorQuickActions button:hover:enabled { background: #edf6f3; border-color: #8cb9b1; }
+.focusApp[data-theme='secondary'] .tutorPanel .providerBadge { background: #e5f1ee; border-color: #c6ddd7; }
+
+/* The existing subject browser and practice flows share this age-specific palette. */
+.focusApp[data-theme='secondary'] .learnerWelcome { grid-template-columns: minmax(0,1fr); border-radius: 12px; background: #edf6f4; border-color: #d5e7e1; }
+.focusApp[data-theme='secondary'] .learnerWelcomeArt,
+.focusApp[data-theme='secondary'] .learnerWelcomeLeaf { display: none; }
+.focusApp[data-theme='secondary'] .learnerWelcomeCopy { display: block; }
+.focusApp[data-theme='secondary'] .learnerWelcomeStreak { border-color: #d1e2dd; color: #346768; background: #fff; border-radius: 7px; }
+.focusApp[data-theme='secondary'] .learnerWelcomeStreak svg { color: #277c79; }
+.focusApp[data-theme='secondary'] .subjectGraphic { --graphic-ink: #276e71; --graphic-surface: #edf5f3; --graphic-accent: #d7e7e3; border-radius: 8px; }
+.focusApp[data-theme='secondary'] .subjectGraphicShape,
+.focusApp[data-theme='secondary'] .subjectGraphic::after { display: none; }
+.focusApp[data-theme='secondary'] .learnerSubjectGrid .subjectCard { border-radius: 10px; }
+.focusApp[data-theme='secondary'] .learnerSubjectGrid .subjectCard > .subjectGraphic { border-radius: 8px; }
+.focusApp[data-theme='secondary'] .learnerSubjectGrid .subjectProgress > i { background: #3a918b; }
+.focusApp[data-theme='secondary'] .libraryPage :is(.openResource,.libraryAnswerProgress) { color: #1a6264; }
+.focusApp[data-theme='secondary'] :is(.challengeStage,.challengeEyebrow,.challengeSecondary,.challengeTextButton,.challengeBlockActive > span,.challengeQuestionMeta > span:first-child,.challengeOptionSelected .challengeOptionLetter,.challengeScore strong,.challengeRankingPoints strong) { color: #1a6264; }
+.focusApp[data-theme='secondary'] :is(.challengeStage,.challengeSecondary,.challengeRankingRows .challengeRankingYou) { border-color: #c3dad3; }
+.focusApp[data-theme='secondary'] :is(.challengeIntro,.challengeRest,.challengeCompletion,.challengeQuestion) { border-radius: 11px; box-shadow: none; }
+.focusApp[data-theme='secondary'] .practiceChoices button { border-color: #a4c6c0; color: #1a6264; border-radius: 8px; }
+.focusApp[data-theme='secondary'] .practiceChoices > button { color: #fff; }
+.focusApp[data-theme='secondary'] .practiceChoices button:hover:enabled,
+.focusApp[data-theme='secondary'] .challengeSecondary:hover:enabled { background: #edf6f3; }
+.focusApp[data-theme='secondary'] :is(.unitLesson .primary,.unitQuestionCard .primary,.examEmptyVisual button,.challengePrimary,.practiceChoices > button,.quiz .primary):hover:enabled { background: #105c5c; border-color: #105c5c; color: #fff; }
+.focusApp[data-theme='secondary'] .quiz .quizTop .back { color: #167a79; }
+
+@media (max-width: 1180px) {
+  .secondaryDashboard { padding: 34px 30px; }
+  .secondaryLayout { grid-template-columns: minmax(0,1fr) 230px; gap: 23px; }
+  .secondaryCurrent { padding: 23px; }
+  .secondaryNoteShelf { grid-template-columns: 1fr; }
+  .secondaryNoteShelf > button { min-height: 100px; }
+}
+@media (max-width: 970px) {
+  .secondaryLayout { grid-template-columns: minmax(0,1fr); }
+  .secondaryAside { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; }
+  .secondaryProgress { grid-column: 1/-1; }
+  .secondaryNoteShelf { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 760px) {
+  .focusApp[data-theme='secondary'] .focusMobileHeader { background: #fffffff2; border-color: #dce5e8; }
+  .focusApp[data-theme='secondary'] .focusMobileHeader .iconButton { color: #167a79; }
+  .focusApp[data-theme='secondary'] .focusMobileNav button[aria-current='page'] { background: #e3f0ed; color: #145f61; border-radius: 8px; }
+  .secondaryDashboard { padding: 25px 20px; }
+  .secondaryGreeting { margin-bottom: 24px; }
+  .secondaryGreeting > span { font-size: 11px; margin-bottom: 11px; }
+  .secondaryGreeting h1 { font-size: 29px; }
+  .secondaryGreeting p { font-size: 14px; }
+  .secondaryCurrent { padding: 22px 20px; }
+  .secondaryCurrent h2 { font-size: 22px; }
+  .secondaryCurrent > p { font-size: 13px; }
+  .secondarySectionHeading h2 { font-size: 18px; }
+  .secondarySubjectList > button { min-height: 71px; }
+  .focusApp[data-theme='secondary'] .libraryPage .libraryHero { padding: 23px 20px; }
+  .focusApp[data-theme='secondary'] .libraryHeroArt { flex-direction: row; }
+}
+@media (max-width: 540px) {
+  .secondaryAside, .secondaryNoteShelf { grid-template-columns: minmax(0,1fr); }
+  .secondaryGreeting h1 { font-size: 27px; }
+  .secondaryNoteShelf > button { min-height: 105px; padding: 17px; }
+  .secondaryNoteShelf b { font-size: 14px; }
+  .secondaryNoteShelf small, .secondaryNoteShelf em { font-size: 11px; }
+  .secondarySteps { justify-content: space-between; gap: 10px; }
+  .secondarySteps button { font-size: 12px; }
+  .secondaryTutor .primary { max-width: 260px; }
+  .secondaryNext small { font-size: 12px; }
+  .secondaryTutor p { font-size: 13px; }
+  .focusApp[data-theme='secondary'] .unitLessonText { font-size: 17px; }
+}
+
+/* Keep the main H screen readable and close to the five-row overview. */
+@media(min-width:1181px){.secondaryLayout{grid-template-columns:minmax(0,1fr) 300px}.secondaryGreeting h1{font-size:40px}}
+.secondaryCurrent>.primary{font-size:15px}
+.secondarySteps button{font-size:14px}
+.secondaryCurrent{padding-top:23px;padding-bottom:20px}
+.secondaryNext b,.secondaryTutor .primary{font-size:15px}
+
+@media(max-width:760px){.focusApp[data-theme='secondary'] .focusMobileNav{grid-template-columns:repeat(6,minmax(0,1fr))}}

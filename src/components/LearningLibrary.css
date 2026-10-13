@@ -1,0 +1,150 @@
+.libraryPage {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 32px 30px 56px;
+  color: var(--focus-ink, #171c3b);
+}
+.libraryPage .libraryHead { display: flex; justify-content: space-between; align-items: center; gap: 28px; margin-bottom: 28px; }
+.libraryPage .libraryHead > div:first-child { min-width: 0; }
+.libraryPage .libraryHead small { color: var(--focus-plum, #795078); font-size: 13px; font-weight: 750; letter-spacing: .035em; }
+.libraryPage .libraryHead h2 { margin: 8px 0 12px; font-size: clamp(28px, 3vw, 38px); line-height: 1.2; letter-spacing: -.035em; }
+.libraryPage .libraryHead p { max-width: 60ch; margin: 0; color: var(--focus-muted, #596482); line-height: 1.65; }
+.libraryPage .libraryHead .libraryScope { margin-top: 12px; font-size: 12px; line-height: 1.65; }
+.libraryPage .libraryHero { padding: 28px 30px; border-radius: 18px; background: var(--focus-sky, #e9f1fc); }
+.libraryHeroArt { display: flex; align-items: center; flex-direction: column; flex: 0 0 205px; }
+.libraryHeroArt > img { width: 205px; height: 150px; object-fit: contain; }
+.libraryPage .libraryCount { display: flex; align-items: center; gap: 7px; min-width: 0; background: #ffffffc9; color: var(--focus-ink, #171c3b); border-radius: 30px; padding: 7px 12px; }
+.libraryPage .libraryCount svg { width: 17px; height: 17px; color: var(--focus-plum, #795078); }
+.libraryPage .libraryCount b { font-size: 15px; }
+.libraryPage .libraryCount span { font-size: 11px; color: var(--focus-muted, #596482); white-space: nowrap; }
+.libraryPage .libraryControls { display: grid; grid-template-columns: minmax(0,1fr) 230px; gap: 12px; margin-bottom: 18px; }
+.libraryPage .librarySearch { display: flex; align-items: center; gap: 11px; padding: 0 16px; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 12px; background: #fff; }
+.libraryPage .librarySearch svg { width: 20px; height: 20px; color: var(--focus-muted, #596482); flex-shrink: 0; }
+.libraryPage .librarySearch:focus-within { border-color: var(--focus-plum, #795078); box-shadow: 0 0 0 3px var(--focus-rose, #f1e4ed); }
+.libraryPage .librarySearch input { min-width: 0; width: 100%; min-height: 50px; padding: 12px 0; border: 0; background: transparent; color: var(--focus-ink, #171c3b); font: inherit; }
+.libraryPage .librarySearch input::placeholder { color: var(--focus-muted, #596482); }
+.libraryPage .libraryControls select { min-height: 50px; min-width: 0; max-width: 100%; padding: 0 14px; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 12px; background: #fff; color: var(--focus-ink, #171c3b); font: inherit; }
+.libraryPage .libraryTabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+.libraryPage .libraryTabs button { display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-height: 44px; padding: 9px 15px; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 10px; background: #fff; color: var(--focus-muted, #596482); font-size: 13px; font-weight: 650; }
+.libraryPage .libraryTabs button.active { border-color: var(--focus-plum, #795078); background: var(--focus-plum, #795078); color: #fff; }
+.libraryPage .libraryTabs button:hover:not(.active) { background: var(--focus-rose, #f1e4ed); color: var(--focus-plum, #795078); }
+.libraryPage .libraryTabs svg { width: 17px; height: 17px; }
+.libraryAdditionalSources { margin: -3px 0 18px; color: var(--focus-muted, #596482); }
+.libraryAdditionalSources > summary { width: fit-content; min-height: 44px; padding: 10px 0; cursor: pointer; font-size: 13px; }
+.libraryAdditionalSources .librarySecondaryTabs { margin: 8px 0 16px; }
+.libraryAdditionalSources .librarySecondaryTabs button { font-size: 12px; }
+.libraryResults { display: flex; justify-content: space-between; align-items: center; gap: 14px; margin: 0 0 16px; flex-wrap: wrap; }
+.libraryResults > p { margin: 0; color: var(--focus-muted, #596482); font-size: 13px; }
+.librarySavedToggle { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; background: transparent; border: 1px solid var(--focus-border, #e3e6ed); color: var(--focus-muted, #596482); border-radius: 10px; padding: 9px 12px; font-size: 12px; }
+.librarySavedToggle svg { width: 17px; height: 17px; }
+.librarySavedToggle[aria-pressed=true] { background: var(--focus-rose, #f1e4ed); border-color: var(--focus-plum, #795078); color: var(--focus-plum, #795078); }
+.libraryPage .resourceGrid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; }
+.libraryPage .resourceCard { min-width: 0; min-height: 270px; padding: 20px; background: #fff; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 16px; display: flex; flex-direction: column; box-shadow: 0 3px 12px #171c3b03; }
+.libraryPage .resourceCardTop { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.libraryPage .resourceCardTop > button { display: grid; place-items: center; width: 44px; height: 44px; margin: -6px -7px -6px 0; border: 0; border-radius: 10px; background: transparent; color: var(--focus-muted, #596482); }
+.libraryPage .resourceCardTop > button:hover { background: var(--focus-rose, #f1e4ed); }
+.libraryPage .resourceCardTop > button[aria-pressed=true] { color: var(--focus-plum, #795078); background: var(--focus-rose, #f1e4ed); }
+.libraryPage .resourceCardTop svg { width: 19px; height: 19px; }
+.libraryPage .resourceBadge { display: inline-flex; align-items: center; border-radius: 7px; padding: 5px 9px; font-size: 11px; font-weight: 700; line-height: 1.5; }
+.libraryPage .resourceBadge.note { color: #704a70; background: var(--focus-rose, #f1e4ed); }
+.libraryPage .resourceBadge.reading { color: #375b84; background: var(--focus-sky, #e9f1fc); }
+.libraryPage .resourceBadge.practice { color: #7d5c2d; background: #fcf0d8; }
+.libraryPage .resourceCard > small { margin-top: 14px; color: var(--focus-muted, #596482); font-size: 11px; line-height: 1.65; }
+.libraryPage .resourceCard h3 { margin: 10px 0 0; color: var(--focus-ink, #171c3b); font-size: 19px; line-height: 1.4; letter-spacing: -.015em; }
+.libraryPage .resourceCard p { flex: 1; margin: 10px 0 20px; color: var(--focus-muted, #596482); font-size: 14px; line-height: 1.65; }
+.libraryPage .resourceCard > div:last-child { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-top: auto; }
+.libraryPage .resourceCard > div:last-child > span { color: var(--focus-muted, #596482); font-size: 11px; }
+.libraryPage .openResource { display: inline-flex; align-items: center; gap: 9px; min-height: 44px; padding: 9px 12px; border: 0; border-radius: 9px; background: var(--focus-rose, #f1e4ed); color: #5d3561; font-size: 13px; font-weight: 700; }
+.libraryPage .openResource:hover { background: #e8d5e4; }
+.libraryPage .openResource svg { width: 16px; height: 16px; }
+.libraryLoadMore { display: flex; align-items: center; flex-direction: column; gap: 10px; margin-top: 28px; }
+.libraryLoadMore small { color: var(--focus-muted, #596482); font-size: 12px; }
+.libraryPage .emptyState { padding: 36px 24px; border: 1px dashed var(--focus-border, #e3e6ed); border-radius: 16px; background: #fff; text-align: center; }
+.libraryPage .emptyState p { color: var(--focus-muted, #596482); }
+.libraryPage .readerCard { padding: clamp(22px,4vw,42px); background: #fff; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 18px; box-shadow: 0 4px 20px #171c3b04; }
+.libraryPage .readerTop { display: flex; gap: 20px; justify-content: space-between; align-items: flex-start; }
+.libraryPage .readerTop > div { min-width: 0; }
+.libraryPage .readerTop small { display: block; margin-top: 14px; color: var(--focus-muted, #596482); font-size: 12px; }
+.libraryPage .readerTop h2 { margin: 12px 0; font-size: clamp(27px,3.5vw,40px); line-height: 1.25; letter-spacing: -.035em; }
+.libraryPage .readerTop p { max-width: 66ch; color: var(--focus-muted, #596482); line-height: 1.7; }
+.libraryPage .iconButton { width: 44px; height: 44px; flex-shrink: 0; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 11px; background: #fff; color: var(--focus-muted, #596482); }
+.libraryPage .iconButton[aria-pressed=true] { color: var(--focus-plum, #795078); background: var(--focus-rose, #f1e4ed); border-color: var(--focus-plum, #795078); }
+.libraryUnitNav { display: flex; gap: 8px; flex-wrap: wrap; margin: 20px 0; }
+.libraryUnitNav button { min-height: 44px; padding: 10px 16px; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 10px; background: #fff; color: var(--focus-muted, #596482); font-size: 13px; font-weight: 650; }
+.libraryUnitNav button[aria-current=page] { background: var(--focus-rose, #f1e4ed); color: #5d3561; border-color: var(--focus-plum, #795078); }
+.libraryPage .readerTools { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin: 24px 0 30px; padding: 12px; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 12px; background: #f8f9fc; }
+.readerToolGroup { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
+.readerToolGroup:empty { display: none; }
+.libraryPage .readerTools button { display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-height: 44px; min-width: 44px; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 9px; background: #fff; color: var(--focus-ink, #171c3b); padding: 8px 10px; font-size: 12px; }
+.libraryPage .readerTools button svg { width: 17px; height: 17px; }
+.libraryPage .readerTools span { margin: 0 5px 0 0; color: var(--focus-muted, #596482); font-size: 12px; }
+.libraryPage .readerTools b { font-size: 12px; min-width: 34px; text-align: center; font-variant-numeric: tabular-nums; }
+.libraryPage .readerBody { max-width: 66ch; margin: 0 auto; color: var(--focus-ink, #171c3b); }
+.libraryPage .readerBody p { margin: 0 0 1.15em; }
+.libraryPage .referenceBox, .libraryPage .practiceBox { margin-top: 30px; padding-top: 24px; border-top: 1px solid var(--focus-border, #e3e6ed); line-height: 1.7; }
+.libraryPage .referenceBox h3, .libraryPage .practiceBox h3 { margin: 0 0 12px; font-size: 20px; }
+.libraryPage .wordGrid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+.libraryPage .wordGrid > div { padding: 15px; background: var(--focus-sky, #e9f1fc); border-radius: 12px; }
+.libraryPage .wordGrid span { color: var(--focus-muted, #596482); font-size: 14px; }
+.libraryPage .libraryAnswerProgress { padding: 12px 15px; border-radius: 10px; background: var(--focus-rose, #f1e4ed); color: #5d3561; font-size: 14px; }
+.libraryPage .libraryQuestion { padding: 22px 0; border-top: 1px solid var(--focus-border, #e3e6ed); }
+.libraryPage .libraryQuestion > b { display: block; font-size: 17px; }
+.libraryPage .libraryQuestion > div { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; margin-top: 14px; }
+.libraryPage .libraryQuestion button { min-height: 44px; padding: 12px 14px; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 10px; background: #fff; color: var(--focus-ink, #171c3b); text-align: start; line-height: 1.6; overflow-wrap: anywhere; }
+.libraryPage .libraryQuestion button:hover:not(:disabled) { border-color: var(--focus-plum, #795078); background: var(--focus-rose, #f1e4ed); }
+.libraryPage .libraryQuestion button:disabled { opacity: 1; cursor: default; }
+.libraryPage .libraryQuestion button.correct { background: #edf7f1; border-color: #4e926c; }
+.libraryPage .libraryQuestion button.wrong { background: #fff0ef; border-color: #b95f64; }
+.libraryPage .answerOk { color: #2f6b4d; }
+.libraryPage .answerNo { color: #a34350; }
+.libraryPage .readerActions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+.libraryPage .readerActions .primary { background: var(--focus-plum, #795078); color: #fff; }
+.libraryPage .sourceGrid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; }
+.libraryPage .sourceCard { min-width: 0; padding: 22px; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 16px; background: #fff; }
+.libraryPage .sourceCard h3 { margin: 14px 0 8px; font-size: 19px; line-height: 1.45; }
+.libraryPage .sourceCard p { color: var(--focus-muted, #596482); line-height: 1.7; }
+.libraryPage .sourceCard dl { display: grid; gap: 10px; font-size: 13px; }
+.libraryPage .sourceCard dl > div { display: grid; grid-template-columns: 100px minmax(0,1fr); gap: 8px; }
+.libraryPage .sourceCard dt { color: var(--focus-muted, #596482); }
+.libraryPage .sourceCard dd { margin: 0; font-weight: 600; }
+.libraryPage .sourceCard a { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; color: var(--focus-plum, #795078); font-size: 13px; }
+.libraryPage .sourceStatus { display: inline-block; font-size: 10px; line-height: 1.6; padding: 5px 9px; border-radius: 7px; text-transform: none; }
+.libraryPage .sourceStatus.approved { background: #edf7f1; color: #2f6b4d; }
+.libraryPage .sourceStatus.conditional { background: #fcf0d8; color: #7d5c2d; }
+.libraryPage .sourceStatus.research-only { background: var(--focus-sky, #e9f1fc); color: var(--focus-muted, #596482); }
+.libraryPage .resourceCard h3, .libraryPage .resourceCard p, .libraryPage .readerBody, .libraryPage .readerTop h2, .libraryPage .libraryQuestion { overflow-wrap: anywhere; min-width: 0; }
+.libraryPage button:focus-visible, .libraryPage select:focus-visible, .libraryPage input:focus-visible, .libraryPage summary:focus-visible, .libraryPage a:focus-visible { outline: 3px solid var(--focus-plum, #795078); outline-offset: 3px; }
+.libraryPage .librarySearch input:focus-visible { outline: 0; }
+@media (max-width: 1100px) { .libraryPage .resourceGrid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width: 780px) {
+  .libraryPage { padding: 24px 20px 44px; }
+  .libraryPage .libraryHero { padding: 23px; gap: 16px; }
+  .libraryHeroArt { flex-basis: 145px; }
+  .libraryHeroArt > img { width: 145px; height: 130px; }
+  .libraryPage .libraryControls { grid-template-columns: minmax(0,1fr); }
+  .libraryPage .sourceGrid { grid-template-columns: minmax(0,1fr); }
+}
+@media (max-width: 560px) {
+  .libraryPage { padding: 20px 16px 36px; }
+  .libraryPage .libraryHead { gap: 14px; flex-direction: column; align-items: stretch; }
+  .libraryPage .libraryHero { padding: 22px 20px; }
+  .libraryPage .libraryHead h2 { font-size: 29px; }
+  .libraryPage .libraryHead p { font-size: 14px; }
+  .libraryHeroArt { flex-direction: row; justify-content: space-between; flex-basis: auto; gap: 14px; }
+  .libraryHeroArt > img { order: 1; width: 106px; height: 80px; }
+  .libraryPage .libraryTabs { gap: 7px; }
+  .libraryPage .libraryTabs button { padding: 9px 10px; font-size: 12px; }
+  .libraryPage .resourceGrid { grid-template-columns: minmax(0,1fr); gap: 14px; }
+  .libraryPage .resourceCard { min-height: 0; }
+  .libraryResults { gap: 8px; }
+  .librarySavedToggle { font-size: 11px; padding: 9px; }
+  .libraryPage .readerCard { padding: 20px 17px; }
+  .libraryPage .readerTop { gap: 12px; }
+  .libraryPage .readerTop h2 { font-size: 27px; }
+  .libraryPage .readerTools { gap: 10px; padding: 9px; }
+  .libraryPage .readerToolGroup { gap: 4px; }
+  .libraryPage .wordGrid, .libraryPage .libraryQuestion > div { grid-template-columns: minmax(0,1fr); }
+  .libraryPage .readerActions > button { width: 100%; justify-content: center; }
+  .libraryUnitNav { gap: 6px; }
+  .libraryUnitNav button { padding: 9px 12px; }
+}

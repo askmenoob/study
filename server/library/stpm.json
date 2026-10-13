@@ -1,0 +1,2513 @@
+[
+  {
+    "id": "library-t6-bm-hujah-dan-rujukan",
+    "levelId": "t6",
+    "subjectId": "bm",
+    "note": {
+      "title": "Kohesi, rujukan dan batas hujah",
+      "summary": "Menilai hubungan ayat serta ketepatan kesimpulan dalam wacana.",
+      "body": [
+        "Kohesi ialah pertalian bentuk bahasa antara bahagian wacana, termasuk rujukan, pengulangan leksikal dan kata hubung. Koheren pula menyangkut kesatuan makna serta perkembangan idea. Sesuatu perenggan boleh mempunyai banyak penanda wacana tetapi tetap tidak koheren jika alasan tidak menyokong kesimpulan. Analisis perlu menjelaskan fungsi bentuk bahasa dalam konteks, bukan sekadar menyenaraikan istilah.",
+        "Contoh analisis: “Bas ditambah pada waktu puncak. Langkah ini mengurangkan kesesakan di hentian.” Frasa “langkah ini” merujuk penambahan bas, lalu menghubungkan kedua-dua ayat. Jika ayat berikutnya menyebut “Oleh itu, semua masalah pengangkutan telah selesai”, kesimpulan itu melampaui bukti tentang kesesakan di satu tempat. Pembetulan yang munasabah ialah mengehadkan dakwaan kepada masalah yang benar-benar dinilai.",
+        "Salah tanggapan lazim ialah menganggap “oleh itu” membuktikan hubungan sebab akibat. Penanda itu hanya menyatakan hubungan yang dikehendaki penulis; pembaca masih perlu menguji kecukupan alasan. Dalam jawapan, petik unsur relevan, kenal pasti rujukannya dan jelaskan kesannya terhadap makna keseluruhan."
+      ],
+      "keyPoints": [
+        "Bezakan pertalian bahasa daripada kesatuan pemikiran.",
+        "Tentukan anteseden kata atau frasa rujukan daripada konteks.",
+        "Hadkan kesimpulan kepada skop bukti yang diberikan."
+      ]
+    },
+    "reading": {
+      "title": "Waktu operasi pusat bacaan",
+      "summary": "Menganalisis rujukan dan tuntutan dalam satu cadangan komuniti.",
+      "body": [
+        "Pusat bacaan Seri Bayu memperpanjang waktu operasinya hingga pukul sembilan malam selama sebulan. Rekod menunjukkan kunjungan pekerja meningkat, manakala kunjungan pelajar hampir tidak berubah. Pengurus menyatakan bahawa perubahan itu memudahkan orang yang tamat bekerja lewat. Namun, seorang ahli jawatankuasa menyimpulkan bahawa penduduk kini membaca lebih banyak buku. Sukarelawan membantah kesimpulan tersebut kerana rekod hanya mencatat kemasukan, bukannya masa membaca atau pinjaman buku. Mereka mencadangkan supaya data pinjaman dan tujuan kunjungan turut dikumpulkan. Cadangan ini diterima, tetapi jawatankuasa belum memutuskan sama ada waktu baharu akan dikekalkan selepas tempoh percubaan berakhir."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah rujukan paling tepat bagi “Cadangan ini” dalam ayat terakhir?",
+          "options": [
+            "Penambahan waktu operasi yang sudah dilaksanakan",
+            "Penutupan pusat bacaan kepada pekerja",
+            "Pengumpulan data pinjaman dan tujuan kunjungan",
+            "Keputusan mengekalkan waktu baharu secara tetap"
+          ],
+          "answer": 2,
+          "hint": "Cari cadangan yang paling hampir dan sesuai dari segi makna.",
+          "explanation": "Frasa itu merujuk cadangan sukarelawan dalam ayat sebelumnya. Penentuan rujukan perlu serasi dengan urutan maklumat dan tindakan yang diterima."
+        },
+        {
+          "prompt": "Mengapakah kesimpulan ahli jawatankuasa kurang kukuh?",
+          "options": [
+            "Bilangan kunjungan tidak terus mengukur jumlah pembacaan",
+            "Semua data kunjungan semestinya palsu",
+            "Pekerja tidak mungkin membaca pada waktu malam",
+            "Sebulan sentiasa mencukupi untuk semua kesimpulan"
+          ],
+          "answer": 0,
+          "hint": "Bezakan pemboleh ubah yang direkod daripada perkara yang didakwa.",
+          "explanation": "Rekod mengukur kemasukan. Dakwaan tentang membaca lebih banyak memerlukan ukuran pembacaan, misalnya pinjaman atau masa membaca; peningkatan kunjungan sahaja belum memadai."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Menyunting memorandum pengangkutan",
+      "summary": "Memilih pembaikan wacana yang mengekalkan bukti dan hubungan logik.",
+      "body": [
+        "Memorandum rekaan: “Dua laluan bas kampus diuji selama dua minggu. Purata masa menunggu pada Laluan A turun daripada 18 kepada 12 minit; Laluan B kekal 20 minit. Penurunan ini menggalakkan. Namun, semua pengguna kampus sudah menerima perkhidmatan pantas. Oleh itu, Laluan B wajar dikaji semula kerana masa menunggunya belum berubah.” Tiada data laluan lain diberikan."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah anteseden “Penurunan ini”?",
+          "options": [
+            "Masa menunggu Laluan B yang kekal 20 minit",
+            "Pengurangan bilangan pengguna semua laluan",
+            "Tempoh kajian daripada dua minggu kepada seminggu",
+            "Pengurangan masa menunggu Laluan A daripada 18 kepada 12 minit"
+          ],
+          "answer": 3,
+          "hint": "Kenal pasti perubahan menurun yang benar-benar dinyatakan.",
+          "explanation": "Hanya masa menunggu Laluan A dilaporkan menurun. Rujukan itu tidak meliputi Laluan B yang tidak berubah."
+        },
+        {
+          "prompt": "Gantian terbaik bagi ayat “Namun, semua pengguna kampus sudah menerima perkhidmatan pantas” ialah...",
+          "options": [
+            "Namun, tiada pengguna mendapat sebarang manfaat.",
+            "Namun, manfaat itu belum terlihat pada Laluan B.",
+            "Namun, semua laluan lain tentu semakin perlahan.",
+            "Namun, penambahan bas tidak pernah berkesan."
+          ],
+          "answer": 1,
+          "hint": "Kekalkan pertentangan tanpa mencipta data tambahan.",
+          "explanation": "Ayat gantian menghubungkan kejayaan terhad di A dengan keadaan B. Ia mengekalkan fungsi pertentangan “namun” dan skop bukti."
+        },
+        {
+          "prompt": "Dalam ayat terakhir, “kerana” memperkenalkan...",
+          "options": [
+            "Akibat yang telah pasti selepas kajian semula",
+            "Perbandingan dua jenis kenderaan",
+            "Alasan bagi cadangan mengkaji semula Laluan B",
+            "Pilihan antara kajian dengan peperiksaan"
+          ],
+          "answer": 2,
+          "hint": "Lihat hubungan klausa sebelum dan selepas penanda.",
+          "explanation": "Keadaan masa menunggu yang belum berubah menjadi alasan cadangan tersebut. Ia bukan keputusan kajian yang belum dijalankan."
+        },
+        {
+          "prompt": "Rumusan manakah paling koheren dengan keseluruhan data?",
+          "options": [
+            "Percubaan membuktikan semua pengangkutan kampus gagal.",
+            "Percubaan menunjukkan hasil berbeza mengikut laluan dan memerlukan penilaian lanjut.",
+            "Dua minggu membuktikan peningkatan akan berkekalan selama-lamanya.",
+            "Laluan A dan B mengalami penurunan masa yang sama."
+          ],
+          "answer": 1,
+          "hint": "Gabungkan dapatan positif dengan batasnya.",
+          "explanation": "Rumusan mengiktiraf penurunan di A serta tiadanya perubahan di B. Kesatuan makna dibina dengan merangkumi kedua-dua dapatan tanpa generalisasi berlebihan."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-history-kritikan-sumber",
+    "levelId": "t6",
+    "subjectId": "history",
+    "note": {
+      "title": "Sumber sejarah dan penjelasan bersebab",
+      "summary": "Membina tafsiran melalui asal usul, tujuan dan perbandingan sumber.",
+      "body": [
+        "Sejarawan menilai sesuatu sumber melalui pengarang, waktu penghasilan, tujuan, khalayak dan akses kepada peristiwa. Sumber sezaman mungkin dekat dengan kejadian tetapi masih terhad oleh kepentingan penulis. Sumber kemudian pula boleh menggabungkan bahan yang lebih luas, walaupun dipengaruhi ingatan atau tafsiran baharu. Nilai sumber bergantung pada soalan kajian yang hendak dijawab.",
+        "Contoh kerja: sebuah laporan pentadbir menyatakan pembukaan jalan meningkatkan perdagangan, sedangkan surat peniaga menyebut kenaikan bayaran pengangkutan. Kedua-duanya tidak semestinya bercanggah sepenuhnya: jumlah dagangan mungkin bertambah sementara kos sesetengah peniaga meningkat. Semak tarikh, kawasan dan ukuran yang digunakan sebelum menggabungkan bukti menjadi penjelasan perubahan ekonomi.",
+        "Salah tanggapan ialah menolak seluruh sumber kerana penulis berkepentingan. Kepentingan itu sendiri boleh menerangkan cara sesuatu dasar dipertahankan. Jawapan analitis membezakan maklumat yang disokong, perkara yang belum diketahui dan bukti tambahan yang diperlukan; urutan masa sahaja belum membuktikan bahawa satu peristiwa menyebabkan peristiwa lain."
+      ],
+      "keyPoints": [
+        "Nilai sumber menurut soalan kajian serta konteks penghasilannya.",
+        "Bandingkan skop masa, tempat dan ukuran sebelum menyatakan percanggahan.",
+        "Bezakan urutan peristiwa daripada mekanisme sebab akibat."
+      ]
+    },
+    "reading": {
+      "title": "Dua suara tentang sebuah terusan",
+      "summary": "Latihan sumber rekaan, bukan petikan arkib atau peristiwa sebenar.",
+      "body": [
+        "Dalam latihan sejarah rekaan, laporan pejabat daerah tahun 1912 menyatakan bahawa terusan baharu telah mempercepat penghantaran hasil dari pedalaman. Laporan itu disediakan untuk memohon peruntukan sambungan terusan. Sebuah diari peniaga pada tahun yang sama pula mencatat tiga hari kelewatan ketika pintu air rosak. Rekod gudang menunjukkan jumlah hasil yang diterima meningkat sepanjang tahun tersebut, tetapi harga pasaran juga meningkat. Penyelidik mahu menentukan kesan terusan terhadap ekonomi daerah. Dia menyalin tarikh setiap catatan, memeriksa kawasan yang diliputi dan mencari rekod tempoh perjalanan sebelum pembinaan. Dia belum menganggap peningkatan hasil sebagai kesan tunggal terusan."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah nilai khusus maklumat tentang tujuan laporan pejabat daerah?",
+          "options": [
+            "Ia membantu menilai kecenderungan laporan menonjolkan manfaat projek",
+            "Ia membuktikan semua angka laporan direka",
+            "Ia menjadikan laporan tidak boleh digunakan untuk sebarang kajian",
+            "Ia membuktikan penulis diari mengetahui seluruh ekonomi daerah"
+          ],
+          "answer": 0,
+          "hint": "Hubungkan khalayak dan tujuan dengan pemilihan maklumat.",
+          "explanation": "Permohonan peruntukan memberi insentif untuk menekankan kejayaan. Itu sebab untuk menyemak dakwaan, bukan bukti bahawa keseluruhan laporan palsu."
+        },
+        {
+          "prompt": "Mengapakah kenaikan harga perlu diperiksa?",
+          "options": [
+            "Harga tidak pernah mempengaruhi keputusan pengeluaran",
+            "Rekod harga boleh menggantikan semua sumber perjalanan",
+            "Harga membuktikan terusan tidak digunakan langsung",
+            "Harga yang lebih tinggi mungkin turut mendorong peningkatan hasil yang dihantar"
+          ],
+          "answer": 3,
+          "hint": "Cari penjelasan alternatif kepada hubungan yang diperhatikan.",
+          "explanation": "Kenaikan harga boleh menggalakkan pengeluaran dan penghantaran. Menilai faktor ini membantu membezakan sumbangan terusan daripada perubahan pasaran."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Membina hujah tentang perubahan bandar",
+      "summary": "Menguji dakwaan menggunakan tiga sumber simulasi yang lengkap.",
+      "body": [
+        "Kes rekaan Bandar Kenari: peta 1920 menunjukkan pasar berhampiran sungai; peta 1930 menunjukkan pasar kedua berdekatan stesen kereta api. Minit persatuan peniaga 1929 meminta sewa gerai lebih rendah kerana kos meningkat. Risalah majlis 1931 menggelar pasar baharu “kejayaan untuk semua”. Tiada angka pendapatan isi rumah atau keterangan peniaga sungai diberikan. Soalan kajian: bagaimana pengangkutan dan keputusan pentadbiran mengubah ruang perdagangan?"
+      ],
+      "questions": [
+        {
+          "prompt": "Dakwaan yang paling langsung disokong oleh kedua-dua peta ialah...",
+          "options": [
+            "Pasar sungai pasti telah dirobohkan menjelang 1930",
+            "Ruang perdagangan bertambah dengan satu pasar berhampiran stesen",
+            "Semua penduduk berpindah ke stesen",
+            "Pendapatan setiap peniaga meningkat dua kali ganda"
+          ],
+          "answer": 1,
+          "hint": "Peta menyokong perubahan lokasi, bukan semua perubahan sosial.",
+          "explanation": "Peta membuktikan kewujudan pasar kedua di lokasi baharu. Ia tidak menyatakan penutupan pasar lama atau pendapatan peniaga."
+        },
+        {
+          "prompt": "Apakah semakan paling sesuai bagi ungkapan “kejayaan untuk semua”?",
+          "options": [
+            "Kira bilangan perkataan pujian dalam risalah sahaja",
+            "Anggap tarikh 1931 menjamin ketepatan dakwaan",
+            "Gunakan saiz risalah sebagai ukuran kemakmuran",
+            "Bandingkan pengalaman dan pendapatan kumpulan peniaga yang berlainan"
+          ],
+          "answer": 3,
+          "hint": "Perkataan “semua” menuntut bukti merentas kumpulan.",
+          "explanation": "Dakwaan menyeluruh perlu diuji terhadap pihak yang mungkin menerima kesan berbeza. Bukti teragih boleh menyokong, mengehadkan atau menolak generalisasi itu."
+        },
+        {
+          "prompt": "Apakah kegunaan utama minit persatuan 1929?",
+          "options": [
+            "Menunjukkan kebimbangan dan tuntutan yang dikemukakan oleh persatuan pada masa itu",
+            "Membuktikan setiap penduduk bandar miskin",
+            "Menentukan tepat jumlah keuntungan semua gerai",
+            "Menetapkan motif peribadi semua ahli majlis"
+          ],
+          "answer": 0,
+          "hint": "Bezakan tindakan yang direkod dengan keadaan yang tidak diukur.",
+          "explanation": "Minit ialah bukti tuntutan tentang sewa dan kos. Ia belum memberikan angka keuntungan atau mewakili pandangan seluruh penduduk."
+        },
+        {
+          "prompt": "Hujah akhir yang paling bernuansa ialah...",
+          "options": [
+            "Kereta api ialah satu-satunya punca semua perubahan bandar.",
+            "Kewujudan risalah pujian menghapuskan keperluan mengkaji sumber lain.",
+            "Pasar baharu berkait dengan perubahan pengangkutan, tetapi manfaatnya memerlukan bukti mengikut kumpulan.",
+            "Semua sumber tidak berguna kerana perspektifnya berbeza."
+          ],
+          "answer": 2,
+          "hint": "Gabungkan perubahan ruang dengan batas bukti kebajikan.",
+          "explanation": "Hujah menghubungkan lokasi baharu dengan stesen tanpa membuat dakwaan sebab tunggal. Ia juga membezakan perubahan ruang yang dapat dilihat daripada kesan sosial yang belum diukur."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-geo-hidrograf-dan-guna-tanah",
+    "levelId": "t6",
+    "subjectId": "geo",
+    "note": {
+      "title": "Hidrograf, resapan dan guna tanah",
+      "summary": "Menjelaskan tindak balas lembangan melalui storan dan aliran air.",
+      "body": [
+        "Lembangan saliran boleh dianalisis sebagai sistem dengan input hujan, storan tanah dan air bawah tanah, serta output aliran sungai dan sejatan. Permukaan telap membenarkan sebahagian air meresap; permukaan berturap boleh meningkatkan aliran permukaan jika saliran lain tidak mengimbanginya. Hidrograf ribut menggambarkan perubahan luahan sungai mengikut masa, bukan sekadar jumlah hujan.",
+        "Contoh kerja: bagi dua ribut dengan hujan setanding, masa dari puncak hujan ke puncak luahan berkurang daripada empat jam kepada dua jam selepas pembandaran. Puncak luahan turut meningkat daripada 30 kepada 48 meter padu sesaat. Dapatan ini selaras dengan pengaliran lebih cepat, tetapi kelembapan awal tanah dan perubahan saliran perlu diperiksa sebelum pembandaran dianggap punca tunggal.",
+        "Salah tanggapan ialah menganggap semua hujan serta-merta menjadi luahan sungai. Sebahagiannya tersimpan atau hilang melalui proses lain. Cadangan pengurusan perlu menyatakan mekanisme, seperti menambah resapan atau melambatkan aliran, serta menilai keluasan, penyelenggaraan dan keadaan tapak."
+      ],
+      "keyPoints": [
+        "Hidrograf membezakan masa tindak balas daripada magnitud luahan.",
+        "Kelembapan awal tanah ialah faktor yang boleh mengelirukan perbandingan.",
+        "Hubungkan langkah pengurusan kepada resapan, storan atau kelajuan aliran."
+      ]
+    },
+    "reading": {
+      "title": "Ribut di Lembangan Sendayan rekaan",
+      "summary": "Membaca perbandingan hidrograf tanpa melampaui data.",
+      "body": [
+        "Pasukan geografi membandingkan dua sublembangan rekaan yang mempunyai keluasan hampir sama. Kedua-duanya menerima hujan sebanyak 40 milimeter dalam tempoh dua jam. Sublembangan P mempunyai banyak bumbung dan jalan berturap; Q mempunyai kebun serta tanah berumput. Puncak luahan P ialah 62 meter padu sesaat dan berlaku satu jam selepas puncak hujan. Bagi Q, nilainya 35 meter padu sesaat dengan sela tiga jam. Bagaimanapun, hujan pada minggu sebelumnya lebih banyak di P. Pasukan itu mencadangkan pemerhatian beberapa ribut lagi sambil mengukur kelembapan tanah. Mereka juga mahu memetakan longkang yang mungkin mempercepat perjalanan air ke sungai."
+      ],
+      "questions": [
+        {
+          "prompt": "Tafsiran yang disokong oleh hidrograf ialah...",
+          "options": [
+            "Q menerima dua kali ganda hujan semasa ribut",
+            "P menyimpan semua hujan sebagai air bawah tanah",
+            "P dan Q mempunyai sela masa yang sama",
+            "P memberikan tindak balas lebih cepat dan puncak luahan lebih tinggi"
+          ],
+          "answer": 3,
+          "hint": "Bandingkan sela masa dan luahan secara berasingan.",
+          "explanation": "P mempunyai sela satu jam berbanding tiga jam serta puncak 62 berbanding 35. Dua ukuran ini menunjukkan tindak balas lebih cepat dan lebih besar dalam peristiwa yang diperhatikan."
+        },
+        {
+          "prompt": "Mengapa kelembapan tanah sebelum ribut perlu diukur?",
+          "options": [
+            "Kelembapan awal sentiasa sama di semua lembangan",
+            "Pengukuran itu menukar unit hujan kepada suhu",
+            "Tanah yang lebih basah mungkin mempunyai kapasiti storan tambahan yang lebih kecil",
+            "Ia membuktikan longkang tidak mempengaruhi aliran"
+          ],
+          "answer": 2,
+          "hint": "Fikirkan ruang storan tanah sebelum input baharu tiba.",
+          "explanation": "Perbezaan kelembapan awal boleh mempengaruhi resapan dan aliran permukaan. Tanpa mengawalnya, kesan guna tanah sukar dipisahkan daripada keadaan sebelum ribut."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Menilai kolam takungan dan permukaan telap",
+      "summary": "Menggunakan data rekaan untuk menimbang kesan pengurusan lembangan.",
+      "body": [
+        "Bagi ribut reka bentuk yang sama, model kawasan bandar tanpa intervensi meramal puncak luahan 80 m³ s⁻¹ selepas satu jam. Pilihan A, kolam takungan, meramal puncak 50 m³ s⁻¹ selepas tiga jam. Pilihan B, turapan telap, meramal puncak 60 m³ s⁻¹ selepas dua jam. Semua nilai ialah output model; kos, luas tapak dan ketepuan tanah belum dinilai. Kolam menyimpan air sementara sebelum melepaskannya secara terkawal."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah pengurangan peratus puncak luahan oleh A berbanding keadaan asal?",
+          "options": [
+            "30%",
+            "37.5%",
+            "62.5%",
+            "60%"
+          ],
+          "answer": 1,
+          "hint": "Bahagikan pengurangan 30 dengan nilai asal 80.",
+          "explanation": "(80 − 50) ÷ 80 × 100 = 37.5%. Nilai 62.5% ialah peratus luahan yang masih tinggal, bukan pengurangannya."
+        },
+        {
+          "prompt": "Mekanisme A yang paling sesuai dengan data ialah...",
+          "options": [
+            "Storan sementara menyebarkan pelepasan air dalam tempoh lebih panjang",
+            "Kolam menghapuskan semua air melalui pembakaran",
+            "Kolam meningkatkan hujan supaya sungai sentiasa penuh",
+            "Air sungai berhenti mengalir secara kekal"
+          ],
+          "answer": 0,
+          "hint": "Gunakan penerangan operasi kolam dalam konteks.",
+          "explanation": "Penyimpanan sementara melambatkan pelepasan dan merendahkan puncak. Air masih boleh keluar kemudian; puncak lebih rendah tidak bermaksud semua air hilang."
+        },
+        {
+          "prompt": "Mengapa model ini belum cukup untuk memilih A secara muktamad?",
+          "options": [
+            "A mempunyai puncak lebih rendah, maka semua faktor lain pasti memihak kepadanya",
+            "Model semestinya tidak pernah mempunyai kegunaan",
+            "Kekangan tapak, kos dan prestasi sebenar belum dibandingkan",
+            "B mempunyai sela dua jam, maka kosnya diketahui tepat"
+          ],
+          "answer": 2,
+          "hint": "Bezakan prestasi hidrologi daripada kebolehlaksanaan menyeluruh.",
+          "explanation": "A lebih baik bagi dua ukuran yang diberi, tetapi keputusan memerlukan maklumat kos, tapak dan ketidakpastian. Pemilihan dasar mempunyai lebih daripada satu kriteria."
+        },
+        {
+          "prompt": "Jika tanah di bawah turapan B sudah tepu, apakah jangkaan yang munasabah?",
+          "options": [
+            "Keupayaan tambahan untuk meresapkan air mungkin berkurang",
+            "Semua air hujan pasti berubah menjadi wap",
+            "Graviti di tapak B menjadi sifar",
+            "Puncak luahan semestinya turun kepada sifar"
+          ],
+          "answer": 0,
+          "hint": "Resapan bergantung pada keadaan tanah penerima, bukan permukaan sahaja.",
+          "explanation": "Tanah tepu mempunyai storan tambahan terhad. Oleh itu, manfaat resapan turapan telap boleh lebih kecil; magnitud tepat memerlukan data atau pemodelan tambahan."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-pa-menilai-program",
+    "levelId": "t6",
+    "subjectId": "pa",
+    "note": {
+      "title": "Indikator, keadilan dan penilaian program",
+      "summary": "Membezakan output, hasil dan bukti keberkesanan dasar.",
+      "body": [
+        "Penilaian program memerlukan hubungan jelas antara masalah, tindakan dan perubahan yang diharapkan. Output ialah perkara yang disampaikan, seperti bilangan sesi latihan; hasil ialah perubahan berkaitan matlamat, seperti kebolehan peserta menggunakan kemahiran. Indikator perlu mempunyai definisi, tempoh dan kumpulan sasaran yang tetap supaya perbandingan benar-benar bermakna.",
+        "Contoh kerja: program bantuan pengangkutan mengagihkan 500 pas perjalanan. Itu mengukur output. Jika matlamatnya meningkatkan akses latihan, kadar kehadiran peserta sebelum dan selepas bantuan lebih relevan. Namun, jadual kelas yang turut berubah boleh menjelaskan sebahagian peningkatan. Kumpulan perbandingan yang sesuai membantu menilai perkara yang mungkin berlaku tanpa program tersebut.",
+        "Salah tanggapan ialah menyamakan perbelanjaan besar dengan keberkesanan tinggi. Kos perlu dibandingkan dengan hasil, manakala taburan manfaat perlu diperiksa mengikut kumpulan. Penilaian yang baik mengakui batas data, meneliti kesan yang tidak diingini dan mencadangkan penambahbaikan berdasarkan bukti, bukan jumlah aktiviti semata-mata."
+      ],
+      "keyPoints": [
+        "Bezakan output aktiviti dengan hasil untuk penerima.",
+        "Gunakan definisi indikator dan tempoh perbandingan yang konsisten.",
+        "Nilai keberkesanan, kos serta taburan manfaat secara berasingan."
+      ]
+    },
+    "reading": {
+      "title": "Program latihan digital daerah",
+      "summary": "Menguji hubungan antara kehadiran, kemahiran dan akses.",
+      "body": [
+        "Daerah rekaan Melur menawarkan bengkel digital percuma di pusat komuniti. Laporan awal meraikan 800 pendaftaran, tetapi hanya 460 peserta menamatkan kursus. Ujian tugasan sebelum dan selepas kursus menunjukkan peningkatan dalam kalangan peserta yang hadir sehingga akhir. Penyelaras menyatakan kursus itu sudah menyelesaikan jurang digital daerah. Wakil penduduk meminta penjelasan kerana sebahagian peserta luar bandar berhenti akibat ketiadaan pengangkutan. Tiada ujian susulan untuk peserta yang berhenti dan tiada maklumat tentang penggunaan kemahiran di rumah. Jawatankuasa mencadangkan sesi bergerak serta penilaian susulan, kemudian mahu membandingkan hasilnya mengikut lokasi tempat tinggal sebelum memperluas program."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah batas utama dakwaan bahawa jurang digital telah selesai?",
+          "options": [
+            "Pendaftaran tidak boleh dikira secara kuantitatif",
+            "Data tidak merangkumi hasil peserta yang berhenti atau penggunaan kemahiran selepas kursus",
+            "Kursus percuma mustahil menghasilkan pembelajaran",
+            "Semua peserta luar bandar pasti gagal ujian"
+          ],
+          "answer": 1,
+          "hint": "Tentukan siapa yang diukur dan apakah hasil yang belum diperiksa.",
+          "explanation": "Peningkatan hanya diperhatikan bagi peserta yang tamat. Dakwaan tentang seluruh daerah melangkaui kumpulan serta jenis hasil yang diukur."
+        },
+        {
+          "prompt": "Apakah tujuan menilai hasil mengikut lokasi?",
+          "options": [
+            "Menukar pendaftaran menjadi bukti penguasaan secara automatik",
+            "Menghapuskan keperluan ujian kemahiran",
+            "Menjamin semua tempat mempunyai kos yang sama",
+            "Mengenal pasti sama ada manfaat dan halangan akses berbeza antara kumpulan"
+          ],
+          "answer": 3,
+          "hint": "Fokus pada taburan manfaat, bukan jumlah keseluruhan sahaja.",
+          "explanation": "Purata daerah boleh menyembunyikan perbezaan akses. Analisis mengikut lokasi boleh menunjukkan kumpulan yang memerlukan reka bentuk bantuan berbeza."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Perbandingan pusat khidmat bergerak",
+      "summary": "Menganalisis perubahan, kos dan batas kausaliti dalam satu kes dasar.",
+      "body": [
+        "Dua daerah rekaan mempunyai 1000 isi rumah sasaran setiap satu. Selepas pusat khidmat bergerak diperkenalkan, kadar permohonan lengkap di Daerah A naik daripada 40% kepada 65%. Dalam tempoh sama, Daerah B tanpa pusat bergerak naik daripada 45% kepada 55%. Kos program A ialah RM30000. Andaian latihan: tiada perbezaan perubahan lain antara daerah dan ukuran permohonan kekal sama. Gunakan perubahan B sebagai anggaran perubahan tanpa program di A."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah peningkatan A dalam mata peratusan?",
+          "options": [
+            "25 mata peratusan",
+            "25 peratus daripada aras awal",
+            "65 mata peratusan",
+            "62.5 mata peratusan"
+          ],
+          "answer": 0,
+          "hint": "Tolak kadar sebelum daripada kadar selepas.",
+          "explanation": "65% − 40% = 25 mata peratusan. Peningkatan relatif berbanding 40% ialah 62.5%, ukuran yang berbeza."
+        },
+        {
+          "prompt": "Apakah anggaran kesan tambahan selepas menolak perubahan B?",
+          "options": [
+            "10 mata peratusan",
+            "15 mata peratusan",
+            "20 mata peratusan",
+            "35 mata peratusan"
+          ],
+          "answer": 1,
+          "hint": "Bandingkan perubahan A dengan perubahan B.",
+          "explanation": "A meningkat 25 mata peratusan dan B meningkat 10. Anggaran perbezaan perubahan ialah 25 − 10 = 15 mata peratusan, tertakluk pada andaian perbandingan."
+        },
+        {
+          "prompt": "Berapakah kos bagi setiap permohonan lengkap tambahan yang dikaitkan dengan program menurut model?",
+          "options": [
+            "RM120",
+            "RM30",
+            "RM300",
+            "RM200"
+          ],
+          "answer": 3,
+          "hint": "Tukar kesan 15 mata peratusan kepada bilangan isi rumah.",
+          "explanation": "0.15 × 1000 = 150 permohonan tambahan. RM30000 ÷ 150 = RM200 setiap permohonan tambahan; menggunakan semua 650 permohonan akan mencampurkan hasil asas dengan kesan tambahan."
+        },
+        {
+          "prompt": "Apakah keadaan yang paling mencabar andaian perbandingan?",
+          "options": [
+            "Kedua-dua daerah menggunakan takrif permohonan lengkap yang sama",
+            "Bilangan isi rumah sasaran diketahui bagi kedua-dua daerah",
+            "A turut memansuhkan dokumen wajib sementara B mengekalkannya",
+            "Tempoh sebelum dan selepas adalah sama panjang"
+          ],
+          "answer": 2,
+          "hint": "Cari perubahan lain yang boleh menaikkan hasil A sahaja.",
+          "explanation": "Pemansuhan dokumen boleh meningkatkan kadar permohonan lengkap secara berasingan. Kesan itu akan bercampur dengan kesan pusat bergerak, lalu melemahkan tafsiran kausal."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-bc-lunzheng-bianjie",
+    "levelId": "t6",
+    "subjectId": "bc",
+    "note": {
+      "title": "论证中的让步与证据边界",
+      "summary": "Menganalisis penegasan, konsesi dan batas bukti dalam prosa Cina.",
+      "body": [
+        "Dalam wacana Cina, hubungan antara tesis, alasan dan contoh menentukan kekuatan hujah. Bentuk seperti “固然……但是……” mengakui sebahagian kebenaran sebelum mengehadkan atau mengarahkannya semula. Pembaca perlu membezakan pendirian penulis daripada pandangan yang disebut untuk dikritik. Pilihan kata yang tegas tidak menjadikan bukti lebih luas daripada skop asalnya.",
+        "Contoh analisis: “速度固然重要，但是没有核查的速度只会扩大错误。” Klausa awal menerima kepentingan kelajuan; klausa kedua menetapkan syarat ketepatan. Rumusan sesuai ialah penulis mengutamakan kelajuan yang disertai semakan, bukannya menolak kelajuan sepenuhnya. Perkataan “只会” pula menguatkan amaran dan boleh dinilai berdasarkan bukti yang menyusul.",
+        "Salah tanggapan ialah membaca semua ayat selepas “但是” sebagai penafian mutlak terhadap ayat sebelumnya. Dalam banyak konteks, hubungan itu ialah pembatasan atau penyusunan keutamaan. Jawapan analitis hendaklah menunjukkan ungkapan tertentu, menerangkan hubungan logiknya dan menguji sama ada kesimpulan mengekalkan syarat asal."
+      ],
+      "keyPoints": [
+        "让步 mengakui sesuatu sebelum memberikan pembatasan.",
+        "Bezakan pendirian utama daripada pandangan yang dipetik.",
+        "Syarat dan kata kuantiti menentukan keluasan kesimpulan."
+      ]
+    },
+    "reading": {
+      "title": "旧市场的新名字",
+      "summary": "Petikan Cina asli tentang pemodenan dan suara penduduk.",
+      "body": [
+        "Petikan rekaan: “旧市场换上了玻璃屋顶，游客说它终于有了城市的样子。卖菜的陈姨却把摊位搬到了巷口。她不是怀念漏雨的日子，而是付不起新的租金。整洁固然值得追求，但是一座市场若只留下好看的招牌，还能叫作大家的市场吗？”",
+        "Narator menempatkan pujian pelawat bersebelahan pengalaman seorang peniaga. Pembaca diminta menilai bagaimana pertentangan ini membina hujah tentang siapa yang mendapat manfaat daripada pemodenan. Maklumat mengenai peniaga lain tidak diberikan, maka pengalaman Chen tidak boleh terus mewakili semua orang. Namun, alasan perpindahannya dinyatakan secara jelas, dan soalan pada akhir petikan menghubungkan pengalaman individu dengan makna ruang bersama. Tugas pembaca ialah mengenal pasti pembatasan yang dibuat, sambil mengekalkan perbezaan antara bukti khusus dengan persoalan yang lebih luas. Khususnya, perubahan kebersihan fizikal dan kemampuan menyewa perlu dinilai secara berasingan."
+      ],
+      "questions": [
+        {
+          "prompt": "“她不是怀念漏雨的日子，而是付不起新的租金”主要起什么作用？",
+          "options": [
+            "证明陈姨反对一切屋顶",
+            "说明所有游客都认识陈姨",
+            "排除怀旧这一解释，指出经济压力",
+            "宣布新市场没有任何商贩"
+          ],
+          "answer": 2,
+          "hint": "Perhatikan penjelasan yang ditolak dan alasan yang dinyatakan.",
+          "explanation": "Bentuk “不是……而是……” membetulkan tafsiran motif Chen: halangannya ialah sewa, bukan keinginan kembali kepada bumbung bocor."
+        },
+        {
+          "prompt": "结尾的反问最有力地质疑什么？",
+          "options": [
+            "仅用外观改善来判断公共空间是否成功",
+            "市场是否应该永远漏雨",
+            "所有城市是否完全没有游客",
+            "玻璃是否一定比木头便宜"
+          ],
+          "answer": 0,
+          "hint": "Hubungkan “好看的招牌” dengan “大家的市场”.",
+          "explanation": "Soalan retorik mencabar ukuran kejayaan yang hanya melihat rupa. Kehilangan akses peniaga mengundang penilaian fungsi sosial ruang tersebut."
+        }
+      ]
+    },
+    "practice": {
+      "title": "数字展览的双重声音",
+      "summary": "Membandingkan data, ungkapan retorik dan kesimpulan dalam bahasa Cina.",
+      "body": [
+        "Petikan asli: “博物馆推出线上展览后，点击量明显增加。馆长说：‘屏幕打开了一扇门。’志愿者提醒，点击不等于理解；有些观众只停留几秒。线上展览当然扩大了接触机会，但要谈学习效果，还须观察观众能否解释展品之间的联系。” Dalam kes ini, hanya jumlah klik dan pemerhatian tempoh singkat disebut; tiada ujian kefahaman telah dijalankan."
+      ],
+      "questions": [
+        {
+          "prompt": "“屏幕打开了一扇门”中的“门”最合理地象征什么？",
+          "options": [
+            "博物馆实际增加的一道木门",
+            "所有观众已经完成的考试",
+            "馆长拒绝网络的态度",
+            "接触展览内容的机会"
+          ],
+          "answer": 3,
+          "hint": "Tafsir imej menurut fungsi pameran dalam talian.",
+          "explanation": "“Pintu” ialah metafora akses kepada bahan pameran. Petikan tidak menyatakan pembinaan pintu fizikal atau pembelajaran yang telah terjamin."
+        },
+        {
+          "prompt": "志愿者的提醒如何影响馆长的说法？",
+          "options": [
+            "证明点击量必定下降",
+            "保留扩大接触的可能，同时限制对学习效果的推断",
+            "否认任何人能通过网络接触展品",
+            "认定馆长的每一句话都是谎言"
+          ],
+          "answer": 1,
+          "hint": "Bezakan akses daripada pemahaman.",
+          "explanation": "Peringatan tidak membatalkan peningkatan peluang melihat pameran. Ia mengehadkan inferens bahawa peluang atau klik sudah membuktikan pembelajaran."
+        },
+        {
+          "prompt": "哪项新证据最直接支持“学习效果有所提升”？",
+          "options": [
+            "网站背景颜色变得更深",
+            "馆长的讲话时间变长",
+            "相同任务下，观众解释展品关系的表现前后有所改善",
+            "宣传海报的数量翻倍"
+          ],
+          "answer": 2,
+          "hint": "Cari bukti yang mengukur hasil yang dituntut.",
+          "explanation": "Perubahan prestasi dalam tugas penjelasan mengukur kefahaman lebih langsung. Warna, tempoh ucapan dan bilangan poster ialah ciri pelaksanaan atau promosi."
+        },
+        {
+          "prompt": "哪一句总结最忠实于原文？",
+          "options": [
+            "线上展览已使每位观众成为专家。",
+            "线上展览增加接触机会，但学习成效仍需另行验证。",
+            "只要点击增加，理解一定同比增加。",
+            "线上展览没有提供任何接触机会。"
+          ],
+          "answer": 1,
+          "hint": "Kekalkan kedua-dua klausa: manfaat akses dan batas bukti.",
+          "explanation": "Rumusan mempertahankan konsesi positif serta keperluan semakan lanjut. Ia tidak mengubah kemungkinan manfaat menjadi kepastian bagi semua penonton."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-bt-kuriyidu-kural",
+    "levelId": "t6",
+    "subjectId": "bt",
+    "note": {
+      "title": "குறியீடும் கதைசொல்லியின் பார்வையும்",
+      "summary": "Menganalisis imej berulang dan batas suara pencerita dalam prosa Tamil.",
+      "body": [
+        "Dalam pembacaan sastera Tamil, makna imej terhasil daripada tindakan, pengulangan dan perubahan konteks. குறியீடு merujuk fungsi simbolik sesuatu unsur, manakala கதைசொல்லி ialah suara yang menyampaikan cerita. Pencerita boleh melaporkan perbuatan yang dilihat tanpa mengetahui sepenuhnya fikiran watak lain. Tafsiran perlu menjaga batas pengetahuan ini.",
+        "Contoh analisis: “அவர் தினமும் கடிகாரத்தைத் துடைத்தார்; ஆனால் அதை மீண்டும் ஓடச் செய்யவில்லை.” Perbuatan membersihkan jam yang tetap tidak berjalan boleh menyokong tafsiran bahawa watak menjaga kenangan tanpa memulihkan kehidupan lama. Namun, konteks lanjut diperlukan untuk menentukan kenangan yang dimaksudkan. Hubungkan imej jam, tindakan berulang dan pertentangan “ஆனால்” dalam satu alasan.",
+        "Salah tanggapan ialah memberikan makna tetap kepada sesuatu objek tanpa membaca petikan. Jam tidak semestinya melambangkan kematian; maknanya mungkin penantian, disiplin atau kehilangan, bergantung pada karya. Jawapan yang kukuh memilih tafsiran paling disokong dan menyatakan batasnya, bukannya mendakwa semua pembaca mesti menerima satu makna."
+      ],
+      "keyPoints": [
+        "Makna simbol bergantung pada corak dan konteks karya.",
+        "Bezakan pemerhatian pencerita daripada pengetahuan fikiran watak.",
+        "Sokong tafsiran dengan hubungan antara bahasa dan tindakan."
+      ]
+    },
+    "reading": {
+      "title": "மணியோசை இல்லாத வீடு",
+      "summary": "Petikan Tamil asli tentang bunyi, ingatan dan perubahan keluarga.",
+      "body": [
+        "Petikan rekaan: “அம்மா இருந்தபோது வீட்டின் மணி ஒவ்வொரு மாலையும் ஒலித்தது. இப்போது அக்கா அதைத் தொடுவதில்லை. நேற்று புதிய மணியை வாங்கி வந்தேன். அவள் பழைய மணியை அகற்றாமல், புதியதை அருகில் வைத்தாள். ‘இரண்டுக்கும் இடம் இருக்கிறது,’ என்றாள். அவள் சிரித்தாள்; அந்தச் சிரிப்பின் முழுப் பொருளை நான் அறியவில்லை.”",
+        "Dalam petikan ini, pencerita hanya menyatakan pengalaman sendiri dan reaksi kakaknya yang dapat diperhatikan. Imej loceng lama dan baharu memberi ruang untuk membandingkan ingatan keluarga dengan perubahan masa kini. Penolakan untuk membuang loceng lama tidak semestinya penolakan terhadap segala pembaharuan, kerana kakak menerima loceng baharu juga. Pembaca perlu menilai ucapan kakak bersama tindakannya, kemudian mengehadkan kesimpulan tentang perasaannya menurut pengakuan akhir pencerita."
+      ],
+      "questions": [
+        {
+          "prompt": "பழைய மணியையும் புதிய மணியையும் அருகருகே வைப்பது எதைச் சுட்டுகிறது?",
+          "options": [
+            "நினைவுக்கும் மாற்றத்திற்கும் ஒரே வாழ்வில் இடமளித்தலை",
+            "கடந்த காலத்தின் எல்லாப் பொருட்களையும் அழித்தலை",
+            "புதிய பொருட்கள் அனைத்தையும் மறுத்தலை",
+            "வீட்டில் யாரும் வாழவில்லை என்பதைக்"
+          ],
+          "answer": 0,
+          "hint": "Gabungkan penerimaan benda baharu dengan pemeliharaan benda lama.",
+          "explanation": "Kedua-dua loceng dipelihara, menyokong tafsiran bahawa ingatan dan pembaharuan boleh wujud bersama. Tafsiran penolakan mutlak tidak sepadan dengan tindakannya."
+        },
+        {
+          "prompt": "இறுதி வாக்கியம் கதைசொல்லியின் எந்த வரம்பை வெளிப்படுத்துகிறது?",
+          "options": [
+            "எந்த நிகழ்வையும் பார்க்க முடியாத நிலையை",
+            "எல்லாப் பாத்திரங்களின் எண்ணங்களையும் அறியும் திறனை",
+            "கதையில் நேரம் நகரவில்லை என்பதைக்",
+            "அக்காவின் உள்ளுணர்வை முழுமையாக அறிய முடியாத நிலையை"
+          ],
+          "answer": 3,
+          "hint": "Perhatikan pengakuan “முழுப் பொருளை நான் அறியவில்லை”.",
+          "explanation": "Pencerita melihat senyuman tetapi tidak menguasai seluruh maknanya. Ini batas pengetahuan batin, bukannya bukti bahawa semua pemerhatiannya salah."
+        }
+      ]
+    },
+    "practice": {
+      "title": "நிழலும் புதிய விளக்கும்",
+      "summary": "Menilai bahasa kiasan dan hujah berdasarkan sebuah petikan Tamil.",
+      "body": [
+        "Petikan asli: “தெருவில் புதிய விளக்குகள் வந்தன. சுவர்களின் நிழல்கள் குறைந்தன; ஆனால் தனியாக வீடு திரும்பும் பெண்களின் அச்சம் உடனே மறையவில்லை. ‘ஒளி வந்துவிட்டது; நம்பிக்கை வர இன்னும் வேலை இருக்கிறது,’ என்றாள் மீனா. சிலர் அவளை முன்னேற்றத்தின் எதிரி என்றனர். அவளோ விளக்குகளை அணைக்கச் சொல்லவில்லை; பாதுகாப்பான பயணத்திற்கான மற்ற ஏற்பாடுகளையும் கேட்டாள்.” Semua pertanyaan merujuk petikan ini sahaja; tiada statistik keselamatan diberikan."
+      ],
+      "questions": [
+        {
+          "prompt": "“ஒளி” மற்றும் “நம்பிக்கை” ஆகியவற்றின் வேறுபாடு எதைக் காட்டுகிறது?",
+          "options": [
+            "புதிய விளக்குகள் எதுவும் நிறுவப்படவில்லை என்பதை",
+            "கட்டமைப்பு மாற்றமும் பாதுகாப்பு உணர்வும் ஒரே விளைவு அல்ல என்பதை",
+            "எல்லாப் பெண்களும் விளக்குகளை விரும்பவில்லை என்பதை",
+            "நிழல்கள் அதிகரித்தன என்பதை"
+          ],
+          "answer": 1,
+          "hint": "Bezakan perubahan fizikal dengan pengalaman manusia.",
+          "explanation": "Cahaya merujuk kemudahan fizikal yang tersedia, sementara keyakinan memerlukan keadaan sosial yang lebih luas. Petikan membezakan dua hasil tersebut."
+        },
+        {
+          "prompt": "மீனாவை “முன்னேற்றத்தின் எதிரி” என்று அழைப்பதில் உள்ள குறை என்ன?",
+          "options": [
+            "அவள் சொன்ன எல்லா நிபந்தனைகளையும் துல்லியமாகச் சுருக்குகிறது",
+            "விளக்குகளின் எண்ணிக்கையை அறிவியல் முறையில் அளக்கிறது",
+            "அவள் விளக்குகளை அணைக்கச் சொன்னதை நேரடியாக மேற்கோள் காட்டுகிறது",
+            "அவள் கேட்ட கூடுதல் ஏற்பாடுகளைப் புறக்கணித்து முழு எதிர்ப்பாக மாற்றுகிறது"
+          ],
+          "answer": 3,
+          "hint": "Semak tuntutan sebenar Meena sebelum menilai label orang lain.",
+          "explanation": "Meena meminta langkah tambahan dan tidak meminta lampu dipadamkan. Label itu mengubah pendirian bersyarat menjadi penentangan menyeluruh."
+        },
+        {
+          "prompt": "“ஆனால்” என்ற இணைப்பின் முக்கியப் பணி என்ன?",
+          "options": [
+            "வெளிப்புற மேம்பாட்டுக்கும் தொடரும் அச்சத்திற்கும் இடையிலான வேறுபாட்டைக் காட்டுதல்",
+            "இரண்டு விளைவுகளும் முற்றிலும் ஒன்றே என அறிவித்தல்",
+            "நிகழ்வுகளை எந்தத் தொடர்புமின்றிப் பட்டியலிடுதல்",
+            "மீனா பேசவில்லை என நிரூபித்தல்"
+          ],
+          "answer": 0,
+          "hint": "Lihat perkara yang berubah dan perkara yang belum hilang.",
+          "explanation": "Kata hubung menandakan kontras antara bayang yang berkurang dengan kebimbangan yang berterusan. Ia membantu pembaca melihat had peningkatan fizikal."
+        },
+        {
+          "prompt": "பகுதியின் கருத்தை மிகத் துல்லியமாகச் சுருக்கும் வாக்கியம் எது?",
+          "options": [
+            "எந்தக் கட்டமைப்பு மாற்றமும் எப்போதும் பயனற்றது.",
+            "விளக்குகள் வந்ததால் எல்லாப் பிரச்சினைகளும் தீர்ந்துவிட்டன.",
+            "விளக்குகள் உதவினாலும், பாதுகாப்பை உருவாக்க மேலும் நடவடிக்கைகள் தேவை.",
+            "மீனா எந்த மாற்றத்தையும் ஏற்கவில்லை."
+          ],
+          "answer": 2,
+          "hint": "Kekalkan manfaat terhad dan keperluan tambahan.",
+          "explanation": "Rumusan mengiktiraf perubahan yang berlaku sambil mengekalkan tuntutan Meena. Ia tidak menafikan semua pembangunan atau menganggap hasilnya sudah lengkap."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-ba-nahw-wa-istidlal",
+    "levelId": "t6",
+    "subjectId": "ba",
+    "note": {
+      "title": "النحو وحدود الاستنتاج",
+      "summary": "Menghubungkan struktur nahu, syarat dan maksud hujah Arab.",
+      "body": [
+        "Analisis bahasa Arab menghubungkan tanda nahu dengan fungsi ayat dan maksud keseluruhan. Selepas كان, isimnya marfu‘ dan khabarnya mansub; pemahaman fungsi lebih kukuh daripada meneka berdasarkan kedudukan semata-mata. Dalam wacana, alat syarat dan ungkapan pembatasan pula menentukan sama ada penulis menyatakan kepastian, kemungkinan atau keperluan.",
+        "Contoh kerja: “كانَ التَّقْريرُ مُفَصَّلًا، لكنَّ الأَدِلَّةَ قليلةٌ.” Dalam klausa pertama, “التقرير” ialah isim كان dan “مفصّلًا” khabarnya. Dalam klausa kedua, “الأدلة” ialah isim لكنَّ yang mansub, sementara “قليلةٌ” khabarnya yang marfu‘. Dari segi hujah, perincian laporan tidak disamakan dengan kecukupan bukti.",
+        "Salah tanggapan ialah menganggap ayat panjang semestinya memberikan hujah kuat. Pembaca perlu mengenal pasti apa yang dipastikan oleh struktur ayat dan apa yang masih memerlukan bukti. Semua ayat contoh unit ini ialah ayat latihan asli; analisis tidak bergantung pada petikan al-Quran, hadis atau karya berhak cipta."
+      ],
+      "keyPoints": [
+        "Tentukan fungsi isim dan khabar sebelum menilai tanda nahu.",
+        "Bezakan perincian penerangan daripada kecukupan bukti.",
+        "Kekalkan syarat dan pembatasan ketika membuat rumusan."
+      ]
+    },
+    "reading": {
+      "title": "مبادرة الحديقة الجامعية",
+      "summary": "Petikan Arab asli tentang keputusan berdasarkan pemerhatian terhad.",
+      "body": [
+        "“كانتِ الحديقةُ مهملةً، فاقترحَ الطلابُ تنظيمَ يومٍ للعملِ التطوّعيّ. وبعدَ الحملةِ أصبحتِ الممرّاتُ نظيفةً، ولكنَّ عددَ الزوّارِ لم يَزْدَدْ. قالَتْ ليلى: لعلَّ الناسَ لا يعرفونَ أوقاتَ الفتحِ الجديدةَ. لذلكَ اقترحَتْ إعلانَ المواعيدِ وجمعَ آراءِ الزوّارِ قبلَ الحكمِ على نجاحِ المشروعِ.”",
+        "Petikan menggambarkan dua ukuran yang berbeza: keadaan fizikal taman dan jumlah pengunjung. Cadangan Laila mengenai pengetahuan waktu operasi dinyatakan sebagai kemungkinan, bukan fakta yang telah dibuktikan. Pembaca perlu menjejaki hubungan antara pemerhatian, hipotesis dan tindakan yang dicadangkan. Pemerhatian bahawa pengunjung belum bertambah juga tidak memadamkan bukti bahawa laluan telah dibersihkan. Dalam menjawab, gunakan struktur bahasa untuk membezakan apa yang berlaku daripada penjelasan yang masih hendak diuji."
+      ],
+      "questions": [
+        {
+          "prompt": "ما الوظيفة النحوية لكلمة «مهملةً»؟",
+          "options": [
+            "اسم كان مرفوع",
+            "فاعل مرفوع للفعل اقترح",
+            "مضاف إليه مجرور",
+            "خبر كان منصوب"
+          ],
+          "answer": 3,
+          "hint": "Cari keadaan yang disandarkan kepada “الحديقة” selepas كان.",
+          "explanation": "“الحديقة” ialah isim كان; “مهملةً” melengkapkan predikat sebagai khabar كان yang mansub. Ia tidak menjadi pelaku bagi kata kerja yang muncul kemudian."
+        },
+        {
+          "prompt": "ماذا تدلّ عليه «لعلَّ» في كلام ليلى؟",
+          "options": [
+            "أنّ جميع الناس أكّدوا معرفتهم بالمواعيد",
+            "أنّ عدد الزوّار ازداد يقينًا",
+            "أنّ عدم معرفة المواعيد تفسير محتمل يحتاج إلى تحقّق",
+            "أنّ تنظيف الممرّات لم يحدث"
+          ],
+          "answer": 2,
+          "hint": "Bezakan ungkapan kemungkinan daripada kepastian laporan.",
+          "explanation": "Dalam konteks ini, “لعلّ” membentangkan penjelasan yang mungkin. Cadangan mengumpul pandangan menunjukkan bahawa penjelasan itu masih perlu disemak."
+        }
+      ]
+    },
+    "practice": {
+      "title": "فحص استبيان عن النقل",
+      "summary": "Menganalisis nahu dan batas kesimpulan dalam laporan Arab ringkas.",
+      "body": [
+        "النص الأصلي: “إنَّ نتائجَ الاستبيانِ مفيدةٌ، لكنَّ العيّنةَ صغيرةٌ. شاركَ ثلاثونَ طالبًا من قسمٍ واحدٍ، وكانَ معظمُهم راضينَ عن الحافلةِ. إذا شَمِلَ البحثُ أقسامًا أخرى، أمكنَ مقارنةُ التجاربِ. لا يكفي رضا المشاركينَ وحدَه للحكمِ على رضا جميعِ الطلابِ.” Konteks: tiga puluh responden datang daripada satu jabatan; tiada data jabatan lain tersedia."
+      ],
+      "questions": [
+        {
+          "prompt": "ما إعراب «نتائجَ» في بداية النص؟",
+          "options": [
+            "خبر إنَّ مرفوع بالضمة",
+            "اسم إنَّ منصوب بالفتحة وهو مضاف",
+            "مفعول مطلق منصوب",
+            "فاعل مرفوع بعد فعل ماضٍ"
+          ],
+          "answer": 1,
+          "hint": "Kenal pasti peranan “نتائج” selepas إنّ.",
+          "explanation": "“نتائجَ” ialah isim إنّ yang mansub dan menjadi mudaf kepada “الاستبيان”. Khabarnya ialah “مفيدةٌ”."
+        },
+        {
+          "prompt": "لماذا جاءت كلمة «راضينَ» بالياء؟",
+          "options": [
+            "لأنها خبر كان منصوب وعلامة نصبه الياء لأنه جمع مذكر سالم",
+            "لأنها اسم كان مرفوع بالواو",
+            "لأنها فعل مضارع مجزوم",
+            "لأنها اسم مجرور بحرف جر ظاهر"
+          ],
+          "answer": 0,
+          "hint": "Perhatikan كان serta bentuk jamak pada khabarnya.",
+          "explanation": "Dalam “كان معظمهم راضين”, khabar كان ialah “راضين” yang mansub. Jamak muzakkar salim ditandai ya dalam keadaan nasab."
+        },
+        {
+          "prompt": "ما العلاقة التي تعبّر عنها جملة «إذا شمل البحث أقسامًا أخرى»؟",
+          "options": [
+            "نتيجة تثبت أنّ التوسّع وقع بالفعل",
+            "نفي وجود أيّ مشارك",
+            "شرط يتيح توسيع المقارنة بين التجارب",
+            "تعليل أنّ جميع الطلاب راضون الآن"
+          ],
+          "answer": 2,
+          "hint": "Jangan ubah syarat yang dicadangkan menjadi peristiwa yang sudah berlaku.",
+          "explanation": "“إذا” menghubungkan peluasan sampel dengan peluang perbandingan. Teks tidak mengatakan peluasan itu telah dilakukan."
+        },
+        {
+          "prompt": "أيّ استنتاج يلتزم بحدود النص؟",
+          "options": [
+            "رضا معظم المشاركين لا يثبت رضا جميع طلاب المؤسسة.",
+            "كلّ طلاب المؤسسة راضون لأنّ العيّنة صغيرة.",
+            "لا توجد أيّ معلومة مفيدة في الاستبيان.",
+            "شاركت جميع الأقسام في الاستبيان."
+          ],
+          "answer": 0,
+          "hint": "Hadkan rumusan kepada responden yang sebenar.",
+          "explanation": "Kebanyakan peserta yang terpilih berpuas hati, tetapi mereka hanya daripada satu jabatan. Teks sendiri mengehadkan generalisasi tanpa menolak semua kegunaan tinjauan."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-lit_en-voice-and-objects",
+    "levelId": "t6",
+    "subjectId": "lit_en",
+    "note": {
+      "title": "Narrative distance and the meaning of objects",
+      "summary": "Develop an interpretation by connecting syntax, viewpoint and repeated detail.",
+      "body": [
+        "Close reading examines how a text produces meaning through its choices of language and form. A physical object may acquire symbolic force when its appearances connect changing situations. That force comes from the pattern in this particular text, rather than from a universal code. Narrative distance also matters: an observer can report a gesture without knowing the emotion that motivates it.",
+        "Worked example: “Father polished the unused chair before every visit. He never offered it to anyone.” The repeated care gives the absence weight, while the refusal to use the chair makes its function uncertain. A defensible claim is that the chair preserves a place for someone absent; identifying that person requires further evidence.",
+        "A common misconception treats interpretation as permission to invent biography. Instead, connect a precise detail with a possible meaning, test that meaning against other details, and acknowledge alternatives. Strong arguments explain effects rather than merely naming techniques such as symbolism or repetition."
+      ],
+      "keyPoints": [
+        "Connect a formal choice to a specific interpretive effect.",
+        "Distinguish a narrator’s observation from access to another mind.",
+        "Test symbolic interpretations against patterns and counterevidence."
+      ]
+    },
+    "reading": {
+      "title": "The Unopened Drawer",
+      "summary": "An original extract about inheritance, silence and narrative limits.",
+      "body": [
+        "When the flat was finally emptied, Mara left one drawer unopened. The buyer asked whether it was stuck. “It hasn’t opened for weeks,” she said, although I had seen her open it that morning. She handed him every key except the smallest, which she slipped into the pocket of her coat. Outside, she stopped beside the removal van and asked me what the weather would be like tomorrow. I told her it would rain. She nodded as if I had answered a different question. Through the window, the buyer was already measuring the space where our mother’s table had stood."
+      ],
+      "questions": [
+        {
+          "prompt": "What does the discrepancy about the drawer most strongly suggest?",
+          "options": [
+            "The narrator proves that the drawer cannot be opened",
+            "Mara conceals her reason for keeping part of the flat inaccessible",
+            "Mara has forgotten how all the keys function",
+            "The buyer already knows the contents of the drawer"
+          ],
+          "answer": 1,
+          "hint": "Compare Mara’s explanation with the narrator’s observation.",
+          "explanation": "The narrator saw her open it that morning, directly contradicting her claim that it has remained closed for weeks. Her retained key reinforces concealment, although the precise emotional reason remains unspecified."
+        },
+        {
+          "prompt": "How does the final image develop the extract’s tension?",
+          "options": [
+            "The table returns physically to its former position",
+            "The buyer reveals that he is Mara’s brother",
+            "The narrator becomes able to read every character’s mind",
+            "The buyer’s practical measurement contrasts with the family’s unresolved attachment"
+          ],
+          "answer": 3,
+          "hint": "Consider the different meanings the same space has for buyer and family.",
+          "explanation": "For the buyer, the space is available for planning; for the narrator, it remains associated with the mother’s table. The contrast makes transition visible without resolving the family’s feelings."
+        }
+      ]
+    },
+    "practice": {
+      "title": "A Speech at the Station",
+      "summary": "Analyse an original miniature scene through irony, staging and evidence.",
+      "body": [
+        "Original scene: The mayor stands beneath a banner reading WELCOME HOME. Behind her, workers remove the last bench from the station. “There will always be a place for you here,” she tells the returning commuters. A child asks where his grandfather will sit. The mayor smooths the banner and continues speaking. At the edge of the platform, the grandfather rests his bag on the ground and remains standing. No character explains why the bench is being removed."
+      ],
+      "questions": [
+        {
+          "prompt": "What most directly complicates the mayor’s promise?",
+          "options": [
+            "The removal of seating conflicts with her claim that a place is available",
+            "The banner uses capital letters",
+            "The commuters have returned by train",
+            "The scene includes more than one generation"
+          ],
+          "answer": 0,
+          "hint": "Compare the spoken promise with the visible action.",
+          "explanation": "The promise of a place acquires a second meaning beside the disappearance of a literal place to sit. This contradiction supports irony without requiring an invented motive for the removal."
+        },
+        {
+          "prompt": "What is the strongest interpretation of the child’s question?",
+          "options": [
+            "It proves the child secretly controls the station",
+            "It tests an abstract promise against a concrete human need",
+            "It supplies a complete budget history for the railway",
+            "It establishes that the grandfather refuses all assistance"
+          ],
+          "answer": 1,
+          "hint": "Ask what the question reveals that the speech overlooks.",
+          "explanation": "The child names a practical consequence of removing the bench. The question exposes the distance between ceremonial language and lived experience."
+        },
+        {
+          "prompt": "How does the mayor’s gesture of smoothing the banner contribute to characterisation?",
+          "options": [
+            "It proves she cannot hear any sound",
+            "It establishes the legal ownership of the station",
+            "It confirms that the bench has already been replaced",
+            "It directs attention to maintaining the public display while the question remains unanswered"
+          ],
+          "answer": 3,
+          "hint": "Link the chosen gesture with the unanswered question.",
+          "explanation": "The action returns to the ceremonial surface instead of addressing seating. It permits an interpretation of image management, but does not establish every private intention."
+        },
+        {
+          "prompt": "Which claim exceeds the evidence?",
+          "options": [
+            "The ending keeps attention on the grandfather’s physical situation.",
+            "The welcome message conflicts with an aspect of the staging.",
+            "The mayor personally ordered the bench removed to punish the grandfather.",
+            "The reason for removing the bench remains unstated."
+          ],
+          "answer": 2,
+          "hint": "Distinguish textual effects from an invented causal backstory.",
+          "explanation": "Nothing identifies who ordered removal or why. The other claims can be checked against the banner, action and explicit absence of explanation."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-kmk-ruang-dan-adaptasi",
+    "levelId": "t6",
+    "subjectId": "kmk",
+    "note": {
+      "title": "Ruang, konflik dan pilihan adaptasi",
+      "summary": "Menafsir corak imej serta memindahkan kesan karya antara medium.",
+      "body": [
+        "Analisis karya menghubungkan unsur seperti latar, watak, sudut pandangan dan bahasa dengan persoalan yang dibangunkan. Latar ruang boleh membentuk pilihan watak, bukan sekadar menjadi tempat kejadian. Dalam penghasilan komunikatif, kesan yang sama perlu diterjemahkan menurut keupayaan medium: prosa membolehkan penerangan batin, sementara pentas menggunakan suara, tubuh, objek dan ruang.",
+        "Contoh kerja: dalam cerita rekaan, seorang anak menyimpan kasut kerja ibunya walaupun kasut itu sudah koyak. Jika kasut muncul ketika dia memilih pekerjaan, objek tersebut boleh menghubungkan ingatan dengan tanggungjawab. Adaptasi pentas boleh memperlihatkan dia menyentuh kasut sebelum menandatangani surat tawaran, lalu memberi penonton petunjuk konflik tanpa huraian panjang.",
+        "Salah tanggapan ialah menganggap adaptasi yang baik mesti menyalin setiap ayat. Kesetiaan boleh dinilai melalui pemeliharaan hubungan dan kesan penting, dengan perubahan bentuk yang beralasan. Tafsiran tetap perlu disokong corak karya; satu objek tidak secara automatik membuktikan keseluruhan tema."
+      ],
+      "keyPoints": [
+        "Jelaskan hubungan unsur karya dengan persoalan yang dibangunkan.",
+        "Tafsir objek melalui tindakan dan konteks kemunculannya.",
+        "Nilai adaptasi menurut kesan yang disampaikan melalui medium baharu."
+      ]
+    },
+    "reading": {
+      "title": "Kerusi di Beranda",
+      "summary": "Cerita pendek asli tentang keputusan keluarga dan ruang bersama.",
+      "body": [
+        "Selepas ayah berpindah ke rumah adik, beranda itu menjadi tempat menyimpan kotak. Setiap kali pulang, Salwa mengalihkan satu kotak dari kerusi rotan lalu duduk menghadap jalan. Ibunya berkata kerusi tersebut patut dijual supaya rumah lebih lapang. Salwa mengangguk, tetapi keesokan pagi dia membaiki anyaman yang putus. Ketika pembeli perabot tiba, ibunya membawa dua cawan teh ke beranda. Mereka minum tanpa membincangkan harga. Pembeli itu diminta datang minggu depan. Dari dalam rumah, adiknya bertanya sama ada ruang beranda sudah kosong. Salwa memandang cawan di tangan ibunya sebelum menjawab bahawa mereka masih sedang mengemas."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah tafsiran paling kukuh terhadap tindakan membaiki kerusi?",
+          "options": [
+            "Salwa sudah memutuskan semua hubungan keluarga",
+            "Kerusi itu pasti memiliki nilai pasaran berjuta-juta ringgit",
+            "Salwa mempertahankan suatu ruang hubungan walaupun secara lisan bersetuju menjualnya",
+            "Salwa tidak tahu bahawa anyaman kerusi rosak"
+          ],
+          "answer": 2,
+          "hint": "Bandingkan persetujuan lisan dengan tindakan susulan.",
+          "explanation": "Pembaikan menangguhkan kehilangan objek yang dikaitkan dengan kepulangannya. Kontras tindakan dan kata-kata menyokong keterikatan, tanpa menentukan nilai kewangan kerusi."
+        },
+        {
+          "prompt": "Apakah kesan kemunculan dua cawan teh terhadap makna beranda?",
+          "options": [
+            "Beranda berubah daripada ruang simpanan kepada ruang pertemuan ibu dan anak",
+            "Beranda terbukti tidak pernah digunakan oleh keluarga",
+            "Cawan membuktikan pembeli telah membayar harga kerusi",
+            "Ibu pasti telah melupakan semua perkara lalu"
+          ],
+          "answer": 0,
+          "hint": "Jejaki perubahan fungsi ruang melalui tindakan watak.",
+          "explanation": "Minum bersama menghidupkan fungsi hubungan di beranda. Adegan itu membantu menerangkan penangguhan jualan tanpa penjelasan batin secara langsung."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Dari catatan batin ke pentas",
+      "summary": "Memilih teknik adaptasi yang mengekalkan konflik dalam teks asli.",
+      "body": [
+        "Petikan rekaan: “Rina menyusun piala di rak. Surat berhenti kerja terlipat di bawah piala terbesar. Dia membayangkan senyuman ibunya jika dia terus bekerja, lalu teringat studio lukisan yang baru ditawarkan kepadanya. Apabila telefon berbunyi, dia menutup surat itu dengan tapak tangan.” Pengarah mahu mengadaptasi petikan ini kepada adegan tanpa narator. Konflik pilihan Rina perlu dapat ditangkap penonton; keputusan akhirnya belum dibuat."
+      ],
+      "questions": [
+        {
+          "prompt": "Konflik utama yang paling disokong ialah...",
+          "options": [
+            "Pertempuran fizikal antara Rina dengan pengarah",
+            "Persaingan dua pasukan untuk memenangi piala dalam adegan",
+            "Keinginan Rina untuk menjual semua telefon",
+            "Pertentangan antara jangkaan keluarga terhadap kerjaya dan peluang kreatif Rina"
+          ],
+          "answer": 3,
+          "hint": "Hubungkan surat berhenti, bayangan ibu dan tawaran studio.",
+          "explanation": "Tiga butiran menunjukkan pilihan hidup yang bersaing. Piala ialah konteks pencapaian, tetapi petikan tidak memaparkan pertandingan semasa."
+        },
+        {
+          "prompt": "Tindakan pentas manakah paling mengekalkan konflik tanpa narator?",
+          "options": [
+            "Semua pelakon membaca nombor halaman secara serentak.",
+            "Rina mengangkat surat, memandang piala, kemudian menyembunyikan surat apabila telefon berdering.",
+            "Rina mengumumkan bahawa keputusan sudah muktamad walaupun teks belum menentukannya.",
+            "Pengarah memadamkan surat, piala dan telefon daripada adegan."
+          ],
+          "answer": 1,
+          "hint": "Pilih aksi yang memperlihatkan keraguan melalui objek yang relevan.",
+          "explanation": "Urutan pandangan dan penyembunyian memindahkan pertimbangan kepada tindakan yang kelihatan. Ia mengekalkan keadaan belum pasti serta hubungan objek dalam petikan."
+        },
+        {
+          "prompt": "Mengapakah piala sesuai diberi penekanan visual?",
+          "options": [
+            "Semua piala dalam semua karya sentiasa melambangkan kejahatan",
+            "Piala membuktikan Rina tidak pernah bekerja",
+            "Piala boleh mengingatkan penonton pada pencapaian dan jangkaan yang membebani pilihan Rina",
+            "Piala menerangkan secara pasti identiti pemanggil telefon"
+          ],
+          "answer": 2,
+          "hint": "Tafsir objek menurut hubungan khususnya dengan surat.",
+          "explanation": "Surat disembunyikan di bawah piala terbesar, mengaitkan hasrat perubahan dengan pencapaian sedia ada. Tafsiran datang daripada susunan itu, bukan makna objek yang tetap."
+        },
+        {
+          "prompt": "Pindaan yang paling mengubah makna sumber ialah...",
+          "options": [
+            "Mengekalkan deringan telefon sebagai gangguan pada pilihan",
+            "Menamatkan adegan dengan Rina meraikan keputusan yang jelas tanpa sebarang keraguan",
+            "Menggunakan jeda sebelum Rina menyembunyikan surat",
+            "Meletakkan surat berhampiran piala supaya hubungan objek terlihat"
+          ],
+          "answer": 1,
+          "hint": "Sumber mengekalkan konflik terbuka pada penghujungnya.",
+          "explanation": "Perayaan keputusan pasti menutup persoalan yang masih terbuka dalam sumber. Pindaan lain mengolah medium sambil mengekalkan struktur konflik."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-syariah-akad-dan-penzahiran",
+    "levelId": "t6",
+    "subjectId": "syariah",
+    "note": {
+      "title": "Menganalisis akad melalui maklumat dan urutan",
+      "summary": "Membezakan struktur jual beli daripada label urus niaga.",
+      "body": [
+        "Analisis muamalat memerlukan penelitian pihak berakad, aset, harga dan urutan tindakan. Dalam murabahah, kos pemerolehan serta keuntungan dimaklumkan kepada pembeli. Harga jualan bukan sekadar jumlah tunai yang mula-mula dikeluarkan. Penilaian struktur perlu membezakan jual beli aset daripada hubungan lain seperti perwakilan; nama produk sahaja tidak menerangkan keseluruhan akad.",
+        "Contoh kerja: dalam kes pendidikan ringkas, penjual memperoleh mesin pada kos RM6000, memaklumkan untung RM900 dan menawarkan harga RM6900. Pembeli dapat menyemak hubungan kos, untung dan harga. Jika dokumen hanya menyebut bayaran bulanan tanpa menjelaskan bilangan bayaran atau harga keseluruhan, maklumat itu belum mencukupi untuk memahami komitmen yang ditawarkan.",
+        "Salah tanggapan ialah menganggap pengiraan harga yang betul membuktikan semua keperluan syariah telah dipenuhi. Ketepatan aritmetik hanya satu semakan; pemilikan aset dan kandungan akad juga memerlukan penelitian. Kes latihan ini mengajar cara mengenal pasti maklumat yang diperlukan, bukan mengeluarkan keputusan hukum untuk kontrak sebenar."
+      ],
+      "keyPoints": [
+        "Bezakan kos pemerolehan, keuntungan dan harga jualan.",
+        "Periksa urutan serta kandungan akad di samping nama produk.",
+        "Kesimpulan mesti sepadan dengan maklumat yang tersedia."
+      ]
+    },
+    "reading": {
+      "title": "Tawaran mesin untuk koperasi rekaan",
+      "summary": "Membaca maklumat harga dan peranan pihak dalam kes pembelajaran.",
+      "body": [
+        "Koperasi Ilham rekaan mahu membeli mesin pembungkus. Penjual A menunjukkan kos pemerolehan RM12000, keuntungan RM1800 dan harga jualan RM13800 yang dibayar melalui 12 ansuran sama. Penjual B hanya mengiklankan “bayaran ringan RM1000 sebulan” tanpa menyatakan tempoh, harga keseluruhan atau butiran mesin. Bendahari mencadangkan B kerana bayaran bulanannya lebih rendah. Ahli lain meminta dokumen lengkap dahulu. Mereka mahu memastikan perbandingan melibatkan aset dan skop urus niaga yang setara, serta menyemak pihak yang memiliki dan menjual aset. Jawatankuasa belum membuat keputusan hukum atau memilih tawaran; maklumat A juga masih perlu dinilai sebagai sebahagian kontrak yang lengkap."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah kelemahan perbandingan bendahari?",
+          "options": [
+            "Bayaran bulanan B tidak menunjukkan jumlah komitmen tanpa tempoh dan terma lengkap",
+            "Bayaran bulanan boleh menentukan semua hak pemilikan secara automatik",
+            "Harga keseluruhan A mustahil diketahui",
+            "Bilangan ansuran tidak pernah mempengaruhi jumlah pembayaran"
+          ],
+          "answer": 0,
+          "hint": "Bezakan aliran bayaran bulanan daripada harga keseluruhan.",
+          "explanation": "RM1000 sebulan mungkin menghasilkan jumlah lebih tinggi atau lebih rendah bergantung pada tempoh. Tanpa terma lengkap dan aset setara, perbandingan belum sahih."
+        },
+        {
+          "prompt": "Berapakah setiap ansuran sama bagi A menurut maklumat yang diberi?",
+          "options": [
+            "RM1000",
+            "RM1500",
+            "RM1180",
+            "RM1150"
+          ],
+          "answer": 3,
+          "hint": "Bahagikan harga jualan, bukan keuntungan sahaja, dengan 12.",
+          "explanation": "RM13800 ÷ 12 = RM1150. Pengiraan ini menjelaskan jumlah ansuran dalam model; ia tidak dengan sendirinya mengesahkan keseluruhan kontrak."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Dokumen kos, untung dan kuasa wakil",
+      "summary": "Menilai sempadan kesimpulan dalam satu urus niaga rekaan.",
+      "body": [
+        "Kes pendidikan: Syarikat S telah memperoleh sebuah alat pada kos yang didedahkan RM7500. S menawarkan jualan kepada P dengan keuntungan RM1500 dan harga tetap RM9000, dibayar 15 ansuran sama tanpa caj tambahan dalam model ini. Dokumen berasingan melantik W untuk menyampaikan tawaran bagi pihak S; W tidak menjadi pemilik alat. Maklumat lain tentang kesahan kontrak tidak diberikan."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah keuntungan sebagai peratus kos pemerolehan?",
+          "options": [
+            "16.67%",
+            "20%",
+            "25%",
+            "15%"
+          ],
+          "answer": 1,
+          "hint": "Gunakan kos RM7500 sebagai penyebut, bukan harga jualan.",
+          "explanation": "RM1500 ÷ RM7500 × 100 = 20%. RM1500 ÷ RM9000 pula menghasilkan margin terhadap jualan sekitar 16.67%, ukuran yang berbeza."
+        },
+        {
+          "prompt": "Berapakah jumlah bayaran selepas lima ansuran menurut model?",
+          "options": [
+            "RM2500",
+            "RM4500",
+            "RM1500",
+            "RM3000"
+          ],
+          "answer": 3,
+          "hint": "Tentukan satu ansuran daripada RM9000 dibahagi 15.",
+          "explanation": "Satu ansuran ialah RM600; lima ansuran berjumlah RM3000. Keuntungan bukan dibayar sebagai satu ansuran berasingan dalam maklumat yang diberi."
+        },
+        {
+          "prompt": "Apakah kesimpulan tentang W yang paling tepat?",
+          "options": [
+            "W mewakili S dalam menyampaikan tawaran tetapi tidak menjadi penjual atas hak milik sendiri",
+            "W memperoleh hak milik hanya kerana menyampaikan tawaran",
+            "W semestinya pembeli akhir alat",
+            "W menjadi sumber semua keuntungan yang didedahkan"
+          ],
+          "answer": 0,
+          "hint": "Bezakan kuasa bertindak daripada pemilikan aset.",
+          "explanation": "Dokumen menyatakan perwakilan bagi pihak S dan menafikan pemilikan W. Peranan wakil tidak boleh disamakan secara automatik dengan pemilik aset."
+        },
+        {
+          "prompt": "Penilaian manakah paling bertanggungjawab terhadap maklumat ini?",
+          "options": [
+            "Semua kontrak berharga RM9000 pasti sah tanpa semakan lain",
+            "Pendedahan kos menjadikan pemilikan aset tidak relevan",
+            "Struktur harga dapat dihitung, tetapi kesahan keseluruhan memerlukan terma dan fakta lanjut",
+            "Pengiraan ansuran membuktikan semua syarat undang-undang telah dipenuhi"
+          ],
+          "answer": 2,
+          "hint": "Bezakan perkara yang boleh ditentukan daripada perkara yang belum diberi.",
+          "explanation": "Data mencukupi untuk harga, keuntungan dan ansuran. Ia tidak membekalkan semua fakta yang diperlukan untuk penilaian kontrak menyeluruh."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-usuluddin-riwayat-dan-bukti",
+    "levelId": "t6",
+    "subjectId": "usuluddin",
+    "note": {
+      "title": "Sanad, matan dan disiplin pengesahan",
+      "summary": "Membezakan kandungan yang menarik daripada kekuatan penyandaran.",
+      "body": [
+        "Dalam kajian hadis, sanad ialah rangkaian periwayatan, manakala matan ialah teks yang diriwayatkan. Penilaian hadis sahih melibatkan kesinambungan sanad, sifat adil serta ketepatan perawi, dan ketiadaan syaz serta kecacatan yang menjejaskan. Senarai syarat ini menunjukkan bahawa penilaian tidak boleh digantikan dengan populariti sesuatu petikan atau kesesuaian maksudnya dengan selera pembaca.",
+        "Contoh kerja: sebuah poster menyandarkan kata-kata kepada Nabi tetapi hanya memberikan nama pereka poster. Pembaca belum mempunyai sumber asal atau penilaian ilmiah. Langkah wajar ialah menjejak rujukan lengkap, membandingkan teks dan mendapatkan penjelasan sumber berautoriti. Menemukan maksud yang baik tidak dengan sendirinya mengesahkan penyandaran tersebut.",
+        "Salah tanggapan ialah menyamakan “belum disahkan” dengan “pasti palsu”. Ketiadaan bukti yang mencukupi menuntut penangguhan dakwaan, bukan penggantian dengan tuduhan baharu. Tabayyun memerlukan ketelitian terhadap maklumat dan kesan penyebarannya. Dalam tugasan, pisahkan apa yang diketahui, kesimpulan sementara dan langkah semakan seterusnya."
+      ],
+      "keyPoints": [
+        "Sanad dan matan ialah dimensi analisis yang berbeza tetapi berkaitan.",
+        "Populariti atau maksud yang baik tidak membuktikan penyandaran.",
+        "Nyatakan status pengetahuan dengan tepat sebelum menyebarkan dakwaan."
+      ]
+    },
+    "reading": {
+      "title": "Petikan yang kehilangan rujukan",
+      "summary": "Kes asli tentang menilai maklumat agama tanpa mereka teks hadis.",
+      "body": [
+        "Sekumpulan pelajar menerima poster yang mendakwa suatu nasihat berasal daripada hadis. Poster itu tidak memaparkan teks Arab, nama kitab atau nombor rujukan. Seorang pelajar menemui ayat Melayu yang hampir sama dalam blog motivasi, tetapi blog itu turut memetik poster tersebut. Pelajar lain menganggap dua laman sudah menjadi dua pengesahan bebas. Ketua kumpulan menangguhkan penggunaan poster dalam pembentangan. Dia meminta mereka mencari sumber yang benar-benar lebih awal dan semakan ilmiah yang menerangkan status riwayat. Mereka juga merekod bahawa maksud nasihat mungkin baik, namun perkara itu berbeza daripada persoalan sama ada penyandarannya kepada Nabi telah disahkan."
+      ],
+      "questions": [
+        {
+          "prompt": "Mengapakah dua laman tersebut belum menjadi pengesahan bebas?",
+          "options": [
+            "Semua laman web dilarang menjadi bahan semakan",
+            "Dua sumber sentiasa lebih lemah daripada satu tanpa mengira asal",
+            "Nama blog membuktikan nasihat itu palsu",
+            "Blog bergantung pada poster yang sama, maka kedua-duanya berkongsi asal dakwaan"
+          ],
+          "answer": 3,
+          "hint": "Jejaki aliran rujukan, bukan hanya bilangan halaman.",
+          "explanation": "Pengulangan satu dakwaan melalui laman lain tidak menambah bukti bebas. Semakan memerlukan sumber asal atau analisis yang tidak sekadar menyalin poster."
+        },
+        {
+          "prompt": "Apakah rumusan sementara yang paling tepat?",
+          "options": [
+            "Nasihat itu pasti hadis sahih kerana bahasanya indah",
+            "Poster itu pasti palsu kerana tiada warna tertentu",
+            "Penyandaran belum dapat disahkan melalui bahan yang tersedia",
+            "Semua nasihat yang baik mestilah hadis"
+          ],
+          "answer": 2,
+          "hint": "Bezakan kekurangan maklumat daripada keputusan status yang pasti.",
+          "explanation": "Bahan tidak cukup untuk menetapkan status riwayat. Rumusan ini mengekalkan batas pengetahuan sambil membolehkan semakan lanjut."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Peta bukti dalam kajian riwayat",
+      "summary": "Memisahkan jenis persoalan dan tindakan pengesahan.",
+      "body": [
+        "Latihan metodologi ini tidak menggunakan teks hadis sebenar. Fail A mengandungi teks yang disandarkan kepada seorang tokoh tetapi tiada rangkaian periwayatan. Fail B mempunyai rangkaian nama, namun tarikh hidup dua perawi yang berurutan belum disemak. Fail C mengandungi ringkasan seorang pengkaji yang menyatakan kesimpulan, tetapi alasan dan rujukannya belum diperoleh. Pelajar diminta mengenal pasti jurang bukti tanpa menetapkan status akhir mana-mana riwayat."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah jurang yang paling langsung pada Fail A?",
+          "options": [
+            "Bilangan warna yang digunakan dalam fail",
+            "Maklumat sanad untuk menilai cara teks itu diriwayatkan",
+            "Ukuran fizikal meja pengkaji",
+            "Nama pencetak komputer sahaja"
+          ],
+          "answer": 1,
+          "hint": "Hubungkan rangkaian periwayatan dengan istilah kajian hadis.",
+          "explanation": "Tanpa rangkaian periwayatan, satu bahagian penting penilaian belum tersedia. Kehadiran teks sahaja tidak menjelaskan jalur penyampaiannya."
+        },
+        {
+          "prompt": "Mengapakah tarikh hidup perawi dalam Fail B relevan?",
+          "options": [
+            "Ia boleh membantu menilai kemungkinan hubungan periwayatan antara mereka",
+            "Ia menjamin semua isi teks tepat walaupun tanpa semakan lain",
+            "Ia membuktikan kecantikan gaya bahasa matan",
+            "Ia menggantikan keperluan menilai ketepatan perawi"
+          ],
+          "answer": 0,
+          "hint": "Fokus pada kemungkinan kesinambungan hubungan.",
+          "explanation": "Maklumat masa membantu menguji kemungkinan pertemuan atau periwayatan. Pertindihan tarikh sahaja juga belum membuktikan bahawa hubungan itu benar-benar berlaku."
+        },
+        {
+          "prompt": "Apakah tindakan paling sesuai terhadap Fail C?",
+          "options": [
+            "Salin kesimpulan sebagai fakta tanpa mengetahui asasnya",
+            "Tolak semua kepakaran kerana ringkasannya pendek",
+            "Dapatkan alasan dan rujukan pengkaji supaya kesimpulan boleh difahami serta disemak",
+            "Tentukan status melalui jumlah pengikut pengkaji sahaja"
+          ],
+          "answer": 2,
+          "hint": "Penilaian ilmiah perlu dapat dijejaki kepada asasnya.",
+          "explanation": "Mendapatkan alasan dan sumber membolehkan pelajar memahami skop kesimpulan. Ini berbeza daripada menerima atau menolak berdasarkan populariti."
+        },
+        {
+          "prompt": "Pernyataan yang paling tepat tentang keseluruhan latihan ialah...",
+          "options": [
+            "Jurang bukti perlu dikenal pasti sebelum status akhir dinyatakan",
+            "Setiap rangkaian nama secara automatik memenuhi semua syarat sahih",
+            "Ketiadaan satu maklumat membuktikan niat jahat penyusun",
+            "Matan yang mudah difahami tidak memerlukan sebarang semakan"
+          ],
+          "answer": 0,
+          "hint": "Bezakan proses diagnosis bukti daripada keputusan muktamad.",
+          "explanation": "Latihan memberi maklumat yang sengaja belum lengkap. Kemahiran yang diuji ialah mengenal pasti apa yang masih perlu disemak, bukan mencipta kepastian tentang status atau niat seseorang."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-tahfiz-audit-hafazan",
+    "levelId": "t6",
+    "subjectId": "tahfiz",
+    "note": {
+      "title": "Audit hafazan dan pembetulan berpandu",
+      "summary": "Menganalisis pola kesilapan untuk merancang semakan bacaan.",
+      "body": [
+        "Pengukuhan hafazan memerlukan semakan ketepatan, bukan kelancaran semata-mata. Dalam sesi tasmik, bacaan diperdengarkan kepada guru untuk disemak; murajaah pula mengekalkan dan mengukuhkan hafazan melalui ulang kaji. Rekod boleh membezakan kesilapan susunan, pengguguran dan sebutan supaya punca kesukaran tidak disembunyikan oleh satu markah keseluruhan.",
+        "Contoh kerja: pelajar membaca bahagian A dengan lancar tetapi tersalah menyambung pada dua tempat yang hampir serupa. Guru menandakan lokasi, membimbing perbandingan konteks dan menyemak semula sambungan tanpa bantuan awal. Latihan seterusnya menyasarkan tempat peralihan itu sebelum menguji keseluruhan bahagian. Label A hanyalah penanda tugasan, bukan teks ayat yang direka.",
+        "Salah tanggapan ialah menambah kelajuan bacaan untuk menunjukkan penguasaan walaupun kesilapan kekal. Pembetulan perlu mengikuti bacaan yang disahkan guru dan rujukan mushaf yang sesuai, bukan mengubah lafaz agar mudah diingat. Rekod membantu memilih latihan, tetapi tidak menggantikan penilaian lisan tentang sebutan dan ketepatan."
+      ],
+      "keyPoints": [
+        "Pisahkan kelancaran, ketepatan susunan dan ketepatan sebutan.",
+        "Gunakan pola kesilapan untuk memilih sasaran murajaah.",
+        "Sahkan pembetulan bacaan dengan guru; jangan mereka lafaz atau kaedah bacaan."
+      ]
+    },
+    "reading": {
+      "title": "Dua sesi tasmik, dua jenis kemajuan",
+      "summary": "Kes latihan asli tentang bukti penguasaan hafazan.",
+      "body": [
+        "Dalam kumpulan tahfiz rekaan, Nabil merekod dua sesi tasmik bagi bahagian yang sama. Sesi pertama mengambil enam minit dengan empat kesilapan sambungan dan satu teguran sebutan. Selepas berlatih sendiri, sesi kedua mengambil lima minit tetapi masih mempunyai empat kesilapan sambungan dan satu teguran sebutan. Nabil menyangka penguasaannya sudah meningkat kerana lebih cepat. Guru memintanya menandakan tempat sambungan yang sering tertukar, meneliti konteks bersama dan memperdengarkan bacaan semula secara terkawal. Guru juga menjelaskan bahawa masa boleh dicatat sebagai maklumat tambahan, tetapi keputusan tentang ketepatan memerlukan pemerhatian terhadap jenis kesilapan dan bacaan sebenar, bukannya tempoh semata-mata."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah kesimpulan yang paling tepat daripada dua sesi?",
+          "options": [
+            "Semua aspek hafazan bertambah baik secara pasti",
+            "Kelajuan meningkat, tetapi bilangan kesilapan yang direkod tidak berkurang",
+            "Empat kesilapan sambungan telah hilang",
+            "Teguran sebutan bertambah daripada satu kepada empat"
+          ],
+          "answer": 1,
+          "hint": "Bandingkan setiap ukuran secara berasingan.",
+          "explanation": "Masa turun daripada enam kepada lima minit, sementara kedua-dua kategori kesilapan kekal. Perubahan satu ukuran tidak membuktikan kemajuan pada ukuran lain."
+        },
+        {
+          "prompt": "Mengapakah latihan tertumpu pada tempat sambungan sesuai?",
+          "options": [
+            "Latihan itu memberi lesen menukar lafaz mengikut ingatan",
+            "Tempat lain tidak perlu diulang selama-lamanya",
+            "Bacaan lebih pantas akan secara automatik membetulkan semua kesilapan",
+            "Rekod menunjukkan kesilapan sambungan berulang sebagai sasaran khusus pembetulan"
+          ],
+          "answer": 3,
+          "hint": "Hubungkan intervensi dengan pola yang diperhatikan.",
+          "explanation": "Pembetulan bersasar menangani masalah yang berulang. Ia dilengkapkan dengan semakan keseluruhan supaya ketepatan setempat dan kesinambungan bacaan dapat dinilai bersama."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Memilih pelan murajaah daripada rekod",
+      "summary": "Menganalisis bantuan, jenis kesilapan dan penilaian susulan.",
+      "body": [
+        "Rekod rekaan bagi bahagian P: Isnin, tiga kesilapan sambungan dan dua teguran sebutan; Rabu, satu kesilapan sambungan dan dua teguran sebutan; Jumaat, sifar kesilapan sambungan dan dua teguran sebutan. Pada Jumaat, guru memberi kata pembuka setiap kali pelajar berhenti. Semua sesi menggunakan bahagian yang sama. Pelajar mahu menilai penguasaan tanpa bantuan dan membaiki sebutan. Tiada lafaz al-Quran dipaparkan dalam latihan ini."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah masalah yang masih konsisten merentas tiga sesi?",
+          "options": [
+            "Dua teguran sebutan setiap sesi",
+            "Tiga kesilapan sambungan setiap sesi",
+            "Bilangan halaman meningkat setiap hari",
+            "Guru tidak pernah memberi bantuan"
+          ],
+          "answer": 0,
+          "hint": "Asingkan kategori yang berubah daripada kategori yang kekal.",
+          "explanation": "Kesilapan sambungan menurun dalam rekod, tetapi teguran sebutan kekal dua. Pelan seterusnya perlu memberi perhatian khusus kepada sebutan dengan bimbingan guru."
+        },
+        {
+          "prompt": "Mengapa sifar kesilapan sambungan pada Jumaat belum membuktikan penguasaan tanpa bantuan?",
+          "options": [
+            "Sifar sentiasa bermaksud lebih banyak kesilapan daripada tiga",
+            "Kata pembuka guru mungkin membantu pelajar meneruskan bacaan",
+            "Semua sesi tasmik tidak boleh memberi bukti pembelajaran",
+            "Penguasaan hanya boleh dinilai melalui kelajuan"
+          ],
+          "answer": 1,
+          "hint": "Bandingkan keadaan ujian dengan kemampuan yang hendak ditaksir.",
+          "explanation": "Sasaran ialah bacaan tanpa bantuan, tetapi sesi Jumaat mengandungi bantuan. Semakan tanpa kata pembuka diperlukan untuk menguji sasaran itu secara langsung."
+        },
+        {
+          "prompt": "Pelan paling sesuai bagi teguran sebutan ialah...",
+          "options": [
+            "Tukar bunyi yang sukar kepada bunyi pilihan sendiri",
+            "Abaikan sebutan kerana sambungan sudah bertambah baik",
+            "Gandakan kelajuan supaya teguran kurang kedengaran",
+            "Dengar contoh guru, betulkan sebutan yang dikenal pasti dan perdengarkan semula untuk semakan"
+          ],
+          "answer": 3,
+          "hint": "Pilih pembetulan yang mengekalkan rujukan bacaan yang disahkan.",
+          "explanation": "Bimbingan lisan dan semakan semula menghubungkan diagnosis dengan pembetulan sebenar. Mengubah lafaz atau menyembunyikan kesilapan tidak memenuhi sasaran ketepatan."
+        },
+        {
+          "prompt": "Rekod susulan manakah paling berguna untuk membandingkan penguasaan?",
+          "options": [
+            "Warna pen yang digunakan untuk setiap catatan sahaja",
+            "Bilangan gambar kumpulan yang diambil selepas sesi",
+            "Jenis dan lokasi kesilapan serta bantuan yang diberi dalam keadaan bacaan yang setanding",
+            "Nama hari tanpa butiran bacaan"
+          ],
+          "answer": 2,
+          "hint": "Pastikan rekod membezakan prestasi pelajar daripada kesan bantuan.",
+          "explanation": "Catatan kesilapan dan bantuan menjadikan perubahan dapat ditafsirkan. Keadaan setanding membantu mengelakkan kemajuan yang kelihatan akibat perubahan cara semakan sahaja."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-economics-cukai-dan-keanjalan",
+    "levelId": "t6",
+    "subjectId": "economics",
+    "note": {
+      "title": "Cukai seunit dan pembahagian beban",
+      "summary": "Menghubungkan keseimbangan pasaran dengan respons permintaan dan penawaran.",
+      "body": [
+        "Dalam model pasaran persaingan, keseimbangan berlaku apabila kuantiti diminta sama dengan kuantiti ditawarkan. Cukai seunit mewujudkan jurang antara harga yang dibayar pengguna dengan harga bersih yang diterima pengeluar. Beban ekonomi tidak ditentukan semata-mata oleh pihak yang menghantar cukai kepada kerajaan; respons kuantiti terhadap harga turut mempengaruhi pembahagiannya.",
+        "Contoh kerja: permintaan Qd = 100 − 2P dan penawaran Qs = 20 + 2P memberikan P = 20 serta Q = 60 sebelum cukai. Dengan cukai RM4, gunakan Pc = Pp + 4. Persamaan 100 − 2(Pp + 4) = 20 + 2Pp menghasilkan Pp = 18, Pc = 22 dan Q = 56. Pengguna dan pengeluar masing-masing menanggung RM2 seunit.",
+        "Salah tanggapan ialah menambah semua cukai pada harga asal tanpa menyelesaikan keseimbangan baharu. Perubahan harga menyebabkan perubahan kuantiti; maka hasil cukai dikira menggunakan kuantiti selepas cukai. Semua angka unit ini ialah model latihan, bukan ramalan pasaran sebenar."
+      ],
+      "keyPoints": [
+        "Harga pengguna dan harga bersih pengeluar berbeza selepas cukai.",
+        "Selesaikan kedua-dua persamaan bersama jurang cukai.",
+        "Hasil cukai menggunakan kuantiti urus niaga selepas cukai."
+      ]
+    },
+    "reading": {
+      "title": "Perbahasan cukai bekas sekali guna rekaan",
+      "summary": "Menafsir beban cukai melalui harga sebelum dan selepas dasar.",
+      "body": [
+        "Sebuah bandar rekaan mengenakan cukai RM2 bagi setiap bekas sekali guna dalam model pasarannya. Sebelum cukai, harga ialah RM5 dan jumlah jualan 10000 unit seminggu. Selepas pasaran menyesuaikan diri, pengguna membayar RM6.50, penjual menerima RM4.50 selepas cukai, dan jualan menjadi 8000 unit. Persatuan peniaga menyatakan bahawa penjual menanggung semua cukai kerana merekalah yang menyerahkannya kepada pihak berkuasa. Seorang pelajar ekonomi membandingkan perubahan harga kedua-dua pihak. Dia juga mengingatkan bahawa data jualan yang lebih rendah tidak dengan sendirinya mengukur jumlah pengurangan sisa, kerana penggunaan pengganti belum direkodkan dalam kajian tersebut."
+      ],
+      "questions": [
+        {
+          "prompt": "Bagaimanakah beban RM2 seunit terbahagi menurut data?",
+          "options": [
+            "Pengguna RM0.50 dan penjual RM1.50",
+            "Pengguna RM2 dan penjual RM2",
+            "Pengguna RM1.50 dan penjual RM0.50",
+            "Pengguna sifar dan penjual RM2"
+          ],
+          "answer": 2,
+          "hint": "Bandingkan kedua-dua harga baharu dengan harga asal RM5.",
+          "explanation": "Pengguna membayar RM1.50 lebih, manakala penerimaan penjual turun RM0.50. Jumlah kedua-dua perubahan ialah cukai RM2; pihak yang menyerahkan cukai tidak menentukan keseluruhan beban ekonomi."
+        },
+        {
+          "prompt": "Berapakah hasil cukai mingguan selepas pelarasan?",
+          "options": [
+            "RM16000",
+            "RM20000",
+            "RM52000",
+            "RM4000"
+          ],
+          "answer": 0,
+          "hint": "Gunakan kadar cukai dan jumlah jualan selepas cukai.",
+          "explanation": "RM2 × 8000 = RM16000. Menggunakan 10000 unit akan mengabaikan penurunan kuantiti selepas dasar."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Menyelesaikan pasaran dengan jurang cukai",
+      "summary": "Mengira keseimbangan, insiden dan hasil daripada model linear.",
+      "body": [
+        "Model latihan: Qd = 180 − 3Pc dan Qs = 20 + Pp. Kuantiti diukur dalam unit, harga dalam RM. Sebelum cukai, Pc = Pp. Selepas cukai RM8 seunit, Pc − Pp = 8. Andaikan semua urus niaga tertakluk pada cukai, tiada perubahan lain pada fungsi permintaan atau penawaran dan pasaran mencapai keseimbangan baharu."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah harga dan kuantiti keseimbangan sebelum cukai?",
+          "options": [
+            "P = RM30, Q = 90",
+            "P = RM50, Q = 70",
+            "P = RM20, Q = 120",
+            "P = RM40, Q = 60"
+          ],
+          "answer": 3,
+          "hint": "Samakan 180 − 3P dengan 20 + P.",
+          "explanation": "160 = 4P memberikan P = 40. Menggantikan dalam salah satu fungsi memberikan Q = 60."
+        },
+        {
+          "prompt": "Apakah pasangan harga selepas cukai?",
+          "options": [
+            "Pc = RM48 dan Pp = RM40",
+            "Pc = RM42 dan Pp = RM34",
+            "Pc = RM46 dan Pp = RM38",
+            "Pc = RM40 dan Pp = RM32"
+          ],
+          "answer": 1,
+          "hint": "Ganti Pc dengan Pp + 8 dalam persamaan permintaan.",
+          "explanation": "180 − 3(Pp + 8) = 20 + Pp menghasilkan 136 = 4Pp, jadi Pp = 34 dan Pc = 42. Kuantiti pada kedua-dua fungsi ialah 54."
+        },
+        {
+          "prompt": "Berapakah bahagian beban cukai seunit yang ditanggung pengeluar?",
+          "options": [
+            "25%",
+            "50%",
+            "75%",
+            "100%"
+          ],
+          "answer": 2,
+          "hint": "Bandingkan penerimaan bersih pengeluar dengan harga asal.",
+          "explanation": "Penerimaan pengeluar turun RM6 daripada RM40 kepada RM34. RM6 ÷ RM8 = 75%; pengguna menanggung baki RM2 atau 25%."
+        },
+        {
+          "prompt": "Berapakah hasil cukai pada keseimbangan baharu?",
+          "options": [
+            "RM480",
+            "RM432",
+            "RM272",
+            "RM336"
+          ],
+          "answer": 1,
+          "hint": "Tentukan kuantiti baharu sebelum mendarab dengan RM8.",
+          "explanation": "Q = 20 + 34 = 54. Hasil cukai ialah 54 × RM8 = RM432. Kuantiti sebelum cukai ialah 60 dan tidak sesuai digunakan untuk hasil selepas pelarasan."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-business-keputusan-kapasiti",
+    "levelId": "t6",
+    "subjectId": "business",
+    "note": {
+      "title": "Keputusan kapasiti dan kos relevan",
+      "summary": "Membandingkan pilihan operasi melalui kos, kapasiti dan risiko pelaksanaan.",
+      "body": [
+        "Keputusan operasi memerlukan pengurus menentukan kos yang berubah antara pilihan serta kesan bukan kewangan. Kos yang telah berlaku dan tidak boleh dipulihkan ialah kos tenggelam; ia tidak berubah akibat keputusan semasa. Kos tetap pula tidak semestinya tidak relevan: kos tetap tambahan yang hanya timbul jika sesuatu pilihan diambil perlu dimasukkan dalam perbandingan.",
+        "Contoh kerja: menghasilkan sendiri 1000 komponen memerlukan kos berubah RM7 seunit dan sewaan mesin tambahan RM2000. Jumlah kos relevan ialah RM9000. Membeli daripada pembekal pada RM8.50 seunit berjumlah RM8500. Pembelian lebih murah sebanyak RM500 dalam model ini, tetapi keupayaan pembekal memenuhi spesifikasi dan tarikh penghantaran masih perlu dinilai.",
+        "Salah tanggapan ialah memilih harga seunit terendah tanpa memeriksa jumlah kos dan kapasiti. Pilihan murah boleh membawa kelewatan atau mutu yang tidak memadai. Jawapan yang matang memisahkan pengiraan, andaian dan risiko, kemudian menerangkan maklumat yang boleh mengubah keputusan."
+      ],
+      "keyPoints": [
+        "Masukkan kos yang berbeza antara pilihan semasa.",
+        "Kos tetap tambahan boleh relevan; kos tenggelam tidak berubah.",
+        "Nilai mutu, kapasiti dan penghantaran di samping kos."
+      ]
+    },
+    "reading": {
+      "title": "Tempahan besar bengkel rekaan",
+      "summary": "Menimbang pertambahan kapasiti dengan komitmen kepada pelanggan.",
+      "body": [
+        "Bengkel Arca menerima peluang tempahan 2000 bekas tambahan untuk satu acara. Kapasiti mesin sedia ada sudah digunakan sepenuhnya oleh pelanggan tetap. Pengurus mencadangkan menyewa mesin sementara, manakala penyelia mencadangkan pembekal luar. Sebut harga pembekal lebih rendah, tetapi hanya 1200 unit dijamin siap sebelum tarikh acara. Mesin sewaan boleh menyiapkan semua unit jika latihan operator dua hari selesai mengikut jadual. Pengurus kewangan turut menyebut wang yang dibelanjakan tahun lalu untuk mengkaji pembekal. Pasukan perlu memisahkan perbelanjaan lalu daripada kos keputusan sekarang, kemudian membandingkan pilihan yang benar-benar memenuhi jumlah, mutu dan tarikh yang dipersetujui pelanggan."
+      ],
+      "questions": [
+        {
+          "prompt": "Mengapakah sebut harga pembekal belum cukup untuk memilih penyumberan luar?",
+          "options": [
+            "Kuantiti yang dijamin sebelum tarikh akhir tidak memenuhi keseluruhan keperluan",
+            "Harga lebih rendah sentiasa membuktikan mutu lebih tinggi",
+            "Semua pembekal luar mesti ditolak tanpa penilaian",
+            "Tarikh penghantaran tidak berkaitan dengan acara"
+          ],
+          "answer": 0,
+          "hint": "Bandingkan 1200 unit yang dijamin dengan 2000 unit diperlukan.",
+          "explanation": "Pilihan operasi mesti memenuhi kekangan penghantaran. Harga rendah bagi bekalan yang tidak mencukupi bukan perbandingan setara dengan pilihan yang memenuhi tempahan."
+        },
+        {
+          "prompt": "Bagaimanakah perbelanjaan kajian tahun lalu patut dilihat jika tidak boleh dipulihkan?",
+          "options": [
+            "Sebagai sebab wajib memilih pembekal walaupun tidak memenuhi tarikh",
+            "Sebagai kos berubah bagi setiap bekas baharu",
+            "Sebagai hasil tunai yang akan diterima daripada pelanggan",
+            "Sebagai kos tenggelam yang tidak berubah antara pilihan semasa"
+          ],
+          "answer": 3,
+          "hint": "Tanya sama ada keputusan hari ini boleh mengubah perbelanjaan yang sudah berlaku.",
+          "explanation": "Kos kajian lalu sudah berlaku dan tidak boleh dipulihkan. Keputusan semasa perlu menumpukan kos dan manfaat masa depan yang berbeza antara pilihan."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Ambang pilihan mesin A atau B",
+      "summary": "Mengira kos relevan dan menilai perubahan jumlah tempahan.",
+      "body": [
+        "Dua pilihan menghasilkan produk yang sama mutunya. Mesin A memerlukan kos tetap tambahan RM6000 dan kos berubah RM4 seunit. Mesin B memerlukan kos tetap tambahan RM2000 dan kos berubah RM6 seunit. Kedua-duanya mempunyai kapasiti 4000 unit dan boleh memenuhi tarikh akhir. Kos kajian RM1500 telah dibayar dan tidak boleh dipulihkan. Tiada kos lain berbeza. Q ialah jumlah unit yang hendak dihasilkan."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah fungsi kos relevan bagi Mesin A?",
+          "options": [
+            "CA = 7500 + 4Q",
+            "CA = 6000 + 4Q",
+            "CA = 6000 + 6Q",
+            "CA = 2000 + 4Q"
+          ],
+          "answer": 1,
+          "hint": "Masukkan hanya kos masa depan yang dinyatakan untuk A.",
+          "explanation": "A memerlukan RM6000 serta RM4 bagi setiap unit. Kos kajian tenggelam tidak berubah antara pilihan dan dikecualikan daripada perbandingan relevan."
+        },
+        {
+          "prompt": "Pada jumlah berapakah kedua-dua pilihan mempunyai kos sama?",
+          "options": [
+            "1000 unit",
+            "3000 unit",
+            "4000 unit",
+            "2000 unit"
+          ],
+          "answer": 3,
+          "hint": "Samakan 6000 + 4Q dengan 2000 + 6Q.",
+          "explanation": "4000 = 2Q memberikan Q = 2000. Pada jumlah ini, setiap pilihan berharga RM14000."
+        },
+        {
+          "prompt": "Bagi 3000 unit, pilihan manakah lebih murah dan sebanyak berapa?",
+          "options": [
+            "A lebih murah sebanyak RM2000",
+            "B lebih murah sebanyak RM2000",
+            "A lebih murah sebanyak RM4000",
+            "Kedua-duanya sama pada RM18000"
+          ],
+          "answer": 0,
+          "hint": "Kira kedua-dua jumlah kos pada Q = 3000.",
+          "explanation": "A = 6000 + 12000 = RM18000; B = 2000 + 18000 = RM20000. A menjimatkan RM2000 kerana kos berubahnya lebih rendah."
+        },
+        {
+          "prompt": "Jika pesanan turun kepada 1200 unit sebelum sebarang komitmen baharu dibuat, pilihan terbaik mengikut kos ialah...",
+          "options": [
+            "A, kerana kos tetap yang lebih tinggi sentiasa lebih baik",
+            "A, kerana kos tenggelam menjamin kelebihannya",
+            "B, kerana RM9200 lebih rendah daripada RM10800",
+            "B, kerana jumlah kosnya sifar di bawah ambang"
+          ],
+          "answer": 2,
+          "hint": "Jumlah di bawah titik persamaan memihak kos tetap lebih rendah.",
+          "explanation": "A = 6000 + 4(1200) = RM10800; B = 2000 + 6(1200) = RM9200. Dengan kekangan lain setara, B lebih murah sebanyak RM1600."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-accounting-pelarasan-dan-untung",
+    "levelId": "t6",
+    "subjectId": "accounting",
+    "note": {
+      "title": "Pelarasan akruan dan kualiti untung",
+      "summary": "Membezakan aliran tunai, hasil diperoleh dan belanja bagi tempoh.",
+      "body": [
+        "Asas akruan mengaitkan hasil dan belanja dengan tempoh yang relevan, bukan semata-mata masa wang diterima atau dibayar. Hasil diterima terdahulu belum menjadi hasil diperoleh jika perkhidmatan masih belum diberikan. Belanja terakru pula diiktiraf apabila berkaitan dengan tempoh semasa walaupun bayarannya akan dibuat kemudian.",
+        "Contoh kerja: akaun belum laras merekod semua premium insurans RM2400 sebagai belanja pada 1 Oktober untuk perlindungan dua belas bulan. Pada 31 Disember, tiga bulan telah digunakan: belanja ialah RM600 dan insurans prabayar RM1800. Pelarasan mendebit aset prabayar dan mengkredit belanja sebanyak RM1800, lalu meningkatkan untung berbanding angka belum laras.",
+        "Salah tanggapan ialah menganggap pelarasan ini menambah tunai. Tunai telah dibayar pada Oktober; pelarasan mengubah pengelasan serta masa pengiktirafan. Semasa menyelesaikan soalan, kenal pasti catatan awal, tempoh digunakan dan baki masa depan sebelum menentukan kesan terhadap untung, aset atau liabiliti."
+      ],
+      "keyPoints": [
+        "Bezakan wang diterima daripada hasil yang telah diperoleh.",
+        "Tentukan catatan awal sebelum menulis jurnal pelarasan.",
+        "Pelarasan bukan tunai boleh mengubah untung dan kedudukan kewangan."
+      ]
+    },
+    "reading": {
+      "title": "Pusat latihan dan yuran awal",
+      "summary": "Menganalisis mengapa tunai yang tinggi belum membuktikan untung tinggi.",
+      "body": [
+        "Pusat latihan rekaan menerima RM18000 pada Disember untuk kursus yang akan diadakan sepenuhnya pada Januari. Kerani merekod semua penerimaan itu sebagai hasil Disember. Pada bulan yang sama, pusat belum membayar RM2400 gaji tutor bagi kelas Disember dan belanja itu belum direkodkan. Pemilik menganggap baki bank yang meningkat membuktikan prestasi bulanan sangat baik. Akauntan meminta jadual kursus dan rekod kerja tutor sebelum menutup akaun. Dia menjelaskan bahawa perkhidmatan Januari masih menjadi tanggungjawab pusat, manakala kerja tutor Disember telah digunakan. Maklumat tentang aliran tunai tetap penting, tetapi ia menjawab persoalan yang berbeza daripada pengukuran untung tempoh tersebut."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah pelarasan bagi RM18000 yang telah direkod sebagai hasil Disember?",
+          "options": [
+            "Debit tunai RM18000; kredit modal RM18000",
+            "Debit belanja RM18000; kredit tunai RM18000",
+            "Debit hasil diterima terdahulu RM18000; kredit hasil RM18000",
+            "Debit hasil RM18000; kredit hasil diterima terdahulu RM18000"
+          ],
+          "answer": 3,
+          "hint": "Perkhidmatan belum diberi, jadi pindahkan hasil belum diperoleh kepada liabiliti.",
+          "explanation": "Pelarasan membatalkan pengiktirafan hasil Disember dan mengiktiraf obligasi perkhidmatan masa depan. Tunai tidak dicatat sekali lagi kerana sudah diterima."
+        },
+        {
+          "prompt": "Berapakah jumlah penurunan untung Disember daripada kedua-dua pelarasan?",
+          "options": [
+            "RM15600",
+            "RM18000",
+            "RM20400",
+            "RM2400"
+          ],
+          "answer": 2,
+          "hint": "Hasil berkurang dan belanja gaji bertambah.",
+          "explanation": "Pengurangan hasil RM18000 serta tambahan belanja RM2400 kedua-duanya menurunkan untung. Jumlah kesan ialah RM20400, bukan perbezaan antara dua angka itu."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Menutup akaun Firma Seroja rekaan",
+      "summary": "Mengira untung laras serta aset dan liabiliti daripada maklumat lengkap.",
+      "body": [
+        "Pada 31 Disember, untung belum laras ialah RM42000. Insurans RM3600 dibayar pada 1 Oktober untuk 12 bulan dan seluruhnya direkod sebagai belanja. Gaji Disember RM1500 belum dibayar atau direkod. Peralatan berharga RM24000, tersedia digunakan sejak 1 Januari, mempunyai nilai baki sifar dan hayat guna empat tahun; susut nilai garis lurus tahun ini belum direkod. Tiada pelarasan lain dan tiada cukai dalam model ini."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah insurans prabayar pada 31 Disember?",
+          "options": [
+            "RM900",
+            "RM2700",
+            "RM3600",
+            "RM300"
+          ],
+          "answer": 1,
+          "hint": "Sembilan daripada dua belas bulan perlindungan belum digunakan.",
+          "explanation": "RM3600 × 9/12 = RM2700. Tiga bulan yang digunakan berjumlah RM900; kerana semua bayaran dicatat sebagai belanja, RM2700 perlu dipindahkan kepada aset."
+        },
+        {
+          "prompt": "Apakah jurnal pelarasan bagi gaji?",
+          "options": [
+            "Debit belanja gaji RM1500; kredit gaji terakru RM1500",
+            "Debit gaji terakru RM1500; kredit tunai RM1500",
+            "Debit tunai RM1500; kredit hasil RM1500",
+            "Debit peralatan RM1500; kredit belanja gaji RM1500"
+          ],
+          "answer": 0,
+          "hint": "Kerja telah digunakan tetapi bayaran masih terhutang.",
+          "explanation": "Belanja bertambah melalui debit dan liabiliti gaji terakru bertambah melalui kredit. Tunai belum bergerak pada tarikh pelarasan."
+        },
+        {
+          "prompt": "Berapakah susut nilai tahunan peralatan?",
+          "options": [
+            "RM24000",
+            "RM4800",
+            "RM6000",
+            "RM3000"
+          ],
+          "answer": 2,
+          "hint": "Agihkan amaun boleh disusut nilai kepada empat tahun.",
+          "explanation": "(RM24000 − RM0) ÷ 4 = RM6000. Peralatan tersedia sepanjang tahun, jadi tiada pelarasan sebahagian tahun diperlukan."
+        },
+        {
+          "prompt": "Berapakah untung selepas semua pelarasan?",
+          "options": [
+            "RM37200",
+            "RM31800",
+            "RM38700",
+            "RM43200"
+          ],
+          "answer": 0,
+          "hint": "Mulakan RM42000, pulangkan belanja prabayar dan tolak dua belanja tambahan.",
+          "explanation": "RM42000 + RM2700 − RM1500 − RM6000 = RM37200. Pelarasan insurans meningkatkan untung kerana belanja awal terlebih rekod, sementara gaji dan susut nilai menurunkannya."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-mgmt_math-linear-programming",
+    "levelId": "t6",
+    "subjectId": "mgmt_math",
+    "note": {
+      "title": "Foundations: linear programming with two variables",
+      "summary": "A preparatory two-variable model; this unit does not cover the full STPM simplex and Big-M requirements.",
+      "body": [
+        "This is a foundation unit for understanding variables, constraints and an objective before advanced linear programming. It uses two variables and a graphical vertex method. The revised STPM Management Mathematics syllabus develops three-variable models, simplex tableaux and the Big-M method in Semester 3. Those methods are not taught or assessed in this unit; completing it does not establish mastery of that semester topic.",
+        "A linear programming model distinguishes decision variables, an objective function and constraints. A feasible solution satisfies every constraint, including non-negativity. For a bounded polygonal feasible region, a linear objective attains an optimum at a vertex; an entire edge can also be optimal when the objective is parallel to that edge. Feasibility must be checked before comparing profits.",
+        "Worked example: maximise Z = 30x + 20y subject to x + y ≤ 8, 2x + y ≤ 12 and x, y ≥ 0. The vertices are (0,0), (0,8), (4,4) and (6,0). Their objective values are 0, 160, 200 and 180, so (4,4) is optimal with Z = 200.",
+        "A common misconception selects the product with the highest profit per unit and ignores resource use. Another assumes both resources must always be exhausted. Binding constraints describe this particular optimum; changing profits or available resources can change which constraints bind and which production mix is best."
+      ],
+      "keyPoints": [
+        "Define variables and units before forming inequalities.",
+        "Check every constraint before evaluating an objective.",
+        "An optimum and its binding constraints depend on the model assumptions."
+      ]
+    },
+    "reading": {
+      "title": "Planning workshop time",
+      "summary": "An original model distinguishes a profitable idea from a feasible plan.",
+      "body": [
+        "A workshop makes two divisible batches of learning kits, x and y. Every batch uses one hour of finishing time, and only ten hours are available. A separate specialist process limits x to six batches. Contributions are RM5 per batch of x and RM3 per batch of y, with no other constraints apart from non-negativity. The supervisor suggests producing ten batches of x because it has the larger contribution. The planner instead draws the feasible region and evaluates its vertices. She records that contributions are assumed constant, unused time has no alternative value in this model, and fractions of a batch are permitted."
+      ],
+      "questions": [
+        {
+          "prompt": "Why is the supervisor’s proposed plan infeasible?",
+          "options": [
+            "It uses fewer than ten finishing hours",
+            "It exceeds the specialist limit x ≤ 6",
+            "Its contribution must be negative",
+            "Non-negativity requires x to be zero"
+          ],
+          "answer": 1,
+          "hint": "Check the specialist constraint separately from total finishing time.",
+          "explanation": "Ten batches of x satisfy the finishing limit but violate x ≤ 6. A plan must satisfy all constraints, not just the total time restriction."
+        },
+        {
+          "prompt": "Which feasible plan maximises contribution?",
+          "options": [
+            "x = 0, y = 10, giving RM30",
+            "x = 5, y = 5, giving RM40",
+            "x = 6, y = 0, giving RM30",
+            "x = 6, y = 4, giving RM42"
+          ],
+          "answer": 3,
+          "hint": "Use as much higher-contribution x as permitted, then check remaining time.",
+          "explanation": "With identical finishing use, x is preferred until its limit of six. The remaining four hours support y, producing 5(6) + 3(4) = RM42; this also agrees with the vertex comparison."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Two resources in a production model",
+      "summary": "Solve a constrained optimum and a small capacity change.",
+      "body": [
+        "Maximise contribution Z = 40x + 50y, in RM, subject to x + 2y ≤ 16, 3x + y ≤ 18 and x, y ≥ 0. Variables represent divisible batches. Both constraints express resource limits, and there are no other costs or restrictions. For the resource-increase case only, increase the first limit from 16 to 17 while leaving the second limit and objective unchanged."
+      ],
+      "questions": [
+        {
+          "prompt": "Which of the following points is feasible?",
+          "options": [
+            "(2, 5)",
+            "(5, 5)",
+            "(1, 8)",
+            "(6, 1)"
+          ],
+          "answer": 0,
+          "hint": "Substitute each pair into both resource inequalities.",
+          "explanation": "At (2,5), x + 2y = 12 ≤ 16 and 3x + y = 11 ≤ 18. Each other point exceeds at least one resource limit."
+        },
+        {
+          "prompt": "Where do the two original resource boundaries intersect?",
+          "options": [
+            "(6, 4)",
+            "(4, 6)",
+            "(2, 7)",
+            "(5, 3)"
+          ],
+          "answer": 1,
+          "hint": "Solve x + 2y = 16 and 3x + y = 18 simultaneously.",
+          "explanation": "From x = 16 − 2y, substitution gives 48 − 5y = 18, hence y = 6 and x = 4. Both boundaries are exactly met."
+        },
+        {
+          "prompt": "What is the original maximum contribution?",
+          "options": [
+            "RM400",
+            "RM240",
+            "RM500",
+            "RM460"
+          ],
+          "answer": 3,
+          "hint": "Compare the intersection with feasible axis vertices.",
+          "explanation": "Vertices are (0,0), (0,8), (4,6) and (6,0), giving 0, 400, 460 and 240. The maximum is RM460 at (4,6)."
+        },
+        {
+          "prompt": "After the first limit rises to 17, what is the new maximum?",
+          "options": [
+            "RM500 at (0, 10)",
+            "RM460 at the unchanged point only",
+            "RM482 at (3.8, 6.6)",
+            "RM510 at (4, 7)"
+          ],
+          "answer": 2,
+          "hint": "Recompute the intersection, then compare the new axis vertices.",
+          "explanation": "Solving x + 2y = 17 and 3x + y = 18 gives x = 3.8, y = 6.6 and Z = 482. New axis values are 425 and 240, so the intersection remains optimal; the gain is RM22."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-stpm_math-stationary-and-area",
+    "levelId": "t6",
+    "subjectId": "stpm_math",
+    "note": {
+      "title": "Stationary points and accumulated area",
+      "summary": "Connect derivative signs, local extrema and definite integrals.",
+      "body": [
+        "Differentiation describes local change, while integration accumulates signed contributions across an interval. Solving f′(x) = 0 identifies stationary candidates, but classification requires more evidence. A change from positive to negative derivative gives a local maximum; a change from negative to positive gives a local minimum. A stationary point need not be either.",
+        "Worked example: g(x) = x³ − 3x has derivative 3(x − 1)(x + 1). The derivative is positive outside −1 < x < 1 and negative inside, so x = −1 is a local maximum and x = 1 a local minimum. Their values are 2 and −2 respectively.",
+        "A common misconception equates every definite integral with geometric area. If a graph crosses its baseline, signed contributions can cancel. Find crossings and examine signs before calculating area; for an absolute maximum on a closed interval, also compare endpoint values with the stationary candidates."
+      ],
+      "keyPoints": [
+        "Use derivative signs or a valid second-derivative test to classify candidates.",
+        "Compare endpoints when an absolute extremum on a closed interval is required.",
+        "Geometric area requires non-negative contributions relative to the baseline."
+      ]
+    },
+    "reading": {
+      "title": "A model of a changing signal",
+      "summary": "An original laboratory account separates rate, level and accumulated effect.",
+      "body": [
+        "A student models a dimensionless signal by h(t) = t³ − 3t² for 0 ≤ t ≤ 3. She calculates h′(t) = 3t(t − 2) and notices that the derivative vanishes at t = 2. A partner calls this point a maximum because the signal has stopped decreasing there. They examine values on either side: the derivative is negative between zero and two, then positive between two and three. They also note that h(0) and h(3) are both zero. Before reporting a total geometric area between the graph and the time axis, they discuss whether the integral’s sign should be retained."
+      ],
+      "questions": [
+        {
+          "prompt": "How should the stationary point at t = 2 be classified?",
+          "options": [
+            "A local maximum, because the derivative is zero",
+            "A point where the signal is necessarily zero",
+            "A local minimum, because the derivative changes from negative to positive",
+            "A discontinuity, because a derivative changes sign"
+          ],
+          "answer": 2,
+          "hint": "Track the direction of change immediately before and after two.",
+          "explanation": "The signal decreases before t = 2 and increases afterwards. Its value there is −4; a zero derivative does not by itself imply either a maximum or a zero signal."
+        },
+        {
+          "prompt": "What is the geometric area between h and the axis over [0,3]?",
+          "options": [
+            "27/4 square units",
+            "−27/4 square units",
+            "0 square units",
+            "9/2 square units"
+          ],
+          "answer": 0,
+          "hint": "Factor h(t) = t²(t − 3) to determine its sign.",
+          "explanation": "The graph is non-positive on [0,3]. Its integral is [t⁴/4 − t³]₀³ = −27/4, so geometric area is the positive value 27/4."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Analyse a cubic on a closed interval",
+      "summary": "Use one complete function to connect algebra, extrema and area.",
+      "body": [
+        "Let f(x) = x³ − 6x² + 9x + 2 for 0 ≤ x ≤ 4. The baseline used in the final area question is y = 2, and that question concerns only 0 ≤ x ≤ 3. All quantities are dimensionless. Distinguish local extrema from the largest value over the entire stated interval."
+      ],
+      "questions": [
+        {
+          "prompt": "What are the stationary x-values?",
+          "options": [
+            "x = 0 and x = 3",
+            "x = 2 only",
+            "x = −1 and x = −3",
+            "x = 1 and x = 3"
+          ],
+          "answer": 3,
+          "hint": "Differentiate and factor the resulting quadratic.",
+          "explanation": "f′(x) = 3x² − 12x + 9 = 3(x − 1)(x − 3), so the two stationary values are 1 and 3."
+        },
+        {
+          "prompt": "Which classification is correct?",
+          "options": [
+            "Local minima at both x = 1 and x = 3",
+            "A local maximum at x = 1 and a local minimum at x = 3",
+            "A local minimum at x = 1 and a local maximum at x = 3",
+            "Neither point can be classified because f′ is zero"
+          ],
+          "answer": 1,
+          "hint": "Use f″(x) = 6x − 12 or the signs of f′.",
+          "explanation": "f″(1) = −6 identifies a local maximum and f″(3) = 6 a local minimum. Equivalently, derivative signs change + to − and then − to +."
+        },
+        {
+          "prompt": "Where is the absolute maximum on [0,4] attained?",
+          "options": [
+            "Only at x = 1, with value 6",
+            "Only at x = 3, with value 2",
+            "At both x = 1 and x = 4, with value 6",
+            "At x = 0, with value 9"
+          ],
+          "answer": 2,
+          "hint": "Evaluate both endpoints as well as stationary points.",
+          "explanation": "f(0) = 2, f(1) = 6, f(3) = 2 and f(4) = 6. The largest value is attained at the interior local maximum and the right endpoint."
+        },
+        {
+          "prompt": "What is the area between f(x) and y = 2 from x = 0 to x = 3?",
+          "options": [
+            "51/4 square units",
+            "27/4 square units",
+            "9 square units",
+            "−27/4 square units"
+          ],
+          "answer": 1,
+          "hint": "Integrate f(x) − 2 after noting it equals x(x − 3)².",
+          "explanation": "The difference is non-negative on [0,3]. Its integral is [x⁴/4 − 2x³ + 9x²/2]₀³ = 81/4 − 54 + 81/2 = 27/4. Integrating f alone would include the rectangle below the baseline."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-ict-dependencies-and-design",
+    "levelId": "t6",
+    "subjectId": "ict",
+    "note": {
+      "title": "Functional dependencies and update anomalies",
+      "summary": "Design relational tables using stated business rules and stable keys.",
+      "body": [
+        "A functional dependency X → Y means that each permitted value of X determines one value of Y under the system’s business rules. It is a constraint on all valid states, not a coincidence in a small sample. Normalisation uses dependencies to reduce avoidable repetition and the insertion, update or deletion anomalies it can create.",
+        "Worked example: an enrolment table has StudentID, ModuleID, StudentName and Grade, with key (StudentID, ModuleID). StudentID determines StudentName, while the full key determines Grade. Repeating the name in every enrolment creates a partial dependency. Separate Student(StudentID, StudentName) from Enrolment(StudentID, ModuleID, Grade), then link records through StudentID.",
+        "A common misconception says adding an arbitrary ID automatically fixes normalisation. A surrogate key can identify rows while the original dependencies and duplicated facts remain. Another assumes normalisation alone guarantees correctness: keys, foreign keys and validation rules are still needed to enforce permitted relationships and values."
+      ],
+      "keyPoints": [
+        "Derive dependencies from business rules rather than accidental sample patterns.",
+        "Store a fact with the key on which it depends.",
+        "Use integrity constraints alongside decomposition."
+      ]
+    },
+    "reading": {
+      "title": "An equipment checkout register",
+      "summary": "An original case exposes a repeated fact and an update anomaly.",
+      "body": [
+        "A college register stores CheckoutID, DeviceID, DeviceModel, BorrowerID and ReturnDate in every row. Each device has one fixed model, but a device may be checked out many times. During data entry, staff correct the model name for one checkout while older rows retain the previous spelling. A report now lists two models for the same DeviceID. The technician proposes a Device table with one row per DeviceID, leaving DeviceID as a reference in each checkout. Staff also require a rule that prevents a checkout from referring to a device absent from the Device table. They want the design to preserve complete checkout history."
+      ],
+      "questions": [
+        {
+          "prompt": "Which dependency explains the repeated model fact?",
+          "options": [
+            "DeviceID → DeviceModel",
+            "ReturnDate → BorrowerID",
+            "DeviceModel → CheckoutID",
+            "BorrowerID → DeviceID"
+          ],
+          "answer": 0,
+          "hint": "Use the rule about one fixed model for each device.",
+          "explanation": "A DeviceID determines its model across all checkouts. Return dates and borrowers do not determine unique checkout or device identities under the stated rules."
+        },
+        {
+          "prompt": "What constraint directly prevents references to nonexistent devices?",
+          "options": [
+            "A larger font for DeviceModel",
+            "A rule that sorts checkouts by ReturnDate",
+            "A comment asking staff to remember every device",
+            "A foreign key from Checkout.DeviceID to Device.DeviceID"
+          ],
+          "answer": 3,
+          "hint": "Choose an enforced relationship between the two tables.",
+          "explanation": "A foreign key checks that the referenced device exists. Sorting and presentation changes do not enforce referential integrity."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Decomposing a project allocation table",
+      "summary": "Identify partial and transitive dependencies from explicit rules.",
+      "body": [
+        "Allocation(EmployeeID, ProjectID, EmployeeName, DepartmentID, DepartmentName, Hours) has composite key (EmployeeID, ProjectID). Each employee belongs to one department. Rules: EmployeeID → EmployeeName, DepartmentID; DepartmentID → DepartmentName; (EmployeeID, ProjectID) → Hours. A department can contain many employees, and a project can contain many employees. No other functional dependencies are assumed. All stored values are atomic."
+      ],
+      "questions": [
+        {
+          "prompt": "Which fact depends on the whole composite key under these rules?",
+          "options": [
+            "EmployeeName",
+            "Hours",
+            "DepartmentName",
+            "DepartmentID"
+          ],
+          "answer": 1,
+          "hint": "Find the dependency whose determinant uses both identifiers.",
+          "explanation": "The allocated hours belong to one employee–project pair. Employee and department details can be determined without ProjectID, so they do not depend on the whole composite key."
+        },
+        {
+          "prompt": "Why is EmployeeName a partial dependency in the original table?",
+          "options": [
+            "EmployeeName has fewer letters than DepartmentName",
+            "EmployeeName must contain several values in one cell",
+            "ProjectID alone determines every employee name",
+            "EmployeeID alone, a proper part of the composite key, determines it"
+          ],
+          "answer": 3,
+          "hint": "Partial dependency concerns the determinant, not the length of a field.",
+          "explanation": "The whole key is (EmployeeID, ProjectID), but EmployeeID alone determines EmployeeName. This causes the same employee fact to repeat across project allocations."
+        },
+        {
+          "prompt": "After separating Employee(EmployeeID, EmployeeName, DepartmentID, DepartmentName), what remains to be addressed?",
+          "options": [
+            "DepartmentName depends transitively on EmployeeID through DepartmentID",
+            "Hours has become the primary key of Employee",
+            "ProjectID now determines all department names",
+            "EmployeeName must be split into one table per character"
+          ],
+          "answer": 0,
+          "hint": "Follow EmployeeID → DepartmentID → DepartmentName.",
+          "explanation": "DepartmentName is a department fact repeated among its employees. A separate Department(DepartmentID, DepartmentName) removes that transitive repetition while Employee retains DepartmentID."
+        },
+        {
+          "prompt": "Which decomposition best matches the stated dependencies?",
+          "options": [
+            "Employee(EmployeeID, Hours), Department(DepartmentID, ProjectID), Allocation(EmployeeName, DepartmentName)",
+            "One table containing only a new AllocationID plus every original repeated field",
+            "Employee(EmployeeID, EmployeeName, DepartmentID), Department(DepartmentID, DepartmentName), Allocation(EmployeeID, ProjectID, Hours)",
+            "One table per project with employee and department names copied into every row"
+          ],
+          "answer": 2,
+          "hint": "Place employee, department and allocation facts with their respective keys.",
+          "explanation": "The three tables place each fact with its determinant and retain identifiers needed for joins. Appropriate primary and foreign keys then enforce identity and references; merely adding an ID would leave repeated facts unchanged."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-physics-flux-and-induction",
+    "levelId": "t6",
+    "subjectId": "physics",
+    "note": {
+      "title": "Magnetic flux and induced emf",
+      "summary": "Track area orientation, flux linkage and the direction of change.",
+      "body": [
+        "Magnetic flux through a flat loop in a uniform field is Φ = BA cos θ, where θ is measured between the field and the normal to the loop’s plane. For N identical turns, flux linkage is NΦ. Faraday’s law gives induced emf as −d(NΦ)/dt; its magnitude depends on how quickly linkage changes, rather than simply how large the field is.",
+        "Worked example: a 50-turn coil has area 0.020 m² with its normal parallel to the field. If B increases uniformly from 0.10 T to 0.30 T in 0.40 s, the emf magnitude is 50 × 0.020 × 0.20/0.40 = 0.50 V.",
+        "A common misconception measures θ from the coil’s plane and uses the same cosine expression. Another treats the minus sign as a negative magnitude. Lenz’s law instead describes a direction opposing the change in flux. Induced current also requires a closed conducting path; an emf can exist across an open coil."
+      ],
+      "keyPoints": [
+        "Measure θ from the area normal when using BA cos θ.",
+        "Distinguish flux per turn from total flux linkage.",
+        "Use the change in flux to determine direction, and circuit conditions to determine current."
+      ]
+    },
+    "reading": {
+      "title": "Two ways to rotate a sensor coil",
+      "summary": "An original experiment links orientation to changing flux.",
+      "body": [
+        "A laboratory sensor uses a flat coil in a uniform, steady magnetic field. In trial A, the coil rotates so that the angle between its normal and the field changes from zero to ninety degrees. In trial B, the coil spins about its own normal while that normal remains parallel to the field. The number of turns, area and field magnitude are unchanged in both trials. A student expects equal induced emf because both coils are visibly rotating. The partner instead calculates flux from orientation. The coil terminals are connected only to an ideal voltmeter, so the experiment compares emf without assuming an appreciable current through a closed load."
+      ],
+      "questions": [
+        {
+          "prompt": "Which trial has a net change in flux from beginning to end?",
+          "options": [
+            "Trial B only",
+            "Both trials have identical flux changes",
+            "Neither trial can change flux in a steady field",
+            "Trial A only"
+          ],
+          "answer": 3,
+          "hint": "The field can remain steady while the orientation of the area changes.",
+          "explanation": "In A, flux changes from BA to zero per turn. In B, the normal remains parallel to the field, so BA cos θ stays constant despite visible rotation."
+        },
+        {
+          "prompt": "Why is visible rotation alone insufficient to infer induced emf?",
+          "options": [
+            "All rotations necessarily change the magnetic field strength",
+            "A coil can have no area if it rotates",
+            "Only rotation that changes flux linkage contributes through Faraday’s law",
+            "An ideal voltmeter creates the magnetic field"
+          ],
+          "answer": 2,
+          "hint": "Track the quantity in Faraday’s law rather than motion alone.",
+          "explanation": "Flux linkage depends on field, area and orientation. Motion that leaves all relevant factors unchanged need not produce an emf in this idealised setting."
+        }
+      ]
+    },
+    "practice": {
+      "title": "A coil in a uniformly changing field",
+      "summary": "Calculate flux linkage, emf and current direction with explicit assumptions.",
+      "body": [
+        "A 120-turn coil has area 0.015 m² per turn and total resistance 6.0 Ω in a closed circuit. Its normal is parallel to a uniform field directed into the page. The field increases linearly from 0.20 T to 0.50 T in 0.10 s. Ignore self-inductance and all other emf sources. View the coil directly face-on. After the change, the field is held constant at 0.50 T."
+      ],
+      "questions": [
+        {
+          "prompt": "What is the change in flux linkage during the increase?",
+          "options": [
+            "0.0045 Wb-turn",
+            "0.54 Wb-turn",
+            "0.90 Wb-turn",
+            "5.4 Wb-turn"
+          ],
+          "answer": 1,
+          "hint": "Multiply the flux change per turn by 120.",
+          "explanation": "Δ(NΦ) = 120 × 0.015 × (0.50 − 0.20) = 0.54 Wb-turn. The value 0.0045 Wb is the flux change for one turn only."
+        },
+        {
+          "prompt": "What is the emf magnitude during the linear increase?",
+          "options": [
+            "5.4 V",
+            "0.54 V",
+            "54 V",
+            "0.045 V"
+          ],
+          "answer": 0,
+          "hint": "Divide the linkage change by 0.10 s.",
+          "explanation": "|emf| = 0.54/0.10 = 5.4 V. The field changes at a constant rate, so the emf is constant during that interval under the assumptions."
+        },
+        {
+          "prompt": "What are the induced current magnitude and direction during the increase?",
+          "options": [
+            "0.90 A, clockwise as viewed",
+            "3.24 A, anticlockwise as viewed",
+            "0.90 A, anticlockwise as viewed",
+            "0.09 A, clockwise as viewed"
+          ],
+          "answer": 2,
+          "hint": "Use I = emf/R and oppose the increasing field into the page.",
+          "explanation": "I = 5.4/6.0 = 0.90 A. The coil’s induced field must point out of the page to oppose the increase into the page; the right-hand rule gives anticlockwise current."
+        },
+        {
+          "prompt": "What is the induced emf once the field is constant, under the stated assumptions?",
+          "options": [
+            "0 V",
+            "5.4 V",
+            "9.0 V",
+            "0.90 V"
+          ],
+          "answer": 0,
+          "hint": "A nonzero flux is different from a changing flux.",
+          "explanation": "With area and orientation fixed and B constant, flux linkage no longer changes. Faraday’s law therefore gives zero induced emf, although the magnetic field remains nonzero."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-chemistry-reaction-quotient",
+    "levelId": "t6",
+    "subjectId": "chemistry",
+    "note": {
+      "title": "Equilibrium composition and reaction quotient",
+      "summary": "Predict the direction of change by comparing Qc with Kc.",
+      "body": [
+        "For a reaction written with specified stoichiometric coefficients, the equilibrium constant relates equilibrium concentrations at a given temperature. The reaction quotient Qc uses the same expression with the current concentrations. If Qc is below Kc, the forward reaction is favoured until equilibrium is restored; if Qc is above Kc, the reverse direction is favoured.",
+        "Worked example: for N₂O₄(g) ⇌ 2NO₂(g), suppose equilibrium concentrations are [N₂O₄] = 0.040 mol dm⁻³ and [NO₂] = 0.120 mol dm⁻³. Then Kc = [NO₂]²/[N₂O₄] = 0.360 mol dm⁻³ in this concentration convention. The coefficient two becomes a power; it is not multiplied directly by concentration.",
+        "A common misconception says a catalyst increases the equilibrium yield. It accelerates approach to equilibrium without changing Kc at the same temperature. Changing temperature can change Kc. Changing volume can alter concentrations and Qc immediately, after which the mixture may react towards a new equilibrium composition."
+      ],
+      "keyPoints": [
+        "Use equilibrium concentrations for Kc and current concentrations for Qc.",
+        "Stoichiometric coefficients become powers in the expression.",
+        "Separate changes in rate, composition and the equilibrium constant."
+      ]
+    },
+    "reading": {
+      "title": "A catalyst in a sealed reaction vessel",
+      "summary": "An original comparison distinguishes faster equilibration from a different equilibrium.",
+      "body": [
+        "Two sealed vessels contain identical initial mixtures for the model reaction A(g) + B(g) ⇌ C(g). Both vessels are kept at the same constant temperature and volume. A suitable catalyst is added to one vessel. Measurements show that its concentrations become steady after four minutes, while the uncatalysed vessel requires twenty minutes. At the end, both vessels have [A] = 0.50 mol dm⁻³, [B] = 0.50 mol dm⁻³ and [C] = 1.00 mol dm⁻³. A student says the catalyst has made the reaction more product-favoured. The teacher asks the student to distinguish the time taken from the final concentration ratio before interpreting the results."
+      ],
+      "questions": [
+        {
+          "prompt": "What value of Kc is obtained from either final mixture?",
+          "options": [
+            "2.00 dm³ mol⁻¹",
+            "4.00 dm³ mol⁻¹",
+            "0.25 dm³ mol⁻¹",
+            "1.00 dm³ mol⁻¹"
+          ],
+          "answer": 1,
+          "hint": "Use [C]/([A][B]) for the reaction as written.",
+          "explanation": "Kc = 1.00/(0.50 × 0.50) = 4.00 dm³ mol⁻¹ in the stated concentration convention. Both final mixtures give the same value."
+        },
+        {
+          "prompt": "Which interpretation best matches the observations?",
+          "options": [
+            "The catalyst quadruples Kc because four minutes were required",
+            "The uncatalysed vessel cannot ever reach equilibrium",
+            "The catalyst changes the reaction’s stoichiometric coefficients",
+            "The catalyst reduces the time to reach equilibrium without changing the final equilibrium ratio"
+          ],
+          "answer": 3,
+          "hint": "Compare the measured final concentrations as well as the times.",
+          "explanation": "The mixtures reach identical final concentration ratios at the same temperature. The difference is kinetic: the catalysed system reaches that state sooner."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Dimer dissociation under changed conditions",
+      "summary": "Combine mole-to-concentration conversion with equilibrium reasoning.",
+      "body": [
+        "For N₂O₄(g) ⇌ 2NO₂(g), a closed 2.00 dm³ vessel initially contains 1.00 mol N₂O₄ and no NO₂. At equilibrium at temperature T, 0.400 mol N₂O₄ remains. The forward dissociation is endothermic. Assume ideal gas behaviour and use concentration-based Kc. For the expansion case only, the equilibrium mixture is suddenly expanded to 4.00 dm³ at the same T; consider the instant before further reaction."
+      ],
+      "questions": [
+        {
+          "prompt": "How many moles of NO₂ are present at the original equilibrium?",
+          "options": [
+            "1.20 mol",
+            "0.600 mol",
+            "0.400 mol",
+            "2.00 mol"
+          ],
+          "answer": 0,
+          "hint": "Each mole of N₂O₄ consumed produces two moles of NO₂.",
+          "explanation": "N₂O₄ consumed = 1.00 − 0.400 = 0.600 mol. Stoichiometry gives 2 × 0.600 = 1.20 mol NO₂."
+        },
+        {
+          "prompt": "What is Kc at temperature T?",
+          "options": [
+            "3.60 mol dm⁻³",
+            "1.80 mol dm⁻³",
+            "0.900 mol dm⁻³",
+            "0.300 mol dm⁻³"
+          ],
+          "answer": 1,
+          "hint": "Convert each equilibrium amount using the original 2.00 dm³ volume.",
+          "explanation": "[N₂O₄] = 0.200 and [NO₂] = 0.600 mol dm⁻³. Kc = 0.600²/0.200 = 1.80 mol dm⁻³; substituting mole amounts directly would give a different and incorrect value."
+        },
+        {
+          "prompt": "Immediately after expansion, how does Qc compare with Kc and which direction follows?",
+          "options": [
+            "Qc = 1.80 mol dm⁻³, so composition cannot change",
+            "Qc = 3.60 mol dm⁻³, so net reaction proceeds forward",
+            "Qc = 0.900 mol dm⁻³, so net reaction proceeds in reverse",
+            "Qc = 0.900 mol dm⁻³, so net reaction proceeds forward"
+          ],
+          "answer": 3,
+          "hint": "Amounts initially stay fixed while concentrations halve.",
+          "explanation": "After expansion, [NO₂] = 0.300 and [N₂O₄] = 0.100. Qc = 0.300²/0.100 = 0.900 < 1.80, so further dissociation raises the quotient towards Kc."
+        },
+        {
+          "prompt": "What happens to Kc if temperature is increased for this endothermic forward reaction?",
+          "options": [
+            "Kc decreases",
+            "Kc is necessarily unchanged because volume is fixed",
+            "Kc increases",
+            "Kc becomes zero for every endothermic reaction"
+          ],
+          "answer": 2,
+          "hint": "Use the supplied enthalpy direction, not the presence of a catalyst.",
+          "explanation": "Higher temperature favours the endothermic direction, increasing the equilibrium product-to-reactant ratio in the Kc expression. Unlike a catalyst, a temperature change can alter Kc."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-biology-enzyme-models",
+    "levelId": "t6",
+    "subjectId": "biology",
+    "note": {
+      "title": "Enzyme saturation and competitive inhibition",
+      "summary": "Interpret rate data using a defined model and controlled conditions.",
+      "body": [
+        "Enzyme reaction rates depend on substrate availability as well as enzyme concentration and conditions. In the Michaelis–Menten model, v = Vmax[S]/(Km + [S]). Vmax is the limiting rate at high substrate concentration, while Km equals the substrate concentration at half Vmax. These parameters describe a model fitted under specified conditions.",
+        "Worked example: let Vmax = 120 arbitrary rate units and Km = 3 mmol dm⁻³. At [S] = 3, v = 60. If a reversible competitive inhibitor raises the apparent Km to 9 while Vmax stays 120, the predicted rate at the same substrate concentration becomes 30. More substrate is needed to attain half the limiting rate.",
+        "A common misconception says every inhibitor lowers Vmax. In ideal competitive inhibition, sufficiently high substrate can approach the same limit. A matching rate pattern supports that model but does not by itself reveal an inhibitor’s complete molecular structure. Temperature, pH and enzyme amount must remain controlled for comparisons."
+      ],
+      "keyPoints": [
+        "Km is the substrate concentration giving half Vmax in this model.",
+        "Ideal competitive inhibition raises apparent Km without lowering Vmax.",
+        "Control experimental conditions and distinguish model support from molecular proof."
+      ]
+    },
+    "reading": {
+      "title": "Two rate curves in a teaching laboratory",
+      "summary": "An original dataset requires a cautious mechanistic interpretation.",
+      "body": [
+        "A teaching laboratory measures initial rates of the same enzyme with and without substance X. Temperature, pH and enzyme concentration are held constant. At low substrate concentrations, rates with X are smaller. As substrate concentration becomes very high, both curves approach 100 arbitrary rate units. The substrate concentration giving a rate of 50 units is 2 mmol dm⁻³ without X and 6 mmol dm⁻³ with X. The students propose an ideal competitive inhibition model. Their supervisor accepts it as a useful explanation of the pattern but asks for additional experiments before claiming the exact binding interaction of X has been directly observed."
+      ],
+      "questions": [
+        {
+          "prompt": "What parameter pattern is supported by the observations?",
+          "options": [
+            "Lower Vmax with unchanged apparent Km",
+            "Both Vmax and apparent Km become zero",
+            "Unchanged Vmax with a larger apparent Km in the presence of X",
+            "Vmax triples while apparent Km is unchanged"
+          ],
+          "answer": 2,
+          "hint": "Identify the common plateau and the concentration at half that plateau.",
+          "explanation": "Both curves approach 100, so Vmax is unchanged in the fitted model. Half-maximal rate requires 6 rather than 2 mmol dm⁻³ substrate with X, indicating a larger apparent Km."
+        },
+        {
+          "prompt": "Why is the supervisor’s qualification appropriate?",
+          "options": [
+            "A rate pattern can support a mechanism without directly observing its molecular binding details",
+            "All enzyme rate measurements are meaningless",
+            "Matching Vmax proves that X has no effect at any substrate concentration",
+            "The experiment demonstrates that temperature was uncontrolled"
+          ],
+          "answer": 0,
+          "hint": "Separate an inferred model from a directly measured molecular event.",
+          "explanation": "The observations are consistent with competitive inhibition under the stated assumptions. They do not directly image binding or uniquely establish every molecular detail."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Calculate rates and test an enzyme model",
+      "summary": "Use the supplied equation to compare substrate and enzyme changes.",
+      "body": [
+        "Use v = Vmax[S]/(Km + [S]). Without inhibitor, Vmax = 80 μmol min⁻¹ and Km = 4 mmol dm⁻³. With an ideal reversible competitive inhibitor, Vmax remains 80 μmol min⁻¹ and apparent Km becomes 12 mmol dm⁻³. Temperature, pH and the original enzyme amount are fixed unless a question explicitly changes them. Initial rates are measured before substantial substrate depletion."
+      ],
+      "questions": [
+        {
+          "prompt": "What is the uninhibited rate at [S] = 4 mmol dm⁻³?",
+          "options": [
+            "80 μmol min⁻¹",
+            "20 μmol min⁻¹",
+            "10 μmol min⁻¹",
+            "40 μmol min⁻¹"
+          ],
+          "answer": 3,
+          "hint": "At substrate concentration equal to Km, the rate is half Vmax.",
+          "explanation": "v = 80 × 4/(4 + 4) = 40 μmol min⁻¹. Substrate equal to Km does not produce the full limiting rate."
+        },
+        {
+          "prompt": "What is the inhibited rate at the same [S] = 4 mmol dm⁻³?",
+          "options": [
+            "40 μmol min⁻¹",
+            "20 μmol min⁻¹",
+            "60 μmol min⁻¹",
+            "80 μmol min⁻¹"
+          ],
+          "answer": 1,
+          "hint": "Use the apparent Km of 12 for the inhibited model.",
+          "explanation": "v = 80 × 4/(12 + 4) = 20 μmol min⁻¹. The limiting rate is unchanged, but this substrate level is insufficient to approach it."
+        },
+        {
+          "prompt": "What substrate concentration gives an inhibited rate of 40 μmol min⁻¹?",
+          "options": [
+            "4 mmol dm⁻³",
+            "8 mmol dm⁻³",
+            "12 mmol dm⁻³",
+            "24 mmol dm⁻³"
+          ],
+          "answer": 2,
+          "hint": "Forty is half the inhibited Vmax.",
+          "explanation": "40 = 80S/(12 + S) gives 480 + 40S = 80S, hence S = 12 mmol dm⁻³. This is the apparent Km for the inhibited condition."
+        },
+        {
+          "prompt": "If enzyme amount is doubled without inhibitor, what does the ideal model predict at [S] = 4 mmol dm⁻³?",
+          "options": [
+            "Km doubles to 8 while Vmax remains 80",
+            "Vmax doubles to 160 and the rate becomes 80 μmol min⁻¹",
+            "Vmax remains 80 and the rate must remain 40",
+            "The rate becomes zero because enzyme is in excess"
+          ],
+          "answer": 1,
+          "hint": "In the ideal model, more active enzyme increases capacity while Km remains fixed.",
+          "explanation": "Doubling active enzyme doubles Vmax, with Km still 4. The predicted rate is 160 × 4/(4 + 4) = 80 μmol min⁻¹, assuming the stated initial-rate conditions remain valid."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-sports_science-momen-daya",
+    "levelId": "t6",
+    "subjectId": "sports_science",
+    "note": {
+      "title": "Momen daya dalam model biomekanik",
+      "summary": "Menghubungkan daya, jarak serenjang dan keseimbangan putaran.",
+      "body": [
+        "Analisis biomekanik boleh memodelkan anggota sebagai segmen tegar yang berputar pada sendi. Momen daya bergantung pada magnitud daya serta jarak serenjang dari paksi kepada garis tindakannya: τ = Fd. Untuk keadaan statik, jumlah momen mengikut jam dan melawan jam seimbang; keseimbangan daya juga perlu dipenuhi jika semua daya hendak ditentukan.",
+        "Contoh kerja: beban 40 N bertindak pada jarak serenjang 0.30 m dari siku, menghasilkan momen 12 N m. Jika daya otot mempunyai lengan momen 0.040 m dan tiada momen lain dalam model, daya otot yang menyeimbangkan beban ialah 12/0.040 = 300 N. Lengan momen kecil boleh memerlukan daya dalaman yang jauh lebih besar daripada beban luar.",
+        "Salah tanggapan ialah menggunakan panjang anggota terus sebagai lengan momen bagi semua daya. Sudut garis tindakan menentukan jarak serenjang sebenar. Model ringkas berguna untuk menjelaskan prinsip, tetapi bentuk sendi, beberapa otot dan gerakan dinamik mengehadkan penggunaannya bagi tubuh sebenar."
+      ],
+      "keyPoints": [
+        "Lengan momen ialah jarak serenjang kepada garis tindakan daya.",
+        "Imbangi semua momen yang diberikan sekitar paksi yang sama.",
+        "Nyatakan andaian model sebelum mentafsir daya dalaman."
+      ]
+    },
+    "reading": {
+      "title": "Dua kedudukan beban dalam demonstrasi",
+      "summary": "Kes pengajaran asli tentang mengapa beban sama boleh terasa berbeza.",
+      "body": [
+        "Dalam demonstrasi biomekanik menggunakan model lengan, daya beban yang sama diletakkan pada dua kedudukan. Pada kedudukan A, jarak serenjang dari paksi siku ialah 0.25 m; pada B, jaraknya 0.15 m. Berat segmen dan lengan momen daya otot dikekalkan dalam model. Seorang pelajar menjangka daya otot sama kerana beban luar tidak berubah. Pelajar lain membezakan magnitud daya daripada kesan putarannya. Pensyarah meminta mereka mengira momen beban dahulu dan menyatakan andaian sebelum membincangkan daya otot. Demonstrasi ini ialah analisis model statik, bukan arahan memilih beban senaman atau kaedah merawat kecederaan."
+      ],
+      "questions": [
+        {
+          "prompt": "Bagaimanakah momen beban pada B dibandingkan dengan A?",
+          "options": [
+            "Momen B ialah 60% daripada momen A",
+            "Momen B ialah 40% daripada momen A",
+            "Momen B ialah 150% daripada momen A",
+            "Kedua-dua momen semestinya sama"
+          ],
+          "answer": 0,
+          "hint": "Daya sama, jadi nisbah momen sama dengan nisbah jarak serenjang.",
+          "explanation": "τB/τA = 0.15/0.25 = 0.60. Magnitud beban sahaja tidak menentukan momen; kedudukan garis tindakannya turut penting."
+        },
+        {
+          "prompt": "Jika momen berat segmen dan lengan momen otot kekal, apakah kesan memindahkan beban dari A ke B?",
+          "options": [
+            "Daya otot mesti menjadi sifar",
+            "Daya otot pasti meningkat kerana jarak berkurang",
+            "Berat segmen berubah menjadi sifar",
+            "Daya otot untuk keseimbangan statik menjadi lebih kecil"
+          ],
+          "answer": 3,
+          "hint": "Jumlah momen luar berkurang sementara pembahagi bagi daya otot kekal.",
+          "explanation": "Momen beban berkurang, jadi jumlah momen yang perlu diimbangi otot juga berkurang. Momen berat segmen masih ada, maka daya tidak semestinya sifar."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Keseimbangan momen pada segmen lengan",
+      "summary": "Menyelesaikan model statik dengan dua daya luar dan satu daya otot.",
+      "body": [
+        "Model lengan bawah mendatar berpaksi pada siku. Beban 60 N bertindak ke bawah pada jarak 0.30 m dari siku. Berat segmen 20 N bertindak ke bawah pada jarak 0.15 m. Daya otot menghasilkan momen bertentangan dengan lengan momen serenjang 0.035 m. Abaikan momen lain. Daya tindak balas sendi melalui paksi dan tidak menghasilkan momen tentang paksi itu. Untuk kes pemindahan beban sahaja, beban 60 N dipindahkan ke jarak 0.20 m."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah jumlah momen kedua-dua daya ke bawah dalam keadaan asal?",
+          "options": [
+            "18 N m",
+            "21 N m",
+            "3 N m",
+            "24 N m"
+          ],
+          "answer": 1,
+          "hint": "Jumlahkan momen beban dan berat segmen tentang siku.",
+          "explanation": "Momen beban = 60 × 0.30 = 18 N m; momen segmen = 20 × 0.15 = 3 N m. Kedua-duanya searah, jadi jumlahnya 21 N m."
+        },
+        {
+          "prompt": "Berapakah daya otot untuk keseimbangan momen asal?",
+          "options": [
+            "300 N",
+            "60 N",
+            "735 N",
+            "600 N"
+          ],
+          "answer": 3,
+          "hint": "Daya otot didarab lengan momennya mesti menghasilkan 21 N m.",
+          "explanation": "F × 0.035 = 21, maka F = 600 N. Daya dalaman besar berpunca daripada lengan momen otot yang pendek dalam model ini."
+        },
+        {
+          "prompt": "Selepas beban dipindahkan ke 0.20 m, berapakah daya otot baharu, dibundarkan kepada tiga angka bererti?",
+          "options": [
+            "429 N",
+            "343 N",
+            "600 N",
+            "171 N"
+          ],
+          "answer": 0,
+          "hint": "Kira semula momen beban tetapi kekalkan momen berat segmen.",
+          "explanation": "Momen baharu = 60(0.20) + 20(0.15) = 15 N m. F = 15/0.035 = 428.571… N, iaitu 429 N; mengabaikan berat segmen akan memberi nilai terlalu kecil."
+        },
+        {
+          "prompt": "Mengapakah model ini tidak menentukan daya sendi sepenuhnya melalui persamaan momen sahaja?",
+          "options": [
+            "Semua daya yang tiada momen mesti mempunyai magnitud sifar",
+            "Sendi tidak pernah mengalami sebarang daya",
+            "Daya sendi melalui paksi, jadi momennya sifar walaupun magnitud dayanya belum diketahui",
+            "Keseimbangan momen secara automatik memberikan semua komponen daya"
+          ],
+          "answer": 2,
+          "hint": "Bezakan persamaan keseimbangan putaran daripada keseimbangan translasi.",
+          "explanation": "Daya melalui paksi tidak muncul dalam jumlah momen tentang paksi itu. Komponen arah dan keseimbangan daya diperlukan untuk menentukan tindak balas sendi, dan arah penuh daya otot belum diberikan."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t6-visual_art-hierarki-dan-makna",
+    "levelId": "t6",
+    "subjectId": "visual_art",
+    "note": {
+      "title": "Analisis formal dan hierarki makna",
+      "summary": "Menghubungkan susunan visual dengan tafsiran dan tujuan komunikasi.",
+      "body": [
+        "Analisis formal meneliti hubungan unsur seperti garisan, rupa, warna, jalinan dan ruang dengan prinsip penyusunan. Penegasan boleh terhasil melalui kontras saiz, tona atau kedudukan. Keseimbangan tidak semestinya simetri: bentuk kecil yang sangat berbeza boleh mengimbangi perhatian terhadap bentuk lebih besar. Tafsiran perlu menjelaskan cara mata diarahkan dan kaitannya dengan tujuan karya.",
+        "Contoh kerja: poster rekaan memaparkan satu bekas air biru kecil di tengah latar kelabu luas, dengan angka besar tentang penggunaan air di bahagian atas. Kontras warna menarik perhatian pada bekas, sementara saiz angka menetapkan hierarki maklumat. Jika butiran tindakan terlalu kecil, poster mungkin menarik perhatian tetapi gagal membantu khalayak bertindak.",
+        "Salah tanggapan ialah menganggap warna mempunyai satu makna universal yang pasti. Konteks, hubungan visual dan pengalaman khalayak mempengaruhi tafsiran. Penilaian yang kukuh memisahkan pemerhatian bentuk daripada tafsiran makna, kemudian menguji sama ada pilihan visual menyokong mesej dan kebolehbacaan."
+      ],
+      "keyPoints": [
+        "Hubungkan setiap istilah formal dengan bukti visual yang khusus.",
+        "Bezakan penegasan, keseimbangan dan hierarki maklumat.",
+        "Uji tafsiran warna serta simbol melalui konteks, bukan andaian universal."
+      ]
+    },
+    "reading": {
+      "title": "Poster “Ruang Untuk Semua” rekaan",
+      "summary": "Senario visual asli tentang perhatian dan kebolehcapaian maklumat.",
+      "body": [
+        "Sebuah poster rekaan bagi pameran komuniti menggunakan latar putih dan tajuk hitam besar. Di sebelah kiri terdapat enam bentuk manusia kelabu yang rapat; di sebelah kanan, satu bentuk merah dipisahkan oleh ruang kosong luas. Tarikh dan lokasi dicetak dalam kelabu sangat pucat pada bahagian bawah. Pereka menyatakan bahawa bentuk merah menimbulkan persoalan tentang keterasingan. Seorang pengulas bersetuju bahawa kontras warna dan jarak boleh menyokong tafsiran itu, tetapi mengingatkan bahawa penonton belum tentu mengenal pasti maksud yang sama. Dalam ujian ringkas, ramai peserta melihat bentuk merah dahulu tetapi beberapa orang gagal membaca lokasi pameran dari jarak biasa."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah bukti formal paling langsung yang menyokong tafsiran keterasingan?",
+          "options": [
+            "Tajuk menggunakan huruf yang boleh dibaca",
+            "Poster mempunyai bahagian atas dan bawah",
+            "Semua bentuk diberi warna dan jarak yang sama",
+            "Pemisahan ruang dan perbezaan warna satu bentuk daripada kelompok"
+          ],
+          "answer": 3,
+          "hint": "Gabungkan hubungan ruang dengan kontras pada bentuk tunggal.",
+          "explanation": "Bentuk merah berbeza dan terpisah daripada kelompok kelabu. Gabungan itu menyokong tafsiran sosial, walaupun tidak memaksa semua penonton memberikan makna yang sama."
+        },
+        {
+          "prompt": "Apakah pindaan paling langsung menangani dapatan ujian lokasi?",
+          "options": [
+            "Tambahkan lebih banyak bentuk merah tanpa mengubah teks",
+            "Padamkan lokasi untuk meluaskan tafsiran",
+            "Tingkatkan kontras tona dan kebolehbacaan maklumat lokasi",
+            "Kekalkan teks pucat kerana perhatian pertama sudah berjaya"
+          ],
+          "answer": 2,
+          "hint": "Masalah yang diperhatikan ialah pembacaan maklumat tindakan.",
+          "explanation": "Kontras teks terhadap latar perlu cukup untuk dibaca. Penegasan imej dan kejelasan maklumat ialah fungsi berbeza yang kedua-duanya penting bagi poster acara."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Membandingkan dua susun atur pameran",
+      "summary": "Menilai pilihan reka bentuk melalui pemerhatian dan tujuan.",
+      "body": [
+        "Dua poster rekaan mempromosikan bengkel seni yang sama. Versi A memberi saiz sama kepada tajuk, huraian 180 patah perkataan, tarikh, lokasi dan pautan pendaftaran; semua teks disusun rapat. Versi B menggunakan tajuk besar, ringkasan 25 patah perkataan, tarikh dan lokasi sederhana besar serta pautan pendaftaran yang dipisahkan oleh ruang. Kedua-duanya menggunakan warna yang sama. Matlamat ialah membantu pembaca mengenal pasti acara dan cara mendaftar dengan cepat, sambil mengekalkan maklumat penting."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah perbezaan formal utama yang paling berkaitan dengan matlamat?",
+          "options": [
+            "B menggunakan warna yang sama, maka tiada perbezaan boleh wujud",
+            "B membentuk hierarki melalui perbezaan saiz, panjang teks dan ruang",
+            "A pasti lebih jelas kerana semua perkara bersaiz sama",
+            "A menghapuskan semua huraian acara"
+          ],
+          "answer": 1,
+          "hint": "Fokus pada susunan maklumat, bukan warna sahaja.",
+          "explanation": "B membezakan tahap kepentingan dan mengasingkan tindakan pendaftaran. Hierarki boleh dibentuk melalui beberapa pemboleh ubah walaupun palet warna tidak berubah."
+        },
+        {
+          "prompt": "Apakah fungsi ruang di sekitar pautan pendaftaran dalam B?",
+          "options": [
+            "Mengasingkan tindakan utama supaya lebih mudah dikenal pasti",
+            "Membuktikan pereka terlupa menambah kandungan",
+            "Menjadikan setiap pembaca pasti mendaftar",
+            "Menghapuskan keperluan pautan yang berfungsi"
+          ],
+          "answer": 0,
+          "hint": "Nilai ruang sebagai sebahagian hubungan antara unsur.",
+          "explanation": "Ruang membantu membezakan pautan daripada maklumat lain dan boleh meningkatkan kebolehlihatan. Ia tidak menjamin tindakan atau menggantikan fungsi pautan."
+        },
+        {
+          "prompt": "Ujian manakah paling sepadan dengan tujuan yang dinyatakan?",
+          "options": [
+            "Tanya warna kegemaran pereka sahaja",
+            "Kira jumlah piksel tanpa melihat tugasan pembaca",
+            "Minta khalayak sasaran mencari tarikh, lokasi dan cara mendaftar; rekod ketepatan serta masa",
+            "Pilih poster berdasarkan saiz fail terbesar"
+          ],
+          "answer": 2,
+          "hint": "Ukuran harus menguji tugas komunikasi sebenar.",
+          "explanation": "Ketepatan dan masa mencari maklumat mengukur kejelasan praktikal yang menjadi matlamat. Keutamaan pereka atau saiz fail tidak mengukur kejayaan tugas itu secara langsung."
+        },
+        {
+          "prompt": "Apakah batas yang perlu diperiksa apabila huraian dipendekkan daripada 180 kepada 25 perkataan?",
+          "options": [
+            "Pastikan syarat penting penyertaan tidak hilang walaupun bacaan menjadi cepat",
+            "Semua ayat panjang semestinya tidak mempunyai makna",
+            "Ringkasan menjamin tiada maklumat boleh tertinggal",
+            "Maklumat lokasi perlu dibuang untuk mengekalkan ruang"
+          ],
+          "answer": 0,
+          "hint": "Kecekapan membaca perlu diseimbangkan dengan kelengkapan maklumat penting.",
+          "explanation": "Pemendekan boleh membantu tumpuan tetapi mungkin menggugurkan kelayakan, bahan diperlukan atau syarat lain. Semakan kandungan memastikan hierarki yang jelas masih menyampaikan perkara yang diperlukan pembaca."
+        }
+      ]
+    }
+  }
+]

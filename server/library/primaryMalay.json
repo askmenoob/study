@@ -1,0 +1,2610 @@
+[
+  {
+    "id": "library-d1-bm-meja-aina",
+    "levelId": "d1",
+    "subjectId": "bm",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Panduan Membaca: Tiga Benda di Meja Aina",
+      "summary": "Latih kemahiran menamakan benda dan mengikut urutan.",
+      "body": [
+        "Baca cerita Tiga Benda di Meja Aina bersama guru atau ahli keluarga. Sebut nama benda dalam setiap ayat sambil menunjuk gambar yang sepadan.",
+        "Baca satu ayat dahulu. Perhatikan benda, warna dan bilangannya. Berhenti sebentar sebelum membaca ayat yang seterusnya.",
+        "Apabila menjawab soalan, cari semula ayat cerita. Pilih gambar yang menunjukkan benda yang disebut, kemudian sebut jawapan dengan jelas."
+      ],
+      "keyPoints": [
+        "Baca ayat mengikut urutan.",
+        "Cari petunjuk dalam bacaan.",
+        "Semak jawapan dengan ayat cerita."
+      ]
+    },
+    "reading": {
+      "title": "Tiga Benda di Meja Aina",
+      "summary": "Bacaan asal untuk Darjah 1: menamakan benda dan mengikut urutan.",
+      "body": [
+        "Aina ada bola merah. Aina menggolek bola.",
+        "Kemudian, Aina membuka buku biru.",
+        "Akhirnya, Aina mengambil cawan hijau. Cawan itu berisi air."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Bola merah Aina",
+          "visual": {
+            "label": "Bola merah",
+            "items": [
+              {
+                "kind": "ball",
+                "count": 1,
+                "color": "red"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 1,
+          "caption": "Buku biru Aina",
+          "visual": {
+            "label": "Buku biru",
+            "items": [
+              {
+                "kind": "book",
+                "count": 1,
+                "color": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Cawan hijau Aina",
+          "visual": {
+            "label": "Cawan hijau",
+            "items": [
+              {
+                "kind": "cup",
+                "count": 1,
+                "color": "green"
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah yang Aina golek?",
+          "options": [
+            "Buku biru",
+            "Bola merah",
+            "Cawan hijau",
+            "Pensel kuning"
+          ],
+          "answer": 1,
+          "hint": "Baca ayat tentang bola.",
+          "explanation": "Aina menggolek bola merah.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Aina menggolek bola."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "Buku biru",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Cawan hijau",
+                "items": [
+                  {
+                    "kind": "cup",
+                    "count": 1,
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Pensel kuning",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "count": 1,
+                    "color": "yellow"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Apakah yang Aina buka?",
+          "options": [
+            "Bola merah",
+            "Cawan hijau",
+            "Buku biru",
+            "Pensel kuning"
+          ],
+          "answer": 2,
+          "hint": "Baca ayat kedua.",
+          "explanation": "Aina membuka buku biru.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Aina membuka buku biru."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "Bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Cawan hijau",
+                "items": [
+                  {
+                    "kind": "cup",
+                    "count": 1,
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Buku biru",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Pensel kuning",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "count": 1,
+                    "color": "yellow"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Semak Bacaan: Tiga Benda di Meja Aina",
+      "summary": "Empat soalan berdasarkan bacaan yang sama.",
+      "body": [
+        "Jawab empat soalan tentang bacaan Tiga Benda di Meja Aina. Rujuk semula perenggan cerita untuk mencari petunjuk bagi setiap jawapan."
+      ],
+      "questions": [
+        {
+          "prompt": "Benda manakah berisi air?",
+          "options": [
+            "Buku biru",
+            "Pensel kuning",
+            "Bola merah",
+            "Cawan hijau"
+          ],
+          "answer": 3,
+          "hint": "Cari perkataan air.",
+          "explanation": "Cawan hijau itu berisi air.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Aina mengambil cawan hijau. Cawan itu berisi air."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "Buku biru",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Pensel kuning",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "count": 1,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Cawan hijau",
+                "items": [
+                  {
+                    "kind": "cup",
+                    "count": 1,
+                    "color": "green"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Apakah benda yang disebut mula-mula?",
+          "options": [
+            "Bola merah",
+            "Cawan hijau",
+            "Buku biru",
+            "Pensel kuning"
+          ],
+          "answer": 0,
+          "hint": "Baca ayat pertama.",
+          "explanation": "Bola merah disebut pada awal cerita.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Aina ada bola merah."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "Bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Cawan hijau",
+                "items": [
+                  {
+                    "kind": "cup",
+                    "count": 1,
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Buku biru",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Pensel kuning",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "count": 1,
+                    "color": "yellow"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Apakah yang diambil akhirnya?",
+          "options": [
+            "Bola merah",
+            "Cawan hijau",
+            "Pensel kuning",
+            "Buku biru"
+          ],
+          "answer": 1,
+          "hint": "Cari perkataan akhirnya.",
+          "explanation": "Aina mengambil cawan hijau pada akhir cerita.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Akhirnya, Aina mengambil cawan hijau."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "Bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Cawan hijau",
+                "items": [
+                  {
+                    "kind": "cup",
+                    "count": 1,
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Pensel kuning",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "count": 1,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Buku biru",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Selepas menggolek bola, Aina membuka apa?",
+          "options": [
+            "Pensel kuning",
+            "Cawan hijau",
+            "Buku biru",
+            "Bola merah"
+          ],
+          "answer": 2,
+          "hint": "Cari perkataan kemudian.",
+          "explanation": "Selepas bermain bola, Aina membuka buku biru.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Kemudian, Aina membuka buku biru."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "Pensel kuning",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "count": 1,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Cawan hijau",
+                "items": [
+                  {
+                    "kind": "cup",
+                    "count": 1,
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Buku biru",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "red"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d1-bm-bakul-ravi",
+    "levelId": "d1",
+    "subjectId": "bm",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Panduan Membaca: Bakul Biru Ravi",
+      "summary": "Latih kemahiran mengenal benda, warna dan bilangan.",
+      "body": [
+        "Baca cerita Bakul Biru Ravi bersama guru atau ahli keluarga. Sebut nama benda dalam setiap ayat sambil menunjuk gambar yang sepadan.",
+        "Baca satu ayat dahulu. Perhatikan benda, warna dan bilangannya. Berhenti sebentar sebelum membaca ayat yang seterusnya.",
+        "Apabila menjawab soalan, cari semula ayat cerita. Pilih gambar yang menunjukkan benda yang disebut, kemudian sebut jawapan dengan jelas."
+      ],
+      "keyPoints": [
+        "Baca ayat mengikut urutan.",
+        "Cari petunjuk dalam bacaan.",
+        "Semak jawapan dengan ayat cerita."
+      ]
+    },
+    "reading": {
+      "title": "Bakul Biru Ravi",
+      "summary": "Bacaan asal untuk Darjah 1: mengenal benda, warna dan bilangan.",
+      "body": [
+        "Ravi ada dua pensel kuning. Dia menyusun pensel.",
+        "Ravi ada satu buku hijau. Dia menutup buku.",
+        "Ravi mengambil satu bakul biru. Buku dan pensel masuk ke dalam bakul."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Dua pensel kuning",
+          "visual": {
+            "label": "Dua pensel kuning",
+            "items": [
+              {
+                "kind": "pencil",
+                "count": 2,
+                "color": "yellow"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 1,
+          "caption": "Satu buku hijau",
+          "visual": {
+            "label": "Satu buku hijau",
+            "items": [
+              {
+                "kind": "book",
+                "count": 1,
+                "color": "green"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Bakul biru untuk menyimpan benda",
+          "visual": {
+            "label": "Satu bakul biru",
+            "items": [
+              {
+                "kind": "emptyBasket",
+                "count": 1,
+                "color": "blue"
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah yang Ravi susun?",
+          "options": [
+            "Satu buku hijau",
+            "Dua pensel kuning",
+            "Satu bakul biru",
+            "Tiga bola merah"
+          ],
+          "answer": 1,
+          "hint": "Cari perkataan pensel.",
+          "explanation": "Ravi menyusun dua pensel kuning.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Ravi ada dua pensel kuning. Dia menyusun pensel."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "Satu buku hijau",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Dua pensel kuning",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Satu bakul biru",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Tiga bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 3,
+                    "color": "red"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Apakah yang Ravi tutup?",
+          "options": [
+            "Tiga bola merah",
+            "Satu bakul biru",
+            "Satu buku hijau",
+            "Dua pensel kuning"
+          ],
+          "answer": 2,
+          "hint": "Baca ayat tentang buku.",
+          "explanation": "Ravi menutup satu buku hijau.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Ravi ada satu buku hijau. Dia menutup buku."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "Tiga bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 3,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Satu bakul biru",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Satu buku hijau",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Dua pensel kuning",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Semak Bacaan: Bakul Biru Ravi",
+      "summary": "Empat soalan berdasarkan bacaan yang sama.",
+      "body": [
+        "Jawab empat soalan tentang bacaan Bakul Biru Ravi. Rujuk semula perenggan cerita untuk mencari petunjuk bagi setiap jawapan."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah bekas yang Ravi ambil?",
+          "options": [
+            "Dua pensel kuning",
+            "Tiga bola merah",
+            "Satu buku hijau",
+            "Satu bakul biru"
+          ],
+          "answer": 3,
+          "hint": "Cari perkataan mengambil.",
+          "explanation": "Ravi mengambil satu bakul biru.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Ravi mengambil satu bakul biru."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "Dua pensel kuning",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Tiga bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 3,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Satu buku hijau",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Satu bakul biru",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Benda manakah berwarna hijau?",
+          "options": [
+            "Satu buku hijau",
+            "Satu bakul biru",
+            "Dua pensel kuning",
+            "Tiga bola merah"
+          ],
+          "answer": 0,
+          "hint": "Baca perkataan selepas buku.",
+          "explanation": "Buku Ravi berwarna hijau.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Ravi ada satu buku hijau."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "Satu buku hijau",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Satu bakul biru",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Dua pensel kuning",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Tiga bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 3,
+                    "color": "red"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Benda manakah ada dua?",
+          "options": [
+            "Satu buku hijau",
+            "Dua pensel kuning",
+            "Tiga bola merah",
+            "Satu bakul biru"
+          ],
+          "answer": 1,
+          "hint": "Cari perkataan dua.",
+          "explanation": "Ada dua pensel kuning dalam cerita.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Ravi ada dua pensel kuning."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "Satu buku hijau",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Dua pensel kuning",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Tiga bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 3,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Satu bakul biru",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Benda manakah disebut selepas buku ditutup?",
+          "options": [
+            "Tiga bola merah",
+            "Dua pensel kuning",
+            "Satu bakul biru",
+            "Satu buku hijau"
+          ],
+          "answer": 2,
+          "hint": "Baca perenggan terakhir.",
+          "explanation": "Bakul biru disebut selepas Ravi menutup buku.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Ravi mengambil satu bakul biru."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "Tiga bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 3,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Dua pensel kuning",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Satu bakul biru",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Satu buku hijau",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "green"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d2-bm-cawan-kantin",
+    "levelId": "d2",
+    "subjectId": "bm",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Panduan Membaca: Cawan untuk Meja Kantin",
+      "summary": "Latih kemahiran mencari butiran dan urutan kerja.",
+      "body": [
+        "Baca cerita Mei di kantin. Cari benda yang dibawanya. Mei membawa dulang yang berisi empat cawan biru. Sebut nama benda dan bilangannya.",
+        "Cawan masih basah, jadi Mei mengelapnya. Jika ditanya mengapa Mei mengelap cawan, jawab: cawan itu masih basah selepas dicuci.",
+        "Perhatikan kerja Mei mengikut urutan. Dia memulangkan dulang sebelum membeli mi sup. Baca semula ayat itu untuk menentukan kerja yang dibuat dahulu."
+      ],
+      "keyPoints": [
+        "Cari nama benda dan bilangannya.",
+        "Cawan basah menjadi sebab Mei mengelapnya.",
+        "Sebelum menunjukkan kerja yang dibuat dahulu."
+      ]
+    },
+    "reading": {
+      "title": "Cawan untuk Meja Kantin",
+      "summary": "Bacaan asal untuk Darjah 2: mencari butiran dan urutan kerja.",
+      "body": [
+        "Pada waktu rehat, Mei membantu Cik Salmah di kantin sekolah. Cik Salmah meletakkan empat cawan biru di atas dulang. Mei membawa dulang itu ke meja hujung dengan kedua-dua belah tangan.",
+        "Di meja itu, satu cawan masih basah selepas dicuci. Mei mengelap cawan tersebut dengan kain bersih. Kemudian, dia menyusun semua cawan berdekatan jag air.",
+        "Badrul tiba bersama tiga orang rakannya. Setiap murid mengambil satu cawan. Mei memulangkan dulang kosong kepada Cik Salmah sebelum membeli mi sup untuk dirinya."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Empat cawan biru",
+          "visual": {
+            "label": "Empat cawan biru",
+            "items": [
+              {
+                "kind": "cup",
+                "count": 4,
+                "color": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 1,
+          "caption": "Cawan yang dilap oleh Mei",
+          "visual": {
+            "label": "Cawan biru",
+            "items": [
+              {
+                "kind": "cup",
+                "count": 1,
+                "color": "blue"
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah cawan di atas dulang?",
+          "options": [
+            "Dua",
+            "Tiga",
+            "Empat",
+            "Lima"
+          ],
+          "answer": 2,
+          "hint": "Cari bilangan sebelum cawan.",
+          "explanation": "Cik Salmah menyediakan empat cawan.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "empat cawan biru"
+          }
+        },
+        {
+          "prompt": "Mengapakah Mei mengelap satu cawan?",
+          "options": [
+            "Cawan itu retak.",
+            "Cawan itu terlalu panas.",
+            "Cawan itu berisi sup.",
+            "Cawan itu masih basah."
+          ],
+          "answer": 3,
+          "hint": "Perhatikan keadaan cawan.",
+          "explanation": "Mei mengelap cawan yang masih basah selepas dicuci.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "satu cawan masih basah selepas dicuci"
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Semak Bacaan: Cawan untuk Meja Kantin",
+      "summary": "Empat soalan berdasarkan bacaan yang sama.",
+      "body": [
+        "Jawab empat soalan tentang bacaan Cawan untuk Meja Kantin. Rujuk semula perenggan cerita untuk mencari petunjuk bagi setiap jawapan."
+      ],
+      "questions": [
+        {
+          "prompt": "Di manakah Mei menyusun cawan?",
+          "options": [
+            "Berdekatan jag air",
+            "Di bawah meja",
+            "Dalam dulang kosong",
+            "Di tepi mangkuk mi"
+          ],
+          "answer": 0,
+          "hint": "Cari ayat selepas perkataan kemudian.",
+          "explanation": "Semua cawan disusun berdekatan jag air.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "dia menyusun semua cawan berdekatan jag air"
+          }
+        },
+        {
+          "prompt": "Bagaimanakah Mei membawa dulang?",
+          "options": [
+            "Dengan sebelah tangan",
+            "Dengan kedua-dua belah tangan",
+            "Dengan bantuan Badrul",
+            "Dengan bantuan tiga orang rakan"
+          ],
+          "answer": 1,
+          "hint": "Cari cara Mei membawa dulang.",
+          "explanation": "Mei menggunakan kedua-dua belah tangannya.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Mei membawa dulang itu ke meja hujung dengan kedua-dua belah tangan."
+          }
+        },
+        {
+          "prompt": "Apakah yang Mei lakukan sebelum membeli mi sup?",
+          "options": [
+            "Mencuci semua meja",
+            "Membeli empat cawan",
+            "Memulangkan dulang kosong",
+            "Membawa jag ke kelas"
+          ],
+          "answer": 2,
+          "hint": "Cari perkataan sebelum.",
+          "explanation": "Mei memulangkan dulang dahulu.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Mei memulangkan dulang kosong kepada Cik Salmah sebelum membeli mi sup"
+          }
+        },
+        {
+          "prompt": "Siapakah yang menyediakan cawan di atas dulang?",
+          "options": [
+            "Badrul",
+            "Rakan Badrul",
+            "Mei",
+            "Cik Salmah"
+          ],
+          "answer": 3,
+          "hint": "Cari nama pada awal ayat kedua.",
+          "explanation": "Cik Salmah meletakkan cawan di atas dulang.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Cik Salmah meletakkan empat cawan biru di atas dulang."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d2-bm-daun-kebun-nenek",
+    "levelId": "d2",
+    "subjectId": "bm",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Panduan Membaca: Daun di Kebun Nenek",
+      "summary": "Latih kemahiran membezakan tempat, benda dan perbuatan.",
+      "body": [
+        "Baca cerita Hakim di kebun nenek. Hakim mengutip daun yang gugur. Dia tidak memetik daun pada pokok. Perhatikan perbezaan dua perbuatan itu.",
+        "Cari warna dan bilangan daun. Contohnya, Hakim menjumpai tiga helai daun kuning. Jika ditanya berapa daun kuning, jawab: tiga helai.",
+        "Ikuti perjalanan daun dalam cerita. Hakim memasukkan daun ke dalam bakul, kemudian menuangkannya ke dalam bekas kompos. Baca semula untuk mencari tempat terakhir daun itu."
+      ],
+      "keyPoints": [
+        "Hakim mengutip daun yang gugur.",
+        "Cari warna dan bilangan bersama-sama.",
+        "Ikuti urutan dari bakul ke bekas kompos."
+      ]
+    },
+    "reading": {
+      "title": "Daun di Kebun Nenek",
+      "summary": "Bacaan asal untuk Darjah 2: membezakan tempat, benda dan perbuatan.",
+      "body": [
+        "Pada pagi Sabtu, Hakim berada di kebun nenek di kampung. Nenek meminta Hakim mengutip daun yang gugur di tepi batas. Hakim membawa sebuah bakul kecil. Dia tidak memetik daun pada pokok.",
+        "Hakim menjumpai tiga helai daun kuning dan dua helai daun hijau di tanah. Dia memasukkan semuanya ke dalam bakul. Seekor belalang melompat dari sehelai daun. Hakim berhenti seketika dan membiarkannya pergi.",
+        "Kemudian, nenek menunjukkan bekas kompos di belakang pondok. Hakim menuangkan daun ke dalam bekas itu. Nenek menyimpan bakul kosong di bawah bangku."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 1,
+          "caption": "Tiga daun kuning",
+          "visual": {
+            "label": "Tiga helai daun kuning",
+            "items": [
+              {
+                "kind": "leaf",
+                "count": 3,
+                "color": "yellow"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 1,
+          "caption": "Dua daun hijau",
+          "visual": {
+            "label": "Dua helai daun hijau",
+            "items": [
+              {
+                "kind": "leaf",
+                "count": 2,
+                "color": "green"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Bakul Hakim",
+          "visual": {
+            "label": "Bakul kosong",
+            "items": [
+              {
+                "kind": "emptyBasket",
+                "count": 1
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah tugas Hakim di kebun?",
+          "options": [
+            "Memetik daun pada pokok",
+            "Menyiram batas sayur",
+            "Mengutip daun yang gugur",
+            "Mengecat pondok nenek"
+          ],
+          "answer": 2,
+          "hint": "Cari permintaan nenek.",
+          "explanation": "Hakim diminta mengutip daun yang sudah gugur.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Nenek meminta Hakim mengutip daun yang gugur di tepi batas."
+          }
+        },
+        {
+          "prompt": "Di manakah Hakim menjumpai daun hijau?",
+          "options": [
+            "Di atas bangku",
+            "Di dalam pondok",
+            "Pada dahan pokok",
+            "Di tanah"
+          ],
+          "answer": 3,
+          "hint": "Baca hujung ayat pertama perenggan kedua.",
+          "explanation": "Daun hijau itu ditemukan di tanah.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "tiga helai daun kuning dan dua helai daun hijau di tanah"
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Semak Bacaan: Daun di Kebun Nenek",
+      "summary": "Empat soalan berdasarkan bacaan yang sama.",
+      "body": [
+        "Jawab empat soalan tentang bacaan Daun di Kebun Nenek. Rujuk semula perenggan cerita untuk mencari petunjuk bagi setiap jawapan."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah daun kuning yang dijumpai?",
+          "options": [
+            "Tiga helai",
+            "Satu helai",
+            "Dua helai",
+            "Lima helai"
+          ],
+          "answer": 0,
+          "hint": "Cari bilangan daun kuning.",
+          "explanation": "Hakim menjumpai tiga helai daun kuning.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "tiga helai daun kuning"
+          }
+        },
+        {
+          "prompt": "Apakah yang menyebabkan Hakim berhenti seketika?",
+          "options": [
+            "Nenek memanggil dari rumah.",
+            "Seekor belalang melompat dari daun.",
+            "Bakul kecilnya pecah.",
+            "Hujan turun di kebun."
+          ],
+          "answer": 1,
+          "hint": "Lihat kejadian sebelum Hakim berhenti.",
+          "explanation": "Hakim berhenti untuk membiarkan belalang pergi.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Seekor belalang melompat dari sehelai daun. Hakim berhenti seketika dan membiarkannya pergi."
+          }
+        },
+        {
+          "prompt": "Ke manakah daun akhirnya dituangkan?",
+          "options": [
+            "Ke bawah bangku",
+            "Ke atas batas",
+            "Ke dalam bekas kompos",
+            "Ke dalam pondok"
+          ],
+          "answer": 2,
+          "hint": "Bekas apakah yang ditunjukkan oleh nenek?",
+          "explanation": "Bekas itu merujuk kepada bekas kompos yang baru ditunjukkan nenek.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "nenek menunjukkan bekas kompos di belakang pondok. Hakim menuangkan daun ke dalam bekas itu."
+          }
+        },
+        {
+          "prompt": "Di manakah nenek menyimpan bakul kosong?",
+          "options": [
+            "Di belakang pokok",
+            "Di tepi batas",
+            "Di atas pondok",
+            "Di bawah bangku"
+          ],
+          "answer": 3,
+          "hint": "Baca ayat terakhir.",
+          "explanation": "Nenek meletakkan bakul kosong di bawah bangku.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Nenek menyimpan bakul kosong di bawah bangku."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d3-bm-buku-berbalut",
+    "levelId": "d3",
+    "subjectId": "bm",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Panduan Membaca: Buku Berbalut di Sudut Bacaan",
+      "summary": "Latih kemahiran menghubungkan masalah dengan tindakan.",
+      "body": [
+        "Dalam bacaan Buku Berbalut di Sudut Bacaan, kamu akan berlatih menghubungkan masalah dengan tindakan. Baca setiap perenggan dengan teliti dan kenal pasti perkara yang berlaku sebelum membuat pilihan jawapan. Maklumat kecil boleh membantu kamu memahami keseluruhan cerita.",
+        "Tandakan ayat yang menyokong jawapan kamu. Perhatikan siapa yang bertindak, perkara yang berubah dan sebab sesuatu keputusan dibuat. Jika soalan meminta kesimpulan, hubungkan petunjuk dalam cerita tanpa menambah kejadian yang tidak dinyatakan.",
+        "Selepas memilih jawapan, baca pilihan lain sekali lagi. Bezakan maklumat yang benar dalam cerita daripada perkara yang hanya mungkin berlaku dalam kehidupan harian. Gunakan ayat cerita untuk menerangkan mengapa pilihan kamu paling sesuai."
+      ],
+      "keyPoints": [
+        "Baca ayat mengikut urutan.",
+        "Cari petunjuk dalam bacaan.",
+        "Semak jawapan dengan ayat cerita."
+      ]
+    },
+    "reading": {
+      "title": "Buku Berbalut di Sudut Bacaan",
+      "summary": "Bacaan asal untuk Darjah 3: menghubungkan masalah dengan tindakan.",
+      "body": [
+        "Kelas Tiga Melur di sebuah sekolah di Ipoh mempunyai sudut bacaan kecil. Pada hari Isnin, Suraya membawa sebuah buku cerita tentang penyu. Kulit buku itu terkoyak sedikit kerana tersangkut pada zip beg. Dia menunjukkan kerosakan itu kepada Cikgu Gan sebelum meletakkan buku di rak.",
+        "Cikgu Gan menyediakan pita pelekat dan plastik pembalut. Suraya merapatkan bahagian kulit yang koyak, lalu cikgu melekatkannya. Mereka membalut buku itu supaya kulitnya lebih terlindung. Suraya menulis nama pemilik pada label kecil, bukannya pada halaman cerita.",
+        "Ketika rehat, Kumar mahu membaca buku tersebut. Suraya meminta Kumar menggunakan penanda buku dan tidak melipat penjuru halaman. Kumar bersetuju lalu duduk membaca di atas tikar. Selepas selesai, dia memulangkan buku ke rak dengan penanda masih terselit di dalamnya."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Buku cerita milik Suraya",
+          "visual": {
+            "label": "Buku cerita",
+            "items": [
+              {
+                "kind": "book",
+                "count": 1
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Buku dikembalikan ke sudut bacaan",
+          "visual": {
+            "label": "Buku yang dipulangkan",
+            "items": [
+              {
+                "kind": "book",
+                "count": 1
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah yang menyebabkan kulit buku koyak?",
+          "options": [
+            "Terkena air hujan",
+            "Ditarik semasa dipinjam",
+            "Terlipat semasa dibaca",
+            "Tersangkut pada zip beg"
+          ],
+          "answer": 3,
+          "hint": "Cari perkataan kerana.",
+          "explanation": "Zip beg menyebabkan kulit buku tersangkut dan koyak.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Kulit buku itu terkoyak sedikit kerana tersangkut pada zip beg."
+          }
+        },
+        {
+          "prompt": "Mengapakah buku dibalut?",
+          "options": [
+            "Supaya kulitnya lebih terlindung",
+            "Supaya nama penyu dipadam",
+            "Supaya halaman bertambah",
+            "Supaya buku tidak boleh dibaca"
+          ],
+          "answer": 0,
+          "hint": "Cari tujuan selepas supaya.",
+          "explanation": "Pembalut melindungi kulit buku.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Mereka membalut buku itu supaya kulitnya lebih terlindung."
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Semak Bacaan: Buku Berbalut di Sudut Bacaan",
+      "summary": "Empat soalan berdasarkan bacaan yang sama.",
+      "body": [
+        "Jawab empat soalan tentang bacaan Buku Berbalut di Sudut Bacaan. Rujuk semula perenggan cerita untuk mencari petunjuk bagi setiap jawapan."
+      ],
+      "questions": [
+        {
+          "prompt": "Di manakah Suraya menulis nama pemilik?",
+          "options": [
+            "Pada halaman cerita",
+            "Pada label kecil",
+            "Pada zip beg",
+            "Pada penanda buku"
+          ],
+          "answer": 1,
+          "hint": "Cari tempat nama ditulis.",
+          "explanation": "Nama pemilik ditulis pada label kecil.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Suraya menulis nama pemilik pada label kecil"
+          }
+        },
+        {
+          "prompt": "Apakah permintaan Suraya kepada Kumar?",
+          "options": [
+            "Baca hanya kulit buku",
+            "Bawa pulang pita pelekat",
+            "Gunakan penanda buku tanpa melipat penjuru halaman",
+            "Tulis nama pada setiap halaman"
+          ],
+          "answer": 2,
+          "hint": "Cari ayat yang menyebut meminta.",
+          "explanation": "Suraya mahu halaman dijaga dengan penggunaan penanda buku.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Suraya meminta Kumar menggunakan penanda buku dan tidak melipat penjuru halaman."
+          }
+        },
+        {
+          "prompt": "Apakah bukti Kumar mengikut permintaan menggunakan penanda buku?",
+          "options": [
+            "Dia menulis nama pada rak",
+            "Dia duduk membaca di atas kerusi",
+            "Dia membalut semula seluruh buku",
+            "Penanda masih terselit ketika buku dipulangkan"
+          ],
+          "answer": 3,
+          "hint": "Lihat keadaan buku ketika dipulangkan.",
+          "explanation": "Penanda yang masih terselit menunjukkan Kumar menggunakan penanda itu.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "dia memulangkan buku ke rak dengan penanda masih terselit di dalamnya"
+          }
+        },
+        {
+          "prompt": "Siapakah yang melekatkan kulit buku yang koyak?",
+          "options": [
+            "Cikgu Gan",
+            "Kumar",
+            "Pemilik kedai",
+            "Suraya seorang diri"
+          ],
+          "answer": 0,
+          "hint": "Bezakan perbuatan Suraya dengan perbuatan cikgu.",
+          "explanation": "Suraya merapatkan bahagian koyak dan Cikgu Gan melekatkannya.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Suraya merapatkan bahagian kulit yang koyak, lalu cikgu melekatkannya."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d3-bm-bola-selepas-hujan",
+    "levelId": "d3",
+    "subjectId": "bm",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Panduan Membaca: Bola Selepas Hujan Renyai",
+      "summary": "Latih kemahiran memahami sebab pemilihan tempat.",
+      "body": [
+        "Dalam bacaan Bola Selepas Hujan Renyai, kamu akan berlatih memahami sebab pemilihan tempat. Baca setiap perenggan dengan teliti dan kenal pasti perkara yang berlaku sebelum membuat pilihan jawapan. Maklumat kecil boleh membantu kamu memahami keseluruhan cerita.",
+        "Tandakan ayat yang menyokong jawapan kamu. Perhatikan siapa yang bertindak, perkara yang berubah dan sebab sesuatu keputusan dibuat. Jika soalan meminta kesimpulan, hubungkan petunjuk dalam cerita tanpa menambah kejadian yang tidak dinyatakan.",
+        "Selepas memilih jawapan, baca pilihan lain sekali lagi. Bezakan maklumat yang benar dalam cerita daripada perkara yang hanya mungkin berlaku dalam kehidupan harian. Gunakan ayat cerita untuk menerangkan mengapa pilihan kamu paling sesuai."
+      ],
+      "keyPoints": [
+        "Baca ayat mengikut urutan.",
+        "Cari petunjuk dalam bacaan.",
+        "Semak jawapan dengan ayat cerita."
+      ]
+    },
+    "reading": {
+      "title": "Bola Selepas Hujan Renyai",
+      "summary": "Bacaan asal untuk Darjah 3: memahami sebab pemilihan tempat.",
+      "body": [
+        "Petang itu, hujan renyai baru berhenti di taman perumahan Faris. Dia dan adiknya, Hana, membawa bola merah ke gelanggang kecil. Mereka mahu berlatih menghantar bola sebelum sepupu datang pada hujung minggu. Namun, bahagian tengah gelanggang masih mempunyai lopak air.",
+        "Hana mencadangkan mereka bermain di laluan pejalan kaki yang kelihatan kering. Faris melihat beberapa penduduk sedang berjalan di situ. Dia bimbang bola akan menghalang laluan mereka. Faris lalu mengajak Hana pulang untuk meminta cadangan ayah.",
+        "Ayah menunjukkan ruang berbumbung di sebelah rumah. Selepas ayah mengalihkan dua buah kerusi, ruang itu cukup untuk mereka menggolek bola sambil duduk. Mereka tidak dapat berlatih lontaran jauh, tetapi masih boleh melatih arah hantaran. Apabila sepupu tiba pada Sabtu, Hana bercerita tentang latihan menggolek bola yang mereka lakukan."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Bola merah untuk latihan",
+          "visual": {
+            "label": "Bola merah",
+            "items": [
+              {
+                "kind": "ball",
+                "count": 1,
+                "color": "red"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Bola digunakan untuk latihan arah hantaran",
+          "visual": {
+            "label": "Bola latihan",
+            "items": [
+              {
+                "kind": "ball",
+                "count": 1,
+                "color": "red"
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Mengapakah mereka tidak terus bermain di tengah gelanggang?",
+          "options": [
+            "Gelanggang dipenuhi kerusi",
+            "Bola merah telah hilang",
+            "Sepupu sedang tidur di situ",
+            "Masih terdapat lopak air"
+          ],
+          "answer": 3,
+          "hint": "Perhatikan keadaan selepas hujan.",
+          "explanation": "Lopak air masih berada di tengah gelanggang.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "bahagian tengah gelanggang masih mempunyai lopak air"
+          }
+        },
+        {
+          "prompt": "Mengapakah Faris tidak memilih laluan pejalan kaki?",
+          "options": [
+            "Bola mungkin menghalang penduduk",
+            "Laluan itu penuh dengan air",
+            "Ayah menyimpan kerusi di situ",
+            "Hana terlupa membawa bola"
+          ],
+          "answer": 0,
+          "hint": "Fikirkan penduduk yang sedang berjalan.",
+          "explanation": "Faris mahu mengelakkan bola mengganggu laluan penduduk.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Dia bimbang bola akan menghalang laluan mereka."
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Semak Bacaan: Bola Selepas Hujan Renyai",
+      "summary": "Empat soalan berdasarkan bacaan yang sama.",
+      "body": [
+        "Jawab empat soalan tentang bacaan Bola Selepas Hujan Renyai. Rujuk semula perenggan cerita untuk mencari petunjuk bagi setiap jawapan."
+      ],
+      "questions": [
+        {
+          "prompt": "Siapakah yang mencadangkan ruang berbumbung?",
+          "options": [
+            "Hana",
+            "Ayah",
+            "Faris",
+            "Sepupu"
+          ],
+          "answer": 1,
+          "hint": "Cari orang yang menunjukkan ruang.",
+          "explanation": "Ayah menunjukkan tempat itu kepada mereka.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Ayah menunjukkan ruang berbumbung di sebelah rumah."
+          }
+        },
+        {
+          "prompt": "Apakah persediaan ayah sebelum latihan?",
+          "options": [
+            "Membeli dua biji bola",
+            "Mengeringkan seluruh gelanggang",
+            "Mengalihkan dua buah kerusi",
+            "Menutup laluan pejalan kaki"
+          ],
+          "answer": 2,
+          "hint": "Cari tindakan sebelum mereka menggolek bola.",
+          "explanation": "Ayah mengalihkan kerusi untuk menyediakan ruang.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Selepas ayah mengalihkan dua buah kerusi"
+          }
+        },
+        {
+          "prompt": "Kemahiran apakah yang masih dapat dilatih?",
+          "options": [
+            "Lontaran jauh",
+            "Larian mengelilingi taman",
+            "Lompatan melepasi kerusi",
+            "Arah hantaran"
+          ],
+          "answer": 3,
+          "hint": "Baca bahagian selepas tetapi.",
+          "explanation": "Ruang kecil masih membolehkan latihan arah hantaran.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Mereka tidak dapat berlatih lontaran jauh, tetapi masih boleh melatih arah hantaran."
+          }
+        },
+        {
+          "prompt": "Bagaimanakah latihan disesuaikan dengan ruang kecil?",
+          "options": [
+            "Mereka duduk dan menggolek bola",
+            "Mereka melontar sejauh mungkin",
+            "Mereka berlari sepanjang laluan",
+            "Mereka menunggu di tengah lopak"
+          ],
+          "answer": 0,
+          "hint": "Cari cara mereka menggunakan ruang berbumbung.",
+          "explanation": "Menggolek bola sambil duduk sesuai dengan ruang yang disediakan.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "ruang itu cukup untuk mereka menggolek bola sambil duduk"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d4-bm-bakul-pulangan",
+    "levelId": "d4",
+    "subjectId": "bm",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Panduan Membaca: Bakul Pulangan Pusat Sumber",
+      "summary": "Latih kemahiran menilai perubahan berdasarkan pemerhatian.",
+      "body": [
+        "Dalam bacaan Bakul Pulangan Pusat Sumber, kamu akan berlatih menilai perubahan berdasarkan pemerhatian. Baca setiap perenggan dengan teliti dan kenal pasti perkara yang berlaku sebelum membuat pilihan jawapan. Maklumat kecil boleh membantu kamu memahami keseluruhan cerita.",
+        "Tandakan ayat yang menyokong jawapan kamu. Perhatikan siapa yang bertindak, perkara yang berubah dan sebab sesuatu keputusan dibuat. Jika soalan meminta kesimpulan, hubungkan petunjuk dalam cerita tanpa menambah kejadian yang tidak dinyatakan.",
+        "Selepas memilih jawapan, baca pilihan lain sekali lagi. Bezakan maklumat yang benar dalam cerita daripada perkara yang hanya mungkin berlaku dalam kehidupan harian. Gunakan ayat cerita untuk menerangkan mengapa pilihan kamu paling sesuai."
+      ],
+      "keyPoints": [
+        "Baca ayat mengikut urutan.",
+        "Cari petunjuk dalam bacaan.",
+        "Semak jawapan dengan ayat cerita."
+      ]
+    },
+    "reading": {
+      "title": "Bakul Pulangan Pusat Sumber",
+      "summary": "Bacaan asal untuk Darjah 4: menilai perubahan berdasarkan pemerhatian.",
+      "body": [
+        "Pada awal bulan, pengawas pusat sumber di sebuah sekolah di Muar mendapati buku pulangan sering bercampur dengan buku yang belum dipinjam. Keadaan itu berlaku apabila murid meletakkan semua buku di hujung kaunter. Amira mencadangkan sebuah bakul khas untuk buku pulangan supaya tugas menyemak pinjaman menjadi lebih teratur.",
+        "Mereka mencuba bakul itu selama tiga hari. Pada hari pertama, beberapa murid masih tersalah meletakkan buku kerana label kecil pada pemegang bakul sukar dilihat. Amira tidak terus menyalahkan mereka. Dia berdiri di pintu masuk dan mendapati label itu terlindung apabila bakul dipenuhi buku.",
+        "Keesokannya, Amira menampal tanda yang lebih besar pada dinding di atas bakul. Dia juga meletakkan satu contoh buku pulangan di dalamnya sebelum waktu rehat. Pengawas lain menerangkan kegunaan bakul kepada murid yang baru tiba.",
+        "Pada hari ketiga, semakin sedikit buku diletakkan di tempat yang salah. Namun, Amira mencatat bahawa masih ada dua orang murid yang memerlukan penerangan. Kumpulan itu memutuskan untuk mengekalkan tanda besar dan terus membantu pengguna baharu, bukan menganggap semua masalah sudah selesai."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Buku yang perlu diasingkan",
+          "visual": {
+            "label": "Buku di kaunter",
+            "items": [
+              {
+                "kind": "book",
+                "count": 3,
+                "color": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Bakul khas buku pulangan",
+          "visual": {
+            "label": "Bakul buku pulangan",
+            "items": [
+              {
+                "kind": "emptyBasket",
+                "count": 1
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah masalah asal di kaunter?",
+          "options": [
+            "Buku pulangan bercampur dengan buku yang belum dipinjam",
+            "Semua buku hilang dari rak",
+            "Bakul menghalang pintu masuk",
+            "Murid tidak dibenarkan meminjam"
+          ],
+          "answer": 0,
+          "hint": "Cari pemerhatian awal pengawas.",
+          "explanation": "Dua kumpulan buku bercampur di hujung kaunter.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "buku pulangan sering bercampur dengan buku yang belum dipinjam"
+          }
+        },
+        {
+          "prompt": "Mengapakah label asal kurang berkesan?",
+          "options": [
+            "Label ditulis pada setiap buku",
+            "Label kecil terlindung apabila bakul penuh",
+            "Label diletakkan terlalu tinggi pada dinding",
+            "Label hanya dibaca oleh guru"
+          ],
+          "answer": 1,
+          "hint": "Perhatikan hasil pemerhatian dari pintu.",
+          "explanation": "Buku yang memenuhi bakul melindungi label kecil pada pemegang.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "label itu terlindung apabila bakul dipenuhi buku"
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Semak Bacaan: Bakul Pulangan Pusat Sumber",
+      "summary": "Empat soalan berdasarkan bacaan yang sama.",
+      "body": [
+        "Jawab empat soalan tentang bacaan Bakul Pulangan Pusat Sumber. Rujuk semula perenggan cerita untuk mencari petunjuk bagi setiap jawapan."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah sikap Amira ketika murid tersalah meletakkan buku?",
+          "options": [
+            "Menghentikan semua pinjaman",
+            "Membuang bakul tanpa pemeriksaan",
+            "Menyiasat punca sebelum menyalahkan mereka",
+            "Meminta murid membeli buku baharu"
+          ],
+          "answer": 2,
+          "hint": "Cari tindakan selepas kesilapan berlaku.",
+          "explanation": "Amira memeriksa keadaan label dari sudut pengguna.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Amira tidak terus menyalahkan mereka. Dia berdiri di pintu masuk dan mendapati label itu terlindung"
+          }
+        },
+        {
+          "prompt": "Di manakah tanda baharu diletakkan?",
+          "options": [
+            "Pada dasar bakul",
+            "Di belakang pintu tertutup",
+            "Di dalam setiap buku",
+            "Pada dinding di atas bakul"
+          ],
+          "answer": 3,
+          "hint": "Cari lokasi tanda besar.",
+          "explanation": "Tanda baharu berada pada dinding di atas bakul.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Amira menampal tanda yang lebih besar pada dinding di atas bakul"
+          }
+        },
+        {
+          "prompt": "Kesimpulan manakah tepat pada hari ketiga?",
+          "options": [
+            "Kesilapan berkurang tetapi bantuan masih diperlukan",
+            "Semua murid sudah memahami tanpa bantuan",
+            "Bakul menyebabkan lebih banyak kesilapan",
+            "Tiada perubahan langsung berlaku"
+          ],
+          "answer": 0,
+          "hint": "Gabungkan pemerhatian dengan perkataan namun.",
+          "explanation": "Penggunaan bertambah baik, tetapi dua orang murid masih memerlukan bantuan.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "semakin sedikit buku diletakkan di tempat yang salah. Namun, Amira mencatat bahawa masih ada dua orang murid yang memerlukan penerangan"
+          }
+        },
+        {
+          "prompt": "Mengapakah kumpulan itu terus membantu pengguna baharu?",
+          "options": [
+            "Semua tanda besar sudah ditanggalkan",
+            "Masih ada murid yang memerlukan penerangan",
+            "Pusat sumber akan ditutup esok",
+            "Tiada lagi buku untuk dipinjam"
+          ],
+          "answer": 1,
+          "hint": "Cari sebab mereka tidak menganggap masalah selesai.",
+          "explanation": "Keperluan dua orang murid menunjukkan penerangan masih berguna.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "masih ada dua orang murid yang memerlukan penerangan"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d4-bm-pinggan-gerai",
+    "levelId": "d4",
+    "subjectId": "bm",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Panduan Membaca: Pinggan Kecil di Gerai Keluarga",
+      "summary": "Latih kemahiran membezakan pemerhatian dengan kesimpulan.",
+      "body": [
+        "Dalam bacaan Pinggan Kecil di Gerai Keluarga, kamu akan berlatih membezakan pemerhatian dengan kesimpulan. Baca setiap perenggan dengan teliti dan kenal pasti perkara yang berlaku sebelum membuat pilihan jawapan. Maklumat kecil boleh membantu kamu memahami keseluruhan cerita.",
+        "Tandakan ayat yang menyokong jawapan kamu. Perhatikan siapa yang bertindak, perkara yang berubah dan sebab sesuatu keputusan dibuat. Jika soalan meminta kesimpulan, hubungkan petunjuk dalam cerita tanpa menambah kejadian yang tidak dinyatakan.",
+        "Selepas memilih jawapan, baca pilihan lain sekali lagi. Bezakan maklumat yang benar dalam cerita daripada perkara yang hanya mungkin berlaku dalam kehidupan harian. Gunakan ayat cerita untuk menerangkan mengapa pilihan kamu paling sesuai."
+      ],
+      "keyPoints": [
+        "Baca ayat mengikut urutan.",
+        "Cari petunjuk dalam bacaan.",
+        "Semak jawapan dengan ayat cerita."
+      ]
+    },
+    "reading": {
+      "title": "Pinggan Kecil di Gerai Keluarga",
+      "summary": "Bacaan asal untuk Darjah 4: membezakan pemerhatian dengan kesimpulan.",
+      "body": [
+        "Semasa hari terbuka sekolah di Seremban, keluarga Nabil membantu mengurus gerai kuih. Pada awal pagi, mereka menyediakan pinggan besar untuk setiap pembeli. Menjelang pukul sepuluh, ibu melihat beberapa pinggan dipulangkan dengan kuih yang masih berbaki. Nabil mengira baki pada sepuluh pinggan untuk memahami keadaan itu.",
+        "Dia mendapati enam pinggan mempunyai baki kuih. Nabil bertanya dengan sopan kepada beberapa pembeli. Dua orang berkata mereka mahu mencuba rasa sahaja, tetapi mengambil terlalu banyak kerana pinggan kelihatan kosong. Seorang lagi mahu berkongsi dengan adiknya yang akhirnya sudah kenyang.",
+        "Ibu menyediakan pinggan kecil sebagai pilihan tambahan. Pembeli boleh mengambil satu atau dua potong dahulu dan kembali jika masih mahu. Pinggan besar tetap disediakan untuk keluarga yang berkongsi makanan. Nabil menerangkan pilihan itu tanpa memaksa pembeli menggunakan satu saiz sahaja.",
+        "Selepas perubahan tersebut, Nabil memeriksa sepuluh pinggan pulangan yang seterusnya. Hanya dua mempunyai baki kuih. Dia gembira melihat pengurangan itu, tetapi mengingatkan ibu bahawa kumpulan pembeli juga berbeza. Mereka bersetuju mencatat pemerhatian pada hari terbuka berikutnya sebelum membuat kesimpulan yang lebih kukuh."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Pinggan untuk gerai kuih",
+          "visual": {
+            "label": "Pinggan gerai",
+            "items": [
+              {
+                "kind": "plate",
+                "count": 1
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Pilihan pinggan untuk pembeli",
+          "visual": {
+            "label": "Pinggan bagi pembeli",
+            "items": [
+              {
+                "kind": "plate",
+                "count": 2
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah yang mendorong pemeriksaan Nabil?",
+          "options": [
+            "Pinggan dipulangkan dengan baki kuih",
+            "Kuih belum dihantar ke gerai",
+            "Semua pembeli meminta pinggan biru",
+            "Ibu kehilangan senarai harga"
+          ],
+          "answer": 0,
+          "hint": "Cari masalah menjelang pukul sepuluh.",
+          "explanation": "Baki kuih pada pinggan pulangan mendorong Nabil memeriksa.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "ibu melihat beberapa pinggan dipulangkan dengan kuih yang masih berbaki"
+          }
+        },
+        {
+          "prompt": "Mengapakah dua pembeli mengambil terlalu banyak?",
+          "options": [
+            "Mereka diminta menghabiskan semua kuih",
+            "Pinggan kelihatan kosong walaupun mereka mahu mencuba sahaja",
+            "Mereka tidak tahu gerai menjual kuih",
+            "Adik mereka belum tiba di sekolah"
+          ],
+          "answer": 1,
+          "hint": "Cari sebab selepas kerana.",
+          "explanation": "Ruang kosong pada pinggan mendorong mereka mengambil lebih daripada keperluan.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "mereka mahu mencuba rasa sahaja, tetapi mengambil terlalu banyak kerana pinggan kelihatan kosong"
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Semak Bacaan: Pinggan Kecil di Gerai Keluarga",
+      "summary": "Empat soalan berdasarkan bacaan yang sama.",
+      "body": [
+        "Jawab empat soalan tentang bacaan Pinggan Kecil di Gerai Keluarga. Rujuk semula perenggan cerita untuk mencari petunjuk bagi setiap jawapan."
+      ],
+      "questions": [
+        {
+          "prompt": "Mengapakah pinggan besar dikekalkan?",
+          "options": [
+            "Untuk menggantikan semua pinggan kecil",
+            "Untuk menyimpan wang jualan",
+            "Untuk keluarga yang berkongsi makanan",
+            "Untuk menghalang pembelian tambahan"
+          ],
+          "answer": 2,
+          "hint": "Cari pengguna yang masih memerlukan pinggan besar.",
+          "explanation": "Keluarga yang berkongsi masih boleh menggunakan pinggan besar.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Pinggan besar tetap disediakan untuk keluarga yang berkongsi makanan."
+          }
+        },
+        {
+          "prompt": "Selepas pilihan baharu disediakan, berapakah pinggan yang mempunyai baki kuih?",
+          "options": [
+            "Dua daripada sepuluh pinggan",
+            "Enam daripada sepuluh pinggan",
+            "Lapan daripada sepuluh pinggan",
+            "Kesemua sepuluh pinggan"
+          ],
+          "answer": 0,
+          "hint": "Cari bilangan dalam pemeriksaan yang seterusnya.",
+          "explanation": "Nabil memeriksa sepuluh pinggan seterusnya dan mendapati hanya dua mempunyai baki kuih.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "Nabil memeriksa sepuluh pinggan pulangan yang seterusnya. Hanya dua mempunyai baki kuih."
+          }
+        },
+        {
+          "prompt": "Mengapakah Nabil belum membuat kesimpulan kukuh?",
+          "options": [
+            "Kumpulan pembeli dalam dua pemeriksaan berbeza",
+            "Dia tidak pernah mengira pinggan",
+            "Ibu tidak menyediakan kuih lagi",
+            "Pinggan besar sudah dibuang"
+          ],
+          "answer": 0,
+          "hint": "Cari batas pemerhatian yang diingatkan kepada ibu.",
+          "explanation": "Perbezaan pembeli boleh mempengaruhi baki, jadi perubahan saiz bukan satu-satunya kemungkinan.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "kumpulan pembeli juga berbeza"
+          }
+        },
+        {
+          "prompt": "Apakah langkah seterusnya yang dipersetujui?",
+          "options": [
+            "Menutup gerai selepas satu jam",
+            "Mencatat pemerhatian pada hari terbuka berikutnya",
+            "Memaksa setiap pembeli mengambil dua potong",
+            "Menyediakan pinggan besar sahaja"
+          ],
+          "answer": 1,
+          "hint": "Baca keputusan pada ayat terakhir.",
+          "explanation": "Mereka mahu mengumpulkan pemerhatian tambahan.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "Mereka bersetuju mencatat pemerhatian pada hari terbuka berikutnya"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d5-bm-peta-daun",
+    "levelId": "d5",
+    "subjectId": "bm",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Panduan Membaca: Catatan Daun di Laluan Sekolah",
+      "summary": "Latih kemahiran menentukan cadangan dan batas bukti.",
+      "body": [
+        "Dalam bacaan Catatan Daun di Laluan Sekolah, kamu akan berlatih menentukan cadangan dan batas bukti. Baca setiap perenggan dengan teliti dan kenal pasti perkara yang berlaku sebelum membuat pilihan jawapan. Maklumat kecil boleh membantu kamu memahami keseluruhan cerita.",
+        "Tandakan ayat yang menyokong jawapan kamu. Perhatikan siapa yang bertindak, perkara yang berubah dan sebab sesuatu keputusan dibuat. Jika soalan meminta kesimpulan, hubungkan petunjuk dalam cerita tanpa menambah kejadian yang tidak dinyatakan.",
+        "Selepas memilih jawapan, baca pilihan lain sekali lagi. Bezakan maklumat yang benar dalam cerita daripada perkara yang hanya mungkin berlaku dalam kehidupan harian. Gunakan ayat cerita untuk menerangkan mengapa pilihan kamu paling sesuai."
+      ],
+      "keyPoints": [
+        "Baca ayat mengikut urutan.",
+        "Cari petunjuk dalam bacaan.",
+        "Semak jawapan dengan ayat cerita."
+      ]
+    },
+    "reading": {
+      "title": "Catatan Daun di Laluan Sekolah",
+      "summary": "Bacaan asal untuk Darjah 5: menentukan cadangan dan batas bukti.",
+      "body": [
+        "Kelab Alam Sekitar sebuah sekolah di Taiping mahu mengetahui tempat daun gugur paling banyak berkumpul selepas hujan. Mereka tidak mahu menebang pokok kerana pokok memberikan teduhan kepada murid. Sebaliknya, mereka berharap dapat membantu pekerja sekolah menentukan kawasan yang perlu diperiksa dahulu sebelum murid tiba.",
+        "Aisyah membahagikan laluan kepada tiga bahagian: pintu pagar, tepi kantin dan belakang makmal. Selama empat pagi, kumpulannya mengambil gambar dari tempat yang sama dan mencatat sama ada permukaan basah atau kering. Mereka mengira longgokan daun, bukannya setiap helai, supaya pemerhatian sempat diselesaikan sebelum loceng pertama.",
+        "Catatan awal menunjukkan bahagian belakang makmal mempunyai longgokan paling banyak. Namun, Ramesh mendapati angin menolak daun ke situ dari pokok berhampiran kantin. Oleh itu, banyaknya daun di satu tempat tidak semestinya bermaksud pokok di tempat itu menggugurkan daun paling banyak. Mereka menambah arah angin dalam borang pemerhatian berikutnya.",
+        "Dalam pembentangan, Aisyah mencadangkan pemeriksaan awal di belakang makmal pada pagi selepas hujan. Dia menjelaskan bahawa cadangan itu berdasarkan empat hari sahaja dan belum meliputi musim yang berbeza. Pekerja sekolah menyambut baik catatan tersebut kerana lokasi dinyatakan dengan jelas. Kelab akan meneruskan pemerhatian dua minggu lagi dan membandingkan hasil baharu sebelum mencadangkan jadual tetap."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 1,
+          "caption": "Daun yang dikumpulkan dalam longgokan",
+          "visual": {
+            "label": "Daun gugur",
+            "items": [
+              {
+                "kind": "leaf",
+                "count": 4,
+                "color": "yellow"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Daun boleh dibawa angin ke tempat lain",
+          "visual": {
+            "label": "Daun dari pokok berhampiran kantin",
+            "items": [
+              {
+                "kind": "leaf",
+                "count": 2,
+                "color": "green"
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah tujuan utama pemerhatian kelab?",
+          "options": [
+            "Memilih semua pokok untuk ditebang",
+            "Membantu menentukan kawasan yang perlu diperiksa dahulu",
+            "Mengira jumlah murid yang lewat",
+            "Menentukan harga peralatan kebun"
+          ],
+          "answer": 1,
+          "hint": "Cari harapan kelab selepas perkataan sebaliknya.",
+          "explanation": "Pemerhatian bertujuan membantu pekerja mengutamakan kawasan pemeriksaan.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "membantu pekerja sekolah menentukan kawasan yang perlu diperiksa dahulu sebelum murid tiba"
+          }
+        },
+        {
+          "prompt": "Mengapakah mereka mengira longgokan, bukan setiap helai?",
+          "options": [
+            "Supaya semua daun kelihatan sama",
+            "Kerana gambar tidak boleh diambil",
+            "Supaya pemerhatian siap sebelum loceng pertama",
+            "Kerana laluan sekolah sentiasa kering"
+          ],
+          "answer": 2,
+          "hint": "Cari tujuan selepas supaya.",
+          "explanation": "Mengira longgokan menjimatkan masa pemerhatian sebelum kelas.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Mereka mengira longgokan daun, bukannya setiap helai, supaya pemerhatian sempat diselesaikan sebelum loceng pertama."
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Semak Bacaan: Catatan Daun di Laluan Sekolah",
+      "summary": "Empat soalan berdasarkan bacaan yang sama.",
+      "body": [
+        "Jawab empat soalan tentang bacaan Catatan Daun di Laluan Sekolah. Rujuk semula perenggan cerita untuk mencari petunjuk bagi setiap jawapan."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah yang boleh menjelaskan banyaknya daun di belakang makmal?",
+          "options": [
+            "Semua pokok di makmal sudah ditebang",
+            "Murid mengumpul daun di makmal setiap pagi",
+            "Pekerja sengaja menutup laluan kantin",
+            "Angin membawa daun dari arah kantin"
+          ],
+          "answer": 3,
+          "hint": "Cari pemerhatian Ramesh.",
+          "explanation": "Daun mungkin datang dari pokok berhampiran kantin lalu dibawa angin.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "angin menolak daun ke situ dari pokok berhampiran kantin"
+          }
+        },
+        {
+          "prompt": "Maklumat baharu apakah ditambah pada borang?",
+          "options": [
+            "Arah angin",
+            "Harga penyapu",
+            "Bilangan murid kantin",
+            "Warna dinding makmal"
+          ],
+          "answer": 0,
+          "hint": "Baca hujung perenggan ketiga.",
+          "explanation": "Arah angin ditambah untuk memahami pergerakan daun.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Mereka menambah arah angin dalam borang pemerhatian berikutnya."
+          }
+        },
+        {
+          "prompt": "Mengapakah jadual tetap belum dicadangkan?",
+          "options": [
+            "Tiada lokasi dicatatkan langsung",
+            "Catatan masih singkat dan belum meliputi musim berbeza",
+            "Semua pekerja menolak catatan",
+            "Kelab tidak lagi mahu memerhati daun"
+          ],
+          "answer": 1,
+          "hint": "Cari batas data yang diterangkan oleh Aisyah.",
+          "explanation": "Empat hari belum cukup menggambarkan keadaan pada musim yang berbeza.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "cadangan itu berdasarkan empat hari sahaja dan belum meliputi musim yang berbeza"
+          }
+        },
+        {
+          "prompt": "Cadangan awal manakah selaras dengan dapatan?",
+          "options": [
+            "Abaikan belakang makmal sepanjang tahun",
+            "Tebang semua pokok berhampiran kantin",
+            "Periksa belakang makmal awal pada pagi selepas hujan",
+            "Periksa pintu pagar sahaja setiap petang"
+          ],
+          "answer": 2,
+          "hint": "Padankan lokasi dan masa dalam pembentangan.",
+          "explanation": "Cadangan awal menumpukan belakang makmal pada pagi selepas hujan.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "Aisyah mencadangkan pemeriksaan awal di belakang makmal pada pagi selepas hujan."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d5-bm-pensel-pinjam",
+    "levelId": "d5",
+    "subjectId": "bm",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Panduan Membaca: Pensel Pinjam Tanpa Nama",
+      "summary": "Latih kemahiran mengenal punca kekeliruan dan menilai penyelesaian.",
+      "body": [
+        "Dalam bacaan Pensel Pinjam Tanpa Nama, kamu akan berlatih mengenal punca kekeliruan dan menilai penyelesaian. Baca setiap perenggan dengan teliti dan kenal pasti perkara yang berlaku sebelum membuat pilihan jawapan. Maklumat kecil boleh membantu kamu memahami keseluruhan cerita.",
+        "Tandakan ayat yang menyokong jawapan kamu. Perhatikan siapa yang bertindak, perkara yang berubah dan sebab sesuatu keputusan dibuat. Jika soalan meminta kesimpulan, hubungkan petunjuk dalam cerita tanpa menambah kejadian yang tidak dinyatakan.",
+        "Selepas memilih jawapan, baca pilihan lain sekali lagi. Bezakan maklumat yang benar dalam cerita daripada perkara yang hanya mungkin berlaku dalam kehidupan harian. Gunakan ayat cerita untuk menerangkan mengapa pilihan kamu paling sesuai."
+      ],
+      "keyPoints": [
+        "Baca ayat mengikut urutan.",
+        "Cari petunjuk dalam bacaan.",
+        "Semak jawapan dengan ayat cerita."
+      ]
+    },
+    "reading": {
+      "title": "Pensel Pinjam Tanpa Nama",
+      "summary": "Bacaan asal untuk Darjah 5: mengenal punca kekeliruan dan menilai penyelesaian.",
+      "body": [
+        "Kelas Lima Cekal di Kota Bharu menyediakan bekas pensel pinjaman untuk murid yang terlupa membawa alat tulis. Pada minggu pertama, bekas itu semakin kosong walaupun tiada pensel dilaporkan patah. Farhana, ketua kelas, mahu mengetahui sebabnya sebelum mencadangkan pembelian baharu. Dia mengajak rakan berbincang selepas guru memberikan izin.",
+        "Beberapa murid mengaku terlupa memulangkan pensel kerana pensel pinjaman kelihatan sama seperti pensel sendiri. Mereka tidak berniat menyimpannya. Seorang murid pula tidak tahu sama ada pensel perlu dipulangkan selepas satu pelajaran atau pada akhir hari. Farhana sedar bahawa arahan asal, iaitu pulangkan selepas digunakan, boleh difahami dengan cara berbeza.",
+        "Kelas bersetuju menampal jalur pita kuning pada setiap pensel pinjaman. Mereka juga menulis arahan baharu: pulangkan sebelum keluar kelas pada waktu rehat atau waktu pulang, mengikut waktu yang tiba dahulu. Guru meminta supaya nama peminjam tidak diumumkan di hadapan kelas. Tujuannya ialah membantu murid mengingat tanggungjawab tanpa memalukan sesiapa.",
+        "Selepas seminggu, kebanyakan pensel kembali ke bekas pada waktunya. Dua batang masih tertinggal dalam beg, tetapi peminjam memulangkannya selepas melihat peringatan pada papan. Farhana mencatat bahawa tanda khas dan arahan jelas digunakan serentak. Oleh itu, dia tidak mendakwa bahawa pita kuning sahaja menyebabkan perubahan. Kelas mengekalkan kedua-dua langkah kerana gabungannya mudah diamalkan."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Pensel untuk dipinjam",
+          "visual": {
+            "label": "Pensel pinjaman",
+            "items": [
+              {
+                "kind": "pencil",
+                "count": 3
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 3,
+          "caption": "Pensel kembali untuk kegunaan rakan",
+          "visual": {
+            "label": "Pensel yang dipulangkan",
+            "items": [
+              {
+                "kind": "pencil",
+                "count": 2
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Mengapakah sesetengah murid terlupa memulangkan pensel?",
+          "options": [
+            "Semua pensel telah patah",
+            "Pensel pinjaman menyerupai pensel sendiri",
+            "Bekas pinjaman disembunyikan guru",
+            "Mereka diarahkan membawa pensel pulang"
+          ],
+          "answer": 1,
+          "hint": "Cari penjelasan beberapa murid.",
+          "explanation": "Rupa pensel yang sama menyebabkan murid terlupa bahawa pensel itu dipinjam.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "pensel pinjaman kelihatan sama seperti pensel sendiri"
+          }
+        },
+        {
+          "prompt": "Apakah kekurangan arahan asal?",
+          "options": [
+            "Arahan melarang semua pinjaman",
+            "Arahan hanya menyebut warna beg",
+            "Waktu pemulangan tidak cukup jelas",
+            "Arahan mewajibkan pembelian baharu"
+          ],
+          "answer": 2,
+          "hint": "Bandingkan dua waktu yang difikirkan oleh murid.",
+          "explanation": "Murid menafsirkan selepas digunakan sebagai waktu yang berlainan.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "tidak tahu sama ada pensel perlu dipulangkan selepas satu pelajaran atau pada akhir hari"
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Semak Bacaan: Pensel Pinjam Tanpa Nama",
+      "summary": "Empat soalan berdasarkan bacaan yang sama.",
+      "body": [
+        "Jawab empat soalan tentang bacaan Pensel Pinjam Tanpa Nama. Rujuk semula perenggan cerita untuk mencari petunjuk bagi setiap jawapan."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah tanda pensel pinjaman yang dipersetujui?",
+          "options": [
+            "Nama peminjam dicetak besar",
+            "Seluruh pensel dicat merah",
+            "Nombor bilik pada pemadam",
+            "Jalur pita kuning"
+          ],
+          "answer": 3,
+          "hint": "Cari tanda khas pada pensel.",
+          "explanation": "Jalur pita kuning membezakan pensel pinjaman.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "menampal jalur pita kuning pada setiap pensel pinjaman"
+          }
+        },
+        {
+          "prompt": "Mengapakah nama peminjam tidak diumumkan?",
+          "options": [
+            "Untuk mengingatkan tanggungjawab tanpa memalukan murid",
+            "Untuk menghapuskan semua peraturan",
+            "Untuk membenarkan pensel disimpan selamanya",
+            "Untuk menghalang guru mengenali murid"
+          ],
+          "answer": 0,
+          "hint": "Cari tujuan permintaan guru.",
+          "explanation": "Guru mahu membantu ingatan murid sambil menjaga perasaan mereka.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "membantu murid mengingat tanggungjawab tanpa memalukan sesiapa"
+          }
+        },
+        {
+          "prompt": "Jika meminjam sebelum rehat, bilakah pensel perlu dipulangkan?",
+          "options": [
+            "Hanya pada akhir minggu",
+            "Sebelum keluar kelas pada waktu rehat",
+            "Selepas cuti sekolah",
+            "Sebelum pelajaran esok bermula"
+          ],
+          "answer": 1,
+          "hint": "Gunakan waktu yang tiba dahulu.",
+          "explanation": "Bagi pinjaman sebelum rehat, waktu rehat tiba sebelum waktu pulang.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "pulangkan sebelum keluar kelas pada waktu rehat atau waktu pulang, mengikut waktu yang tiba dahulu"
+          }
+        },
+        {
+          "prompt": "Mengapakah kesan pita sahaja tidak dapat dipastikan?",
+          "options": [
+            "Tiada seorang pun memulangkan pensel",
+            "Pita kuning tidak pernah digunakan",
+            "Tanda khas dan arahan jelas diperkenalkan serentak",
+            "Semua pensel baharu dibeli selepas seminggu"
+          ],
+          "answer": 2,
+          "hint": "Cari dua perubahan yang berlaku bersama.",
+          "explanation": "Dua langkah digunakan bersama, jadi catatan itu tidak memisahkan kesan setiap langkah.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "tanda khas dan arahan jelas digunakan serentak"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d6-bm-rak-buku-komuniti",
+    "levelId": "d6",
+    "subjectId": "bm",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Panduan Membaca: Rak Buku di Balai Komuniti",
+      "summary": "Latih kemahiran menggabungkan keperluan dan mentafsir rekod.",
+      "body": [
+        "Dalam bacaan Rak Buku di Balai Komuniti, kamu akan berlatih menggabungkan keperluan dan mentafsir rekod. Baca setiap perenggan dengan teliti dan kenal pasti perkara yang berlaku sebelum membuat pilihan jawapan. Maklumat kecil boleh membantu kamu memahami keseluruhan cerita.",
+        "Tandakan ayat yang menyokong jawapan kamu. Perhatikan siapa yang bertindak, perkara yang berubah dan sebab sesuatu keputusan dibuat. Jika soalan meminta kesimpulan, hubungkan petunjuk dalam cerita tanpa menambah kejadian yang tidak dinyatakan.",
+        "Selepas memilih jawapan, baca pilihan lain sekali lagi. Bezakan maklumat yang benar dalam cerita daripada perkara yang hanya mungkin berlaku dalam kehidupan harian. Gunakan ayat cerita untuk menerangkan mengapa pilihan kamu paling sesuai."
+      ],
+      "keyPoints": [
+        "Baca ayat mengikut urutan.",
+        "Cari petunjuk dalam bacaan.",
+        "Semak jawapan dengan ayat cerita."
+      ]
+    },
+    "reading": {
+      "title": "Rak Buku di Balai Komuniti",
+      "summary": "Bacaan asal untuk Darjah 6: menggabungkan keperluan dan mentafsir rekod.",
+      "body": [
+        "Jawatankuasa remaja di sebuah taman perumahan di Johor Bahru bercadang membuka rak pertukaran buku di balai komuniti. Penduduk boleh mengambil sebuah buku dan meninggalkan buku lain yang masih elok. Siti mahu rak itu mudah dicapai oleh kanak-kanak, manakala Daniel bimbang rak berhampiran pintu akan terkena tempias hujan. Mereka bersetuju mencari tempat yang memenuhi kedua-dua keperluan sebelum membeli perabot.",
+        "Dalam tinjauan hujung minggu, dua puluh orang penduduk memberikan pandangan. Kebanyakannya memilih ruang dekat pintu kerana mudah dilihat. Namun, petugas balai menjelaskan bahawa sudut tersebut pernah basah ketika hujan disertai angin kuat. Bilangan penyokong yang ramai tidak menghapuskan masalah itu. Siti mencadangkan ruang di bawah tingkap tertutup, dengan tanda arah dari pintu masuk.",
+        "Daniel mengukur laluan dan mendapati rak rendah boleh diletakkan di situ tanpa menyempitkan jalan ke dewan. Mereka menggunakan meja sedia ada untuk percubaan selama dua minggu. Buku kanak-kanak diletakkan dalam bakul di atas meja rendah, manakala buku lain disusun berasingan. Sebuah buku catatan merekodkan bilangan buku masuk dan keluar tanpa meminta nama pembaca.",
+        "Pada akhir percubaan, sebanyak tiga puluh buku telah diambil dan dua puluh empat ditinggalkan. Siti menegaskan bahawa angka itu menunjukkan pergerakan buku, bukannya jumlah pembaca yang berbeza, kerana seseorang mungkin datang beberapa kali. Jawatankuasa bersetuju meneruskan projek sambil memeriksa keadaan buku setiap minggu. Mereka akan menilai semula kedudukan rak selepas hujan lebat pertama kerana tempoh percubaan kebanyakannya cerah."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 2,
+          "caption": "Bakul yang disediakan untuk buku kanak-kanak",
+          "visual": {
+            "label": "Bakul kosong sebelum buku disusun",
+            "items": [
+              {
+                "kind": "emptyBasket",
+                "count": 1
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Buku disusun mengikut kumpulan",
+          "visual": {
+            "label": "Buku pertukaran",
+            "items": [
+              {
+                "kind": "book",
+                "count": 3,
+                "color": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 3,
+          "caption": "Buku catatan merekodkan pergerakan buku",
+          "visual": {
+            "label": "Buku catatan",
+            "items": [
+              {
+                "kind": "book",
+                "count": 1
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah gabungan keperluan Siti dan Daniel?",
+          "options": [
+            "Rak paling tinggi dan paling mahal",
+            "Buku hanya untuk remaja dan petugas",
+            "Mudah dicapai kanak-kanak dan terlindung daripada tempias",
+            "Rak dekat pintu tanpa mengambil kira hujan"
+          ],
+          "answer": 2,
+          "hint": "Kenal pasti keutamaan kedua-dua watak.",
+          "explanation": "Cadangan perlu menjaga capaian kanak-kanak serta perlindungan daripada hujan.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Siti mahu rak itu mudah dicapai oleh kanak-kanak, manakala Daniel bimbang rak berhampiran pintu akan terkena tempias hujan."
+          }
+        },
+        {
+          "prompt": "Mengapakah pilihan majoriti tidak terus dilaksanakan?",
+          "options": [
+            "Semua penduduk menolak sebarang rak",
+            "Tinjauan tidak mempunyai peserta",
+            "Petugas mahu membuang semua buku",
+            "Tempat pilihan itu pernah terkena hujan berangin"
+          ],
+          "answer": 3,
+          "hint": "Cari maklumat petugas yang mengubah pertimbangan.",
+          "explanation": "Risiko tempias masih perlu ditangani walaupun ramai memilih lokasi itu.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "petugas balai menjelaskan bahawa sudut tersebut pernah basah ketika hujan disertai angin kuat"
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Semak Bacaan: Rak Buku di Balai Komuniti",
+      "summary": "Empat soalan berdasarkan bacaan yang sama.",
+      "body": [
+        "Jawab empat soalan tentang bacaan Rak Buku di Balai Komuniti. Rujuk semula perenggan cerita untuk mencari petunjuk bagi setiap jawapan."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah tujuan tanda arah dari pintu?",
+          "options": [
+            "Membantu pengunjung mencari ruang buku yang dipindahkan",
+            "Menghalang kanak-kanak masuk ke balai",
+            "Menggantikan semua buku dengan papan tanda",
+            "Merekodkan nama setiap pembaca"
+          ],
+          "answer": 0,
+          "hint": "Hubungkan lokasi baharu dengan tanda arah.",
+          "explanation": "Tanda arah membantu pengunjung dari pintu mencari ruang di bawah tingkap.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Siti mencadangkan ruang di bawah tingkap tertutup, dengan tanda arah dari pintu masuk."
+          }
+        },
+        {
+          "prompt": "Apakah yang disahkan oleh ukuran Daniel?",
+          "options": [
+            "Rak akan kekal kering sepanjang tahun",
+            "Rak rendah tidak menyempitkan laluan ke dewan",
+            "Semua penduduk dapat membaca setiap buku",
+            "Bilangan pembaca sama dengan buku keluar"
+          ],
+          "answer": 1,
+          "hint": "Hadkan jawapan kepada hasil ukuran.",
+          "explanation": "Ukuran memberikan maklumat tentang ruang laluan, bukan cuaca atau pembaca.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "rak rendah boleh diletakkan di situ tanpa menyempitkan jalan ke dewan"
+          }
+        },
+        {
+          "prompt": "Mengapakah tiga puluh buku diambil tidak bermaksud tiga puluh pembaca?",
+          "options": [
+            "Setiap buku pasti dibaca oleh tiga orang",
+            "Semua buku diambil oleh petugas sahaja",
+            "Orang yang sama mungkin datang beberapa kali",
+            "Catatan hanya merekodkan buku rosak"
+          ],
+          "answer": 2,
+          "hint": "Bezakan bilangan buku dengan bilangan orang.",
+          "explanation": "Seorang pembaca boleh mengambil buku pada lebih daripada satu kunjungan.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "angka itu menunjukkan pergerakan buku, bukannya jumlah pembaca yang berbeza, kerana seseorang mungkin datang beberapa kali"
+          }
+        },
+        {
+          "prompt": "Mengapakah lokasi akan dinilai selepas hujan lebat?",
+          "options": [
+            "Rak sudah terbukti rosak setiap hari",
+            "Semua tingkap sengaja dibuka",
+            "Jawatankuasa mahu menghentikan pinjaman",
+            "Percubaan kebanyakannya berlangsung ketika cuaca cerah"
+          ],
+          "answer": 3,
+          "hint": "Cari keadaan yang belum banyak diuji.",
+          "explanation": "Tempoh cerah belum cukup menguji perlindungan lokasi ketika hujan lebat.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "menilai semula kedudukan rak selepas hujan lebat pertama kerana tempoh percubaan kebanyakannya cerah"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d6-bm-cawan-guna-semula",
+    "levelId": "d6",
+    "subjectId": "bm",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Panduan Membaca: Cawan Guna Semula di Hari Sukan",
+      "summary": "Latih kemahiran menilai punca, percubaan dan akses.",
+      "body": [
+        "Dalam bacaan Cawan Guna Semula di Hari Sukan, kamu akan berlatih menilai punca, percubaan dan akses. Baca setiap perenggan dengan teliti dan kenal pasti perkara yang berlaku sebelum membuat pilihan jawapan. Maklumat kecil boleh membantu kamu memahami keseluruhan cerita.",
+        "Tandakan ayat yang menyokong jawapan kamu. Perhatikan siapa yang bertindak, perkara yang berubah dan sebab sesuatu keputusan dibuat. Jika soalan meminta kesimpulan, hubungkan petunjuk dalam cerita tanpa menambah kejadian yang tidak dinyatakan.",
+        "Selepas memilih jawapan, baca pilihan lain sekali lagi. Bezakan maklumat yang benar dalam cerita daripada perkara yang hanya mungkin berlaku dalam kehidupan harian. Gunakan ayat cerita untuk menerangkan mengapa pilihan kamu paling sesuai."
+      ],
+      "keyPoints": [
+        "Baca ayat mengikut urutan.",
+        "Cari petunjuk dalam bacaan.",
+        "Semak jawapan dengan ayat cerita."
+      ]
+    },
+    "reading": {
+      "title": "Cawan Guna Semula di Hari Sukan",
+      "summary": "Bacaan asal untuk Darjah 6: menilai punca, percubaan dan akses.",
+      "body": [
+        "Persatuan ibu bapa di sebuah sekolah di Alor Setar ingin mengurangkan cawan pakai buang semasa hari sukan. Mereka mencadangkan kaunter minuman yang meminjamkan cawan guna semula. Setiap peminjam membayar deposit satu ringgit yang dipulangkan apabila cawan dikembalikan. Namun, guru mengingatkan bahawa pengurangan sampah sahaja belum mencukupi untuk menilai kelancaran kaunter. Masa menunggu dan kerja mencuci juga perlu diperhatikan.",
+        "Semasa latihan rumah sukan, pasukan percubaan menyediakan empat puluh cawan. Aiman merekodkan masa menunggu pada awal, pertengahan dan akhir rehat. Pada awalnya, barisan bergerak lancar. Kemudian, cawan bersih semakin berkurang kerana hanya seorang petugas mencuci. Sebahagian peminjam menunggu walaupun minuman masih banyak. Keadaan itu menunjukkan bahawa bekalan minuman bukan punca kelewatan pada waktu tersebut.",
+        "Untuk percubaan kedua, persatuan menambah seorang petugas mencuci dan menyediakan tempat pulangan yang berasingan daripada kaunter minuman. Mereka mengekalkan bilangan cawan serta tempoh rehat yang sama. Barisan menjadi lebih pendek, tetapi Aiman mencatat bahawa kedua-dua perubahan dibuat serentak. Oleh itu, mereka belum dapat menentukan sumbangan setiap perubahan secara berasingan.",
+        "Dalam mesyuarat, Aiman mencadangkan sistem itu digunakan pada hari sukan dengan pemeriksaan berkala terhadap bekalan cawan bersih. Dia turut meminta pilihan pinjaman tanpa deposit bagi murid yang tidak membawa wang, melalui pengesahan guru bertugas. Persatuan menerima cadangan itu supaya akses kepada minuman tidak bergantung pada wang yang dibawa. Mereka akan membandingkan rekod hari sukan dengan percubaan kerana jumlah pengunjung sebenar dijangka lebih ramai."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 1,
+          "caption": "Cawan yang digunakan dalam percubaan",
+          "visual": {
+            "label": "Contoh cawan guna semula",
+            "items": [
+              {
+                "kind": "cup",
+                "count": 3,
+                "color": "green"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Cawan dikembalikan untuk dicuci",
+          "visual": {
+            "label": "Cawan pulangan",
+            "items": [
+              {
+                "kind": "cup",
+                "count": 2,
+                "color": "green"
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Bilakah deposit satu ringgit dipulangkan?",
+          "options": [
+            "Apabila murid membeli makanan",
+            "Selepas semua acara tamat tanpa memulangkan cawan",
+            "Apabila cawan dikembalikan",
+            "Apabila peminjam mengambil cawan kedua"
+          ],
+          "answer": 2,
+          "hint": "Cari syarat selepas apabila.",
+          "explanation": "Pemulangan cawan menjadi syarat pemulangan deposit.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "deposit satu ringgit yang dipulangkan apabila cawan dikembalikan"
+          }
+        },
+        {
+          "prompt": "Apakah punca kelewatan dalam percubaan pertama?",
+          "options": [
+            "Minuman di kaunter sudah habis",
+            "Kaunter belum menerima pulangan cawan",
+            "Bilangan cawan melebihi ruang meja",
+            "Cawan bersih berkurang ketika hanya seorang mencuci"
+          ],
+          "answer": 3,
+          "hint": "Bezakan bekalan cawan dengan bekalan minuman.",
+          "explanation": "Kadar mencuci tidak mencukupi untuk mengekalkan bekalan cawan bersih.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "cawan bersih semakin berkurang kerana hanya seorang petugas mencuci"
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Semak Bacaan: Cawan Guna Semula di Hari Sukan",
+      "summary": "Empat soalan berdasarkan bacaan yang sama.",
+      "body": [
+        "Jawab empat soalan tentang bacaan Cawan Guna Semula di Hari Sukan. Rujuk semula perenggan cerita untuk mencari petunjuk bagi setiap jawapan."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah dua perkara yang dikekalkan pada percubaan kedua?",
+          "options": [
+            "Bilangan cawan dan tempoh rehat",
+            "Bilangan pencuci dan lokasi pulangan",
+            "Panjang barisan dan bilangan peminjam",
+            "Jumlah sampah dan semua masa menunggu"
+          ],
+          "answer": 0,
+          "hint": "Cari perkataan mengekalkan.",
+          "explanation": "Bilangan cawan dan tempoh rehat tidak ditukar dalam percubaan kedua.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Mereka mengekalkan bilangan cawan serta tempoh rehat yang sama."
+          }
+        },
+        {
+          "prompt": "Mengapakah kesan setiap perubahan belum dapat dipisahkan?",
+          "options": [
+            "Tiada pemerhatian direkodkan",
+            "Dua perubahan dibuat serentak",
+            "Semua keadaan ditukar secara berasingan",
+            "Barisan sentiasa sama panjang"
+          ],
+          "answer": 1,
+          "hint": "Perhatikan hubungan masa antara dua perubahan.",
+          "explanation": "Tambahan petugas dan tempat pulangan baharu berlaku bersama, jadi kesan masing-masing belum dipastikan.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "kedua-dua perubahan dibuat serentak"
+          }
+        },
+        {
+          "prompt": "Mengapakah pilihan tanpa deposit dicadangkan?",
+          "options": [
+            "Supaya tiada cawan perlu dipulangkan",
+            "Supaya semua deposit dinaikkan",
+            "Supaya murid tanpa wang masih boleh mendapat minuman",
+            "Supaya guru sahaja menggunakan kaunter"
+          ],
+          "answer": 2,
+          "hint": "Cari tujuan yang diterima persatuan.",
+          "explanation": "Pilihan itu menjaga akses murid yang tidak membawa wang.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "Persatuan menerima cadangan itu supaya akses kepada minuman tidak bergantung pada wang yang dibawa."
+          }
+        },
+        {
+          "prompt": "Mengapakah rekod hari sukan masih perlu dibandingkan?",
+          "options": [
+            "Hari sukan pasti tiada pengunjung",
+            "Percubaan tidak menggunakan cawan",
+            "Semua petugas akan berhenti mencuci",
+            "Jumlah pengunjung sebenar dijangka lebih ramai"
+          ],
+          "answer": 3,
+          "hint": "Cari sebab dalam ayat terakhir.",
+          "explanation": "Keadaan dengan lebih ramai pengunjung mungkin berbeza daripada percubaan.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "Mereka akan membandingkan rekod hari sukan dengan percubaan kerana jumlah pengunjung sebenar dijangka lebih ramai."
+          }
+        }
+      ]
+    }
+  }
+]

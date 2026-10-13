@@ -1,0 +1,26 @@
+.parentFeedback { padding: 0 !important; overflow: hidden; }
+.parentFeedbackHeading { display: flex; align-items: flex-start; gap: 13px; padding: 24px 24px 0; }
+.parentFeedbackHeading > svg { flex: none; width: 25px; height: 25px; margin-top: 3px; color: var(--focus-plum, #795078); }
+.parentFeedbackHeading > div { min-width: 0; }
+.parentFeedbackHeading h2 { margin: 0; font-size: 24px; }
+.parentFeedbackHeading p { margin: 8px 0 0; color: var(--focus-muted, #596482); }
+.parentFeedback form { padding: 20px 24px 24px; }
+.parentFeedback fieldset { display: grid; gap: 8px; min-width: 0; margin: 0; padding: 0; border: 0; }
+.parentFeedback label { color: #384363; font-size: 14px; font-weight: 700; }
+.parentFeedback select,
+.parentFeedback textarea { width: 100%; min-width: 0; border: 1px solid #cfd4df; border-radius: 11px; background: #fff; color: var(--focus-ink, #171c3b); padding: 12px 13px; }
+.parentFeedback textarea { resize: vertical; line-height: 1.6; }
+.parentFeedback :is(select, textarea):disabled { background: #f4f5f8; color: #697186; }
+.parentFeedbackCount { justify-self: end; color: var(--focus-muted, #596482); font-variant-numeric: tabular-nums; }
+.parentFeedbackReply { display: flex; align-items: flex-start; gap: 10px; min-height: 44px; padding: 11px 0 4px; }
+.parentFeedbackReply input { flex: none; width: 18px; height: 18px; margin: 2px 0 0; accent-color: var(--focus-plum, #795078); }
+.parentFeedbackPrivacy { margin: 0; padding: 13px 15px; border-radius: 11px; background: #fff9ed; color: #705b32; font-size: 13px; line-height: 1.6; }
+.parentFeedbackNotice { display: flex; align-items: flex-start; gap: 9px; margin: 16px 0 0; padding: 13px 15px; border-radius: 11px; background: #eef8f1; color: #276746; }
+.parentFeedbackNotice svg { flex: none; width: 19px; margin-top: 2px; }
+.parentFeedbackError { margin: 12px 0 0; padding: 13px 15px; border-radius: 11px; background: #fff1f0; color: #9c3733; }
+.parentFeedbackActions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 17px; }
+@media (max-width: 560px) {
+  .parentFeedbackHeading { padding: 20px 18px 0; }
+  .parentFeedback form { padding: 17px 18px 20px; }
+  .parentFeedbackActions > button { width: 100%; }
+}

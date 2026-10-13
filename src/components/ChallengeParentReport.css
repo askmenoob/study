@@ -1,0 +1,68 @@
+.challengeParentReport {
+  background: #fff; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 18px;
+  padding: 28px; margin: 24px 0; color: var(--focus-ink, #171c3b); min-width: 0;
+}
+.challengeParentReport * { box-sizing: border-box; }
+.challengeParentReport button { min-width: 44px; min-height: 44px; font: inherit; }
+.challengeReportHeading { display: flex; align-items: flex-start; gap: 14px; }
+.challengeReportHeading > svg { flex: none; margin-top: 4px; color: var(--focus-plum, #795078); }
+.challengeReportHeading > div { flex: 1; min-width: 0; }
+.challengeReportHeading h2 { font-size: 25px; line-height: 1.3; letter-spacing: -.025em; margin: 0; }
+.challengeReportHeading p { font-size: 15px; line-height: 1.6; color: var(--focus-muted, #596482); margin: 9px 0 24px; }
+.challengeReportHeading > button { display: grid; place-items: center; background: #fff; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 10px; padding: 11px; color: var(--focus-muted, #596482); cursor: pointer; flex: none; }
+.challengeReportHeading > button:hover { background: #f8f1f6; border-color: #cfb9ce; }
+.challengeParentReport :is(button, summary):focus-visible { outline: 3px solid var(--focus-plum, #795078); outline-offset: 3px; }
+.challengeReportStats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.challengeReportStats > div { padding: 20px 18px; background: var(--focus-rose, #f1e4ed); border-radius: 13px; }
+.challengeReportStats strong { display: block; font-size: 30px; line-height: 1.25; color: #5d3561; font-variant-numeric: tabular-nums; }
+.challengeReportStats strong small { font-size: 18px; }
+.challengeReportStats > div > span { display: block; color: var(--focus-muted, #596482); font-size: 13px; margin-top: 8px; line-height: 1.5; }
+.challengeReportNote { display: flex; align-items: flex-start; gap: 10px; background: #fff9ed; border-radius: 12px; padding: 15px 17px; font-size: 14px; line-height: 1.65; color: #796033; margin: 20px 0; }
+.challengeReportNote svg { flex: none; margin-top: 3px; }
+.challengeReportSubjects { display: grid; gap: 14px; }
+.challengeReportSubject { border: 1px solid var(--focus-border, #e3e6ed); border-radius: 13px; padding: 18px 20px; }
+.challengeReportSubject > summary { cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 14px; font-size: 16px; font-weight: 700; min-height: 44px; }
+.challengeReportSubject > summary > span:first-child { min-width: 0; overflow-wrap: anywhere; }
+.challengeReportSubject > summary > span:last-child { font-size: 14px; flex: none; color: #5d3561; }
+.challengeReportSubject small { display: block; color: var(--focus-muted, #596482); font-size: 13px; font-weight: 500; margin-top: 6px; line-height: 1.55; }
+.challengeReportSubjectMeta { font-size: 13px; line-height: 1.6; color: var(--focus-muted, #596482); margin: 18px 0 4px; }
+.challengeReportTopics { display: grid; gap: 20px; margin-top: 20px; }
+.challengeReportTopics article { padding: 0; border: 0; min-width: 0; }
+.challengeReportTopicHeading { display: flex; align-items: center; justify-content: space-between; gap: 14px; font-size: 14px; line-height: 1.5; }
+.challengeReportTopicHeading strong { overflow-wrap: anywhere; }
+.challengeReportTopicHeading > span { color: #296e4b; font-weight: 700; flex: none; }
+.challengeReportMeter { height: 8px; background: #edf0f2; border-radius: 99px; overflow: hidden; margin: 11px 0; }
+.challengeReportMeter > span { height: 100%; display: block; background: #438c68; border-radius: 99px; }
+.challengeReportTopics article p { margin: 0; font-size: 13px; line-height: 1.65; color: var(--focus-muted, #596482); }
+.challengeReportNeedsHelp { color: #936022; }
+.challengeReportEmpty { background: var(--focus-sky, #e9f1fc); border-radius: 12px; padding: 22px; color: var(--focus-muted, #596482); font-size: 15px; line-height: 1.65; }
+.challengeReportFootnote { font-size: 13px; color: var(--focus-muted, #596482); line-height: 1.65; margin: 18px 0; }
+.challengeReportRecent { margin-top: 28px; }
+.challengeReportRecent h3 { font-size: 19px; margin: 0 0 16px; }
+.challengeReportRecent ul { list-style: none; margin: 0; padding: 0; }
+.challengeReportRecent li { display: flex; justify-content: space-between; gap: 18px; border-top: 1px solid var(--focus-border, #e3e6ed); padding: 17px 0; font-size: 14px; }
+.challengeReportRecent li > div { min-width: 0; }
+.challengeReportRecent li > div:last-child { text-align: right; flex: none; }
+.challengeReportRecent strong, .challengeReportRecent span { display: block; }
+.challengeReportRecent strong { line-height: 1.55; overflow-wrap: anywhere; }
+.challengeReportRecent span { color: var(--focus-muted, #596482); margin-top: 5px; font-size: 13px; }
+.challengeReportRecent .challengeReportPassed { color: #287653; }
+.challengeReportRecent .challengeReportSupport { color: #936022; }
+.challengeReportError { padding: 17px; background: #fff1f0; border-radius: 12px; color: #9c3733; font-size: 14px; line-height: 1.65; }
+.challengeReportError button { background: #fff; border: 1px solid #e7c8c0; border-radius: 10px; color: #9c3733; padding: 10px 14px; cursor: pointer; }
+@media (max-width: 700px) {
+  .challengeParentReport { padding: 22px 18px; }
+  .challengeReportHeading h2 { font-size: 23px; }
+  .challengeReportStats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .challengeReportStats > div { padding: 18px 15px; }
+  .challengeReportSubject { padding: 15px 17px; }
+  .challengeReportSubject > summary { align-items: flex-start; flex-direction: column; gap: 9px; }
+  .challengeReportHeading > svg { width: 21px; }
+  .challengeReportHeading { gap: 10px; }
+}
+@media (max-width: 400px) {
+  .challengeReportHeading > svg { display: none; }
+  .challengeReportStats { gap: 9px; }
+  .challengeReportRecent li { flex-wrap: wrap; gap: 8px; }
+  .challengeReportRecent li > div:last-child { text-align: left; }
+}

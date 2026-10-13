@@ -1,0 +1,13 @@
+node_modules
+dist
+server/dist
+.git
+.ai
+.env
+coverage
+*.log
+*.png
+secrets/
+
+# PWA icons are production assets, not QA screenshots.
+!public/icons/*.png

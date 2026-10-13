@@ -1,0 +1,2621 @@
+[
+  {
+    "id": "library-d1-math-padanan-mira-v1",
+    "levelId": "d1",
+    "subjectId": "math",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Padanan Mira",
+      "summary": "Bandingkan kumpulan kecil dengan memadankan objek.",
+      "body": [
+        "Padankan satu objek dengan satu objek daripada kumpulan lain. Lihat sama ada masih ada objek yang belum berpasangan.",
+        "Kumpulan yang mempunyai objek berbaki lebih banyak. Kumpulan yang lebih kecil lebih sedikit.",
+        "Jika setiap objek berpasangan dan tiada baki, kedua-dua kumpulan sama banyak."
+      ],
+      "keyPoints": [
+        "Padankan satu dengan satu.",
+        "Objek berbaki menunjukkan lebih banyak.",
+        "Tiada baki pada kedua-dua kumpulan bermakna sama banyak."
+      ]
+    },
+    "reading": {
+      "title": "Padanan Mira · Cerita",
+      "summary": "Bandingkan kumpulan kecil dengan memadankan objek.",
+      "body": [
+        "Mira ada tiga bola merah dan satu bola biru. Bola merah lebih banyak. Bola biru lebih sedikit.",
+        "Ada dua buku dan dua cawan. Buku sama banyak dengan cawan.",
+        "Mira padankan setiap buku dengan satu cawan. Tiada cawan berbaki."
+      ],
+      "questions": [
+        {
+          "prompt": "Bola yang mana lebih banyak?",
+          "options": [
+            "Satu bola biru",
+            "Tiga bola merah",
+            "Dua buku",
+            "Dua cawan"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 0,
+            "text": "Bola merah lebih banyak."
+          },
+          "hint": "Dengar ayat tentang bola merah.",
+          "explanation": "Tiga bola merah lebih banyak daripada satu bola biru.",
+          "support": {
+            "choices": [
+              {
+                "label": "Satu bola biru",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Tiga bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 3,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Dua buku",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 2,
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Dua cawan",
+                "items": [
+                  {
+                    "kind": "cup",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Bola yang mana lebih sedikit?",
+          "options": [
+            "Dua buku",
+            "Dua cawan",
+            "Satu bola biru",
+            "Tiga bola merah"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 0,
+            "text": "Bola biru lebih sedikit."
+          },
+          "hint": "Cari kumpulan bola yang kecil.",
+          "explanation": "Satu bola biru lebih sedikit daripada tiga bola merah.",
+          "support": {
+            "choices": [
+              {
+                "label": "Dua buku",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 2,
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Dua cawan",
+                "items": [
+                  {
+                    "kind": "cup",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Satu bola biru",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Tiga bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 3,
+                    "color": "red"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Tiga bola merah dan satu bola biru",
+          "visual": {
+            "label": "Tiga bola merah dan satu bola biru",
+            "items": [
+              {
+                "kind": "ball",
+                "count": 3,
+                "color": "red"
+              },
+              {
+                "kind": "ball",
+                "count": 1,
+                "color": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 1,
+          "caption": "Dua buku dipadankan dengan dua cawan",
+          "visual": {
+            "label": "Dua buku dipadankan dengan dua cawan",
+            "items": [
+              {
+                "kind": "book",
+                "count": 2,
+                "color": "green"
+              },
+              {
+                "kind": "cup",
+                "count": 2,
+                "color": "yellow"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Setiap buku mendapat satu cawan; tiada baki.",
+          "visual": {
+            "label": "Dua buku dipadankan dengan dua cawan",
+            "items": [
+              {
+                "kind": "book",
+                "count": 2,
+                "color": "green"
+              },
+              {
+                "kind": "cup",
+                "count": 2,
+                "color": "yellow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Padanan Mira · Cuba Fahami",
+      "summary": "Jawab empat soalan berdasarkan cerita yang telah dibaca.",
+      "body": [
+        "Latihan daripada bacaan: Padanan Mira · Cerita.",
+        "Baca atau dengar semula cerita. Semua maklumat untuk menjawab ada dalam bacaan. Pilih satu jawapan bagi setiap soalan."
+      ],
+      "questions": [
+        {
+          "prompt": "Kumpulan mana sama banyak dengan dua buku?",
+          "options": [
+            "Dua cawan",
+            "Tiga bola merah",
+            "Satu bola biru",
+            "Tiga buku"
+          ],
+          "answer": 0,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Buku sama banyak dengan cawan."
+          },
+          "hint": "Padankan satu buku dengan satu cawan.",
+          "explanation": "Dua cawan sama banyak dengan dua buku.",
+          "support": {
+            "choices": [
+              {
+                "label": "Dua cawan",
+                "items": [
+                  {
+                    "kind": "cup",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Tiga bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 3,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Satu bola biru",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Tiga buku",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 3,
+                    "color": "green"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Mira padankan cawan dengan benda apa?",
+          "options": [
+            "Tiga bola merah",
+            "Satu bola biru",
+            "Dua cawan",
+            "Dua buku"
+          ],
+          "answer": 3,
+          "evidence": {
+            "paragraph": 2,
+            "text": "Mira padankan setiap buku dengan satu cawan."
+          },
+          "hint": "Dengar nama benda sebelum perkataan cawan.",
+          "explanation": "Setiap buku dipadankan dengan satu cawan.",
+          "support": {
+            "choices": [
+              {
+                "label": "Tiga bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 3,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Satu bola biru",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Dua cawan",
+                "items": [
+                  {
+                    "kind": "cup",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Dua buku",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 2,
+                    "color": "green"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Kumpulan mana tiada baki selepas dipadankan dengan buku?",
+          "options": [
+            "Tiga bola merah",
+            "Dua cawan",
+            "Tiga buku",
+            "Satu bola biru"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 2,
+            "text": "Tiada cawan berbaki."
+          },
+          "hint": "Lihat pasangan buku dan cawan.",
+          "explanation": "Semua cawan mendapat pasangan buku.",
+          "support": {
+            "choices": [
+              {
+                "label": "Tiga bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 3,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Dua cawan",
+                "items": [
+                  {
+                    "kind": "cup",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Tiga buku",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 3,
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Satu bola biru",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Kumpulan manakah mempunyai satu objek sahaja?",
+          "options": [
+            "Dua buku",
+            "Tiga bola merah",
+            "Satu bola biru",
+            "Dua cawan"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 0,
+            "text": "satu bola biru"
+          },
+          "hint": "Dengar bahagian tentang bola biru.",
+          "explanation": "Mira mempunyai satu bola biru.",
+          "support": {
+            "choices": [
+              {
+                "label": "Dua buku",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 2,
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Tiga bola merah",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 3,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Satu bola biru",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Dua cawan",
+                "items": [
+                  {
+                    "kind": "cup",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d1-science-bola-dan-muka-rata-v1",
+    "levelId": "d1",
+    "subjectId": "science",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Bola dan Muka Rata",
+      "summary": "Perhatikan pergerakan dan susunan benda.",
+      "body": [
+        "Benda boleh bergerak dengan cara berbeza. Tolakan perlahan boleh menggerakkan bola atau buku di atas permukaan meja.",
+        "Bola boleh bergolek. Buku yang ditolak dalam cerita ini menggelongsor di atas muka ratanya.",
+        "Blok mempunyai muka rata yang boleh disusun. Simpan bola di dalam bakul selepas mencuba."
+      ],
+      "keyPoints": [
+        "Bola boleh bergolek.",
+        "Buku dalam cerita menggelongsor.",
+        "Muka rata blok membantu menyusunnya."
+      ]
+    },
+    "reading": {
+      "title": "Bola dan Muka Rata · Cerita",
+      "summary": "Perhatikan pergerakan dan susunan benda.",
+      "body": [
+        "Ravi menolak bola di atas meja. Bola bergolek.",
+        "Ravi menolak buku. Buku menggelongsor, bukan bergolek.",
+        "Blok mempunyai muka rata. Ravi menyusun blok. Susunan itu tegak.",
+        "Ravi menyimpan bola di dalam bakul supaya tidak bergolek keluar."
+      ],
+      "questions": [
+        {
+          "prompt": "Benda apakah yang bergolek?",
+          "options": [
+            "Buku",
+            "Bola",
+            "Bakul",
+            "Blok"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 0,
+            "text": "Bola bergolek."
+          },
+          "hint": "Ingat benda pertama yang Ravi tolak.",
+          "explanation": "Bola bergolek selepas ditolak.",
+          "support": {
+            "choices": [
+              {
+                "label": "Buku",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Bola",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Bakul",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "label": "Blok",
+                "items": [
+                  {
+                    "kind": "blocks",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Benda apakah yang menggelongsor?",
+          "options": [
+            "Bakul",
+            "Blok",
+            "Buku",
+            "Bola"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Buku menggelongsor, bukan bergolek."
+          },
+          "hint": "Dengar ayat tentang buku.",
+          "explanation": "Buku bergerak dengan menggelongsor.",
+          "support": {
+            "choices": [
+              {
+                "label": "Bakul",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "label": "Blok",
+                "items": [
+                  {
+                    "kind": "blocks",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Buku",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Bola",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "red"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Bola",
+          "visual": {
+            "label": "Bola",
+            "items": [
+              {
+                "kind": "ball",
+                "count": 1,
+                "color": "red"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 1,
+          "caption": "Buku",
+          "visual": {
+            "label": "Buku",
+            "items": [
+              {
+                "kind": "book",
+                "count": 1,
+                "color": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Blok",
+          "visual": {
+            "label": "Blok",
+            "items": [
+              {
+                "kind": "blocks",
+                "count": 2,
+                "color": "yellow"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 3,
+          "caption": "Bakul tempat Ravi menyimpan bola",
+          "visual": {
+            "label": "Bakul tempat Ravi menyimpan bola",
+            "items": [
+              {
+                "kind": "emptyBasket",
+                "count": 1
+              },
+              {
+                "kind": "ball",
+                "count": 1,
+                "color": "red"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Bola dan Muka Rata · Cuba Fahami",
+      "summary": "Jawab empat soalan berdasarkan cerita yang telah dibaca.",
+      "body": [
+        "Latihan daripada bacaan: Bola dan Muka Rata · Cerita.",
+        "Baca atau dengar semula cerita. Semua maklumat untuk menjawab ada dalam bacaan. Pilih satu jawapan bagi setiap soalan."
+      ],
+      "questions": [
+        {
+          "prompt": "Ravi menyusun apa?",
+          "options": [
+            "Blok",
+            "Bola",
+            "Buku",
+            "Bakul"
+          ],
+          "answer": 0,
+          "evidence": {
+            "paragraph": 2,
+            "text": "Ravi menyusun blok."
+          },
+          "hint": "Cari benda yang boleh disusun dalam cerita.",
+          "explanation": "Ravi menyusun blok yang mempunyai muka rata.",
+          "support": {
+            "choices": [
+              {
+                "label": "Blok",
+                "items": [
+                  {
+                    "kind": "blocks",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Bola",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Buku",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Bakul",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Di manakah Ravi menyimpan bola?",
+          "options": [
+            "Bola",
+            "Buku",
+            "Blok",
+            "Bakul"
+          ],
+          "answer": 3,
+          "evidence": {
+            "paragraph": 3,
+            "text": "Ravi menyimpan bola di dalam bakul"
+          },
+          "hint": "Cari tempat simpanan bola.",
+          "explanation": "Ravi meletakkan bola di dalam bakul.",
+          "support": {
+            "choices": [
+              {
+                "label": "Bola",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Buku",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Blok",
+                "items": [
+                  {
+                    "kind": "blocks",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Bakul",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Benda manakah mempunyai muka rata untuk disusun dalam cerita?",
+          "options": [
+            "Bola",
+            "Blok",
+            "Bakul",
+            "Buku"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 2,
+            "text": "Blok mempunyai muka rata."
+          },
+          "hint": "Ingat benda dalam susunan tegak.",
+          "explanation": "Muka rata blok membantu Ravi menyusunnya.",
+          "support": {
+            "choices": [
+              {
+                "label": "Bola",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Blok",
+                "items": [
+                  {
+                    "kind": "blocks",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Bakul",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "label": "Buku",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "Ravi mahu menghalang benda apa daripada bergolek keluar?",
+          "options": [
+            "Blok",
+            "Buku",
+            "Bola",
+            "Bakul"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 3,
+            "text": "Ravi menyimpan bola di dalam bakul supaya tidak bergolek keluar."
+          },
+          "hint": "Ingat benda yang disimpan di akhir cerita.",
+          "explanation": "Bola disimpan supaya tidak bergolek keluar.",
+          "support": {
+            "choices": [
+              {
+                "label": "Blok",
+                "items": [
+                  {
+                    "kind": "blocks",
+                    "count": 2,
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Buku",
+                "items": [
+                  {
+                    "kind": "book",
+                    "count": 1,
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Bola",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "count": 1,
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Bakul",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "count": 1
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d2-math-undi-sudut-bacaan-v1",
+    "levelId": "d2",
+    "subjectId": "math",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Undi Sudut Bacaan",
+      "summary": "Baca data mudah dan bandingkan bilangan undi.",
+      "body": [
+        "Data ialah maklumat yang dicatat. Bilangan undi bagi setiap pilihan boleh membantu kita membandingkan pilihan murid dengan jelas.",
+        "Satu tanda mewakili satu undi. Jika setiap murid memilih sekali, jumlah tanda bersamaan jumlah murid yang mengundi.",
+        "Tambah bilangan semua pilihan untuk mencari jumlah. Tolak bilangan lebih kecil daripada bilangan lebih besar untuk mencari beza."
+      ],
+      "keyPoints": [
+        "Satu tanda bagi satu undi.",
+        "Tambah untuk mencari jumlah undi.",
+        "Tolak untuk mencari beza undi."
+      ]
+    },
+    "reading": {
+      "title": "Undi Sudut Bacaan · Cerita",
+      "summary": "Baca data mudah dan bandingkan bilangan undi.",
+      "body": [
+        "Kelas Aina memilih bahan untuk sudut bacaan. Setiap murid memilih satu sahaja: buku cerita, buku haiwan atau buku sukan. Aina membuat satu tanda bagi setiap undi supaya undi tidak dikira dua kali.",
+        "Catatannya menunjukkan buku cerita mendapat 8 undi, buku haiwan 5 undi dan buku sukan 3 undi. Buku cerita menerima undi paling banyak. Buku sukan menerima undi paling sedikit.",
+        "Aina mengira jumlah undi: 8 + 5 + 3 = 16. Dia juga membandingkan buku cerita dengan buku haiwan: 8 − 5 = 3. Jadi, beza kedua-duanya ialah 3 undi."
+      ],
+      "questions": [
+        {
+          "prompt": "Pilihan manakah mendapat undi paling banyak?",
+          "options": [
+            "Buku haiwan",
+            "Buku cerita",
+            "Buku sukan",
+            "Semua sama"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Buku cerita menerima undi paling banyak."
+          },
+          "hint": "Cari pilihan dengan 8 undi.",
+          "explanation": "Buku cerita mendapat 8 undi, melebihi 5 dan 3."
+        },
+        {
+          "prompt": "Berapakah jumlah undi?",
+          "options": [
+            "8",
+            "13",
+            "16",
+            "11"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 2,
+            "text": "8 + 5 + 3 = 16"
+          },
+          "hint": "Tambah ketiga-tiga kumpulan.",
+          "explanation": "Jumlahnya ialah 16 undi."
+        }
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 1,
+          "caption": "8 buku mewakili 8 undi buku cerita",
+          "visual": {
+            "label": "8 buku mewakili 8 undi buku cerita",
+            "items": [
+              {
+                "kind": "book",
+                "count": 8,
+                "color": "red"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "5 buku mewakili 5 undi buku haiwan",
+          "visual": {
+            "label": "5 buku mewakili 5 undi buku haiwan",
+            "items": [
+              {
+                "kind": "book",
+                "count": 5,
+                "color": "blue"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Undi Sudut Bacaan · Cuba Fahami",
+      "summary": "Jawab empat soalan berdasarkan cerita yang telah dibaca.",
+      "body": [
+        "Latihan daripada bacaan: Undi Sudut Bacaan · Cerita.",
+        "Baca atau dengar semula cerita. Semua maklumat untuk menjawab ada dalam bacaan. Pilih satu jawapan bagi setiap soalan."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah beza undi buku cerita dengan buku haiwan?",
+          "options": [
+            "3",
+            "5",
+            "8",
+            "13"
+          ],
+          "answer": 0,
+          "evidence": {
+            "paragraph": 2,
+            "text": "8 − 5 = 3"
+          },
+          "hint": "Cari pengiraan tolak Aina.",
+          "explanation": "Lapan tolak lima bersamaan tiga."
+        },
+        {
+          "prompt": "Pilihan manakah mendapat undi paling sedikit?",
+          "options": [
+            "Buku cerita",
+            "Buku haiwan",
+            "Semua sama",
+            "Buku sukan"
+          ],
+          "answer": 3,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Buku sukan menerima undi paling sedikit."
+          },
+          "hint": "Cari pilihan dengan 3 undi.",
+          "explanation": "Buku sukan mendapat hanya 3 undi."
+        },
+        {
+          "prompt": "Satu tanda Aina mewakili apa?",
+          "options": [
+            "Dua undi",
+            "Satu undi",
+            "Lima undi",
+            "Satu rak"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 0,
+            "text": "Aina membuat satu tanda bagi setiap undi"
+          },
+          "hint": "Cari sebab Aina membuat tanda.",
+          "explanation": "Setiap undi dicatat sekali dengan satu tanda."
+        },
+        {
+          "prompt": "Buku haiwan mendapat berapa undi?",
+          "options": [
+            "3",
+            "8",
+            "5",
+            "16"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 1,
+            "text": "buku haiwan 5 undi"
+          },
+          "hint": "Baca catatan bagi buku haiwan.",
+          "explanation": "Catatan menunjukkan 5 undi untuk buku haiwan."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d2-science-diari-daun-siti-v1",
+    "levelId": "d2",
+    "subjectId": "science",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Diari Daun Siti",
+      "summary": "Catat perubahan tumbuhan mengikut hari.",
+      "body": [
+        "Pemerhatian ialah maklumat yang diperoleh apabila kita meneliti sesuatu. Daun boleh diperhatikan tanpa dipetik agar tumbuhan tidak rosak.",
+        "Tarikh membantu kita menyusun catatan daripada awal kepada kemudian. Bandingkan pokok yang sama untuk melihat perubahannya.",
+        "Tumbuhan memerlukan keadaan yang sesuai, termasuk air dan cahaya. Satu pemerhatian tidak cukup untuk mengatakan semua tumbuhan berubah pada kadar yang sama."
+      ],
+      "keyPoints": [
+        "Catat tarikh pemerhatian.",
+        "Bandingkan pokok yang sama.",
+        "Kesimpulan perlu mengikut catatan."
+      ]
+    },
+    "reading": {
+      "title": "Diari Daun Siti · Cerita",
+      "summary": "Catat perubahan tumbuhan mengikut hari.",
+      "body": [
+        "Siti menjaga anak pokok kacang di dalam cawan berlubang. Dia meletakkannya di tempat bercahaya dan menyiram secukupnya. Pada hari Isnin, Siti mencatat dua helai daun. Dia melukis daun itu tanpa memetiknya.",
+        "Pada hari Jumaat, pokok yang sama mempunyai empat helai daun. Siti membandingkan kedua-dua catatan. Bilangan daun bertambah. Catatan ini menunjukkan perubahan pada pokok Siti sepanjang minggu itu.",
+        "Siti mahu terus memerhati pokok yang sama. Dia mencatat tarikh supaya tidak tertukar urutan pemerhatian. Dia tahu air dan cahaya membantu tumbuhan hidup. Namun, catatan satu pokok ini tidak membuktikan semua pokok tumbuh sama cepat."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah perubahan yang Siti catat?",
+          "options": [
+            "Daun hilang semuanya",
+            "Bilangan daun bertambah",
+            "Cawan bertambah besar",
+            "Pokok bertukar tempat"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Bilangan daun bertambah."
+          },
+          "hint": "Bandingkan Isnin dengan Jumaat.",
+          "explanation": "Daun berubah daripada dua helai kepada empat helai."
+        },
+        {
+          "prompt": "Mengapa Siti mencatat tarikh?",
+          "options": [
+            "Untuk menukar jenis pokok",
+            "Untuk memetik semua daun",
+            "Supaya urutan pemerhatian tidak tertukar",
+            "Supaya cawan semakin besar"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 2,
+            "text": "Dia mencatat tarikh supaya tidak tertukar urutan pemerhatian."
+          },
+          "hint": "Fikirkan susunan hari.",
+          "explanation": "Tarikh menunjukkan pemerhatian yang awal dan yang kemudian."
+        }
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Catatan Isnin: dua helai daun",
+          "visual": {
+            "label": "Catatan Isnin: dua helai daun",
+            "items": [
+              {
+                "kind": "leaf",
+                "count": 2,
+                "color": "green"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 1,
+          "caption": "Catatan Jumaat: empat helai daun",
+          "visual": {
+            "label": "Catatan Jumaat: empat helai daun",
+            "items": [
+              {
+                "kind": "leaf",
+                "count": 4,
+                "color": "green"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Diari Daun Siti · Cuba Fahami",
+      "summary": "Jawab empat soalan berdasarkan cerita yang telah dibaca.",
+      "body": [
+        "Latihan daripada bacaan: Diari Daun Siti · Cerita.",
+        "Baca atau dengar semula cerita. Semua maklumat untuk menjawab ada dalam bacaan. Pilih satu jawapan bagi setiap soalan."
+      ],
+      "questions": [
+        {
+          "prompt": "Bagaimanakah Siti merekod daun pada hari Isnin?",
+          "options": [
+            "Melukis tanpa memetik",
+            "Memetik semua daun",
+            "Mengira cawan sahaja",
+            "Menukar pokok"
+          ],
+          "answer": 0,
+          "evidence": {
+            "paragraph": 0,
+            "text": "Dia melukis daun itu tanpa memetiknya."
+          },
+          "hint": "Cari tindakan selepas Siti mencatat dua helai daun.",
+          "explanation": "Siti membuat lukisan tanpa merosakkan daun."
+        },
+        {
+          "prompt": "Bilakah pokok mempunyai empat helai daun?",
+          "options": [
+            "Isnin",
+            "Selasa",
+            "Rabu",
+            "Jumaat"
+          ],
+          "answer": 3,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Pada hari Jumaat, pokok yang sama mempunyai empat helai daun."
+          },
+          "hint": "Cari hari pemerhatian kedua.",
+          "explanation": "Empat helai daun dicatat pada hari Jumaat."
+        },
+        {
+          "prompt": "Apakah yang membantu tumbuhan hidup menurut cerita?",
+          "options": [
+            "Buku dan pensel",
+            "Air dan cahaya",
+            "Daun dan lukisan",
+            "Cawan dan tarikh"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 2,
+            "text": "air dan cahaya membantu tumbuhan hidup"
+          },
+          "hint": "Cari keperluan tumbuhan yang disebut.",
+          "explanation": "Air dan cahaya membantu tumbuhan hidup."
+        },
+        {
+          "prompt": "Kesimpulan manakah sesuai dengan catatan Siti?",
+          "options": [
+            "Semua pokok tumbuh sama cepat",
+            "Semua pokok mempunyai empat daun",
+            "Pokok Siti berubah sepanjang minggu itu",
+            "Pokok Siti tidak berubah"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Catatan ini menunjukkan perubahan pada pokok Siti sepanjang minggu itu."
+          },
+          "hint": "Hadkan kesimpulan kepada pokok yang diperhatikan.",
+          "explanation": "Catatan menunjukkan perubahan pokok Siti sahaja."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d3-math-resit-gerai-farid-v1",
+    "levelId": "d3",
+    "subjectId": "math",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Resit Gerai Farid",
+      "summary": "Tambah harga dan semak baki wang.",
+      "body": [
+        "Harga menunjukkan jumlah wang yang perlu dibayar bagi sesuatu barang. Pastikan nilai ringgit dan sen ditulis pada tempat yang betul semasa membuat pengiraan.",
+        "Tambah harga barang yang dibeli untuk mendapatkan jumlah belanja. Seratus sen bersamaan satu ringgit, jadi RM1.20 bersamaan 120 sen.",
+        "Baki ialah wang dibayar ditolak jumlah belanja. Semak jawapan dengan menambah belanja dan baki; jumlahnya sepatutnya sama dengan wang dibayar."
+      ],
+      "keyPoints": [
+        "100 sen bersamaan RM1.00.",
+        "Jumlah belanja ialah jumlah harga barang.",
+        "Wang dibayar − belanja = baki."
+      ]
+    },
+    "reading": {
+      "title": "Resit Gerai Farid · Cerita",
+      "summary": "Tambah harga dan semak baki wang.",
+      "body": [
+        "Pada hari kantin sekolah, Farid membawa RM10.00 untuk membeli alat tulis di gerai kelas. Dia memilih sebuah buku nota berharga RM3.50 dan sebatang pensel berharga RM1.20. Farid membaca tanda harga sebelum membuat keputusan supaya wangnya mencukupi.",
+        "Dia menambah harga kedua-dua barang: RM3.50 + RM1.20 = RM4.70. Itulah jumlah yang perlu dibayar. Guru mengingatkan bahawa 100 sen bersamaan RM1.00. Maka, harga pensel RM1.20 juga boleh ditulis sebagai 120 sen.",
+        "Farid menyerahkan RM10.00. Penjaga gerai mengira baki: RM10.00 − RM4.70 = RM5.30. Farid menyemak wang baki bersama resit sebelum beredar. Dia menyimpan baki itu untuk kegunaan lain. Jumlah belanja dan baki ialah RM4.70 + RM5.30 = RM10.00, sama dengan wang asalnya."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah jumlah belanja Farid?",
+          "options": [
+            "RM3.50",
+            "RM4.70",
+            "RM5.30",
+            "RM10.00"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 1,
+            "text": "RM3.50 + RM1.20 = RM4.70"
+          },
+          "hint": "Cari pengiraan tambah harga.",
+          "explanation": "Buku nota dan pensel berjumlah RM4.70."
+        },
+        {
+          "prompt": "Berapakah baki Farid?",
+          "options": [
+            "RM4.70",
+            "RM6.50",
+            "RM5.30",
+            "RM8.80"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 2,
+            "text": "RM10.00 − RM4.70 = RM5.30"
+          },
+          "hint": "Tolak belanja daripada RM10.00.",
+          "explanation": "Baki yang dikira ialah RM5.30."
+        }
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Buku nota Farid berharga RM3.50",
+          "visual": {
+            "label": "Buku nota Farid berharga RM3.50",
+            "items": [
+              {
+                "kind": "book",
+                "count": 1,
+                "color": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 1,
+          "caption": "Pensel Farid berharga RM1.20",
+          "visual": {
+            "label": "Pensel Farid berharga RM1.20",
+            "items": [
+              {
+                "kind": "pencil",
+                "count": 1,
+                "color": "yellow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Resit Gerai Farid · Cuba Fahami",
+      "summary": "Jawab empat soalan berdasarkan cerita yang telah dibaca.",
+      "body": [
+        "Latihan daripada bacaan: Resit Gerai Farid · Cerita.",
+        "Baca atau dengar semula cerita. Semua maklumat untuk menjawab ada dalam bacaan. Pilih satu jawapan bagi setiap soalan."
+      ],
+      "questions": [
+        {
+          "prompt": "Harga pensel RM1.20 bersamaan berapa sen?",
+          "options": [
+            "120 sen",
+            "12 sen",
+            "102 sen",
+            "20 sen"
+          ],
+          "answer": 0,
+          "evidence": {
+            "paragraph": 1,
+            "text": "harga pensel RM1.20 juga boleh ditulis sebagai 120 sen"
+          },
+          "hint": "Satu ringgit bersamaan 100 sen.",
+          "explanation": "RM1.20 terdiri daripada 100 sen dan 20 sen."
+        },
+        {
+          "prompt": "Mengapa Farid membaca tanda harga sebelum membeli?",
+          "options": [
+            "Untuk memilih warna resit",
+            "Untuk mengira murid",
+            "Untuk menukar gerai",
+            "Supaya wangnya mencukupi"
+          ],
+          "answer": 3,
+          "evidence": {
+            "paragraph": 0,
+            "text": "Farid membaca tanda harga sebelum membuat keputusan supaya wangnya mencukupi."
+          },
+          "hint": "Cari tujuan tindakan Farid.",
+          "explanation": "Tanda harga membantunya menyemak wang yang diperlukan."
+        },
+        {
+          "prompt": "Pengiraan manakah menyemak belanja dan baki?",
+          "options": [
+            "RM4.70 − RM5.30",
+            "RM4.70 + RM5.30 = RM10.00",
+            "RM10.00 + RM4.70",
+            "RM3.50 + RM5.30 = RM8.80"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 2,
+            "text": "RM4.70 + RM5.30 = RM10.00"
+          },
+          "hint": "Belanja ditambah baki mesti sama dengan wang asal.",
+          "explanation": "RM4.70 ditambah RM5.30 menghasilkan RM10.00."
+        },
+        {
+          "prompt": "Apakah yang Farid semak bersama wang baki?",
+          "options": [
+            "Jadual kelas",
+            "Bilangan pensel di gerai",
+            "Resit",
+            "Warna buku kawannya"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 2,
+            "text": "Farid menyemak wang baki bersama resit sebelum beredar."
+          },
+          "hint": "Cari tindakan sebelum Farid beredar.",
+          "explanation": "Farid menggunakan resit untuk menyemak urusan pembeliannya."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d3-science-catatan-terapung-mei-v1",
+    "levelId": "d3",
+    "subjectId": "science",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Catatan Terapung Mei",
+      "summary": "Bezakan ramalan dengan pemerhatian objek dalam air.",
+      "body": [
+        "Ramalan dibuat sebelum ujian. Pemerhatian dicatat selepas melihat perkara yang berlaku. Catatan yang baik tidak diubah semata-mata untuk menyamai ramalan awal.",
+        "Dalam ujian air, objek yang berada di permukaan dikatakan terapung. Objek yang turun ke dasar bekas dikatakan tenggelam dalam keadaan ujian tersebut.",
+        "Bentuk, bahan dan keadaan sesuatu objek boleh mempengaruhi hasil. Nyatakan objek yang diuji dan elakkan membuat kesimpulan tentang semua objek daripada satu contoh."
+      ],
+      "keyPoints": [
+        "Ramalan dibuat sebelum ujian.",
+        "Catat hasil sebenar.",
+        "Kesimpulan terhad kepada objek yang diuji."
+      ]
+    },
+    "reading": {
+      "title": "Catatan Terapung Mei · Cerita",
+      "summary": "Bezakan ramalan dengan pemerhatian objek dalam air.",
+      "body": [
+        "Mei dan gurunya menyediakan sebuah bekas air untuk pemerhatian di meja rendah. Mereka memilih sehelai daun kering, satu blok plastik padu dan satu cawan logam kecil. Mei menulis ramalan sebelum meletakkan setiap objek perlahan-lahan di dalam air. Ramalan ialah jangkaan sebelum pemerhatian dibuat.",
+        "Daun kering itu terapung di permukaan. Blok plastik yang diuji juga terapung. Cawan logam yang telah diisi penuh dengan air tenggelam ke dasar bekas. Mei mencatat apa yang benar-benar berlaku, walaupun hasilnya mungkin berbeza daripada ramalannya.",
+        "Guru menjelaskan bahawa terapung bermaksud berada di permukaan air, manakala tenggelam bermaksud turun ke dasar dalam ujian ini. Hasil ujian merujuk kepada objek yang mereka gunakan. Mereka tidak boleh mengatakan semua benda plastik terapung berdasarkan satu blok sahaja. Selepas selesai, Mei mengelap air yang tertumpah supaya meja kering."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah ramalan?",
+          "options": [
+            "Hasil yang sudah dilihat",
+            "Jangkaan sebelum pemerhatian",
+            "Nama alat pengukur",
+            "Catatan selepas mengemas"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 0,
+            "text": "Ramalan ialah jangkaan sebelum pemerhatian dibuat."
+          },
+          "hint": "Cari maksud istilah dalam perenggan pertama.",
+          "explanation": "Ramalan ialah jangkaan yang dibuat sebelum hasil diperhatikan."
+        },
+        {
+          "prompt": "Objek manakah tenggelam dalam ujian?",
+          "options": [
+            "Daun kering",
+            "Blok plastik",
+            "Cawan logam berisi penuh air",
+            "Semua objek"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Cawan logam yang telah diisi penuh dengan air tenggelam ke dasar bekas."
+          },
+          "hint": "Perhatikan keadaan cawan ketika diuji.",
+          "explanation": "Cawan logam itu telah diisi penuh air sebelum tenggelam."
+        }
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 1,
+          "caption": "Daun kering yang diuji terapung",
+          "visual": {
+            "label": "Daun kering yang diuji terapung",
+            "items": [
+              {
+                "kind": "leaf",
+                "count": 1,
+                "color": "yellow"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Cawan logam kecil: diuji selepas diisi penuh air",
+          "visual": {
+            "label": "Cawan logam kecil: diuji selepas diisi penuh air",
+            "items": [
+              {
+                "kind": "cup",
+                "count": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Catatan Terapung Mei · Cuba Fahami",
+      "summary": "Jawab empat soalan berdasarkan cerita yang telah dibaca.",
+      "body": [
+        "Latihan daripada bacaan: Catatan Terapung Mei · Cerita.",
+        "Baca atau dengar semula cerita. Semua maklumat untuk menjawab ada dalam bacaan. Pilih satu jawapan bagi setiap soalan."
+      ],
+      "questions": [
+        {
+          "prompt": "Di manakah daun kering berada?",
+          "options": [
+            "Di permukaan air",
+            "Di dasar bekas",
+            "Di bawah blok pada dasar",
+            "Di luar bekas sepanjang ujian"
+          ],
+          "answer": 0,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Daun kering itu terapung di permukaan."
+          },
+          "hint": "Cari pemerhatian tentang daun.",
+          "explanation": "Daun kering yang diuji terapung di permukaan."
+        },
+        {
+          "prompt": "Apakah yang patut dicatat jika hasil berbeza daripada ramalan?",
+          "options": [
+            "Ramalan sahaja",
+            "Hasil rakan tanpa melihat",
+            "Hasil yang diingini",
+            "Perkara yang benar-benar berlaku"
+          ],
+          "answer": 3,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Mei mencatat apa yang benar-benar berlaku"
+          },
+          "hint": "Catatan perlu mengikut pemerhatian.",
+          "explanation": "Mei merekod hasil sebenar walaupun ramalannya berbeza."
+        },
+        {
+          "prompt": "Kesimpulan manakah disokong oleh ujian?",
+          "options": [
+            "Semua plastik terapung",
+            "Blok plastik yang diuji terapung",
+            "Semua logam tenggelam dalam setiap keadaan",
+            "Semua daun sentiasa terapung"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Blok plastik yang diuji juga terapung."
+          },
+          "hint": "Nyatakan objek tertentu, bukan semua bahan sejenis.",
+          "explanation": "Pemerhatian menyokong kesimpulan tentang blok yang diuji sahaja."
+        },
+        {
+          "prompt": "Apakah maksud tenggelam dalam ujian ini?",
+          "options": [
+            "Berada di permukaan",
+            "Berada di atas meja",
+            "Turun ke dasar",
+            "Bergerak di udara"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 2,
+            "text": "tenggelam bermaksud turun ke dasar dalam ujian ini"
+          },
+          "hint": "Cari penerangan guru.",
+          "explanation": "Objek yang tenggelam turun ke dasar bekas."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d4-math-jalur-pameran-nur-v1",
+    "levelId": "d4",
+    "subjectId": "math",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Jalur Pameran Nur",
+      "summary": "Tambah dan tolak pecahan dengan penyebut yang sama.",
+      "body": [
+        "Pecahan menerangkan sebahagian daripada satu keseluruhan. Dalam model jalur, bahagian mesti sama besar supaya setiap satu mewakili pecahan yang sama.",
+        "Penyebut menunjukkan bilangan bahagian sama besar pada keseluruhan. Pengangka menunjukkan berapa bahagian yang dipilih atau diwarnakan.",
+        "Apabila penyebut sama, tambah atau tolak pengangka sahaja. Penyebut dikekalkan kerana saiz setiap bahagian tidak berubah."
+      ],
+      "keyPoints": [
+        "Bahagian pecahan mesti sama besar.",
+        "Penyebut sama dikekalkan semasa tambah atau tolak.",
+        "8/8 mewakili satu keseluruhan."
+      ]
+    },
+    "reading": {
+      "title": "Jalur Pameran Nur · Cerita",
+      "summary": "Tambah dan tolak pecahan dengan penyebut yang sama.",
+      "body": [
+        "Kumpulan Nur membuat hiasan daripada satu jalur kertas untuk pameran kelas. Guru membahagikan jalur itu kepada lapan bahagian sama besar. Setiap bahagian ialah satu perlapan, ditulis 1/8. Nur mewarnakan tiga bahagian biru, manakala Bala mewarnakan dua bahagian kuning. Bahagian lain dibiarkan putih supaya coraknya mudah dibaca.",
+        "Nur menulis pecahan biru sebagai 3/8 dan pecahan kuning sebagai 2/8. Oleh sebab semua bahagian sama besar, mereka menambah pengangka dan mengekalkan penyebut: 3/8 + 2/8 = 5/8. Jadi, lima perlapan jalur sudah berwarna. Penyebut 8 masih menunjukkan bilangan bahagian sama besar pada seluruh jalur.",
+        "Untuk mencari bahagian putih, Bala menulis seluruh jalur sebagai 8/8. Kemudian dia mengira 8/8 − 5/8 = 3/8. Tiga perlapan jalur masih putih. Mereka juga membandingkan warna: 3/8 − 2/8 = 1/8, maka biru lebih banyak daripada kuning sebanyak satu perlapan jalur. Nur menyemak bahawa bahagian berwarna dan putih berjumlah 5/8 + 3/8 = 8/8, iaitu satu jalur penuh."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah pecahan jalur yang sudah berwarna?",
+          "options": [
+            "3/8",
+            "5/8",
+            "2/8",
+            "5/16"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 1,
+            "text": "3/8 + 2/8 = 5/8"
+          },
+          "hint": "Gabungkan bahagian biru dan kuning.",
+          "explanation": "Tiga perlapan ditambah dua perlapan menjadi lima perlapan."
+        },
+        {
+          "prompt": "Berapakah pecahan jalur yang masih putih?",
+          "options": [
+            "5/8",
+            "1/8",
+            "3/8",
+            "8/8"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 2,
+            "text": "8/8 − 5/8 = 3/8"
+          },
+          "hint": "Tolak bahagian berwarna daripada satu jalur penuh.",
+          "explanation": "Tiga daripada lapan bahagian masih putih."
+        }
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Satu jalur: 3/8 biru dan 2/8 kuning.",
+          "visual": {
+            "label": "Lapan bahagian sama besar: tiga biru, dua kuning dan tiga putih",
+            "items": [
+              {
+                "kind": "fractionStrip"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 1,
+          "caption": "Lima daripada lapan bahagian berwarna; tiga bahagian masih putih.",
+          "visual": {
+            "label": "Lapan bahagian sama besar: tiga biru, dua kuning dan tiga putih",
+            "items": [
+              {
+                "kind": "fractionStrip"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Jalur Pameran Nur · Cuba Fahami",
+      "summary": "Jawab empat soalan berdasarkan cerita yang telah dibaca.",
+      "body": [
+        "Latihan daripada bacaan: Jalur Pameran Nur · Cerita.",
+        "Baca atau dengar semula cerita. Semua maklumat untuk menjawab ada dalam bacaan. Pilih satu jawapan bagi setiap soalan."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah yang ditunjukkan oleh penyebut 8?",
+          "options": [
+            "Lapan bahagian sama besar pada seluruh jalur",
+            "Lapan bahagian biru sahaja",
+            "Lapan jalur berasingan",
+            "Lapan warna berbeza"
+          ],
+          "answer": 0,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Penyebut 8 masih menunjukkan bilangan bahagian sama besar pada seluruh jalur."
+          },
+          "hint": "Penyebut menerangkan pembahagian keseluruhan.",
+          "explanation": "Seluruh jalur dibahagi kepada lapan bahagian sama besar."
+        },
+        {
+          "prompt": "Biru melebihi kuning sebanyak pecahan apa?",
+          "options": [
+            "5/8",
+            "2/8",
+            "3/8",
+            "1/8"
+          ],
+          "answer": 3,
+          "evidence": {
+            "paragraph": 2,
+            "text": "3/8 − 2/8 = 1/8"
+          },
+          "hint": "Cari pengiraan beza warna.",
+          "explanation": "Biru mempunyai satu bahagian lagi daripada kuning."
+        },
+        {
+          "prompt": "Mengapa penyebut dikekalkan ketika menambah?",
+          "options": [
+            "Warna biru sentiasa didahulukan",
+            "Semua bahagian sama besar",
+            "Bilangan jalur bertambah",
+            "Kertas putih tidak dikira"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Oleh sebab semua bahagian sama besar, mereka menambah pengangka dan mengekalkan penyebut"
+          },
+          "hint": "Fikirkan saiz setiap bahagian.",
+          "explanation": "Setiap bahagian masih satu perlapan, jadi penyebut kekal 8."
+        },
+        {
+          "prompt": "Pengiraan manakah menyemak satu jalur penuh?",
+          "options": [
+            "3/8 + 2/8 = 5/8",
+            "3/8 − 2/8 = 1/8",
+            "5/8 + 3/8 = 8/8",
+            "8/8 − 5/8 = 3/8"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 2,
+            "text": "5/8 + 3/8 = 8/8, iaitu satu jalur penuh"
+          },
+          "hint": "Gabungkan bahagian berwarna dengan bahagian putih.",
+          "explanation": "Lima bahagian berwarna dan tiga bahagian putih melengkapkan lapan bahagian."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d4-science-cahaya-sudut-bacaan-v1",
+    "levelId": "d4",
+    "subjectId": "science",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Cahaya di Sudut Bacaan",
+      "summary": "Hubungkan sifat bahan dengan pemerhatian cahaya.",
+      "body": [
+        "Cahaya yang dihalang oleh objek legap boleh menghasilkan bayang-bayang. Bayang-bayang terbentuk pada permukaan di belakang objek, relatif kepada arah cahaya.",
+        "Bahan lut sinar membenarkan cahaya menembusinya. Objek jernih yang melengkung boleh membelokkan cahaya, jadi rupa cahaya pada dinding mungkin tidak seragam.",
+        "Untuk membandingkan objek, kekalkan susunan lain yang berkaitan. Catat apa yang dilihat dan gunakan pemerhatian itu untuk menerangkan sifat objek yang diuji."
+      ],
+      "keyPoints": [
+        "Legap menghalang cahaya menembusi objek.",
+        "Lut sinar membenarkan cahaya melaluinya.",
+        "Kekalkan kedudukan lampu dan dinding semasa membandingkan."
+      ]
+    },
+    "reading": {
+      "title": "Cahaya di Sudut Bacaan · Cerita",
+      "summary": "Hubungkan sifat bahan dengan pemerhatian cahaya.",
+      "body": [
+        "Di sudut bacaan yang sedikit gelap, Imran dan gurunya menguji laluan cahaya lampu suluh. Mereka menggunakan buku tebal dan cawan plastik jernih yang kosong. Lampu dihalakan ke dinding, bukan ke mata. Imran memastikan kedudukan lampu dan dinding tidak berubah semasa menukar objek di antaranya.",
+        "Apabila buku diletakkan di antara lampu dengan dinding, kawasan gelap yang jelas terbentuk di dinding. Kawasan itu ialah bayang-bayang. Buku bersifat legap kerana tidak membenarkan cahaya menembusinya. Oleh itu, buku menghalang sebahagian cahaya daripada sampai ke dinding.",
+        "Apabila cawan plastik jernih menggantikan buku, banyak cahaya masih sampai ke dinding. Bahan lut sinar membenarkan cahaya menembusinya. Guru mengingatkan bahawa bentuk cawan boleh membelokkan cahaya, maka jangan menganggap setiap bahagian dinding menerima cahaya yang sama. Imran mencatat perbezaan yang dilihat, kemudian melukis susunan lampu, objek dan dinding. Dia menyimpulkan bahawa buku tebal menghalang cahaya dengan lebih jelas berbanding cawan jernih dalam susunan ujian ini."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah kawasan gelap di dinding dipanggil?",
+          "options": [
+            "Pantulan",
+            "Bayang-bayang",
+            "Sumber cahaya",
+            "Bahan lut sinar"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Kawasan itu ialah bayang-bayang."
+          },
+          "hint": "Cari nama kawasan gelap.",
+          "explanation": "Bayang-bayang muncul apabila buku menghalang cahaya."
+        },
+        {
+          "prompt": "Mengapa buku dianggap legap?",
+          "options": [
+            "Buku memantulkan semua cahaya ke dinding",
+            "Buku membenarkan semua cahaya melaluinya",
+            "Buku tidak membenarkan cahaya menembusinya",
+            "Buku hanya mengubah warna cahaya"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Buku bersifat legap kerana tidak membenarkan cahaya menembusinya."
+          },
+          "hint": "Cari sebab selepas perkataan kerana.",
+          "explanation": "Buku tebal dalam ujian menghalang cahaya menembusinya."
+        }
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 1,
+          "caption": "Buku tebal yang menghalang cahaya",
+          "visual": {
+            "label": "Buku tebal yang menghalang cahaya",
+            "items": [
+              {
+                "kind": "book",
+                "count": 1,
+                "color": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Cawan plastik jernih yang diuji dalam cerita",
+          "visual": {
+            "label": "Cawan plastik jernih yang diuji dalam cerita",
+            "items": [
+              {
+                "kind": "clearCup",
+                "count": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Cahaya di Sudut Bacaan · Cuba Fahami",
+      "summary": "Jawab empat soalan berdasarkan cerita yang telah dibaca.",
+      "body": [
+        "Latihan daripada bacaan: Cahaya di Sudut Bacaan · Cerita.",
+        "Baca atau dengar semula cerita. Semua maklumat untuk menjawab ada dalam bacaan. Pilih satu jawapan bagi setiap soalan."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah yang dikekalkan semasa objek ditukar?",
+          "options": [
+            "Kedudukan lampu dan dinding",
+            "Buku sebagai satu-satunya objek",
+            "Warna semua objek",
+            "Cawan sentiasa berisi air"
+          ],
+          "answer": 0,
+          "evidence": {
+            "paragraph": 0,
+            "text": "kedudukan lampu dan dinding tidak berubah"
+          },
+          "hint": "Cari keadaan yang tidak berubah.",
+          "explanation": "Lampu dan dinding dikekalkan pada kedudukan yang sama."
+        },
+        {
+          "prompt": "Apakah sifat bahan lut sinar?",
+          "options": [
+            "Menyekat semua cahaya",
+            "Menghasilkan cahaya sendiri",
+            "Membenarkan haba sahaja melaluinya",
+            "Membenarkan cahaya menembusinya"
+          ],
+          "answer": 3,
+          "evidence": {
+            "paragraph": 2,
+            "text": "Bahan lut sinar membenarkan cahaya menembusinya."
+          },
+          "hint": "Cari takrif lut sinar.",
+          "explanation": "Cahaya boleh melalui bahan lut sinar."
+        },
+        {
+          "prompt": "Mengapa cahaya melalui cawan mungkin tidak seragam?",
+          "options": [
+            "Dinding terlalu dekat dengan mata",
+            "Bentuk cawan boleh membelokkan cahaya",
+            "Buku masih menutup seluruh cawan",
+            "Kedudukan lampu ditukar ketika ujian"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 2,
+            "text": "bentuk cawan boleh membelokkan cahaya"
+          },
+          "hint": "Cari peringatan guru tentang bentuk cawan.",
+          "explanation": "Permukaan cawan yang berbentuk boleh mengubah arah cahaya."
+        },
+        {
+          "prompt": "Kesimpulan manakah sesuai dengan ujian?",
+          "options": [
+            "Cawan menghalang cahaya lebih jelas",
+            "Buku ialah sumber cahaya",
+            "Buku menghalang cahaya lebih jelas daripada cawan jernih",
+            "Kedua-dua objek menghalang semua cahaya"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 2,
+            "text": "buku tebal menghalang cahaya dengan lebih jelas berbanding cawan jernih"
+          },
+          "hint": "Bandingkan kedua-dua objek dalam susunan yang sama.",
+          "explanation": "Buku menghasilkan kawasan gelap yang lebih jelas dalam ujian ini."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d5-math-tali-hari-sukan-v1",
+    "levelId": "d5",
+    "subjectId": "math",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Tali Hari Sukan",
+      "summary": "Samakan unit sebelum mengira panjang.",
+      "body": [
+        "Panjang boleh ditulis dalam meter atau sentimeter. Satu meter bersamaan seratus sentimeter. Hubungan unit ini perlu digunakan sebelum menggabungkan ukuran berlainan unit.",
+        "Darab ukuran meter dengan 100 untuk mendapatkan sentimeter. Bahagi ukuran sentimeter dengan 100 untuk mendapatkan meter. Tulis unit pada setiap hasil pengiraan.",
+        "Jumlahkan panjang yang digunakan, kemudian tolak daripada panjang asal untuk mencari baki. Bagi perbandingan, tolak ukuran lebih pendek daripada ukuran lebih panjang selepas unit disamakan."
+      ],
+      "keyPoints": [
+        "1 m = 100 cm.",
+        "Samakan unit sebelum menambah atau menolak.",
+        "Baki = panjang asal − panjang digunakan."
+      ]
+    },
+    "reading": {
+      "title": "Tali Hari Sukan · Cerita",
+      "summary": "Samakan unit sebelum mengira panjang.",
+      "body": [
+        "Pasukan Hana menyediakan laluan permainan untuk hari sukan sekolah. Mereka mempunyai seutas tali sepanjang 4.5 meter. Guru meminta dua bahagian dipotong: satu sepanjang 125 sentimeter dan satu lagi sepanjang 1.75 meter. Hana menyedari bahawa panjang mesti ditulis dalam unit yang sama sebelum dijumlahkan. Dia menulis 1 meter = 100 sentimeter pada buku catatan.",
+        "Hana menukar panjang tali asal: 4.5 × 100 = 450 sentimeter. Bahagian kedua pula ialah 1.75 × 100 = 175 sentimeter. Jadi, jumlah tali yang diperlukan untuk dua bahagian ialah 125 + 175 = 300 sentimeter. Dia menyemak kedudukan tanda pada pita ukur, kemudian meminta guru memotong tali dengan selamat.",
+        "Selepas kedua-dua bahagian diambil, baki tali ialah 450 − 300 = 150 sentimeter. Untuk menukarnya kepada meter, Hana membahagi dengan 100: 150 ÷ 100 = 1.5 meter. Baki itu disimpan dalam bakul supaya tidak menghalang laluan murid.",
+        "Rakannya bertanya bahagian mana lebih panjang. Hana membandingkan 175 sentimeter dengan 125 sentimeter, lalu mengira 175 − 125 = 50 sentimeter. Bahagian kedua lebih panjang sebanyak 50 sentimeter. Mereka merekod panjang setiap bahagian dan baki dalam buku supaya bahan boleh digunakan semula untuk permainan seterusnya."
+      ],
+      "questions": [
+        {
+          "prompt": "Panjang asal 4.5 meter bersamaan berapa sentimeter?",
+          "options": [
+            "45 cm",
+            "450 cm",
+            "4500 cm",
+            "4.5 cm"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 1,
+            "text": "4.5 × 100 = 450 sentimeter"
+          },
+          "hint": "Meter ditukar kepada sentimeter dengan darab 100.",
+          "explanation": "Panjang asal ialah 450 sentimeter."
+        },
+        {
+          "prompt": "Berapakah jumlah panjang dua bahagian yang dipotong?",
+          "options": [
+            "250 cm",
+            "175 cm",
+            "300 cm",
+            "450 cm"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 1,
+            "text": "125 + 175 = 300 sentimeter"
+          },
+          "hint": "Tambah dua ukuran selepas unitnya sama.",
+          "explanation": "Jumlah 125 sentimeter dan 175 sentimeter ialah 300 sentimeter."
+        }
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Buku catatan ukuran tali Hana",
+          "visual": {
+            "label": "Buku catatan ukuran tali Hana",
+            "items": [
+              {
+                "kind": "book",
+                "count": 1,
+                "color": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Bakul tempat menyimpan baki tali",
+          "visual": {
+            "label": "Bakul tempat menyimpan baki tali",
+            "items": [
+              {
+                "kind": "emptyBasket",
+                "count": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Tali Hari Sukan · Cuba Fahami",
+      "summary": "Jawab empat soalan berdasarkan cerita yang telah dibaca.",
+      "body": [
+        "Latihan daripada bacaan: Tali Hari Sukan · Cerita.",
+        "Baca atau dengar semula cerita. Semua maklumat untuk menjawab ada dalam bacaan. Pilih satu jawapan bagi setiap soalan."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah baki tali dalam meter?",
+          "options": [
+            "1.5 meter",
+            "15 meter",
+            "150 meter",
+            "0.15 meter"
+          ],
+          "answer": 0,
+          "evidence": {
+            "paragraph": 2,
+            "text": "150 ÷ 100 = 1.5 meter"
+          },
+          "hint": "Baki 150 sentimeter perlu dibahagi 100.",
+          "explanation": "Baki tali ialah 1.5 meter."
+        },
+        {
+          "prompt": "Berapa lebih panjang bahagian kedua berbanding bahagian pertama?",
+          "options": [
+            "125 cm",
+            "175 cm",
+            "300 cm",
+            "50 cm"
+          ],
+          "answer": 3,
+          "evidence": {
+            "paragraph": 3,
+            "text": "175 − 125 = 50 sentimeter"
+          },
+          "hint": "Cari beza dua ukuran.",
+          "explanation": "Bahagian kedua melebihi bahagian pertama sebanyak 50 sentimeter."
+        },
+        {
+          "prompt": "Apakah langkah sebelum menjumlahkan ukuran berlainan unit?",
+          "options": [
+            "Abaikan semua unit",
+            "Tulis panjang dalam unit yang sama",
+            "Darab semua ukuran dengan 10",
+            "Pilih nombor paling besar sahaja"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 0,
+            "text": "panjang mesti ditulis dalam unit yang sama sebelum dijumlahkan"
+          },
+          "hint": "Baca perkara yang Hana sedari.",
+          "explanation": "Menyamakan unit memastikan ukuran boleh digabungkan dengan betul."
+        },
+        {
+          "prompt": "Pengiraan manakah menukar 1.75 meter kepada sentimeter?",
+          "options": [
+            "1.75 ÷ 100 = 0.0175",
+            "1.75 + 100 = 101.75",
+            "1.75 × 100 = 175",
+            "175 × 100 = 17500"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 1,
+            "text": "1.75 × 100 = 175 sentimeter"
+          },
+          "hint": "Penukaran meter kepada sentimeter menggunakan darab 100.",
+          "explanation": "Bahagian kedua panjangnya 175 sentimeter."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d5-science-laluan-bola-arun-v1",
+    "levelId": "d5",
+    "subjectId": "science",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Laluan Bola Arun",
+      "summary": "Bandingkan kesan permukaan terhadap pergerakan.",
+      "body": [
+        "Geseran antara permukaan boleh memperlahankan gerakan. Dalam pemerhatian bola, jarak sebelum berhenti dapat digunakan untuk membandingkan hasil pada permukaan berlainan.",
+        "Ujian yang adil menukar faktor yang ingin dibandingkan sambil mengekalkan faktor lain yang berkaitan. Bola dan titik pelepasan yang sama membantu membandingkan lapisan laluan.",
+        "Ulangan membantu menyemak sama ada corak pemerhatian berlaku lagi. Kesimpulan perlu sesuai dengan objek, permukaan dan susunan yang benar-benar diuji."
+      ],
+      "keyPoints": [
+        "Tukar jenis permukaan sahaja.",
+        "Kekalkan bola dan titik pelepasan.",
+        "Ulang ujian untuk menyemak corak hasil."
+      ]
+    },
+    "reading": {
+      "title": "Laluan Bola Arun · Cerita",
+      "summary": "Bandingkan kesan permukaan terhadap pergerakan.",
+      "body": [
+        "Arun mahu memilih permukaan untuk permainan menggolek bola di dewan sekolah. Dengan bantuan guru, dia menyediakan satu papan landai kecil. Di hujung papan terdapat laluan mendatar yang boleh dilapik dengan kain kasar atau plastik licin. Dia menggunakan bola yang sama dan melepaskannya dari tanda yang sama tanpa menolak. Dengan cara itu, hanya jenis permukaan laluan mendatar ditukar.",
+        "Di atas kain kasar, bola bergerak sejauh 40 sentimeter selepas meninggalkan papan. Di atas plastik licin, bola bergerak sejauh 90 sentimeter. Arun mengukur jarak dari hujung papan hingga tempat bola berhenti. Guru menerangkan bahawa geseran antara permukaan boleh memperlahankan pergerakan bola. Dalam ujian ini, bola berhenti lebih awal di atas kain kasar.",
+        "Arun mengulangi ujian tiga kali bagi setiap permukaan. Dia tidak mahu bergantung pada satu cubaan kerana cara bola dilepaskan mungkin sedikit berbeza. Semua cubaan menunjukkan bola bergerak lebih jauh di atas plastik licin berbanding kain kasar.",
+        "Pasukannya memilih kain kasar untuk permainan yang memerlukan bola berhenti dekat dengan pemain. Mereka tidak menyimpulkan bahawa semua permukaan kasar memberikan jarak yang sama. Kesimpulan mereka hanya membandingkan dua lapisan yang diuji dengan susunan ini. Selepas mengemas, Arun menyimpan bola di dalam bakul dan merekod sebab pilihan pasukannya."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah faktor yang sengaja ditukar?",
+          "options": [
+            "Jenis bola",
+            "Jenis permukaan laluan mendatar",
+            "Titik pelepasan",
+            "Ketinggian papan setiap cubaan"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 0,
+            "text": "hanya jenis permukaan laluan mendatar ditukar"
+          },
+          "hint": "Cari faktor yang berbeza antara dua ujian.",
+          "explanation": "Arun membandingkan kain kasar dengan plastik licin."
+        },
+        {
+          "prompt": "Di atas permukaan mana bola bergerak lebih jauh?",
+          "options": [
+            "Kain kasar",
+            "Kedua-duanya sama",
+            "Plastik licin",
+            "Tiada permukaan"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 2,
+            "text": "bola bergerak lebih jauh di atas plastik licin berbanding kain kasar"
+          },
+          "hint": "Bandingkan corak semua cubaan.",
+          "explanation": "Bola bergerak lebih jauh di atas plastik licin."
+        }
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Bola yang sama digunakan pada kedua-dua permukaan",
+          "visual": {
+            "label": "Bola yang sama digunakan pada kedua-dua permukaan",
+            "items": [
+              {
+                "kind": "ball",
+                "count": 1,
+                "color": "red"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 3,
+          "caption": "Bakul simpanan bola selepas ujian",
+          "visual": {
+            "label": "Bakul simpanan bola selepas ujian",
+            "items": [
+              {
+                "kind": "emptyBasket",
+                "count": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Laluan Bola Arun · Cuba Fahami",
+      "summary": "Jawab empat soalan berdasarkan cerita yang telah dibaca.",
+      "body": [
+        "Latihan daripada bacaan: Laluan Bola Arun · Cerita.",
+        "Baca atau dengar semula cerita. Semua maklumat untuk menjawab ada dalam bacaan. Pilih satu jawapan bagi setiap soalan."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah kesan geseran yang diterangkan guru?",
+          "options": [
+            "Memperlahankan pergerakan bola",
+            "Mempercepat bola pada setiap permukaan",
+            "Mengekalkan jarak gerakan bola",
+            "Menghalang bola daripada berhenti"
+          ],
+          "answer": 0,
+          "evidence": {
+            "paragraph": 1,
+            "text": "geseran antara permukaan boleh memperlahankan pergerakan bola"
+          },
+          "hint": "Cari penerangan tentang gerakan.",
+          "explanation": "Geseran boleh memperlahankan bola sehingga berhenti."
+        },
+        {
+          "prompt": "Mengapa ujian diulang?",
+          "options": [
+            "Supaya jenis bola dapat ditukar setiap kali",
+            "Supaya hanya jarak terjauh dipilih",
+            "Supaya semua jarak dianggap sama",
+            "Supaya tidak bergantung pada satu cubaan"
+          ],
+          "answer": 3,
+          "evidence": {
+            "paragraph": 2,
+            "text": "Dia tidak mahu bergantung pada satu cubaan kerana cara bola dilepaskan mungkin sedikit berbeza."
+          },
+          "hint": "Cari sebab selepas penerangan tiga ulangan.",
+          "explanation": "Ulangan membantu menyemak corak walaupun cara pelepasan mungkin sedikit berbeza."
+        },
+        {
+          "prompt": "Mengapa pasukan memilih kain kasar?",
+          "options": [
+            "Bola bergerak paling jauh",
+            "Bola perlu berhenti dekat dengan pemain",
+            "Kain menjadikan titik pelepasan lebih tinggi",
+            "Kain memberikan jarak tepat sama dalam setiap ujian"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 3,
+            "text": "memilih kain kasar untuk permainan yang memerlukan bola berhenti dekat dengan pemain"
+          },
+          "hint": "Hubungkan pilihan dengan tujuan permainan.",
+          "explanation": "Bola berhenti lebih awal di atas kain kasar dalam ujian."
+        },
+        {
+          "prompt": "Bagaimanakah jarak diukur?",
+          "options": [
+            "Dari lantai ke siling",
+            "Dari bakul ke pintu",
+            "Dari hujung papan hingga tempat bola berhenti",
+            "Dari satu tepi bola ke tepi yang lain"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Arun mengukur jarak dari hujung papan hingga tempat bola berhenti."
+          },
+          "hint": "Cari titik mula dan titik akhir ukuran.",
+          "explanation": "Arun menggunakan hujung papan sebagai titik mula ukuran jarak."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d6-math-sasaran-kelab-bacaan-v1",
+    "levelId": "d6",
+    "subjectId": "math",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Sasaran Kelab Bacaan",
+      "summary": "Hubungkan peratus dengan bilangan ahli dan sasaran.",
+      "body": [
+        "Peratus bermaksud daripada seratus. Untuk mencari peratus sesuatu bahagian, bahagi bilangan dalam bahagian itu dengan bilangan keseluruhan, kemudian darab dengan 100.",
+        "Untuk mencari bilangan daripada peratus, bahagi peratus dengan 100 dan darab dengan jumlah keseluruhan. Tentukan jumlah keseluruhan yang betul sebelum membuat pengiraan.",
+        "Peratus bahagian yang saling melengkapi berjumlah 100%. Untuk mengukur jurang sasaran, kira dahulu bilangan yang diperlukan, kemudian tolak bilangan yang telah mencapai sasaran."
+      ],
+      "keyPoints": [
+        "Peratus = bahagian ÷ keseluruhan × 100.",
+        "Bilangan = peratus ÷ 100 × keseluruhan.",
+        "Jurang sasaran = bilangan sasaran − bilangan semasa."
+      ]
+    },
+    "reading": {
+      "title": "Sasaran Kelab Bacaan · Cerita",
+      "summary": "Hubungkan peratus dengan bilangan ahli dan sasaran.",
+      "body": [
+        "Kelab bacaan Sekolah Seri Aman mahu menyemak kemajuan cabaran membaca bulanan. Kelab itu mempunyai 40 ahli. Pada tarikh semakan, 30 ahli sudah menamatkan sebuah buku pilihan masing-masing. Sepuluh ahli lagi masih membaca. Pengerusi kelab, Yasmin, mahu menyatakan kemajuan sebagai peratus supaya ahli mudah melihat bahagian daripada keseluruhan kumpulan.",
+        "Guru menerangkan bahawa peratus bermaksud daripada seratus. Untuk mencari peratus ahli yang selesai, Yasmin membahagikan bilangan yang selesai dengan jumlah ahli, kemudian mendarab dengan 100. Dia menulis 30 ÷ 40 × 100 = 75%. Jadi, 75% ahli telah selesai. Pengiraan itu menggunakan 40 sebagai jumlah keseluruhan, bukannya 30.",
+        "Bahagian yang belum selesai ialah 100% − 75% = 25%. Yasmin menyemak bilangan ahli bagi bahagian itu: 25 ÷ 100 × 40 = 10 orang. Hasil ini sepadan dengan catatan sepuluh ahli yang masih membaca. Dia menggunakan catatan sebenar dan tidak membundarkan bilangan ahli kepada nombor lain.",
+        "Kelab menetapkan sasaran 90% ahli selesai pada hujung bulan. Untuk menukar sasaran itu kepada bilangan ahli, Yasmin mengira 90 ÷ 100 × 40 = 36 orang. Oleh sebab 30 orang sudah selesai, kelab memerlukan 36 − 30 = 6 orang lagi untuk mencapai sasaran. Yasmin mencadangkan sesi membaca bersama secara sukarela. Catatan kemajuan digunakan untuk merancang sokongan, dan jumlah ahli kekal 40 sepanjang pengiraan ini."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah peratus ahli yang sudah selesai membaca?",
+          "options": [
+            "30%",
+            "75%",
+            "40%",
+            "25%"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 1,
+            "text": "30 ÷ 40 × 100 = 75%"
+          },
+          "hint": "Gunakan 30 sebagai bahagian dan 40 sebagai keseluruhan.",
+          "explanation": "Tiga puluh daripada empat puluh ahli bersamaan 75%."
+        },
+        {
+          "prompt": "Berapakah peratus yang belum selesai?",
+          "options": [
+            "75%",
+            "10%",
+            "25%",
+            "90%"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 2,
+            "text": "100% − 75% = 25%"
+          },
+          "hint": "Tolak peratus selesai daripada 100%.",
+          "explanation": "Bahagian belum selesai ialah 25%."
+        }
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Buku pilihan ahli dalam cabaran membaca",
+          "visual": {
+            "label": "Buku pilihan ahli dalam cabaran membaca",
+            "items": [
+              {
+                "kind": "book",
+                "count": 3,
+                "color": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 3,
+          "caption": "Cadangan sesi membaca bersama untuk mencapai sasaran",
+          "visual": {
+            "label": "Cadangan sesi membaca bersama untuk mencapai sasaran",
+            "items": [
+              {
+                "kind": "book",
+                "count": 2,
+                "color": "green"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Sasaran Kelab Bacaan · Cuba Fahami",
+      "summary": "Jawab empat soalan berdasarkan cerita yang telah dibaca.",
+      "body": [
+        "Latihan daripada bacaan: Sasaran Kelab Bacaan · Cerita.",
+        "Baca atau dengar semula cerita. Semua maklumat untuk menjawab ada dalam bacaan. Pilih satu jawapan bagi setiap soalan."
+      ],
+      "questions": [
+        {
+          "prompt": "Sasaran 90% bersamaan berapa ahli?",
+          "options": [
+            "36 orang",
+            "30 orang",
+            "40 orang",
+            "90 orang"
+          ],
+          "answer": 0,
+          "evidence": {
+            "paragraph": 3,
+            "text": "90 ÷ 100 × 40 = 36 orang"
+          },
+          "hint": "Tukarkan peratus sasaran kepada bilangan daripada 40.",
+          "explanation": "Sembilan puluh peratus daripada 40 ialah 36 orang."
+        },
+        {
+          "prompt": "Berapa orang lagi perlu selesai untuk mencapai sasaran?",
+          "options": [
+            "10 orang",
+            "4 orang",
+            "36 orang",
+            "6 orang"
+          ],
+          "answer": 3,
+          "evidence": {
+            "paragraph": 3,
+            "text": "36 − 30 = 6 orang"
+          },
+          "hint": "Tolak bilangan yang sudah selesai daripada bilangan sasaran.",
+          "explanation": "Enam orang lagi diperlukan untuk mencapai 36 orang."
+        },
+        {
+          "prompt": "Mengapa 40 digunakan sebagai pembahagi semasa mencari peratus selesai?",
+          "options": [
+            "40 ialah bilangan buku setiap ahli",
+            "40 ialah jumlah keseluruhan ahli",
+            "40 ialah sasaran peratus",
+            "40 ialah bilangan ahli belum selesai"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Pengiraan itu menggunakan 40 sebagai jumlah keseluruhan, bukannya 30."
+          },
+          "hint": "Bezakan bahagian daripada keseluruhan.",
+          "explanation": "Jumlah keseluruhan kelab ialah 40 ahli."
+        },
+        {
+          "prompt": "Pengiraan manakah menyemak 25% ahli yang belum selesai?",
+          "options": [
+            "25 × 40 = 1000",
+            "40 ÷ 25 × 100 = 160",
+            "25 ÷ 100 × 40 = 10",
+            "100 − 40 = 60"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 2,
+            "text": "25 ÷ 100 × 40 = 10 orang"
+          },
+          "hint": "Darab 40 dengan pecahan 25/100.",
+          "explanation": "Dua puluh lima peratus daripada 40 ahli ialah 10 ahli."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d6-science-dua-cawan-dan-aliran-udara-v1",
+    "levelId": "d6",
+    "subjectId": "science",
+    "sourceIds": [
+      "kpm-sumberku",
+      "kpm-literasi"
+    ],
+    "note": {
+      "title": "Dua Cawan dan Aliran Udara",
+      "summary": "Gunakan ukuran untuk menerangkan penyejatan.",
+      "body": [
+        "Penyejatan menukar air cecair kepada wap air pada permukaan. Proses ini boleh berlaku tanpa air mendidih, dan kadar penyejatan bergantung pada keadaan sekeliling.",
+        "Dalam perbandingan dua bekas, kekalkan faktor berkaitan seperti bentuk bekas, jumlah air awal dan tempoh. Aliran udara boleh dijadikan faktor yang dibezakan.",
+        "Bezakan pemerhatian daripada penerangan. Kehilangan isi padu ialah hasil ukuran; penyejatan ialah penerangan proses. Ulangan dan pemeriksaan faktor lain membantu menguatkan kesimpulan."
+      ],
+      "keyPoints": [
+        "Penyejatan berlaku pada permukaan air.",
+        "Aliran udara boleh mempercepat penyejatan.",
+        "Kesimpulan perlu mengambil kira keadaan ujian."
+      ]
+    },
+    "reading": {
+      "title": "Dua Cawan dan Aliran Udara · Cerita",
+      "summary": "Gunakan ukuran untuk menerangkan penyejatan.",
+      "body": [
+        "Nadia menyertai kumpulan sains yang menyiasat kehilangan air daripada bekas terbuka. Guru menyediakan dua cawan serupa, P dan Q, masing-masing berisi 100 mililiter air. Kedua-duanya diletakkan di dalam bilik yang sama selama dua jam. Cawan P diletakkan berhampiran kipas yang mengalirkan udara merentasi permukaan air, manakala cawan Q berada di tempat terlindung daripada aliran kipas.",
+        "Selepas dua jam, cawan P mengandungi 92 mililiter air dan cawan Q mengandungi 97 mililiter air. Tiada air tertumpah atau diambil sepanjang pemerhatian. Nadia mengira kehilangan air: P kehilangan 100 − 92 = 8 mililiter, manakala Q kehilangan 100 − 97 = 3 mililiter. Dalam tempoh yang sama, kehilangan air P lebih banyak.",
+        "Guru menerangkan bahawa penyejatan ialah perubahan air cecair kepada wap air pada permukaannya. Air boleh menyejat tanpa mendidih. Udara yang bergerak membawa wap air menjauhi permukaan dan boleh mempercepat penyejatan. Oleh itu, hasil ini menyokong jangkaan bahawa aliran udara membantu air menyejat lebih cepat dalam susunan ujian tersebut.",
+        "Nadia menyenaraikan perkara yang dikekalkan: jenis cawan, jumlah air awal dan tempoh pemerhatian. Perbezaan utama ialah pendedahan kepada aliran udara. Kumpulan itu bercadang mengulang ujian dan memeriksa suhu air supaya kesimpulan lebih kukuh. Mereka tidak mendakwa bahawa setiap cawan berhampiran kipas sentiasa kehilangan tepat 8 mililiter. Jumlah kehilangan boleh berubah jika keadaan ujian berubah. Catatan mereka membezakan bacaan ukuran daripada penerangan tentang proses penyejatan."
+      ],
+      "questions": [
+        {
+          "prompt": "Cawan manakah kehilangan lebih banyak air?",
+          "options": [
+            "Q",
+            "P",
+            "Kedua-duanya sama",
+            "Kedua-duanya tidak kehilangan air"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Dalam tempoh yang sama, kehilangan air P lebih banyak."
+          },
+          "hint": "Bandingkan kehilangan 8 mililiter dengan 3 mililiter.",
+          "explanation": "P kehilangan 8 mililiter, lebih banyak daripada Q yang kehilangan 3 mililiter."
+        },
+        {
+          "prompt": "Apakah penyejatan?",
+          "options": [
+            "Wap air berubah menjadi titisan cecair",
+            "Air cecair berubah menjadi ais",
+            "Air cecair berubah kepada wap pada permukaannya",
+            "Air mendidih pada seluruh isi padunya"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 2,
+            "text": "penyejatan ialah perubahan air cecair kepada wap air pada permukaannya"
+          },
+          "hint": "Cari takrif yang diberikan guru.",
+          "explanation": "Penyejatan ialah perubahan cecair kepada wap pada permukaan air."
+        }
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Cawan P dan Q: masing-masing bermula dengan 100 mililiter air",
+          "visual": {
+            "label": "Cawan P dan Q: masing-masing bermula dengan 100 mililiter air",
+            "items": [
+              {
+                "kind": "cup",
+                "count": 2
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 1,
+          "caption": "Cawan P: bacaan akhir 92 mililiter selepas dua jam",
+          "visual": {
+            "label": "Cawan P: bacaan akhir 92 mililiter selepas dua jam",
+            "items": [
+              {
+                "kind": "cup",
+                "count": 1,
+                "color": "blue"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Dua Cawan dan Aliran Udara · Cuba Fahami",
+      "summary": "Jawab empat soalan berdasarkan cerita yang telah dibaca.",
+      "body": [
+        "Latihan daripada bacaan: Dua Cawan dan Aliran Udara · Cerita.",
+        "Baca atau dengar semula cerita. Semua maklumat untuk menjawab ada dalam bacaan. Pilih satu jawapan bagi setiap soalan."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah kehilangan air dalam cawan Q?",
+          "options": [
+            "3 mililiter",
+            "8 mililiter",
+            "97 mililiter",
+            "100 mililiter"
+          ],
+          "answer": 0,
+          "evidence": {
+            "paragraph": 1,
+            "text": "Q kehilangan 100 − 97 = 3 mililiter"
+          },
+          "hint": "Tolak isi padu akhir daripada isi padu awal Q.",
+          "explanation": "Q kehilangan 3 mililiter sepanjang dua jam."
+        },
+        {
+          "prompt": "Apakah perbezaan utama antara dua cawan dalam ujian?",
+          "options": [
+            "Jenis cawan",
+            "Jumlah air awal",
+            "Tempoh pemerhatian",
+            "Pendedahan kepada aliran udara"
+          ],
+          "answer": 3,
+          "evidence": {
+            "paragraph": 3,
+            "text": "Perbezaan utama ialah pendedahan kepada aliran udara."
+          },
+          "hint": "Cari faktor yang tidak dikekalkan.",
+          "explanation": "P terdedah kepada aliran kipas, sementara Q terlindung daripadanya."
+        },
+        {
+          "prompt": "Bagaimanakah udara bergerak boleh membantu penyejatan?",
+          "options": [
+            "Menyejukkan air sehingga semuanya membeku",
+            "Membawa wap air menjauhi permukaan",
+            "Mengembalikan semua wap ke dalam cawan",
+            "Menutup permukaan air daripada udara"
+          ],
+          "answer": 1,
+          "evidence": {
+            "paragraph": 2,
+            "text": "Udara yang bergerak membawa wap air menjauhi permukaan dan boleh mempercepat penyejatan."
+          },
+          "hint": "Cari peranan aliran udara.",
+          "explanation": "Aliran udara membawa wap menjauhi permukaan, lalu boleh mempercepat penyejatan."
+        },
+        {
+          "prompt": "Mengapa kehilangan air tidak semestinya tepat 8 mililiter dalam setiap ujian lain?",
+          "options": [
+            "Penyejatan hanya berlaku sekali",
+            "Semua cawan mempunyai isi padu sama",
+            "Jumlah kehilangan boleh berubah jika keadaan ujian berubah",
+            "Air mesti mendidih sebelum berkurang"
+          ],
+          "answer": 2,
+          "evidence": {
+            "paragraph": 3,
+            "text": "Jumlah kehilangan boleh berubah jika keadaan ujian berubah."
+          },
+          "hint": "Hadkan kesimpulan kepada keadaan ujian.",
+          "explanation": "Suhu, aliran udara dan keadaan lain boleh mempengaruhi kehilangan air."
+        }
+      ]
+    }
+  }
+]

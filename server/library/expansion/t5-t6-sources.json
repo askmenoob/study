@@ -1,0 +1,1405 @@
+{
+  "authored": "2026-09-10",
+  "scope": "169 original supplementary case-study units: 92 Form 5 and 77 Form 6. Not a complete syllabus or educator-approved course.",
+  "rights": "Original notes, scenarios and questions authored for Study. No external book text, question bank or artwork copied.",
+  "references": [
+    {
+      "id": "kpm-kssm",
+      "url": "https://sites.google.com/moe-dl.edu.my/unitkurikulumsmkusj13/dskp/bidang-sains-matematik",
+      "status": "page-read",
+      "authority": "KPM school-managed moe-dl site",
+      "verifiedScope": "Index lists KSSM Mathematics and Science Form 4/5 DSKP documents. Embedded PDF contents not individually read.",
+      "limitations": "Index verification does not certify every unit against a numbered standard."
+    },
+    {
+      "id": "bpk-repository",
+      "url": "https://repositori.bpk.moe-dl.edu.my/utama",
+      "status": "page-read",
+      "verifiedScope": "BPK/KPM identity and repository landing page only."
+    },
+    {
+      "id": "mpm-stpm",
+      "url": "https://www.mpm.edu.my/stpm/sukatan-pelajaran-peperiksaan-stpm-yang-dimurnikan",
+      "status": "fetch-failed-502",
+      "verifiedScope": "Reference destination attempted; current syllabus text not retrieved. No semester mapping claimed."
+    },
+    {
+      "id": "who-amr",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+      "status": "page-read",
+      "verifiedScope": "Misuse and overuse of antimicrobial medicines drive resistant pathogens; used for the Form 5 antibiotic-resistance concept, without clinical advice."
+    }
+  ],
+  "review": {
+    "numericWorkedExamples": 32,
+    "numericChecks": "passed independent arithmetic assertions",
+    "questions": 1014,
+    "evidence": "Each correct answer has an exact quotation and zero-based paragraph reference in its unit reading.",
+    "language": "BC Simplified Chinese, BT Tamil and BA Arabic authored in their respective scripts. Other designated STPM English subjects use English. Fluent educator review remains pending.",
+    "length": "Case readings deliberately concise, generally 85–127 whitespace-delimited words in Malay/English; do not claim 180–260 words. Chinese/Tamil/Arabic word counts are not comparable.",
+    "pedagogy": "Notes explain principle, method and scope. Case readings contain supplied conditions, interpretation and explanation. Questions mix identifying evidence, applying a model, explaining a result, scope and verification.",
+    "limitations": [
+      "Not formal educator approval or exhaustive KSSM/STPM alignment.",
+      "Some history, governance, religion and moral units are original analytical simulations rather than detailed syllabus chapter coverage.",
+      "No MPM semester or assessment standard mapping was verified because the official endpoint failed.",
+      "Distractors primarily use alternative same-subject concepts; assessment calibration and near-miss difficulty tuning remain future educator work.",
+      "Language-level suitability of BC/BT/BA needs a qualified subject educator despite script and internal answer checks."
+    ],
+    "distractorCorrection": "A review found ambiguous fallback options in 45 three-unit STPM subject groups. The true-fact fallback was removed and replaced with an authored false misconception per affected unit. All 1014 questions checked: no wrong option equals any of the six evidence statements in its own unit. Retrieval prompts distinguish specifically stated principles/limits/methods from broader application and causal questions.",
+    "scienceCorrection": "Yeast gas experiment measures fermentation activity, not direct population growth; starting yeast quantity is now explicitly controlled."
+  },
+  "topicMapping": [
+    {
+      "id": "library-t5-bm-expanded-35be81d17c",
+      "levelId": "t5",
+      "subjectId": "bm",
+      "topic": "Nota: Rumusan dua pendirian",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-bm-expanded-82a352eff9",
+      "levelId": "t5",
+      "subjectId": "bm",
+      "topic": "Nota: Hujah dan sanggahan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-bm-expanded-e3bb9e70a1",
+      "levelId": "t5",
+      "subjectId": "bm",
+      "topic": "Nota: Laras memorandum",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-bm-expanded-120c4ffece",
+      "levelId": "t5",
+      "subjectId": "bm",
+      "topic": "Nota: Sintaksis ayat pasif",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-bm-expanded-599a0a2d9c",
+      "levelId": "t5",
+      "subjectId": "bm",
+      "topic": "Nota: Petikan langsung dan tidak langsung",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-bm-expanded-3ce29aa4f7",
+      "levelId": "t5",
+      "subjectId": "bm",
+      "topic": "Nota: Perenggan sebab dan akibat",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-bm-expanded-91e01a695f",
+      "levelId": "t5",
+      "subjectId": "bm",
+      "topic": "Nota: Ketepatan makna istilah",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-bm-expanded-f2df306d1f",
+      "levelId": "t5",
+      "subjectId": "bm",
+      "topic": "Nota: Ulasan grafik berpasangan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-bm-expanded-4fe5383aef",
+      "levelId": "t5",
+      "subjectId": "bm",
+      "topic": "Nota: Kesantunan surat aduan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-bm-expanded-29cf27b1b4",
+      "levelId": "t5",
+      "subjectId": "bm",
+      "topic": "Nota: Analisis watak melalui tindakan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-bm-expanded-dd1c27903a",
+      "levelId": "t5",
+      "subjectId": "bm",
+      "topic": "Nota: Menyunting rujukan kabur",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-bm-expanded-48f6d026c1",
+      "levelId": "t5",
+      "subjectId": "bm",
+      "topic": "Nota: Kesimpulan karangan berimbang",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-en-expanded-4912dc28ff",
+      "levelId": "t5",
+      "subjectId": "en",
+      "topic": "Notes: Evaluating a product review",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-en-expanded-0fc27da9f9",
+      "levelId": "t5",
+      "subjectId": "en",
+      "topic": "Notes: Balancing an opinion essay",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-en-expanded-b58fb5a084",
+      "levelId": "t5",
+      "subjectId": "en",
+      "topic": "Notes: Reporting a complaint fairly",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-en-expanded-4c2acfe729",
+      "levelId": "t5",
+      "subjectId": "en",
+      "topic": "Notes: Conditionals and unreal past choices",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-en-expanded-119e6eea09",
+      "levelId": "t5",
+      "subjectId": "en",
+      "topic": "Notes: Modal verbs and strength of evidence",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-en-expanded-cbcc189148",
+      "levelId": "t5",
+      "subjectId": "en",
+      "topic": "Notes: Relative clauses and essential information",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-en-expanded-8919d47eb8",
+      "levelId": "t5",
+      "subjectId": "en",
+      "topic": "Notes: Inferring tone in correspondence",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-en-expanded-ad07078d0a",
+      "levelId": "t5",
+      "subjectId": "en",
+      "topic": "Notes: Synthesising contrasting sources",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-en-expanded-80ea3c5200",
+      "levelId": "t5",
+      "subjectId": "en",
+      "topic": "Notes: Writing an actionable proposal",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-en-expanded-1c37aca792",
+      "levelId": "t5",
+      "subjectId": "en",
+      "topic": "Notes: Interpreting narrative perspective",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-en-expanded-0025de9032",
+      "levelId": "t5",
+      "subjectId": "en",
+      "topic": "Notes: Editing a coherent paragraph",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-en-expanded-e59a4b6dab",
+      "levelId": "t5",
+      "subjectId": "en",
+      "topic": "Notes: Summarising survey limitations",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-math-expanded-bd9ccee509",
+      "levelId": "t5",
+      "subjectId": "math",
+      "topic": "Nota: Ubahan langsung dengan kuasa dua",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-math-expanded-e0a579257a",
+      "levelId": "t5",
+      "subjectId": "math",
+      "topic": "Nota: Ubahan songsang berkuasa dua",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-math-expanded-96232f43f6",
+      "levelId": "t5",
+      "subjectId": "math",
+      "topic": "Nota: Ubahan tercantum",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-math-expanded-d5014fac57",
+      "levelId": "t5",
+      "subjectId": "math",
+      "topic": "Nota: Darab matriks dan pesanan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-math-expanded-fb4616330d",
+      "levelId": "t5",
+      "subjectId": "math",
+      "topic": "Nota: Matriks songsang dan sistem",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-math-expanded-5284c2b9b3",
+      "levelId": "t5",
+      "subjectId": "math",
+      "topic": "Nota: Premium insurans dan deduktibel",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-math-expanded-094e705a37",
+      "levelId": "t5",
+      "subjectId": "math",
+      "topic": "Nota: Cukai mengikut jalur rekaan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-math-expanded-0f38b91db2",
+      "levelId": "t5",
+      "subjectId": "math",
+      "topic": "Nota: Translasi dan pantulan berturutan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-math-expanded-2880997c4c",
+      "levelId": "t5",
+      "subjectId": "math",
+      "topic": "Nota: Pembesaran dan luas",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-math-expanded-7a92155ff7",
+      "levelId": "t5",
+      "subjectId": "math",
+      "topic": "Nota: Histogram dengan selang berlainan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-math-expanded-dd0097bfbe",
+      "levelId": "t5",
+      "subjectId": "math",
+      "topic": "Nota: Julat antara kuartil dan pencilan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-math-expanded-a4634b24ab",
+      "levelId": "t5",
+      "subjectId": "math",
+      "topic": "Nota: Graf trigonometri dan model berkala",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-science-expanded-74bf1d31cd",
+      "levelId": "t5",
+      "subjectId": "science",
+      "topic": "Nota: Mikroorganisma dan kawalan pemboleh ubah",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-science-expanded-3626e7ccf6",
+      "levelId": "t5",
+      "subjectId": "science",
+      "topic": "Nota: Antibiotik dan rintangan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-science-expanded-61a27de337",
+      "levelId": "t5",
+      "subjectId": "science",
+      "topic": "Nota: Pengawetan makanan dan aktiviti air",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-science-expanded-7fff70d4d4",
+      "levelId": "t5",
+      "subjectId": "science",
+      "topic": "Nota: Keseimbangan nutrien tumbuhan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-science-expanded-da2bdaf0a2",
+      "levelId": "t5",
+      "subjectId": "science",
+      "topic": "Nota: Kelestarian dan jejak kitar hayat",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-science-expanded-c87b5804e3",
+      "levelId": "t5",
+      "subjectId": "science",
+      "topic": "Nota: Kadar tindak balas dan luas permukaan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-science-expanded-f53bc48e32",
+      "levelId": "t5",
+      "subjectId": "science",
+      "topic": "Nota: Mangkin dan tenaga pengaktifan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-science-expanded-de50ae58f8",
+      "levelId": "t5",
+      "subjectId": "science",
+      "topic": "Nota: Sebatian karbon dan pembakaran",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-science-expanded-745a6cb636",
+      "levelId": "t5",
+      "subjectId": "science",
+      "topic": "Nota: Elektrolisis dan pemindahan cas",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-science-expanded-13d3e2a87d",
+      "levelId": "t5",
+      "subjectId": "science",
+      "topic": "Nota: Tekanan bendalir dan kedalaman",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-science-expanded-eddc682c01",
+      "levelId": "t5",
+      "subjectId": "science",
+      "topic": "Nota: Satelit dan tempoh orbit",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-science-expanded-9a0cd385cc",
+      "levelId": "t5",
+      "subjectId": "science",
+      "topic": "Nota: Kecekapan tenaga dan kuasa",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-history-expanded-6b6d16a9d9",
+      "levelId": "t5",
+      "subjectId": "history",
+      "topic": "Nota: Kedaulatan dan kuasa pemerintahan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-history-expanded-060ae37733",
+      "levelId": "t5",
+      "subjectId": "history",
+      "topic": "Nota: Keluhuran perlembagaan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-history-expanded-29f947979a",
+      "levelId": "t5",
+      "subjectId": "history",
+      "topic": "Nota: Raja Berperlembagaan dan institusi",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-history-expanded-0333595785",
+      "levelId": "t5",
+      "subjectId": "history",
+      "topic": "Nota: Demokrasi dan penyertaan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-history-expanded-aa76e143dc",
+      "levelId": "t5",
+      "subjectId": "history",
+      "topic": "Nota: Persekutuan dan penyelarasan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-history-expanded-5d2cd8c874",
+      "levelId": "t5",
+      "subjectId": "history",
+      "topic": "Nota: Pembentukan Malaysia dan rundingan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-history-expanded-f18ce3c05a",
+      "levelId": "t5",
+      "subjectId": "history",
+      "topic": "Nota: Cabaran keselamatan dan pembangunan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-history-expanded-6f1beb91b9",
+      "levelId": "t5",
+      "subjectId": "history",
+      "topic": "Nota: Rukun Negara dan perpaduan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-history-expanded-a4facf442e",
+      "levelId": "t5",
+      "subjectId": "history",
+      "topic": "Nota: Dasar pembangunan dan ukuran hasil",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-history-expanded-a02fdebd73",
+      "levelId": "t5",
+      "subjectId": "history",
+      "topic": "Nota: Dasar luar dan kepentingan negara",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-history-expanded-1c8f31fb06",
+      "levelId": "t5",
+      "subjectId": "history",
+      "topic": "Nota: ASEAN dan kerjasama serantau",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-geo-expanded-c4e085634a",
+      "levelId": "t5",
+      "subjectId": "geo",
+      "topic": "Nota: Transek bandar dan perubahan guna tanah",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-geo-expanded-717ba6383a",
+      "levelId": "t5",
+      "subjectId": "geo",
+      "topic": "Nota: Cerun dan proses hakisan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-geo-expanded-3809c0c60c",
+      "levelId": "t5",
+      "subjectId": "geo",
+      "topic": "Nota: Saliran bandar dan permukaan telap",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-geo-expanded-85d65d1ce3",
+      "levelId": "t5",
+      "subjectId": "geo",
+      "topic": "Nota: Pulau haba bandar",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-geo-expanded-9a3d104e9a",
+      "levelId": "t5",
+      "subjectId": "geo",
+      "topic": "Nota: Migrasi dan faktor tarikan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-geo-expanded-1f512edcdc",
+      "levelId": "t5",
+      "subjectId": "geo",
+      "topic": "Nota: Piramid penduduk dan perkhidmatan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-geo-expanded-6b3abd9b66",
+      "levelId": "t5",
+      "subjectId": "geo",
+      "topic": "Nota: Lokasi industri dan jaringan pengangkutan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-geo-expanded-9854e87e12",
+      "levelId": "t5",
+      "subjectId": "geo",
+      "topic": "Nota: Pelancongan dan daya tampung",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-geo-expanded-91394e4e8d",
+      "levelId": "t5",
+      "subjectId": "geo",
+      "topic": "Nota: Sumber tenaga dan kebolehubahan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-geo-expanded-33b131ffb3",
+      "levelId": "t5",
+      "subjectId": "geo",
+      "topic": "Nota: Perdagangan dan nilai tambah",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-geo-expanded-fc5138d24d",
+      "levelId": "t5",
+      "subjectId": "geo",
+      "topic": "Nota: Data geografi dan pensampelan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-islam-expanded-d5d9514f0e",
+      "levelId": "t5",
+      "subjectId": "islam",
+      "topic": "Nota: Amanah dalam pengurusan dana",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-islam-expanded-90da5b27a8",
+      "levelId": "t5",
+      "subjectId": "islam",
+      "topic": "Nota: Tabayyun dalam perkongsian berita",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-islam-expanded-279d03ae62",
+      "levelId": "t5",
+      "subjectId": "islam",
+      "topic": "Nota: Ikhlas dan tanggungjawab kerja",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-islam-expanded-1e028c931d",
+      "levelId": "t5",
+      "subjectId": "islam",
+      "topic": "Nota: Adab perbezaan pendapat",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-islam-expanded-05da1a5223",
+      "levelId": "t5",
+      "subjectId": "islam",
+      "topic": "Nota: Usaha dan tawakal",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-islam-expanded-3a6f2ad212",
+      "levelId": "t5",
+      "subjectId": "islam",
+      "topic": "Nota: Syukur dan penggunaan kemudahan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-islam-expanded-98529eb8d8",
+      "levelId": "t5",
+      "subjectId": "islam",
+      "topic": "Nota: Menjaga maruah ketika membantu",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-islam-expanded-3a0dd2f732",
+      "levelId": "t5",
+      "subjectId": "islam",
+      "topic": "Nota: Keadilan dalam membuat keputusan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-islam-expanded-40568a6d21",
+      "levelId": "t5",
+      "subjectId": "islam",
+      "topic": "Nota: Muamalat dan kejelasan persetujuan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-islam-expanded-1ce95599c2",
+      "levelId": "t5",
+      "subjectId": "islam",
+      "topic": "Nota: Disiplin menuntut ilmu",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-islam-expanded-96597f4789",
+      "levelId": "t5",
+      "subjectId": "islam",
+      "topic": "Nota: Tanggungjawab alam sekitar",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-moral-expanded-50c4d72537",
+      "levelId": "t5",
+      "subjectId": "moral",
+      "topic": "Nota: Integriti dan konflik kepentingan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-moral-expanded-521055d074",
+      "levelId": "t5",
+      "subjectId": "moral",
+      "topic": "Nota: Hak privasi dan keselamatan komuniti",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-moral-expanded-e1c670a9da",
+      "levelId": "t5",
+      "subjectId": "moral",
+      "topic": "Nota: Keadilan akses dan keperluan berbeza",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-moral-expanded-d6ce93c650",
+      "levelId": "t5",
+      "subjectId": "moral",
+      "topic": "Nota: Tanggungjawab pengguna digital",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-moral-expanded-3a2094e957",
+      "levelId": "t5",
+      "subjectId": "moral",
+      "topic": "Nota: Keberanian moral dalam pasukan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-moral-expanded-ce283f071b",
+      "levelId": "t5",
+      "subjectId": "moral",
+      "topic": "Nota: Empati tanpa membuat andaian",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-moral-expanded-7e17eb0dcd",
+      "levelId": "t5",
+      "subjectId": "moral",
+      "topic": "Nota: Kelestarian dan tanggungjawab antara generasi",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-moral-expanded-167937b447",
+      "levelId": "t5",
+      "subjectId": "moral",
+      "topic": "Nota: Toleransi dan batas penghinaan",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-moral-expanded-0a2c170a30",
+      "levelId": "t5",
+      "subjectId": "moral",
+      "topic": "Nota: Kejujuran akademik dan pengiktirafan sumber",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-moral-expanded-cdecd58af4",
+      "levelId": "t5",
+      "subjectId": "moral",
+      "topic": "Nota: Pengagihan bantuan yang telus",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t5-moral-expanded-1ca9d2c56a",
+      "levelId": "t5",
+      "subjectId": "moral",
+      "topic": "Nota: Tanggungjawab ketika kesilapan berlaku",
+      "referenceId": "kpm-kssm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-bm-expanded-b82f20fbdf",
+      "levelId": "t6",
+      "subjectId": "bm",
+      "topic": "Nota: Fonem dan pasangan minimum",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-bm-expanded-8aa11d4504",
+      "levelId": "t6",
+      "subjectId": "bm",
+      "topic": "Nota: Morfologi dan perubahan golongan kata",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-bm-expanded-5849e7bf70",
+      "levelId": "t6",
+      "subjectId": "bm",
+      "topic": "Nota: Pragmatik dan implikatur",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-bm-expanded-111b5e2d92",
+      "levelId": "t6",
+      "subjectId": "bm",
+      "topic": "Nota: Semantik dan makna berlapis",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-history-expanded-143b1c2be7",
+      "levelId": "t6",
+      "subjectId": "history",
+      "topic": "Nota: Punca berlapis dalam perubahan sejarah",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-history-expanded-da17aeaeeb",
+      "levelId": "t6",
+      "subjectId": "history",
+      "topic": "Nota: Sumber primer dan tujuan penulisan",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-history-expanded-32a92a2370",
+      "levelId": "t6",
+      "subjectId": "history",
+      "topic": "Nota: Kesinambungan dan perubahan institusi",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-history-expanded-0b4a647c9b",
+      "levelId": "t6",
+      "subjectId": "history",
+      "topic": "Nota: Perbandingan sejarah tanpa anakronisme",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-geo-expanded-973f84b9e1",
+      "levelId": "t6",
+      "subjectId": "geo",
+      "topic": "Nota: Imbangan air dan simpanan",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-geo-expanded-13f2e6c48c",
+      "levelId": "t6",
+      "subjectId": "geo",
+      "topic": "Nota: Sistem bandar dan hierarki perkhidmatan",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-geo-expanded-886fecd18f",
+      "levelId": "t6",
+      "subjectId": "geo",
+      "topic": "Nota: Peralihan demografi dan tafsiran kadar",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-geo-expanded-67da63278c",
+      "levelId": "t6",
+      "subjectId": "geo",
+      "topic": "Nota: Pembangunan wilayah dan limpahan kesan",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-pa-expanded-1c0ba78e6a",
+      "levelId": "t6",
+      "subjectId": "pa",
+      "topic": "Nota: Tadbir urus dan akauntabiliti",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-pa-expanded-48c9c29e8e",
+      "levelId": "t6",
+      "subjectId": "pa",
+      "topic": "Nota: Indeks komposit dan pemberat",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-pa-expanded-1658707305",
+      "levelId": "t6",
+      "subjectId": "pa",
+      "topic": "Nota: Dasar awam dan kumpulan sasaran",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-pa-expanded-12b60fef71",
+      "levelId": "t6",
+      "subjectId": "pa",
+      "topic": "Nota: Korelasi dan penilaian program",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-bc-expanded-5cb0d0b6e2",
+      "levelId": "t6",
+      "subjectId": "bc",
+      "topic": "学习笔记: 叙述视角与人物判断",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-bc-expanded-077f2a2269",
+      "levelId": "t6",
+      "subjectId": "bc",
+      "topic": "学习笔记: 转折关系与论证重心",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-bc-expanded-cbf8093392",
+      "levelId": "t6",
+      "subjectId": "bc",
+      "topic": "学习笔记: 比喻与文本语境",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-bc-expanded-9542208358",
+      "levelId": "t6",
+      "subjectId": "bc",
+      "topic": "学习笔记: 数据与议论文结论",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-bt-expanded-fd4457d311",
+      "levelId": "t6",
+      "subjectId": "bt",
+      "topic": "குறிப்புகள்: கதைசொல்லியின் அறிவு வரம்பு",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-bt-expanded-5f37e18b93",
+      "levelId": "t6",
+      "subjectId": "bt",
+      "topic": "குறிப்புகள்: உருவகமும் சூழல் பொருளும்",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-bt-expanded-b0dcc31220",
+      "levelId": "t6",
+      "subjectId": "bt",
+      "topic": "குறிப்புகள்: வாதமும் ஆதாரத்தின் எல்லையும்",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-bt-expanded-e752785f54",
+      "levelId": "t6",
+      "subjectId": "bt",
+      "topic": "குறிப்புகள்: எதிர்மறை இணைப்பின் பங்கு",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-ba-expanded-ebc6a32e16",
+      "levelId": "t6",
+      "subjectId": "ba",
+      "topic": "ملاحظات: الإعراب ودور الكلمات",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-ba-expanded-e92f596453",
+      "levelId": "t6",
+      "subjectId": "ba",
+      "topic": "ملاحظات: الاستعارة والسياق",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-ba-expanded-00d0bd5c4b",
+      "levelId": "t6",
+      "subjectId": "ba",
+      "topic": "ملاحظات: الاستدلال وحدود البيانات",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-ba-expanded-1c699e1fae",
+      "levelId": "t6",
+      "subjectId": "ba",
+      "topic": "ملاحظات: الاستدراك وتحديد الموقف",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-lit_en-expanded-7d5adbb534",
+      "levelId": "t6",
+      "subjectId": "lit_en",
+      "topic": "Notes: Dramatic irony and unequal knowledge",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-lit_en-expanded-0d2a57018e",
+      "levelId": "t6",
+      "subjectId": "lit_en",
+      "topic": "Notes: Free indirect discourse and distance",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-lit_en-expanded-e1221ac7ea",
+      "levelId": "t6",
+      "subjectId": "lit_en",
+      "topic": "Notes: Motif development across a narrative",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-lit_en-expanded-b99fe93b3e",
+      "levelId": "t6",
+      "subjectId": "lit_en",
+      "topic": "Notes: Ambiguous endings and evidence",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-kmk-expanded-f1184c82fa",
+      "levelId": "t6",
+      "subjectId": "kmk",
+      "topic": "Nota: Sudut pandangan dan simpati pembaca",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-kmk-expanded-a1c4c122f9",
+      "levelId": "t6",
+      "subjectId": "kmk",
+      "topic": "Nota: Adaptasi puisi kepada persembahan",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-kmk-expanded-431f5fd880",
+      "levelId": "t6",
+      "subjectId": "kmk",
+      "topic": "Nota: Konflik nilai dan pembangunan watak",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-syariah-expanded-e15d75ca24",
+      "levelId": "t6",
+      "subjectId": "syariah",
+      "topic": "Nota: Persetujuan bermaklumat dalam akad",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-syariah-expanded-567f5f9df1",
+      "levelId": "t6",
+      "subjectId": "syariah",
+      "topic": "Nota: Amanah agensi dan had kuasa",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-syariah-expanded-a2261a87e0",
+      "levelId": "t6",
+      "subjectId": "syariah",
+      "topic": "Nota: Maqasid dan justifikasi dasar",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-usuluddin-expanded-c4cc63ad0c",
+      "levelId": "t6",
+      "subjectId": "usuluddin",
+      "topic": "Nota: Penyandaran teks dan disiplin sumber",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-usuluddin-expanded-086720667a",
+      "levelId": "t6",
+      "subjectId": "usuluddin",
+      "topic": "Nota: Hujah dan kesimpulan teologi",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-usuluddin-expanded-31cb9f8385",
+      "levelId": "t6",
+      "subjectId": "usuluddin",
+      "topic": "Nota: Perbandingan pandangan secara amanah",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-tahfiz-expanded-c03ea8a8a3",
+      "levelId": "t6",
+      "subjectId": "tahfiz",
+      "topic": "Nota: Pemetaan kesilapan hafazan",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-tahfiz-expanded-b8598c3b25",
+      "levelId": "t6",
+      "subjectId": "tahfiz",
+      "topic": "Nota: Semakan jarak masa dan pengekalan",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-tahfiz-expanded-33e4f435ef",
+      "levelId": "t6",
+      "subjectId": "tahfiz",
+      "topic": "Nota: Ketepatan semakan dan rekod audio",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-economics-expanded-b1fca17045",
+      "levelId": "t6",
+      "subjectId": "economics",
+      "topic": "Nota: Keanjalan harga permintaan titik tengah",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-economics-expanded-aaad372e6a",
+      "levelId": "t6",
+      "subjectId": "economics",
+      "topic": "Nota: Kos marginal dan keputusan output",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-economics-expanded-b7e748abe8",
+      "levelId": "t6",
+      "subjectId": "economics",
+      "topic": "Nota: Pengganda dalam model ekonomi mudah",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-business-expanded-37dc1e3279",
+      "levelId": "t6",
+      "subjectId": "business",
+      "topic": "Nota: Analisis pulang modal dan margin keselamatan",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-business-expanded-ac94940ece",
+      "levelId": "t6",
+      "subjectId": "business",
+      "topic": "Nota: Motivasi kerja dan diagnosis masalah",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-business-expanded-0520798e41",
+      "levelId": "t6",
+      "subjectId": "business",
+      "topic": "Nota: Pengurusan risiko rantaian bekalan",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-accounting-expanded-0fc0f9d3cc",
+      "levelId": "t6",
+      "subjectId": "accounting",
+      "topic": "Nota: Susut nilai dan nilai bawaan",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-accounting-expanded-eb972c9d49",
+      "levelId": "t6",
+      "subjectId": "accounting",
+      "topic": "Nota: Peruntukan hutang ragu dan pelarasan",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-accounting-expanded-e012c838fc",
+      "levelId": "t6",
+      "subjectId": "accounting",
+      "topic": "Nota: Untung tunai dan aliran operasi",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-mgmt_math-expanded-9da2499207",
+      "levelId": "t6",
+      "subjectId": "mgmt_math",
+      "topic": "Notes: Matrix models for production demand",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-mgmt_math-expanded-e17311392d",
+      "levelId": "t6",
+      "subjectId": "mgmt_math",
+      "topic": "Notes: Expected value and decision risk",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-mgmt_math-expanded-bd5a8dca0d",
+      "levelId": "t6",
+      "subjectId": "mgmt_math",
+      "topic": "Notes: Compound growth and present value",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-stpm_math-expanded-18856439e7",
+      "levelId": "t6",
+      "subjectId": "stpm_math",
+      "topic": "Notes: Complex roots and conjugate structure",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-stpm_math-expanded-44b0f591fc",
+      "levelId": "t6",
+      "subjectId": "stpm_math",
+      "topic": "Notes: Differential equations and initial values",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-stpm_math-expanded-281d360d2d",
+      "levelId": "t6",
+      "subjectId": "stpm_math",
+      "topic": "Notes: Binomial probability and independence",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-ict-expanded-7520ac083c",
+      "levelId": "t6",
+      "subjectId": "ict",
+      "topic": "Notes: Normalisation and partial dependencies",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-ict-expanded-a6e220be9e",
+      "levelId": "t6",
+      "subjectId": "ict",
+      "topic": "Notes: Database transactions and atomicity",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-ict-expanded-b1c26985eb",
+      "levelId": "t6",
+      "subjectId": "ict",
+      "topic": "Notes: Algorithm complexity and input size",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-physics-expanded-f8d7c0c567",
+      "levelId": "t6",
+      "subjectId": "physics",
+      "topic": "Notes: Simple harmonic motion and phase",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-physics-expanded-6d669e4dc6",
+      "levelId": "t6",
+      "subjectId": "physics",
+      "topic": "Notes: Electric field and potential gradient",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-physics-expanded-cb3c09f1bb",
+      "levelId": "t6",
+      "subjectId": "physics",
+      "topic": "Notes: Radioactive decay and repeated half-lives",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-chemistry-expanded-3c99c5ad3a",
+      "levelId": "t6",
+      "subjectId": "chemistry",
+      "topic": "Notes: Buffer action and added acid",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-chemistry-expanded-bf4757d200",
+      "levelId": "t6",
+      "subjectId": "chemistry",
+      "topic": "Notes: Electrochemical cells and electron direction",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-chemistry-expanded-6799c5b6ab",
+      "levelId": "t6",
+      "subjectId": "chemistry",
+      "topic": "Notes: Reaction kinetics and experimental order",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-biology-expanded-c2c47cb33a",
+      "levelId": "t6",
+      "subjectId": "biology",
+      "topic": "Notes: Membrane transport and water potential",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-biology-expanded-2d72f8807a",
+      "levelId": "t6",
+      "subjectId": "biology",
+      "topic": "Notes: Genetic linkage and recombination",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-biology-expanded-a062ca4caf",
+      "levelId": "t6",
+      "subjectId": "biology",
+      "topic": "Notes: Population growth and carrying capacity",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-sports_science-expanded-08857e0a59",
+      "levelId": "t6",
+      "subjectId": "sports_science",
+      "topic": "Nota: Impuls dan perubahan momentum",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-sports_science-expanded-df71ddfeab",
+      "levelId": "t6",
+      "subjectId": "sports_science",
+      "topic": "Nota: Sistem tenaga dan tempoh aktiviti",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-sports_science-expanded-678215bfa8",
+      "levelId": "t6",
+      "subjectId": "sports_science",
+      "topic": "Nota: Kesahan ujian dan kebolehpercayaan",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-visual_art-expanded-1ce12d8a19",
+      "levelId": "t6",
+      "subjectId": "visual_art",
+      "topic": "Nota: Hierarki visual dan arah pandangan",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-visual_art-expanded-706ea04bb4",
+      "levelId": "t6",
+      "subjectId": "visual_art",
+      "topic": "Nota: Bahan dan makna dalam arca",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    },
+    {
+      "id": "library-t6-visual_art-expanded-789a56e3ba",
+      "levelId": "t6",
+      "subjectId": "visual_art",
+      "topic": "Nota: Kritikan formal dan penilaian",
+      "referenceId": "mpm-stpm",
+      "mapping": "broad subject/topic; not verified numbered syllabus standard"
+    }
+  ]
+}

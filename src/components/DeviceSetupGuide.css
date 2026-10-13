@@ -1,0 +1,22 @@
+.deviceSetupGuide{margin-top:20px;border-top:1px solid #e2e8f0;padding-top:18px;color:#334155}
+.deviceSetupGuide>summary{cursor:pointer;font-weight:750;color:#334155;line-height:1.6}
+.deviceSetupGuide>summary>svg{width:19px;height:19px;vertical-align:middle;margin-right:8px;color:#4f46e5}
+.deviceSetupBody{padding-top:12px}.deviceSetupIntro{margin:0 0 17px;color:#64748b;line-height:1.65;font-size:14px}
+.deviceSetupSelect{display:grid;gap:7px;font-size:13px;font-weight:700;max-width:330px}
+.deviceSetupSelect select{width:100%;padding:11px 12px;border:1px solid #cbd5e1;border-radius:10px;background:#fff;color:#111827}
+.deviceSetupSelect select:focus-visible,.deviceSetupGuide summary:focus-visible,.deviceSetupSources a:focus-visible{outline:3px solid #a5b4fc;outline-offset:3px}
+.deviceSetupPlatform{margin-top:22px}.deviceSetupTitle{display:flex;align-items:center;flex-wrap:wrap;gap:8px 14px}
+.deviceSetupTitle h3{margin:0;font-size:20px;letter-spacing:-.025em}.deviceSetupTitle>span{font-size:12px;color:#475569;background:#f1f5f9;border-radius:999px;padding:5px 10px;line-height:1.4}
+.deviceSetupPrerequisites{font-size:14px;line-height:1.7;margin:12px 0;color:#475569}
+.deviceSetupSteps{padding-left:24px;margin:18px 0;display:grid;gap:16px}.deviceSetupSteps li{padding-left:5px;line-height:1.6}.deviceSetupSteps li::marker{font-weight:750;color:#4f46e5}
+.deviceSetupSteps strong{color:#1e293b;font-size:14px}.deviceSetupSteps p{margin:4px 0 0;font-size:14px;color:#475569;overflow-wrap:anywhere}
+.deviceSetupRecovery{background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:16px}
+.deviceSetupRecovery h4{margin:0 0 6px;font-size:14px}.deviceSetupRecovery p{font-size:14px;line-height:1.65;color:#475569;margin:0 0 16px}.deviceSetupRecovery p:last-child{margin-bottom:0}
+.deviceSetupLimit{font-size:13px;line-height:1.65;color:#64748b;margin:14px 0}
+.deviceSetupManaged{border:1px solid #dbe3ee;border-radius:12px;padding:13px 15px;margin:15px 0}
+.deviceSetupManaged summary{cursor:pointer;font-size:14px;font-weight:700;line-height:1.6}.deviceSetupManaged summary svg{width:16px;height:16px;vertical-align:middle;margin-right:5px;color:#4f46e5}
+.deviceSetupManaged p{font-size:14px;line-height:1.65;color:#475569;margin:12px 0 0}
+.deviceSetupSources{display:flex;flex-wrap:wrap;gap:9px 18px;margin-top:18px}.deviceSetupSources a{color:#4338ca;font-size:12px;font-weight:650;text-decoration:underline;text-underline-offset:3px;display:inline-flex;align-items:center;gap:5px}.deviceSetupSources svg{width:13px;height:13px}
+.deviceSetupSrOnly{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:560px){.deviceSetupSelect{max-width:none}.deviceSetupTitle{align-items:flex-start;flex-direction:column}.deviceSetupRecovery{padding:14px}.deviceSetupManaged{padding:12px}.deviceSetupSources{flex-direction:column;align-items:flex-start}}
+.deviceSetupGuide{background:#fff;border-color:#e3e6ed;border-radius:14px;color:#596482}.deviceSetupGuide summary{min-height:44px;color:#795078}.deviceSetupGuide button,.deviceSetupGuide select{min-height:44px}.deviceSetupGuide a{color:#714475}

@@ -1,0 +1,2425 @@
+[
+  {
+    "id": "library-d1-bm-siapa-dan-perbuatan",
+    "levelId": "d1",
+    "subjectId": "bm",
+    "note": {
+      "title": "Siapa yang Membuat Sesuatu?",
+      "summary": "Kenal orang dan perbuatan dalam ayat mudah.",
+      "body": [
+        "Ayat boleh memberitahu siapa yang membuat sesuatu. Baca ayat itu perlahan-lahan. Cari nama orang dahulu. Kemudian, cari perkataan yang menunjukkan perbuatannya.",
+        "Contohnya, “Dani melipat kain.” Dani ialah orang yang membuat kerja. Melipat ialah perbuatannya. Kain pula ialah benda yang dilipat oleh Dani.",
+        "Jangan keliru antara benda dengan perbuatan. Dalam ayat “Ibu mencuci cawan”, cawan bukan perbuatan. Mencuci ialah perbuatan ibu."
+      ],
+      "keyPoints": [
+        "Cari nama orang untuk menjawab siapa.",
+        "Cari kata perbuatan untuk menjawab buat apa.",
+        "Baca seluruh ayat sebelum memilih jawapan."
+      ]
+    },
+    "reading": {
+      "title": "Kain di Ruang Tamu",
+      "summary": "Baca tentang dua beradik yang membantu ayah.",
+      "body": [
+        "Ayah membawa kain bersih ke ruang tamu. Dani melipat kain kecil. Kakaknya, Mira, menyusun kain itu di dalam bakul. Bakul itu berwarna kuning. Ayah meletakkan bakul di atas bangku. Dani dan Mira duduk di atas tikar selepas kerja siap. Ayah mengucapkan terima kasih kepada mereka."
+      ],
+      "questions": [
+        {
+          "prompt": "Siapakah yang menyusun kain?",
+          "options": [
+            "Ayah",
+            "Dani",
+            "Mira",
+            "Ibu"
+          ],
+          "answer": 2,
+          "explanation": "Mira menyusun kain di dalam bakul. Dani pula melipat kain.",
+          "hint": "Cari ayat yang ada perkataan menyusun."
+        },
+        {
+          "prompt": "Apakah yang dilakukan oleh ayah selepas bakul diisi?",
+          "options": [
+            "Menyapu tikar",
+            "Meletakkan bakul di atas bangku",
+            "Melipat kain kecil",
+            "Mengecat bakul"
+          ],
+          "answer": 1,
+          "explanation": "Selepas kain disusun, ayah meletakkan bakul di atas bangku.",
+          "hint": "Baca ayat tentang ayah dan bangku."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Tugas di Meja Seni",
+      "summary": "Kenal pelaku, perbuatan dan benda dalam cerita baharu.",
+      "body": [
+        "Lela melukis rumah. Yusuf mewarna pintu rumah itu. Puan Hana membawa kertas ke meja seni. Kemudian, Lela menampal lukisan pada papan. Yusuf menutup kotak warna."
+      ],
+      "questions": [
+        {
+          "prompt": "Siapakah yang membawa kertas?",
+          "options": [
+            "Lela",
+            "Yusuf",
+            "Puan Hana",
+            "Dani"
+          ],
+          "answer": 2,
+          "explanation": "Puan Hana membawa kertas ke meja seni.",
+          "hint": "Cari perkataan membawa dalam cerita."
+        },
+        {
+          "prompt": "Apakah perbuatan Yusuf pada akhir cerita?",
+          "options": [
+            "Menutup kotak warna",
+            "Membawa kertas",
+            "Melukis rumah",
+            "Menampal lukisan"
+          ],
+          "answer": 0,
+          "explanation": "Ayat akhir menyatakan bahawa Yusuf menutup kotak warna.",
+          "hint": "Lihat ayat yang terakhir."
+        },
+        {
+          "prompt": "Dalam ayat “Lela melukis rumah”, yang manakah perkataan perbuatan?",
+          "options": [
+            "Lela",
+            "rumah",
+            "kertas",
+            "melukis"
+          ],
+          "answer": 3,
+          "explanation": "Melukis menunjukkan perkara yang dilakukan oleh Lela.",
+          "hint": "Cari perkataan yang menunjukkan kerja."
+        },
+        {
+          "prompt": "Apakah benda yang ditampal oleh Lela?",
+          "options": [
+            "Kotak warna",
+            "Lukisan",
+            "Meja",
+            "Pintu"
+          ],
+          "answer": 1,
+          "explanation": "Lela menampal lukisan pada papan. Papan ialah tempat lukisan itu ditampal.",
+          "hint": "Baca ayat yang ada perkataan menampal."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d1-en-describing-one-toy",
+    "levelId": "d1",
+    "subjectId": "en",
+    "note": {
+      "title": "Tell Me About Your Toy",
+      "summary": "Use a naming sentence and a colour word to describe one thing.",
+      "body": [
+        "A short sentence can name one thing. We can say, “This is a drum.” Start the sentence with a capital letter. Put a full stop at the end.",
+        "Add a colour to tell us more: “The drum is green.” The word green describes the drum. It does not name a new toy.",
+        "Do not leave out is. Write “The drum is green”, rather than “The drum green”. Read your sentence aloud."
+      ],
+      "keyPoints": [
+        "Name the thing first.",
+        "Use a colour to tell more about it.",
+        "Use is in “The drum is green”."
+      ]
+    },
+    "reading": {
+      "title": "A Toy for the Shelf",
+      "summary": "Read about a child choosing a place for a toy.",
+      "body": [
+        "This is Eva. She has a toy train. The train is blue. It has a small yellow bell. Eva puts the train on a low shelf. Her baby brother can see it there. He smiles at the bell. Eva rings it once. Then she puts the train back on the shelf."
+      ],
+      "questions": [
+        {
+          "prompt": "What colour is the train?",
+          "options": [
+            "Yellow",
+            "Green",
+            "White",
+            "Blue"
+          ],
+          "answer": 3,
+          "explanation": "The train is blue. Yellow describes its bell.",
+          "hint": "Find the sentence that starts “The train”."
+        },
+        {
+          "prompt": "Where does Eva put the train?",
+          "options": [
+            "On a low shelf",
+            "In a shoe",
+            "Under a pillow",
+            "Beside a plate"
+          ],
+          "answer": 0,
+          "explanation": "Eva puts the train on a low shelf so her brother can see it.",
+          "hint": "Look for the word puts."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Mina’s Toy Boat",
+      "summary": "Choose words and sentences about a different toy.",
+      "body": [
+        "Mina has a toy boat. The boat is white. Its sail is orange. Mina puts the boat in a small tub. Dad sits beside the tub. He watches the boat move."
+      ],
+      "questions": [
+        {
+          "prompt": "Which thing belongs to Mina?",
+          "options": [
+            "A toy bus",
+            "A toy boat",
+            "A toy plane",
+            "A toy drum"
+          ],
+          "answer": 1,
+          "explanation": "The first sentence says Mina has a toy boat.",
+          "hint": "Read the first sentence."
+        },
+        {
+          "prompt": "Complete the sentence: “The boat ___ white.”",
+          "options": [
+            "are",
+            "am",
+            "is",
+            "be"
+          ],
+          "answer": 2,
+          "explanation": "Use is to describe this one boat: “The boat is white.”",
+          "hint": "We are talking about one boat."
+        },
+        {
+          "prompt": "Which word tells us the colour of the sail?",
+          "options": [
+            "orange",
+            "small",
+            "boat",
+            "watches"
+          ],
+          "answer": 0,
+          "explanation": "Orange is the colour word used for the sail.",
+          "hint": "Look for “Its sail”."
+        },
+        {
+          "prompt": "Which sentence uses a capital letter and full stop correctly?",
+          "options": [
+            "the boat is white.",
+            "The boat is white",
+            "the Boat is white.",
+            "The boat is white."
+          ],
+          "answer": 3,
+          "explanation": "A sentence starts with a capital letter and ends with a full stop here.",
+          "hint": "Check the first letter and the last mark."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d2-bm-arahan-dan-langkah",
+    "levelId": "d2",
+    "subjectId": "bm",
+    "note": {
+      "title": "Ikut Arahan Mengikut Giliran",
+      "summary": "Gunakan penanda urutan untuk memahami langkah kerja.",
+      "body": [
+        "Arahan memberitahu perkara yang perlu dibuat. Perkataan mula-mula, kemudian dan akhirnya membantu kita mengikut langkah dengan teratur. Baca semua langkah sebelum bermula.",
+        "Contohnya, “Mula-mula, buka kotak. Kemudian, masukkan reben. Akhirnya, tutup kotak.” Membuka kotak ialah langkah pertama. Kita memasukkan reben sebelum menutup kotak.",
+        "Jangan memilih langkah berdasarkan kebiasaan sahaja. Ikut arahan dalam teks. Jika arahan meminta reben dimasukkan, jangan menukarnya kepada kertas walaupun kedua-duanya boleh disimpan."
+      ],
+      "keyPoints": [
+        "Baca semua arahan dahulu.",
+        "Penanda urutan menunjukkan giliran langkah.",
+        "Jawapan mesti mengikut arahan yang diberi."
+      ]
+    },
+    "reading": {
+      "title": "Ikan Kertas untuk Tingkap",
+      "summary": "Ikuti kerja mudah kumpulan seni.",
+      "body": [
+        "Cikgu memberikan bentuk ikan yang sudah dipotong kepada setiap murid. Mula-mula, murid mewarna bentuk itu. Kemudian, mereka melukis mata ikan dengan pen hitam. Selepas itu, cikgu membantu menebuk satu lubang kecil. Akhirnya, murid memasukkan benang melalui lubang itu. Mereka menggantung ikan kertas di tingkap kelas. Ikan kertas Farid berwarna ungu."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah yang dibuat selepas bentuk ikan diwarnakan?",
+          "options": [
+            "Menggantung ikan",
+            "Melukis mata ikan",
+            "Memotong bentuk ikan",
+            "Memasukkan benang"
+          ],
+          "answer": 1,
+          "explanation": "Langkah selepas mewarna ialah melukis mata ikan.",
+          "hint": "Cari perkataan kemudian."
+        },
+        {
+          "prompt": "Mengapakah lubang kecil ditebuk?",
+          "options": [
+            "Untuk menyimpan pen",
+            "Untuk menukar warna",
+            "Untuk memasukkan benang",
+            "Untuk menutup tingkap"
+          ],
+          "answer": 2,
+          "explanation": "Benang dimasukkan melalui lubang supaya ikan kertas boleh digantung.",
+          "hint": "Baca langkah selepas cikgu menebuk lubang."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Kad Nama di Atas Meja",
+      "summary": "Semak urutan membuat kad nama.",
+      "body": [
+        "Cara membuat kad nama: Mula-mula, lipat kertas tebal kepada dua bahagian yang sama. Kemudian, tulis nama pada bahagian hadapan. Selepas itu, lukis bunga di sebelah nama. Akhirnya, dirikan kad di atas meja. Tulis nama dengan pen biru."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah langkah pertama?",
+          "options": [
+            "Melukis bunga",
+            "Menulis nama",
+            "Mendirikan kad",
+            "Melipat kertas"
+          ],
+          "answer": 3,
+          "explanation": "Arahan mula-mula meminta kertas dilipat.",
+          "hint": "Perkataan mula-mula menunjukkan langkah pertama."
+        },
+        {
+          "prompt": "Apakah yang dilakukan sebelum melukis bunga?",
+          "options": [
+            "Menulis nama",
+            "Mendirikan kad",
+            "Menyimpan pen",
+            "Mengoyak kertas"
+          ],
+          "answer": 0,
+          "explanation": "Menulis nama datang sebelum melukis bunga dalam arahan itu.",
+          "hint": "Lihat langkah yang berada tepat sebelum melukis."
+        },
+        {
+          "prompt": "Pen warna apakah yang perlu digunakan untuk menulis nama?",
+          "options": [
+            "Merah",
+            "Biru",
+            "Hijau",
+            "Hitam"
+          ],
+          "answer": 1,
+          "explanation": "Ayat akhir meminta nama ditulis dengan pen biru.",
+          "hint": "Maklumat alat terdapat pada ayat terakhir."
+        },
+        {
+          "prompt": "Penanda manakah digunakan untuk langkah mendirikan kad?",
+          "options": [
+            "Mula-mula",
+            "Kemudian",
+            "Akhirnya",
+            "Semalam"
+          ],
+          "answer": 2,
+          "explanation": "Mendirikan kad ialah langkah terakhir yang dimulakan dengan akhirnya.",
+          "hint": "Cari ayat yang menyebut meja."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d2-en-usual-and-now",
+    "levelId": "d2",
+    "subjectId": "en",
+    "note": {
+      "title": "Every Day or Right Now?",
+      "summary": "Notice the difference between a routine and an action happening now.",
+      "body": [
+        "A routine happens again and again. We can write, “Zara packs her bag every evening.” Every evening tells us this is her usual action.",
+        "For an action happening now, use is or are with an -ing word. “Zara is packing her bag now.” Packing is happening as we speak.",
+        "Do not write “Zara is pack”. After is, use packing for this action. Time words help us choose the right sentence."
+      ],
+      "keyPoints": [
+        "Every day can signal a routine.",
+        "Now can signal an action in progress.",
+        "Use is or are before the -ing word."
+      ]
+    },
+    "reading": {
+      "title": "A Different Morning for Leo",
+      "summary": "Find Leo’s routine and what has changed today.",
+      "body": [
+        "Leo usually walks to school with his aunt. They pass a bakery and a flower shop. Today, Leo is staying at home because it is a school holiday. He is building a cardboard tower on the floor. His aunt is helping him with the roof. They will show the tower to his cousin after lunch."
+      ],
+      "questions": [
+        {
+          "prompt": "What does Leo usually do?",
+          "options": [
+            "Builds a roof at school",
+            "Stays home every day",
+            "Walks to school with his aunt",
+            "Visits his cousin before lunch"
+          ],
+          "answer": 2,
+          "explanation": "The opening sentence describes his usual walk with his aunt.",
+          "hint": "Look for usually."
+        },
+        {
+          "prompt": "Why is Leo at home today?",
+          "options": [
+            "It is a school holiday.",
+            "He cannot find the bakery.",
+            "His aunt is away.",
+            "He has lost his tower."
+          ],
+          "answer": 0,
+          "explanation": "The passage says he is home because it is a school holiday.",
+          "hint": "Read the sentence that starts Today."
+        }
+      ]
+    },
+    "practice": {
+      "title": "At the Costume Table",
+      "summary": "Choose language for usual tasks and today’s actions.",
+      "body": [
+        "On Fridays, Sam helps at the costume table. He sorts the hats into boxes. Today is Friday. Right now, Sam is tying a ribbon around a hat. His friends are folding scarves. The red box is for hats; the grey box is for scarves."
+      ],
+      "questions": [
+        {
+          "prompt": "Complete Sam’s routine: “He ___ the hats into boxes on Fridays.”",
+          "options": [
+            "sorting",
+            "are sort",
+            "sort",
+            "sorts"
+          ],
+          "answer": 3,
+          "explanation": "Use sorts with he for a routine in the present simple.",
+          "hint": "The sentence describes what he usually does."
+        },
+        {
+          "prompt": "What is Sam doing right now?",
+          "options": [
+            "He is folding scarves.",
+            "He is tying a ribbon.",
+            "He is painting a box.",
+            "He is wearing every hat."
+          ],
+          "answer": 1,
+          "explanation": "The passage states that Sam is tying a ribbon around a hat.",
+          "hint": "Find Right now."
+        },
+        {
+          "prompt": "Complete: “His friends ___ folding scarves.”",
+          "options": [
+            "is",
+            "am",
+            "are",
+            "be"
+          ],
+          "answer": 2,
+          "explanation": "Friends means more than one person, so use are folding.",
+          "hint": "Choose the word for more than one friend."
+        },
+        {
+          "prompt": "Which sentence matches the passage?",
+          "options": [
+            "Sam helps on Fridays.",
+            "Sam always helps on Sundays.",
+            "The grey box is for hats.",
+            "His friends are drawing ribbons."
+          ],
+          "answer": 0,
+          "explanation": "The first sentence gives Fridays as Sam’s regular day to help.",
+          "hint": "Check both the task and the day."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d3-bm-sebab-dan-tujuan",
+    "levelId": "d3",
+    "subjectId": "bm",
+    "note": {
+      "title": "Bezakan Sebab dengan Tujuan",
+      "summary": "Kenal maklumat yang menjawab mengapa dan untuk apa.",
+      "body": [
+        "Sebab menerangkan mengapa sesuatu berlaku. Tujuan menerangkan hasil yang hendak dicapai. Kata kerana lazimnya memperkenalkan sebab, manakala supaya boleh memperkenalkan tujuan.",
+        "Contohnya, “Rafi berehat kerana penat.” Penat ialah sebab. Dalam ayat “Rafi memasang penggera supaya bangun awal”, bangun awal ialah tujuan memasang penggera.",
+        "Jangan menganggap tujuan sudah tercapai. Ayat tentang penggera memberitahu harapan Rafi. Ayat itu belum memberitahu sama ada dia benar-benar bangun awal."
+      ],
+      "keyPoints": [
+        "Kerana menghubungkan tindakan dengan sebab.",
+        "Supaya boleh menunjukkan tujuan tindakan.",
+        "Tujuan belum tentu menjadi hasil sebenar."
+      ]
+    },
+    "reading": {
+      "title": "Loceng Kecil pada Kostum",
+      "summary": "Baca sebab dan tujuan tindakan sebelum persembahan.",
+      "body": [
+        "Sara memakai kostum kucing untuk persembahan kelas. Dia menanggalkan loceng pada kostum kerana bunyinya terlalu kuat. Kemudian, dia memasukkan loceng ke dalam bekas supaya loceng itu tidak hilang. Rakannya, Johan, menulis nama Sara pada bekas tersebut. Sebelum naik ke pentas, Sara menguji kostumnya sekali lagi. Kali ini, dia dapat berjalan tanpa bunyi loceng."
+      ],
+      "questions": [
+        {
+          "prompt": "Mengapakah Sara menanggalkan loceng?",
+          "options": [
+            "Loceng itu hilang.",
+            "Namanya tiada pada bekas.",
+            "Johan mahu membelinya.",
+            "Bunyinya terlalu kuat."
+          ],
+          "answer": 3,
+          "explanation": "Bunyi yang terlalu kuat menjadi sebab Sara menanggalkan loceng.",
+          "hint": "Cari maklumat selepas kerana."
+        },
+        {
+          "prompt": "Apakah tujuan loceng dimasukkan ke dalam bekas?",
+          "options": [
+            "Untuk menjadikannya lebih kuat",
+            "Supaya loceng tidak hilang",
+            "Supaya kostum bertukar warna",
+            "Untuk memulakan persembahan"
+          ],
+          "answer": 1,
+          "explanation": "Frasa selepas supaya menyatakan tujuan menjaga loceng daripada hilang.",
+          "hint": "Bezakan tujuan menyimpan loceng dengan sebab loceng ditanggalkan."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Bekal untuk Lawatan Seni",
+      "summary": "Pilih hubungan idea yang tepat berdasarkan satu situasi.",
+      "body": [
+        "Nurin membawa kotak bekal kecil kerana begnya tidak besar. Dia menampal pelekat nama pada kotak supaya mudah mengenal bekalnya. Nurin membungkus sudu dengan kain supaya sudu tidak mencalarkan kotak. Dia memeriksa penutup kotak sebelum bertolak."
+      ],
+      "questions": [
+        {
+          "prompt": "Mengapakah Nurin memilih kotak kecil?",
+          "options": [
+            "Begnya tidak besar.",
+            "Dia kehilangan sudu.",
+            "Namanya terlalu panjang.",
+            "Kotak besar telah pecah."
+          ],
+          "answer": 0,
+          "explanation": "Saiz beg yang tidak besar ialah sebab yang dinyatakan.",
+          "hint": "Baca ayat pertama sehingga tamat."
+        },
+        {
+          "prompt": "Apakah tujuan pelekat nama?",
+          "options": [
+            "Mengubah saiz beg",
+            "Mengeringkan kain",
+            "Memudahkan Nurin mengenal bekalnya",
+            "Menutup sudu"
+          ],
+          "answer": 2,
+          "explanation": "Nama pada pelekat membantu Nurin mengenal kotak bekalnya.",
+          "hint": "Cari ayat tentang pelekat."
+        },
+        {
+          "prompt": "Lengkapkan hubungan sebab: “Nurin memilih kotak kecil ___ begnya tidak besar.”",
+          "options": [
+            "supaya",
+            "kerana",
+            "dan",
+            "lalu"
+          ],
+          "answer": 1,
+          "explanation": "Kerana memperkenalkan sebab pemilihan kotak kecil.",
+          "hint": "Bahagian kedua menerangkan mengapa pilihan itu dibuat."
+        },
+        {
+          "prompt": "Apakah yang belum dapat dipastikan daripada cerita?",
+          "options": [
+            "Nurin mempunyai sudu.",
+            "Nurin menggunakan pelekat.",
+            "Nurin memeriksa penutup.",
+            "Semua makanan selamat tiba tanpa tumpah."
+          ],
+          "answer": 3,
+          "explanation": "Cerita berakhir sebelum Nurin bertolak; keadaan makanan ketika tiba belum dinyatakan.",
+          "hint": "Bezakan tindakan persediaan dengan hasil selepas perjalanan."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d3-en-past-event-sequence",
+    "levelId": "d3",
+    "subjectId": "en",
+    "note": {
+      "title": "Put Yesterday’s Events in Order",
+      "summary": "Use past verbs and time links to follow a short diary.",
+      "body": [
+        "A diary can tell us about finished events. Regular past verbs often end in -ed: “We painted a sign.” Some change differently: “We made a sign.”",
+        "Time links show order. “After we painted the sign, we hung it up.” Painting came first, even though both actions happened in the past.",
+        "Do not assume the first action mentioned always happened first. In “We rested before we packed”, resting happened first. Read before or after carefully.",
+        "The past of draw is drew. “Today I draw a flower. Yesterday I drew a tree.” Say draw, then drew. The spelling changes; do not add -ed."
+      ],
+      "keyPoints": [
+        "Past verbs describe finished events here.",
+        "Before and after help establish order.",
+        "Some past verbs do not end in -ed.",
+        "Draw changes to drew for a finished past event."
+      ]
+    },
+    "reading": {
+      "title": "A Puppet Behind the Screen",
+      "summary": "Follow a diary about preparing a puppet show.",
+      "body": [
+        "Yesterday, our group made a shadow puppet from dark card. We cut its shape before we attached a wooden stick. Then we tested it behind a white screen. Its head looked too small, so we added a larger paper circle. After the second test, we put the puppet in a folder. Our teacher smiled at its funny shape."
+      ],
+      "questions": [
+        {
+          "prompt": "What did the group do immediately after cutting the shape?",
+          "options": [
+            "Put it in a folder",
+            "Added a circle",
+            "Smiled at the teacher",
+            "Attached a stick"
+          ],
+          "answer": 3,
+          "explanation": "They cut the shape before attaching the stick; testing came next.",
+          "hint": "Find the sentence with before."
+        },
+        {
+          "prompt": "Why did they add a larger paper circle?",
+          "options": [
+            "The folder was missing.",
+            "The puppet’s head looked too small.",
+            "The stick was white.",
+            "The screen was too dark."
+          ],
+          "answer": 1,
+          "explanation": "The small-looking head explains the change made after the first test.",
+          "hint": "Look for so and the reason before it."
+        }
+      ]
+    },
+    "practice": {
+      "title": "My Saturday at the Garden Centre",
+      "summary": "Read a different diary and check verbs, order and details.",
+      "body": [
+        "On Saturday, I visited a garden centre with Uncle Jin. First, we chose a pot. After we paid for it, we carried it to the car. Then we watched a worker paint a wooden sign. I drew the sign in my notebook before we drove home. — Asha"
+      ],
+      "questions": [
+        {
+          "prompt": "Which action happened first?",
+          "options": [
+            "Choosing a pot",
+            "Drawing the sign",
+            "Driving home",
+            "Watching the worker"
+          ],
+          "answer": 0,
+          "explanation": "First introduces choosing the pot, before the payment and other activities.",
+          "hint": "Follow the time word First."
+        },
+        {
+          "prompt": "Complete: “Asha ___ the sign in her notebook on Saturday.”",
+          "options": [
+            "draw",
+            "draws",
+            "drew",
+            "drawing"
+          ],
+          "answer": 2,
+          "explanation": "Drew is the past form of draw and matches the finished visit.",
+          "hint": "The diary tells us about a completed day."
+        },
+        {
+          "prompt": "What happened after payment but before watching the worker?",
+          "options": [
+            "They drove home.",
+            "They chose a notebook.",
+            "They painted their car.",
+            "They carried the pot to the car."
+          ],
+          "answer": 3,
+          "explanation": "The pot was carried to the car between paying and watching the worker.",
+          "hint": "Track the middle two actions."
+        },
+        {
+          "prompt": "Which sentence keeps the diary’s order?",
+          "options": [
+            "Asha drew the sign after driving home.",
+            "Asha drew the sign before driving home.",
+            "Asha drove home before paying.",
+            "Asha watched the worker before choosing a pot."
+          ],
+          "answer": 1,
+          "explanation": "The diary explicitly places the drawing before the drive home.",
+          "hint": "Compare the words before and after with the final sentence."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d4-bm-di-tempat-dan-perbuatan",
+    "levelId": "d4",
+    "subjectId": "bm",
+    "note": {
+      "title": "Ruang antara di dengan Kata Selepasnya",
+      "summary": "Bezakan kata sendi di dengan awalan di- melalui maksud ayat.",
+      "body": [
+        "Kata sendi di menunjukkan tempat dan ditulis terpisah daripada kata selepasnya. Contohnya, frasa “di pentas” memberitahu tempat sesuatu berada atau berlaku. Tanyakan “di mana?” untuk mencari maklumat tempat.",
+        "Awalan di- pada kata kerja pasif pula ditulis rapat. Dalam ayat “Kostum itu disimpan di stor”, disimpan menunjukkan perbuatan yang dikenakan pada kostum. Di stor memberitahu tempat kostum disimpan.",
+        "Untuk menyemak contoh itu, asingkan dua maklumat: apakah yang dilakukan terhadap kostum, dan di manakah kostum berada? Jawapannya ialah disimpan dan di stor.",
+        "Jangan merapatkan semua bentuk di. Sebaliknya, jangan menjauhkan di daripada setiap kata kerja. Maksud dan fungsi perkataan menentukan ejaan yang sesuai."
+      ],
+      "keyPoints": [
+        "Di sebelum tempat ditulis terpisah.",
+        "Awalan di- pada kata kerja pasif ditulis rapat.",
+        "Semak fungsi melalui seluruh ayat."
+      ]
+    },
+    "reading": {
+      "title": "Foto Lama di Galeri Sekolah",
+      "summary": "Cari maklumat tempat dan tindakan dalam cerita pameran.",
+      "body": [
+        "Kelab sejarah menerima beberapa foto lama daripada bekas murid. Foto itu dibersihkan oleh guru sebelum disusun di dalam album. Album dipamerkan di galeri sekolah pada hari keluarga. Setiap foto diberikan kapsyen ringkas supaya pengunjung memahami peristiwanya. Sebuah foto menunjukkan pasukan debat pertama sekolah, tetapi tahun rakamannya belum diketahui. Oleh itu, kapsyennya menyatakan bahawa tarikh masih disemak. Pengunjung diminta menulis maklumat tambahan pada borang yang disediakan di meja hadapan. Ahli kelab akan membandingkan maklumat tersebut sebelum mengubah kapsyen."
+      ],
+      "questions": [
+        {
+          "prompt": "Mengapakah kapsyen foto pasukan debat belum memberikan tahun yang tepat?",
+          "options": [
+            "Album tidak mempunyai halaman.",
+            "Semua pengunjung melarangnya.",
+            "Tahun rakaman masih belum diketahui.",
+            "Foto itu diambil pada hari keluarga."
+          ],
+          "answer": 2,
+          "explanation": "Teks menyatakan tahun rakaman belum diketahui, maka kapsyen mengekalkan ketidakpastian itu.",
+          "hint": "Cari masalah yang disebut sebelum Oleh itu."
+        },
+        {
+          "prompt": "Frasa manakah menunjukkan tempat borang disediakan?",
+          "options": [
+            "Di meja hadapan",
+            "Dibersihkan oleh guru",
+            "Diberikan kapsyen",
+            "Diminta menulis"
+          ],
+          "answer": 0,
+          "explanation": "Di meja hadapan menjawab soalan di mana; pilihan lain menyatakan tindakan.",
+          "hint": "Cari di yang diikuti oleh tempat."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Persiapan Gerai Topeng",
+      "summary": "Semak ejaan di sambil memahami pembahagian tugas.",
+      "body": [
+        "Beberapa topeng kertas dibuat oleh ahli kelab seni. Topeng itu diletakkan di rak rendah supaya mudah dilihat oleh pengunjung. Di kaunter, Haziq menjual tiket bengkel. Kad harga ditulis oleh Julia dan dilekatkan pada rak. Pengunjung boleh mencuba topeng contoh di meja bulat. Topeng yang dijual masih disimpan dalam kotak berlabel."
+      ],
+      "questions": [
+        {
+          "prompt": "Ayat manakah menulis di dengan betul?",
+          "options": [
+            "Topeng itu di letakkan dirak rendah.",
+            "Topeng itu diletakkan di rak rendah.",
+            "Topeng itu diletakkan dirak rendah.",
+            "Topeng itu di letakkan di rak rendah."
+          ],
+          "answer": 1,
+          "explanation": "Diletakkan ialah kata kerja pasif yang dirapatkan; di rak rendah menunjukkan tempat dan dijarakkan.",
+          "hint": "Bezakan tindakan meletakkan dengan lokasi rak."
+        },
+        {
+          "prompt": "Mengapakah topeng diletakkan pada rak rendah?",
+          "options": [
+            "Untuk menyembunyikan harga",
+            "Untuk menggantikan kaunter tiket",
+            "Untuk mengelakkan Julia menulis",
+            "Untuk memudahkan pengunjung melihatnya"
+          ],
+          "answer": 3,
+          "explanation": "Teks menyatakan tujuan rak rendah ialah supaya topeng mudah dilihat.",
+          "hint": "Baca bahagian selepas supaya."
+        },
+        {
+          "prompt": "Perkataan manakah menerima awalan di- dan menunjukkan tindakan terhadap kad harga?",
+          "options": [
+            "Di kaunter",
+            "Di meja",
+            "Ditulis",
+            "Di rak"
+          ],
+          "answer": 2,
+          "explanation": "Ditulis ialah tindakan yang dilakukan oleh Julia terhadap kad harga.",
+          "hint": "Cari bentuk di yang menjadi sebahagian kata kerja."
+        },
+        {
+          "prompt": "Di manakah pengunjung boleh mencuba topeng contoh?",
+          "options": [
+            "Di meja bulat",
+            "Di dalam kotak berlabel",
+            "Di belakang Julia",
+            "Di rak tiket"
+          ],
+          "answer": 0,
+          "explanation": "Meja bulat ialah tempat mencuba topeng contoh; kotak menyimpan topeng yang dijual.",
+          "hint": "Bezakan topeng contoh dengan topeng untuk jualan."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d4-en-precise-comparisons",
+    "levelId": "d4",
+    "subjectId": "en",
+    "note": {
+      "title": "Compare the Feature You Mean",
+      "summary": "Use comparative and superlative forms with clear evidence.",
+      "body": [
+        "A comparison needs a feature, such as length, price or weight. Saying one object is better does not tell the reader which feature you mean. Use the measurements supplied in the text.",
+        "For example, ribbon A is 12 centimetres long and ribbon B is 18 centimetres long. B is longer than A. If ribbon C is 25 centimetres long, C is the longest of these three ribbons.",
+        "Use a comparative for a direct comparison and a superlative for the highest or lowest value in the named group. Some forms change spelling: heavy becomes heavier and heaviest.",
+        "Do not turn one fact into an unrelated judgement. A longer ribbon is not necessarily prettier or stronger. Those claims need different evidence."
+      ],
+      "keyPoints": [
+        "Name the feature being compared.",
+        "Use than in a direct comparative sentence.",
+        "Limit the comparison to the evidence and group given."
+      ]
+    },
+    "reading": {
+      "title": "Three Boats for the Display",
+      "summary": "Use measurements to understand a model-boat choice.",
+      "body": [
+        "The craft club made three model boats for a display. Drift was 16 centimetres long, Willow was 21 centimetres long, and Pebble was 14 centimetres long. The display tray could hold a boat up to 20 centimetres long, so Willow would not fit. The club chose Drift because it was the longer of the two boats that would fit. Pebble was painted gold and Drift was brown. Nobody tested the boats in water, so the club did not know which would float best."
+      ],
+      "questions": [
+        {
+          "prompt": "Why was Willow not chosen?",
+          "options": [
+            "It was shorter than Pebble.",
+            "It was painted gold.",
+            "It had already sunk.",
+            "It was too long for the tray."
+          ],
+          "answer": 3,
+          "explanation": "Willow measured 21 centimetres, exceeding the tray’s 20-centimetre limit.",
+          "hint": "Compare Willow’s length with the tray limit."
+        },
+        {
+          "prompt": "Which statement is supported?",
+          "options": [
+            "Drift floats best.",
+            "Pebble is the shortest of the three.",
+            "Gold boats are always stronger.",
+            "Willow is shorter than Drift."
+          ],
+          "answer": 1,
+          "explanation": "Pebble is 14 centimetres long, less than Drift at 16 and Willow at 21.",
+          "hint": "Check the three lengths; floating was not tested."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Choosing a Bag for the Props",
+      "summary": "Compare the stated measurements without adding opinions.",
+      "body": [
+        "A drama club compares three empty bags. Ash weighs 300 grams, Birch weighs 450 grams, and Cedar weighs 250 grams. Ash has four pockets, Birch has six, and Cedar has two. All three cost RM20. The club needs a bag with at least four pockets and chooses the lighter bag that meets this requirement."
+      ],
+      "questions": [
+        {
+          "prompt": "Which bag does the club choose?",
+          "options": [
+            "Birch",
+            "Cedar",
+            "Ash",
+            "None of them"
+          ],
+          "answer": 2,
+          "explanation": "Ash and Birch meet the pocket requirement. Ash weighs less, at 300 grams compared with 450 grams.",
+          "hint": "First apply the pocket requirement, then compare weight."
+        },
+        {
+          "prompt": "Complete: “Birch is ___ than Ash.”",
+          "options": [
+            "heavier",
+            "heaviest",
+            "heavy",
+            "more heavier"
+          ],
+          "answer": 0,
+          "explanation": "Heavier is the comparative form of heavy, and 450 grams exceeds 300 grams.",
+          "hint": "This sentence compares two bags using than."
+        },
+        {
+          "prompt": "Which bag has the fewest pockets?",
+          "options": [
+            "Ash",
+            "Birch",
+            "All have the same number.",
+            "Cedar"
+          ],
+          "answer": 3,
+          "explanation": "Cedar has two pockets, fewer than Ash’s four and Birch’s six.",
+          "hint": "Compare pocket counts, not weights."
+        },
+        {
+          "prompt": "Which statement is supported about price?",
+          "options": [
+            "Birch is the cheapest.",
+            "The three bags cost the same.",
+            "Cedar costs twice as much as Ash.",
+            "Ash is more expensive than Birch."
+          ],
+          "answer": 1,
+          "explanation": "Each bag costs RM20, so their prices are equal.",
+          "hint": "Read the sentence about all three bags."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d5-bm-syarat-dalam-pengumuman",
+    "levelId": "d5",
+    "subjectId": "bm",
+    "note": {
+      "title": "Baca Syarat Sebelum Membuat Keputusan",
+      "summary": "Kenal kelayakan, tanggungjawab dan had dalam pengumuman.",
+      "body": [
+        "Pengumuman biasanya memberikan beberapa jenis maklumat serentak: siapa boleh menyertai, bila kegiatan berlangsung dan perkara yang perlu disediakan. Tandakan kata yang mengehadkan maksud seperti hanya, sebelum dan kecuali.",
+        "Contohnya, “Bengkel dibuka kepada murid Tahun 5 dan Tahun 6. Daftar sebelum Rabu.” Murid Tahun 4 tidak termasuk dalam kumpulan yang dinyatakan. Frasa sebelum Rabu pula tidak bermaksud sepanjang hari Rabu.",
+        "Selepas mengenal syarat, padankan keadaan seseorang dengan setiap syarat itu. Seseorang yang cukup umur belum tentu layak hadir jika pendaftaran juga diwajibkan tetapi belum dibuat.",
+        "Jangan menambah kelonggaran yang tiada dalam pengumuman. Jika maklumat tentang satu perkara tidak diberikan, nyatakan bahawa perkara itu belum diketahui dan rujuk penganjur untuk penjelasan."
+      ],
+      "keyPoints": [
+        "Kenal kumpulan peserta dan syarat penyertaan.",
+        "Bezakan sebelum sesuatu hari dengan pada hari itu.",
+        "Jangan mereka maklumat yang tidak dinyatakan."
+      ]
+    },
+    "reading": {
+      "title": "Jemputan Bengkel Layang-Layang Mini",
+      "summary": "Tafsir pengumuman kegiatan rekaan di pusat komuniti.",
+      "body": [
+        "Pusat Komuniti Seri Bayu mengadakan bengkel layang-layang mini pada Sabtu, pukul 9.00 hingga 11.00 pagi. Bengkel ini untuk kanak-kanak berumur 10 hingga 12 tahun. Peserta mesti mendaftar di kaunter selewat-lewatnya pada Khamis dan hadir bersama seorang penjaga. Kertas serta rangka disediakan; peserta perlu membawa pensel warna sendiri. Yuran penyertaan ialah RM5 bagi setiap kanak-kanak. Penjaga tidak dikenakan bayaran. Aktiviti akan diadakan di dalam dewan walaupun cuaca cerah. Layang-layang yang siap boleh dibawa pulang, tetapi bengkel ini tidak termasuk aktiviti menerbangkannya."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah yang perlu dibawa sendiri oleh peserta?",
+          "options": [
+            "Rangka layang-layang",
+            "Kertas pembinaan",
+            "Pensel warna",
+            "Meja lipat"
+          ],
+          "answer": 2,
+          "explanation": "Kertas dan rangka disediakan, manakala pensel warna perlu dibawa sendiri.",
+          "hint": "Bezakan perkataan disediakan dengan membawa sendiri."
+        },
+        {
+          "prompt": "Pernyataan manakah menepati pengumuman?",
+          "options": [
+            "Peserta boleh mendaftar pada Khamis.",
+            "Penjaga perlu membayar RM5.",
+            "Aktiviti berpindah ke padang jika cerah.",
+            "Semua peserta akan menerbangkan layang-layang."
+          ],
+          "answer": 0,
+          "explanation": "Selewat-lewatnya pada Khamis menjadikan Khamis hari terakhir yang masih dibenarkan.",
+          "hint": "Perhatikan perbezaan sebelum Khamis dengan selewat-lewatnya pada Khamis."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Notis Sesi Rakaman Cerita",
+      "summary": "Padankan keadaan peserta dengan semua syarat yang dinyatakan.",
+      "body": [
+        "Notis Kelab Suara: Sesi rakaman cerita berlangsung pada Selasa selepas sekolah, di bilik media. Sesi terbuka kepada ahli Tahun 5 sahaja. Hantar tajuk cerita sebelum Isnin. Peserta mesti membawa teks bercetak; mikrofon disediakan. Setiap rakaman dihadkan kepada tiga minit. Ahli yang belum menyerahkan surat kebenaran penjaga tidak boleh merakam. Bilangan tempat tidak dinyatakan dalam notis."
+      ],
+      "questions": [
+        {
+          "prompt": "Siapakah yang memenuhi syarat kumpulan peserta?",
+          "options": [
+            "Semua murid Tahun 6",
+            "Semua penjaga murid",
+            "Ahli kelab dari semua tahun",
+            "Ahli Kelab Suara Tahun 5"
+          ],
+          "answer": 3,
+          "explanation": "Perkataan sahaja mengehadkan sesi kepada ahli Tahun 5.",
+          "hint": "Semak kedua-dua syarat: keahlian dan tahun."
+        },
+        {
+          "prompt": "Bilakah tajuk cerita perlu dihantar?",
+          "options": [
+            "Pada Selasa selepas sekolah",
+            "Sebelum hari Isnin bermula",
+            "Selepas rakaman selesai",
+            "Pada bila-bila masa hari Isnin"
+          ],
+          "answer": 1,
+          "explanation": "Sebelum Isnin bermaksud tajuk perlu dihantar lebih awal daripada hari Isnin.",
+          "hint": "Jangan samakan sebelum Isnin dengan pada Isnin."
+        },
+        {
+          "prompt": "Hafiz ialah ahli Tahun 5 dan membawa teks, tetapi belum menghantar surat kebenaran. Apakah keputusan berdasarkan notis?",
+          "options": [
+            "Dia boleh merakam selama satu jam.",
+            "Dia hanya perlu membawa mikrofon.",
+            "Dia belum boleh merakam.",
+            "Dia boleh menggantikan surat dengan tajuk."
+          ],
+          "answer": 2,
+          "explanation": "Surat kebenaran ialah syarat tambahan yang mesti dipenuhi sebelum rakaman.",
+          "hint": "Cukup satu syarat sahaja belum memadai."
+        },
+        {
+          "prompt": "Maklumat manakah masih belum diketahui?",
+          "options": [
+            "Jumlah tempat yang tersedia",
+            "Lokasi rakaman",
+            "Had masa rakaman",
+            "Bahan yang perlu dibawa"
+          ],
+          "answer": 0,
+          "explanation": "Notis tidak menyatakan bilangan tempat, tetapi menyatakan lokasi, tempoh dan teks bercetak.",
+          "hint": "Cari maklumat yang disebut sebagai tidak dinyatakan."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d5-en-supporting-a-review",
+    "levelId": "d5",
+    "subjectId": "en",
+    "note": {
+      "title": "Give Your Opinion a Reason",
+      "summary": "Distinguish a review’s factual details from a supported judgement.",
+      "body": [
+        "A review combines information with a reader’s judgement. “The story has eight chapters” is a factual claim that can be checked. “The opening is gripping” expresses a judgement that readers may disagree about.",
+        "A useful reviewer explains that judgement. For example, “The opening is gripping because the missing parcel raises a question immediately.” The reason connects a detail from the story with the reviewer’s reaction.",
+        "When answering a question about an opinion, look for the detail that actually supports it. A book’s size may not explain why its ending is surprising.",
+        "Do not treat disagreement as proof that someone misread the book. Two readers can notice the same feature but respond differently. Give evidence for the response you describe."
+      ],
+      "keyPoints": [
+        "Factual claims can be checked against the text.",
+        "Opinions express a judgement or preference.",
+        "A relevant detail explains why the reviewer holds that opinion."
+      ]
+    },
+    "reading": {
+      "title": "A Review of The Painted Gate",
+      "summary": "Read an original review of an invented story.",
+      "body": [
+        "The Painted Gate follows a girl who finds a different picture on her garden gate each morning. The story is told in six short chapters. I enjoyed the mystery because each new picture gave the girl a clue to a hidden message. However, the final chapter felt hurried: the neighbour explained the whole puzzle in just one conversation. My younger brother liked that quick explanation because it answered his questions clearly. We agreed that the black-and-white drawings helped us remember the clues. I would recommend the book to readers who enjoy small mysteries."
+      ],
+      "questions": [
+        {
+          "prompt": "Which detail supports the reviewer’s view that the ending felt hurried?",
+          "options": [
+            "The story has a garden gate.",
+            "There are drawings in the book.",
+            "The brother is younger.",
+            "One conversation explains the whole puzzle."
+          ],
+          "answer": 3,
+          "explanation": "The brief explanation of the entire puzzle is the stated reason for calling the ending hurried.",
+          "hint": "Look immediately after the colon."
+        },
+        {
+          "prompt": "How do the reviewer and the brother differ?",
+          "options": [
+            "Only the brother noticed the drawings.",
+            "They react differently to the quick explanation.",
+            "They read different final chapters.",
+            "The reviewer dislikes every mystery."
+          ],
+          "answer": 1,
+          "explanation": "The reviewer finds the explanation hurried; the brother values its clarity.",
+          "hint": "Compare their responses to the same final conversation."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Two Responses to a Card Game",
+      "summary": "Select evidence and language for an accurate review.",
+      "body": [
+        "Pattern Trail is an invented card game with 36 cards and a one-page rule sheet. Rani says, “It is easy to begin because the sheet shows a complete sample turn.” Owen says, “I like the game, but the tiny symbols are difficult to read across our table.” Both players enjoyed arranging matching patterns. Neither timed a full game, and neither tried it outdoors."
+      ],
+      "questions": [
+        {
+          "prompt": "Which statement is a factual claim supplied by the passage?",
+          "options": [
+            "It is the most enjoyable game ever.",
+            "Pattern Trail contains 36 cards.",
+            "The patterns are prettier than all others.",
+            "Every player will find it easy."
+          ],
+          "answer": 1,
+          "explanation": "The number of cards is a specific, checkable detail. The other choices make judgements or universal claims.",
+          "hint": "Look for a concrete detail rather than a preference."
+        },
+        {
+          "prompt": "What supports Rani’s opinion about getting started?",
+          "options": [
+            "The game was played outdoors.",
+            "Owen likes small print.",
+            "Every card is numbered.",
+            "The rule sheet demonstrates a full turn."
+          ],
+          "answer": 3,
+          "explanation": "A sample turn shows a new player what to do, supporting Rani’s view about beginning easily.",
+          "hint": "Find the reason following because."
+        },
+        {
+          "prompt": "Which improvement most directly addresses Owen’s concern?",
+          "options": [
+            "Make the printed symbols larger.",
+            "Add more colours to the box lid.",
+            "Remove the sample turn.",
+            "Change the game’s name."
+          ],
+          "answer": 0,
+          "explanation": "Owen has trouble reading tiny symbols; increasing their size addresses that problem.",
+          "hint": "Match the proposed change to the stated difficulty."
+        },
+        {
+          "prompt": "Which claim would require information not supplied here?",
+          "options": [
+            "Both players enjoyed making patterns.",
+            "Owen finds the symbols small.",
+            "A full game takes exactly ten minutes.",
+            "Rani values the example turn."
+          ],
+          "answer": 2,
+          "explanation": "Neither player timed a full game, so an exact duration cannot be concluded.",
+          "hint": "Read what neither player did."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d6-bm-ringkasan-langkah-tujuan",
+    "levelId": "d6",
+    "subjectId": "bm",
+    "note": {
+      "title": "Ringkasan yang Mengekalkan Arah Usaha",
+      "summary": "Gabungkan tindakan dan tujuan tanpa memasukkan hasil yang belum berlaku.",
+      "body": [
+        "Ringkasan memilih isi utama daripada teks yang lebih panjang. Untuk teks tentang usaha, cari masalah yang hendak diatasi, tindakan penting dan tujuan tindakan tersebut. Butiran kecil boleh digugurkan jika maksud utama masih jelas.",
+        "Contohnya, “Pengawas menyediakan label besar. Label dilekatkan pada bakul pemulangan supaya murid membezakan buku dan majalah.” Ringkasannya ialah “Pengawas melabel bakul untuk memudahkan pengasingan buku dan majalah.” Pelaku, tindakan dan tujuan dikekalkan.",
+        "Gabungkan perkara yang berkaitan menggunakan kata yang tepat. Dua langkah berasingan tidak boleh ditukar menjadi hubungan sebab jika teks tidak menyatakan hubungan itu.",
+        "Jangan menukar rancangan kepada kejayaan yang sudah terbukti. Frasa bertujuan membantu tidak sama dengan telah menyelesaikan semua masalah. Semak setiap perkataan dalam ringkasan terhadap teks asal."
+      ],
+      "keyPoints": [
+        "Pilih tindakan utama dan tujuan yang relevan.",
+        "Gugurkan butiran kecil tanpa mengubah maksud.",
+        "Bezakan rancangan, tujuan dan hasil yang dilaporkan."
+      ]
+    },
+    "reading": {
+      "title": "Suara Murid pada Waktu Rehat",
+      "summary": "Kenal rancangan dan tujuan projek siaran sekolah.",
+      "body": [
+        "Kelab bahasa mahu lebih banyak karya murid didengar oleh warga sekolah. Kelab itu merancang siaran cerita selama lima minit pada setiap Rabu ketika waktu rehat. Sebelum rakaman, penulis akan menyemak teks bersama seorang pembimbing. Ahli teknikal pula akan menguji kekuatan bunyi supaya siaran jelas tanpa mengganggu kelas yang masih berlangsung. Minggu pertama dikhaskan untuk percubaan di satu blok. Kelab akan mendapatkan maklum balas guru dan murid sebelum menentukan sama ada siaran patut diperluas. Setakat ini, jadual dan pembahagian tugas sudah siap, tetapi tiada siaran disiarkan lagi."
+      ],
+      "questions": [
+        {
+          "prompt": "Ringkasan manakah paling tepat?",
+          "options": [
+            "Kelab telah menyiarkan semua karya di setiap blok.",
+            "Kelab menghentikan waktu rehat untuk kelas bahasa.",
+            "Kelab merancang siaran karya murid dan percubaan sebelum peluasan.",
+            "Kelab hanya membeli alat tanpa menyediakan tugas."
+          ],
+          "answer": 2,
+          "explanation": "Ringkasan itu mengekalkan tujuan mengetengahkan karya, rancangan siaran dan percubaan yang belum berlangsung.",
+          "hint": "Semak sama ada sesuatu tindakan dirancang atau sudah berlaku."
+        },
+        {
+          "prompt": "Mengapakah kekuatan bunyi akan diuji?",
+          "options": [
+            "Supaya siaran jelas tanpa mengganggu kelas lain",
+            "Supaya semua cerita menjadi lebih panjang",
+            "Untuk menggantikan semakan teks",
+            "Untuk membuktikan semua murid suka rakaman"
+          ],
+          "answer": 0,
+          "explanation": "Ujian bunyi mempunyai dua tujuan yang dinyatakan: kejelasan dan mengelakkan gangguan.",
+          "hint": "Cari ayat tentang ahli teknikal."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Permainan Papan untuk Dipinjam",
+      "summary": "Nilai isi yang perlu dikekalkan dalam satu ringkasan.",
+      "body": [
+        "Pusat sumber membuka sudut pinjaman permainan papan bagi menggalakkan murid belajar secara berkumpulan. Petugas menyediakan senarai komponen pada setiap kotak dan meminta peminjam menyemaknya semasa meminjam serta memulangkan permainan. Dua permainan telah mula dipinjam minggu ini. Pusat sumber bercadang menambah koleksi selepas menilai keadaan set yang dipulangkan. Warna alas meja sudut itu ialah biru muda."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah tujuan utama sudut pinjaman?",
+          "options": [
+            "Menjual alas meja",
+            "Menggalakkan pembelajaran berkumpulan",
+            "Menghapuskan semua buku",
+            "Menggantikan semua waktu pengajaran"
+          ],
+          "answer": 1,
+          "explanation": "Tujuan pembukaan sudut dinyatakan sebagai menggalakkan murid belajar secara berkumpulan.",
+          "hint": "Cari frasa selepas bagi."
+        },
+        {
+          "prompt": "Butiran manakah paling selamat digugurkan daripada ringkasan usaha ini?",
+          "options": [
+            "Penyediaan senarai komponen",
+            "Tujuan pembelajaran berkumpulan",
+            "Semakan ketika pemulangan",
+            "Warna alas meja"
+          ],
+          "answer": 3,
+          "explanation": "Warna alas meja tidak menjelaskan tujuan atau pengurusan pinjaman.",
+          "hint": "Pilih butiran yang tidak membantu menerangkan usaha utama."
+        },
+        {
+          "prompt": "Pernyataan manakah mengekalkan status rancangan menambah koleksi?",
+          "options": [
+            "Semua koleksi baharu sudah dibeli.",
+            "Koleksi pasti ditambah esok.",
+            "Penambahan akan dipertimbangkan selepas keadaan set dinilai.",
+            "Koleksi tidak akan ditambah dalam apa-apa keadaan."
+          ],
+          "answer": 2,
+          "explanation": "Teks menyebut cadangan yang bergantung pada penilaian kemudian, bukannya pembelian yang sudah selesai.",
+          "hint": "Perhatikan bercadang dan selepas menilai."
+        },
+        {
+          "prompt": "Ringkasan manakah merangkumi tindakan utama dengan tepat?",
+          "options": [
+            "Pusat sumber menawarkan pinjaman permainan untuk pembelajaran berkumpulan dan menyemak komponen setiap set.",
+            "Pusat sumber menjual permainan baharu untuk membeli alas meja.",
+            "Semua permainan rosak lalu pinjaman dihentikan.",
+            "Murid membeli komponen untuk menggantikan seluruh koleksi buku."
+          ],
+          "answer": 0,
+          "explanation": "Pilihan ini menggabungkan pinjaman, tujuan dan pengurusan komponen tanpa menambah kejadian yang tidak disebut.",
+          "hint": "Gabungkan tujuan dengan cara pinjaman diurus."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d6-en-reading-rules-and-permission",
+    "levelId": "d6",
+    "subjectId": "en",
+    "note": {
+      "title": "Required, Allowed or Recommended?",
+      "summary": "Read modal verbs carefully in rules and visitor guidance.",
+      "body": [
+        "Rules and guidance do different jobs. Must can state a requirement, may can give permission, and should can recommend an action. Read the surrounding sentence to identify which meaning applies.",
+        "For example, a studio notice says, “Visitors must sign in. They may borrow aprons. They should wear comfortable shoes.” Signing in is required; borrowing an apron is allowed; comfortable shoes are recommended.",
+        "Negative forms need particular care. Must not forbids an action. Do not have to removes a requirement: “You do not have to bring paper” means bringing paper is unnecessary, not forbidden.",
+        "Do not assume a permission cancels another rule. Being allowed to borrow an apron does not remove the requirement to sign in. Check all instructions that apply to the visitor."
+      ],
+      "keyPoints": [
+        "Separate requirements from permissions and recommendations.",
+        "Must not means an action is forbidden.",
+        "Do not have to means an action is not required."
+      ]
+    },
+    "reading": {
+      "title": "An Evening at the Print Studio",
+      "summary": "Read an original visitor message before attending a workshop.",
+      "body": [
+        "Welcome to the community print studio. Every visitor must sign the attendance sheet at reception. You may borrow one studio apron, but please return it before leaving. You do not have to bring printing paper because we provide it. We recommend wearing clothes that you do not mind marking with paint. Visitors must not use the large press without the instructor beside them. Small hand rollers are available at each table. At the end, leave finished prints on the drying rack and collect them the following afternoon."
+      ],
+      "questions": [
+        {
+          "prompt": "Which action is required of every visitor?",
+          "options": [
+            "Bringing paper from home",
+            "Borrowing two aprons",
+            "Signing the attendance sheet",
+            "Wearing a new shirt"
+          ],
+          "answer": 2,
+          "explanation": "Must makes signing the attendance sheet a requirement. Paper is supplied and aprons are optional.",
+          "hint": "Find the sentence that applies to every visitor."
+        },
+        {
+          "prompt": "When may a visitor use the large press?",
+          "options": [
+            "Only with the instructor beside them",
+            "Whenever a roller is missing",
+            "Alone after the workshop",
+            "Only when every print is dry"
+          ],
+          "answer": 0,
+          "explanation": "The prohibition concerns using the press without the instructor, so instructor supervision is necessary.",
+          "hint": "Read the whole condition after must not."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Guidance for a Story Exhibition",
+      "summary": "Apply different kinds of instructions to visitor choices.",
+      "body": [
+        "Story Exhibition: Visitors must collect a free pass at the desk. You may take photographs of displays with a green camera symbol. Photography of displays with a red camera symbol is not allowed. You should bring headphones for the audio stories, although loan headphones are available. You do not have to print your booking email; showing it on a phone is accepted. Please return loan headphones to the desk."
+      ],
+      "questions": [
+        {
+          "prompt": "What must every visitor collect?",
+          "options": [
+            "A printed photograph",
+            "A red symbol",
+            "A new phone",
+            "A free pass"
+          ],
+          "answer": 3,
+          "explanation": "The first rule explicitly requires visitors to collect a pass.",
+          "hint": "Look for must."
+        },
+        {
+          "prompt": "A visitor shows the booking email on a phone. Does the visitor also need a printed copy?",
+          "options": [
+            "Yes, every email must be printed twice.",
+            "No, a phone version is accepted.",
+            "Yes, but only for green displays.",
+            "No, because booking emails are forbidden."
+          ],
+          "answer": 1,
+          "explanation": "The guidance accepts the phone version and says printing is not required.",
+          "hint": "Not required is different from forbidden."
+        },
+        {
+          "prompt": "Which action is prohibited?",
+          "options": [
+            "Borrowing headphones",
+            "Collecting a pass",
+            "Photographing a display with a red camera symbol",
+            "Returning headphones at the desk"
+          ],
+          "answer": 2,
+          "explanation": "Photography is not allowed for red-symbol displays. Green-symbol permission does not extend to them.",
+          "hint": "Check which colour is linked to a prohibition."
+        },
+        {
+          "prompt": "What does should in “You should bring headphones” express here?",
+          "options": [
+            "A recommendation",
+            "Proof that everyone already has headphones",
+            "A ban on loan headphones",
+            "A requirement to buy headphones at the desk"
+          ],
+          "answer": 0,
+          "explanation": "Should recommends bringing headphones, while the loan option shows that bringing your own is not compulsory.",
+          "hint": "Use the second half of the sentence to check the strength of the instruction."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t1-bm-sempadan-subjek-predikat",
+    "levelId": "t1",
+    "subjectId": "bm",
+    "note": {
+      "title": "Cari Sempadan Subjek dan Predikat",
+      "summary": "Baca seluruh frasa untuk mengenal perkara yang dibicarakan.",
+      "body": [
+        "Dalam ayat susunan biasa, subjek menyatakan perkara yang dibicarakan, manakala predikat memberikan keterangan tentangnya. Subjek boleh terdiri daripada frasa yang lebih panjang daripada satu nama.",
+        "Contohnya, “Dua orang petugas koperasi itu menyemak stok buku.” Seluruh frasa “Dua orang petugas koperasi itu” ialah subjek. Predikatnya ialah “menyemak stok buku”, yang menerangkan tindakan petugas.",
+        "Untuk mencari sempadan, tentukan dahulu pihak atau perkara yang dibicarakan. Kemudian, perhatikan keterangan yang diberikan tentang pihak itu. Keterangan dalam subjek, seperti koperasi itu, tidak semestinya menjadi predikat.",
+        "Jangan menganggap predikat mesti bermula dengan kata kerja. Dalam ayat “Kaunter baharu itu di sebelah pintu”, predikat “di sebelah pintu” menerangkan lokasi melalui frasa sendi nama."
+      ],
+      "keyPoints": [
+        "Subjek boleh berupa seluruh frasa nama yang panjang.",
+        "Predikat memberikan keterangan tentang subjek.",
+        "Predikat tidak semestinya mengandungi kata kerja."
+      ]
+    },
+    "reading": {
+      "title": "Stok Buku yang Tersalah Rak",
+      "summary": "Kenal pihak yang bertindak dan maklumat dalam satu laporan.",
+      "body": [
+        "Dua orang petugas koperasi sekolah itu menyemak stok buku sebelum kedai dibuka. Mereka mendapati jumlah buku latihan kecil kurang daripada catatan semalam. Ketika mencari puncanya, seorang petugas menemukan sekotak buku di bawah meja pembungkusan. Label pada kotak itu tertutup oleh sehelai kertas pesanan. Buku yang dicari sebenarnya belum dipindahkan ke rak jualan. Petugas membetulkan catatan lokasi dan meminta setiap kotak dilabel pada dua sisi. Pengurus belum mengubah jumlah stok kerana semua buku sudah ditemukan. Kaunter pertanyaan baharu pula di sebelah pintu masuk."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah subjek lengkap ayat pertama?",
+          "options": [
+            "Menyemak stok buku sebelum kedai dibuka",
+            "Koperasi sekolah itu",
+            "Sebelum kedai dibuka",
+            "Dua orang petugas koperasi sekolah itu"
+          ],
+          "answer": 3,
+          "explanation": "Seluruh frasa itu mengenal pasti pihak yang menyemak; menyemak memulakan predikat.",
+          "hint": "Jangan potong frasa yang menerangkan petugas."
+        },
+        {
+          "prompt": "Mengapakah pengurus tidak mengubah jumlah stok?",
+          "options": [
+            "Kedai dibuka sepanjang malam.",
+            "Semua buku yang dicari sudah ditemukan.",
+            "Label tidak lagi diperlukan.",
+            "Kertas pesanan sudah dijual."
+          ],
+          "answer": 1,
+          "explanation": "Masalahnya ialah lokasi buku, bukannya kehilangan jumlah buku.",
+          "hint": "Bezakan catatan lokasi dengan jumlah stok."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Giliran di Bilik Catur",
+      "summary": "Kenal fungsi frasa berdasarkan laporan ringkas.",
+      "body": [
+        "Enam orang ahli baharu Kelab Catur itu mengikuti sesi pengenalan pada petang Isnin. Jurulatih sukarela menerangkan cara menggunakan jam pertandingan. Selepas penerangan, ahli baharu mencuba jam secara berpasangan. Dua set jam tambahan di dalam almari kaca. Ahli berpengalaman membantu peserta yang belum memahami arahan."
+      ],
+      "questions": [
+        {
+          "prompt": "Dalam ayat pembukaan laporan catur, apakah subjek yang lengkap?",
+          "options": [
+            "Enam orang ahli baharu Kelab Catur itu",
+            "Mengikuti sesi pengenalan",
+            "Kelab Catur itu mengikuti",
+            "Pada petang Isnin"
+          ],
+          "answer": 0,
+          "explanation": "Subjek merangkumi bilangan, ahli dan keterangan kelab sebelum kata kerja mengikuti.",
+          "hint": "Tentukan seluruh kumpulan yang melakukan tindakan."
+        },
+        {
+          "prompt": "Apakah predikat dalam ayat “Jurulatih sukarela menerangkan cara menggunakan jam pertandingan”?",
+          "options": [
+            "Jurulatih sukarela",
+            "Jam pertandingan",
+            "Menerangkan cara menggunakan jam pertandingan",
+            "Sukarela menerangkan"
+          ],
+          "answer": 2,
+          "explanation": "Predikat memberikan tindakan jurulatih berserta maklumat yang diterangkan.",
+          "hint": "Asingkan pihak yang bertindak daripada keterangannya."
+        },
+        {
+          "prompt": "Apakah yang diterangkan oleh predikat “di dalam almari kaca”?",
+          "options": [
+            "Warna jam",
+            "Harga pertandingan",
+            "Sikap jurulatih",
+            "Lokasi dua set jam tambahan"
+          ],
+          "answer": 3,
+          "explanation": "Frasa sendi nama itu memberikan lokasi, bukannya perbuatan atau sifat jam.",
+          "hint": "Tanyakan di mana."
+        },
+        {
+          "prompt": "Siapakah yang membantu peserta yang belum memahami arahan?",
+          "options": [
+            "Pengurus koperasi",
+            "Ahli berpengalaman",
+            "Semua penjaga",
+            "Petugas almari"
+          ],
+          "answer": 1,
+          "explanation": "Ayat akhir menamakan ahli berpengalaman sebagai pihak yang membantu.",
+          "hint": "Gunakan subjek ayat terakhir sebagai petunjuk."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t1-en-layers-of-past-time",
+    "levelId": "t1",
+    "subjectId": "en",
+    "note": {
+      "title": "Three Layers of a Past Scene",
+      "summary": "Use past simple, past continuous and past perfect to track a narrative.",
+      "body": [
+        "A narrative can combine a main event, an activity already happening and an earlier completed action. Different past forms help a reader place these on a timeline.",
+        "Consider: “When the guests entered, Noor was arranging chairs. She had unlocked the hall an hour earlier.” Entered gives the main event. Was arranging shows an activity in progress then. Had unlocked places a completed action before that moment.",
+        "To work through the example, locate the guests’ arrival first. Place unlocking before it, and show chair arranging continuing at the moment they entered.",
+        "Do not assume past perfect means the most important event. It marks an earlier relationship in this context. Importance depends on the story, while tense helps establish when things happened."
+      ],
+      "keyPoints": [
+        "Past simple can move the story forward.",
+        "Past continuous gives an activity in progress at a past moment.",
+        "Past perfect can locate a completed action before another past event."
+      ]
+    },
+    "reading": {
+      "title": "The Silent Opening Film",
+      "summary": "Reconstruct what happened before and during a film screening.",
+      "body": [
+        "When the first audience members arrived, Dev was checking the screen at the community cinema. He had tested the speakers that morning, and they had worked normally. Just before the opening film, his partner noticed that its sound file was missing. Dev found a second copy on the organiser’s drive while his partner explained the delay to the audience. They started the film seven minutes late. Afterwards, Dev added a check of each actual film file to the preparation list. Testing the speakers alone had not revealed the missing audio."
+      ],
+      "questions": [
+        {
+          "prompt": "Which action happened before the audience arrived?",
+          "options": [
+            "The partner explained the delay.",
+            "Dev changed the preparation list.",
+            "Dev tested the speakers.",
+            "The opening film began."
+          ],
+          "answer": 2,
+          "explanation": "Had tested and that morning place the speaker test before the arrival described at the start.",
+          "hint": "Look for the past-perfect action and its time phrase."
+        },
+        {
+          "prompt": "What did Dev learn from the problem?",
+          "options": [
+            "The actual film files also needed checking.",
+            "Every audience member needed new speakers.",
+            "The cinema could never play sound.",
+            "Explaining a delay always repairs a file."
+          ],
+          "answer": 0,
+          "explanation": "The added file check responds to a problem that the speaker test could not reveal.",
+          "hint": "Connect the final two sentences."
+        }
+      ]
+    },
+    "practice": {
+      "title": "A Banner Before the Race",
+      "summary": "Read a complete event sequence and choose accurate tense forms.",
+      "body": [
+        "At 8.30 a.m., the race organiser arrived at the field. The volunteers were fastening a banner to two posts. They had measured the gap between the posts at 8.00 a.m. A clip snapped while Dina was pulling the banner straight. Another volunteer brought a spare clip, and the team finished before the runners gathered."
+      ],
+      "questions": [
+        {
+          "prompt": "Which event occurred earliest?",
+          "options": [
+            "The clip snapped.",
+            "The volunteers measured the gap.",
+            "The runners gathered.",
+            "The organiser arrived."
+          ],
+          "answer": 1,
+          "explanation": "The measurement took place at 8.00 a.m., before the organiser’s 8.30 arrival and the later events.",
+          "hint": "Compare the explicit times."
+        },
+        {
+          "prompt": "Complete using an action in progress: “The volunteers ___ the banner when the organiser arrived.”",
+          "options": [
+            "have fastened",
+            "had fasten",
+            "fastens",
+            "were fastening"
+          ],
+          "answer": 3,
+          "explanation": "Were fastening describes the activity already in progress when the organiser arrived.",
+          "hint": "Use were plus an -ing form for these volunteers."
+        },
+        {
+          "prompt": "Which sentence places measuring before the organiser’s arrival?",
+          "options": [
+            "The volunteers had measured the gap before the organiser arrived.",
+            "The volunteers will measure the gap yesterday.",
+            "The organiser arrives before the volunteers had measuring.",
+            "The volunteers have measure after the organiser arrived."
+          ],
+          "answer": 0,
+          "explanation": "Had measured correctly marks the earlier completed measurement.",
+          "hint": "Choose both a correct verb form and the right time relationship."
+        },
+        {
+          "prompt": "What was Dina doing when the clip snapped?",
+          "options": [
+            "Gathering the runners",
+            "Bringing the spare clip",
+            "Pulling the banner straight",
+            "Measuring the gap at 8.00 a.m."
+          ],
+          "answer": 2,
+          "explanation": "Was pulling identifies the activity in progress at the moment the clip snapped.",
+          "hint": "Find the clause introduced by while."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t2-bm-gambaran-dan-kiasan",
+    "levelId": "t2",
+    "subjectId": "bm",
+    "note": {
+      "title": "Tafsir Gambaran Tanpa Membacanya Secara Harfiah",
+      "summary": "Hubungkan simile dan personifikasi dengan suasana dalam teks.",
+      "body": [
+        "Bahasa kiasan membantu penulis membina gambaran dan perasaan. Simile membuat perbandingan yang jelas, sering menggunakan seperti atau bagai. Personifikasi pula memberikan sifat atau perbuatan manusia kepada sesuatu yang bukan manusia.",
+        "Contohnya, “Lampu kedai berbaris seperti manik di sepanjang lorong” membandingkan susunan cahaya dengan manik. “Pintu tua itu mengeluh apabila ditolak” memberikan perbuatan mengeluh kepada pintu untuk menggambarkan bunyinya.",
+        "Selepas mengenal teknik, terangkan kesannya dalam konteks. Bunyi pintu yang digambarkan sebagai keluhan boleh membina suasana bangunan tua, tetapi tidak semestinya bermaksud bangunan itu berhantu.",
+        "Jangan berhenti pada nama teknik atau mencipta cerita baharu. Tafsiran yang kuat menghubungkan perkataan tertentu dengan gambaran, suasana atau pengalaman watak yang benar-benar disokong oleh petikan."
+      ],
+      "keyPoints": [
+        "Simile membandingkan dua perkara secara jelas.",
+        "Personifikasi memberikan sifat manusia kepada bukan manusia.",
+        "Huraikan kesan berdasarkan konteks, bukan imaginasi tanpa bukti."
+      ]
+    },
+    "reading": {
+      "title": "Pasar yang Baru Terjaga",
+      "summary": "Tafsir gambaran dalam petikan naratif asli.",
+      "body": [
+        "Pada pukul enam pagi, lorong pasar masih redup. Tirai besi kedai pertama terangkat, lalu bunyinya memecahkan kesunyian. Dari jauh, deretan lampu kecil tampak seperti butang pada baju malam. Amani berjalan di sisi datuk sambil memegang bakul kosong. Pasar itu mula terjaga: suara penjual bersahutan dan roda troli berketak di atas lantai. Datuk menyapa seorang peniaga yang sudah dikenalinya bertahun-tahun. Amani yang pada mulanya mengantuk kini memperlahankan langkah untuk melihat tangan peniaga menyusun kain. Bakulnya belum berisi, tetapi pagi itu sudah terasa penuh dengan cerita."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah kesan frasa “Pasar itu mula terjaga”?",
+          "options": [
+            "Membuktikan bangunan pasar benar-benar tidur",
+            "Menyatakan semua kedai ditutup",
+            "Menggambarkan pasar yang beransur-ansur menjadi aktif",
+            "Menjelaskan harga barang secara tepat"
+          ],
+          "answer": 2,
+          "explanation": "Terjaga diberikan kepada pasar secara kiasan; suara dan troli menyokong perubahan daripada sunyi kepada aktif.",
+          "hint": "Padankan gambaran itu dengan bunyi-bunyi selepasnya."
+        },
+        {
+          "prompt": "Mengapakah “seperti butang pada baju malam” merupakan simile?",
+          "options": [
+            "Frasa itu membandingkan lampu dengan butang secara jelas.",
+            "Frasa itu ialah percakapan antara dua peniaga.",
+            "Frasa itu memberikan bilangan lampu yang tepat.",
+            "Frasa itu mengarahkan Amani membeli pakaian."
+          ],
+          "answer": 0,
+          "explanation": "Seperti menandai perbandingan rupa deretan lampu dengan butang.",
+          "hint": "Cari dua perkara yang dibandingkan."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Kasut di Tepi Pintu",
+      "summary": "Baca imej dan kesan emosi dalam petikan berbeza.",
+      "body": [
+        "Selepas latihan terakhir, Ilham meletakkan kasut sukannya di tepi pintu. Kasut yang berlumpur itu seolah-olah meminta rehat. Pada tapaknya, tanah kering melekat seperti kepingan peta kecil. Ilham teringat padang tempat dia belajar menerima kekalahan. Esok dia akan berpindah ke sekolah lain. Dia membersihkan kasut itu perlahan-lahan, lalu menyimpannya dalam beg, bukan di dalam tong sampah."
+      ],
+      "questions": [
+        {
+          "prompt": "Ungkapan manakah memberikan sifat manusia kepada benda?",
+          "options": [
+            "Di tepi pintu",
+            "Meminta rehat",
+            "Sekolah lain",
+            "Tanah kering"
+          ],
+          "answer": 1,
+          "explanation": "Meminta ialah perbuatan manusia yang diberikan kepada kasut secara kiasan.",
+          "hint": "Cari tindakan yang kasut tidak dapat lakukan secara harfiah."
+        },
+        {
+          "prompt": "Apakah yang dibandingkan dengan kepingan peta kecil?",
+          "options": [
+            "Beg Ilham",
+            "Padang sekolah baharu",
+            "Tali kasut yang bersih",
+            "Tanah kering pada tapak kasut"
+          ],
+          "answer": 3,
+          "explanation": "Ayat itu membandingkan bentuk tanah yang melekat dengan kepingan peta.",
+          "hint": "Baca perkara yang disebut sebelum seperti."
+        },
+        {
+          "prompt": "Mengapakah tindakan menyimpan kasut paling munasabah penting dalam petikan?",
+          "options": [
+            "Kasut itu berkaitan dengan pengalaman yang mahu dibawa bersama.",
+            "Ilham pasti tidak akan bersukan lagi.",
+            "Kasut itu mempunyai kuasa bercakap.",
+            "Ilham telah membeli padang baharu."
+          ],
+          "answer": 0,
+          "explanation": "Kenangan latihan dan perpindahan menyokong tafsiran bahawa kasut membawa nilai pengalaman bagi Ilham.",
+          "hint": "Hubungkan kenangan padang dengan pilihannya menyimpan kasut."
+        },
+        {
+          "prompt": "Tafsiran manakah melampaui bukti?",
+          "options": [
+            "Ilham akan bertukar sekolah.",
+            "Kasut itu digunakan semasa latihan.",
+            "Sekolah baharu Ilham pasti menolak semua kegiatan sukan.",
+            "Pembersihan kasut dilakukan dengan perlahan."
+          ],
+          "answer": 2,
+          "explanation": "Teks tidak memberikan maklumat tentang dasar kegiatan sekolah baharu.",
+          "hint": "Bezakan maklumat tentang perpindahan daripada andaian tentang tempat baharu."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t2-en-reporting-words-in-context",
+    "levelId": "t2",
+    "subjectId": "en",
+    "note": {
+      "title": "Report the Speaker, Time and Meaning",
+      "summary": "Adapt pronouns and time references when reporting a past statement.",
+      "body": [
+        "Reported speech tells someone what another person said without reproducing the exact quotation. Check who spoke, who is reporting and when the report is made. These details control pronoun and time references.",
+        "Suppose Omar said on Tuesday, “I am finishing my design today.” Reporting on Wednesday with past-tense backshift, write, “Omar said that he was finishing his design the day before.” He and his still refer to Omar; the time phrase still points to Tuesday.",
+        "Work through these changes separately. First preserve the speaker’s meaning, then adjust the grammar and time reference for the new context.",
+        "Do not change words mechanically. A tense shift is not always needed when information remains current. In these exercises, use backshift when the question specifically requests it.",
+        "With the requested backshift, have/has + past participle becomes had + past participle: “I have packed the bag” becomes “Mira said that she had packed the bag.” Will becomes would: “I will return tomorrow” becomes “Mira said that she would return the next day.” If Mira spoke on Monday, both tomorrow in her words and the next day in the report mean Tuesday. I changes to she because the report names Mira; my becomes her for the same reason."
+      ],
+      "keyPoints": [
+        "Identify the original speaker and reporting moment.",
+        "Keep pronouns tied to the correct person.",
+        "Adjust time references only as the context requires.",
+        "When backshift is requested, have/has finished becomes had finished and will becomes would."
+      ]
+    },
+    "reading": {
+      "title": "An Illustrator’s Interview",
+      "summary": "Track a speaker’s plans through an original interview summary.",
+      "body": [
+        "On Monday, illustrator Hana spoke to the school magazine. “I am drawing the cover today,” she said. “I will show the first version to the editor tomorrow.” She explained that the cover belonged to a collection of pupils’ adventure stories. On Wednesday, the student reporter prepared a summary of Monday’s interview. The reporter had not contacted Hana again and did not know whether the editor had seen the work. The summary therefore described what Hana had said, rather than claiming that every planned action had happened. The quoted word tomorrow referred to Tuesday."
+      ],
+      "questions": [
+        {
+          "prompt": "Using backshift in Wednesday’s summary, how should the first quotation be reported?",
+          "options": [
+            "Hana said that I am drawing my cover tomorrow.",
+            "Hana said that she draws the cover every Monday.",
+            "Hana said that she had never drawn a cover.",
+            "Hana said that she was drawing the cover that day."
+          ],
+          "answer": 3,
+          "explanation": "Was drawing supplies the requested backshift, she identifies Hana, and that day refers back to Monday.",
+          "hint": "Keep the action in progress on the interview day."
+        },
+        {
+          "prompt": "Why should the summary avoid saying the editor definitely saw the cover on Tuesday?",
+          "options": [
+            "The editor cannot view drawings.",
+            "The reporter knew Hana’s plan but had not checked its completion.",
+            "Monday always comes after Tuesday.",
+            "The stories had no connection with pupils."
+          ],
+          "answer": 1,
+          "explanation": "A reported intention does not establish that the intended meeting or viewing took place.",
+          "hint": "Distinguish what Hana promised from what the reporter verified."
+        }
+      ]
+    },
+    "practice": {
+      "title": "A Message from the Costume Maker",
+      "summary": "Report a dated message without changing its owner or intention.",
+      "body": [
+        "On Thursday, costume maker Ben sent this message: “I have finished the blue cape. I will bring it to the hall tomorrow. My assistant is checking the buttons now.” On Saturday, Priya reports the message to a friend using past-tense backshift. Priya has no further information about the delivery. In Ben’s message, the assistant works with Ben, and tomorrow means Friday."
+      ],
+      "questions": [
+        {
+          "prompt": "Which backshifted report preserves “I have finished the blue cape”?",
+          "options": [
+            "Ben said that he had finished the blue cape.",
+            "Ben said that Priya has finished the cape tomorrow.",
+            "Ben said that he will finish the cape next month.",
+            "Ben said that he had finish the blue cape."
+          ],
+          "answer": 0,
+          "explanation": "Present perfect have finished becomes had finished, and he refers to Ben.",
+          "hint": "Preserve both completion and the original speaker."
+        },
+        {
+          "prompt": "Which report correctly handles the planned delivery?",
+          "options": [
+            "Ben said he had delivered it on Saturday.",
+            "Ben said Priya must bring it on Thursday.",
+            "Ben said that he would bring it to the hall the following day.",
+            "Ben said he never intended to bring it."
+          ],
+          "answer": 2,
+          "explanation": "Would bring reports will bring with backshift; the following day refers to Friday after Thursday.",
+          "hint": "Retain the plan and its original intended date."
+        },
+        {
+          "prompt": "Whose assistant was checking the buttons?",
+          "options": [
+            "Priya’s friend’s assistant",
+            "The hall manager’s assistant",
+            "Priya’s assistant",
+            "Ben’s assistant"
+          ],
+          "answer": 3,
+          "explanation": "My is spoken by Ben, so it refers to the assistant working with Ben.",
+          "hint": "Identify the speaker of the original quotation."
+        },
+        {
+          "prompt": "Which conclusion is justified by the available information?",
+          "options": [
+            "The cape certainly arrived on Friday.",
+            "Ben said he intended to deliver the cape on Friday.",
+            "Priya delivered the cape herself.",
+            "The assistant had removed every button."
+          ],
+          "answer": 1,
+          "explanation": "The message establishes Ben’s stated intention; Priya has no later delivery information.",
+          "hint": "Separate reported plans from confirmed events."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t3-bm-sunting-laporan-objektif",
+    "levelId": "t3",
+    "subjectId": "bm",
+    "note": {
+      "title": "Sunting Laporan agar Jelas dan Lengkap",
+      "summary": "Kekalkan fakta, bina ayat lengkap dan nyatakan tindakan dengan khusus.",
+      "body": [
+        "Laporan membantu pembaca memahami kejadian dan tindakan susulan. Bahasa yang jelas menyatakan apa yang berlaku, bila dan pihak yang terlibat. Bezakan pemerhatian yang boleh disemak daripada andaian tentang sikap seseorang.",
+        "Contohnya, draf “Oleh sebab senarai nama belum diterima.” belum lengkap sebagai ayat laporan yang berdiri sendiri. Baiki menjadi “Sesi pendaftaran bermula lewat kerana senarai nama belum diterima.” Kini kejadian utama dan sebabnya dinyatakan.",
+        "Semasa menyunting, kekalkan hubungan asal. Jangan menukar belum diterima kepada hilang, kerana kelewatan penerimaan tidak membuktikan kehilangan. Gantikan cadangan kabur seperti buat pembaikan dengan tindakan khusus, misalnya menyemak senarai sehari lebih awal.",
+        "Jangan menganggap ayat paling pendek sentiasa paling baik. Ayat ringkas yang menggugurkan sebab penting atau menambah tuduhan boleh mengurangkan ketepatan laporan."
+      ],
+      "keyPoints": [
+        "Ayat laporan perlu membawa maksud yang lengkap.",
+        "Pisahkan pemerhatian daripada tuduhan tentang sikap.",
+        "Penyuntingan mesti mengekalkan fakta dan hubungan asal."
+      ]
+    },
+    "reading": {
+      "title": "Semakan Jadual Uji Bakat",
+      "summary": "Baca catatan penyelaras dan kenal tindakan susulan yang berasas.",
+      "body": [
+        "Uji bakat drama dijadualkan bermula pada pukul 2.00 petang, tetapi peserta pertama dipanggil pada pukul 2.20 petang. Senarai giliran yang dicetak tidak memasukkan enam nama yang telah dihantar melalui borang tambahan. Penyelaras menyemak rekod dan menambah nama tersebut sebelum sesi bermula. Semua peserta akhirnya mendapat giliran, tetapi sesi berakhir lebih lewat daripada rancangan. Dalam laporan, penyelaras mencadangkan supaya senarai daripada semua saluran digabungkan sehari lebih awal. Tiada maklumat dalam rekod yang menunjukkan bahawa nama itu sengaja diketepikan. Catatan masa digunakan untuk menerangkan kelewatan, bukan menilai peribadi petugas."
+      ],
+      "questions": [
+        {
+          "prompt": "Ayat manakah paling objektif untuk laporan itu?",
+          "options": [
+            "Petugas jelas tidak menghormati peserta.",
+            "Semua peserta sengaja melambatkan drama.",
+            "Enam nama daripada borang tambahan tidak terdapat pada senarai bercetak.",
+            "Penyelaras pasti menolak semua borang."
+          ],
+          "answer": 2,
+          "explanation": "Ayat itu melaporkan ketidakpadanan senarai yang boleh disemak tanpa menuduh niat pihak tertentu.",
+          "hint": "Pilih pemerhatian tentang dokumen, bukan andaian tentang niat."
+        },
+        {
+          "prompt": "Bagaimanakah cadangan penyelaras berkaitan dengan punca masalah?",
+          "options": [
+            "Penggabungan awal membantu memastikan nama daripada semua saluran masuk ke dalam senarai.",
+            "Penggabungan awal menghapuskan keperluan peserta hadir.",
+            "Cadangan itu menetapkan bahawa enam peserta tidak layak.",
+            "Cadangan itu mengurangkan bilangan watak tanpa menyemak nama."
+          ],
+          "answer": 0,
+          "explanation": "Masalah datang daripada maklumat yang tidak digabungkan; cadangan menyasarkan proses itu.",
+          "hint": "Hubungkan saluran borang tambahan dengan penyediaan senarai."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Draf Laporan Pinjaman Alat",
+      "summary": "Sunting laporan rekaan tanpa menggugurkan maklumat utama.",
+      "body": [
+        "Rekod bengkel menyatakan bahawa empat pembaris panjang belum dipulangkan pada pukul 4.00 petang. Ketiga-tiga kumpulan yang meminjam alat masih membersihkan ruang kerja ketika itu. Semua pembaris diterima semula pada pukul 4.15 petang. Draf laporan mengandungi ayat “Kerana kumpulan masih mengemas.” Penyelaras mahu laporan menerangkan kelewatan pemulangan dan mencadangkan tempoh pemulangan yang lebih jelas."
+      ],
+      "questions": [
+        {
+          "prompt": "Pembetulan manakah menjadikan ayat draf lengkap dan sepadan dengan rekod?",
+          "options": [
+            "Kerana semua pembaris telah hilang selama-lamanya.",
+            "Pemulangan pembaris lewat kerana kumpulan masih mengemas.",
+            "Walaupun pembaris dan kumpulan pada petang tersebut.",
+            "Kerana tiada kumpulan pernah meminjam alat."
+          ],
+          "answer": 1,
+          "explanation": "Ayat ini mempunyai kejadian utama, iaitu pemulangan lewat, serta sebab yang dinyatakan.",
+          "hint": "Tambahkan klausa utama tanpa menukar sebab."
+        },
+        {
+          "prompt": "Pernyataan manakah perlu dibuang kerana menambah tuduhan tanpa bukti?",
+          "options": [
+            "Empat pembaris belum diterima pada pukul 4.00 petang.",
+            "Semua pembaris diterima pada pukul 4.15 petang.",
+            "Kumpulan masih membersihkan ruang kerja.",
+            "Peminjam sengaja mahu mencuri pembaris itu."
+          ],
+          "answer": 3,
+          "explanation": "Rekod hanya menunjukkan kelewatan yang kemudian diselesaikan, bukan niat mencuri.",
+          "hint": "Bezakan tindakan yang direkodkan daripada motif yang direka."
+        },
+        {
+          "prompt": "Cadangan manakah paling khusus dan berkaitan?",
+          "options": [
+            "Tetapkan masa pemulangan alat sebelum sesi mengemas bermula.",
+            "Jadikan bengkel lebih menarik dalam semua hal.",
+            "Pilih warna baharu untuk setiap dinding.",
+            "Anggap semua alat tidak memerlukan rekod."
+          ],
+          "answer": 0,
+          "explanation": "Cadangan memberikan masa pemulangan yang jelas dan menangani pertindihan dengan kerja mengemas.",
+          "hint": "Cari tindakan yang menjelaskan bila alat perlu dipulangkan."
+        },
+        {
+          "prompt": "Ringkasan manakah mengekalkan urutan peristiwa?",
+          "options": [
+            "Empat pembaris hilang dan belum ditemukan.",
+            "Pembaris diterima sebelum kumpulan meminjamnya.",
+            "Pembaris lewat dipulangkan ketika kumpulan mengemas, kemudian semuanya diterima pada pukul 4.15 petang.",
+            "Kumpulan membatalkan bengkel kerana tiada pembaris sejak awal."
+          ],
+          "answer": 2,
+          "explanation": "Ringkasan itu mengekalkan kelewatan, konteks mengemas dan penerimaan semula semua pembaris.",
+          "hint": "Semak kedua-dua masa dan keadaan akhir alat."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t3-en-reasons-and-counterarguments",
+    "levelId": "t3",
+    "subjectId": "en",
+    "note": {
+      "title": "Build an Argument That Answers a Concern",
+      "summary": "Connect a proposal with relevant reasons and a fair response to objections.",
+      "body": [
+        "An argument supports a claim with reasons and evidence. A reason explains why the proposal matters; evidence helps a reader judge whether that reason applies. Details that merely sound impressive may be irrelevant.",
+        "For example, a proposal for more rehearsal space could cite groups repeatedly sharing one crowded room. The building’s attractive entrance would not address the shortage. An objection about supervision would deserve a response about who could oversee extra sessions.",
+        "Work through an argument by matching each reason or objection to the action it concerns. A useful response tackles the actual difficulty rather than attacking the person who raised it.",
+        "Do not assume acknowledging an objection means abandoning the proposal. A writer can recognise a limitation and modify the plan while keeping its main purpose."
+      ],
+      "keyPoints": [
+        "Evidence should address the specific claim.",
+        "A counterargument raises a relevant difficulty.",
+        "A response should tackle that difficulty directly."
+      ]
+    },
+    "reading": {
+      "title": "Should the Courtyard Host Lunchtime Games?",
+      "summary": "Follow a proposal, an objection and a practical response.",
+      "body": [
+        "The student council proposes a weekly board-game table in the courtyard. Supporters say it would give pupils a shared activity during lunch. A teacher raises a concern: the courtyard is also the route to the canteen, and chairs could block movement. The council responds by proposing two tables in the marked side area, with chairs kept inside that boundary. It also suggests one supervised trial before a regular schedule is agreed. The council has not yet counted how many pupils want to participate. Its proposal therefore addresses the space concern but still needs information about demand."
+      ],
+      "questions": [
+        {
+          "prompt": "What is the teacher’s main objection?",
+          "options": [
+            "Board games have no possible educational use.",
+            "Chairs may obstruct a route pupils need.",
+            "Every courtyard table has already been removed.",
+            "Pupils never eat lunch."
+          ],
+          "answer": 1,
+          "explanation": "The teacher focuses on movement to the canteen, so the objection concerns access through the space.",
+          "hint": "Identify the function of the courtyard that the teacher mentions."
+        },
+        {
+          "prompt": "What information is still needed?",
+          "options": [
+            "The colour of every game piece",
+            "The teacher’s favourite lunch",
+            "The number of pupils interested in joining",
+            "The age of the courtyard’s first brick"
+          ],
+          "answer": 2,
+          "explanation": "The passage explicitly notes that demand has not been measured. Interest figures would inform the plan.",
+          "hint": "Look at the final two sentences."
+        }
+      ]
+    },
+    "practice": {
+      "title": "A Proposal for a Student Swap Shelf",
+      "summary": "Choose relevant support and a response that preserves the proposal’s purpose.",
+      "body": [
+        "A class proposes a shelf where pupils can swap books they own. Its aim is to give books new readers without requiring purchases. A parent supports the aim but worries that damaged books will be left there. The class suggests accepting only complete, readable books and appointing a weekly monitor. A survey of this class finds that 17 of its 25 pupils have at least one book they would offer. No other classes have been surveyed."
+      ],
+      "questions": [
+        {
+          "prompt": "Which evidence most directly supports likely participation in this class?",
+          "options": [
+            "The shelf has three wooden legs.",
+            "The classroom faces east.",
+            "A parent enjoys cooking.",
+            "Seventeen pupils have a book they would offer."
+          ],
+          "answer": 3,
+          "explanation": "Willingness to offer a book relates directly to participation; the other details do not.",
+          "hint": "Match the evidence to whether pupils will contribute."
+        },
+        {
+          "prompt": "How does the acceptance rule respond to the parent?",
+          "options": [
+            "It addresses the condition of books placed on the shelf.",
+            "It requires every parent to purchase a book.",
+            "It proves damaged books have no owners.",
+            "It rejects the idea of swapping altogether."
+          ],
+          "answer": 0,
+          "explanation": "Requiring complete, readable books directly addresses the worry about damaged items.",
+          "hint": "Identify the specific concern, then match the rule to it."
+        },
+        {
+          "prompt": "Which conclusion respects the survey’s scope?",
+          "options": [
+            "Every pupil in the country will use the shelf.",
+            "A majority of this surveyed class has a book to offer.",
+            "No pupil outside the class owns books.",
+            "All 25 pupils have already swapped a book."
+          ],
+          "answer": 1,
+          "explanation": "Seventeen is more than half of 25, but the evidence covers only this class and willingness to offer.",
+          "hint": "Check the group surveyed and the difference between intention and action."
+        },
+        {
+          "prompt": "Which response would unfairly dismiss the parent instead of addressing the concern?",
+          "options": [
+            "We could check that every book is readable.",
+            "A monitor could remove incomplete books.",
+            "Anyone who raises a problem must dislike reading.",
+            "Let us make the acceptance rule clear."
+          ],
+          "answer": 2,
+          "explanation": "This response attacks the person’s supposed attitude rather than discussing the condition of books.",
+          "hint": "Look for a claim about the person instead of the practical problem."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t4-bm-had-dakwaan-dan-syarat",
+    "levelId": "t4",
+    "subjectId": "bm",
+    "note": {
+      "title": "Uji Had Dakwaan dan Arah Syarat",
+      "summary": "Baca hanya, semua dan bergantung pada tanpa memperluas maksudnya.",
+      "body": [
+        "Dakwaan yang tepat mempunyai lingkungan tertentu. Semua merangkumi keseluruhan kumpulan yang disebut, manakala sesetengah merangkumi sebahagiannya. Jangan menggantikan satu dengan yang lain ketika menafsir atau meringkaskan teks.",
+        "Syarat juga mempunyai arah. Contohnya, “Hanya peserta berdaftar menerima kit.” Ayat itu mengehadkan penerima kit kepada peserta berdaftar. Ayat tersebut sahaja belum menjamin bahawa setiap peserta berdaftar pasti menerima kit, kerana maklumat tentang agihan penuh tidak diberikan.",
+        "Untuk menguji tafsiran, tanya sama ada ayat asal benar-benar menyatakan hasil yang didakwa. Bezakan kelayakan memohon, proses penilaian dan keputusan akhir jika ketiga-tiganya disebut.",
+        "Jangan membaca kata yang menunjukkan kemungkinan sebagai jaminan. Frasa boleh dipertimbangkan membuka ruang penilaian; frasa itu tidak bermaksud telah diluluskan. Tafsiran mestilah mengekalkan tahap kepastian dan batas kumpulan asal."
+      ],
+      "keyPoints": [
+        "Kekalkan lingkungan kumpulan yang dinyatakan.",
+        "Syarat perlu tidak semestinya menjamin hasil.",
+        "Bezakan peluang dipertimbangkan daripada keputusan yang sudah dibuat."
+      ]
+    },
+    "reading": {
+      "title": "Sijil untuk Projek Dokumentari",
+      "summary": "Tafsir peraturan rekaan tanpa menyamakan penyertaan dengan kelulusan.",
+      "body": [
+        "Bengkel dokumentari sekolah menerima 24 peserta berdaftar. Notisnya menyatakan bahawa hanya peserta yang hadir dalam kedua-dua sesi dan menyerahkan video akhir layak dipertimbangkan untuk sijil pencapaian. Panel akan menilai video berdasarkan kriteria yang diberi semasa sesi pertama. Semua peserta berdaftar mendapat sijil penyertaan, tetapi sijil pencapaian tidak diberikan secara automatik. Nadia hadir dalam kedua-dua sesi, namun videonya masih belum dihantar. Arman pula memenuhi dua syarat awal itu dan sedang menunggu keputusan panel. Penyelaras mengingatkan peserta bahawa dua jenis sijil tersebut mengiktiraf perkara yang berbeza dan tidak boleh dianggap setara."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah kesimpulan yang tepat tentang Arman?",
+          "options": [
+            "Arman sudah pasti menerima sijil pencapaian.",
+            "Arman tidak pernah berdaftar.",
+            "Arman layak dipertimbangkan tetapi keputusan panel belum diketahui.",
+            "Arman hanya menghadiri satu sesi."
+          ],
+          "answer": 2,
+          "explanation": "Arman memenuhi syarat awal, namun penilaian panel menentukan hasil yang masih ditunggu.",
+          "hint": "Bezakan kelayakan awal dengan keputusan akhir."
+        },
+        {
+          "prompt": "Pernyataan manakah dijamin oleh notis tentang Nadia sebagai peserta berdaftar?",
+          "options": [
+            "Nadia mendapat sijil penyertaan.",
+            "Nadia telah menghantar video akhir.",
+            "Nadia memperoleh markah tertinggi.",
+            "Nadia telah menerima sijil pencapaian."
+          ],
+          "answer": 0,
+          "explanation": "Semua peserta berdaftar mendapat sijil penyertaan. Kekurangan penghantaran video menjejaskan syarat sijil pencapaian.",
+          "hint": "Pastikan anda membezakan dua jenis sijil."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Permohonan Tapak Pameran",
+      "summary": "Jejaki perbezaan antara kelengkapan, penilaian dan tawaran.",
+      "body": [
+        "Jawatankuasa menetapkan bahawa semua permohonan tapak pameran yang lengkap akan dinilai. Tawaran tapak bergantung pada kesesuaian cadangan dan ruang yang tersedia. Permohonan tidak lengkap akan dikembalikan untuk pembetulan. Hanya pemohon yang menerima surat tawaran boleh membawa bahan masuk ke dewan. Permohonan Kelab Reka lengkap dan sedang dinilai. Kelab Foto sudah menerima surat tawaran. Tiada keputusan tentang Kelab Reka diumumkan."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah yang boleh dinyatakan dengan pasti tentang Kelab Reka?",
+          "options": [
+            "Kelab itu telah diberi tapak paling besar.",
+            "Permohonannya sedang dinilai.",
+            "Kelab itu tidak boleh memohon lagi.",
+            "Cadangannya telah ditolak."
+          ],
+          "answer": 1,
+          "explanation": "Status yang dinyatakan ialah lengkap dan sedang dinilai; kelulusan belum diumumkan.",
+          "hint": "Cari maklumat khusus tentang Kelab Reka."
+        },
+        {
+          "prompt": "Mengapakah permohonan lengkap belum menjamin tawaran tapak?",
+          "options": [
+            "Semua permohonan lengkap akan dikembalikan.",
+            "Tiada kelab dibenarkan masuk dewan.",
+            "Surat tawaran tidak diperlukan.",
+            "Kesesuaian cadangan dan ruang juga menentukan tawaran."
+          ],
+          "answer": 3,
+          "explanation": "Teks menetapkan dua pertimbangan untuk tawaran, selain kelengkapan yang membolehkan penilaian.",
+          "hint": "Bezakan syarat dinilai dengan asas pemberian tapak."
+        },
+        {
+          "prompt": "Kelab manakah sudah memenuhi syarat surat untuk membawa bahan masuk?",
+          "options": [
+            "Kelab Foto",
+            "Kelab Reka",
+            "Kedua-duanya pasti sudah memenuhi syarat.",
+            "Tiada satu pun kerana surat tidak disebut."
+          ],
+          "answer": 0,
+          "explanation": "Kelab Foto telah menerima surat tawaran, iaitu syarat yang dinyatakan untuk membawa bahan masuk.",
+          "hint": "Padankan status kelab dengan perkataan hanya."
+        },
+        {
+          "prompt": "Rumusan manakah mengekalkan semua batas penting?",
+          "options": [
+            "Setiap kelab yang menghantar apa-apa borang pasti mendapat tapak.",
+            "Semua cadangan telah diluluskan tanpa melihat ruang.",
+            "Permohonan lengkap dinilai, tawaran bergantung pada kesesuaian serta ruang, dan kemasukan bahan memerlukan surat tawaran.",
+            "Kelengkapan borang sahaja membenarkan bahan dibawa masuk serta-merta."
+          ],
+          "answer": 2,
+          "explanation": "Rumusan ini mengekalkan tiga peringkat: penilaian, keputusan tawaran dan syarat membawa bahan masuk.",
+          "hint": "Pastikan tiada peringkat digabungkan menjadi jaminan automatik."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t4-en-compare-priorities",
+    "levelId": "t4",
+    "subjectId": "en",
+    "note": {
+      "title": "Compare Priorities Without Inventing Disagreement",
+      "summary": "Synthesize two viewpoints while keeping reasons and qualifications attached to their authors.",
+      "body": [
+        "Two writers may support the same broad goal while prioritising different ways to achieve it. A fair synthesis identifies shared ground, then preserves each writer’s reason or condition. A difference in emphasis is not automatically a contradiction.",
+        "For example, one writer values clear labels in an exhibition; another asks for seats near long displays. “Both want an accessible visit, with different practical priorities” connects their views. It would be inaccurate to say the second writer rejects labels.",
+        "Work through paired texts by listing each proposal beside its purpose. Then look for a combined action that addresses both purposes without silently removing either concern.",
+        "Do not claim agreement on points a writer never mentions. Shared goals permit a limited synthesis, not an invented endorsement of every detail."
+      ],
+      "keyPoints": [
+        "Identify the shared goal before comparing differences.",
+        "Keep each reason attributed to the right writer.",
+        "Silence about a proposal does not equal rejection or support."
+      ]
+    },
+    "reading": {
+      "title": "Two Views on a Neighbourhood Map",
+      "summary": "Compare two original comments submitted to a community group.",
+      "body": [
+        "Comment A: The walking map should retain the local names residents use for lanes and meeting places. Those names carry memories that would disappear from a map using only building numbers. A short note can explain unfamiliar names to new visitors.",
+        "Comment B: A walking map succeeds when people can read it while moving around. The current version squeezes too much text into small spaces. I favour larger lettering and a separate panel for longer explanations. I am not asking for local names to be removed; I want those names to remain readable."
+      ],
+      "questions": [
+        {
+          "prompt": "What is the main difference in emphasis?",
+          "options": [
+            "A discusses bus fares, while B discusses weather.",
+            "A prioritises preserving local names, while B prioritises readability.",
+            "A rejects all visitors, while B rejects all residents.",
+            "A wants only numbers, while B bans explanations."
+          ],
+          "answer": 1,
+          "explanation": "A stresses the memory carried by names; B stresses a readable layout and separates longer notes.",
+          "hint": "Match each comment’s main proposal with its stated purpose."
+        },
+        {
+          "prompt": "Which design response addresses both comments?",
+          "options": [
+            "Delete every local name and every explanation.",
+            "Add longer notes in smaller letters over the routes.",
+            "Keep local names in larger type and place explanations in a separate panel.",
+            "Use building numbers alone and ignore the lettering size."
+          ],
+          "answer": 2,
+          "explanation": "This preserves A’s named places and B’s readable layout with explanations separated.",
+          "hint": "Find a change that retains both priorities."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Two Comments on an Audio Guide",
+      "summary": "Synthesize views and preserve a specific qualification.",
+      "body": [
+        "Reviewer A: Short audio tracks let me choose which objects to explore. I value that freedom, but each track should begin by clearly naming its object.",
+        "Reviewer B: The individual tracks are useful. However, a visitor who cannot listen to them needs the same information in readable transcripts. My support for keeping audio as a main feature depends on providing that alternative.",
+        "The museum is deciding what to revise. Neither reviewer comments on ticket prices or recommends removing objects from display."
+      ],
+      "questions": [
+        {
+          "prompt": "Which statement describes shared ground?",
+          "options": [
+            "Both reject short tracks in every case.",
+            "Both ask for cheaper tickets.",
+            "Both want all objects removed.",
+            "Both see value in individual audio tracks."
+          ],
+          "answer": 3,
+          "explanation": "A values choosing tracks and B calls the individual tracks useful. Their extra concerns differ.",
+          "hint": "Find positive statements in both comments."
+        },
+        {
+          "prompt": "What qualification does B attach to support for audio as a main feature?",
+          "options": [
+            "Equivalent readable transcripts should be provided.",
+            "Every track must last an hour.",
+            "Tickets should double in price.",
+            "Visitors should be required to listen."
+          ],
+          "answer": 0,
+          "explanation": "B’s support depends explicitly on an alternative for visitors who cannot listen.",
+          "hint": "Look for depends on."
+        },
+        {
+          "prompt": "Which revision combines the two reviewers’ requests?",
+          "options": [
+            "Change only the ticket design.",
+            "Begin tracks with object names and provide matching transcripts.",
+            "Remove object names from all displays.",
+            "Replace all tracks with unrelated music."
+          ],
+          "answer": 1,
+          "explanation": "Naming the object responds to A, and matching transcripts respond to B.",
+          "hint": "Keep each request linked to the reviewer who makes it."
+        },
+        {
+          "prompt": "Which claim about A would go beyond the text?",
+          "options": [
+            "A likes choosing objects to explore.",
+            "A wants clear object names at the start.",
+            "A opposes transcripts for other visitors.",
+            "A values the freedom offered by short tracks."
+          ],
+          "answer": 2,
+          "explanation": "A does not discuss transcripts, so opposition cannot be inferred from silence.",
+          "hint": "Check whether A expresses any view on transcripts."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t5-bm-sintesis-atribusi-berimbang",
+    "levelId": "t5",
+    "subjectId": "bm",
+    "note": {
+      "title": "Sintesis Berimbang dengan Atribusi Tepat",
+      "summary": "Gabungkan pandangan sambil mengekalkan pemilik idea, tujuan dan batasnya.",
+      "body": [
+        "Sintesis bukan sekadar memendekkan dua petikan secara berasingan. Sintesis menerangkan hubungan antara idea: persamaan tujuan, perbezaan keutamaan atau syarat yang membatasi sokongan. Atribusi memastikan pembaca tahu pihak yang mengemukakan setiap pandangan.",
+        "Contohnya, penulis A mahu hasil bengkel dipamerkan untuk menghargai usaha peserta. Penulis B bersetuju jika peserta boleh memilih karya yang dipamerkan. Sintesis yang tepat menyatakan sokongan bersama terhadap pameran, dengan B menekankan pilihan peserta.",
+        "Untuk membinanya, catat pendirian, alasan dan syarat setiap penulis. Gabungkan isi yang benar-benar berkaitan, kemudian periksa sama ada mana-mana syarat hilang atau berpindah kepada penulis yang salah.",
+        "Jangan mewujudkan pertentangan palsu. Sokongan bersyarat tidak semestinya penolakan. Pada masa yang sama, tujuan bersama tidak membuktikan kedua-dua penulis menyetujui semua kaedah yang dicadangkan."
+      ],
+      "keyPoints": [
+        "Cari hubungan antara pandangan, bukan hanya isi berasingan.",
+        "Kekalkan atribusi alasan dan syarat.",
+        "Elakkan pertentangan atau persetujuan yang tidak dinyatakan."
+      ]
+    },
+    "reading": {
+      "title": "Merakam Cerita Penduduk Lama",
+      "summary": "Bandingkan dua pandangan rekaan tentang projek sejarah lisan.",
+      "body": [
+        "Pandangan A: Rakaman cerita penduduk lama boleh memperkenalkan pengalaman setempat yang jarang terdapat dalam buku sekolah. Murid patut menemu bual pencerita daripada latar yang berbeza supaya projek tidak hanya mengulang pengalaman satu kumpulan.",
+        "Pandangan B: Saya menyokong usaha mengumpulkan cerita itu, tetapi penerbitan rakaman perlu memberi pencerita peluang menyemak bahagian yang akan dikongsi. Seseorang mungkin bersedia bercerita kepada penemu bual tanpa mahu semua butiran didengar oleh khalayak. Dalam projek ini, saya mencadangkan persetujuan berasingan untuk temu bual dan penerbitan. Rakaman yang tidak dipersetujui untuk siaran masih boleh dikecualikan daripada pameran awam."
+      ],
+      "questions": [
+        {
+          "prompt": "Sintesis manakah mengekalkan hubungan pandangan dengan tepat?",
+          "options": [
+            "A menolak temu bual, manakala B menuntut semua rakaman disiarkan.",
+            "Kedua-duanya menyokong pengumpulan cerita; A menekankan kepelbagaian pencerita, manakala B menekankan kawalan pencerita terhadap perkongsian.",
+            "Kedua-duanya menyatakan satu pencerita sudah mewakili semua penduduk.",
+            "B menolak semua bentuk sejarah lisan kerana buku sudah lengkap."
+          ],
+          "answer": 1,
+          "explanation": "Sintesis itu mengekalkan tujuan bersama serta keutamaan berbeza tanpa menukar sokongan B menjadi penolakan.",
+          "hint": "Pisahkan pendirian umum daripada syarat dan keutamaan setiap pihak."
+        },
+        {
+          "prompt": "Mengapakah B membezakan persetujuan temu bual daripada persetujuan penerbitan?",
+          "options": [
+            "B percaya rakaman tidak boleh difahami oleh sesiapa.",
+            "A melarang penggunaan buku sekolah.",
+            "Kesediaan berkongsi dengan penemu bual tidak semestinya merangkumi perkongsian kepada khalayak.",
+            "Semua pencerita sudah meminta seluruh rakaman dijual."
+          ],
+          "answer": 2,
+          "explanation": "B membezakan dua lingkungan perkongsian berdasarkan kehendak pencerita yang mungkin berbeza.",
+          "hint": "Bandingkan siapa yang mendengar pada dua peringkat itu."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Dua Cadangan untuk Antologi Murid",
+      "summary": "Gabungkan pendirian tentang pemilihan dan penyuntingan karya.",
+      "body": [
+        "Cadangan A: Antologi sekolah wajar memuatkan pelbagai genre, termasuk puisi, cerpen dan catatan pengalaman. Kepelbagaian itu memberi ruang kepada kekuatan penulis yang berbeza. Pemilihan tidak seharusnya terbatas pada pemenang pertandingan sahaja.",
+        "Cadangan B: Saya bersetuju membuka penyertaan dengan luas. Namun, setiap karya yang dipilih perlu melalui penyuntingan bersama penulis sebelum dicetak. Penyunting boleh mencadangkan kejelasan bahasa, tetapi perubahan besar pada maksud patut dibincangkan, bukan dibuat secara senyap. Saya belum memberikan pandangan tentang bilangan halaman antologi."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah persamaan yang disokong oleh kedua-dua cadangan?",
+          "options": [
+            "Hanya pemenang boleh menyertai.",
+            "Semua karya mesti mempunyai genre yang sama.",
+            "Penyunting patut menukar maksud secara senyap.",
+            "Penyertaan patut dibuka dengan luas."
+          ],
+          "answer": 3,
+          "explanation": "A menolak batas kepada pemenang sahaja, dan B menyatakan persetujuan terhadap penyertaan luas.",
+          "hint": "Cari dasar penyertaan yang sama."
+        },
+        {
+          "prompt": "Pernyataan manakah mengaitkan idea dengan pihak yang betul?",
+          "options": [
+            "A menekankan kepelbagaian genre; B menekankan penyuntingan bersama penulis.",
+            "A mahu menutup penyertaan; B hanya membincangkan puisi.",
+            "A menetapkan bilangan halaman; B menolak semua penyuntingan.",
+            "A mengizinkan perubahan senyap; B mengehadkan penyertaan kepada pemenang."
+          ],
+          "answer": 0,
+          "explanation": "A membincangkan keluasan genre dan peserta; B memperincikan proses semakan bersama penulis.",
+          "hint": "Semak siapa yang menyebut genre dan siapa yang menyebut penyunting."
+        },
+        {
+          "prompt": "Cadangan pelaksanaan manakah memenuhi kedua-dua pandangan?",
+          "options": [
+            "Pilih pemenang sahaja dan cetak tanpa semakan.",
+            "Terima pelbagai genre daripada penyertaan luas, kemudian semak karya terpilih bersama penulis.",
+            "Buang semua puisi dan ubah maksud tanpa berbincang.",
+            "Hentikan antologi kerana dua penulis mempunyai keutamaan berbeza."
+          ],
+          "answer": 1,
+          "explanation": "Langkah ini mengekalkan keluasan yang diminta A serta proses penyuntingan yang ditekankan B.",
+          "hint": "Pastikan langkah pemilihan dan penyuntingan kedua-duanya diliputi."
+        },
+        {
+          "prompt": "Rumusan manakah menambah persetujuan yang tidak dinyatakan?",
+          "options": [
+            "B menyokong penyertaan luas.",
+            "A melihat nilai dalam genre yang pelbagai.",
+            "Kedua-duanya bersetuju antologi mesti mempunyai tepat 100 halaman.",
+            "B mahu perubahan besar pada maksud dibincangkan."
+          ],
+          "answer": 2,
+          "explanation": "Tiada pihak menetapkan 100 halaman, dan B menyatakan bahawa bilangan halaman belum dibincangkannya.",
+          "hint": "Kenal dakwaan yang tidak mempunyai sokongan dalam mana-mana petikan."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t5-en-voice-and-self-presentation",
+    "levelId": "t5",
+    "subjectId": "en",
+    "note": {
+      "title": "Read the Gap Between Claims and Behaviour",
+      "summary": "Evaluate a narrator’s self-presentation using precise textual evidence.",
+      "body": [
+        "A first-person narrator offers a viewpoint rather than a complete, neutral account of every event. Compare what the narrator claims with the actions and details the narrative reveals. A contradiction may invite readers to question a particular claim.",
+        "For example, a narrator says, “I kept nothing for myself”, then mentions hiding the finest drawing in a desk. That detail challenges the claim of keeping nothing. It does not by itself prove the narrator has lied about every event.",
+        "Build an interpretation in stages: identify the claim, select the conflicting detail and explain the narrow inference they support. Consider how wording encourages sympathy or excuses a choice.",
+        "Do not replace evidence with a sweeping diagnosis of character. A defensible reading distinguishes an uncertain motive from a contradiction that the text actually establishes."
+      ],
+      "keyPoints": [
+        "Compare the narrator’s claims with reported actions.",
+        "Explain how a specific detail supports an interpretation.",
+        "Limit conclusions to what the contradiction establishes."
+      ]
+    },
+    "reading": {
+      "title": "The Photographs I Chose",
+      "summary": "Read an original first-person passage about curating family memory.",
+      "body": [
+        "I chose the photographs for the family wall with complete fairness, or so I told my brother. There were only six spaces. Naturally, the picture of me receiving my certificate belonged in the centre. My sister’s photograph showed her repairing our grandmother’s chair, but the background was untidy, so I left it in the envelope. When my brother suggested cropping it, I explained that we had already spent enough time on the arrangement. I found room for a second photograph of my own school ceremony. From the doorway, the wall looked wonderfully balanced. I decided that was what mattered."
+      ],
+      "questions": [
+        {
+          "prompt": "Which detail most strongly challenges the narrator’s claim of complete fairness?",
+          "options": [
+            "The wall can hold photographs.",
+            "The brother stands near an envelope.",
+            "The narrator rejects a way to include the sister while finding space for another personal achievement.",
+            "The family owns a chair."
+          ],
+          "answer": 2,
+          "explanation": "Rejecting cropping while adding a second personal photograph suggests the selection favours the narrator despite the fairness claim.",
+          "hint": "Compare the treatment of the sister’s picture with the narrator’s second picture."
+        },
+        {
+          "prompt": "What does the final emphasis on “balanced” most plausibly do?",
+          "options": [
+            "It shifts attention to appearance to justify a questionable selection.",
+            "It proves that the sister approved every choice.",
+            "It establishes the narrator as a professional architect.",
+            "It shows the brother destroyed the photographs."
+          ],
+          "answer": 0,
+          "explanation": "The narrator praises visual balance after choices that favour personal achievements, offering an appearance-based justification.",
+          "hint": "Connect the final judgement with the earlier dispute."
+        }
+      ]
+    },
+    "practice": {
+      "title": "The Draft Nobody Needed to See",
+      "summary": "Evaluate a different narrator’s account of writing a speech.",
+      "body": [
+        "“The speech came to me in one clear rush,” I told the club, and they applauded. In my bag lay a notebook filled with crossed-out openings. Leena’s pencilled question beside the fifth draft—“What do you actually want the audience to do?”—had led me to rewrite the ending. I thanked her afterwards for lending me a pen. When she glanced at the notebook, I slipped it beneath the programme. There was no need, I thought, to trouble everyone with the untidy details of inspiration."
+      ],
+      "questions": [
+        {
+          "prompt": "Which evidence most directly contradicts “one clear rush”?",
+          "options": [
+            "The club applauded.",
+            "The narrator carried a bag.",
+            "Leena owned a pen.",
+            "The notebook contained multiple revised openings and a fifth draft."
+          ],
+          "answer": 3,
+          "explanation": "Several drafts and crossed-out openings show a process of revision, conflicting with the claim of a single clear burst.",
+          "hint": "Look for concrete traces of the writing process."
+        },
+        {
+          "prompt": "What contribution did Leena make beyond lending a pen?",
+          "options": [
+            "She delivered the speech herself.",
+            "Her question prompted the narrator to rewrite the ending.",
+            "She printed every club programme.",
+            "She organised the audience’s applause."
+          ],
+          "answer": 1,
+          "explanation": "Her pencilled question led to a rewritten ending, which is a substantive contribution to the speech.",
+          "hint": "Trace what happened because of her written question."
+        },
+        {
+          "prompt": "Which interpretation of hiding the notebook is best supported?",
+          "options": [
+            "The narrator wants to protect the image of effortless, independent inspiration.",
+            "The narrator knows the club forbids notebooks.",
+            "Leena has ordered the notebook to be destroyed.",
+            "The audience has already read every draft aloud."
+          ],
+          "answer": 0,
+          "explanation": "The notebook exposes revisions and Leena’s help, so concealing it fits the self-presentation established by the opening claim.",
+          "hint": "Connect the hidden evidence with the image the narrator presents publicly."
+        },
+        {
+          "prompt": "Which conclusion would be too broad?",
+          "options": [
+            "The speech went through revisions.",
+            "The narrator understates Leena’s contribution.",
+            "The narrator has never told the truth about anything in life.",
+            "The audience applauded the narrator’s account."
+          ],
+          "answer": 2,
+          "explanation": "This passage challenges specific claims about the speech, not every statement the narrator has ever made.",
+          "hint": "Keep the inference limited to the evidence in this scene."
+        }
+      ]
+    }
+  }
+]

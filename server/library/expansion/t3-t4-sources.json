@@ -1,0 +1,86 @@
+{
+  "grades": [
+    "t3",
+    "t4"
+  ],
+  "checkedAt": "2026-09-10",
+  "authorship": "Semua nota, bacaan kes dan soalan ditulis sebagai kandungan asal Study. Tiada teks buku atau ilustrasi pihak ketiga disalin.",
+  "sourceIds": [
+    "kpm-kssm"
+  ],
+  "sources": [
+    {
+      "url": "https://repositori.bpk.moe-dl.edu.my/utama",
+      "publisher": "Bahagian Pembangunan Kurikulum, KPM",
+      "verified": "Halaman repositori dibuka dan identiti BPK/KPM disahkan.",
+      "use": "Pintu rujukan kurikulum KSSM; bukan pengesahan automatik setiap standard pembelajaran."
+    },
+    {
+      "url": "https://sites.google.com/moe-dl.edu.my/matematiksedaka/modul/tingkatan-3",
+      "publisher": "Laman pendidikan Matematik Sedaka pada domain DELIMa",
+      "verified": "Senarai bab T3 dibuka: indeks, bentuk piawai, matematik pengguna, lukisan berskala, nisbah trigonometri, sudut/tangen bulatan, pelan/dongakan, lokus dan garis lurus.",
+      "use": "Membezakan skop Matematik T3 daripada T4. Tiada modul lampiran disalin."
+    },
+    {
+      "url": "https://sites.google.com/moe-dl.edu.my/sitepembelajaransainst4smktr/home/penyenggaraan-dan-kesinambungan-hidup/genetik",
+      "publisher": "Laman pembelajaran Sains T4/T5 pada domain DELIMa",
+      "verified": "Halaman genetik T4 dibuka; pautan mitosis, meiosis, pewarisan dan mutasi kelihatan.",
+      "use": "Semakan skop unit genetik T4; kandungan latihan asal."
+    },
+    {
+      "url": "https://sites.google.com/moe-dl.edu.my/ayie-azhari/video/didik-tv-kpm",
+      "publisher": "Lepak Sejarah, indeks Didik TV KPM",
+      "verified": "Halaman dibuka dan tajuk T4 nasionalisme, konflik dunia serta pendudukan Jepun kelihatan.",
+      "use": "Semakan pembahagian topik Sejarah T4; video tidak ditranskripsi."
+    },
+    {
+      "url": "https://sites.google.com/moe-dl.edu.my/cikgu-hanita-binti-ladjaharun/student-sites",
+      "publisher": "Laman guru pada domain DELIMa",
+      "verified": "Hasil carian memaparkan T4 Warisan Negara Bangsa, Kebangkitan Nasionalisme, pendudukan Jepun, Malayan Union dan Persekutuan 1948.",
+      "use": "Semakan tambahan senarai bab; bukan penerbitan pusat BPK."
+    }
+  ],
+  "topicMapping": {
+    "t3": {
+      "math": "Indeks; bentuk piawai; faedah/simpanan/kredit; trigonometri; bulatan; pelan/dongakan; lokus; garis lurus.",
+      "science": "Rangsangan dan gerak balas; respirasi; pengangkutan; kereaktifan logam; termokimia; tenaga elektrik; kerja/kuasa; cuaca angkasa.",
+      "bm": "Pemahaman tersurat/inferens; fakta-pendapat; ringkasan; ayat aktif/pasif; klausa relatif; penanda wacana; kesantunan dan peribahasa.",
+      "en": "Reading comprehension, notices, tense relationships, advice, comparison, relative clauses, reported speech, first conditional, summarising.",
+      "history": "Kedatangan kuasa Barat; negeri Selat/bersekutu/tidak bersekutu; Sarawak/Sabah; ekonomi kolonial; penentangan dan diplomasi.",
+      "geo": "Kemahiran jadual/carta pai; vegetasi/hutan; hidupan liar; sumber; kegiatan ekonomi; pelancongan dan kitar semula.",
+      "islam": "Pengayaan adab dan akhlak: syukur, tawaduk, komunikasi, musafir, ikhtiar/tawakal, sedekah, amanah, persaudaraan, muhasabah.",
+      "moral": "Diri, keluarga, persahabatan, kemudahan awam, kepelbagaian dan tanggungjawab sosial dalam situasi konkrit."
+    },
+    "t4": {
+      "math": "Kuadratik; asas nombor; penaakulan; set; rangkaian; ketaksamaan; graf gerakan; sebaran data; kebarangkalian bergabung.",
+      "science": "Keselamatan makmal; parameter kesihatan; teknologi hijau; genetik; sokongan/pergerakan; hormon; atom/isotop; aloi.",
+      "bm": "Penilaian hujah; sintesis sumber; sanggahan; kohesi; ketepatan laporan; nada, metafora, konflik watak, bias bahasa.",
+      "en": "Critical reading, sample limitations, counterarguments, cautious language, formal complaints, passive process writing, second conditional, concessions, paraphrasing.",
+      "history": "Warisan negara bangsa; nasionalisme; konflik dunia/Jepun; Malayan Union; Persekutuan 1948; Darurat; Sistem Ahli; pilihan raya 1955; perlembagaan dan kemerdekaan 1957.",
+      "geo": "Grid; kontur/profil; struktur Bumi; tektonik; batuan; luluhawa; gerakan jisim; sungai.",
+      "islam": "Pengayaan aplikasi akhlak: berdikari, wasatiyyah, tabayyun, amanah kuasa, adab ziarah, hormat OKU, muamalah, islah dan alam.",
+      "moral": "Dilema berlapis: integriti data, privasi, akses, konflik kepentingan, kebebasan bersuara, pengguna, komuniti, maklumat palsu dan pihak berkepentingan."
+    }
+  },
+  "limitations": [
+    "Tiada kelulusan formal pendidik atau pemetaan kod DSKP bagi setiap unit. Pemetaan BM/English/Islam/Moral ialah cadangan kemahiran dan pengayaan, bukan dakwaan semua judul ialah bab rasmi gred tersebut.",
+    "Sumber domain DELIMa termasuk laman guru/sekolah; ia tidak dianggap semuanya dokumen rasmi BPK. Semakan lengkap setiap PDF DSKP belum dilakukan.",
+    "Bacaan ialah micro-reading kes/rujukan ringkas (T3 55–106 perkataan; T4 56–98 perkataan), bukan 160–240 perkataan atau buku panjang. Panjang tidak ditambah dengan padding.",
+    "Setiap unit mempunyai dua soalan pemahaman langsung dan empat soalan melengkapkan pernyataan. Ini latihan berpandu dengan bukti, bukan bank format peperiksaan lengkap.",
+    "Semakan automatik membuktikan struktur dan padanan petikan sahaja. Ia tidak membuktikan ketepatan pedagogi atau liputan keseluruhan sukatan."
+  ],
+  "checks": {
+    "newUnitsPerGrade": 92,
+    "newQuestionsPerGrade": 552,
+    "noteParagraphsPerUnit": 3,
+    "noteKeyPointsPerUnit": 3,
+    "distinctNoteBodies": true,
+    "minimumNonClozePerUnit": 2,
+    "exactEvidenceAllQuestions": true,
+    "structuralErrors": 0,
+    "withinGradeNearDuplicates": 0,
+    "crossGradeNearDuplicates": 0,
+    "sharedNoteBodies": 0,
+    "independentReview": "Semakan sampel 16 unit subjek dan semua 28 unit Matematik oleh agent expand_d1_d2. Tiga kekaburan dibetulkan: pelengkap set (neither), pilihan sinonim Islam berdikari dan pilihan sinonim Moral integriti."
+  }
+}

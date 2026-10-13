@@ -1,0 +1,938 @@
+{
+  "status": "draft-content-review-required",
+  "accessed": "2026-09-10",
+  "authorship": "176 original Study units; no book text or third-party illustrations copied",
+  "sources": [
+    {
+      "id": "kpm-sumberku",
+      "url": "https://sumberku.moe-dl.edu.my/self",
+      "verified": "Official KPM page lists primary English Years 1–6, Year 5 Islam-in-Malaysia history, Jata Negara and community responsibility resources. Its index alone does not certify every authored topic or question.",
+      "topicMapping": {
+        "en": "primary language enrichment; exact grammar progression is editorial and needs DSKP review",
+        "d5-history": "Islam heritage and Jata Negara topic discovery",
+        "d6-history": "national belonging topic discovery",
+        "d5-moral": "community responsibility topic discovery"
+      },
+      "rights": "Reference/discovery only; no reuse licence assumed"
+    },
+    {
+      "url": "https://bpk.moe.gov.my/",
+      "verified": "Official BPK homepage exposes KSSR and repository links",
+      "topicMapping": "curriculum authority and next-step standard verification",
+      "rights": "Reference only"
+    }
+  ],
+  "limitations": [
+    "No claim of full KSSR or current DSKP standard coverage.",
+    "No teacher approval or exact learning-standard codes verified.",
+    "Reading passages vary in length; concise concept articles and worked examples are intentional, not padded to a word target.",
+    "All exact evidence and answer positions are mechanically checked; this does not replace educator review.",
+    "Islam content focuses on general adab and values rather than detailed legal rulings; source index is pedagogical reference, not a quotation source."
+  ],
+  "coverage": {
+    "d5": {
+      "bm": 14,
+      "math": 14,
+      "en": 14,
+      "science": 14,
+      "history": 10,
+      "moral": 11,
+      "islam": 11
+    },
+    "d6": {
+      "en": 14,
+      "science": 14,
+      "history": 10,
+      "bm": 14,
+      "math": 14,
+      "moral": 11,
+      "islam": 11
+    }
+  },
+  "units": {
+    "d5": [
+      {
+        "id": "library-d5-bm-exp-laporan-kebun-sekolah",
+        "topic": "Laporan kebun sekolah",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d5-bm-exp-surat-permohonan-lawatan",
+        "topic": "Surat permohonan lawatan",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d5-bm-exp-idea-utama-tentang-kompos",
+        "topic": "Idea utama tentang kompos",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d5-bm-exp-kata-hubung-dalam-gotong-royong",
+        "topic": "Kata hubung dalam gotong-royong",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d5-bm-exp-penjodoh-bilangan-di-bengkel",
+        "topic": "Penjodoh bilangan di bengkel",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d5-bm-exp-kata-adjektif-pameran-tekstil",
+        "topic": "Kata adjektif pameran tekstil",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d5-bm-exp-dialog-meminta-penjelasan",
+        "topic": "Dialog meminta penjelasan",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d5-bm-exp-pantun-penjagaan-sungai",
+        "topic": "Pantun penjagaan sungai",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d5-bm-exp-peribahasa-kerjasama-kelas",
+        "topic": "Peribahasa kerjasama kelas",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d5-bm-exp-ayat-aktif-dalam-dapur-komuniti",
+        "topic": "Ayat aktif dalam dapur komuniti",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d5-bm-exp-ayat-pasif-dalam-bilik-seni",
+        "topic": "Ayat pasif dalam bilik seni",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d5-bm-exp-fakta-dan-pendapat-tentang-muzium",
+        "topic": "Fakta dan pendapat tentang muzium",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d5-bm-exp-ringkasan-arahan-perkhemahan",
+        "topic": "Ringkasan arahan perkhemahan",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d5-bm-exp-kapsyen-foto-penuaian",
+        "topic": "Kapsyen foto penuaian",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d5-math-exp-nilai-tempat-koleksi-setem",
+        "topic": "Nilai tempat koleksi setem",
+        "subject": "math"
+      },
+      {
+        "id": "library-d5-math-exp-anggaran-penghantaran-buku",
+        "topic": "Anggaran penghantaran buku",
+        "subject": "math"
+      },
+      {
+        "id": "library-d5-math-exp-pecahan-dulang-kuih",
+        "topic": "Pecahan dulang kuih",
+        "subject": "math"
+      },
+      {
+        "id": "library-d5-math-exp-perpuluhan-panjang-reben",
+        "topic": "Perpuluhan panjang reben",
+        "subject": "math"
+      },
+      {
+        "id": "library-d5-math-exp-peratus-kehadiran-bengkel",
+        "topic": "Peratus kehadiran bengkel",
+        "subject": "math"
+      },
+      {
+        "id": "library-d5-math-exp-wang-tabung-lawatan",
+        "topic": "Wang tabung lawatan",
+        "subject": "math"
+      },
+      {
+        "id": "library-d5-math-exp-tempoh-pameran-mini",
+        "topic": "Tempoh pameran mini",
+        "subject": "math"
+      },
+      {
+        "id": "library-d5-math-exp-penukaran-jisim-bungkusan",
+        "topic": "Penukaran jisim bungkusan",
+        "subject": "math"
+      },
+      {
+        "id": "library-d5-math-exp-isi-padu-air-siraman",
+        "topic": "Isi padu air siraman",
+        "subject": "math"
+      },
+      {
+        "id": "library-d5-math-exp-perimeter-gelanggang-kecil",
+        "topic": "Perimeter gelanggang kecil",
+        "subject": "math"
+      },
+      {
+        "id": "library-d5-math-exp-luas-lantai-sudut-bacaan",
+        "topic": "Luas lantai sudut bacaan",
+        "subject": "math"
+      },
+      {
+        "id": "library-d5-math-exp-isi-padu-kotak-kubus-unit",
+        "topic": "Isi padu kotak kubus unit",
+        "subject": "math"
+      },
+      {
+        "id": "library-d5-math-exp-purata-buku-mingguan",
+        "topic": "Purata buku mingguan",
+        "subject": "math"
+      },
+      {
+        "id": "library-d5-math-exp-membaca-piktograf-basikal",
+        "topic": "Membaca piktograf basikal",
+        "subject": "math"
+      },
+      {
+        "id": "library-d5-en-exp-past-actions-at-the-nature-centre",
+        "topic": "Past actions at the nature centre",
+        "subject": "en"
+      },
+      {
+        "id": "library-d5-en-exp-irregular-verbs-in-a-sports-diary",
+        "topic": "Irregular verbs in a sports diary",
+        "subject": "en"
+      },
+      {
+        "id": "library-d5-en-exp-comparing-shelters",
+        "topic": "Comparing shelters",
+        "subject": "en"
+      },
+      {
+        "id": "library-d5-en-exp-superlatives-at-the-school-fair",
+        "topic": "Superlatives at the school fair",
+        "subject": "en"
+      },
+      {
+        "id": "library-d5-en-exp-how-much-and-how-many",
+        "topic": "How much and how many",
+        "subject": "en"
+      },
+      {
+        "id": "library-d5-en-exp-some-and-any-in-a-picnic-plan",
+        "topic": "Some and any in a picnic plan",
+        "subject": "en"
+      },
+      {
+        "id": "library-d5-en-exp-advice-for-a-walking-trip",
+        "topic": "Advice for a walking trip",
+        "subject": "en"
+      },
+      {
+        "id": "library-d5-en-exp-future-plans-for-a-performance",
+        "topic": "Future plans for a performance",
+        "subject": "en"
+      },
+      {
+        "id": "library-d5-en-exp-where-the-lost-property-is-kept",
+        "topic": "Where the lost property is kept",
+        "subject": "en"
+      },
+      {
+        "id": "library-d5-en-exp-adverbs-in-a-library-scene",
+        "topic": "Adverbs in a library scene",
+        "subject": "en"
+      },
+      {
+        "id": "library-d5-en-exp-joining-reasons-in-a-poster",
+        "topic": "Joining reasons in a poster",
+        "subject": "en"
+      },
+      {
+        "id": "library-d5-en-exp-sequence-words-in-a-recipe",
+        "topic": "Sequence words in a recipe",
+        "subject": "en"
+      },
+      {
+        "id": "library-d5-en-exp-pronouns-in-a-team-message",
+        "topic": "Pronouns in a team message",
+        "subject": "en"
+      },
+      {
+        "id": "library-d5-en-exp-reading-a-simple-invitation",
+        "topic": "Reading a simple invitation",
+        "subject": "en"
+      },
+      {
+        "id": "library-d5-science-exp-rangka-menyokong-tubuh",
+        "topic": "Rangka menyokong tubuh",
+        "subject": "science"
+      },
+      {
+        "id": "library-d5-science-exp-laluan-darah-dan-keperluan-tubuh",
+        "topic": "Laluan darah dan keperluan tubuh",
+        "subject": "science"
+      },
+      {
+        "id": "library-d5-science-exp-hubungan-antara-sistem-tubuh",
+        "topic": "Hubungan antara sistem tubuh",
+        "subject": "science"
+      },
+      {
+        "id": "library-d5-science-exp-haiwan-melindungi-diri",
+        "topic": "Haiwan melindungi diri",
+        "subject": "science"
+      },
+      {
+        "id": "library-d5-science-exp-kelangsungan-anak-haiwan",
+        "topic": "Kelangsungan anak haiwan",
+        "subject": "science"
+      },
+      {
+        "id": "library-d5-science-exp-biji-benih-mengembara",
+        "topic": "Biji benih mengembara",
+        "subject": "science"
+      },
+      {
+        "id": "library-d5-science-exp-rantaian-makanan-sawah",
+        "topic": "Rantaian makanan sawah",
+        "subject": "science"
+      },
+      {
+        "id": "library-d5-science-exp-cahaya-bergerak-lurus",
+        "topic": "Cahaya bergerak lurus",
+        "subject": "science"
+      },
+      {
+        "id": "library-d5-science-exp-pantulan-pada-cermin",
+        "topic": "Pantulan pada cermin",
+        "subject": "science"
+      },
+      {
+        "id": "library-d5-science-exp-pembiasan-dalam-bekas-jernih",
+        "topic": "Pembiasan dalam bekas jernih",
+        "subject": "science"
+      },
+      {
+        "id": "library-d5-science-exp-litar-lengkap-lampu-kecil",
+        "topic": "Litar lengkap lampu kecil",
+        "subject": "science"
+      },
+      {
+        "id": "library-d5-science-exp-haba-dan-perubahan-suhu",
+        "topic": "Haba dan perubahan suhu",
+        "subject": "science"
+      },
+      {
+        "id": "library-d5-science-exp-perubahan-keadaan-air",
+        "topic": "Perubahan keadaan air",
+        "subject": "science"
+      },
+      {
+        "id": "library-d5-science-exp-pengaratan-dan-perlindungan-logam",
+        "topic": "Pengaratan dan perlindungan logam",
+        "subject": "science"
+      },
+      {
+        "id": "library-d5-history-exp-memahami-institusi-raja",
+        "topic": "Memahami institusi raja",
+        "subject": "history"
+      },
+      {
+        "id": "library-d5-history-exp-islam-dalam-warisan-malaysia",
+        "topic": "Islam dalam warisan Malaysia",
+        "subject": "history"
+      },
+      {
+        "id": "library-d5-history-exp-bahasa-melayu-dalam-masyarakat",
+        "topic": "Bahasa Melayu dalam masyarakat",
+        "subject": "history"
+      },
+      {
+        "id": "library-d5-history-exp-campur-tangan-kuasa-luar",
+        "topic": "Campur tangan kuasa luar",
+        "subject": "history"
+      },
+      {
+        "id": "library-d5-history-exp-tokoh-penentangan-tempatan",
+        "topic": "Tokoh penentangan tempatan",
+        "subject": "history"
+      },
+      {
+        "id": "library-d5-history-exp-jalan-menuju-kemerdekaan",
+        "topic": "Jalan menuju kemerdekaan",
+        "subject": "history"
+      },
+      {
+        "id": "library-d5-history-exp-jata-negara-dan-makna-lambang",
+        "topic": "Jata Negara dan makna lambang",
+        "subject": "history"
+      },
+      {
+        "id": "library-d5-history-exp-jalur-gemilang-sebagai-identiti",
+        "topic": "Jalur Gemilang sebagai identiti",
+        "subject": "history"
+      },
+      {
+        "id": "library-d5-history-exp-negaraku-dan-penghormatan",
+        "topic": "Negaraku dan penghormatan",
+        "subject": "history"
+      },
+      {
+        "id": "library-d5-history-exp-bunga-raya-dalam-warisan-negara",
+        "topic": "Bunga raya dalam warisan negara",
+        "subject": "history"
+      },
+      {
+        "id": "library-d5-moral-exp-amanah-kotak-derma-kelas",
+        "topic": "Amanah kotak derma kelas",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d5-moral-exp-adil-menggunakan-padang",
+        "topic": "Adil menggunakan padang",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d5-moral-exp-empati-kepada-murid-baharu",
+        "topic": "Empati kepada murid baharu",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d5-moral-exp-berani-melaporkan-kerosakan",
+        "topic": "Berani melaporkan kerosakan",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d5-moral-exp-hormat-perbezaan-makanan",
+        "topic": "Hormat perbezaan makanan",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d5-moral-exp-bertanggungjawab-terhadap-pinjaman",
+        "topic": "Bertanggungjawab terhadap pinjaman",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d5-moral-exp-kerjasama-projek-peta",
+        "topic": "Kerjasama projek peta",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d5-moral-exp-kesederhanaan-ketika-sambutan",
+        "topic": "Kesederhanaan ketika sambutan",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d5-moral-exp-harga-diri-dalam-persahabatan",
+        "topic": "Harga diri dalam persahabatan",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d5-moral-exp-rajin-tanpa-mengabaikan-rehat",
+        "topic": "Rajin tanpa mengabaikan rehat",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d5-moral-exp-menghargai-pekerja-sekolah",
+        "topic": "Menghargai pekerja sekolah",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d5-islam-exp-adab-menuntut-ilmu-bersama",
+        "topic": "Adab menuntut ilmu bersama",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d5-islam-exp-amanah-menjaga-alatan-surau",
+        "topic": "Amanah menjaga alatan surau",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d5-islam-exp-syukur-melalui-penjagaan-nikmat",
+        "topic": "Syukur melalui penjagaan nikmat",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d5-islam-exp-adab-menyantuni-tetamu",
+        "topic": "Adab menyantuni tetamu",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d5-islam-exp-hormat-ibu-bapa-melalui-komunikasi",
+        "topic": "Hormat ibu bapa melalui komunikasi",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d5-islam-exp-ihsan-terhadap-haiwan",
+        "topic": "Ihsan terhadap haiwan",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d5-islam-exp-kebersihan-ruang-ibadah",
+        "topic": "Kebersihan ruang ibadah",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d5-islam-exp-menepati-janji-membantu-rakan",
+        "topic": "Menepati janji membantu rakan",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d5-islam-exp-adab-membaca-al-quran",
+        "topic": "Adab membaca al-Quran",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d5-islam-exp-sabar-ketika-belajar-kemahiran",
+        "topic": "Sabar ketika belajar kemahiran",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d5-islam-exp-adab-memberi-dan-menerima-nasihat",
+        "topic": "Adab memberi dan menerima nasihat",
+        "subject": "islam"
+      }
+    ],
+    "d6": [
+      {
+        "id": "library-d6-en-exp-present-perfect-and-a-reading-log",
+        "topic": "Present perfect and a reading log",
+        "subject": "en"
+      },
+      {
+        "id": "library-d6-en-exp-first-conditional-in-an-event-plan",
+        "topic": "First conditional in an event plan",
+        "subject": "en"
+      },
+      {
+        "id": "library-d6-en-exp-relative-clauses-about-volunteers",
+        "topic": "Relative clauses about volunteers",
+        "subject": "en"
+      },
+      {
+        "id": "library-d6-en-exp-passive-descriptions-of-a-display",
+        "topic": "Passive descriptions of a display",
+        "subject": "en"
+      },
+      {
+        "id": "library-d6-en-exp-although-in-balanced-opinions",
+        "topic": "Although in balanced opinions",
+        "subject": "en"
+      },
+      {
+        "id": "library-d6-en-exp-reported-instructions-for-a-project",
+        "topic": "Reported instructions for a project",
+        "subject": "en"
+      },
+      {
+        "id": "library-d6-en-exp-modal-verbs-and-degrees-of-certainty",
+        "topic": "Modal verbs and degrees of certainty",
+        "subject": "en"
+      },
+      {
+        "id": "library-d6-en-exp-editing-subject-and-verb-agreement",
+        "topic": "Editing subject and verb agreement",
+        "subject": "en"
+      },
+      {
+        "id": "library-d6-en-exp-choosing-a-title-for-an-information-text",
+        "topic": "Choosing a title for an information text",
+        "subject": "en"
+      },
+      {
+        "id": "library-d6-en-exp-distinguishing-fact-from-opinion",
+        "topic": "Distinguishing fact from opinion",
+        "subject": "en"
+      },
+      {
+        "id": "library-d6-en-exp-evidence-for-an-inference",
+        "topic": "Evidence for an inference",
+        "subject": "en"
+      },
+      {
+        "id": "library-d6-en-exp-writing-an-email-with-a-clear-request",
+        "topic": "Writing an email with a clear request",
+        "subject": "en"
+      },
+      {
+        "id": "library-d6-en-exp-summarising-a-conservation-report",
+        "topic": "Summarising a conservation report",
+        "subject": "en"
+      },
+      {
+        "id": "library-d6-en-exp-linking-a-recommendation-to-evidence",
+        "topic": "Linking a recommendation to evidence",
+        "subject": "en"
+      },
+      {
+        "id": "library-d6-science-exp-pembiakan-manusia-secara-asas",
+        "topic": "Pembiakan manusia secara asas",
+        "subject": "science"
+      },
+      {
+        "id": "library-d6-science-exp-sistem-saraf-dan-gerak-balas",
+        "topic": "Sistem saraf dan gerak balas",
+        "subject": "science"
+      },
+      {
+        "id": "library-d6-science-exp-mikroorganisma-dalam-kehidupan",
+        "topic": "Mikroorganisma dalam kehidupan",
+        "subject": "science"
+      },
+      {
+        "id": "library-d6-science-exp-persaingan-tumbuhan",
+        "topic": "Persaingan tumbuhan",
+        "subject": "science"
+      },
+      {
+        "id": "library-d6-science-exp-interaksi-antara-haiwan",
+        "topic": "Interaksi antara haiwan",
+        "subject": "science"
+      },
+      {
+        "id": "library-d6-science-exp-pemeliharaan-habitat",
+        "topic": "Pemeliharaan habitat",
+        "subject": "science"
+      },
+      {
+        "id": "library-d6-science-exp-daya-mengubah-gerakan",
+        "topic": "Daya mengubah gerakan",
+        "subject": "science"
+      },
+      {
+        "id": "library-d6-science-exp-geseran-dan-permukaan",
+        "topic": "Geseran dan permukaan",
+        "subject": "science"
+      },
+      {
+        "id": "library-d6-science-exp-kelajuan-perjalanan-basikal",
+        "topic": "Kelajuan perjalanan basikal",
+        "subject": "science"
+      },
+      {
+        "id": "library-d6-science-exp-pengawetan-makanan",
+        "topic": "Pengawetan makanan",
+        "subject": "science"
+      },
+      {
+        "id": "library-d6-science-exp-pengurusan-sisa-pepejal",
+        "topic": "Pengurusan sisa pepejal",
+        "subject": "science"
+      },
+      {
+        "id": "library-d6-science-exp-gerhana-melalui-model",
+        "topic": "Gerhana melalui model",
+        "subject": "science"
+      },
+      {
+        "id": "library-d6-science-exp-buruj-sebagai-pola-bintang",
+        "topic": "Buruj sebagai pola bintang",
+        "subject": "science"
+      },
+      {
+        "id": "library-d6-science-exp-kestabilan-dan-kekuatan-struktur",
+        "topic": "Kestabilan dan kekuatan struktur",
+        "subject": "science"
+      },
+      {
+        "id": "library-d6-history-exp-pembentukan-malaysia",
+        "topic": "Pembentukan Malaysia",
+        "subject": "history"
+      },
+      {
+        "id": "library-d6-history-exp-negeri-dan-wilayah-persekutuan",
+        "topic": "Negeri dan Wilayah Persekutuan",
+        "subject": "history"
+      },
+      {
+        "id": "library-d6-history-exp-rukun-negara-sebagai-panduan",
+        "topic": "Rukun Negara sebagai panduan",
+        "subject": "history"
+      },
+      {
+        "id": "library-d6-history-exp-masyarakat-berbilang-kaum",
+        "topic": "Masyarakat berbilang kaum",
+        "subject": "history"
+      },
+      {
+        "id": "library-d6-history-exp-perayaan-dan-muhibah",
+        "topic": "Perayaan dan muhibah",
+        "subject": "history"
+      },
+      {
+        "id": "library-d6-history-exp-permainan-tradisional-sebagai-warisan",
+        "topic": "Permainan tradisional sebagai warisan",
+        "subject": "history"
+      },
+      {
+        "id": "library-d6-history-exp-sukan-dan-identiti-negara",
+        "topic": "Sukan dan identiti negara",
+        "subject": "history"
+      },
+      {
+        "id": "library-d6-history-exp-kegiatan-ekonomi-dalam-sejarah",
+        "topic": "Kegiatan ekonomi dalam sejarah",
+        "subject": "history"
+      },
+      {
+        "id": "library-d6-history-exp-malaysia-dan-hubungan-antarabangsa",
+        "topic": "Malaysia dan hubungan antarabangsa",
+        "subject": "history"
+      },
+      {
+        "id": "library-d6-history-exp-membandingkan-sumber-sejarah",
+        "topic": "Membandingkan sumber sejarah",
+        "subject": "history"
+      },
+      {
+        "id": "library-d6-bm-exp-hujah-memilih-pengangkutan-lawatan",
+        "topic": "Hujah memilih pengangkutan lawatan",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d6-bm-exp-menyunting-pengumuman-pertandingan",
+        "topic": "Menyunting pengumuman pertandingan",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d6-bm-exp-membina-rumusan-daripada-dua-petikan",
+        "topic": "Membina rumusan daripada dua petikan",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d6-bm-exp-inferens-daripada-catatan-pertandingan",
+        "topic": "Inferens daripada catatan pertandingan",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d6-bm-exp-kohesi-dalam-esei-alam-sekitar",
+        "topic": "Kohesi dalam esei alam sekitar",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d6-bm-exp-bahasa-iklan-dan-tuntutan-bukti",
+        "topic": "Bahasa iklan dan tuntutan bukti",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d6-bm-exp-temu-bual-penjaga-warisan",
+        "topic": "Temu bual penjaga warisan",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d6-bm-exp-petikan-langsung-dan-parafrasa",
+        "topic": "Petikan langsung dan parafrasa",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d6-bm-exp-membandingkan-dua-cadangan-kantin",
+        "topic": "Membandingkan dua cadangan kantin",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d6-bm-exp-ucapan-penghargaan-sukarelawan",
+        "topic": "Ucapan penghargaan sukarelawan",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d6-bm-exp-laporan-penyiasatan-longkang-tersumbat",
+        "topic": "Laporan penyiasatan longkang tersumbat",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d6-bm-exp-menganalisis-watak-melalui-tindakan",
+        "topic": "Menganalisis watak melalui tindakan",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d6-bm-exp-maksud-tersurat-dan-tersirat",
+        "topic": "Maksud tersurat dan tersirat",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d6-bm-exp-meringkaskan-minit-mesyuarat",
+        "topic": "Meringkaskan minit mesyuarat",
+        "subject": "bm"
+      },
+      {
+        "id": "library-d6-math-exp-nisbah-bahan-minuman",
+        "topic": "Nisbah bahan minuman",
+        "subject": "math"
+      },
+      {
+        "id": "library-d6-math-exp-kadar-cetakan-risalah",
+        "topic": "Kadar cetakan risalah",
+        "subject": "math"
+      },
+      {
+        "id": "library-d6-math-exp-koordinat-laluan-robot",
+        "topic": "Koordinat laluan robot",
+        "subject": "math"
+      },
+      {
+        "id": "library-d6-math-exp-skala-pelan-taman",
+        "topic": "Skala pelan taman",
+        "subject": "math"
+      },
+      {
+        "id": "library-d6-math-exp-diskaun-peralatan-kelab",
+        "topic": "Diskaun peralatan kelab",
+        "subject": "math"
+      },
+      {
+        "id": "library-d6-math-exp-untung-jualan-penanda-buku",
+        "topic": "Untung jualan penanda buku",
+        "subject": "math"
+      },
+      {
+        "id": "library-d6-math-exp-jadual-perjalanan-dengan-persinggahan",
+        "topic": "Jadual perjalanan dengan persinggahan",
+        "subject": "math"
+      },
+      {
+        "id": "library-d6-math-exp-kelajuan-purata-kereta-model",
+        "topic": "Kelajuan purata kereta model",
+        "subject": "math"
+      },
+      {
+        "id": "library-d6-math-exp-luas-gabungan-dua-ruang",
+        "topic": "Luas gabungan dua ruang",
+        "subject": "math"
+      },
+      {
+        "id": "library-d6-math-exp-isi-padu-gabungan-blok",
+        "topic": "Isi padu gabungan blok",
+        "subject": "math"
+      },
+      {
+        "id": "library-d6-math-exp-min-dengan-data-belum-lengkap",
+        "topic": "Min dengan data belum lengkap",
+        "subject": "math"
+      },
+      {
+        "id": "library-d6-math-exp-carta-pai-pilihan-kelab",
+        "topic": "Carta pai pilihan kelab",
+        "subject": "math"
+      },
+      {
+        "id": "library-d6-math-exp-pecahan-bahagi-bekas-cat",
+        "topic": "Pecahan bahagi bekas cat",
+        "subject": "math"
+      },
+      {
+        "id": "library-d6-math-exp-bajet-beberapa-pilihan-projek",
+        "topic": "Bajet beberapa pilihan projek",
+        "subject": "math"
+      },
+      {
+        "id": "library-d6-moral-exp-menilai-khabar-dalam-kumpulan",
+        "topic": "Menilai khabar dalam kumpulan",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d6-moral-exp-integriti-dalam-projek-berkumpulan",
+        "topic": "Integriti dalam projek berkumpulan",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d6-moral-exp-keadilan-dan-keperluan-berbeza",
+        "topic": "Keadilan dan keperluan berbeza",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d6-moral-exp-menyelesaikan-konflik-jadual",
+        "topic": "Menyelesaikan konflik jadual",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d6-moral-exp-hak-privasi-ketika-dokumentasi",
+        "topic": "Hak privasi ketika dokumentasi",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d6-moral-exp-kelestarian-dalam-keputusan-belian",
+        "topic": "Kelestarian dalam keputusan belian",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d6-moral-exp-keberanian-mengakui-kesilapan-awam",
+        "topic": "Keberanian mengakui kesilapan awam",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d6-moral-exp-sukarelawan-dengan-batas-kemampuan",
+        "topic": "Sukarelawan dengan batas kemampuan",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d6-moral-exp-toleransi-dalam-perancangan-bersama",
+        "topic": "Toleransi dalam perancangan bersama",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d6-moral-exp-tanggungjawab-terhadap-kemudahan-digital",
+        "topic": "Tanggungjawab terhadap kemudahan digital",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d6-moral-exp-membuat-keputusan-berasaskan-nilai",
+        "topic": "Membuat keputusan berasaskan nilai",
+        "subject": "moral"
+      },
+      {
+        "id": "library-d6-islam-exp-tabayun-sebelum-berkongsi-berita",
+        "topic": "Tabayun sebelum berkongsi berita",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d6-islam-exp-musyawarah-merancang-khidmat",
+        "topic": "Musyawarah merancang khidmat",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d6-islam-exp-ikhlas-dalam-memberi-bantuan",
+        "topic": "Ikhlas dalam memberi bantuan",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d6-islam-exp-menjaga-lisan-dalam-perbincangan",
+        "topic": "Menjaga lisan dalam perbincangan",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d6-islam-exp-adil-ketika-memegang-amanah",
+        "topic": "Adil ketika memegang amanah",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d6-islam-exp-menjauhi-pembaziran-sumber",
+        "topic": "Menjauhi pembaziran sumber",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d6-islam-exp-hikmah-dalam-menyelesaikan-salah-faham",
+        "topic": "Hikmah dalam menyelesaikan salah faham",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d6-islam-exp-tanggungjawab-memelihara-alam",
+        "topic": "Tanggungjawab memelihara alam",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d6-islam-exp-menghormati-hak-jiran",
+        "topic": "Menghormati hak jiran",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d6-islam-exp-taubat-dan-membetulkan-kesalahan",
+        "topic": "Taubat dan membetulkan kesalahan",
+        "subject": "islam"
+      },
+      {
+        "id": "library-d6-islam-exp-mengurus-masa-dengan-tanggungjawab",
+        "topic": "Mengurus masa dengan tanggungjawab",
+        "subject": "islam"
+      }
+    ]
+  }
+}

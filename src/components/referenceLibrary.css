@@ -1,0 +1,23 @@
+.referenceLibrary { color: var(--focus-ink, #171c3b); }
+.referenceIntro { margin-bottom: 20px; padding: 22px; border: 1px solid #d5e2f3; border-radius: 14px; background: var(--focus-sky, #e9f1fc); line-height: 1.7; }
+.referenceIntro h3 { margin: 0 0 10px; font-size: 21px; letter-spacing: -.015em; }
+.referenceIntro p { margin: 8px 0; max-width: 75ch; color: var(--focus-muted, #596482); font-size: 14px; }
+.referenceIntro small { display: inline-block; margin-top: 6px; color: #375b84; font-weight: 650; }
+.referenceCard { min-width: 0; overflow-wrap: anywhere; }
+.referenceCard > small { color: var(--focus-muted, #596482); font-size: 12px; }
+.referenceCard dd { font-size: 13px; line-height: 1.6; }
+.referenceCard details { margin: 14px 0; padding: 12px 0; border-top: 1px solid var(--focus-border, #e3e6ed); }
+.referenceCard summary { min-height: 44px; padding: 10px 0; color: var(--focus-muted, #596482); cursor: pointer; font-size: 13px; font-weight: 650; }
+.referenceCard > a { margin: 0 15px 8px 0; }
+.referenceCard details p { font-size: 13px; line-height: 1.7; }
+.resourceReview { padding: 12px 15px; border-radius: 10px; background: #faf2e5; color: #7d5c2d; font-size: 12px; line-height: 1.7; }
+.practiceHint { margin: 14px 0; color: var(--focus-plum, #795078); font-size: 14px; line-height: 1.7; }
+.practiceHint summary { min-height: 44px; padding: 10px 0; cursor: pointer; font-weight: 650; }
+.practiceHint p { margin: 6px 0; color: var(--focus-muted, #596482); }
+.furtherReading a { color: var(--focus-plum, #795078); line-height: 1.7; }
+.furtherReading svg { width: 14px; height: 14px; vertical-align: middle; }
+.furtherReading small { display: block; margin-bottom: 12px; color: var(--focus-muted, #596482); font-size: 12px; }
+@media (max-width: 640px) {
+  .referenceCard dl > div { grid-template-columns: 95px minmax(0,1fr); }
+  .referenceIntro { padding: 18px; }
+}

@@ -1,0 +1,266 @@
+{
+  "sourceId": "kpm-kssm",
+  "checkedAt": "2026-09-10",
+  "authority": "Kementerian Pendidikan Malaysia / Bahagian Pembangunan Kurikulum",
+  "primarySource": "https://repositori.bpk.moe-dl.edu.my/utama",
+  "schoolDskpIndexes": [
+    "https://sites.google.com/moe-dl.edu.my/mysmklepar/kurikulum/dskp/tingkatan-1",
+    "https://sites.google.com/moe-dl.edu.my/mysmklepar/kurikulum/dskp/tingkatan-2"
+  ],
+  "usage": "Original instructional notes and constructed learning cases; no textbook passages or artwork reproduced. Index pages verify available curriculum documents, not individual standard codes.",
+  "reviewStatus": "Authored and mechanically checked; formal educator review and per-standard DSKP verification remain pending.",
+  "coverageLimits": [
+    "Not a complete curriculum or examination syllabus despite reaching the library resource count.",
+    "Readings are concise subject learning records and cases, not all narrative stories or 140–220-word passages.",
+    "Islamic practice notes use the school-level Malaysian Shafii context where specified; individual rulings require qualified guidance.",
+    "Historical examples distinguish reconstruction and source limitations from confirmed personal events."
+  ],
+  "levels": {
+    "t1": {
+      "newUnits": 92,
+      "subjectCounts": {
+        "bm": 12,
+        "en": 12,
+        "geo": 11,
+        "history": 11,
+        "islam": 11,
+        "math": 12,
+        "moral": 11,
+        "science": 12
+      },
+      "topics": {
+        "bm": [
+          "Kata nama am dan khas di pusat sumber",
+          "Kata ganti nama dalam perbualan",
+          "Kata kerja transitif dalam laporan",
+          "Kata adjektif pancaindera",
+          "Kata sendi tempat dan arah",
+          "Penjodoh bilangan dalam inventori",
+          "Ayat tunggal dalam berita sekolah",
+          "Kata hubung gabungan dalam jadual",
+          "Idea utama perenggan kebersihan",
+          "Urutan arahan menanam benih",
+          "Ringkasan notis gotong-royong",
+          "Pantun empat kerat dan maksud"
+        ],
+        "en": [
+          "A Notice for the Reading Club",
+          "Habits in the School Garden",
+          "What Is Happening at the Exhibition",
+          "A Lost Bottle at Sports Practice",
+          "Comparing Two Routes to the Hall",
+          "Instructions for a Fruit Salad",
+          "Permission in the Art Room",
+          "A Library Shelf Description",
+          "Pronouns in a Team Message",
+          "Finding the Main Idea of a Paragraph",
+          "Writing a Friendly Invitation",
+          "Reading a Timetable Carefully"
+        ],
+        "geo": [
+          "Arah mata angin di sekolah",
+          "Kedudukan relatif dalam pelan",
+          "Simbol pada peta lakar",
+          "Lakaran laluan kajian lapangan",
+          "Benua dan lautan dunia",
+          "Tanah tinggi di Malaysia",
+          "Tanah pamah dan petempatan",
+          "Sungai dari hulu ke hilir",
+          "Taburan penduduk dan kemudahan",
+          "Petempatan bandar dan luar bandar",
+          "Sisa domestik dan tindakan setempat"
+        ],
+        "history": [
+          "Membezakan sumber sejarah",
+          "Kronologi pameran sekolah",
+          "Kaedah lisan dalam sejarah tempatan",
+          "Zaman Air Batu dan perubahan daratan",
+          "Kehidupan pemburu dan pengumpul",
+          "Pertanian dan petempatan Neolitik",
+          "Ciri bandar tamadun awal",
+          "Mesopotamia dan pengairan",
+          "Mesir Purba dan Sungai Nil",
+          "Bandar terancang Lembah Indus",
+          "Sumbangan ilmu tamadun Islam"
+        ],
+        "islam": [
+          "Niat belajar dan usaha yang jujur",
+          "Amanah menjaga barang pinjaman",
+          "Adab terhadap ibu bapa",
+          "Adab menuntut ilmu",
+          "Kebersihan diri dan tempat ibadah",
+          "Air untuk bersuci",
+          "Tertib asas wuduk",
+          "Persediaan sebelum solat",
+          "Menjaga lisan ketika bergurau",
+          "Syukur menggunakan kemudahan sekolah",
+          "Sabar menghadapi kesukaran belajar"
+        ],
+        "math": [
+          "Suhu dan integer pada garis nombor",
+          "Faktor untuk membungkus alat tulis",
+          "Gandaan dan jadual loceng",
+          "Kuasa dua dalam taman petak",
+          "Pecahan dalam campuran jus",
+          "Nisbah warna pada lencana",
+          "Kadar cetakan poster",
+          "Ungkapan untuk kos lawatan",
+          "Ketaksamaan had tempat duduk",
+          "Sudut bersebelahan pada garis lurus",
+          "Perimeter berbanding luas gelanggang",
+          "Median masa perjalanan"
+        ],
+        "moral": [
+          "Mengenal emosi sebelum bertindak",
+          "Bertanggungjawab terhadap jadual sendiri",
+          "Kejujuran apabila tersalah kira",
+          "Hormat dalam perbezaan minat",
+          "Kasih sayang terhadap haiwan",
+          "Kerjasama membersihkan kelas",
+          "Kesederhanaan ketika membeli",
+          "Berani melaporkan buli",
+          "Kebersihan ruang bersama",
+          "Berdikari sambil meminta bantuan",
+          "Toleransi dalam aktiviti keluarga"
+        ],
+        "science": [
+          "Mengukur isi padu batu kecil",
+          "Sel pipi dan sel daun",
+          "Organisasi badan manusia",
+          "Homeostasis ketika bersukan",
+          "Percambahan biji kacang",
+          "Pendebungaan bunga",
+          "Zarah dalam ais dan wap",
+          "Penapisan dan penyejatan campuran",
+          "Udara sebagai campuran",
+          "Pantulan cahaya pada cermin",
+          "Pembiasan pensel dalam air",
+          "Lapisan Bumi dan batuan"
+        ]
+      }
+    },
+    "t2": {
+      "newUnits": 92,
+      "subjectCounts": {
+        "bm": 12,
+        "en": 12,
+        "geo": 11,
+        "history": 11,
+        "islam": 11,
+        "math": 12,
+        "moral": 11,
+        "science": 12
+      },
+      "topics": {
+        "bm": [
+          "Ayat aktif dan pasif dalam laporan",
+          "Ayat pasif kata ganti pertama",
+          "Kata majmuk dalam berita kokurikulum",
+          "Kata ganda dan ketepatan makna",
+          "Imbuhan peN- dan pekerjaan",
+          "Penanda wacana sebab dan kesan",
+          "Fakta dan pendapat dalam ulasan",
+          "Inferens daripada tindakan watak",
+          "Peribahasa kerjasama dan konteks",
+          "Ulasan graf bacaan bulanan",
+          "Perenggan hujah tentang penggunaan plastik",
+          "Surat rasmi memohon kemudahan"
+        ],
+        "en": [
+          "An Interrupted Rehearsal",
+          "Plans and Predictions for a Fair",
+          "Advice for a New Club Member",
+          "Comparing Reviews of a Workshop",
+          "A Conditional Plan for Rain",
+          "Explaining a Process with the Passive",
+          "An Email Asking for Information",
+          "Evidence and Inference in a Short Story",
+          "Summarising a Community Survey",
+          "Choosing Reliable Details in an Article",
+          "Linking Causes and Results in a Report",
+          "Editing a Balanced Recommendation"
+        ],
+        "geo": [
+          "Skala penyata dan skala nisbah",
+          "Garisan kontur dan kecerunan",
+          "Rujukan grid pada peta",
+          "Putaran Bumi dan waktu siang",
+          "Peredaran Bumi dan musim",
+          "Iklim khatulistiwa Malaysia",
+          "Monsun dan kegiatan pantai timur",
+          "Pengangkutan awam dan kesesakan",
+          "Telekomunikasi dan jurang capaian",
+          "Pemanasan global dan tindakan harian",
+          "Teknologi hijau dalam bangunan"
+        ],
+        "history": [
+          "Alam Melayu sebagai jaringan wilayah",
+          "Funan dan hubungan perdagangan",
+          "Angkor dan pengurusan air",
+          "Srivijaya dan laluan laut",
+          "Kedah Tua dan Lembah Bujang",
+          "Majapahit dan jaringan Nusantara",
+          "Kedudukan strategik Melaka",
+          "Pentadbiran pelabuhan Melaka",
+          "Undang-undang dalam Kesultanan Melaka",
+          "Johor Riau dan kesinambungan perdagangan",
+          "Warisan kerajaan Melayu dan masyarakat Borneo"
+        ],
+        "islam": [
+          "Ikhlas dalam khidmat masyarakat",
+          "Tabayyun sebelum menyebarkan berita",
+          "Menepati janji dalam projek",
+          "Puasa dan pengawalan diri",
+          "Sedekah dan keutamaan keperluan",
+          "Solat berjemaah dan disiplin",
+          "Keringanan ibadah dan keadaan musafir",
+          "Menghormati jiran berlainan latar",
+          "Adil mengagihkan tanggungjawab",
+          "Muhasabah selepas melakukan kesilapan",
+          "Memelihara alam sebagai tanggungjawab"
+        ],
+        "math": [
+          "Pola segi tiga dengan batang mancis",
+          "Pemfaktoran luas gabungan",
+          "Kembangkan ungkapan petak",
+          "Rumus jarak masa dan laju",
+          "Sudut dalam poligon",
+          "Lilitan roda basikal model",
+          "Luas permukaan kotak tertutup",
+          "Koordinat perjalanan robot",
+          "Graf jarak perjalanan tetap",
+          "Translasi corak batik",
+          "Min kumpulan data bergabung",
+          "Kebarangkalian kad berwarna"
+        ],
+        "moral": [
+          "Menilai Tekanan Rakan Sebaya",
+          "Keadilan Menggunakan Kemudahan",
+          "Privasi Dalam Kumpulan Digital",
+          "Pengguna Berhemah Menilai Iklan",
+          "Menangani Konflik Secara Rasional",
+          "Integriti Dalam Pertandingan",
+          "Khidmat Masyarakat Yang Menghormati Penerima",
+          "Menghargai Kepelbagaian Budaya",
+          "Tanggungjawab Terhadap Alam Setempat",
+          "Keberanian Moral Menegur Diskriminasi",
+          "Membuat Keputusan Berasaskan Akibat"
+        ],
+        "science": [
+          "Mengelaskan haiwan taman",
+          "Rantai makanan di sawah",
+          "Persaingan dalam kolam",
+          "Perjalanan makanan dalam badan",
+          "Gizi seimbang untuk aktiviti sekolah",
+          "Pencegahan penyakit berjangkit",
+          "Larutan tepu di makmal",
+          "Asid alkali dan penunjuk",
+          "Litar bersiri dan mentol",
+          "Elektromagnet pada teras besi",
+          "Tekanan pada tapak kasut",
+          "Bunyi dan medium getaran"
+        ]
+      }
+    }
+  }
+}

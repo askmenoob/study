@@ -1,0 +1,269 @@
+[
+  {
+    "id": "kssr-math-fraction-note",
+    "kind": "note",
+    "title": "Pecahan: Faham Sebelum Kira",
+    "subjectId": "math",
+    "stages": [
+      "KSSR"
+    ],
+    "minutes": 8,
+    "summary": "Nota visual-konsep untuk pecahan setara, tambah pecahan dan hubungan dengan perpuluhan.",
+    "body": [
+      "Pecahan menerangkan sebahagian daripada satu keseluruhan. Dalam 3/4, nombor 3 ialah pengangka dan 4 ialah penyebut.",
+      "Dua pecahan boleh kelihatan berbeza tetapi mewakili nilai yang sama. Contohnya 1/2 dan 2/4. Darab atau bahagi pengangka dan penyebut dengan nombor yang sama untuk membina pecahan setara.",
+      "Untuk menambah pecahan, samakan penyebut dahulu. Selepas penyebut sama, tambah pengangka sahaja."
+    ],
+    "keyPoints": [
+      "Pengangka = bahagian yang diambil",
+      "Penyebut = jumlah bahagian sama besar",
+      "Pecahan setara mempunyai nilai sama"
+    ],
+    "vocabulary": [
+      {
+        "term": "pengangka",
+        "meaning": "nombor di atas garis pecahan"
+      },
+      {
+        "term": "penyebut",
+        "meaning": "nombor di bawah garis pecahan"
+      }
+    ],
+    "relatedTopicId": "fraction",
+    "levelIds": [
+      "d4",
+      "d5",
+      "d6"
+    ]
+  },
+  {
+    "id": "kssm-math-algebra-note",
+    "kind": "note",
+    "title": "Algebra: Pemboleh Ubah dan Persamaan",
+    "subjectId": "math",
+    "stages": [
+      "KSSM"
+    ],
+    "minutes": 10,
+    "summary": "Rujukan ringkas untuk ungkapan, sebutan sejenis dan persamaan linear.",
+    "body": [
+      "Pemboleh ubah ialah simbol yang mewakili nilai yang belum diketahui atau boleh berubah.",
+      "Sebutan sejenis mempunyai pemboleh ubah dan kuasa yang sama. Contohnya 3x + 2x boleh digabungkan menjadi 5x.",
+      "Untuk menyelesaikan persamaan, lakukan operasi yang sama pada kedua-dua belah supaya keseimbangan dikekalkan."
+    ],
+    "keyPoints": [
+      "Gabung sebutan sejenis sahaja",
+      "Gunakan operasi songsang",
+      "Semak jawapan dengan gantikan nilai"
+    ],
+    "relatedTopicId": "algebra"
+  },
+  {
+    "id": "kssr-science-photo-note",
+    "kind": "note",
+    "title": "Fotosintesis dan Keperluan Tumbuhan",
+    "subjectId": "science",
+    "stages": [
+      "KSSR"
+    ],
+    "minutes": 7,
+    "summary": "Nota asas tentang cahaya, air, karbon dioksida dan makanan tumbuhan.",
+    "body": [
+      "Tumbuhan hijau menghasilkan makanan melalui fotosintesis. Proses ini berlaku terutamanya pada daun yang mempunyai klorofil.",
+      "Tumbuhan memerlukan cahaya, air dan karbon dioksida. Hasil proses ini termasuk makanan dalam bentuk gula dan oksigen yang dilepaskan ke udara.",
+      "Jika salah satu keperluan utama tiada, kadar fotosintesis boleh berkurang."
+    ],
+    "keyPoints": [
+      "Cahaya membekalkan tenaga",
+      "Air diserap oleh akar",
+      "Karbon dioksida masuk melalui daun"
+    ],
+    "relatedTopicId": "life"
+  },
+  {
+    "id": "kssm-science-cell-note",
+    "kind": "note",
+    "title": "Sel, Tisu, Organ dan Sistem",
+    "subjectId": "science",
+    "stages": [
+      "KSSM"
+    ],
+    "minutes": 9,
+    "summary": "Peta konsep organisasi benda hidup daripada sel hingga organisma.",
+    "body": [
+      "Sel ialah unit asas bagi benda hidup. Sel yang serupa dan melakukan fungsi sama membentuk tisu.",
+      "Beberapa jenis tisu bergabung membentuk organ. Organ yang bekerjasama untuk fungsi besar membentuk sistem organ.",
+      "Urutan penting: sel → tisu → organ → sistem organ → organisma."
+    ],
+    "keyPoints": [
+      "Sel ialah unit asas",
+      "Tisu ialah kumpulan sel",
+      "Organ terbina daripada beberapa tisu"
+    ],
+    "relatedTopicId": "cell"
+  },
+  {
+    "id": "bm-grammar-note",
+    "kind": "note",
+    "title": "Tatabahasa: Subjek, Predikat dan Kata Kerja",
+    "subjectId": "bm",
+    "stages": [
+      "KSSR",
+      "KSSM"
+    ],
+    "minutes": 8,
+    "summary": "Nota rujukan membina ayat yang jelas dan gramatis.",
+    "body": [
+      "Subjek ialah bahagian ayat yang menerangkan siapa atau apa yang diperkatakan. Predikat pula menerangkan perkara tentang subjek.",
+      "Kata kerja menunjukkan perbuatan atau keadaan. Dalam ayat 'Aina membaca buku', Aina ialah subjek dan membaca buku ialah predikat.",
+      "Semasa menyunting ayat, semak susunan, imbuhan, tanda baca dan sama ada maksud ayat lengkap."
+    ],
+    "keyPoints": [
+      "Kenal pasti siapa/apa sebagai subjek",
+      "Predikat melengkapkan maklumat",
+      "Semak imbuhan dan tanda baca"
+    ],
+    "relatedTopicId": "grammar"
+  },
+  {
+    "id": "kssm-history-melaka-note",
+    "kind": "note",
+    "title": "Kesultanan Melayu Melaka: Mengapa Penting?",
+    "subjectId": "history",
+    "stages": [
+      "KSSM"
+    ],
+    "minutes": 10,
+    "summary": "Nota rujukan tentang lokasi, perdagangan, pentadbiran dan warisan Melaka.",
+    "body": [
+      "Melaka berkembang kerana kedudukannya berhampiran Selat Melaka, laluan perdagangan penting antara timur dan barat.",
+      "Sistem pentadbiran yang teratur membantu keselamatan, perdagangan dan hubungan diplomatik. Pelabuhan yang aktif menarik pedagang dari pelbagai wilayah.",
+      "Kepentingan Melaka juga dapat dilihat pada warisan bahasa, pentadbiran, undang-undang dan identiti masyarakat Melayu."
+    ],
+    "keyPoints": [
+      "Lokasi strategik",
+      "Pelabuhan perdagangan",
+      "Pentadbiran dan warisan"
+    ],
+    "relatedTopicId": "melaka"
+  },
+  {
+    "id": "stpm-math-calculus-note",
+    "kind": "note",
+    "title": "STPM: Fungsi, Kecerunan dan Pembezaan",
+    "subjectId": "stpm_math",
+    "stages": [
+      "STPM"
+    ],
+    "minutes": 12,
+    "summary": "Rujukan asas menghubungkan fungsi dengan kadar perubahan.",
+    "body": [
+      "Fungsi memetakan setiap input dalam domain kepada satu output. Notasi f(x) memudahkan kita menyatakan hubungan ini.",
+      "Kecerunan garis tangen menerangkan kadar perubahan seketika pada sesuatu titik. Pembezaan digunakan untuk mendapatkan kadar perubahan ini.",
+      "Sebelum menggunakan formula, kenal pasti fungsi, pemboleh ubah dan perkara yang diminta: nilai fungsi, kecerunan atau titik optimum."
+    ],
+    "keyPoints": [
+      "f(x) ialah nilai fungsi",
+      "Terbitan menerangkan kadar perubahan",
+      "Semak domain dan unit"
+    ],
+    "relatedTopicId": "functions"
+  },
+  {
+    "id": "bm-reading-garden",
+    "kind": "reading",
+    "title": "Bacaan: Kebun Komuniti Taman Murni",
+    "subjectId": "bm",
+    "stages": [
+      "KSSR",
+      "KSSM"
+    ],
+    "minutes": 6,
+    "summary": "Teks bacaan original tentang kerjasama komuniti dan alam sekitar.",
+    "body": [
+      "Pada setiap pagi Sabtu, penduduk Taman Murni berkumpul di sebidang tanah kosong berhampiran dewan orang ramai. Dahulu kawasan itu dipenuhi rumput panjang. Kini, kawasan tersebut berubah menjadi kebun komuniti yang ditanam dengan cili, bendi, tomato dan herba.",
+      "Kanak-kanak membantu menyiram tanaman manakala orang dewasa menyediakan kompos daripada sisa dapur. Hasil kebun tidak dijual. Sebahagiannya dibahagikan kepada keluarga yang membantu dan selebihnya disumbangkan kepada pusat jagaan warga emas berdekatan.",
+      "Selepas beberapa bulan, penduduk mendapati kebun itu bukan sekadar menghasilkan makanan. Mereka lebih kerap berbual, bekerjasama dan mengenali jiran yang sebelum ini jarang ditemui."
+    ],
+    "vocabulary": [
+      {
+        "term": "komuniti",
+        "meaning": "sekumpulan orang yang tinggal atau berkongsi lingkungan yang sama"
+      },
+      {
+        "term": "kompos",
+        "meaning": "bahan organik reput yang digunakan untuk menyuburkan tanah"
+      }
+    ]
+  },
+  {
+    "id": "en-reading-rainwater",
+    "kind": "reading",
+    "title": "Reading: The Rainwater Project",
+    "subjectId": "en",
+    "stages": [
+      "KSSR",
+      "KSSM"
+    ],
+    "minutes": 6,
+    "summary": "Original English reading passage about a school sustainability project.",
+    "body": [
+      "During a week of heavy rain, the students at Seri Damai School noticed that a large amount of water flowed from the roof straight into the drains. Their science teacher asked a simple question: could some of that water be saved?",
+      "The students designed a small rainwater collection system. Water from one roof gutter was directed into a covered tank. They did not use the water for drinking. Instead, they used it to water the school garden and wash outdoor equipment.",
+      "After a month, the class compared their water use with the previous month. They learned that a small design change could reduce waste, but they also learned that stored water must be kept clean and safely covered."
+    ],
+    "vocabulary": [
+      {
+        "term": "gutter",
+        "meaning": "a channel that carries rainwater from a roof"
+      },
+      {
+        "term": "reduce",
+        "meaning": "to make something smaller or use less of it"
+      }
+    ]
+  },
+  {
+    "id": "science-reading-water",
+    "kind": "reading",
+    "title": "Bacaan Sains: Perjalanan Setitis Air",
+    "subjectId": "science",
+    "stages": [
+      "KSSR",
+      "KSSM"
+    ],
+    "minutes": 7,
+    "summary": "Teks sains original untuk memahami kitar air melalui cerita ringkas.",
+    "body": [
+      "Setitis air di permukaan tasik menerima haba daripada Matahari. Selepas mendapat tenaga yang mencukupi, air itu menyejat dan menjadi wap air yang tidak dapat dilihat dengan mata kasar.",
+      "Semakin tinggi wap air bergerak, udara menjadi lebih sejuk. Wap air terkondensasi menjadi titisan kecil dan membentuk awan. Apabila titisan bergabung dan menjadi berat, air turun sebagai hujan.",
+      "Sebahagian air hujan meresap ke dalam tanah, sebahagian mengalir ke sungai, dan sebahagian kembali ke tasik atau laut. Proses ini berulang dan dikenali sebagai kitar air."
+    ],
+    "keyPoints": [
+      "Penyejatan memerlukan tenaga",
+      "Kondensasi berlaku apabila wap menyejuk",
+      "Hujan mengembalikan air ke permukaan Bumi"
+    ]
+  },
+  {
+    "id": "history-reading-port",
+    "kind": "reading",
+    "title": "Bacaan Sejarah: Sehari di Pelabuhan Melaka",
+    "subjectId": "history",
+    "stages": [
+      "KSSM"
+    ],
+    "minutes": 8,
+    "summary": "Teks original berbentuk situasi untuk menghubungkan perdagangan dan lokasi Melaka.",
+    "body": [
+      "Bayangkan sebuah pelabuhan yang dipenuhi kapal dari pelbagai arah. Ada pedagang membawa kain, rempah, seramik dan barangan lain. Mereka datang kerana Melaka berada di laluan yang sering digunakan oleh kapal perdagangan.",
+      "Aktiviti pelabuhan memerlukan peraturan, keselamatan, tempat menyimpan barang dan pegawai yang mengurus urusan perdagangan. Apabila sistem ini berjalan dengan baik, pedagang lebih yakin untuk singgah dan berdagang.",
+      "Daripada situasi ini, kita dapat melihat bahawa kejayaan sesebuah pelabuhan bukan hanya bergantung pada lokasi. Pentadbiran dan hubungan dengan pedagang juga memainkan peranan penting."
+    ],
+    "keyPoints": [
+      "Lokasi menarik perdagangan",
+      "Pentadbiran membina keyakinan",
+      "Pelabuhan memerlukan sistem dan keselamatan"
+    ]
+  }
+]

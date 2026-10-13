@@ -1,0 +1,1063 @@
+{
+  "generatedAt": "2026-09-10T07:26:59.827Z",
+  "target": "100 notes + 100 readings + 100 practice sets per grade; 12 grades",
+  "addedUnits": 1068,
+  "totalUnits": 1200,
+  "coreLibraryMaterials": 3600,
+  "totalLibraryIncludingPilot": 3601,
+  "authoredLibraryQuestions": 7200,
+  "topicQuestions": 7328,
+  "grades": [
+    {
+      "grade": "d1",
+      "label": "Darjah 1",
+      "units": 100,
+      "note": 100,
+      "reading": 100,
+      "practice": 100,
+      "totalLibraryIncludingPilot": 300,
+      "subjects": [
+        {
+          "id": "bm",
+          "name": "Bahasa Melayu",
+          "notes": 21,
+          "readings": 21,
+          "practiceSets": 21,
+          "topicQuestions": 126,
+          "uniqueQuestionIds": 126
+        },
+        {
+          "id": "en",
+          "name": "English",
+          "notes": 17,
+          "readings": 17,
+          "practiceSets": 17,
+          "topicQuestions": 102,
+          "uniqueQuestionIds": 102
+        },
+        {
+          "id": "math",
+          "name": "Matematik",
+          "notes": 17,
+          "readings": 17,
+          "practiceSets": 17,
+          "topicQuestions": 102,
+          "uniqueQuestionIds": 102
+        },
+        {
+          "id": "science",
+          "name": "Sains",
+          "notes": 17,
+          "readings": 17,
+          "practiceSets": 17,
+          "topicQuestions": 102,
+          "uniqueQuestionIds": 102
+        },
+        {
+          "id": "islam",
+          "name": "Pendidikan Islam",
+          "notes": 14,
+          "readings": 14,
+          "practiceSets": 14,
+          "topicQuestions": 84,
+          "uniqueQuestionIds": 84
+        },
+        {
+          "id": "moral",
+          "name": "Pendidikan Moral",
+          "notes": 14,
+          "readings": 14,
+          "practiceSets": 14,
+          "topicQuestions": 84,
+          "uniqueQuestionIds": 84
+        }
+      ]
+    },
+    {
+      "grade": "d2",
+      "label": "Darjah 2",
+      "units": 100,
+      "note": 100,
+      "reading": 100,
+      "practice": 100,
+      "totalLibraryIncludingPilot": 300,
+      "subjects": [
+        {
+          "id": "bm",
+          "name": "Bahasa Melayu",
+          "notes": 21,
+          "readings": 21,
+          "practiceSets": 21,
+          "topicQuestions": 126,
+          "uniqueQuestionIds": 126
+        },
+        {
+          "id": "en",
+          "name": "English",
+          "notes": 17,
+          "readings": 17,
+          "practiceSets": 17,
+          "topicQuestions": 102,
+          "uniqueQuestionIds": 102
+        },
+        {
+          "id": "math",
+          "name": "Matematik",
+          "notes": 17,
+          "readings": 17,
+          "practiceSets": 17,
+          "topicQuestions": 118,
+          "uniqueQuestionIds": 118
+        },
+        {
+          "id": "science",
+          "name": "Sains",
+          "notes": 17,
+          "readings": 17,
+          "practiceSets": 17,
+          "topicQuestions": 102,
+          "uniqueQuestionIds": 102
+        },
+        {
+          "id": "islam",
+          "name": "Pendidikan Islam",
+          "notes": 14,
+          "readings": 14,
+          "practiceSets": 14,
+          "topicQuestions": 84,
+          "uniqueQuestionIds": 84
+        },
+        {
+          "id": "moral",
+          "name": "Pendidikan Moral",
+          "notes": 14,
+          "readings": 14,
+          "practiceSets": 14,
+          "topicQuestions": 84,
+          "uniqueQuestionIds": 84
+        }
+      ]
+    },
+    {
+      "grade": "d3",
+      "label": "Darjah 3",
+      "units": 100,
+      "note": 100,
+      "reading": 100,
+      "practice": 100,
+      "totalLibraryIncludingPilot": 300,
+      "subjects": [
+        {
+          "id": "bm",
+          "name": "Bahasa Melayu",
+          "notes": 23,
+          "readings": 23,
+          "practiceSets": 23,
+          "topicQuestions": 138,
+          "uniqueQuestionIds": 138
+        },
+        {
+          "id": "en",
+          "name": "English",
+          "notes": 17,
+          "readings": 17,
+          "practiceSets": 17,
+          "topicQuestions": 102,
+          "uniqueQuestionIds": 102
+        },
+        {
+          "id": "math",
+          "name": "Matematik",
+          "notes": 17,
+          "readings": 17,
+          "practiceSets": 17,
+          "topicQuestions": 118,
+          "uniqueQuestionIds": 118
+        },
+        {
+          "id": "science",
+          "name": "Sains",
+          "notes": 17,
+          "readings": 17,
+          "practiceSets": 17,
+          "topicQuestions": 102,
+          "uniqueQuestionIds": 102
+        },
+        {
+          "id": "islam",
+          "name": "Pendidikan Islam",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "moral",
+          "name": "Pendidikan Moral",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        }
+      ]
+    },
+    {
+      "grade": "d4",
+      "label": "Darjah 4",
+      "units": 100,
+      "note": 100,
+      "reading": 100,
+      "practice": 100,
+      "totalLibraryIncludingPilot": 301,
+      "subjects": [
+        {
+          "id": "bm",
+          "name": "Bahasa Melayu",
+          "notes": 19,
+          "readings": 19,
+          "practiceSets": 19,
+          "topicQuestions": 114,
+          "uniqueQuestionIds": 114
+        },
+        {
+          "id": "en",
+          "name": "English",
+          "notes": 16,
+          "readings": 16,
+          "practiceSets": 16,
+          "topicQuestions": 96,
+          "uniqueQuestionIds": 96
+        },
+        {
+          "id": "math",
+          "name": "Matematik",
+          "notes": 16,
+          "readings": 16,
+          "practiceSets": 16,
+          "topicQuestions": 96,
+          "uniqueQuestionIds": 96
+        },
+        {
+          "id": "science",
+          "name": "Sains",
+          "notes": 16,
+          "readings": 16,
+          "practiceSets": 16,
+          "topicQuestions": 96,
+          "uniqueQuestionIds": 96
+        },
+        {
+          "id": "history",
+          "name": "Sejarah",
+          "notes": 11,
+          "readings": 11,
+          "practiceSets": 11,
+          "topicQuestions": 66,
+          "uniqueQuestionIds": 66
+        },
+        {
+          "id": "islam",
+          "name": "Pendidikan Islam",
+          "notes": 11,
+          "readings": 11,
+          "practiceSets": 11,
+          "topicQuestions": 66,
+          "uniqueQuestionIds": 66
+        },
+        {
+          "id": "moral",
+          "name": "Pendidikan Moral",
+          "notes": 11,
+          "readings": 11,
+          "practiceSets": 11,
+          "topicQuestions": 66,
+          "uniqueQuestionIds": 66
+        }
+      ]
+    },
+    {
+      "grade": "d5",
+      "label": "Darjah 5",
+      "units": 100,
+      "note": 100,
+      "reading": 100,
+      "practice": 100,
+      "totalLibraryIncludingPilot": 300,
+      "subjects": [
+        {
+          "id": "bm",
+          "name": "Bahasa Melayu",
+          "notes": 17,
+          "readings": 17,
+          "practiceSets": 17,
+          "topicQuestions": 102,
+          "uniqueQuestionIds": 102
+        },
+        {
+          "id": "en",
+          "name": "English",
+          "notes": 16,
+          "readings": 16,
+          "practiceSets": 16,
+          "topicQuestions": 96,
+          "uniqueQuestionIds": 96
+        },
+        {
+          "id": "math",
+          "name": "Matematik",
+          "notes": 16,
+          "readings": 16,
+          "practiceSets": 16,
+          "topicQuestions": 112,
+          "uniqueQuestionIds": 112
+        },
+        {
+          "id": "science",
+          "name": "Sains",
+          "notes": 16,
+          "readings": 16,
+          "practiceSets": 16,
+          "topicQuestions": 96,
+          "uniqueQuestionIds": 96
+        },
+        {
+          "id": "history",
+          "name": "Sejarah",
+          "notes": 11,
+          "readings": 11,
+          "practiceSets": 11,
+          "topicQuestions": 66,
+          "uniqueQuestionIds": 66
+        },
+        {
+          "id": "islam",
+          "name": "Pendidikan Islam",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        },
+        {
+          "id": "moral",
+          "name": "Pendidikan Moral",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        }
+      ]
+    },
+    {
+      "grade": "d6",
+      "label": "Darjah 6",
+      "units": 100,
+      "note": 100,
+      "reading": 100,
+      "practice": 100,
+      "totalLibraryIncludingPilot": 300,
+      "subjects": [
+        {
+          "id": "bm",
+          "name": "Bahasa Melayu",
+          "notes": 17,
+          "readings": 17,
+          "practiceSets": 17,
+          "topicQuestions": 102,
+          "uniqueQuestionIds": 102
+        },
+        {
+          "id": "en",
+          "name": "English",
+          "notes": 16,
+          "readings": 16,
+          "practiceSets": 16,
+          "topicQuestions": 96,
+          "uniqueQuestionIds": 96
+        },
+        {
+          "id": "math",
+          "name": "Matematik",
+          "notes": 16,
+          "readings": 16,
+          "practiceSets": 16,
+          "topicQuestions": 96,
+          "uniqueQuestionIds": 96
+        },
+        {
+          "id": "science",
+          "name": "Sains",
+          "notes": 16,
+          "readings": 16,
+          "practiceSets": 16,
+          "topicQuestions": 96,
+          "uniqueQuestionIds": 96
+        },
+        {
+          "id": "history",
+          "name": "Sejarah",
+          "notes": 11,
+          "readings": 11,
+          "practiceSets": 11,
+          "topicQuestions": 66,
+          "uniqueQuestionIds": 66
+        },
+        {
+          "id": "islam",
+          "name": "Pendidikan Islam",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        },
+        {
+          "id": "moral",
+          "name": "Pendidikan Moral",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        }
+      ]
+    },
+    {
+      "grade": "t1",
+      "label": "Tingkatan 1",
+      "units": 100,
+      "note": 100,
+      "reading": 100,
+      "practice": 100,
+      "totalLibraryIncludingPilot": 300,
+      "subjects": [
+        {
+          "id": "bm",
+          "name": "Bahasa Melayu",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "en",
+          "name": "English",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "math",
+          "name": "Matematik",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 94,
+          "uniqueQuestionIds": 94
+        },
+        {
+          "id": "science",
+          "name": "Sains",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "history",
+          "name": "Sejarah",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        },
+        {
+          "id": "geo",
+          "name": "Geografi",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        },
+        {
+          "id": "islam",
+          "name": "Pendidikan Islam",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        },
+        {
+          "id": "moral",
+          "name": "Pendidikan Moral",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        }
+      ]
+    },
+    {
+      "grade": "t2",
+      "label": "Tingkatan 2",
+      "units": 100,
+      "note": 100,
+      "reading": 100,
+      "practice": 100,
+      "totalLibraryIncludingPilot": 300,
+      "subjects": [
+        {
+          "id": "bm",
+          "name": "Bahasa Melayu",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "en",
+          "name": "English",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "math",
+          "name": "Matematik",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 94,
+          "uniqueQuestionIds": 94
+        },
+        {
+          "id": "science",
+          "name": "Sains",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "history",
+          "name": "Sejarah",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        },
+        {
+          "id": "geo",
+          "name": "Geografi",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        },
+        {
+          "id": "islam",
+          "name": "Pendidikan Islam",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        },
+        {
+          "id": "moral",
+          "name": "Pendidikan Moral",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        }
+      ]
+    },
+    {
+      "grade": "t3",
+      "label": "Tingkatan 3",
+      "units": 100,
+      "note": 100,
+      "reading": 100,
+      "practice": 100,
+      "totalLibraryIncludingPilot": 300,
+      "subjects": [
+        {
+          "id": "bm",
+          "name": "Bahasa Melayu",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "en",
+          "name": "English",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "math",
+          "name": "Matematik",
+          "notes": 15,
+          "readings": 15,
+          "practiceSets": 15,
+          "topicQuestions": 106,
+          "uniqueQuestionIds": 106
+        },
+        {
+          "id": "science",
+          "name": "Sains",
+          "notes": 15,
+          "readings": 15,
+          "practiceSets": 15,
+          "topicQuestions": 90,
+          "uniqueQuestionIds": 90
+        },
+        {
+          "id": "history",
+          "name": "Sejarah",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "geo",
+          "name": "Geografi",
+          "notes": 11,
+          "readings": 11,
+          "practiceSets": 11,
+          "topicQuestions": 66,
+          "uniqueQuestionIds": 66
+        },
+        {
+          "id": "islam",
+          "name": "Pendidikan Islam",
+          "notes": 10,
+          "readings": 10,
+          "practiceSets": 10,
+          "topicQuestions": 60,
+          "uniqueQuestionIds": 60
+        },
+        {
+          "id": "moral",
+          "name": "Pendidikan Moral",
+          "notes": 10,
+          "readings": 10,
+          "practiceSets": 10,
+          "topicQuestions": 60,
+          "uniqueQuestionIds": 60
+        }
+      ]
+    },
+    {
+      "grade": "t4",
+      "label": "Tingkatan 4",
+      "units": 100,
+      "note": 100,
+      "reading": 100,
+      "practice": 100,
+      "totalLibraryIncludingPilot": 300,
+      "subjects": [
+        {
+          "id": "bm",
+          "name": "Bahasa Melayu",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "en",
+          "name": "English",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "math",
+          "name": "Matematik",
+          "notes": 15,
+          "readings": 15,
+          "practiceSets": 15,
+          "topicQuestions": 106,
+          "uniqueQuestionIds": 106
+        },
+        {
+          "id": "science",
+          "name": "Sains",
+          "notes": 15,
+          "readings": 15,
+          "practiceSets": 15,
+          "topicQuestions": 90,
+          "uniqueQuestionIds": 90
+        },
+        {
+          "id": "history",
+          "name": "Sejarah",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "geo",
+          "name": "Geografi",
+          "notes": 11,
+          "readings": 11,
+          "practiceSets": 11,
+          "topicQuestions": 66,
+          "uniqueQuestionIds": 66
+        },
+        {
+          "id": "islam",
+          "name": "Pendidikan Islam",
+          "notes": 10,
+          "readings": 10,
+          "practiceSets": 10,
+          "topicQuestions": 60,
+          "uniqueQuestionIds": 60
+        },
+        {
+          "id": "moral",
+          "name": "Pendidikan Moral",
+          "notes": 10,
+          "readings": 10,
+          "practiceSets": 10,
+          "topicQuestions": 60,
+          "uniqueQuestionIds": 60
+        }
+      ]
+    },
+    {
+      "grade": "t5",
+      "label": "Tingkatan 5",
+      "units": 100,
+      "note": 100,
+      "reading": 100,
+      "practice": 100,
+      "totalLibraryIncludingPilot": 300,
+      "subjects": [
+        {
+          "id": "bm",
+          "name": "Bahasa Melayu",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "en",
+          "name": "English",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "math",
+          "name": "Matematik",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 94,
+          "uniqueQuestionIds": 94
+        },
+        {
+          "id": "science",
+          "name": "Sains",
+          "notes": 13,
+          "readings": 13,
+          "practiceSets": 13,
+          "topicQuestions": 78,
+          "uniqueQuestionIds": 78
+        },
+        {
+          "id": "history",
+          "name": "Sejarah",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        },
+        {
+          "id": "geo",
+          "name": "Geografi",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        },
+        {
+          "id": "islam",
+          "name": "Pendidikan Islam",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        },
+        {
+          "id": "moral",
+          "name": "Pendidikan Moral",
+          "notes": 12,
+          "readings": 12,
+          "practiceSets": 12,
+          "topicQuestions": 72,
+          "uniqueQuestionIds": 72
+        }
+      ]
+    },
+    {
+      "grade": "t6",
+      "label": "Tingkatan 6",
+      "units": 100,
+      "note": 100,
+      "reading": 100,
+      "practice": 100,
+      "totalLibraryIncludingPilot": 300,
+      "subjects": [
+        {
+          "id": "bm",
+          "name": "Bahasa Melayu",
+          "notes": 5,
+          "readings": 5,
+          "practiceSets": 5,
+          "topicQuestions": 30,
+          "uniqueQuestionIds": 30
+        },
+        {
+          "id": "history",
+          "name": "Sejarah",
+          "notes": 5,
+          "readings": 5,
+          "practiceSets": 5,
+          "topicQuestions": 30,
+          "uniqueQuestionIds": 30
+        },
+        {
+          "id": "geo",
+          "name": "Geografi",
+          "notes": 5,
+          "readings": 5,
+          "practiceSets": 5,
+          "topicQuestions": 30,
+          "uniqueQuestionIds": 30
+        },
+        {
+          "id": "pa",
+          "name": "Pengajian Am",
+          "notes": 5,
+          "readings": 5,
+          "practiceSets": 5,
+          "topicQuestions": 30,
+          "uniqueQuestionIds": 30
+        },
+        {
+          "id": "bc",
+          "name": "Bahasa Cina",
+          "notes": 5,
+          "readings": 5,
+          "practiceSets": 5,
+          "topicQuestions": 30,
+          "uniqueQuestionIds": 30
+        },
+        {
+          "id": "bt",
+          "name": "Bahasa Tamil",
+          "notes": 5,
+          "readings": 5,
+          "practiceSets": 5,
+          "topicQuestions": 30,
+          "uniqueQuestionIds": 30
+        },
+        {
+          "id": "ba",
+          "name": "Bahasa Arab",
+          "notes": 5,
+          "readings": 5,
+          "practiceSets": 5,
+          "topicQuestions": 30,
+          "uniqueQuestionIds": 30
+        },
+        {
+          "id": "lit_en",
+          "name": "Literature in English",
+          "notes": 5,
+          "readings": 5,
+          "practiceSets": 5,
+          "topicQuestions": 30,
+          "uniqueQuestionIds": 30
+        },
+        {
+          "id": "kmk",
+          "name": "Kesusasteraan Melayu Komunikatif",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        },
+        {
+          "id": "syariah",
+          "name": "Pengajian Syariah Kontemporari",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        },
+        {
+          "id": "usuluddin",
+          "name": "Pengajian Usuluddin",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        },
+        {
+          "id": "tahfiz",
+          "name": "Tahfiz Al-Quran",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        },
+        {
+          "id": "economics",
+          "name": "Ekonomi",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        },
+        {
+          "id": "business",
+          "name": "Pengajian Perniagaan",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        },
+        {
+          "id": "accounting",
+          "name": "Perakaunan",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        },
+        {
+          "id": "mgmt_math",
+          "name": "Management Mathematics",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        },
+        {
+          "id": "stpm_math",
+          "name": "Mathematics",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        },
+        {
+          "id": "ict",
+          "name": "Information and Communications Technology",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        },
+        {
+          "id": "physics",
+          "name": "Physics",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        },
+        {
+          "id": "biology",
+          "name": "Biology",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        },
+        {
+          "id": "sports_science",
+          "name": "Sains Sukan",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        },
+        {
+          "id": "visual_art",
+          "name": "Seni Visual",
+          "notes": 4,
+          "readings": 4,
+          "practiceSets": 4,
+          "topicQuestions": 24,
+          "uniqueQuestionIds": 24
+        }
+      ]
+    }
+  ],
+  "reviewStatus": "Automated count and linking report. Factual correctness, reading suitability and full curriculum/semester mapping require editorial review; counts do not establish curriculum completeness."
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+server/dist/
+.env
+*.log
+.vite/
+coverage/
+*.tsbuildinfo
+secrets/
+
+.ai/
+deploy/cloudflared-study.yml

@@ -1,0 +1,897 @@
+[
+  {
+    "unitId": "library-d1-bm-dengar-kenal-benda-v1",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Four short object-name/use teaching frames align with six picture questions. Correct choices match teaching; actual audio availability/voice quality remains separate runtime verification."
+  },
+  {
+    "unitId": "library-d1-en-listen-and-match-colours-v1",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Four colours are explicitly modelled then matched, including transfer to book/cup. Colour matching alone needs an alternative for colour-vision difficulties; no answer-key defect found."
+  },
+  {
+    "unitId": "library-d1-islam-adab-makan-berpandu-v1",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "practice q4 option “Tinggalkan makanan untuk bermain” uses blocks; q3 “Buang pinggan” uses bin whose aria label is “Buang makanan yang masih elok”.",
+        "issue": "Some pre-reader picture options depict a different object/action from the accompanying spoken text; reusable symbols do not demonstrate the actual action.",
+        "recommendation": "Use accurately matched picture/action labels and scenes; at minimum remove mismatched options. Show asking an adult and thanking through an understandable taught scene, not just a question-mark icon."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Food care and thanks are taught before short questions; subject coverage remains selected adab only, not full Pendidikan Islam. Visual mismatch findings are concrete."
+  },
+  {
+    "unitId": "library-d1-math-kira-gambar-hingga-sepuluh-v1",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Counting and combining/taking one taught with <=5 visible source objects. Correct cardinalities recomputed; number choices pictorially represent counts, including abstract transfer from books/fish to balls."
+  },
+  {
+    "unitId": "library-d1-moral-main-dan-simpan-berpandu-v1",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "practice q3 “Sorok daripada rakan” maps to sleep (Moon); “Ambil tanpa izin” maps to blocks; practice q4 “Letak makanan di lantai” maps to a clean plated meal.",
+        "issue": "The visual evidence cannot tell a pre-reader which depicted action corresponds to the option. This undermines the stated non-reading path.",
+        "recommendation": "Replace mismatched distractor scenes or labels; teach the help/share action through an explicit scene. Keep picture, visible text, spoken text and aria label semantically consistent."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Turn-taking, storage and asking teacher taught before short questions; several reused distractor pictures are semantically wrong."
+  },
+  {
+    "unitId": "library-d1-science-lihat-warna-dan-deria-v1",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Eyes/ears and observable colours taught before matched picture questions. One selected sensory unit is not a complete D1 science course."
+  },
+  {
+    "unitId": "library-d2-bm-arahan-dan-langkah",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Ordered instruction passage and independent card-making practice align; explicit sequencing cues and retrieval. Suitable for a reader with short-sentence support, not proof all D2 pupils can read it independently."
+  },
+  {
+    "unitId": "library-d2-en-usual-and-now",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Routine versus current action correctly distinguished; is/are and -ing teaching matches questions. Vocabulary such as costume/scarves/ribbon needs optional picture/glossary support for emerging English readers."
+  },
+  {
+    "unitId": "library-d2-islam-kata-menenangkan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Good speech/listening note, story and scenario align; actual assessed skill mostly everyday adab/read comprehension. No full Quran/Jawi/ibadah syllabus claim supported."
+  },
+  {
+    "unitId": "library-d2-math-puluh-dan-sa",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "Note teaches 27 + 15 and place value; practice q4 asks 72 − 20.",
+        "issue": "A new subtraction operation is assessed without a worked subtraction or prerequisite check in this unit.",
+        "recommendation": "Add a short tens subtraction example with bundles/pictures before practice, or mark this question as prerequisite-dependent and gate it."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Regrouping and tens/ones arithmetic correct; addition supplements mapped explicitly are within this concept. Subtraction appears before a worked subtraction example."
+  },
+  {
+    "unitId": "library-d2-moral-dengar-perasaan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Listening before assuming emotion and limited requested help consistently taught and tested; familiar child context."
+  },
+  {
+    "unitId": "library-d2-science-benih-mula-bercambah",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Germination, air/water and fair comparison are internally sound; isolate same seed/location with wet/dry cotton. Long comparison choices may need reading support, not a proven grade error."
+  },
+  {
+    "unitId": "library-d3-bm-sebab-dan-tujuan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Cause/purpose and limits of inference are taught then assessed consistently. No answer-key error found."
+  },
+  {
+    "unitId": "library-d3-en-past-event-sequence",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "low",
+        "evidence": "Teaching examples painted/made; practice q2 requires drew as past form of draw.",
+        "issue": "The irregular target verb is introduced only in the answer explanation, despite the teach-before-assessment promise.",
+        "recommendation": "Add a small draw → drew example or vocabulary pair in the note before the question."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Sequence and regular/irregular past are correctly explained at a general level. One irregular verb required by practice is absent from teaching."
+  },
+  {
+    "unitId": "library-d3-islam-menjaga-barang-titipan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Trust/property ownership/return scenario consistent and age-concrete. Actual scope one adab unit only."
+  },
+  {
+    "unitId": "library-d3-math-kumpulan-sama-banyak",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Equal grouping, multiplication, equal division and inverse check align; recomputed all six unit answers. Larger mapped multiplications are extensions of same method."
+  },
+  {
+    "unitId": "library-d3-moral-baiki-kesan-kesilapan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Acknowledgement, repair and not forcing forgiveness transfer coherently to new scenario."
+  },
+  {
+    "unitId": "library-d3-science-bahan-dan-daya-serap",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Absorbency dataset and fair-test conclusions sound. Grade provenance requires resolution: current PPD Batu Pahat teaching portal lists absorption Year1, density/acids Year3; an old EduwebTV search lists Year3 absorption. Treat as possible legacy-curriculum placement or prerequisite practice, not verified D3 core mapping. Source https://sites.google.com/moe-dl.edu.my/ppd-batu-pahat-sains-matematik/kemenjadian-murid/sekolah-rendah/sains-sekolah-rendah ."
+  },
+  {
+    "unitId": "library-d4-bm-di-tempat-dan-perbuatan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "di location versus passive di- is taught correctly; questions combine taught spelling discrimination and passage retrieval."
+  },
+  {
+    "unitId": "library-d4-en-precise-comparisons",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Comparative/superlative teaching correctly feeds measured comparisons; data and answers consistent. Still only recognition, not evidence of independent sentence production."
+  },
+  {
+    "unitId": "library-d4-history-jejak-masa-sekolah",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Chronology and evidential limits consistent; dates explicitly fictional, intervals recomputed correctly."
+  },
+  {
+    "unitId": "library-d4-islam-sabar-dalam-pembelajaran",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Patience plus active practice/help-seeking is coherently taught and tested; not a recitation skill assessment."
+  },
+  {
+    "unitId": "library-d4-math-pecahan-bahagian-sama",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Same-sized whole/equal parts and same denominator consistently taught and assessed; sums/complements correct; vocabulary override considered."
+  },
+  {
+    "unitId": "library-d4-moral-adil-akses-pembelajaran",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Equal access versus identical aids illustrated with practical scenarios; coherent but abstract terms maruah/kriteria should be explained for readers who need them."
+  },
+  {
+    "unitId": "library-d4-science-cahaya-dan-bayang",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Fixed small source/screen and parallel card make nearer-source/larger-shadow conclusion correct. Johor education portal explicitly has Year4 light topic, so no evidence for moving it to Year5. Exact SK/SP remains unverified. https://sites.google.com/moe-dl.edu.my/fcpi/sains/tahun-4/unit-5-sifat-cahaya ."
+  },
+  {
+    "unitId": "library-d5-bm-syarat-dalam-pengumuman",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Eligibility, deadlines and missing information transfer correctly from announcement examples. Before Monday is consistently distinct from on Thursday inclusive."
+  },
+  {
+    "unitId": "library-d5-en-supporting-a-review",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Fact/opinion/reasons and review evidence are coherent; useful inferential demand. Does not assess writing an actual review."
+  },
+  {
+    "unitId": "library-d5-history-dua-tarikh-negara",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "1957 independence and1963 Malaysia formation are distinguished correctly; fictional classroom story does not purport to be archival evidence."
+  },
+  {
+    "unitId": "library-d5-islam-ihsan-kejiranan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Neighbour needs, consent and safe help align; no answer contradiction. Religious-source claim in editorial record is distinct from KPM grade mapping."
+  },
+  {
+    "unitId": "library-d5-math-perpuluhan-dan-wang",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "Practice context says Soalan terakhir merujuk harga buku sahaja.",
+        "issue": "Root review found an order-dependent reference in a bank whose questions can be selected and reordered.",
+        "recommendation": "Remove the ordinal; the question already identifies the book price."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Decimal money/place value, sum/change and cents conversion all correct; mapped change supplements use same method."
+  },
+  {
+    "unitId": "library-d5-moral-izin-gambar-kumpulan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Purpose-specific photo permission and respectful refusal consistently taught; original interpersonal values exercise, not a verified statutory rule."
+  },
+  {
+    "unitId": "library-d5-science-litar-lengkap",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Circuit closure/open switch statements and answer keys are sound with compatible working components; teacher-supervised low voltage context. Diagram would materially improve concept access but no incorrect claim found."
+  },
+  {
+    "unitId": "library-d6-bm-ringkasan-langkah-tujuan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Summary preserves actor/action/purpose and proposed-versus-completed distinctions. Correct options are faithful, but MCQ recognition does not establish summary-writing skill."
+  },
+  {
+    "unitId": "library-d6-en-reading-rules-and-permission",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Must/may/should and must-not versus do-not-have-to correctly distinguished. Passage constraints and keys align."
+  },
+  {
+    "unitId": "library-d6-history-malaysia-pada-1963",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Formation including Singapore and later separation are internally consistent with source editorial record. Exact KPM D6 mapping not yet verified."
+  },
+  {
+    "unitId": "library-d6-islam-tabayyun-berita-sekolah",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Tabayyun distinguishes observable facts, unsupported accusation and correction; contextual answer keys consistent."
+  },
+  {
+    "unitId": "library-d6-math-peratus-daripada-jumlah",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "Note teaches percent/100 × quantity. Practice q3 asks “Berapakah peratus buku yang telah dipinjam?” with 45 of120 →37.5%.",
+        "issue": "Quantity-to-percentage is a different direction from all worked teaching examples; the procedure first appears after answering.",
+        "recommendation": "Teach part ÷ whole ×100 with a different worked quantity and explain a decimal percentage before this task."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "All arithmetic is correct, but the inverse percentage task is not taught in note/read passage."
+  },
+  {
+    "unitId": "library-d6-moral-maklumat-dan-tanggungjawab",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Check source/date and correct misinformation clearly align with later scenario; higher reasoning remains mostly obvious MCQ distractors."
+  },
+  {
+    "unitId": "library-d6-science-jarak-masa-laju",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "Note works only 12 m ÷4 s=3 m/s. Practice q3 requires2 m/s×7 s and q4 includes5 s stopped.",
+        "issue": "Distance from speed/time and inclusion of stop time have no worked example before practice.",
+        "recommendation": "Add a short repeated-distance example and a worked whole-journey average including a stop, or make them guided teaching items."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Speed comparisons and calculated answers correct. Two practice methods lack explicit worked teaching before assessment."
+  },
+  {
+    "unitId": "library-t1-bm-sempadan-subjek-predikat",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t1-en-layers-of-past-time",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "Single note introduces past simple, past continuous and past perfect together; practice requires were fastening and had measured. No explicit formation table or preliminary simple/continuous mastery activity exists.",
+        "issue": "Three-tense cognitive jump for entry secondary learners; no evidence the third tense is suitable as the compulsory first T1 unit.",
+        "recommendation": "Make T1 core sequence past simple then was/were + -ing with timeline and worked examples; place past perfect in optional extension until grade mapping and prerequisites are verified."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t2-bm-gambaran-dan-kiasan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t2-en-reporting-words-in-context",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "Note works only am finishing → was finishing, but practice 1 requires have finished → had finished and practice 2 will bring → would bring.",
+        "issue": "Two assessed grammar transformations are not explicitly taught before practice; narrative examples do not explain their formation.",
+        "recommendation": "Add worked transformations and timeline for present-perfect→past-perfect and will→would, plus pronoun/time-reference table, before those questions."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t3-bm-sunting-laporan-objektif",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t3-en-reasons-and-counterarguments",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t4-bm-had-dakwaan-dan-syarat",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "Practice Q1 options: [\"Kelab itu telah diberi tapak paling besar.\", \"Permohonannya sedang dinilai.\", \"Kelab itu tidak boleh memohon lagi.\", \"Cadangannya telah ditolak.\"]",
+        "issue": "Upper-secondary reasoning is assessed using mostly blatant contradictions/irrelevant choices; a learner can often eliminate distractors without performing the intended synthesis or inference.",
+        "recommendation": "Replace implausible distractors with plausible partial summaries, attribution swaps or overgeneralizations while preserving one defensible key. Add scaffolded short justification later; do not equate this six-item MCQ set with exam readiness."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t4-en-compare-priorities",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "Practice Q1 options: [\"Both reject short tracks in every case.\", \"Both ask for cheaper tickets.\", \"Both want all objects removed.\", \"Both see value in individual audio tracks.\"]",
+        "issue": "Upper-secondary reasoning is assessed using mostly blatant contradictions/irrelevant choices; a learner can often eliminate distractors without performing the intended synthesis or inference.",
+        "recommendation": "Replace implausible distractors with plausible partial summaries, attribution swaps or overgeneralizations while preserving one defensible key. Add scaffolded short justification later; do not equate this six-item MCQ set with exam readiness."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t5-bm-sintesis-atribusi-berimbang",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "Practice Q1 options: [\"Hanya pemenang boleh menyertai.\", \"Semua karya mesti mempunyai genre yang sama.\", \"Penyunting patut menukar maksud secara senyap.\", \"Penyertaan patut dibuka dengan luas.\"]",
+        "issue": "Upper-secondary reasoning is assessed using mostly blatant contradictions/irrelevant choices; a learner can often eliminate distractors without performing the intended synthesis or inference.",
+        "recommendation": "Replace implausible distractors with plausible partial summaries, attribution swaps or overgeneralizations while preserving one defensible key. Add scaffolded short justification later; do not equate this six-item MCQ set with exam readiness."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t5-en-voice-and-self-presentation",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "Practice Q1 options: [\"The club applauded.\", \"The narrator carried a bag.\", \"Leena owned a pen.\", \"The notebook contained multiple revised openings and a fifth draft.\"]",
+        "issue": "Upper-secondary reasoning is assessed using mostly blatant contradictions/irrelevant choices; a learner can often eliminate distractors without performing the intended synthesis or inference.",
+        "recommendation": "Replace implausible distractors with plausible partial summaries, attribution swaps or overgeneralizations while preserving one defensible key. Add scaffolded short justification later; do not equate this six-item MCQ set with exam readiness."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t1-math-persamaan-seimbang",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Recomputed all worked examples and answers; progression is linear equations → cylinder volume → scale → quadratic roots → variation. Concept and assessment agree internally."
+  },
+  {
+    "unitId": "library-t2-math-isi-padu-silinder",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Recomputed all worked examples and answers; progression is linear equations → cylinder volume → scale → quadratic roots → variation. Concept and assessment agree internally."
+  },
+  {
+    "unitId": "library-t3-math-skala-dan-ukuran-sebenar",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Recomputed all worked examples and answers; progression is linear equations → cylinder volume → scale → quadratic roots → variation. Concept and assessment agree internally."
+  },
+  {
+    "unitId": "library-t4-math-punca-kuadratik",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Recomputed all worked examples and answers; progression is linear equations → cylinder volume → scale → quadratic roots → variation. Concept and assessment agree internally."
+  },
+  {
+    "unitId": "library-t5-math-ubah-langsung-songsang",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Recomputed all worked examples and answers; progression is linear equations → cylinder volume → scale → quadratic roots → variation. Concept and assessment agree internally."
+  },
+  {
+    "unitId": "library-t1-science-ketumpatan-dan-sesaran",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Recomputed numeric items and checked physical assumptions against stated conditions. No numeric defect found."
+  },
+  {
+    "unitId": "library-t2-science-pemindahan-haba",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Recomputed numeric items and checked physical assumptions against stated conditions. No numeric defect found."
+  },
+  {
+    "unitId": "library-t3-science-kuasa-dan-tenaga-elektrik",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Recomputed numeric items and checked physical assumptions against stated conditions. No numeric defect found."
+  },
+  {
+    "unitId": "library-t4-science-inersia-daya-pecutan",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "high",
+        "evidence": "Note teaches F=ma/net force; reading and practice 1–2 depend on it. Teacher-authored DELIMa https://sites.google.com/moe-dl.edu.my/cikguhasyyati/sains-t4/bab-11-t4 lists general Sains T4 11.1 linear motion, 11.2 graphs, 11.3 gravity, 11.4 mass/inertia; Newton-II calculation standard not listed.",
+        "issue": "Probable subject/grade scope drift: general Sains default is dominated by Physics-style F=ma instead of confirmed general Science motion/inertia content.",
+        "recommendation": "Use speed/velocity/acceleration from change over time and qualitative mass–inertia examples in general Science; move net-force calculation to explicitly mapped Physics/enrichment after formal DSKP verification."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Recomputed numeric items and checked physical assumptions against stated conditions. No numeric defect found."
+  },
+  {
+    "unitId": "library-t5-science-kadar-tindak-balas",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Recomputed numeric items and checked physical assumptions against stated conditions. No numeric defect found."
+  },
+  {
+    "unitId": "library-t1-islam-maruah-dalam-ukhuwah",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Scenarios are coherent and distinguish personal-to-organisational ethical reasoning. Most distractors are overtly irrelevant or extreme, so MCQ success alone is weak evidence of independent ethical reasoning. Religious citation grade placement and full field coverage remain unverified."
+  },
+  {
+    "unitId": "library-t2-islam-syura-dan-keputusan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Scenarios are coherent and distinguish personal-to-organisational ethical reasoning. Most distractors are overtly irrelevant or extreme, so MCQ success alone is weak evidence of independent ethical reasoning. Religious citation grade placement and full field coverage remain unverified."
+  },
+  {
+    "unitId": "library-t3-islam-berhemat-sumber-program",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Scenarios are coherent and distinguish personal-to-organisational ethical reasoning. Most distractors are overtly irrelevant or extreme, so MCQ success alone is weak evidence of independent ethical reasoning. Religious citation grade placement and full field coverage remain unverified."
+  },
+  {
+    "unitId": "library-t4-islam-keadilan-penilaian",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Scenarios are coherent and distinguish personal-to-organisational ethical reasoning. Most distractors are overtly irrelevant or extreme, so MCQ success alone is weak evidence of independent ethical reasoning. Religious citation grade placement and full field coverage remain unverified."
+  },
+  {
+    "unitId": "library-t5-islam-amanah-ilmu-digital",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Scenarios are coherent and distinguish personal-to-organisational ethical reasoning. Most distractors are overtly irrelevant or extreme, so MCQ success alone is weak evidence of independent ethical reasoning. Religious citation grade placement and full field coverage remain unverified."
+  },
+  {
+    "unitId": "library-t1-moral-tekanan-rakan-sebaya",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Scenarios are coherent and distinguish personal-to-organisational ethical reasoning. Most distractors are overtly irrelevant or extreme, so MCQ success alone is weak evidence of independent ethical reasoning. Religious citation grade placement and full field coverage remain unverified."
+  },
+  {
+    "unitId": "library-t2-moral-rundingan-keperluan-berbeza",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Scenarios are coherent and distinguish personal-to-organisational ethical reasoning. Most distractors are overtly irrelevant or extreme, so MCQ success alone is weak evidence of independent ethical reasoning. Religious citation grade placement and full field coverage remain unverified."
+  },
+  {
+    "unitId": "library-t3-moral-kesan-pilihan-alam",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Scenarios are coherent and distinguish personal-to-organisational ethical reasoning. Most distractors are overtly irrelevant or extreme, so MCQ success alone is weak evidence of independent ethical reasoning. Religious citation grade placement and full field coverage remain unverified."
+  },
+  {
+    "unitId": "library-t4-moral-konflik-kepentingan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Scenarios are coherent and distinguish personal-to-organisational ethical reasoning. Most distractors are overtly irrelevant or extreme, so MCQ success alone is weak evidence of independent ethical reasoning. Religious citation grade placement and full field coverage remain unverified."
+  },
+  {
+    "unitId": "library-t5-moral-pertimbangan-etika-awam",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Scenarios are coherent and distinguish personal-to-organisational ethical reasoning. Most distractors are overtly irrelevant or extreme, so MCQ success alone is weak evidence of independent ethical reasoning. Religious citation grade placement and full field coverage remain unverified."
+  },
+  {
+    "unitId": "library-t1-history-artifak-dan-konteks",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Practice develops historical-source reasoning, but very little substantive grade-specific Malaysian history is taught; cannot stand in for the grade history syllabus or exam revision."
+  },
+  {
+    "unitId": "library-t2-history-pelabuhan-pertukaran",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Practice develops historical-source reasoning, but very little substantive grade-specific Malaysian history is taught; cannot stand in for the grade history syllabus or exam revision."
+  },
+  {
+    "unitId": "library-t3-history-pengangkutan-ekonomi-kolonial",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Practice develops historical-source reasoning, but very little substantive grade-specific Malaysian history is taught; cannot stand in for the grade history syllabus or exam revision."
+  },
+  {
+    "unitId": "library-t4-history-akhbar-dan-kesedaran",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Practice develops historical-source reasoning, but very little substantive grade-specific Malaysian history is taught; cannot stand in for the grade history syllabus or exam revision."
+  },
+  {
+    "unitId": "library-t5-history-tafsiran-pelbagai-sumber",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified. Practice develops historical-source reasoning, but very little substantive grade-specific Malaysian history is taught; cannot stand in for the grade history syllabus or exam revision."
+  },
+  {
+    "unitId": "library-t1-geo-skala-dan-laluan",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "high",
+        "evidence": "Unit levelId=t1; note and 5 of 6 questions require ratio scale/distance. School-authored DELIMa page https://sites.google.com/moe-dl.edu.my/epembelajaransmkbrp/e-pembelajaran-t2/geografi-t2 places Skala dan Jarak in T2; T1 teacher contents https://sites.google.com/moe-dl.edu.my/cikgushazlinda/geografi/tingkatan-1 start Arah, Kedudukan, Peta Lakar.",
+        "issue": "Probable grade misplacement: sole default T1 unit jumps to T2 scale calculations, with no direction/position/map-key foundation.",
+        "recommendation": "Replace default T1 unit with direction, position and sketch-map reading; retain old IDs/history in archive or labelled enrichment. Confirm against formal DSKP before assigning SK/SP; teacher pages are indicative, not formal approval."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t2-geo-cuaca-dan-iklim",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t3-geo-tadahan-dan-larian",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t4-geo-kepadatan-dan-perubahan-penduduk",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "Practice 1 asks pertambahan semula jadi; note describes population components but never defines that term or gives births-minus-deaths formula. Practice 3 also needs population accounting equation.",
+        "issue": "First use of assessed technical term occurs in the question rather than the teaching material.",
+        "recommendation": "Teach pertambahan semula jadi = kelahiran − kematian and penduduk akhir = awal + kelahiran − kematian + masuk − keluar, with one worked example."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t5-geo-menilai-pilihan-banjir",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Read note, reading, practice, all 6 keyed answers, explanations and four answer options. No arithmetic/key contradiction found. Selected unit only; not full syllabus coverage. Exact DSKP SK/SP and teacher moderation unverified."
+  },
+  {
+    "unitId": "library-t6-bm-hujah-dan-rujukan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Kohesi/koheren, anteseden dan batas kesimpulan konsisten. Tiada padanan hasil/semester910 atau liputan bahasa penuh. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-history-kritikan-sumber",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Kaedah kritik sumber munasabah; peristiwa rekaan dilabel. Tiada fakta sejarah sebenar, kronologi atau tema semester. Kekal kemahiran tambahan. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-geo-hidrograf-dan-guna-tanah",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "practice Q2 distractors pembakaran air/meningkatkan hujan/berhenti kekal; Q4 graviti sifar.",
+        "issue": "Distractors tidak munasabah untuk T6.",
+        "recommendation": "Ganti salah konsep realistik: infiltration vs detention, jumlah air vs puncak, ketepuan vs kapasiti longkang."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Resapan/storan dan pengurangan37.5% betul. Tiada graf sebenar; padanan942/semester belum disahkan. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-pa-menilai-program",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Output/hasil dan batas generalisasi jelas.25mata peratusan, kesan tambahan15mata, RM200 setiap tambahan betul di bawah andaian. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-bc-lunzheng-bianjie",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Konsesi dan kesimpulan sepadan teks. Ulasan Melayu memberi banyak tafsiran sebelum soalan; sesuai bacaan berpandu. Perlu semakan pengajar bahasa911. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-bt-kuriyidu-kural",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Simbol loceng dan kontras cahaya-kepercayaan sepadan teks. Ulasan Melayu membimbing tafsiran. Semakan bahasa profesional dan prescribed materials belum tersedia. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-ba-nahw-wa-istidlal",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Isim/khabar kana/inna/lakinna dan nasab jamak muzakkar salim konsisten. Hanya struktur nahu dan inferens terpilih; semester913 belum dipetakan. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-lit_en-voice-and-objects",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Drawer/key dan irony bench konsisten; cerita asal bukan set text. MPM920 printedpp4–7 menetapkan prescribed texts dan written critical appreciation. Original scenes hanya latihan tambahan, bukan exam coverage. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-kmk-ruang-dan-adaptasi",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Latar/objek dan adaptasi tanpa narator sesuai latihan berpandu. Tiada prescribed text atau rubrik922 disahkan. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-syariah-akad-dan-penzahiran",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Harga/ansuran RM1150,20%,RM3000 konsisten. Aritmetik dibezakan daripada sah akad. Tiada semakan pakar atau mapping930. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-usuluddin-riwayat-dan-bukti",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "practice Q1 pilihan salah warna fail, ukuran meja, nama pencetak.",
+        "issue": "Boleh jawab tanpa memahami sanad.",
+        "recommendation": "Guna pilihan teknikal berkaitan sanad,matan,penilaian perawi dan varian."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Sanad/matan dan penangguhan status berhati-hati, tiada hadis dicipta. Unit metodologi asas, bukan ilmu hadis931 penuh. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-tahfiz-audit-hafazan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Masa vs ketepatan dan bantuan guru dibezakan. Tiada bacaan hafazan sebenar dinilai; jangan beri markah hafazan dariMCQ. DirektoriMPM932 ada0muat turun. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-economics-cukai-dan-keanjalan",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "P40Q60; Pc42Pp34Q54; beban pengeluar75%; hasil432 betul. Keanjalan formal/graf dan outcome944 belum dipetakan. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-business-keputusan-kapasiti",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Kos relevan betul: titik sama2000; A jimat2000 pada3000; B9200 lawan10800 pada1200. Sukatan946 belum dipetakan. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-accounting-pelarasan-dan-untung",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Jurnal/prabayar/susut nilai betul; untung37200. Asas juga boleh muncul sebelumSTPM; belum bukti kedalaman948. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-mgmt_math-linear-programming",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "high",
+        "evidence": "MPM9502026 printedpp19–20/PDF30–31:16.1 simplex,16.2 Big-M,3decision variables. Existing2variable vertices.",
+        "issue": "Tidak memenuhi sasaran LP STPM2026 jika dianggap topik lengkap.",
+        "recommendation": "Label prerequisite menujuSemester3. Jangan tanda16.1/16.2 mastered. Tambah unit3variables,tableau,pivot,Big-M dengan semakan bebas."
+      },
+      {
+        "severity": "medium",
+        "evidence": "practice.body: For the final question only.",
+        "issue": "Ordinal tidak stabil dalam cabaran/pilihan soalan.",
+        "recommendation": "Ganti For the resource-increase case dan sebut17dalam stem."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "LP2variables betul:460,482 pada3.8/6.6. Official950 printedpp19–20: LP Semester3 menggunakan3variables,simplex,Big-M. Unit sekarang prerequisite. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-stpm_math-stationary-and-area-v2",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "low",
+        "evidence": "stpm-sources.md masih closed-interval extrema dan absolutemax x1/4; published-v2 telah mengganti.",
+        "issue": "Dokumen editorial ketinggalan.",
+        "recommendation": "Kemas kini focus/checks kepada localextrema dan selang menurun; label versi endpoint archived."
+      }
+    ],
+    "curriculumMapping": "partial",
+    "notes": "Mengambil kira revised-v2: endpoint diganti selang menurun1<x<3. Derivatif, extrema dan luas27/4 betul. Official954 Semester2 8.2(a),(b),9.3(a) sebahagian disokong. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-ict-dependencies-and-design",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "reading Q2 distractors font,sorting,staff comment.",
+        "issue": "Hanya1pilihan teknikal bagi foreign key.",
+        "recommendation": "Banding foreign key,PRIMARY KEY,UNIQUE,NOT NULL."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Partial/transitive dependencies dan3table decomposition konsisten. Hands-on schema/SQL dan mapping958 belum tersedia. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-physics-flux-and-induction",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "reading Q2 distractors coil has no area/voltmeter creates field.",
+        "issue": "Penilaian konsepT6 terlalu mudah melalui penyingkiran.",
+        "recommendation": "Guna salah konsep angular speed,B magnitude,flux magnitude vs rate."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Flux0.54,emf5.4V,current0.90A anticlockwise,0V apabilaBtetap betul. Normal dan abaikan self-inductance eksplisit.960semester belum disahkan. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-chemistry-reaction-quotient",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "practice.body: In Question3 only; bank gabung2reading+4practice.",
+        "issue": "Ordinal tidak stabil selepas dipilih/dicampur dalam quiz.",
+        "recommendation": "Nyatakan for the expansion case dan ulang syarat volume/temp dalam stem."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "ContohKc0.360,bacaan4.00; NO2=1.20mol,Kc1.80,Qc0.900forward betul. Konvensyen unit eksplisit.962semester belum disahkan. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-biology-enzyme-models",
+    "status": "no-concrete-defect-found",
+    "findings": [],
+    "curriculumMapping": "unverified",
+    "notes": "Formula diberi, rates40/20/80,S12 betul. Corak competitive bukan bukti struktur. MPM964 directory updated12Aug2026; PDF dibuka tetapi carian susulan gagal; outcome/semester tidak disahkan. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-sports_science-momen-daya",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "practice.body: Untuk soalan ketiga sahaja.",
+        "issue": "Ordinal tidak stabil dalam bank gabungan.",
+        "recommendation": "Ganti Untuk soalan pemindahan beban sahaja dan kekalkan0.20m dalam stem."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Momen21Nm,otot600N/429N betul. Daya sendi dijelaskan. Perlu diagram/mapping966; bukan preskripsi senaman. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  },
+  {
+    "unitId": "library-t6-visual_art-hierarki-dan-makna",
+    "status": "needs-fix",
+    "findings": [
+      {
+        "severity": "medium",
+        "evidence": "Semua note/reading/practice hanya teks walaupun menilai warna/ruang/saiz.",
+        "issue": "Murid menilai penerangan, bukan melihat karya.",
+        "recommendation": "Tambah poster SVG asli tepat dan alt text; latihan pemerhatian serta justifikasi."
+      }
+    ],
+    "curriculumMapping": "unverified",
+    "notes": "Hierarki/kontras/ruang munasabah tetapi karya hanya deskripsi teks; bukan pemerhatian karya sebenar/penghasilan seni970. Setiap unit2reading+4MCQ sahaja. Bukan kelulusan kurikulum/pendidik penuh."
+  }
+]

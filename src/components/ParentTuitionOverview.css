@@ -1,0 +1,28 @@
+.parentTuitionOverview{max-width:1000px;margin:0 auto 50px;padding:26px 30px;background:white;border:1px solid #e2eaf4;border-radius:24px;box-shadow:0 12px 35px #1b447112}
+.parentTuitionHeader{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.parentTuitionHeader h2{font-size:clamp(1.2rem,2vw,1.65rem);margin:9px 0;color:#173158}
+.parentTuitionHeader p{margin:0;color:#59708f}
+.parentTuitionHeader .miniButton{flex:none}
+.parentTuitionMetrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:20px 0}
+.parentTuitionMetrics article{display:flex;gap:15px;align-items:center;border-radius:17px;background:#eef6ff;padding:18px;color:#194d85}
+.parentTuitionMetrics article:nth-child(2){background:#fff6e9;color:#875715}
+.parentTuitionMetrics svg{width:26px;height:26px}
+.parentTuitionMetrics article div{display:flex;flex-direction:column;gap:4px}
+.parentTuitionMetrics strong{font-size:1.6rem;line-height:1;color:#142f57}
+.parentTuitionMetrics span{font-size:.83rem;font-weight:700}
+.parentTuitionEmpty,.parentTuitionError,.parentTuitionLoading{padding:18px;color:#5a6b82;background:#f7fbff;border-radius:15px;margin-top:14px}
+.parentTuitionEmpty svg{width:28px;height:28px}
+.parentTuitionEmpty p,.parentTuitionError p{margin:0 0 10px}
+.parentTuitionConnections{margin-top:18px;border:1px solid #e6edf7;border-radius:16px;overflow:hidden}
+.parentTuitionConnections article{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px;border-bottom:1px solid #e9eef5}
+.parentTuitionConnections article:last-child{border-bottom:0}
+.parentTuitionConnections article>div{min-width:0;display:flex;flex-direction:column;gap:4px}
+.parentTuitionConnections strong{color:#213954}
+.parentTuitionConnections article>div span{color:#586b82;font-size:.82rem}
+.tuitionClassStatus{border-radius:100px;padding:6px 10px;font-size:.75rem;font-weight:800;white-space:nowrap}
+.tuitionClassStatus.active{background:#e6f7ed;color:#207a42}
+.tuitionClassStatus.pending{background:#fff3df;color:#985a17}
+.parentTuitionConnectionsLink{display:flex;gap:8px;align-items:center;justify-content:flex-end;margin-top:15px;margin-left:auto;background:none;border:0;color:#2468bc;font-weight:800;padding:10px;min-height:44px}
+.parentTuitionConnectionsLink svg{width:18px;height:18px}
+@media(max-width:1150px){.parentTuitionOverview{margin:0 22px 45px}}
+@media(max-width:650px){.parentTuitionOverview{margin:0 16px 90px;padding:20px}.parentTuitionHeader{align-items:start;flex-direction:column}.parentTuitionHeader .miniButton{width:100%}.parentTuitionMetrics{gap:8px}.parentTuitionMetrics article{padding:14px;gap:10px}.parentTuitionConnections article{align-items:flex-start;flex-direction:column}}

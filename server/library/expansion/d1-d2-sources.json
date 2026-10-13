@@ -1,0 +1,1834 @@
+{
+  "scope": "178 original supplementary units for Darjah 1 and Darjah 2; six questions grounded in the reading of each unit.",
+  "rights": "Original Study text. External pages are references and discovery links; no third-party books, images or paid worksheets reproduced.",
+  "limits": [
+    "These are supplemental micro-lessons, not certification of complete KSSR syllabus coverage.",
+    "D1 letter/word cards require adult/audio support when children cannot read. Physical pictures are used for concrete tasks.",
+    "Moral and adab scenarios are original age-oriented examples; a teacher should review subject progression.",
+    "Exact textual evidence checks do not replace factual or pedagogical review."
+  ],
+  "sources": [
+    {
+      "id": "kpm-literasi",
+      "url": "https://sumberku.moe-dl.edu.my/kit-pemugaran-literasi-dan-numerasi",
+      "publisher": "KPM SumberKU",
+      "checked": "2026-09-10",
+      "verifiedContent": "Landing page lists Modul Asas Literasi Bahasa Melayu and Modul Asas Numerasi in Malay and English.",
+      "use": "Pedagogical reference for initial listening, reading, vocabulary and concrete numeracy. Original Study content; no document text or artwork copied.",
+      "gradeMapping": "Tahap 1 support; exact per-standard DSKP mapping not asserted."
+    },
+    {
+      "id": "kpm-sumberku",
+      "url": "https://sumberku.moe-dl.edu.my/self",
+      "publisher": "KPM SumberKU SELF",
+      "checked": "2026-09-10",
+      "verifiedContent": "Page lists Primary English Years 1–6, Year 2 BM themes and safety reading, Year 2 science plant growth, Year 2 mathematics data handling.",
+      "use": "Age and topic orientation; no wholesale import.",
+      "gradeMapping": "Direct page-level links for Year 2 plant growth/data and primary English; other mappings are editorial and await teacher review."
+    },
+    {
+      "id": "kpm-pi-dskp-list",
+      "url": "https://sites.google.com/moe-dl.edu.my/e-pendidikanislamportal/home/dskp-pendidikan-islam",
+      "publisher": "KPM-domain education portal",
+      "checked": "2026-09-10",
+      "verifiedContent": "Lists Year 1 and Year 2 Pendidikan Islam KSSR revised DSKP PDFs.",
+      "use": "Curriculum discovery link only. Embedded PDFs not exhaustively reviewed.",
+      "gradeMapping": "No formal standard code claimed."
+    },
+    {
+      "id": "ejauhar-pafa",
+      "url": "https://sites.google.com/moe-dl.edu.my/fcpi/pafa",
+      "publisher": "e-JAUHAR Pendidikan Islam dan Bahasa Arab Negeri Johor",
+      "checked": "2026-09-10",
+      "verifiedContent": "KOD 02 lists five Rukun Islam; KOD 03 lists six Rukun Iman.",
+      "use": "Fact verification for introductory rukun topics. Original explanatory prose and scenarios.",
+      "gradeMapping": "Basic PAFA reinforcement, not a claim that every point belongs to one specific Year 2 DSKP standard."
+    }
+  ],
+  "units": [
+    {
+      "unitId": "library-d1-bm-exp-bunyi-awal-b",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Dengar bunyi awal b dan kenal lambangnya pada perkataan pendek.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-bunyi-awal-p",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Banding bunyi awal p dengan bunyi awal c dan t melalui nama benda.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-suku-kata-bu-ku",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Cantum suku kata terbuka menjadi perkataan mudah yang bermakna.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-perkataan-berakhir-kan",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Cantum suku kata tertutup kan dan bandingkan dengan suku kata terbuka.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-dengar-arahan-ambil",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Kenal kata kerja mudah berdasarkan tindakan yang disebut dalam ayat.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-kata-kerja-buka-dan-golek",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Padankan kata kerja dengan objek dan tujuan tindakan yang berbeza.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-nama-anggota-badan",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Kenal nama anggota melalui kegunaan harian yang mudah.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-kata-warna-pada-benda",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Kenal perkataan warna melalui padanan pada objek yang berbeza.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-ini-dan-itu-dalam-cerita",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Kenal ini untuk rujukan dekat dan itu untuk rujukan jauh dalam contoh berpandu.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-soalan-apa-di-meja",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Kenal kata tanya apa serta bezakan soalan benda dan soalan orang.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-ucapan-sopan-ringkas",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Padankan ucapan sopan dengan tindakan dalam situasi harian.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-ayat-tentang-haiwan",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Kenal noktah dan huruf besar dalam ayat mudah tentang haiwan.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-susunan-sebelum-makan",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Kenal kata sebelum dan selepas melalui peristiwa yang disusun.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-cerita-tiga-tempat-simpan",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Dengar nama tempat simpan dan padankan barang yang disebut.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-dengar-perkataan-dan-lawan-benda",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Bezakan kata nama benda daripada kata kerja dalam frasa pendek.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-cerita-daun-di-halaman",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Ingat objek dan urutan pemerhatian dalam cerita halaman.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-pilihan-benda-untuk-tugas",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Pilih kata nama yang melengkapkan tujuan sesuatu tugas.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-bm-exp-dengar-pesanan-di-pusat-sumber",
+      "grade": "d1",
+      "subject": "bm",
+      "objective": "Ingat pesanan pendek tentang meminjam dan menjaga bahan bacaan.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-school-things-by-sound",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Listen to common classroom nouns and match each spoken word to its picture.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-listen-to-action-words",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Recognise simple English verbs and connect them with actions.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-my-face-and-hands",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Hear body-part words and connect them with everyday actions.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-at-the-snack-table",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Learn the names of things and actions at a snack table.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-one-thing-and-two-things",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Hear singular and plural nouns and notice the ending s.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-a-green-garden-find",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Learn leaf and simple observation words through a garden visit.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-please-and-thank-you",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Practise polite actions while asking for classroom materials.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-what-can-roll",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Recognise can in simple ability statements and choose the action described.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-listen-to-small-instructions",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Hear and recognise four simple classroom instruction verbs.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-the-picture-hunt",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Match the first letters of familiar English picture words.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-things-we-use-together",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Learn share through objects used in different shared activities.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-listen-to-red-and-blue-objects",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Notice uppercase and lowercase letters in familiar colour words.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-a-quiet-reading-time",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Understand simple words used during quiet reading with an adult.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-the-clean-up-helpers",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Recognise action words and objects used after a messy activity.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-en-exp-living-fish-and-garden-leaves",
+      "grade": "d1",
+      "subject": "en",
+      "objective": "Name a living animal and a plant part in a short comparison.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-padanan-satu-dengan-satu",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Padankan objek satu demi satu sebelum menyebut jumlah.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-gabung-dua-kumpulan",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Lihat dua kumpulan kecil digabungkan menjadi satu jumlah.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-baki-selepas-diambil",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Bezakan jumlah asal dan baki apabila beberapa objek diambil.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-pasangan-yang-sama-banyak",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Kenal dua kumpulan yang mempunyai bilangan sama walaupun jenis objek berbeza.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-banding-lebih-banyak",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Banding dua kumpulan kecil menggunakan bilangan objek yang dapat ditunjuk.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-banding-lebih-sedikit",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Pilih kumpulan lebih sedikit dengan memadankan objek secara berpasangan.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-kira-sambung-satu-lagi",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Tambah satu pada jumlah yang telah diketahui tanpa mengira semula dari awal.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-kira-undur-satu-kurang",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Hubungkan kira undur dengan mengeluarkan satu objek setiap kali.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-bina-lima-dua-cara",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Pecahkan jumlah lima kepada dua bahagian yang saling melengkapkan.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-bina-sepuluh-dengan-gambar",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Kenal pasangan nombor kecil yang melengkapkan jumlah sepuluh.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-kumpulan-berpasangan",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Susun objek dua-dua dan kira jumlah tanpa melangkau objek.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-agih-sama-rata-dengan-benda",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Agihkan kumpulan kecil satu demi satu kepada dua penerima.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-kekal-bilangan-walau-disusun",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Fahami susunan objek berubah tetapi bilangannya kekal apabila tiada ditambah atau diambil.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-kelas-mengikut-jenis",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Asingkan objek berdasarkan satu ciri iaitu jenis objek.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-math-exp-baca-rekod-gambar-kecil",
+      "grade": "d1",
+      "subject": "math",
+      "objective": "Dengar rekod bilangan kelas dan padankan dengan kumpulan gambar.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-pemerhatian-tanpa-menyentuh",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Gunakan penglihatan untuk memerhati objek yang tidak perlu dipegang.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-dengar-bunyi-sekeliling",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Kenal pendengaran dan cara mendengar pada aras bunyi yang selesa.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-tangan-bersih-selepas-aktiviti",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Hubungkan aktiviti menyentuh bahan dengan rutin membersihkan tangan.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-ikan-memerlukan-air",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Kenal keperluan asas ikan dalam akuarium melalui pemerhatian berpandu.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-daun-bahagian-tumbuhan",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Kenal daun sebagai bahagian tumbuhan dan amalkan pemerhatian tanpa merosakkan.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-objek-buatan-dan-bahagian-alam",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Bezakan contoh benda buatan manusia daripada haiwan dan bahagian tumbuhan.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-alat-minum-yang-selamat",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Kenal cawan dan tindakan selamat apabila bekas atau air bermasalah.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-melukis-hasil-pemerhatian",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Rekod pemerhatian mudah melalui gambar tanpa meneka benda yang tidak dilihat.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-cahaya-membantu-melihat",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Kenal keperluan cahaya untuk melihat dan elakkan memandang sumber terang berbahaya.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-mainan-dan-cara-bergerak",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Perhatikan bola bergolek dan bezakan objek yang mempunyai kegunaan lain.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-air-tumpah-di-meja",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Kenal tanda tumpahan dan pilih bantuan yang selamat.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-kebersihan-ruang-belajar",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Kenal tempat bahan belajar dan cara mengurus cebisan yang tidak digunakan.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-berehat-selepas-aktiviti",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Kenal rehat dan minum sebagai sebahagian rutin menjaga diri.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-memerhati-warna-dengan-teliti",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Catat warna objek yang dilihat tanpa menganggap semua objek sama warna.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-science-exp-bertanya-sebelum-menyiasat",
+      "grade": "d1",
+      "subject": "science",
+      "objective": "Amalkan keselamatan asas semasa aktiviti sains berpandu.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-islam-exp-adab-mendengar-guru",
+      "grade": "d1",
+      "subject": "islam",
+      "objective": "Kenal adab belajar dan tujuan mendengar arahan guru dengan tertib.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-islam-exp-amanah-buku-pinjaman",
+      "grade": "d1",
+      "subject": "islam",
+      "objective": "Kenal amanah dan jujur melalui penjagaan barang pinjaman.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-islam-exp-adab-sebelum-tidur",
+      "grade": "d1",
+      "subject": "islam",
+      "objective": "Kenal tidur sebagai waktu rehat serta amalan berdoa dengan bimbingan penjaga.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-islam-exp-menjaga-nikmat-air",
+      "grade": "d1",
+      "subject": "islam",
+      "objective": "Kenal air sebagai nikmat dan gunakan secukupnya ketika membersihkan diri.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-islam-exp-berbuat-baik-kepada-kawan",
+      "grade": "d1",
+      "subject": "islam",
+      "objective": "Kenal sifat kasih dan adil dalam persahabatan melalui tindakan berkongsi.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-islam-exp-adab-meminta-pertolongan",
+      "grade": "d1",
+      "subject": "islam",
+      "objective": "Kenal ucapan salam dan cara meminta bantuan dengan sopan.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-islam-exp-sayang-haiwan-peliharaan",
+      "grade": "d1",
+      "subject": "islam",
+      "objective": "Kenal ihsan sebagai berbuat baik termasuk kepada haiwan yang dijaga.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-islam-exp-menjaga-kebersihan-tempat-ibadah",
+      "grade": "d1",
+      "subject": "islam",
+      "objective": "Kenal masjid dan solat serta tindakan menjaga kebersihan tempat ibadah.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-islam-exp-adab-menerima-hadiah",
+      "grade": "d1",
+      "subject": "islam",
+      "objective": "Kenal syukur dan adab menghargai pemberian tanpa merosakkannya.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-islam-exp-menghormati-penjaga-di-rumah",
+      "grade": "d1",
+      "subject": "islam",
+      "objective": "Kenal ibu dan bapa sebagai orang yang perlu dihormati serta didengar nasihatnya.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-islam-exp-tidak-membazir-alat-belajar",
+      "grade": "d1",
+      "subject": "islam",
+      "objective": "Kenal pembaziran dan amalan menjaga barang yang masih boleh digunakan.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-islam-exp-adab-melawat-orang-sakit",
+      "grade": "d1",
+      "subject": "islam",
+      "objective": "Kenal ziarah dan kasih melalui lawatan tenang kepada orang yang memerlukan rehat.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-islam-exp-menepati-janji-memulangkan-barang",
+      "grade": "d1",
+      "subject": "islam",
+      "objective": "Kenal janji dan amanah melalui masa pemulangan barang yang dipersetujui.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-moral-exp-berani-mengaku-kesilapan",
+      "grade": "d1",
+      "subject": "moral",
+      "objective": "Beritahu orang dewasa tentang kesilapan dan ikut langkah membaikinya.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-moral-exp-giliran-alat-seni",
+      "grade": "d1",
+      "subject": "moral",
+      "objective": "Beri peluang yang adil apabila alat seni digunakan bersama.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-moral-exp-menjaga-barang-sendiri",
+      "grade": "d1",
+      "subject": "moral",
+      "objective": "Letakkan barang di tempatnya dan minta bantuan tanpa mengambil barang orang lain.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-moral-exp-menghargai-petugas-sekolah",
+      "grade": "d1",
+      "subject": "moral",
+      "objective": "Kenal sumbangan orang yang membersihkan sekolah dan bantu menjaga ruangnya.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-moral-exp-minta-izin-sebelum-meminjam",
+      "grade": "d1",
+      "subject": "moral",
+      "objective": "Bezakan barang sendiri dan barang rakan melalui amalan meminta izin.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-moral-exp-prihatin-kepada-rakan-sedih",
+      "grade": "d1",
+      "subject": "moral",
+      "objective": "Dengar rakan dengan baik dan dapatkan bantuan orang dewasa apabila diperlukan.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-moral-exp-jaga-alam-di-taman",
+      "grade": "d1",
+      "subject": "moral",
+      "objective": "Nikmati taman tanpa merosakkan tumbuhan atau meninggalkan sampah.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-moral-exp-kerjasama-menyusun-sudut-bacaan",
+      "grade": "d1",
+      "subject": "moral",
+      "objective": "Bahagikan tugas kecil supaya ruang bacaan boleh digunakan bersama.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-moral-exp-hormati-orang-yang-bercakap",
+      "grade": "d1",
+      "subject": "moral",
+      "objective": "Dengar hingga selesai dan minta giliran sebelum menyampaikan pendapat.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-moral-exp-menjaga-keselamatan-bersama",
+      "grade": "d1",
+      "subject": "moral",
+      "objective": "Maklumkan bahaya kepada guru dan elakkan mengurus benda tajam sendiri.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-moral-exp-rajin-menyiapkan-lukisan",
+      "grade": "d1",
+      "subject": "moral",
+      "objective": "Cuba tugasan kecil dengan tekun dan minta bimbingan apabila perlu.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-moral-exp-pulangkan-barang-yang-dijumpai",
+      "grade": "d1",
+      "subject": "moral",
+      "objective": "Serahkan barang yang bukan milik sendiri kepada guru supaya pemilik boleh dikenal pasti.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d1-moral-exp-berdikari-dalam-rutin-makan",
+      "grade": "d1",
+      "subject": "moral",
+      "objective": "Lakukan langkah mudah sendiri dan minta bantuan untuk perkara yang sukar.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-kata-nama-am-di-kebun",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Kenal kata nama am untuk orang, haiwan, tumbuhan dan benda.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-nama-khas-pada-kad-jemputan",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Bezakan nama khas dan kata nama am dalam kad jemputan mudah.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-saya-kamu-dan-dia",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Pilih kata ganti nama diri yang sesuai dengan siapa yang bercakap.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-kata-kerja-dalam-resipi-mudah",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Kenal tindakan daripada arahan menyediakan sandwic dengan penjaga.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-kata-adjektif-rasa-dan-sifat",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Bezakan perkataan yang menerangkan sifat benda dalam bacaan pasar.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-kata-hubung-dan",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Gabungkan dua maklumat yang sejenis menggunakan dan tanpa mengubah maksud.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-kata-hubung-tetapi",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Gunakan tetapi untuk menghubungkan maklumat yang berbeza atau bertentangan.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-kata-hubung-kerana",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Kenal sebab sesuatu peristiwa melalui perkataan kerana.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-kata-sendi-di-ke-dari",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Bezakan tempat berada, arah tujuan dan tempat asal.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-kata-tanya-pada-lawatan",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Pilih kata tanya berdasarkan maklumat yang ingin diketahui.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-noktah-dan-tanda-tanya",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Kenal tanda baca mengikut fungsi ayat penyata dan ayat tanya.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-huruf-besar-pada-permulaan",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Gunakan huruf besar untuk awal ayat dan nama orang dalam cerita pendek.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-imbuhan-ber-dalam-aktiviti",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Kenal beberapa kata berimbuhan ber yang menunjukkan aktiviti mudah.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-imbuhan-me-pada-perbuatan",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Kenal bentuk kata berimbuhan melalui contoh perbuatan yang lazim.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-dialog-meminta-izin",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Fahami tujuan ucapan dalam dialog ringkas di pusat sumber.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-urutan-menanam-kacang",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Susun maklumat berdasarkan penanda urutan dalam teks mudah.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-idea-utama-cerita-bekal",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Bezakan isi utama dan butiran sokongan dalam cerita bekalan sekolah.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-bm-exp-baca-pesanan-ringkas",
+      "grade": "d2",
+      "subject": "bm",
+      "objective": "Cari tindakan, masa dan tempat daripada pesanan yang diberi.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-i-you-he-and-she",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Choose subject pronouns for the speaker, listener and people described.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-singular-and-plural-classroom-nouns",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Notice regular plural endings and distinguish one object from several.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-am-is-and-are",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Match forms of be with simple subjects in classroom sentences.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-have-and-has",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Describe possession using have and has with familiar subjects.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-can-and-cannot",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Understand simple statements about ability in a short animal reading.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-in-on-and-under",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Locate objects using three simple prepositions.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-opposite-describing-words",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Compare pairs of simple opposite adjectives in a classroom.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-who-what-and-where",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Choose a question word according to the information needed.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-there-is-and-there-are",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Describe one item and several items in a simple garden scene.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-a-week-of-school-activities",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Read days and locate events in a simple weekly plan.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-a-balanced-lunch-story",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Find details in a lunch story and recognise food and drink words.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-caring-for-a-pet-rabbit",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Read simple pet-care details with an adult's help.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-safe-classroom-instructions",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Understand short positive and negative classroom instructions.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-first-next-and-finally",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Follow sequence words while making a paper bookmark.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-en-exp-an-invitation-to-read-together",
+      "grade": "d2",
+      "subject": "en",
+      "objective": "Extract who, when, where and what from an invitation.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-nilai-tempat-tiga-digit",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Bezakan digit dan nilainya dalam nombor hingga seribu.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-banding-nombor-tiga-digit",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Banding ratus dahulu, kemudian puluh dan sa apabila perlu.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-susun-nombor-menaik",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Susun nombor daripada kecil kepada besar dengan menggunakan nilai tempat.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-tambah-dengan-mengumpul-semula",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Lihat sepuluh sa ditukar menjadi satu puluh dalam operasi tambah.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-tolak-dengan-mengurai-puluh",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Urai satu puluh menjadi sepuluh sa sebelum menolak apabila sa tidak cukup.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-darab-dua-melalui-pasangan",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Hubungkan pasangan objek dengan tambah berulang dan darab dua.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-darab-lima-melalui-kumpulan",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Kira jumlah melalui beberapa kumpulan yang setiap satunya mempunyai lima objek.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-darab-sepuluh-dan-puluh",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Hubungkan sepuluh objek satu kumpulan dengan nilai puluh.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-bahagi-sama-rata",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Bezakan jumlah asal, bilangan penerima dan bilangan setiap penerima.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-separuh-dan-suku-sama-besar",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Kenal pecahan daripada bahagian yang sama besar, bukan sekadar bilangan potongan.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-ringgit-sen-dan-baki",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Hubungkan ringgit dengan sen dan kira baki pembelian mudah.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-jam-tepat-dan-setengah-jam",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Baca masa asas dengan membezakan fungsi jarum jam dan jarum minit.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-ukur-panjang-dari-tanda-sifar",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Ukur panjang dalam sentimeter dengan menggunakan titik mula yang betul.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-jisim-dan-isi-padu-cecair",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Bezakan ukuran berat bahan dengan jumlah ruang yang diisi cecair.",
+      "referenceIds": [
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-math-exp-baca-jadual-buah-pilihan",
+      "grade": "d2",
+      "subject": "math",
+      "objective": "Baca kategori, kekerapan dan jumlah daripada jadual ringkas.",
+      "referenceIds": [
+        "kpm-sumberku",
+        "kpm-literasi"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-keperluan-asas-manusia",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Kenal keperluan asas untuk hidup melalui rutin keluarga yang mudah.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-perubahan-semasa-membesar",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Banding perubahan yang boleh diperhatikan semasa manusia membesar.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-haiwan-dan-tempat-perlindungan",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Hubungkan keperluan haiwan dengan tempat perlindungan yang sesuai.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-anak-haiwan-membesar",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Perhatikan persamaan dan perubahan antara anak haiwan dengan haiwan dewasa.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-haiwan-bertelur-dan-beranak",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Bezakan dua cara haiwan membiak melalui contoh yang biasa.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-keperluan-biji-benih-bercambah",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Kenal keperluan percambahan tanpa menyamakan semua peringkat pertumbuhan.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-anak-pokok-memerlukan-cahaya",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Bezakan keperluan tumbuhan selepas bercambah dan amalkan perbandingan adil.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-rekod-pertumbuhan-kacang",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Ukur dan catat perubahan anak pokok pada hari yang berlainan.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-terang-gelap-dan-penglihatan",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Fahami cahaya membantu melihat objek dengan lebih jelas.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-bayang-daripada-cahaya-terhalang",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Kenal pembentukan bayang melalui aktiviti lampu suluh yang selamat.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-litar-ringkas-menyalakan-mentol",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Kenal komponen asas dan laluan lengkap dalam litar bateri berpandu.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-selamat-menggunakan-elektrik",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Kenal tindakan selamat tanpa mengendalikan bekalan elektrik rumah sendiri.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-asingkan-campuran-pepejal",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Pilih cara memisahkan campuran berdasarkan sifat bahan yang jelas.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-larut-dan-tidak-larut",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Bezakan bahan yang larut daripada bahan yang masih kelihatan dalam air.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-science-exp-alat-membantu-kerja-manusia",
+      "grade": "d2",
+      "subject": "science",
+      "objective": "Hubungkan alat harian dengan tugas yang dipermudahkan.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-islam-exp-mengenal-enam-rukun-iman",
+      "grade": "d2",
+      "subject": "islam",
+      "objective": "Kenal enam perkara asas keimanan melalui bacaan berpandu bersama guru.",
+      "referenceIds": [
+        "kpm-pi-dskp-list",
+        "ejauhar-pafa"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-islam-exp-mengenal-lima-rukun-islam",
+      "grade": "d2",
+      "subject": "islam",
+      "objective": "Kenal nama lima rukun Islam tanpa menggantikan bimbingan amali guru.",
+      "referenceIds": [
+        "kpm-pi-dskp-list",
+        "ejauhar-pafa"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-islam-exp-allah-maha-esa",
+      "grade": "d2",
+      "subject": "islam",
+      "objective": "Fahami makna asas esa dan hubungkan kesyukuran dengan perbuatan baik.",
+      "referenceIds": [
+        "kpm-pi-dskp-list",
+        "ejauhar-pafa"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-islam-exp-amanah-mengurus-tabung-kelas",
+      "grade": "d2",
+      "subject": "islam",
+      "objective": "Fahami amanah melalui wang simpanan bersama dan rekod yang jujur.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-islam-exp-jujur-apabila-buku-rosak",
+      "grade": "d2",
+      "subject": "islam",
+      "objective": "Kenal tindakan jujur serta langkah membaiki kesilapan tanpa menyalahkan orang lain.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-islam-exp-salam-dan-perbualan-sopan",
+      "grade": "d2",
+      "subject": "islam",
+      "objective": "Kenal tujuan salam dan tertib bercakap apabila bertemu guru atau rakan.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-islam-exp-adab-membaca-al-quran-berpandu",
+      "grade": "d2",
+      "subject": "islam",
+      "objective": "Kenal sikap hormat, kebersihan dan mendapatkan bimbingan ketika belajar membaca.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-islam-exp-menjaga-masjid-bersama",
+      "grade": "d2",
+      "subject": "islam",
+      "objective": "Fahami tanggungjawab menjaga kebersihan dan ketenangan tempat ibadah.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-islam-exp-menghormati-ibu-bapa-ketika-sibuk",
+      "grade": "d2",
+      "subject": "islam",
+      "objective": "Kenal bantuan kecil dan cara meminta perhatian tanpa mengabaikan keselamatan.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-islam-exp-berbuat-baik-kepada-jiran",
+      "grade": "d2",
+      "subject": "islam",
+      "objective": "Kenal ihsan melalui pertolongan yang sesuai dan diselia penjaga.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-islam-exp-syukur-melalui-penggunaan-makanan",
+      "grade": "d2",
+      "subject": "islam",
+      "objective": "Hubungkan kesyukuran dengan mengambil makanan secukupnya dan menjaga kebersihan.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-islam-exp-ihsan-kepada-haiwan-terbiar",
+      "grade": "d2",
+      "subject": "islam",
+      "objective": "Kenal tindakan prihatin yang tidak membahayakan murid atau haiwan.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-islam-exp-disiplin-dan-adab-menuntut-ilmu",
+      "grade": "d2",
+      "subject": "islam",
+      "objective": "Fahami persediaan, usaha dan bertanya sebagai adab belajar yang baik.",
+      "referenceIds": [
+        "kpm-pi-dskp-list"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-moral-exp-kasih-sayang-dalam-keluarga",
+      "grade": "d2",
+      "subject": "moral",
+      "objective": "Kenal tindakan prihatin terhadap ahli keluarga yang memerlukan perhatian.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-moral-exp-baik-hati-membantu-kerja-rumah",
+      "grade": "d2",
+      "subject": "moral",
+      "objective": "Pilih pertolongan yang sesuai dengan umur dan kemampuan.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-moral-exp-tanggungjawab-menjaga-jadual",
+      "grade": "d2",
+      "subject": "moral",
+      "objective": "Kenal tugas sendiri dan akibat apabila jadual diabaikan.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-moral-exp-berterima-kasih-dengan-perbuatan",
+      "grade": "d2",
+      "subject": "moral",
+      "objective": "Hargai pertolongan melalui ucapan serta menjaga barang yang diberikan.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-moral-exp-hormat-ketika-orang-berehat",
+      "grade": "d2",
+      "subject": "moral",
+      "objective": "Fahami keperluan orang lain dan sesuaikan tingkah laku di rumah.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-moral-exp-berdikari-menyediakan-beg",
+      "grade": "d2",
+      "subject": "moral",
+      "objective": "Laksanakan rutin mudah sendiri sambil mengetahui bila perlu meminta bantuan.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-moral-exp-keberanian-memberitahu-masalah",
+      "grade": "d2",
+      "subject": "moral",
+      "objective": "Berani menyuarakan masalah dengan cara sopan kepada orang yang boleh membantu.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-moral-exp-kejujuran-rekod-permainan",
+      "grade": "d2",
+      "subject": "moral",
+      "objective": "Rekod keputusan sebenar walaupun keputusan itu tidak memihak kepada diri sendiri.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-moral-exp-kerajinan-berlatih-sedikit-setiap-hari",
+      "grade": "d2",
+      "subject": "moral",
+      "objective": "Kenal usaha tetap dan rehat yang seimbang dalam latihan membaca.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-moral-exp-kerjasama-menghasilkan-poster",
+      "grade": "d2",
+      "subject": "moral",
+      "objective": "Bahagikan tugas dan gabungkan hasil untuk mencapai matlamat bersama.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-moral-exp-kesederhanaan-membeli-alat-tulis",
+      "grade": "d2",
+      "subject": "moral",
+      "objective": "Bezakan keperluan dan kehendak ketika membuat pilihan pembelian.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-moral-exp-toleransi-pilihan-aktiviti",
+      "grade": "d2",
+      "subject": "moral",
+      "objective": "Cari persetujuan apabila ahli keluarga atau rakan mempunyai pilihan berlainan.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    },
+    {
+      "unitId": "library-d2-moral-exp-rasional-sebelum-bertindak",
+      "grade": "d2",
+      "subject": "moral",
+      "objective": "Fikirkan sebab dan akibat sebelum memilih tindakan yang selamat.",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "alignmentStatus": "editorial-age-placement-pending-teacher-review"
+    }
+  ]
+}

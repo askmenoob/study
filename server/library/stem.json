@@ -1,0 +1,2450 @@
+[
+  {
+    "id": "library-d1-math-kira-dan-gabung",
+    "levelId": "d1",
+    "subjectId": "math",
+    "note": {
+      "title": "Kira Satu demi Satu",
+      "summary": "Mengira, menambah dan menolak dalam lingkungan 10.",
+      "body": [
+        "Kira objek satu demi satu. Sentuh atau tunjuk setiap objek sekali sahaja. Nombor terakhir ialah jumlah objek.",
+        "Contoh: Ada 4 blok. Tambah 2 blok. Kira sambung, “5, 6”. Jadi, 4 + 2 = 6.",
+        "Jika 1 blok diambil daripada 6 blok, tinggal 5 blok. Menolak mencari baki.",
+        "Jangan kira objek yang sama dua kali. Barisan yang lebih panjang juga belum tentu mempunyai lebih banyak objek."
+      ],
+      "keyPoints": [
+        "Kira setiap objek sekali.",
+        "Tambah menggabungkan kumpulan.",
+        "Tolak mencari baki selepas objek diambil."
+      ]
+    },
+    "reading": {
+      "title": "Dulang Lencana Dina",
+      "summary": "Ikuti perubahan bilangan lencana.",
+      "body": [
+        "Dina menyusun 3 lencana bulat di atas dulang. Abangnya meletakkan 4 lencana lagi. Dina menyentuh setiap lencana sambil mengira. Dia mengira 7 lencana semuanya.",
+        "Dina memberi 2 lencana kepada kawannya. Bakinya disusun berjauhan supaya mudah dilihat. Tiada lencana baharu ditambah ketika dia menyusunnya. Dina mengira semula sebelum menyimpan lencana itu di dalam kotak."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah jumlah lencana sebelum Dina memberi lencana kepada kawannya?",
+          "options": [
+            "3",
+            "4",
+            "7",
+            "9"
+          ],
+          "answer": 2,
+          "explanation": "Gabungkan 3 lencana dengan 4 lencana: 3 + 4 = 7.",
+          "hint": "Cari bilangan asal dan bilangan yang ditambah."
+        },
+        {
+          "prompt": "Apabila baki lencana disusun berjauhan, apakah yang berlaku pada bilangannya?",
+          "options": [
+            "Bertambah satu",
+            "Kekal sama",
+            "Menjadi sifar",
+            "Bertambah dua kali ganda"
+          ],
+          "answer": 1,
+          "explanation": "Mengubah jarak antara lencana tidak menambah atau mengambil lencana. Bilangannya kekal.",
+          "hint": "Adakah Dina menambah lencana ketika menyusunnya?"
+        }
+      ]
+    },
+    "practice": {
+      "title": "Kad Nombor di Meja",
+      "summary": "Gunakan kiraan kecil untuk menjawab empat soalan.",
+      "body": [
+        "Ada 5 kad di atas meja. Guru menambah 3 kad. Kemudian, 2 kad diambil. Gunakan jari atau lukis bulatan untuk membantu mengira. Soalan menyatakan peringkat yang perlu digunakan."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah kad selepas guru menambah 3 kad?",
+          "options": [
+            "7",
+            "6",
+            "9",
+            "8"
+          ],
+          "answer": 3,
+          "explanation": "Lima kad ditambah tiga kad: 5 + 3 = 8.",
+          "hint": "Kira sambung tiga langkah selepas 5."
+        },
+        {
+          "prompt": "Berapakah kad yang tinggal selepas 2 kad diambil daripada jumlah itu?",
+          "options": [
+            "6",
+            "3",
+            "8",
+            "10"
+          ],
+          "answer": 0,
+          "explanation": "Jumlah selepas ditambah ialah 8. Ambil 2: 8 − 2 = 6.",
+          "hint": "Mula dengan 8, kemudian kira undur dua langkah."
+        },
+        {
+          "prompt": "Ada berapa kad lagi pada peringkat awal jika dibandingkan dengan 3 kad?",
+          "options": [
+            "1",
+            "2",
+            "5",
+            "8"
+          ],
+          "answer": 1,
+          "explanation": "Pada awalnya ada 5 kad. Bezanya daripada 3 kad ialah 5 − 3 = 2.",
+          "hint": "Padankan 3 kad dengan 3 daripada 5 kad."
+        },
+        {
+          "prompt": "Ayat nombor manakah menunjukkan guru menambah kad pada awalnya?",
+          "options": [
+            "5 − 3 = 2",
+            "3 + 3 = 6",
+            "5 + 3 = 8",
+            "8 − 5 = 3"
+          ],
+          "answer": 2,
+          "explanation": "Bilangan asal 5 digabungkan dengan 3 kad, jadi gunakan tanda tambah.",
+          "hint": "Pilih ayat yang bermula dengan 5 dan menambah 3."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d2-math-puluh-dan-sa",
+    "levelId": "d2",
+    "subjectId": "math",
+    "note": {
+      "title": "Puluh, Sa dan Kumpul Semula",
+      "summary": "Memahami nilai tempat ketika menambah nombor dua digit.",
+      "body": [
+        "Sepuluh sa boleh dikumpulkan menjadi satu puluh. Nombor 46 mempunyai 4 puluh dan 6 sa.",
+        "Contoh: 27 + 15. Tambah sa: 7 + 5 = 12 sa. Tukar 10 sa menjadi 1 puluh. Tinggal 2 sa.",
+        "Tambah puluh: 2 + 1 + 1 = 4 puluh. Jawapannya 42.",
+        "Jangan lupa puluh baharu itu. Angka 4 dalam 46 bernilai 40, bukannya 4.",
+        "Untuk menolak puluh penuh, kurangkan bilangan puluh. Contoh: 42 − 20. Empat puluh tolak dua puluh tinggal dua puluh. Dua sa tidak berubah. Jadi, bakinya 22."
+      ],
+      "keyPoints": [
+        "Nilai digit bergantung pada tempatnya.",
+        "10 sa bersamaan 1 puluh.",
+        "Masukkan puluh baharu ketika mengumpul semula.",
+        "Menolak puluh penuh tidak mengubah bilangan sa."
+      ]
+    },
+    "reading": {
+      "title": "Berkas Penanda Buku",
+      "summary": "Mengira penanda buku dengan berkas puluh.",
+      "body": [
+        "Haris mengikat setiap 10 penanda buku menjadi satu berkas. Pada mulanya dia mempunyai 3 berkas dan 8 penanda buku yang belum diikat. Rakan sekelas memberi 16 penanda buku lagi.",
+        "Haris menggabungkan semua penanda buku. Dia membina berkas baharu apabila ada cukup 10 keping. Dia menulis jumlah sebagai puluh dan sa supaya guru mudah menyemaknya."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah penanda buku Haris pada mulanya?",
+          "options": [
+            "83",
+            "30",
+            "38",
+            "18"
+          ],
+          "answer": 2,
+          "explanation": "Tiga berkas bernilai 30 keping. Tambah 8 keping tunggal: 30 + 8 = 38.",
+          "hint": "Setiap berkas mengandungi 10 keping."
+        },
+        {
+          "prompt": "Bagaimanakah jumlah selepas menerima 16 keping ditulis sebagai puluh dan sa?",
+          "options": [
+            "4 puluh 4 sa",
+            "5 puluh 4 sa",
+            "5 puluh 6 sa",
+            "6 puluh 4 sa"
+          ],
+          "answer": 1,
+          "explanation": "38 + 16 = 54. Dalam 54, ada 5 puluh dan 4 sa.",
+          "hint": "Jumlah sa ialah 8 + 6; kumpulkan setiap 10 sa."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Inventori Pensel Warna",
+      "summary": "Selesaikan kiraan dengan nilai tempat.",
+      "body": [
+        "Sebuah kelas mempunyai 47 pensel warna. Kelas itu menerima 25 pensel warna lagi. Semua pensel warna boleh disusun dalam kumpulan 10 dengan beberapa batang berbaki."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah nilai digit 4 dalam 47?",
+          "options": [
+            "4",
+            "7",
+            "40",
+            "47"
+          ],
+          "answer": 2,
+          "explanation": "Digit 4 berada di tempat puluh, jadi nilainya 4 × 10 = 40.",
+          "hint": "Lihat tempat digit 4."
+        },
+        {
+          "prompt": "Berapakah jumlah pensel warna selepas menerima 25 batang?",
+          "options": [
+            "62",
+            "72",
+            "612",
+            "82"
+          ],
+          "answer": 1,
+          "explanation": "7 + 5 = 12 sa. Kumpul semula 1 puluh; 4 + 2 + 1 = 7 puluh. Jumlahnya 72.",
+          "hint": "Jangan lupa puluh daripada 12 sa."
+        },
+        {
+          "prompt": "Berapa kumpulan lengkap 10 dapat dibina daripada jumlah baharu itu?",
+          "options": [
+            "2",
+            "6",
+            "8",
+            "7"
+          ],
+          "answer": 3,
+          "explanation": "72 mengandungi 7 puluh dan 2 sa. Maka ada 7 kumpulan lengkap 10.",
+          "hint": "Pisahkan 72 kepada puluh dan sa."
+        },
+        {
+          "prompt": "Jika 20 batang diberi kepada kelas lain daripada jumlah baharu, berapakah baki?",
+          "options": [
+            "52",
+            "92",
+            "70",
+            "50"
+          ],
+          "answer": 0,
+          "explanation": "Jumlah baharu 72. Tolak 2 puluh: 72 − 20 = 52.",
+          "hint": "Sa kekal 2 apabila menolak tepat 20."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d3-math-kumpulan-sama-banyak",
+    "levelId": "d3",
+    "subjectId": "math",
+    "note": {
+      "title": "Kumpulan Sama Banyak",
+      "summary": "Menghubungkan darab, tambah berulang dan bahagi.",
+      "body": [
+        "Darab membantu mengira kumpulan yang sama banyak. Empat bekas dengan 6 pemadam setiap satu boleh ditulis sebagai 4 × 6.",
+        "Contoh: 6 + 6 + 6 + 6 = 24. Jadi, 4 × 6 = 24 pemadam.",
+        "Bahagi pula boleh mengagihkan jumlah sama rata. Jika 24 pemadam dibahagi kepada 4 bekas, setiap bekas mendapat 6.",
+        "Jangan guna darab terus jika isi setiap bekas berbeza. Semak dahulu maksud kumpulan dan isi kumpulan."
+      ],
+      "keyPoints": [
+        "Darab memerlukan kumpulan sama banyak.",
+        "Bahagi boleh mencari isi setiap kumpulan.",
+        "Darab dan bahagi boleh digunakan untuk menyemak satu sama lain."
+      ]
+    },
+    "reading": {
+      "title": "Rak Anak Pokok",
+      "summary": "Baca susunan pasu untuk memahami kumpulan.",
+      "body": [
+        "Kelab kebun menyediakan 5 dulang. Setiap dulang memuatkan 4 pasu kecil. Semua pasu digunakan untuk menanam anak pokok, dan tiada pasu tambahan di luar dulang.",
+        "Pada petang itu, guru menyusun semula pasu tersebut pada 2 rak. Setiap rak menerima bilangan pasu yang sama. Murid mengira jumlah pasu dahulu sebelum mengagihkannya supaya pembahagian itu adil."
+      ],
+      "questions": [
+        {
+          "prompt": "Ayat nombor manakah memberikan jumlah pasu pada lima dulang?",
+          "options": [
+            "5 + 4 = 9",
+            "5 − 4 = 1",
+            "5 × 4 = 20",
+            "5 × 5 = 25"
+          ],
+          "answer": 2,
+          "explanation": "Lima kumpulan dengan empat pasu setiap kumpulan menghasilkan 5 × 4 = 20 pasu.",
+          "hint": "Cari bilangan dulang dan isi setiap dulang."
+        },
+        {
+          "prompt": "Berapakah pasu pada setiap rak selepas pengagihan?",
+          "options": [
+            "5",
+            "20",
+            "4",
+            "10"
+          ],
+          "answer": 3,
+          "explanation": "Ada 20 pasu. Agih sama rata kepada 2 rak: 20 ÷ 2 = 10.",
+          "hint": "Gunakan jumlah pasu, bukan bilangan dulang."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Bekalan Bengkel Lukisan",
+      "summary": "Kira pek, isi pek dan agihan sama rata.",
+      "body": [
+        "Untuk bengkel, ada 6 pek berus. Setiap pek mempunyai 5 batang berus. Semua berus dikeluarkan dan dibahagi sama rata kepada 3 meja. Tiada berus rosak atau disimpan."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah jumlah berus?",
+          "options": [
+            "11",
+            "25",
+            "30",
+            "35"
+          ],
+          "answer": 2,
+          "explanation": "Enam pek dengan lima berus setiap pek: 6 × 5 = 30 batang.",
+          "hint": "Tambah 5 sebanyak enam kali."
+        },
+        {
+          "prompt": "Berapakah berus diterima oleh setiap meja?",
+          "options": [
+            "10",
+            "6",
+            "15",
+            "3"
+          ],
+          "answer": 0,
+          "explanation": "30 berus dibahagi kepada 3 meja: 30 ÷ 3 = 10.",
+          "hint": "Cari nombor yang apabila didarab 3 menghasilkan 30."
+        },
+        {
+          "prompt": "Ayat manakah menyemak bahawa setiap meja menerima 10 berus?",
+          "options": [
+            "30 + 3 = 33",
+            "3 × 10 = 30",
+            "30 − 10 = 20",
+            "6 + 5 = 11"
+          ],
+          "answer": 1,
+          "explanation": "Tiga meja yang masing-masing menerima 10 berus menggunakan 30 berus semuanya.",
+          "hint": "Semakan bahagi menggunakan darab."
+        },
+        {
+          "prompt": "Jika 30 berus dimasukkan semula, 5 batang setiap pek, berapa pek diperlukan?",
+          "options": [
+            "5",
+            "3",
+            "10",
+            "6"
+          ],
+          "answer": 3,
+          "explanation": "Bilangan pek = 30 ÷ 5 = 6. Setiap pek mesti mengandungi 5 berus.",
+          "hint": "Kira berapa kumpulan 5 terdapat dalam 30."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d4-math-pecahan-bahagian-sama",
+    "levelId": "d4",
+    "subjectId": "math",
+    "note": {
+      "title": "Pecahan pada Keseluruhan yang Sama",
+      "summary": "Menambah dan menolak pecahan berpenyebut sama.",
+      "body": [
+        "Pecahan menerangkan bahagian daripada satu keseluruhan yang dibahagi sama besar. Dalam 3/8, penyebut 8 menunjukkan lapan bahagian sama besar. Pengangka 3 menunjukkan tiga bahagian yang dipilih.",
+        "Contoh: Pita sepanjang satu meter dibahagi kepada 8 bahagian sama panjang. Jika 3/8 digunakan dahulu dan 2/8 lagi kemudian, jumlah digunakan ialah 5/8. Kita menambah pengangka: 3 + 2 = 5, sambil mengekalkan penyebut 8.",
+        "Bakinya ialah 8/8 − 5/8 = 3/8. Satu keseluruhan boleh ditulis sebagai 8/8 kerana semua lapan bahagian diambil kira.",
+        "Kesilapan biasa ialah menulis 3/8 + 2/8 = 5/16. Saiz setiap bahagian tidak berubah apabila bahagian digabungkan. Pastikan juga kedua-dua pecahan merujuk keseluruhan yang sama saiz."
+      ],
+      "keyPoints": [
+        "Bahagian pecahan mesti sama besar.",
+        "Penyebut sama menunjukkan saiz bahagian yang sama.",
+        "Tambah atau tolak pengangka; kekalkan penyebut."
+      ]
+    },
+    "reading": {
+      "title": "Mural Sepuluh Petak",
+      "summary": "Tafsir bahagian mural yang sudah diwarnakan.",
+      "body": [
+        "Dinding pameran mempunyai satu mural yang dibahagi kepada 10 petak sama luas. Kumpulan Biru mewarnakan 4 petak, manakala Kumpulan Hijau mewarnakan 3 petak lain. Setiap petak hanya diwarnakan oleh satu kumpulan.",
+        "Ketua kelas menandakan petak yang masih kosong pada lakaran mural. Dia mahu setiap kumpulan baharu mengisi satu petak kosong sahaja. Bilangan petak pada mural kekal sepuluh walaupun dua warna digunakan. Lakaran itu membantu guru melihat bahagian yang sudah siap dan baki kerja."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah pecahan mural yang telah diwarnakan?",
+          "options": [
+            "7/20",
+            "3/10",
+            "4/10",
+            "7/10"
+          ],
+          "answer": 3,
+          "explanation": "Terdapat 4 + 3 = 7 petak berwarna daripada 10 petak sama luas, jadi pecahannya 7/10.",
+          "hint": "Gabungkan petak berwarna, tetapi jumlah petak mural kekal 10."
+        },
+        {
+          "prompt": "Berapa kumpulan baharu diperlukan untuk mengisi semua petak kosong mengikut rancangan?",
+          "options": [
+            "3",
+            "7",
+            "10",
+            "4"
+          ],
+          "answer": 0,
+          "explanation": "Mural mempunyai 10 petak; 7 sudah berwarna. Baki 10 − 7 = 3 petak memerlukan 3 kumpulan.",
+          "hint": "Setiap kumpulan baharu mengisi satu petak kosong."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Pita Hiasan Lapan Bahagian",
+      "summary": "Gunakan satu keseluruhan untuk semua kiraan.",
+      "body": [
+        "Satu pita dibahagi kepada 8 bahagian sama panjang. Laila menggunakan 2 bahagian untuk kad dan 3 bahagian lain untuk bingkai. Semua soalan merujuk pita asal yang sama."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah pecahan pita yang digunakan untuk kad?",
+          "options": [
+            "2/3",
+            "2/8",
+            "3/8",
+            "8/2"
+          ],
+          "answer": 1,
+          "explanation": "Kad menggunakan 2 daripada 8 bahagian sama panjang, iaitu 2/8.",
+          "hint": "Pengangka menyatakan bahagian yang digunakan."
+        },
+        {
+          "prompt": "Berapakah jumlah pecahan pita yang digunakan untuk kad dan bingkai?",
+          "options": [
+            "5/16",
+            "1/8",
+            "5/8",
+            "6/8"
+          ],
+          "answer": 2,
+          "explanation": "2/8 + 3/8 = 5/8. Penyebut kekal kerana saiz setiap bahagian sama.",
+          "hint": "Tambah bilangan bahagian yang digunakan."
+        },
+        {
+          "prompt": "Berapakah pecahan pita yang belum digunakan?",
+          "options": [
+            "5/8",
+            "3/16",
+            "1/8",
+            "3/8"
+          ],
+          "answer": 3,
+          "explanation": "Keseluruhan ialah 8/8. Tolak 5/8 yang digunakan untuk mendapat 3/8.",
+          "hint": "Kira bahagian yang masih berbaki daripada 8."
+        },
+        {
+          "prompt": "Pita kedua dipotong kepada 8 bahagian tidak sama panjang. Mengapa satu potongannya tidak semestinya 1/8 panjang pita?",
+          "options": [
+            "Bahagian mestilah sama panjang untuk mewakili 1/8",
+            "Pita mesti mempunyai dua warna",
+            "Penyebut mesti sentiasa 10",
+            "Satu pita tidak boleh dibahagi"
+          ],
+          "answer": 0,
+          "explanation": "Pecahan 1/8 bermaksud satu daripada lapan bahagian sama besar. Bilangan potongan sahaja tidak mencukupi.",
+          "hint": "Perhatikan syarat saiz bahagian pecahan."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d5-math-perpuluhan-dan-wang",
+    "levelId": "d5",
+    "subjectId": "math",
+    "note": {
+      "title": "Perpuluhan dalam Resit",
+      "summary": "Menyusun nilai tempat untuk jumlah wang dan baki.",
+      "body": [
+        "Nombor perpuluhan mempunyai nilai tempat. Dalam RM6.35, angka 3 mewakili tiga persepuluh ringgit, iaitu 30 sen, dan angka 5 mewakili lima perseratus ringgit, iaitu 5 sen. Satu ringgit bersamaan 100 sen.",
+        "Contoh: Sebuah fail berharga RM4.75 dan pelekat berharga RM2.60. Susun titik perpuluhan sebaris. Jumlahnya RM7.35 kerana 75 sen + 60 sen = 135 sen, bersamaan RM1.35.",
+        "Jika dibayar RM10.00, baki ialah RM10.00 − RM7.35 = RM2.65. Semak dengan menambah jumlah belian dan baki: RM7.35 + RM2.65 = RM10.00.",
+        "Jangan susun nombor mengikut digit paling kanan tanpa melihat titik perpuluhan. RM2.6 sama nilainya dengan RM2.60; sifar tambahan itu memudahkan penyusunan nilai tempat."
+      ],
+      "keyPoints": [
+        "100 sen bersamaan RM1.00.",
+        "Susun titik perpuluhan sebaris.",
+        "Semak baki dengan menambahnya kepada jumlah belian."
+      ]
+    },
+    "reading": {
+      "title": "Resit Sudut Seni",
+      "summary": "Menilai jumlah belian dan wang yang dipulangkan.",
+      "body": [
+        "Nadia mengurus wang sudut seni kelas. Dia membeli kertas berwarna berharga RM8.40 dan gam berharga RM3.85. Jurujual mencatat kedua-dua barang pada resit, tanpa caj tambahan. Nadia menyerahkan RM20.00.",
+        "Sebelum menyimpan baki, Nadia mengira jumlah belian dan menyemak bahawa jumlah itu bersama wang yang dipulangkan bersamaan RM20.00. Dia juga menulis RM8.40 dengan dua tempat perpuluhan supaya nilai sen mudah dibaca. Resit disimpan untuk menunjukkan bagaimana wang kelas dibelanjakan."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah jumlah belian pada resit Nadia?",
+          "options": [
+            "RM11.25",
+            "RM12.25",
+            "RM12.85",
+            "RM13.25"
+          ],
+          "answer": 1,
+          "explanation": "RM8.40 + RM3.85 = RM12.25. Jumlah sen 125 sen perlu dikumpul semula sebagai RM1.25.",
+          "hint": "Tambah sen dahulu dan kumpulkan setiap 100 sen."
+        },
+        {
+          "prompt": "Baki manakah sepatutnya diterima Nadia?",
+          "options": [
+            "RM8.25",
+            "RM7.25",
+            "RM12.25",
+            "RM7.75"
+          ],
+          "answer": 3,
+          "explanation": "RM20.00 − RM12.25 = RM7.75. Semakan: RM12.25 + RM7.75 = RM20.00.",
+          "hint": "Tolak jumlah belian daripada RM20.00."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Belian Buku Catatan",
+      "summary": "Kira kos dua barang dan perubahan bajet.",
+      "body": [
+        "Harga sebuah buku catatan ialah RM6.80. Harga sebatang pen ialah RM2.45. Iman membeli satu buku dan satu pen tanpa caj tambahan, lalu membayar RM15.00."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah jumlah harga buku dan pen?",
+          "options": [
+            "RM9.25",
+            "RM8.25",
+            "RM9.85",
+            "RM10.25"
+          ],
+          "answer": 0,
+          "explanation": "RM6.80 + RM2.45 = RM9.25. Lapan puluh sen ditambah empat puluh lima sen menjadi RM1.25.",
+          "hint": "Susun kedua-dua titik perpuluhan sebaris."
+        },
+        {
+          "prompt": "Berapakah baki daripada RM15.00?",
+          "options": [
+            "RM6.25",
+            "RM5.25",
+            "RM5.75",
+            "RM9.25"
+          ],
+          "answer": 2,
+          "explanation": "RM15.00 − RM9.25 = RM5.75. Baki dan kos mesti berjumlah RM15.00.",
+          "hint": "Cari beza antara bayaran dengan kos."
+        },
+        {
+          "prompt": "Jika Iman hanya membawa RM9.00, berapa lagi wang diperlukan untuk kedua-dua barang?",
+          "options": [
+            "RM0.75",
+            "RM0.25",
+            "RM1.25",
+            "RM0.15"
+          ],
+          "answer": 1,
+          "explanation": "Kos RM9.25 melebihi RM9.00 sebanyak RM0.25, iaitu 25 sen.",
+          "hint": "Tolak RM9.00 daripada jumlah kos."
+        },
+        {
+          "prompt": "Pernyataan manakah benar tentang harga buku?",
+          "options": [
+            "RM6.80 = 68 sen",
+            "RM6.80 = RM6.08",
+            "RM6.80 = 608 sen",
+            "RM6.80 = 680 sen"
+          ],
+          "answer": 3,
+          "explanation": "Enam ringgit ialah 600 sen. Tambah 80 sen menjadi 680 sen.",
+          "hint": "Tukar ringgit kepada sen dengan 100 sen bagi setiap ringgit."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d6-math-peratus-daripada-jumlah",
+    "levelId": "d6",
+    "subjectId": "math",
+    "note": {
+      "title": "Peratus daripada Kuantiti",
+      "summary": "Menukar peratus kepada bahagian daripada jumlah.",
+      "body": [
+        "Peratus bermaksud bagi setiap seratus. Oleh itu, 25% = 25/100 = 1/4. Untuk mencari peratus daripada kuantiti, darab pecahan peratus itu dengan jumlah keseluruhan yang dinyatakan.",
+        "Contoh: Sebanyak 40% daripada 150 anak pokok ialah pokok herba. Kira 40/100 × 150 = 60. Jadi, ada 60 anak pokok herba. Bakinya 150 − 60 = 90 anak pokok, iaitu 60% daripada jumlah.",
+        "Kita boleh menyemak menggunakan 10%. Sepuluh peratus daripada 150 ialah 15; empat kumpulan 15 menghasilkan 60. Pilih kaedah yang mudah tetapi tunjukkan jumlah asas dengan jelas.",
+        "Jangan anggap 40% sentiasa bermaksud 40 objek. Bilangan sebenar bergantung pada jumlah asas. Empat puluh peratus daripada 200 ialah 80, walaupun nilai peratusnya sama.",
+        "Jika bilangan bahagian sudah diketahui, cari peratus dengan formula bilangan bahagian ÷ jumlah keseluruhan × 100%. Contoh: 18 daripada 60 kad berwarna biru. Peratus kad biru = 18 ÷ 60 × 100% = 30%. Gunakan jumlah semua kad, bukan bilangan kad warna lain, sebagai penyebut. Peratus boleh mempunyai perpuluhan: 1 daripada 8 kad ialah 1 ÷ 8 × 100% = 12.5%."
+      ],
+      "keyPoints": [
+        "Peratus ialah bahagian per seratus.",
+        "Kenal pasti jumlah asas sebelum mengira.",
+        "Peratus yang saling melengkapi berjumlah 100%.",
+        "Peratus bahagian = bilangan bahagian ÷ jumlah keseluruhan × 100%."
+      ]
+    },
+    "reading": {
+      "title": "Tinjauan Pilihan Kelab",
+      "summary": "Baca peratus dalam satu kumpulan murid.",
+      "body": [
+        "Seramai 80 murid menjawab tinjauan pilihan kelab. Setiap murid memilih satu kelab sahaja. Sebanyak 25% memilih robotik, 35% memilih seni dan selebihnya memilih kebun. Semua jawapan lengkap dan tiada murid memilih dua kali.",
+        "Guru menggunakan peratus untuk membandingkan pilihan, kemudian menukarkannya kepada bilangan murid bagi menyediakan tempat duduk. Dia mengingatkan kelas bahawa tinjauan ini hanya menerangkan 80 responden tersebut. Pilihan murid lain yang tidak menjawab tinjauan belum diketahui."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah murid yang memilih robotik?",
+          "options": [
+            "25",
+            "40",
+            "20",
+            "55"
+          ],
+          "answer": 2,
+          "explanation": "25% ialah 1/4. Satu perempat daripada 80 ialah 80 ÷ 4 = 20 murid.",
+          "hint": "Gunakan 80 sebagai jumlah asas."
+        },
+        {
+          "prompt": "Berapakah peratus yang memilih kelab kebun?",
+          "options": [
+            "60%",
+            "40%",
+            "35%",
+            "25%"
+          ],
+          "answer": 1,
+          "explanation": "Peratus robotik dan seni ialah 25% + 35% = 60%. Baki 100% − 60% = 40%.",
+          "hint": "Semua pilihan bersama-sama mewakili 100%."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Kempen Membaca 120 Buku",
+      "summary": "Cari peratus, bilangan dan baki.",
+      "body": [
+        "Perpustakaan menyediakan 120 buku untuk kempen. Sebanyak 30% ialah buku sains. Daripada jumlah asal 120 buku itu, 45 buku telah dipinjam. Kategori buku dan status pinjaman ialah dua maklumat berasingan."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah buku sains disediakan?",
+          "options": [
+            "30",
+            "40",
+            "90",
+            "36"
+          ],
+          "answer": 3,
+          "explanation": "30/100 × 120 = 36 buku. Tiga puluh peratus bukan semestinya 30 buku.",
+          "hint": "10% daripada 120 ialah 12."
+        },
+        {
+          "prompt": "Berapakah buku yang bukan buku sains?",
+          "options": [
+            "84",
+            "90",
+            "36",
+            "70"
+          ],
+          "answer": 0,
+          "explanation": "Jumlah 120 ditolak 36 buku sains memberikan 84 buku lain.",
+          "hint": "Cari pelengkap 30%, atau tolak bilangan buku sains."
+        },
+        {
+          "prompt": "Berapakah peratus buku yang telah dipinjam?",
+          "options": [
+            "45%",
+            "37.5%",
+            "75%",
+            "62.5%"
+          ],
+          "answer": 1,
+          "explanation": "45/120 × 100% = 37.5%. Bahagikan bilangan dipinjam dengan jumlah asal dahulu.",
+          "hint": "Penyebutnya ialah jumlah 120 buku."
+        },
+        {
+          "prompt": "Berapakah buku yang belum dipinjam?",
+          "options": [
+            "45",
+            "84",
+            "75",
+            "36"
+          ],
+          "answer": 2,
+          "explanation": "120 − 45 = 75 buku belum dipinjam. Maklumat kategori sains tidak diperlukan untuk soalan ini.",
+          "hint": "Gunakan jumlah asal dan bilangan dipinjam sahaja."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t1-math-persamaan-seimbang",
+    "levelId": "t1",
+    "subjectId": "math",
+    "note": {
+      "title": "Persamaan sebagai Keseimbangan",
+      "summary": "Menyelesaikan persamaan linear dengan operasi yang sama pada kedua-dua belah.",
+      "body": [
+        "Persamaan menyatakan bahawa dua ungkapan mempunyai nilai yang sama. Pemboleh ubah seperti x mewakili nilai yang belum diketahui. Untuk mengekalkan kesamaan, lakukan operasi yang sama pada kedua-dua belah persamaan.",
+        "Contoh: Selesaikan 3x + 4 = 25. Tolak 4 pada kedua-dua belah untuk memperoleh 3x = 21. Kemudian bahagi kedua-dua belah dengan 3, maka x = 7. Urutan ini membatalkan penambahan dahulu, kemudian pendaraban.",
+        "Semak dengan menggantikan x: 3(7) + 4 = 21 + 4 = 25. Penggantian membuktikan nilai itu memenuhi persamaan asal.",
+        "Kesilapan biasa ialah menolak 4 pada satu belah sahaja atau menganggap 3x bermaksud 3 + x. Tiga x bermaksud tiga kali x. Tulis langkah supaya keseimbangan dapat diperiksa."
+      ],
+      "keyPoints": [
+        "Lakukan operasi yang sama pada kedua-dua belah.",
+        "Batalkan operasi mengikut urutan yang sesuai.",
+        "Gantikan jawapan dalam persamaan asal untuk menyemak."
+      ]
+    },
+    "reading": {
+      "title": "Kotak Kad Bengkel",
+      "summary": "Terjemahkan pembungkusan kepada persamaan.",
+      "body": [
+        "Pasukan fasilitator menyediakan empat kotak kad yang sama isinya untuk sebuah bengkel. Selain kad dalam kotak, ada enam kad contoh di atas meja. Semua kad berjumlah 38 keping. Tiada kotak kosong dan tiada kad lain disimpan.",
+        "Fasilitator menulis 4x + 6 = 38, dengan x sebagai bilangan kad dalam setiap kotak. Seorang rakan mahu membahagi 38 dengan 4 terus. Fasilitator meminta dia mengasingkan enam kad contoh dahulu, kemudian membahagikan baki sama rata kepada empat kotak."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah nilai x dalam catatan fasilitator?",
+          "options": [
+            "6",
+            "9.5",
+            "32",
+            "8"
+          ],
+          "answer": 3,
+          "explanation": "Asingkan 6 kad contoh: 38 − 6 = 32. Empat kotak berkongsi 32 kad, jadi x = 32 ÷ 4 = 8.",
+          "hint": "Batalkan +6 dahulu."
+        },
+        {
+          "prompt": "Mengapakah 38 ÷ 4 tidak terus memberikan isi setiap kotak?",
+          "options": [
+            "Empat kotak mempunyai isi berbeza",
+            "Jumlah 38 termasuk enam kad di luar kotak",
+            "Pembahagian tidak boleh digunakan dalam algebra",
+            "Setiap kotak mempunyai enam kad"
+          ],
+          "answer": 1,
+          "explanation": "Jumlah 38 merangkumi kad contoh yang tidak berada dalam kotak. Kad itu mesti diasingkan sebelum baki dibahagi.",
+          "hint": "Fikirkan kad manakah yang hendak diagihkan kepada kotak."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Membina dan Menyemak Persamaan",
+      "summary": "Selesaikan beberapa bentuk persamaan linear.",
+      "body": [
+        "Gunakan operasi yang sama pada kedua-dua belah. Bagi soalan kos, sebuah bengkel mengenakan bayaran bahan tetap RM5 dan RM3 bagi setiap kit. Jumlah bayaran ialah RM26. Semua nombor dan syarat lain diberikan dalam soalan masing-masing."
+      ],
+      "questions": [
+        {
+          "prompt": "Selesaikan 5x − 7 = 28.",
+          "options": [
+            "5",
+            "7",
+            "21",
+            "35"
+          ],
+          "answer": 1,
+          "explanation": "Tambah 7 pada kedua-dua belah: 5x = 35. Bahagi dengan 5 untuk mendapat x = 7.",
+          "hint": "Batalkan −7 sebelum membahagi."
+        },
+        {
+          "prompt": "Jika k ialah bilangan kit, persamaan manakah mewakili bayaran bengkel?",
+          "options": [
+            "5k + 3 = 26",
+            "3k − 5 = 26",
+            "3k + 5 = 26",
+            "3 + 5 = 26k"
+          ],
+          "answer": 2,
+          "explanation": "Bayaran kit ialah 3k ringgit. Tambah bayaran tetap 5 ringgit untuk mendapat jumlah 26 ringgit.",
+          "hint": "Bayaran RM3 berulang bagi setiap kit."
+        },
+        {
+          "prompt": "Selesaikan 2(x + 3) = 18.",
+          "options": [
+            "6",
+            "9",
+            "12",
+            "3"
+          ],
+          "answer": 0,
+          "explanation": "Bahagi kedua-dua belah dengan 2: x + 3 = 9. Tolak 3: x = 6.",
+          "hint": "Seluruh ungkapan dalam kurungan didarab 2."
+        },
+        {
+          "prompt": "Seorang murid mendakwa x = 4 memenuhi 4x + 1 = 17. Semakan manakah betul?",
+          "options": [
+            "4 + 4 + 1 = 9, jadi betul",
+            "4(4 + 1) = 20, jadi betul",
+            "4(1) + 4 = 8, jadi salah",
+            "4(4) + 1 = 17, jadi betul"
+          ],
+          "answer": 3,
+          "explanation": "Gantikan setiap x dengan 4. Sebelah kiri menjadi 16 + 1 = 17, sama dengan sebelah kanan.",
+          "hint": "Kekalkan bentuk asal 4x + 1 ketika menggantikan x."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t2-math-isi-padu-silinder",
+    "levelId": "t2",
+    "subjectId": "math",
+    "note": {
+      "title": "Isi Padu Silinder dan Unit",
+      "summary": "Menggunakan luas tapak bulatan untuk mencari isi padu.",
+      "body": [
+        "Silinder mempunyai dua tapak bulatan yang sama saiz. Isi padunya ialah luas tapak didarab tinggi tegak: V = πr²h. Simbol r ialah jejari, iaitu separuh diameter. Tinggi diukur tegak lurus kepada tapak.",
+        "Contoh: Silinder berjejari 3 cm dan tinggi 8 cm. Dengan π = 3.14, luas tapak ialah 3.14 × 3² = 28.26 cm². Isi padu ialah 28.26 × 8 = 226.08 cm³.",
+        "Unit isi padu mempunyai kuasa tiga kerana tiga dimensi terlibat. Untuk kapasiti, 1 cm³ bersamaan 1 mL. Silinder berisi 226.08 cm³ air mengandungi 226.08 mL air.",
+        "Jangan masukkan diameter sebagai r atau terlupa mengkuasa duakan jejari. Menggandakan jejari menjadikan luas tapak empat kali ganda, jika ukuran lain kekal."
+      ],
+      "keyPoints": [
+        "V = πr²h menggunakan jejari dan tinggi tegak.",
+        "Jejari ialah separuh diameter.",
+        "1 cm³ bersamaan 1 mL."
+      ]
+    },
+    "reading": {
+      "title": "Reka Bentuk Bekas Benih",
+      "summary": "Bezakan diameter, jejari dan tinggi dalam rekod reka bentuk.",
+      "body": [
+        "Kelab reka cipta melakar sebuah bekas berbentuk silinder. Ukuran bahagian dalamnya ialah diameter 10 cm dan tinggi 12 cm. Ketebalan dinding tidak termasuk dalam ukuran itu. Untuk pengiraan latihan, semua murid menggunakan π = 3.14.",
+        "Dalam demonstrasi, bekas tersebut diisi air hingga separuh ketinggian untuk menyemak skala isipadu. Bekas berdiri tegak dan keratan rentasnya sama pada setiap aras. Ketua kumpulan mencatat diameter dengan jelas kerana dia pernah tersilap menggunakannya sebagai jejari dalam formula."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah jejari dalaman bekas?",
+          "options": [
+            "10 cm",
+            "20 cm",
+            "5 cm",
+            "2.5 cm"
+          ],
+          "answer": 2,
+          "explanation": "Jejari ialah separuh diameter: 10 ÷ 2 = 5 cm.",
+          "hint": "Diameter melintasi bulatan melalui pusat."
+        },
+        {
+          "prompt": "Berapakah isipadu air apabila bekas diisi hingga separuh ketinggian?",
+          "options": [
+            "471 cm³",
+            "942 cm³",
+            "188.4 cm³",
+            "235.5 cm³"
+          ],
+          "answer": 0,
+          "explanation": "Separuh tinggi ialah 6 cm. Isi padu air = 3.14 × 5² × 6 = 471 cm³.",
+          "hint": "Gunakan jejari 5 cm dan tinggi air 6 cm."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Tabung Silinder dalam Pelan",
+      "summary": "Kira isi padu dan kesan perubahan ukuran.",
+      "body": [
+        "Tabung utama mempunyai jejari dalaman 4 cm dan tinggi dalaman 10 cm. Gunakan π = 3.14 dan abaikan ketebalan dinding. Soalan perubahan ukuran merujuk reka bentuk baharu, bukan tabung yang mengembang."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah luas tapak tabung utama?",
+          "options": [
+            "25.12 cm²",
+            "50.24 cm²",
+            "502.4 cm²",
+            "16 cm²"
+          ],
+          "answer": 1,
+          "explanation": "Luas tapak = πr² = 3.14 × 4² = 50.24 cm².",
+          "hint": "Kuasa duakan 4 sebelum mendarab dengan π."
+        },
+        {
+          "prompt": "Berapakah isi padu tabung utama?",
+          "options": [
+            "50.24 cm³",
+            "251.2 cm³",
+            "502.4 cm³",
+            "125.6 cm³"
+          ],
+          "answer": 2,
+          "explanation": "Isi padu = luas tapak × tinggi = 50.24 × 10 = 502.4 cm³.",
+          "hint": "Gunakan tinggi tegak 10 cm."
+        },
+        {
+          "prompt": "Jika jejari dikekalkan dan tinggi baharu ialah 5 cm, apakah isi padunya?",
+          "options": [
+            "251.2 cm³",
+            "1004.8 cm³",
+            "125.6 cm³",
+            "50.24 cm³"
+          ],
+          "answer": 0,
+          "explanation": "Tinggi menjadi separuh, maka isi padu menjadi separuh: 502.4 ÷ 2 = 251.2 cm³.",
+          "hint": "Luas tapak tidak berubah."
+        },
+        {
+          "prompt": "Jika jejari digandakan dan tinggi dikekalkan, berapa kali ganda isi padu baharu?",
+          "options": [
+            "Dua kali",
+            "Lapan kali",
+            "Sama",
+            "Empat kali"
+          ],
+          "answer": 3,
+          "explanation": "Jejari dikuasa duakan dalam formula. Faktor 2 pada jejari memberi faktor 2² = 4 pada isi padu.",
+          "hint": "Bandingkan (2r)² dengan r²."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t3-math-skala-dan-ukuran-sebenar",
+    "levelId": "t3",
+    "subjectId": "math",
+    "note": {
+      "title": "Skala Pelan dan Jarak Sebenar",
+      "summary": "Menggunakan nisbah skala serta penukaran unit.",
+      "body": [
+        "Skala 1 : 200 bermaksud setiap satu unit pada pelan mewakili 200 unit sebenar yang sama jenis. Sebagai contoh, 1 cm pada pelan mewakili 200 cm sebenar, bukannya terus 200 m.",
+        "Contoh: Panjang laluan pada pelan ialah 7.5 cm. Pada skala 1 : 200, panjang sebenar ialah 7.5 × 200 = 1500 cm. Bahagi dengan 100 untuk menukarnya kepada 15 m.",
+        "Untuk melukis panjang sebenar pada pelan, songsangkan proses. Panjang sebenar 8 m bersamaan 800 cm; panjang pelan ialah 800 ÷ 200 = 4 cm.",
+        "Kesilapan biasa ialah mencampurkan sentimeter dengan meter dalam nisbah yang sama. Skala panjang juga tidak boleh terus digunakan sebagai faktor luas; luas melibatkan hasil darab dua panjang yang masing-masing berskala."
+      ],
+      "keyPoints": [
+        "Gunakan unit yang sama dalam nisbah skala.",
+        "Darab faktor skala untuk mencari panjang sebenar.",
+        "Bahagi faktor skala untuk mencari panjang pelan."
+      ]
+    },
+    "reading": {
+      "title": "Pelan Kebun Komuniti",
+      "summary": "Tafsir ukuran pada satu pelan berskala.",
+      "body": [
+        "Sebuah pelan kebun menggunakan skala 1 : 400. Laluan lurus dari pintu ke pondok berukuran 6 cm pada pelan. Petak semaian berbentuk segi empat tepat pula dilukis dengan panjang 3 cm dan lebar 2 cm.",
+        "Penyelaras mahu membeli tali untuk menandakan tepi petak semaian. Dia menukar kedua-dua ukuran kepada meter sebelum mengira perimeter. Pelan itu menunjukkan jarak mendatar, dan dalam latihan ini kebun dianggap rata. Ukuran diambil daripada garisan ukuran pada pelan, bukan saiz gambar yang mungkin berubah ketika dicetak."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah jarak sebenar dari pintu ke pondok?",
+          "options": [
+            "2.4 m",
+            "240 m",
+            "10 m",
+            "24 m"
+          ],
+          "answer": 3,
+          "explanation": "6 × 400 = 2400 cm. Oleh sebab 100 cm = 1 m, jaraknya 24 m.",
+          "hint": "Tukar sentimeter kepada meter selepas mendarab."
+        },
+        {
+          "prompt": "Berapakah perimeter sebenar petak semaian?",
+          "options": [
+            "20 m",
+            "40 m",
+            "96 m",
+            "10 m"
+          ],
+          "answer": 1,
+          "explanation": "Panjang sebenar 3 × 400 = 1200 cm = 12 m; lebar 8 m. Perimeter = 2(12 + 8) = 40 m.",
+          "hint": "Tukar kedua-dua sisi, kemudian jumlahkan empat sisi."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Bilik Bacaan Berskala",
+      "summary": "Gunakan skala pada panjang, lukisan dan luas.",
+      "body": [
+        "Pelan bilik bacaan menggunakan skala 1 : 50. Bilik segi empat tepat itu dilukis sepanjang 12 cm dan selebar 8 cm. Sebuah rak sebenar panjangnya 2 m. Semua ukuran pelan dalam sentimeter."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah panjang sebenar bilik?",
+          "options": [
+            "60 m",
+            "0.6 m",
+            "6 m",
+            "600 m"
+          ],
+          "answer": 2,
+          "explanation": "12 × 50 = 600 cm = 6 m.",
+          "hint": "Seratus sentimeter bersamaan satu meter."
+        },
+        {
+          "prompt": "Berapakah panjang rak pada pelan?",
+          "options": [
+            "4 cm",
+            "100 cm",
+            "2.5 cm",
+            "25 cm"
+          ],
+          "answer": 0,
+          "explanation": "Rak 2 m = 200 cm. Panjang pelan = 200 ÷ 50 = 4 cm.",
+          "hint": "Untuk ukuran pelan, bahagi ukuran sebenar dengan faktor skala."
+        },
+        {
+          "prompt": "Berapakah luas sebenar lantai bilik?",
+          "options": [
+            "96 m²",
+            "24 m²",
+            "20 m²",
+            "48 m²"
+          ],
+          "answer": 1,
+          "explanation": "Panjang sebenar 6 m dan lebar sebenar 8 × 50 ÷ 100 = 4 m. Luas = 6 × 4 = 24 m².",
+          "hint": "Cari panjang dan lebar sebenar dahulu."
+        },
+        {
+          "prompt": "Bilik sama dilukis pada skala 1 : 100. Bagaimanakah panjang lukisannya berubah?",
+          "options": [
+            "Menjadi dua kali ganda",
+            "Kekal 12 cm",
+            "Menjadi empat kali ganda",
+            "Menjadi separuh"
+          ],
+          "answer": 3,
+          "explanation": "Panjang sebenar 600 cm dibahagi 100 memberi 6 cm. Itu separuh daripada 12 cm pada skala 1 : 50.",
+          "hint": "Penyebut skala baharu adalah dua kali ganda."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t4-math-punca-kuadratik",
+    "levelId": "t4",
+    "subjectId": "math",
+    "note": {
+      "title": "Memilih Punca Persamaan Kuadratik",
+      "summary": "Memfaktorkan persamaan dan menilai punca mengikut konteks.",
+      "body": [
+        "Persamaan kuadratik boleh mempunyai dua punca nyata. Apabila persamaan difaktorkan menjadi hasil darab dua faktor yang sama dengan sifar, sekurang-kurangnya satu faktor mesti sifar. Inilah asas kaedah pemfaktoran.",
+        "Contoh: x² − 14x + 45 = 0. Cari dua nombor yang hasil darabnya 45 dan jumlahnya −14, iaitu −5 dan −9. Maka (x − 5)(x − 9) = 0, lalu x = 5 atau x = 9.",
+        "Jika konteks mensyaratkan x > 6, hanya punca 9 memenuhi syarat. Tanpa syarat tersebut, kedua-dua punca perlu dilaporkan dan boleh disemak melalui penggantian.",
+        "Kesilapan biasa ialah memilih satu punca sahaja kerana ia dijumpai dahulu. Sifat hasil darab sifar pula hanya digunakan apabila satu belah persamaan benar-benar sifar; susun semula persamaan sebelum memfaktorkan."
+      ],
+      "keyPoints": [
+        "Susun persamaan supaya satu belah sifar.",
+        "Setiap faktor sifar memberikan calon punca.",
+        "Semak punca terhadap persamaan dan syarat konteks."
+      ]
+    },
+    "reading": {
+      "title": "Ukuran Tapak Pameran",
+      "summary": "Hubungkan luas segi empat tepat dengan persamaan kuadratik.",
+      "body": [
+        "Sebuah tapak pameran berbentuk segi empat tepat mempunyai lebar x meter dan panjang (x + 3) meter. Luas tapak ialah 28 m². Pereka menulis x(x + 3) = 28, kemudian menyusun semula menjadi x² + 3x − 28 = 0.",
+        "Pemfaktoran memberikan (x + 7)(x − 4) = 0. Pereka menyenaraikan kedua-dua calon punca sebelum memilih ukuran yang munasabah. Ukuran panjang fizikal dalam rancangan ini mesti positif. Dia menyemak bahawa ukuran yang dipilih masih menghasilkan luas 28 m²."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah lebar tapak pameran yang munasabah?",
+          "options": [
+            "7 m",
+            "−7 m",
+            "4 m",
+            "−4 m"
+          ],
+          "answer": 2,
+          "explanation": "Faktor memberikan x = −7 atau x = 4. Lebar mesti positif, jadi lebar ialah 4 m.",
+          "hint": "Gunakan syarat ukuran fizikal selepas mencari punca."
+        },
+        {
+          "prompt": "Semakan manakah menyokong ukuran yang dipilih?",
+          "options": [
+            "4 × 7 = 28",
+            "4 + 7 = 11",
+            "7 × 7 = 49",
+            "4 × 3 = 12"
+          ],
+          "answer": 0,
+          "explanation": "Dengan lebar 4 m, panjang ialah 4 + 3 = 7 m. Hasil darab 4 × 7 memberikan luas 28 m².",
+          "hint": "Gantikan lebar dalam ungkapan panjang x + 3."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Bengkel Punca dan Syarat",
+      "summary": "Gunakan pemfaktoran serta semakan konteks.",
+      "body": [
+        "Setiap soalan adalah berasingan. Untuk soalan bingkai, lebar ialah x cm, panjang ialah (x + 2) cm dan luas ialah 35 cm². Semua ukuran fizikal mestilah positif."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah punca x² − 8x + 15 = 0?",
+          "options": [
+            "−3 dan −5",
+            "1 dan 15",
+            "−1 dan −15",
+            "3 dan 5"
+          ],
+          "answer": 3,
+          "explanation": "x² − 8x + 15 = (x − 3)(x − 5). Setiap faktor sifar memberikan x = 3 atau x = 5.",
+          "hint": "Cari dua nombor yang jumlahnya −8 dan hasil darabnya 15."
+        },
+        {
+          "prompt": "Persamaan x² − 9 = 0 diberi bersama syarat x < 0. Apakah punca yang dipilih?",
+          "options": [
+            "3",
+            "−3",
+            "9",
+            "−9"
+          ],
+          "answer": 1,
+          "explanation": "x² − 9 = (x − 3)(x + 3), jadi punca ialah 3 dan −3. Syarat negatif memilih −3.",
+          "hint": "Persamaan kuasa dua mempunyai dua calon punca di sini."
+        },
+        {
+          "prompt": "Berapakah lebar bingkai dalam konteks yang diberikan?",
+          "options": [
+            "5 cm",
+            "7 cm",
+            "−7 cm",
+            "3 cm"
+          ],
+          "answer": 0,
+          "explanation": "x(x + 2) = 35 menjadi (x + 7)(x − 5) = 0. Punca positif ialah x = 5 cm.",
+          "hint": "Cari pasangan ukuran positif yang berbeza 2 dan hasil darabnya 35."
+        },
+        {
+          "prompt": "Langkah pertama manakah sesuai untuk memfaktorkan x² + 2x = 8?",
+          "options": [
+            "Tulis x(x + 2) = 0",
+            "Tetapkan x = 0 sahaja",
+            "Tulis x² + 2x − 8 = 0",
+            "Bahagi kedua-dua belah dengan sifar"
+          ],
+          "answer": 2,
+          "explanation": "Tolak 8 pada kedua-dua belah supaya hasil darab faktor nanti bersamaan sifar. Persamaan menjadi x² + 2x − 8 = 0.",
+          "hint": "Sifat hasil darab sifar memerlukan satu belah sifar."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t5-math-ubah-langsung-songsang",
+    "levelId": "t5",
+    "subjectId": "math",
+    "note": {
+      "title": "Ubahan Langsung dan Songsang",
+      "summary": "Membezakan nisbah tetap daripada hasil darab tetap.",
+      "body": [
+        "Dalam ubahan langsung, y = kx dengan pemalar k. Bagi x bukan sifar, nisbah y/x kekal. Jika x digandakan, y juga digandakan. Hubungan ini sesuai, misalnya, untuk jumlah panjang reben apabila bilangan potongan sama panjang bertambah.",
+        "Dalam ubahan songsang, y = k/x bagi x bukan sifar. Hasil darab xy kekal. Apabila x digandakan, y menjadi separuh, selagi model dan semua syarat lain masih terpakai.",
+        "Contoh: y berubah secara songsang dengan x. Apabila x = 4, y = 18, jadi k = 4 × 18 = 72. Apabila x = 9, y = 72/9 = 8.",
+        "Jangan memilih ubahan hanya kerana kedua-dua nilai naik atau turun. Semak nisbah atau hasil darab daripada data. Model juga mempunyai had; masa kerja sebenar tidak semestinya berubah songsang dengan bilangan pekerja."
+      ],
+      "keyPoints": [
+        "Ubahan langsung mempunyai nisbah y/x tetap.",
+        "Ubahan songsang mempunyai hasil darab xy tetap.",
+        "Nyatakan syarat dan semak pemalar daripada data."
+      ]
+    },
+    "reading": {
+      "title": "Jadual Mesin Label",
+      "summary": "Uji model menggunakan beberapa pasangan data.",
+      "body": [
+        "Dalam model latihan sebuah mesin label, kelajuan r diukur dalam label seminit dan masa t dalam minit. Mesin menyiapkan jumlah label yang sama tanpa berhenti. Rekod pasangan (r, t) ialah (20, 12), (30, 8) dan (40, 6).",
+        "Penyelia menguji sama ada masa berubah secara songsang dengan kelajuan. Dia membandingkan hasil darab r dan t bagi ketiga-tiga rekod. Anggaran seterusnya hanya digunakan dalam julat operasi yang dianggap stabil. Masa menyediakan mesin tidak termasuk dalam model, jadi anggaran itu merujuk masa mencetak sahaja."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah hasil darab rt yang tetap dalam jadual?",
+          "options": [
+            "32",
+            "240",
+            "160",
+            "0.6"
+          ],
+          "answer": 1,
+          "explanation": "20 × 12 = 240, 30 × 8 = 240 dan 40 × 6 = 240. Pemalar itu mewakili jumlah label.",
+          "hint": "Darab kelajuan dengan masa bagi satu rekod, kemudian semak rekod lain."
+        },
+        {
+          "prompt": "Menurut model, berapa minit diperlukan pada kelajuan 60 label seminit?",
+          "options": [
+            "2",
+            "6",
+            "4",
+            "10"
+          ],
+          "answer": 2,
+          "explanation": "Jumlah label tetap 240. Masa = 240 ÷ 60 = 4 minit.",
+          "hint": "Gunakan rt = 240."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Memilih Model Ubahan",
+      "summary": "Kira pemalar dan nilai yang belum diketahui.",
+      "body": [
+        "Soalan 1 dan 2 menggunakan hubungan y berubah secara langsung dengan x; apabila x = 6, y = 21. Soalan 3 menggunakan hubungan p berubah secara songsang dengan q; apabila q = 3, p = 20. Soalan 4 mempunyai datanya sendiri."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah pemalar k bagi y = kx?",
+          "options": [
+            "126",
+            "15",
+            "3.5",
+            "2/7"
+          ],
+          "answer": 2,
+          "explanation": "k = y/x = 21/6 = 3.5. Nisbah ini kekal dalam model langsung.",
+          "hint": "Bahagi y dengan x, bukan darab."
+        },
+        {
+          "prompt": "Dalam model langsung itu, apakah y apabila x = 10?",
+          "options": [
+            "35",
+            "31",
+            "60",
+            "210"
+          ],
+          "answer": 0,
+          "explanation": "y = 3.5x. Apabila x = 10, y = 3.5 × 10 = 35.",
+          "hint": "Gunakan pemalar daripada pasangan x = 6, y = 21."
+        },
+        {
+          "prompt": "Dalam model songsang, apakah p apabila q = 12?",
+          "options": [
+            "80",
+            "15",
+            "4",
+            "5"
+          ],
+          "answer": 3,
+          "explanation": "Pemalar pq = 20 × 3 = 60. Maka p = 60/12 = 5.",
+          "hint": "Hasil darab, bukannya nisbah, kekal bagi ubahan songsang."
+        },
+        {
+          "prompt": "Pasangan (x, y) manakah menunjukkan ubahan songsang?",
+          "options": [
+            "(2, 6), (4, 12), (8, 24)",
+            "(2, 12), (4, 6), (8, 3)",
+            "(2, 5), (4, 7), (8, 11)",
+            "(2, 4), (4, 16), (8, 64)"
+          ],
+          "answer": 1,
+          "explanation": "Dalam pilihan itu, 2 × 12 = 4 × 6 = 8 × 3 = 24. Hasil darab tetap membuktikan model songsang bagi data tersebut.",
+          "hint": "Bandingkan hasil darab setiap pasangan."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d1-science-lihat-dan-catat",
+    "levelId": "d1",
+    "subjectId": "science",
+    "note": {
+      "title": "Lihat, Banding dan Catat",
+      "summary": "Membezakan pemerhatian daripada tekaan.",
+      "body": [
+        "Pemerhatian ialah perkara yang kita lihat, dengar atau kesan dengan deria. Kita boleh mencatat warna, bentuk dan bunyi.",
+        "Contoh: Rina melihat bunga kuning. Dia menulis, “Bunga ini kuning.” Catatan itu berdasarkan apa yang dilihatnya.",
+        "“Bunga ini akan gugur esok” ialah tekaan tentang masa depan. Rina belum melihat perkara itu berlaku.",
+        "Jangan rasa atau sentuh bahan yang tidak dikenali. Gunakan gambar atau objek selamat yang dipilih oleh guru."
+      ],
+      "keyPoints": [
+        "Catat perkara yang dapat diperhatikan.",
+        "Warna dan bentuk boleh dilihat dengan mata.",
+        "Tekaan belum tentu berlaku."
+      ]
+    },
+    "reading": {
+      "title": "Dua Batu di Dulang",
+      "summary": "Pilih catatan yang disokong oleh pemerhatian.",
+      "body": [
+        "Guru meletakkan dua batu bersih di atas dulang. Batu A berwarna kelabu dan berbentuk bulat. Batu B berwarna putih dan berbentuk panjang. Mei melihat kedua-duanya tanpa mengangkat batu itu.",
+        "Mei melukis bentuk setiap batu. Dia menulis warna di bawah lukisan. Rakannya berkata Batu B mungkin lebih berat, tetapi mereka belum menimbang mana-mana batu."
+      ],
+      "questions": [
+        {
+          "prompt": "Ciri Batu B manakah yang dilihat oleh Mei?",
+          "options": [
+            "Berwarna putih",
+            "Lebih berat",
+            "Berbau manis",
+            "Akan pecah esok"
+          ],
+          "answer": 0,
+          "explanation": "Teks menyatakan Mei melihat warna putih pada Batu B. Berat belum diukur.",
+          "hint": "Cari catatan tentang warna Batu B."
+        },
+        {
+          "prompt": "Apakah yang perlu dilakukan untuk mengetahui batu yang lebih berat?",
+          "options": [
+            "Lihat warna sahaja",
+            "Dengar namanya",
+            "Lukis semula bentuk",
+            "Timbang kedua-dua batu"
+          ],
+          "answer": 3,
+          "explanation": "Penimbangan membolehkan berat kedua-dua batu dibandingkan. Warna tidak memberikan ukuran berat.",
+          "hint": "Pilih cara yang mengukur berat."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Pemerhati di Sudut Kelas",
+      "summary": "Kenal pasti deria dan bukti yang sesuai.",
+      "body": [
+        "Guru menunjukkan gambar buah oren yang berwarna jingga, memainkan rakaman bunyi hujan dan meletakkan kotak tertutup di atas meja. Murid memerhati dari tempat duduk. Mereka belum membuka kotak."
+      ],
+      "questions": [
+        {
+          "prompt": "Rakaman hujan dimainkan tanpa gambar. Deria manakah membantu murid mengenal pasti bunyinya?",
+          "options": [
+            "Penglihatan",
+            "Pendengaran",
+            "Bau",
+            "Rasa"
+          ],
+          "answer": 1,
+          "explanation": "Bunyi dalam rakaman dikesan menggunakan deria pendengaran melalui telinga. Gambar tidak diperlukan untuk mendengar.",
+          "hint": "Rakaman ini memberikan bunyi, bukan gambar."
+        },
+        {
+          "prompt": "Catatan manakah ialah pemerhatian terhadap gambar buah?",
+          "options": [
+            "Buah itu pasti manis",
+            "Buah itu baru dipetik",
+            "Buah dalam gambar berwarna jingga",
+            "Buah itu berat"
+          ],
+          "answer": 2,
+          "explanation": "Warna dalam gambar boleh dilihat. Rasa, masa dipetik dan berat tidak dapat diketahui daripada warna sahaja.",
+          "hint": "Pilih ciri yang boleh dilihat dalam gambar."
+        },
+        {
+          "prompt": "Seorang murid berkata kotak itu mengandungi bola. Bagaimanakah kenyataan itu patut dianggap?",
+          "options": [
+            "Tekaan yang belum disemak",
+            "Pemerhatian isi kotak",
+            "Ukuran panjang kotak",
+            "Bunyi yang didengar"
+          ],
+          "answer": 0,
+          "explanation": "Kotak belum dibuka dan tiada bukti tentang isinya. Kenyataan itu masih tekaan.",
+          "hint": "Adakah murid sudah melihat isi kotak?"
+        },
+        {
+          "prompt": "Cara manakah paling selamat untuk mengetahui isi kotak dalam aktiviti ini?",
+          "options": [
+            "Rasa permukaan kotak dengan lidah",
+            "Goncang kuat dekat muka",
+            "Cucuk kotak dengan benda tajam",
+            "Minta guru membuka kotak untuk dilihat"
+          ],
+          "answer": 3,
+          "explanation": "Guru boleh membuka kotak supaya murid memerhati isinya dengan selamat.",
+          "hint": "Pilih tindakan yang dibantu oleh guru."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d2-science-benih-mula-bercambah",
+    "levelId": "d2",
+    "subjectId": "science",
+    "note": {
+      "title": "Benih Mula Bercambah",
+      "summary": "Memahami air, udara dan keadaan sesuai bagi percambahan.",
+      "body": [
+        "Percambahan berlaku apabila benih mula tumbuh. Benih memerlukan air, udara yang membekalkan oksigen dan suhu yang sesuai.",
+        "Contoh: Kacang pada kapas lembap mula mengeluarkan akar. Akar kecil yang muncul ialah tanda percambahan yang dapat dilihat.",
+        "Untuk menguji keperluan air, bandingkan benih sejenis pada kapas lembap dengan kapas kering. Letakkan kedua-duanya di tempat yang sama.",
+        "Jangan anggap lebih banyak air sentiasa lebih baik. Benih yang terendam sepenuhnya mungkin tidak mendapat cukup udara."
+      ],
+      "keyPoints": [
+        "Akar kecil menunjukkan benih mula bercambah.",
+        "Benih memerlukan air, oksigen dan suhu sesuai.",
+        "Ubah satu keadaan sahaja ketika membandingkan."
+      ]
+    },
+    "reading": {
+      "title": "Catatan Percambahan Sara",
+      "summary": "Baca keputusan mudah dengan satu keadaan berbeza.",
+      "body": [
+        "Sara menyediakan dua bekas terbuka, P dan Q. Setiap bekas mempunyai empat biji kacang hijau daripada pek yang sama. Kapas P sentiasa lembap, manakala kapas Q kering. Kedua-dua bekas diletakkan bersebelahan.",
+        "Selepas beberapa hari, tiga benih P mempunyai akar kecil. Tiada akar kelihatan pada benih Q. Sara melukis hasilnya. Guru mengingatkannya supaya tidak memakan benih aktiviti itu."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah keadaan yang sengaja dibezakan antara P dengan Q?",
+          "options": [
+            "Jenis benih",
+            "Bilangan benih",
+            "Keadaan kapas lembap atau kering",
+            "Tempat bekas"
+          ],
+          "answer": 2,
+          "explanation": "P menggunakan kapas lembap dan Q menggunakan kapas kering. Jenis, bilangan benih dan tempatnya disamakan.",
+          "hint": "Bandingkan penerangan kapas P dengan kapas Q."
+        },
+        {
+          "prompt": "Pemerhatian manakah menunjukkan percambahan berlaku?",
+          "options": [
+            "Bekas berwarna cerah",
+            "Akar kecil muncul pada tiga benih P",
+            "Semua kapas menjadi kering",
+            "Empat benih dimasukkan pada awalnya"
+          ],
+          "answer": 1,
+          "explanation": "Kemunculan akar kecil menunjukkan benih telah mula tumbuh. Bilangan benih awal tidak menunjukkan percambahan.",
+          "hint": "Cari perubahan pada benih selepas beberapa hari."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Merancang Perbandingan Benih",
+      "summary": "Pilih bukti dan keadaan ujian yang adil.",
+      "body": [
+        "Aina mahu melihat kesan air terhadap percambahan kacang hijau. Dia menggunakan bekas terbuka dan kapas. Guru menyediakan benih serta memantau aktiviti. Benih aktiviti tidak boleh dimakan."
+      ],
+      "questions": [
+        {
+          "prompt": "Pasangan manakah paling sesuai untuk menguji kesan air?",
+          "options": [
+            "Kacang pada kapas lembap dan jagung pada kapas kering",
+            "Kacang dalam gelap dan kacang di tingkap",
+            "Kacang besar dan kacang kecil, kedua-duanya kering",
+            "Kacang sejenis pada kapas lembap dan kapas kering di tempat sama"
+          ],
+          "answer": 3,
+          "explanation": "Pasangan itu mengubah keadaan air sambil mengekalkan jenis benih dan tempat. Perbandingan lebih adil.",
+          "hint": "Ubah air sahaja."
+        },
+        {
+          "prompt": "Apakah tanda awal yang boleh dilukis dalam catatan percambahan?",
+          "options": [
+            "Akar kecil keluar daripada benih",
+            "Warna meja berubah",
+            "Bekas bertambah besar",
+            "Kapas menjadi benih"
+          ],
+          "answer": 0,
+          "explanation": "Akar kecil yang muncul ialah perubahan pertumbuhan benih yang boleh diperhatikan.",
+          "hint": "Cari perubahan pada benih itu sendiri."
+        },
+        {
+          "prompt": "Mengapakah kapas perlu lembap tanpa menenggelamkan benih sepenuhnya?",
+          "options": [
+            "Benih tidak memerlukan air",
+            "Benih memerlukan air dan udara",
+            "Air sentiasa menghentikan pertumbuhan",
+            "Kapas mesti terapung"
+          ],
+          "answer": 1,
+          "explanation": "Kapas lembap membekalkan air sambil membolehkan benih mendapat udara. Air berlebihan boleh mengurangkan bekalan udara.",
+          "hint": "Fikirkan dua keperluan benih."
+        },
+        {
+          "prompt": "Satu benih tidak bercambah walaupun kapasnya lembap. Apakah tindakan terbaik?",
+          "options": [
+            "Simpulkan semua benih tidak memerlukan air",
+            "Buang semua catatan",
+            "Catat hasil itu dan bandingkan beberapa benih lagi",
+            "Nyatakan benih itu pasti telah bercambah"
+          ],
+          "answer": 2,
+          "explanation": "Benih individu mungkin berbeza keadaannya. Catatan jujur dan perbandingan beberapa benih memberikan bukti yang lebih baik.",
+          "hint": "Keputusan satu benih belum mewakili semua benih."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d3-science-bahan-dan-daya-serap",
+    "levelId": "d3",
+    "subjectId": "science",
+    "note": {
+      "title": "Bahan yang Menyerap Air",
+      "summary": "Membandingkan sifat bahan melalui ujian yang adil.",
+      "body": [
+        "Bahan penyerap mengambil air ke dalam ruang kecil pada bahan itu. Daya serap boleh dibandingkan melalui jumlah air yang diserap.",
+        "Contoh: Dalam satu ujian, kain P menyerap 8 mL air dan kain Q menyerap 5 mL. P menyerap lebih banyak dalam ujian itu.",
+        "Gunakan kepingan sama saiz, jumlah air awal sama dan masa rendaman sama. Jenis bahan sahaja diubah.",
+        "Jangan anggap bahan yang lebih tebal pasti terbaik untuk semua kegunaan. Pilihan bergantung pada sifat yang diperlukan."
+      ],
+      "keyPoints": [
+        "Bandingkan jumlah air yang diserap.",
+        "Samakan saiz dan tempoh ujian.",
+        "Pilih bahan berdasarkan kegunaannya."
+      ]
+    },
+    "reading": {
+      "title": "Lapik untuk Pasu Kecil",
+      "summary": "Gunakan data penyerapan untuk memilih bahan.",
+      "body": [
+        "Kelab kebun menguji dua lapik, R dan S, untuk menyerap titisan air di bawah pasu. Kedua-duanya sama luas dan diuji dengan cara yang sama. Setiap lapik diberi 20 mL air.",
+        "Selepas masa yang sama, R menyerap 12 mL dan S menyerap 7 mL. Murid memilih lapik berdasarkan keputusan itu. Mereka juga mencatat bahawa saiz lapik tidak boleh diubah ketika perbandingan dibuat."
+      ],
+      "questions": [
+        {
+          "prompt": "Lapik manakah menyerap lebih banyak air dalam ujian?",
+          "options": [
+            "S",
+            "R",
+            "Kedua-duanya sama",
+            "Tiada lapik menyerap air"
+          ],
+          "answer": 1,
+          "explanation": "R menyerap 12 mL, lebih banyak daripada 7 mL yang diserap S.",
+          "hint": "Bandingkan dua nilai dalam catatan."
+        },
+        {
+          "prompt": "Mengapakah kedua-dua lapik mesti sama luas?",
+          "options": [
+            "Supaya warnanya sama",
+            "Supaya jumlah air diserap wajib sama",
+            "Supaya kesan jenis bahan dapat dibandingkan dengan lebih adil",
+            "Supaya lapik tidak boleh basah"
+          ],
+          "answer": 2,
+          "explanation": "Lapik yang lebih besar mungkin menyerap lebih banyak hanya kerana saiznya. Luas yang sama membantu menilai perbezaan bahan.",
+          "hint": "Fikirkan sama ada saiz boleh mempengaruhi penyerapan."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Memilih Bahan Pengelap",
+      "summary": "Tafsir ujian ringkas tanpa membuat kesimpulan berlebihan.",
+      "body": [
+        "Tiga kepingan bahan A, B dan C yang sama luas diuji dengan cara dan tempoh yang sama. Daripada 15 mL air bagi setiap kepingan, A menyerap 10 mL, B menyerap 6 mL dan C menyerap 2 mL. Nilai ini ialah data latihan."
+      ],
+      "questions": [
+        {
+          "prompt": "Bahan manakah paling banyak menyerap air dalam ujian?",
+          "options": [
+            "B",
+            "C",
+            "Semua sama",
+            "A"
+          ],
+          "answer": 3,
+          "explanation": "A menyerap 10 mL, nilai tertinggi berbanding 6 mL dan 2 mL.",
+          "hint": "Cari nilai paling besar."
+        },
+        {
+          "prompt": "Berapakah beza air yang diserap oleh A dengan B?",
+          "options": [
+            "4 mL",
+            "16 mL",
+            "6 mL",
+            "8 mL"
+          ],
+          "answer": 0,
+          "explanation": "Beza = 10 − 6 = 4 mL. Menolak membantu membandingkan dua jumlah.",
+          "hint": "Tolak jumlah B daripada jumlah A."
+        },
+        {
+          "prompt": "Apakah perkara yang sengaja diubah dalam ujian ini?",
+          "options": [
+            "Luas kepingan",
+            "Jenis bahan",
+            "Tempoh ujian",
+            "Jumlah air awal"
+          ],
+          "answer": 1,
+          "explanation": "Jenis bahan A, B dan C berbeza. Luas, tempoh dan jumlah air awal dinyatakan sama.",
+          "hint": "Cari perkara yang berbeza antara tiga kepingan."
+        },
+        {
+          "prompt": "Kesimpulan manakah paling tepat?",
+          "options": [
+            "A ialah bahan terbaik untuk setiap kegunaan",
+            "C langsung tidak menyerap air",
+            "Dalam ujian ini, A menyerap lebih banyak air daripada B dan C",
+            "B sentiasa menyerap 6 mL walau apa pun saiznya"
+          ],
+          "answer": 2,
+          "explanation": "Kesimpulan itu sepadan dengan data dan keadaan ujian. Keputusan tidak membuktikan keupayaan bahan dalam semua keadaan.",
+          "hint": "Hadkan kesimpulan kepada apa yang diuji."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d4-science-cahaya-dan-bayang",
+    "levelId": "d4",
+    "subjectId": "science",
+    "note": {
+      "title": "Cahaya dan Saiz Bayang-bayang",
+      "summary": "Menjelaskan pembentukan bayang-bayang dan perbandingan yang adil.",
+      "body": [
+        "Bayang-bayang terbentuk apabila objek menghalang cahaya daripada sampai ke sesuatu permukaan. Objek legap menghalang cahaya melaluinya. Dalam udara yang seragam, cahaya bergerak lurus, lalu kawasan di belakang objek menerima kurang cahaya.",
+        "Contoh: Lampu kecil dan skrin dikekalkan pada tempatnya. Kad legap di antara kedua-duanya digerakkan mendekati lampu. Bayang-bayang pada skrin menjadi lebih besar kerana kad menghalang bahagian pancaran yang semakin melebar ke arah skrin.",
+        "Untuk membandingkan saiz bayang-bayang, gunakan kad yang sama dan ukur lebar bayang-bayang. Ubah jarak kad dari lampu sahaja. Kekalkan kedudukan skrin dan arah kad.",
+        "Jangan anggap kad itu sendiri membesar apabila bayang-bayang membesar. Perubahan kedudukan boleh mengubah saiz bayang-bayang walaupun saiz objek kekal. Gunakan lampu suluh, tanpa menyuluh terus ke mata."
+      ],
+      "keyPoints": [
+        "Objek legap menghalang laluan cahaya.",
+        "Saiz bayang-bayang bergantung pada susunan lampu, objek dan skrin.",
+        "Ubah satu jarak sahaja untuk perbandingan yang jelas."
+      ]
+    },
+    "reading": {
+      "title": "Latihan Teater Bayang",
+      "summary": "Baca catatan kedudukan watak kadbod.",
+      "body": [
+        "Pasukan teater menggunakan lampu suluh kecil, watak kadbod dan skrin putih. Lampu serta skrin tidak dialihkan. Watak dipegang tegak, selari dengan skrin. Dalam catatan latihan, apabila kadbod berjarak 20 cm dari lampu, lebar bayang-bayang ialah 18 cm. Pada jarak 40 cm dari lampu, lebarnya 9 cm.",
+        "Pengarah mahu watak kelihatan besar tanpa mengganti kadbod. Dia memilih kedudukan berdasarkan dua bacaan itu. Murid mengukur lebar pada arah yang sama dan memastikan lampu tidak disuluh ke muka sesiapa."
+      ],
+      "questions": [
+        {
+          "prompt": "Kedudukan manakah memberikan watak bayang-bayang yang lebih besar dalam catatan?",
+          "options": [
+            "20 cm dari lampu",
+            "40 cm dari lampu",
+            "Kedua-duanya sama",
+            "Tiada kedudukan menghasilkan bayang-bayang"
+          ],
+          "answer": 0,
+          "explanation": "Pada jarak 20 cm, lebarnya 18 cm; pada 40 cm, lebarnya 9 cm. Lebar 18 cm lebih besar.",
+          "hint": "Bandingkan lebar yang direkodkan bagi kedua-dua jarak."
+        },
+        {
+          "prompt": "Apakah yang dikekalkan bagi kedua-dua bacaan?",
+          "options": [
+            "Lebar bayang-bayang",
+            "Jarak kadbod dari lampu",
+            "Kedudukan lampu dan skrin",
+            "Semua cahaya dimatikan"
+          ],
+          "answer": 2,
+          "explanation": "Teks menyatakan lampu dan skrin tidak dialihkan. Ini membantu mengaitkan perubahan bayang-bayang dengan kedudukan kadbod.",
+          "hint": "Cari perkara yang tidak dialihkan."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Menguji Bayang Kad Bulat",
+      "summary": "Gunakan satu susunan cahaya yang diterangkan.",
+      "body": [
+        "Satu lampu suluh kecil menghala ke skrin. Kad bulat legap berada di antara lampu dengan skrin dan selari dengan skrin. Lampu serta skrin dikekalkan. Murid mengubah kedudukan kad sahaja sambil mengukur diameter bayang-bayang."
+      ],
+      "questions": [
+        {
+          "prompt": "Mengapakah bayang-bayang kad terbentuk?",
+          "options": [
+            "Kad menghasilkan cahaya hitam",
+            "Skrin menyedut kad",
+            "Lampu memadamkan semua cahaya bilik",
+            "Kad menghalang sebahagian cahaya ke skrin"
+          ],
+          "answer": 3,
+          "explanation": "Kad legap menyekat sebahagian laluan cahaya. Kawasan skrin di belakangnya menerima kurang cahaya.",
+          "hint": "Fikirkan laluan cahaya dari lampu ke skrin."
+        },
+        {
+          "prompt": "Apabila kad digerakkan mendekati lampu dalam susunan ini, apakah perubahan yang dijangka?",
+          "options": [
+            "Bayang-bayang lebih kecil",
+            "Bayang-bayang lebih besar",
+            "Kad sebenar membesar",
+            "Skrin bergerak sendiri"
+          ],
+          "answer": 1,
+          "explanation": "Dengan lampu dan skrin tetap, kad yang lebih dekat dengan lampu kecil menghasilkan bayang-bayang lebih besar pada skrin.",
+          "hint": "Gunakan hubungan kedudukan objek dengan saiz bayang-bayang."
+        },
+        {
+          "prompt": "Apakah ukuran yang diperhatikan sebagai keputusan ujian?",
+          "options": [
+            "Diameter bayang-bayang",
+            "Warna meja",
+            "Harga lampu",
+            "Nama murid"
+          ],
+          "answer": 0,
+          "explanation": "Murid menilai perubahan saiz bayang-bayang melalui diameternya. Kedudukan kad ialah perkara yang diubah.",
+          "hint": "Cari ukuran yang dicatat selepas kad dialihkan."
+        },
+        {
+          "prompt": "Mengapakah kad perlu kekal selari dengan skrin?",
+          "options": [
+            "Supaya semua bahan menjadi lut sinar",
+            "Supaya lampu tidak memerlukan bateri",
+            "Supaya perubahan arah kad tidak turut mengubah bayang-bayang",
+            "Supaya diameter kad berubah"
+          ],
+          "answer": 2,
+          "explanation": "Kad yang dipusingkan boleh menghasilkan bentuk atau lebar bayang-bayang berbeza. Mengekalkan arahnya mengurangkan faktor lain.",
+          "hint": "Selain jarak, sudut kad juga boleh mempengaruhi bayang-bayang."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d5-science-litar-lengkap",
+    "levelId": "d5",
+    "subjectId": "science",
+    "note": {
+      "title": "Litar Lengkap dan Suis",
+      "summary": "Meneliti laluan arus dalam litar mentol ringkas.",
+      "body": [
+        "Litar elektrik ialah laluan bagi arus elektrik. Dalam litar ringkas, sel membekalkan tenaga, wayar menghubungkan komponen dan mentol menukarkan tenaga elektrik kepada cahaya serta haba. Mentol yang sesuai menyala apabila laluan melalui mentol lengkap.",
+        "Contoh: Satu sel, mentol dan suis disambung dalam satu gelung. Apabila suis ditutup, sambungan lengkap dan mentol menyala. Apabila suis dibuka, jurang memutuskan laluan lalu mentol padam, dengan andaian semua komponen berfungsi.",
+        "Jika mentol tidak menyala, periksa sambungan, keadaan sel dan mentol satu demi satu. Satu pemerhatian sahaja belum menentukan komponen yang bermasalah.",
+        "Jangan anggap suis terbuka bermaksud laluan arus terbuka untuk dilalui; dalam sains, litar terbuka bermaksud terputus. Gunakan kit sel voltan rendah di bawah pengawasan guru. Jangan sambungkan dua terminal sel terus dengan wayar tanpa beban."
+      ],
+      "keyPoints": [
+        "Arus memerlukan laluan litar yang lengkap.",
+        "Suis terbuka memutuskan litar; suis tertutup melengkapkannya.",
+        "Periksa satu kemungkinan kerosakan pada satu masa."
+      ]
+    },
+    "reading": {
+      "title": "Lampu Model Rumah",
+      "summary": "Menafsir ujian suis dan sambungan longgar.",
+      "body": [
+        "Johan memasang lampu pada model rumah menggunakan satu sel, mentol kecil yang sesuai, wayar dan suis. Guru menyemak kit sebelum digunakan. Pada mulanya, mentol menyala apabila suis ditutup dan padam apabila suis dibuka.",
+        "Kemudian, mentol tidak menyala walaupun suis ditutup. Johan menemui satu wayar tercabut daripada pemegang mentol. Setelah suis dibuka dan wayar dipasang semula dengan bantuan guru, dia menutup suis. Mentol menyala lagi. Dia mencatat langkah pembaikan supaya jelas perubahan manakah yang memulihkan litar."
+      ],
+      "questions": [
+        {
+          "prompt": "Mengapakah mentol padam apabila suis dibuka pada ujian awal?",
+          "options": [
+            "Sel bertukar menjadi mentol",
+            "Laluan litar terputus",
+            "Mentol menyerap semua wayar",
+            "Model rumah menjadi lebih besar"
+          ],
+          "answer": 1,
+          "explanation": "Suis terbuka membentuk jurang pada laluan. Arus tidak dapat melalui litar lengkap, lalu mentol padam.",
+          "hint": "Fikirkan sama ada laluan masih bersambung."
+        },
+        {
+          "prompt": "Bukti manakah paling menyokong bahawa sambungan tercabut menyebabkan masalah kedua?",
+          "options": [
+            "Model rumah mempunyai bumbung",
+            "Johan menulis namanya",
+            "Suis pernah dibuka pada awalnya",
+            "Mentol menyala selepas wayar dipasang semula"
+          ],
+          "answer": 3,
+          "explanation": "Pemulihan mentol selepas sambungan dibaiki menyokong bahawa jurang pada sambungan itu menyebabkan litar terputus.",
+          "hint": "Cari perubahan yang diikuti oleh pemulihan fungsi."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Detektif Litar Kecil",
+      "summary": "Kenal pasti keadaan litar dan langkah semakan.",
+      "body": [
+        "Gunakan gambaran litar satu sel, satu mentol yang sesuai dan satu suis dalam satu laluan. Semua komponen dianggap berfungsi kecuali jika soalan menyatakan sambungan terputus. Aktiviti sebenar menggunakan kit voltan rendah dengan pengawasan guru."
+      ],
+      "questions": [
+        {
+          "prompt": "Keadaan manakah membolehkan mentol menyala?",
+          "options": [
+            "Satu wayar tercabut dan suis tertutup",
+            "Kedua-dua terminal sel tidak disambung",
+            "Semua sambungan lengkap melalui mentol dan suis tertutup",
+            "Suis terbuka pada laluan tunggal"
+          ],
+          "answer": 2,
+          "explanation": "Laluan melalui mentol mesti lengkap dari satu terminal sel ke terminal yang lain. Suis tertutup melengkapkan sambungan itu.",
+          "hint": "Jejak satu gelung penuh melalui mentol."
+        },
+        {
+          "prompt": "Apakah fungsi utama sel dalam litar ini?",
+          "options": [
+            "Membekalkan tenaga elektrik",
+            "Menyerap semua cahaya",
+            "Menggantikan semua wayar",
+            "Menutup suis secara automatik"
+          ],
+          "answer": 0,
+          "explanation": "Sel membekalkan tenaga yang dipindahkan secara elektrik kepada mentol. Wayar menyediakan sambungan.",
+          "hint": "Bezakan sumber tenaga daripada penghubung komponen."
+        },
+        {
+          "prompt": "Satu wayar pada laluan tunggal tercabut. Apakah kesannya jika suis masih tertutup?",
+          "options": [
+            "Mentol pasti lebih terang",
+            "Mentol berkelip mengikut warna wayar",
+            "Arus melompat jurang secara biasa",
+            "Mentol padam kerana litar tidak lengkap"
+          ],
+          "answer": 3,
+          "explanation": "Wayar tercabut memutuskan satu-satunya laluan. Suis tertutup sahaja tidak dapat menggantikan sambungan yang hilang.",
+          "hint": "Adakah gelung masih lengkap?"
+        },
+        {
+          "prompt": "Mentol tidak menyala dan puncanya belum diketahui. Langkah manakah paling berguna?",
+          "options": [
+            "Tukar semua komponen serentak tanpa catatan",
+            "Buka suis dan semak satu sambungan pada satu masa dengan guru",
+            "Sambung terminal sel terus tanpa mentol",
+            "Tambah sel sebanyak mungkin"
+          ],
+          "answer": 1,
+          "explanation": "Semakan satu demi satu membantu mengenal pasti punca. Membuka suis dahulu membolehkan sambungan diperiksa dengan tertib.",
+          "hint": "Pilih langkah yang menguji satu kemungkinan dengan bantuan guru."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d6-science-jarak-masa-laju",
+    "levelId": "d6",
+    "subjectId": "science",
+    "note": {
+      "title": "Membandingkan Laju Purata",
+      "summary": "Menghubungkan jarak, masa dan laju dengan unit yang sesuai.",
+      "body": [
+        "Laju menerangkan seberapa cepat sesuatu objek bergerak. Laju purata dikira dengan membahagikan jumlah jarak dengan jumlah masa. Jika jarak dalam meter dan masa dalam saat, unit laju ialah meter sesaat, ditulis m/s.",
+        "Contoh: Sebuah kereta mainan bergerak sejauh 12 m dalam 4 s. Laju puratanya ialah 12 ÷ 4 = 3 m/s. Ini bermaksud kereta itu menempuh purata 3 m bagi setiap saat sepanjang perjalanan.",
+        "Untuk jarak yang sama, objek yang mengambil masa lebih singkat mempunyai laju purata lebih tinggi. Untuk masa yang sama, objek yang bergerak lebih jauh mempunyai laju purata lebih tinggi.",
+        "Jangan anggap laju purata membuktikan laju setiap saat sentiasa sama. Objek boleh mempercepat atau memperlahankan gerakan sepanjang perjalanan. Ukur jarak dan masa dengan cara yang konsisten sebelum membandingkan keputusan.",
+        "Pada laju tetap, jarak = laju × masa. Contoh: troli bergerak 3 m setiap saat selama 4 s, maka jaraknya 3 × 4 = 12 m. Jika selepas itu troli berhenti selama 2 s dan kita menilai keseluruhan perjalanan, jumlah masa ialah 4 + 2 = 6 s. Jarak kekal 12 m. Laju purata keseluruhan = 12 ÷ 6 = 2 m/s. Tempoh berhenti mesti dimasukkan apabila termasuk dalam perjalanan yang ditanya."
+      ],
+      "keyPoints": [
+        "Laju purata = jumlah jarak ÷ jumlah masa.",
+        "Bagi jarak sama, masa lebih singkat menunjukkan lebih laju.",
+        "Laju purata tidak menerangkan setiap saat perjalanan.",
+        "Jarak = laju tetap × masa; laju purata seluruh perjalanan turut mengambil kira tempoh berhenti."
+      ]
+    },
+    "reading": {
+      "title": "Dua Kereta pada Landasan",
+      "summary": "Bandingkan masa pada jarak yang dikekalkan.",
+      "body": [
+        "Dalam data latihan kelab sains, kereta mainan Merah dan Biru masing-masing bergerak sepanjang landasan 18 m. Kereta Merah mengambil 6 s, manakala kereta Biru mengambil 9 s. Masa diambil dari saat kereta melepasi garisan mula hingga garisan tamat.",
+        "Murid membandingkan laju purata, bukan masa sahaja tanpa mengambil kira jarak. Mereka bercadang mengulang ujian kerana masa tindak balas orang yang menekan jam randik boleh berbeza. Data ini tidak menunjukkan kedudukan kereta pada setiap saat, jadi perubahan laju sepanjang landasan belum diketahui."
+      ],
+      "questions": [
+        {
+          "prompt": "Kereta manakah mempunyai laju purata lebih tinggi?",
+          "options": [
+            "Biru kerana masanya lebih lama",
+            "Kedua-duanya sama",
+            "Merah kerana masa lebih singkat untuk jarak sama",
+            "Tidak boleh dibandingkan walaupun jarak diketahui"
+          ],
+          "answer": 2,
+          "explanation": "Merah bergerak 18 ÷ 6 = 3 m/s; Biru 18 ÷ 9 = 2 m/s. Merah lebih laju secara purata.",
+          "hint": "Kedua-duanya menempuh 18 m."
+        },
+        {
+          "prompt": "Mengapakah murid mahu mengulang ujian?",
+          "options": [
+            "Supaya landasan tidak lagi mempunyai panjang",
+            "Supaya kereta bertukar warna",
+            "Supaya laju setiap saat pasti sama",
+            "Untuk menilai variasi bacaan masa dan meningkatkan keyakinan pada perbandingan"
+          ],
+          "answer": 3,
+          "explanation": "Ulangan membantu melihat sama ada hasil konsisten apabila bacaan masa mungkin dipengaruhi tindak balas pengukur.",
+          "hint": "Perhatikan kemungkinan variasi ketika jam randik ditekan."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Kiraan Gerakan Troli",
+      "summary": "Gunakan data lengkap bagi setiap soalan.",
+      "body": [
+        "Data latihan troli A: jarak 24 m dalam 8 s. Troli B menempuh jarak 24 m dalam 6 s. Troli C bergerak pada laju tetap 2 m/s selama 7 s. Untuk kes perjalanan yang termasuk berhenti, satu perjalanan merangkumi gerakan 10 m selama 5 s diikuti berhenti 5 s."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah laju purata troli A?",
+          "options": [
+            "192 m/s",
+            "16 m/s",
+            "4 m/s",
+            "3 m/s"
+          ],
+          "answer": 3,
+          "explanation": "Laju purata A = 24 ÷ 8 = 3 m/s. Unit jarak dibahagi unit masa.",
+          "hint": "Bahagi jarak dengan masa."
+        },
+        {
+          "prompt": "Berapakah beza laju purata B dengan A?",
+          "options": [
+            "1 m/s",
+            "2 m/s",
+            "6 m/s",
+            "7 m/s"
+          ],
+          "answer": 0,
+          "explanation": "Laju B = 24 ÷ 6 = 4 m/s. Laju A = 3 m/s. Bezanya 4 − 3 = 1 m/s.",
+          "hint": "Kira setiap laju dahulu."
+        },
+        {
+          "prompt": "Berapakah jarak yang ditempuh troli C?",
+          "options": [
+            "3.5 m",
+            "9 m",
+            "14 m",
+            "5 m"
+          ],
+          "answer": 2,
+          "explanation": "Pada laju tetap, jarak = laju × masa = 2 × 7 = 14 m.",
+          "hint": "Setiap saat, troli bergerak 2 m."
+        },
+        {
+          "prompt": "Berapakah laju purata perjalanan yang termasuk berhenti 5 s itu?",
+          "options": [
+            "2 m/s",
+            "1 m/s",
+            "0 m/s",
+            "5 m/s"
+          ],
+          "answer": 1,
+          "explanation": "Jumlah jarak 10 m dan jumlah masa 5 + 5 = 10 s. Laju purata = 10 ÷ 10 = 1 m/s.",
+          "hint": "Masukkan tempoh berhenti dalam jumlah masa perjalanan."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t1-science-ketumpatan-dan-sesaran",
+    "levelId": "t1",
+    "subjectId": "science",
+    "note": {
+      "title": "Ketumpatan daripada Jisim dan Isi Padu",
+      "summary": "Mengira ketumpatan serta membaca perubahan isipadu air.",
+      "body": [
+        "Ketumpatan ialah jisim per unit isi padu. Rumusnya ialah ketumpatan = jisim ÷ isi padu. Jika jisim dalam gram dan isi padu dalam cm³, unit ketumpatan ialah g/cm³. Dua objek sama besar boleh mempunyai jisim berbeza.",
+        "Contoh: Batu kecil berjisim 36 g ditenggelamkan sepenuhnya dalam air. Bacaan meningkat daripada 30 mL kepada 42 mL. Isi padu batu ialah 42 − 30 = 12 mL = 12 cm³. Ketumpatannya ialah 36 ÷ 12 = 3 g/cm³.",
+        "Kaedah sesaran sesuai apabila objek tidak melarut, menyerap air atau memerangkap gelembung. Baca bahagian bawah meniskus air pada aras mata dan pastikan tiada air tertumpah.",
+        "Jangan gunakan bacaan akhir air sebagai isi padu objek. Gunakan pertambahan bacaan. Objek yang berjisim lebih besar juga tidak semestinya lebih tumpat; isi padunya mesti dipertimbangkan."
+      ],
+      "keyPoints": [
+        "Ketumpatan = jisim ÷ isi padu.",
+        "Isi padu sesaran ialah bacaan akhir ditolak bacaan awal.",
+        "Bandingkan jisim per unit isi padu, bukan jisim sahaja."
+      ]
+    },
+    "reading": {
+      "title": "Dua Sampel Tidak Dikenali",
+      "summary": "Bandingkan ketumpatan menggunakan data yang lengkap.",
+      "body": [
+        "Murid menerima dua sampel pepejal tidak berliang, A dan B, untuk latihan pengiraan. Sampel A berjisim 48 g dan berisipadu 16 cm³. Sampel B berjisim 60 g dan berisipadu 30 cm³. Kedua-dua ukuran isi padu telah disemak oleh guru.",
+        "Seorang murid mencadangkan bahawa B pasti lebih tumpat kerana jisimnya lebih besar. Rakan kumpulannya mengira jisim bagi setiap sentimeter padu sebelum membuat perbandingan. Mereka tidak menamakan bahan sampel hanya berdasarkan rupa atau satu ukuran. Data latihan ini bertujuan membandingkan dua sifat yang berlainan."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah ketumpatan sampel A?",
+          "options": [
+            "0.33 g/cm³",
+            "64 g/cm³",
+            "768 g/cm³",
+            "3 g/cm³"
+          ],
+          "answer": 3,
+          "explanation": "Ketumpatan A = 48 ÷ 16 = 3 g/cm³. Jisim dibahagikan dengan isi padu.",
+          "hint": "Kira gram bagi setiap 1 cm³."
+        },
+        {
+          "prompt": "Penilaian manakah betul tentang dakwaan bahawa B lebih tumpat?",
+          "options": [
+            "Betul kerana 60 lebih besar daripada 48",
+            "Tidak betul; B ialah 2 g/cm³, lebih rendah daripada A",
+            "Betul kerana B mempunyai isi padu lebih besar",
+            "Tidak boleh dikira walaupun jisim dan isi padu diberi"
+          ],
+          "answer": 1,
+          "explanation": "Ketumpatan B = 60 ÷ 30 = 2 g/cm³, manakala A ialah 3 g/cm³. Jisim besar sahaja tidak menentukan ketumpatan.",
+          "hint": "Kira ketumpatan kedua-dua sampel dahulu."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Mengukur Objek Pejal",
+      "summary": "Gunakan sesaran air dengan syarat yang jelas.",
+      "body": [
+        "Satu objek pejal berjisim 65 g ditenggelamkan sepenuhnya dalam silinder penyukat. Bacaan air meningkat daripada 40 mL kepada 65 mL. Objek tidak melarut atau menyerap air, tiada gelembung terperangkap dan tiada air tertumpah."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah isi padu objek?",
+          "options": [
+            "65 cm³",
+            "25 cm³",
+            "40 cm³",
+            "105 cm³"
+          ],
+          "answer": 1,
+          "explanation": "Isi padu objek sama dengan kenaikan isipadu air: 65 − 40 = 25 mL = 25 cm³.",
+          "hint": "Tolak bacaan awal daripada bacaan akhir."
+        },
+        {
+          "prompt": "Berapakah ketumpatan objek?",
+          "options": [
+            "1 g/cm³",
+            "0.38 g/cm³",
+            "2.6 g/cm³",
+            "25 g/cm³"
+          ],
+          "answer": 2,
+          "explanation": "Ketumpatan = 65 ÷ 25 = 2.6 g/cm³. Gunakan isi padu objek, bukan jumlah akhir air.",
+          "hint": "Bahagi 65 g dengan isi padu sesaran."
+        },
+        {
+          "prompt": "Farah melihat permukaan air dari atas. Dini menyelaraskan mata dengan bahagian bawah meniskus. Kaedah manakah lebih sesuai?",
+          "options": [
+            "Kaedah Dini kerana mengurangkan ralat paralaks",
+            "Kaedah Farah kerana mata lebih jauh dari skala",
+            "Purata kedua-duanya tanpa menyemak kedudukan mata",
+            "Pilih bacaan yang lebih besar dalam semua keadaan"
+          ],
+          "answer": 0,
+          "explanation": "Dini membaca bahagian bawah meniskus air pada aras mata. Kedudukan itu mengurangkan ralat paralaks berbanding melihat dari atas.",
+          "hint": "Fikirkan kaedah yang menyelaraskan mata dengan aras bacaan."
+        },
+        {
+          "prompt": "Jika gelembung udara melekat pada objek, bagaimana ketumpatan terkira mungkin terjejas?",
+          "options": [
+            "Menjadi lebih tinggi kerana isi padu dikira terlalu kecil",
+            "Tidak berubah dalam semua keadaan",
+            "Jisim sebenar pasti menjadi sifar",
+            "Menjadi lebih rendah kerana isi padu sesaran dikira terlalu besar"
+          ],
+          "answer": 3,
+          "explanation": "Gelembung turut menyesarkan air, lalu isi padu yang dianggap milik objek terlalu besar. Membahagi jisim sama dengan nilai terlalu besar merendahkan ketumpatan terkira.",
+          "hint": "Fikirkan kesan penyebut yang terlalu besar."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t2-science-pemindahan-haba",
+    "levelId": "t2",
+    "subjectId": "science",
+    "note": {
+      "title": "Bagaimana Haba Berpindah",
+      "summary": "Membezakan arah pemindahan haba dan fungsi penebat.",
+      "body": [
+        "Haba ialah tenaga yang berpindah akibat perbezaan suhu. Pemindahan bersih secara spontan berlaku dari kawasan bersuhu lebih tinggi ke kawasan bersuhu lebih rendah. Suhu pula ialah ukuran keadaan panas atau sejuk, bukannya jumlah haba yang terkandung dalam objek.",
+        "Konduksi berlaku melalui interaksi zarah tanpa aliran pukal bahan. Perolakan melibatkan gerakan bendalir seperti udara atau air. Sinaran memindahkan tenaga melalui gelombang elektromagnet dan tidak memerlukan medium bahan.",
+        "Contoh: Air suam bersuhu 42°C diletakkan dalam bilik 27°C. Apabila suhu air menjadi 35°C, penurunannya ialah 42 − 35 = 7°C. Air memindahkan tenaga bersih ke persekitaran yang lebih sejuk.",
+        "Jangan anggap penebat menghasilkan haba sendiri atau menghentikan semua pemindahan. Penebat memperlahankan pemindahan haba, maka objek boleh kekal panas atau sejuk lebih lama bergantung pada keadaan awalnya."
+      ],
+      "keyPoints": [
+        "Pemindahan haba bersih berlaku dari suhu lebih tinggi ke lebih rendah.",
+        "Konduksi, perolakan dan sinaran ialah mekanisme berbeza.",
+        "Penebat memperlahankan pemindahan haba."
+      ]
+    },
+    "reading": {
+      "title": "Ujian Sarung Cawan",
+      "summary": "Tafsir bacaan suhu tanpa menganggap penebat sebagai pemanas.",
+      "body": [
+        "Guru menyediakan dua cawan bertutup yang sama, masing-masing mengandungi 100 mL air pada 40°C. Satu cawan bersarung bahan penebat dan satu lagi tidak bersarung. Kedua-duanya diletakkan dalam bilik 26°C, jauh daripada cahaya matahari langsung.",
+        "Dalam data latihan selepas 10 minit, air dalam cawan bersarung bersuhu 36°C dan air dalam cawan tanpa sarung bersuhu 31°C. Saiz cawan, jumlah air dan tempoh disamakan. Kelas membandingkan penurunan suhu untuk menilai keberkesanan sarung dalam keadaan ujian itu. Air disediakan dan dikendalikan oleh guru."
+      ],
+      "questions": [
+        {
+          "prompt": "Kesimpulan manakah disokong oleh bacaan?",
+          "options": [
+            "Sarung menghasilkan tenaga tanpa sumber",
+            "Sarung menjadikan air lebih panas daripada suhu awal",
+            "Sarung memperlahankan penyejukan dalam ujian ini",
+            "Sarung menghalang semua pemindahan haba"
+          ],
+          "answer": 2,
+          "explanation": "Air bersarung turun 4°C, manakala air tanpa sarung turun 9°C dalam masa sama. Sarung memperlahankan penyejukan tetapi tidak menghentikannya.",
+          "hint": "Bandingkan kedua-dua suhu akhir dengan 40°C."
+        },
+        {
+          "prompt": "Mengapakah jumlah air awal mesti sama?",
+          "options": [
+            "Jumlah air boleh mempengaruhi perubahan suhu yang dibandingkan",
+            "Air hanya mempunyai suhu jika jumlahnya 100 mL",
+            "Semua cawan perlu menjadi penebat",
+            "Suhu bilik mesti sama dengan suhu air"
+          ],
+          "answer": 0,
+          "explanation": "Jumlah air ialah faktor lain yang boleh mempengaruhi perubahan suhu. Menyamakannya membantu menilai kesan sarung dengan lebih adil.",
+          "hint": "Ujian hendak membandingkan sarung, jadi faktor lain dikekalkan."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Mengenal Laluan Haba",
+      "summary": "Pilih mekanisme dan tafsiran yang tepat.",
+      "body": [
+        "Setiap soalan menerangkan situasi berasingan. Anggap suhu yang diberi ialah bacaan yang telah disemak. Tiada aktiviti memanaskan bahan perlu dilakukan untuk menjawab."
+      ],
+      "questions": [
+        {
+          "prompt": "Sebatang sudu logam menjadi suam dari hujung yang menyentuh air suam hingga pemegang. Mekanisme utama sepanjang logam ialah apa?",
+          "options": [
+            "Perolakan",
+            "Konduksi",
+            "Penyejatan",
+            "Pembekuan"
+          ],
+          "answer": 1,
+          "explanation": "Dalam pepejal logam, tenaga dipindahkan sepanjang bahan melalui konduksi. Bahan tidak perlu mengalir secara pukal.",
+          "hint": "Sudu kekal pepejal dan tidak mengalir."
+        },
+        {
+          "prompt": "Udara yang dipanaskan naik dan udara lebih sejuk menggantikannya. Mekanisme apakah ini?",
+          "options": [
+            "Pantulan",
+            "Konduksi dalam vakum",
+            "Perolakan",
+            "Peneutralan"
+          ],
+          "answer": 2,
+          "explanation": "Gerakan pukal udara memindahkan tenaga dan membentuk arus perolakan.",
+          "hint": "Cari mekanisme yang melibatkan gerakan bendalir."
+        },
+        {
+          "prompt": "Bagaimanakah tenaga Matahari merentasi ruang hampir vakum ke Bumi?",
+          "options": [
+            "Melalui sinaran",
+            "Melalui konduksi dalam udara sepanjang laluan",
+            "Melalui perolakan air antara planet",
+            "Melalui aliran tanah"
+          ],
+          "answer": 0,
+          "explanation": "Sinaran elektromagnet boleh merentasi ruang tanpa medium bahan. Konduksi dan perolakan memerlukan bahan.",
+          "hint": "Pilih mekanisme yang tidak memerlukan medium."
+        },
+        {
+          "prompt": "Air 38°C berada dalam bilik 25°C. Apakah arah awal pemindahan haba bersih secara spontan?",
+          "options": [
+            "Dari bilik ke air sahaja",
+            "Tiada pemindahan kerana air ialah cecair",
+            "Dari air ke bilik hanya jika air mendidih",
+            "Dari air ke persekitaran bilik"
+          ],
+          "answer": 3,
+          "explanation": "Air bersuhu lebih tinggi daripada bilik, jadi pemindahan haba bersih berlaku dari air ke persekitaran. Air tidak perlu mendidih.",
+          "hint": "Bandingkan suhu, bukan keadaan pepejal atau cecair."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t3-science-kuasa-dan-tenaga-elektrik",
+    "levelId": "t3",
+    "subjectId": "science",
+    "note": {
+      "title": "Kuasa dan Tenaga Elektrik",
+      "summary": "Membezakan kadar penggunaan tenaga daripada jumlah tenaga.",
+      "body": [
+        "Kuasa ialah kadar pemindahan tenaga. Bagi alat yang beroperasi pada kuasa tetap, tenaga yang digunakan ialah E = Pt. Jika P dalam watt dan t dalam saat, E dalam joule. Untuk kilowatt-jam, gunakan kuasa dalam kilowatt dan masa dalam jam.",
+        "Contoh: Sebuah alat berkuasa 30 W digunakan selama 4 jam. Tukar 30 W kepada 0.030 kW. Tenaga = 0.030 × 4 = 0.12 kWh. Dalam unit joule, 4 jam = 14 400 s dan tenaga = 30 × 14 400 = 432 000 J.",
+        "Bandingkan dua alat dengan mempertimbangkan kedua-dua kuasa dan tempoh. Alat berkuasa lebih rendah boleh menggunakan lebih banyak tenaga jika digunakan jauh lebih lama.",
+        "Jangan kelirukan kW dengan kWh. Kilowatt ialah unit kuasa; kilowatt-jam ialah unit tenaga. Perkataan jam menunjukkan kuasa telah didarab dengan tempoh penggunaan."
+      ],
+      "keyPoints": [
+        "Tenaga bagi kuasa tetap ialah E = Pt.",
+        "1 kW bersamaan 1000 W.",
+        "Tempoh penggunaan diperlukan untuk membandingkan jumlah tenaga."
+      ]
+    },
+    "reading": {
+      "title": "Jadual Lampu Pameran",
+      "summary": "Bandingkan penggunaan tenaga bagi dua jadual operasi.",
+      "body": [
+        "Penyelaras pameran mempunyai dua cadangan jadual pencahayaan. Cadangan A menggunakan satu lampu 12 W selama 5 jam. Cadangan B menggunakan satu lampu 20 W selama 2 jam. Bagi latihan ini, setiap lampu menggunakan kuasa tetap yang dinyatakan sepanjang tempoh itu.",
+        "Seorang ahli kumpulan menyangka lampu 12 W semestinya menggunakan kurang tenaga. Penyelaras mengira watt-jam bagi setiap cadangan sebelum membandingkannya. Perbandingan ini hanya tentang tenaga elektrik, bukan tahap kecerahan atau kesesuaian pencahayaan. Mereka perlu menyemak keperluan pameran secara berasingan sebelum memilih jadual."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah tenaga elektrik cadangan A?",
+          "options": [
+            "0.012 kWh",
+            "0.060 kWh",
+            "60 kWh",
+            "0.0024 kWh"
+          ],
+          "answer": 1,
+          "explanation": "12 W = 0.012 kW. Tenaga = 0.012 × 5 = 0.060 kWh.",
+          "hint": "Tukar watt kepada kilowatt dan darab dengan jam."
+        },
+        {
+          "prompt": "Pernyataan manakah betul tentang perbandingan tenaga?",
+          "options": [
+            "B menggunakan lebih banyak kerana kuasanya lebih tinggi",
+            "Kedua-duanya menggunakan tenaga sama",
+            "Masa tidak mempengaruhi tenaga",
+            "A menggunakan lebih banyak: 60 Wh berbanding 40 Wh"
+          ],
+          "answer": 3,
+          "explanation": "A menggunakan 12 × 5 = 60 Wh. B menggunakan 20 × 2 = 40 Wh. Tempoh lebih lama menyebabkan A menggunakan lebih banyak tenaga.",
+          "hint": "Kira kuasa darab masa untuk kedua-duanya."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Pengiraan Tenaga Makmal",
+      "summary": "Gunakan unit masa dan kuasa yang sepadan.",
+      "body": [
+        "Kipas kecil beroperasi pada kuasa tetap 45 W selama 4 jam. Sebuah alat lain beroperasi pada kuasa tetap 15 W selama 120 s. Semua soalan hanya memerlukan data ini; tiada sambungan elektrik perlu dibuat."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah tenaga digunakan kipas dalam kWh?",
+          "options": [
+            "180 kWh",
+            "0.01125 kWh",
+            "0.18 kWh",
+            "1.8 kWh"
+          ],
+          "answer": 2,
+          "explanation": "45 W = 0.045 kW. Tenaga = 0.045 × 4 = 0.18 kWh.",
+          "hint": "Bahagi watt dengan 1000 dahulu."
+        },
+        {
+          "prompt": "Berapakah tenaga alat 15 W dalam joule?",
+          "options": [
+            "1800 J",
+            "8 J",
+            "135 J",
+            "0.125 J"
+          ],
+          "answer": 0,
+          "explanation": "E = Pt = 15 × 120 = 1800 J. Watt didarab saat memberikan joule.",
+          "hint": "Masa sudah diberikan dalam saat."
+        },
+        {
+          "prompt": "Jika kipas yang sama digunakan 2 jam sahaja, berapakah tenaganya?",
+          "options": [
+            "0.36 kWh",
+            "0.09 kWh",
+            "90 kWh",
+            "0.045 kWh"
+          ],
+          "answer": 1,
+          "explanation": "Tempoh menjadi separuh, jadi tenaga juga separuh: 0.045 × 2 = 0.09 kWh.",
+          "hint": "Kuasa kekal 45 W."
+        },
+        {
+          "prompt": "Apakah maksud label kuasa 45 W ketika kipas beroperasi seperti dinyatakan?",
+          "options": [
+            "Menggunakan 45 kWh setiap saat",
+            "Menggunakan 45 J sepanjang hayatnya",
+            "Mempunyai suhu 45°C",
+            "Memindahkan tenaga elektrik pada kadar 45 J setiap saat"
+          ],
+          "answer": 3,
+          "explanation": "Satu watt bersamaan satu joule sesaat. Kuasa 45 W menyatakan kadar, bukan jumlah tenaga sepanjang hayat alat.",
+          "hint": "Watt ialah unit kadar pemindahan tenaga."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t4-science-inersia-daya-pecutan",
+    "levelId": "t4",
+    "subjectId": "science",
+    "note": {
+      "title": "Inersia, Daya Paduan dan Pecutan",
+      "summary": "Mengaitkan perubahan gerakan dengan daya dan jisim.",
+      "body": [
+        "Inersia ialah kecenderungan objek mengekalkan keadaan pegun atau gerakan berhalaju seragam dalam garis lurus. Jisim ialah ukuran inersia: objek berjisim lebih besar lebih sukar diubah keadaan gerakannya. Inersia bukan daya tambahan yang menolak objek.",
+        "Daya paduan ialah gabungan semua daya dengan mengambil kira arah. Bagi jisim tetap, F = ma. Pecutan berlaku searah daya paduan. Jika daya paduan sifar, halaju kekal; objek tidak semestinya pegun.",
+        "Contoh: Troli berjisim 3 kg dikenakan daya 10 N ke kanan dan geseran 4 N ke kiri. Daya paduan = 10 − 4 = 6 N ke kanan. Pecutan = 6 ÷ 3 = 2 m/s² ke kanan.",
+        "Jangan gunakan daya tarikan sahaja jika terdapat daya bertentangan. Kira daya paduan dahulu. Halaju dan pecutan juga berbeza; pecutan menerangkan perubahan halaju, bukan nilainya sahaja."
+      ],
+      "keyPoints": [
+        "Jisim lebih besar bermaksud inersia lebih besar.",
+        "F = ma menggunakan daya paduan.",
+        "Daya paduan sifar bermaksud halaju tidak berubah."
+      ]
+    },
+    "reading": {
+      "title": "Dua Troli dalam Simulasi",
+      "summary": "Nilai kesan jisim dengan daya paduan yang sama.",
+      "body": [
+        "Dalam simulasi kelas, troli P berjisim 2 kg dan troli Q berjisim 5 kg. Kedua-duanya bermula dari keadaan pegun. Setiap troli mengalami daya paduan tetap 10 N ke kanan. Daya geseran telah diambil kira dalam nilai daya paduan itu.",
+        "Murid meramalkan troli yang mengalami perubahan halaju lebih cepat. Mereka menggunakan a = F/m dan menyemak bahawa daya yang dibandingkan sama. Guru menegaskan bahawa simulasi ini mengasingkan kesan jisim. Jika daya tarikan sebenar sama tetapi geseran berlainan, daya paduan mungkin tidak sama dan perbandingan perlu dikira semula."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah pecutan troli P?",
+          "options": [
+            "20 m/s² ke kanan",
+            "0.2 m/s² ke kanan",
+            "5 m/s² ke kanan",
+            "12 m/s² ke kanan"
+          ],
+          "answer": 2,
+          "explanation": "a = F/m = 10 ÷ 2 = 5 m/s². Arah pecutan sama dengan daya paduan, iaitu ke kanan.",
+          "hint": "Nilai 10 N sudah merupakan daya paduan."
+        },
+        {
+          "prompt": "Mengapakah pecutan Q lebih kecil dalam simulasi?",
+          "options": [
+            "Q mempunyai jisim lebih besar pada daya paduan yang sama",
+            "Q mempunyai daya paduan sifar",
+            "Q bergerak ke kiri sejak awal",
+            "Objek lebih berat tidak boleh memecut"
+          ],
+          "answer": 0,
+          "explanation": "Pecutan Q = 10 ÷ 5 = 2 m/s². Dengan daya paduan sama, jisim lebih besar memberikan pecutan lebih kecil.",
+          "hint": "Bandingkan penyebut dalam a = F/m."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Menganalisis Daya pada Objek",
+      "summary": "Gunakan arah, jisim dan keadaan gerakan.",
+      "body": [
+        "Dalam soalan 1 dan 2, troli berjisim 4 kg mengalami daya tarikan 18 N ke kanan dan geseran 6 N ke kiri. Soalan 3 dan 4 ialah situasi berasingan. Gunakan F = ma untuk jisim tetap."
+      ],
+      "questions": [
+        {
+          "prompt": "Apakah daya paduan pada troli?",
+          "options": [
+            "24 N ke kanan",
+            "12 N ke kanan",
+            "12 N ke kiri",
+            "6 N ke kanan"
+          ],
+          "answer": 1,
+          "explanation": "Dua daya bertentangan perlu ditolak: 18 − 6 = 12 N. Arah daya yang lebih besar ialah ke kanan.",
+          "hint": "Bandingkan arah sebelum menggabungkan magnitud daya."
+        },
+        {
+          "prompt": "Apakah pecutan troli itu?",
+          "options": [
+            "4.5 m/s² ke kanan",
+            "48 m/s² ke kanan",
+            "3 m/s² ke kanan",
+            "1.5 m/s² ke kiri"
+          ],
+          "answer": 2,
+          "explanation": "Gunakan daya paduan 12 N: a = 12 ÷ 4 = 3 m/s² ke kanan.",
+          "hint": "Jangan gunakan 18 N tanpa menolak geseran."
+        },
+        {
+          "prompt": "Objek sedang bergerak lurus pada 2 m/s dan daya paduannya menjadi sifar. Apakah gerakannya selepas itu dalam model ideal ini?",
+          "options": [
+            "Terus bergerak lurus pada 2 m/s",
+            "Berhenti serta-merta",
+            "Memecut tanpa had",
+            "Berpusing secara automatik"
+          ],
+          "answer": 0,
+          "explanation": "Daya paduan sifar memberikan pecutan sifar, jadi halaju 2 m/s dikekalkan. Gerakan tidak memerlukan daya paduan untuk terus kekal.",
+          "hint": "Bezakan sifar pecutan dengan sifar halaju."
+        },
+        {
+          "prompt": "Objek X berjisim 1 kg dan Y berjisim 6 kg. Objek manakah mempunyai inersia lebih besar?",
+          "options": [
+            "X kerana lebih ringan",
+            "Kedua-duanya tiada inersia jika pegun",
+            "Sama kerana bentuk tidak diberi",
+            "Y kerana jisimnya lebih besar"
+          ],
+          "answer": 3,
+          "explanation": "Inersia berkaitan dengan jisim. Y lebih besar jisimnya, jadi lebih sukar diubah keadaan gerakannya untuk keadaan daya yang setara.",
+          "hint": "Gunakan jisim sebagai ukuran inersia."
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-t5-science-kadar-tindak-balas",
+    "levelId": "t5",
+    "subjectId": "science",
+    "note": {
+      "title": "Kadar Tindak Balas daripada Data",
+      "summary": "Mengira kadar purata dan membezakan kelajuan daripada hasil akhir.",
+      "body": [
+        "Kadar tindak balas menunjukkan perubahan kuantiti reaktan atau produk per unit masa. Jika gas dikumpulkan, kadar purata bagi suatu sela ialah pertambahan isi padu gas dibahagi tempoh sela tersebut. Unit yang sesuai ialah cm³/s.",
+        "Contoh: Isi padu gas meningkat daripada 12 cm³ pada saat ke-10 kepada 48 cm³ pada saat ke-30. Pertambahannya 36 cm³ dalam 20 s, jadi kadar purata sela itu ialah 36 ÷ 20 = 1.8 cm³/s.",
+        "Memecahkan pepejal kepada cebisan lebih kecil boleh meningkatkan jumlah luas permukaan terdedah pada jisim sama. Dalam tindak balas permukaan yang sesuai, lebih banyak zarah boleh bertembung dengan reaktan lain setiap saat.",
+        "Jangan bahagikan isi padu akhir dengan masa akhir apabila soalan meminta sela yang bermula kemudian. Tindak balas lebih cepat juga tidak semestinya menghasilkan lebih banyak produk akhir jika jumlah reaktan pengehad sama."
+      ],
+      "keyPoints": [
+        "Kadar purata = perubahan kuantiti ÷ tempoh perubahan.",
+        "Luas permukaan terdedah boleh mempengaruhi kadar.",
+        "Kadar lebih tinggi berbeza daripada hasil akhir lebih banyak."
+      ]
+    },
+    "reading": {
+      "title": "Membaca Dua Lengkung Penghasilan Gas",
+      "summary": "Bandingkan kadar awal dan isipadu akhir dalam data latihan.",
+      "body": [
+        "Guru memberikan data rekaan dua tindak balas, R dan S, yang mengumpulkan gas. Kedua-duanya bermula pada 0 cm³. Selepas 20 s, R menghasilkan 40 cm³ dan S menghasilkan 25 cm³. Kedua-dua tindak balas akhirnya berhenti pada 60 cm³ gas, diukur pada suhu dan tekanan yang sama.",
+        "Kumpulan analisis memisahkan dua soalan: tindak balas mana lebih cepat dalam 20 saat pertama, dan tindak balas mana menghasilkan lebih banyak gas pada akhir. Maklumat ini ialah latihan membaca data, bukan arahan menjalankan tindak balas atau mencampurkan bahan kimia."
+      ],
+      "questions": [
+        {
+          "prompt": "Pernyataan manakah benar bagi 20 s pertama?",
+          "options": [
+            "S lebih cepat kerana 25 lebih kecil",
+            "Kadar purata R lebih tinggi daripada S",
+            "R dan S mempunyai kadar sama kerana hasil akhir sama",
+            "Kadar tidak boleh dikira dengan data isi padu"
+          ],
+          "answer": 1,
+          "explanation": "R: 40 ÷ 20 = 2 cm³/s. S: 25 ÷ 20 = 1.25 cm³/s. Maka kadar purata R lebih tinggi bagi sela itu.",
+          "hint": "Bandingkan pertambahan gas dalam tempoh yang sama."
+        },
+        {
+          "prompt": "Apakah kesimpulan tentang isi padu gas akhir?",
+          "options": [
+            "R menghasilkan dua kali ganda gas akhir",
+            "S menghasilkan lebih banyak gas akhir",
+            "Hasil akhir tidak pernah dapat dibandingkan",
+            "Kedua-duanya menghasilkan 60 cm³ gas akhir"
+          ],
+          "answer": 3,
+          "explanation": "Data menyatakan kedua-duanya berhenti pada 60 cm³ pada suhu dan tekanan sama. Kadar berbeza tidak semestinya memberi isi padu akhir berbeza.",
+          "hint": "Bezakan bacaan pada 20 s daripada bacaan akhir."
+        }
+      ]
+    },
+    "practice": {
+      "title": "Mengira Sela dan Mengawal Faktor",
+      "summary": "Tafsir kadar melalui data serta keadaan perbandingan.",
+      "body": [
+        "Data latihan pengumpulan gas: 0 s → 0 cm³; 15 s → 45 cm³; 35 s → 65 cm³; 55 s → 65 cm³. Bagi soalan perbandingan pepejal, anggap jenis dan jisim pepejal, suhu serta kepekatan dan isi padu reaktan lain dikekalkan; hanya saiz cebisan berbeza."
+      ],
+      "questions": [
+        {
+          "prompt": "Berapakah kadar purata bagi 0 hingga 15 s?",
+          "options": [
+            "0.33 cm³/s",
+            "45 cm³/s",
+            "3 cm³/s",
+            "30 cm³/s"
+          ],
+          "answer": 2,
+          "explanation": "Pertambahan 45 − 0 = 45 cm³ dalam 15 − 0 = 15 s. Kadar purata = 45 ÷ 15 = 3 cm³/s.",
+          "hint": "Gunakan perubahan isi padu dan perubahan masa."
+        },
+        {
+          "prompt": "Berapakah kadar purata bagi 15 hingga 35 s?",
+          "options": [
+            "1 cm³/s",
+            "1.86 cm³/s",
+            "3.25 cm³/s",
+            "20 cm³/s"
+          ],
+          "answer": 0,
+          "explanation": "Isi padu bertambah 65 − 45 = 20 cm³ dalam 35 − 15 = 20 s. Kadar purata = 1 cm³/s.",
+          "hint": "Jangan gunakan 65 ÷ 35 kerana sela bermula pada 15 s."
+        },
+        {
+          "prompt": "Apakah kadar purata pengumpulan gas bagi 35 hingga 55 s?",
+          "options": [
+            "20 cm³/s",
+            "65 cm³/s",
+            "1 cm³/s",
+            "0 cm³/s"
+          ],
+          "answer": 3,
+          "explanation": "Isi padu kekal 65 cm³, jadi perubahan isi padu ialah sifar. Kadar pengumpulan = 0 ÷ 20 = 0 cm³/s.",
+          "hint": "Bandingkan dua bacaan isi padu pada hujung sela."
+        },
+        {
+          "prompt": "Mengapakah cebisan pepejal lebih kecil lazimnya mempercepat tindak balas permukaan dalam perbandingan tersebut?",
+          "options": [
+            "Jumlah jisim reaktan bertambah",
+            "Jumlah luas permukaan terdedah lebih besar",
+            "Semua zarah berubah menjadi unsur lain sebelum bertindak balas",
+            "Kepekatan reaktan lain meningkat secara automatik"
+          ],
+          "answer": 1,
+          "explanation": "Pada jisim sama, cebisan lebih kecil mendedahkan lebih banyak permukaan. Ini membolehkan lebih banyak perlanggaran dengan reaktan lain per unit masa.",
+          "hint": "Saiz cebisan berubah tetapi jumlah jisim dikekalkan."
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,12 @@
+.authAccess{min-width:0;display:grid;gap:16px}
+.studyLinkEntry{background:#eef2ff;border:1px solid #c7d2fe;border-radius:20px;color:#334155}
+.studyLinkEntry summary{padding:18px 22px;cursor:pointer;font-weight:800;color:#4338ca;line-height:1.5}
+.studyLinkEntry summary svg{width:18px;height:18px;vertical-align:middle;margin:0 8px}
+.studyLinkEntry form{padding:0 22px 20px;display:grid;gap:12px;min-width:0}
+.studyLinkEntry p{margin:0;font-size:14px;line-height:1.6}
+.studyLinkEntry label{font-size:13px;font-weight:700}
+.studyLinkEntry input{width:100%;min-width:0;padding:12px;border:1px solid #a5b4fc;border-radius:10px;background:#fff;font:inherit}
+.studyLinkEntry small{font-size:12px;line-height:1.6;color:#475569}
+.studyLinkEntry button{justify-content:center}
+.studyLinkEntry summary:focus-visible,.studyLinkEntry input:focus-visible{outline:3px solid #6366f1;outline-offset:3px}
+.studyLinkEntry{background:#edf2fa;border:1px solid #e0e6f1;border-radius:14px;padding:16px 20px;color:#596482}.studyLinkEntry>summary{min-height:44px;color:#633e6c;font-weight:700}.studyLinkEntry input{min-height:46px;width:100%;border-radius:10px;border:1px solid #bcc5d5;background:#fff;padding:12px}.studyLinkEntry form{display:grid;gap:12px}.studyLinkEntry p{line-height:1.65}.studyLinkEntry small{font-size:12px;line-height:1.6}

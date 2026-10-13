@@ -1,0 +1,2008 @@
+{
+  "authoredAt": "2026-09-10",
+  "scope": {
+    "d3": 89,
+    "d4": 88
+  },
+  "status": "Original authored supplementary material; reference-aligned draft, not educator-approved or a complete DSKP mapping.",
+  "sources": [
+    {
+      "id": "kpm-sumberku",
+      "url": "https://sumberku.moe-dl.edu.my/self",
+      "publisher": "Kementerian Pendidikan Malaysia",
+      "use": "Primary reading and self-learning approach; original content, no copied passages or images.",
+      "verified": "2026-09-10"
+    },
+    {
+      "url": "https://sites.google.com/moe-dl.edu.my/jsmpr/sains/dskp",
+      "publisher": "Unit Sains dan Matematik, Sektor Pembelajaran, Jabatan Pendidikan Negeri Johor",
+      "use": "Official-hosted access point for KSSR science/mathematics documents. Landing-page availability checked; no claim every standard code is verified.",
+      "verified": "2026-09-10"
+    },
+    {
+      "url": "https://sites.google.com/moe-dl.edu.my/kokurikulum-sksrikulim/pentaksiran-berasaskan-sekolah/dskp-semua-mata-pelajaran-tahun",
+      "publisher": "Sekolah Kebangsaan Sri Kulim, KPM-hosted",
+      "use": "Grade-specific DSKP document index for Years 3 and 4, including languages, science, mathematics, values and Year 4 history.",
+      "verified": "2026-09-10"
+    }
+  ],
+  "gradeProgression": {
+    "d3": "Concrete short contexts: vocabulary and simple sentences; four-digit numbers and basic fractions; observable science and everyday manners.",
+    "d4": "More explicit reasoning: paragraph structure and inference; five-digit numbers, mixed operations and fractions; fair tests and body systems; history methods, chronology and heritage."
+  },
+  "subjectCounts": {
+    "d3": {
+      "bm": 20,
+      "en": 15,
+      "math": 15,
+      "science": 15,
+      "islam": 12,
+      "moral": 12
+    },
+    "d4": {
+      "bm": 16,
+      "en": 14,
+      "math": 14,
+      "science": 14,
+      "islam": 10,
+      "moral": 10,
+      "history": 10
+    }
+  },
+  "topicMap": [
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-nilai-digit-di-pusat-derma",
+      "title": "Nilai digit di pusat derma",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-membandingkan-jumlah-pengunjung",
+      "title": "Membandingkan jumlah pengunjung",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-pembundaran-bilangan-penonton",
+      "title": "Pembundaran bilangan penonton",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-tambah-dengan-mengumpul-semula",
+      "title": "Tambah dengan mengumpul semula",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-tolak-merentas-sifar",
+      "title": "Tolak merentas sifar",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-darab-sebagai-susunan-baris",
+      "title": "Darab sebagai susunan baris",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-bahagi-dan-baki-pelekat",
+      "title": "Bahagi dan baki pelekat",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-pecahan-bahagian-berlorek",
+      "title": "Pecahan bahagian berlorek",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-persepuluhan-pada-jalur",
+      "title": "Persepuluhan pada jalur",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-peratus-pada-petak-seratus",
+      "title": "Peratus pada petak seratus",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-mengira-baki-pembelian",
+      "title": "Mengira baki pembelian",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-tempoh-aktiviti-pagi",
+      "title": "Tempoh aktiviti pagi",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-panjang-reben-dalam-sentimeter",
+      "title": "Panjang reben dalam sentimeter",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-jisim-bekalan-dapur",
+      "title": "Jisim bekalan dapur",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "math",
+      "unitId": "library-d3-math-exp-membaca-piktograf-buah",
+      "title": "Membaca piktograf buah",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-memerhati-dengan-deria",
+      "title": "Memerhati dengan deria",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-mengelaskan-biji-benih",
+      "title": "Mengelaskan biji benih",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-mengukur-pertumbuhan-anak-pokok",
+      "title": "Mengukur pertumbuhan anak pokok",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-jenis-gigi-dan-fungsi",
+      "title": "Jenis gigi dan fungsi",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-menjaga-kebersihan-gigi",
+      "title": "Menjaga kebersihan gigi",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-laluan-makanan-dalam-badan",
+      "title": "Laluan makanan dalam badan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-herbivor-di-taman-ternakan",
+      "title": "Herbivor di taman ternakan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-haiwan-bertelur-dan-melahirkan",
+      "title": "Haiwan bertelur dan melahirkan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-percambahan-biji-kacang",
+      "title": "Percambahan biji kacang",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-cara-tumbuhan-membiak",
+      "title": "Cara tumbuhan membiak",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-ketumpatan-secara-pemerhatian-terapung",
+      "title": "Ketumpatan secara pemerhatian terapung",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-magnet-menarik-bahan-tertentu",
+      "title": "Magnet menarik bahan tertentu",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-kutub-magnet",
+      "title": "Kutub magnet",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-tanah-dan-aliran-air",
+      "title": "Tanah dan aliran air",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "science",
+      "unitId": "library-d3-science-exp-takal-menaikkan-bendera",
+      "title": "Takal menaikkan bendera",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "islam",
+      "unitId": "library-d3-islam-exp-salam-ketika-berkunjung",
+      "title": "Salam ketika berkunjung",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "islam",
+      "unitId": "library-d3-islam-exp-adab-sebelum-makan",
+      "title": "Adab sebelum makan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "islam",
+      "unitId": "library-d3-islam-exp-bersuci-sebelum-ibadah",
+      "title": "Bersuci sebelum ibadah",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "islam",
+      "unitId": "library-d3-islam-exp-tertib-berwuduk",
+      "title": "Tertib berwuduk",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "islam",
+      "unitId": "library-d3-islam-exp-menjaga-ruang-solat",
+      "title": "Menjaga ruang solat",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "islam",
+      "unitId": "library-d3-islam-exp-bercakap-benar-tentang-kesilapan",
+      "title": "Bercakap benar tentang kesilapan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "islam",
+      "unitId": "library-d3-islam-exp-syukur-menggunakan-nikmat",
+      "title": "Syukur menggunakan nikmat",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "islam",
+      "unitId": "library-d3-islam-exp-adab-terhadap-guru",
+      "title": "Adab terhadap guru",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "islam",
+      "unitId": "library-d3-islam-exp-mengasihani-haiwan",
+      "title": "Mengasihani haiwan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "islam",
+      "unitId": "library-d3-islam-exp-berbuat-baik-kepada-jiran",
+      "title": "Berbuat baik kepada jiran",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "islam",
+      "unitId": "library-d3-islam-exp-menyimpan-rahsia-yang-selamat",
+      "title": "Menyimpan rahsia yang selamat",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "islam",
+      "unitId": "library-d3-islam-exp-rajin-berusaha-dalam-belajar",
+      "title": "Rajin berusaha dalam belajar",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "moral",
+      "unitId": "library-d3-moral-exp-giliran-menggunakan-alat",
+      "title": "Giliran menggunakan alat",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "moral",
+      "unitId": "library-d3-moral-exp-menghargai-pekerja-sekolah",
+      "title": "Menghargai pekerja sekolah",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "moral",
+      "unitId": "library-d3-moral-exp-berani-meminta-bantuan",
+      "title": "Berani meminta bantuan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "moral",
+      "unitId": "library-d3-moral-exp-mengemas-selepas-berkarya",
+      "title": "Mengemas selepas berkarya",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "moral",
+      "unitId": "library-d3-moral-exp-mengakui-hasil-kerja-sendiri",
+      "title": "Mengakui hasil kerja sendiri",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "moral",
+      "unitId": "library-d3-moral-exp-prihatin-terhadap-rakan-baharu",
+      "title": "Prihatin terhadap rakan baharu",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "moral",
+      "unitId": "library-d3-moral-exp-menjaga-barang-pinjaman",
+      "title": "Menjaga barang pinjaman",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "moral",
+      "unitId": "library-d3-moral-exp-bersopan-di-tempat-awam",
+      "title": "Bersopan di tempat awam",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "moral",
+      "unitId": "library-d3-moral-exp-menghormati-perbezaan-makanan",
+      "title": "Menghormati perbezaan makanan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "moral",
+      "unitId": "library-d3-moral-exp-menepati-masa-berkumpulan",
+      "title": "Menepati masa berkumpulan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "moral",
+      "unitId": "library-d3-moral-exp-menolak-ejekan-bersama",
+      "title": "Menolak ejekan bersama",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "moral",
+      "unitId": "library-d3-moral-exp-menjimatkan-bekalan-kelas",
+      "title": "Menjimatkan bekalan kelas",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-a-library-treasure-map",
+      "title": "A Library Treasure Map",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-my-weekly-reading-plan",
+      "title": "My Weekly Reading Plan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-at-the-fruit-stall",
+      "title": "At the Fruit Stall",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-a-rainy-recess",
+      "title": "A Rainy Recess",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-whose-water-bottle",
+      "title": "Whose Water Bottle",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-can-you-help-me",
+      "title": "Can You Help Me",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-the-missing-step",
+      "title": "The Missing Step",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-a-pet-care-chart",
+      "title": "A Pet Care Chart",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-two-different-bags",
+      "title": "Two Different Bags",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-yesterday-at-the-garden",
+      "title": "Yesterday at the Garden",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-an-invitation-to-read",
+      "title": "An Invitation to Read",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-the-kind-team-captain",
+      "title": "The Kind Team Captain",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-a-lost-and-found-notice",
+      "title": "A Lost and Found Notice",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-choosing-a-useful-heading",
+      "title": "Choosing a Useful Heading",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "en",
+      "unitId": "library-d3-en-exp-reading-a-simple-timetable",
+      "title": "Reading a Simple Timetable",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-kata-nama-di-bengkel-seni",
+      "title": "Kata nama di bengkel seni",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-kata-kerja-dalam-kebun",
+      "title": "Kata kerja dalam kebun",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-kata-adjektif-dalam-pasar",
+      "title": "Kata adjektif dalam pasar",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-penjodoh-bilangan-di-perpustakaan",
+      "title": "Penjodoh bilangan di perpustakaan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-kata-ganti-dalam-perbualan",
+      "title": "Kata ganti dalam perbualan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-kata-tanya-dalam-temu-bual",
+      "title": "Kata tanya dalam temu bual",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-kata-hubung-dalam-cerita",
+      "title": "Kata hubung dalam cerita",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-imbuhan-ber-dalam-aktiviti",
+      "title": "Imbuhan ber dalam aktiviti",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-imbuhan-men-dalam-kerja",
+      "title": "Imbuhan meN dalam kerja",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-ayat-penyata-tentang-lawatan",
+      "title": "Ayat penyata tentang lawatan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-ayat-perintah-dalam-panduan",
+      "title": "Ayat perintah dalam panduan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-tanda-baca-dalam-dialog",
+      "title": "Tanda baca dalam dialog",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-idea-utama-bekas-makanan",
+      "title": "Idea utama bekas makanan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-urutan-membuat-penanda-buku",
+      "title": "Urutan membuat penanda buku",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-maksud-perkataan-melalui-konteks",
+      "title": "Maksud perkataan melalui konteks",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-sinonim-dalam-cerita",
+      "title": "Sinonim dalam cerita",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-antonim-pada-papan-arah",
+      "title": "Antonim pada papan arah",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-membaca-pesanan-ringkas",
+      "title": "Membaca pesanan ringkas",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-melengkapkan-perenggan-pengalaman",
+      "title": "Melengkapkan perenggan pengalaman",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d3",
+      "subjectId": "bm",
+      "unitId": "library-d3-bm-exp-membezakan-tajuk-dan-isi",
+      "title": "Membezakan tajuk dan isi",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "math",
+      "unitId": "library-d4-math-exp-cerakin-nombor-lima-digit",
+      "title": "Cerakin nombor lima digit",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "math",
+      "unitId": "library-d4-math-exp-anggaran-kapasiti-stadium",
+      "title": "Anggaran kapasiti stadium",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "math",
+      "unitId": "library-d4-math-exp-operasi-bergabung-bekalan",
+      "title": "Operasi bergabung bekalan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "math",
+      "unitId": "library-d4-math-exp-pembahagian-bekas-anak-pokok",
+      "title": "Pembahagian bekas anak pokok",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "math",
+      "unitId": "library-d4-math-exp-nombor-bercampur-dalam-dulang",
+      "title": "Nombor bercampur dalam dulang",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "math",
+      "unitId": "library-d4-math-exp-pecahan-setara-pada-jalur-kertas",
+      "title": "Pecahan setara pada jalur kertas",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "math",
+      "unitId": "library-d4-math-exp-tambah-pecahan-berlainan-penyebut",
+      "title": "Tambah pecahan berlainan penyebut",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "math",
+      "unitId": "library-d4-math-exp-perpuluhan-hingga-perseribu",
+      "title": "Perpuluhan hingga perseribu",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "math",
+      "unitId": "library-d4-math-exp-tambah-ukuran-perpuluhan",
+      "title": "Tambah ukuran perpuluhan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "math",
+      "unitId": "library-d4-math-exp-peratus-dan-pecahan-perempat",
+      "title": "Peratus dan pecahan perempat",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "math",
+      "unitId": "library-d4-math-exp-belanjawan-lawatan-kelas",
+      "title": "Belanjawan lawatan kelas",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "math",
+      "unitId": "library-d4-math-exp-masa-sistem-dua-puluh-empat-jam",
+      "title": "Masa sistem dua puluh empat jam",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "math",
+      "unitId": "library-d4-math-exp-perimeter-kebun-segi-empat",
+      "title": "Perimeter kebun segi empat",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "math",
+      "unitId": "library-d4-math-exp-mentafsir-carta-palang-buku",
+      "title": "Mentafsir carta palang buku",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "science",
+      "unitId": "library-d4-science-exp-inferens-pada-daun-layu",
+      "title": "Inferens pada daun layu",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "science",
+      "unitId": "library-d4-science-exp-ujian-adil-penyejatan",
+      "title": "Ujian adil penyejatan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "science",
+      "unitId": "library-d4-science-exp-laluan-udara-pernafasan",
+      "title": "Laluan udara pernafasan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "science",
+      "unitId": "library-d4-science-exp-kadar-pernafasan-dan-aktiviti",
+      "title": "Kadar pernafasan dan aktiviti",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "science",
+      "unitId": "library-d4-science-exp-perkumuhan-dan-penyahtinjaan",
+      "title": "Perkumuhan dan penyahtinjaan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "science",
+      "unitId": "library-d4-science-exp-gerak-balas-manusia",
+      "title": "Gerak balas manusia",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "science",
+      "unitId": "library-d4-science-exp-organ-pernafasan-haiwan",
+      "title": "Organ pernafasan haiwan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "science",
+      "unitId": "library-d4-science-exp-vertebrata-dan-invertebrata",
+      "title": "Vertebrata dan invertebrata",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "science",
+      "unitId": "library-d4-science-exp-fotosintesis-di-taman",
+      "title": "Fotosintesis di taman",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "science",
+      "unitId": "library-d4-science-exp-gerak-balas-tumbuhan",
+      "title": "Gerak balas tumbuhan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "science",
+      "unitId": "library-d4-science-exp-pantulan-cahaya-pada-cermin",
+      "title": "Pantulan cahaya pada cermin",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "science",
+      "unitId": "library-d4-science-exp-bunyi-daripada-getaran",
+      "title": "Bunyi daripada getaran",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "science",
+      "unitId": "library-d4-science-exp-sumber-dan-perubahan-tenaga",
+      "title": "Sumber dan perubahan tenaga",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "science",
+      "unitId": "library-d4-science-exp-sifat-bahan-dan-kegunaan",
+      "title": "Sifat bahan dan kegunaan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "islam",
+      "unitId": "library-d4-islam-exp-amanah-dalam-rekod-kutipan",
+      "title": "Amanah dalam rekod kutipan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "islam",
+      "unitId": "library-d4-islam-exp-ikhlas-ketika-membantu",
+      "title": "Ikhlas ketika membantu",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "islam",
+      "unitId": "library-d4-islam-exp-tabayyun-sebelum-berkongsi",
+      "title": "Tabayyun sebelum berkongsi",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "islam",
+      "unitId": "library-d4-islam-exp-adab-berbeza-pandangan",
+      "title": "Adab berbeza pandangan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "islam",
+      "unitId": "library-d4-islam-exp-tanggungjawab-menjaga-alam",
+      "title": "Tanggungjawab menjaga alam",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "islam",
+      "unitId": "library-d4-islam-exp-menghormati-kepelbagaian-jiran",
+      "title": "Menghormati kepelbagaian jiran",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "islam",
+      "unitId": "library-d4-islam-exp-sedekah-mengikut-kemampuan",
+      "title": "Sedekah mengikut kemampuan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "islam",
+      "unitId": "library-d4-islam-exp-menepati-janji-projek",
+      "title": "Menepati janji projek",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "islam",
+      "unitId": "library-d4-islam-exp-mengawal-marah-dengan-tindakan-baik",
+      "title": "Mengawal marah dengan tindakan baik",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "islam",
+      "unitId": "library-d4-islam-exp-muhasabah-selepas-tugasan",
+      "title": "Muhasabah selepas tugasan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "moral",
+      "unitId": "library-d4-moral-exp-membahagi-tugas-mengikut-kekuatan",
+      "title": "Membahagi tugas mengikut kekuatan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "moral",
+      "unitId": "library-d4-moral-exp-menyelesaikan-konflik-kemudahan",
+      "title": "Menyelesaikan konflik kemudahan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "moral",
+      "unitId": "library-d4-moral-exp-tanggungjawab-dalam-ruang-digital",
+      "title": "Tanggungjawab dalam ruang digital",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "moral",
+      "unitId": "library-d4-moral-exp-menghargai-budaya-tanpa-stereotaip",
+      "title": "Menghargai budaya tanpa stereotaip",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "moral",
+      "unitId": "library-d4-moral-exp-berani-menegur-dengan-hormat",
+      "title": "Berani menegur dengan hormat",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "moral",
+      "unitId": "library-d4-moral-exp-mengutamakan-keselamatan-bersama",
+      "title": "Mengutamakan keselamatan bersama",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "moral",
+      "unitId": "library-d4-moral-exp-menilai-iklan-secara-berhemah",
+      "title": "Menilai iklan secara berhemah",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "moral",
+      "unitId": "library-d4-moral-exp-mengurus-kesilapan-kumpulan",
+      "title": "Mengurus kesilapan kumpulan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "moral",
+      "unitId": "library-d4-moral-exp-sukarelawan-mengikut-keperluan",
+      "title": "Sukarelawan mengikut keperluan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "moral",
+      "unitId": "library-d4-moral-exp-menjaga-hak-ruang-bersama",
+      "title": "Menjaga hak ruang bersama",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "en",
+      "unitId": "library-d4-en-exp-a-letter-from-the-eco-club",
+      "title": "A Letter from the Eco Club",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "en",
+      "unitId": "library-d4-en-exp-checking-a-nature-report",
+      "title": "Checking a Nature Report",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "en",
+      "unitId": "library-d4-en-exp-instructions-for-a-seed-tray",
+      "title": "Instructions for a Seed Tray",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "en",
+      "unitId": "library-d4-en-exp-a-fair-book-review",
+      "title": "A Fair Book Review",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "en",
+      "unitId": "library-d4-en-exp-an-interview-with-a-gardener",
+      "title": "An Interview with a Gardener",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "en",
+      "unitId": "library-d4-en-exp-a-message-with-missing-details",
+      "title": "A Message with Missing Details",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "en",
+      "unitId": "library-d4-en-exp-comparing-two-routes",
+      "title": "Comparing Two Routes",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "en",
+      "unitId": "library-d4-en-exp-writing-an-apology-email",
+      "title": "Writing an Apology Email",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "en",
+      "unitId": "library-d4-en-exp-fact-and-opinion-at-the-museum",
+      "title": "Fact and Opinion at the Museum",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "en",
+      "unitId": "library-d4-en-exp-predicting-with-story-clues",
+      "title": "Predicting with Story Clues",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "en",
+      "unitId": "library-d4-en-exp-a-poster-for-everyone",
+      "title": "A Poster for Everyone",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "en",
+      "unitId": "library-d4-en-exp-learning-from-a-failed-plan",
+      "title": "Learning from a Failed Plan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "en",
+      "unitId": "library-d4-en-exp-reading-a-short-biography",
+      "title": "Reading a Short Biography",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "en",
+      "unitId": "library-d4-en-exp-giving-reasons-for-a-choice",
+      "title": "Giving Reasons for a Choice",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-kata-nama-khas-dalam-laporan",
+      "title": "Kata nama khas dalam laporan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-kata-kerja-transitif-dalam-projek",
+      "title": "Kata kerja transitif dalam projek",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-ayat-aktif-dan-pasif",
+      "title": "Ayat aktif dan pasif",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-ayat-tunggal-dan-majmuk",
+      "title": "Ayat tunggal dan majmuk",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-kata-arah-dalam-pelan",
+      "title": "Kata arah dalam pelan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-kata-pemeri-dalam-penerangan",
+      "title": "Kata pemeri dalam penerangan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-kata-penguat-dalam-ulasan",
+      "title": "Kata penguat dalam ulasan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-simpulan-bahasa-ringan-tulang",
+      "title": "Simpulan bahasa ringan tulang",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-peribahasa-kerjasama",
+      "title": "Peribahasa kerjasama",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-isi-tersurat-dan-tersirat",
+      "title": "Isi tersurat dan tersirat",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-meringkaskan-laporan-kebersihan",
+      "title": "Meringkaskan laporan kebersihan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-membandingkan-dua-poster",
+      "title": "Membandingkan dua poster",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-menulis-pendahuluan-laporan",
+      "title": "Menulis pendahuluan laporan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-dialog-untuk-mendapatkan-penjelasan",
+      "title": "Dialog untuk mendapatkan penjelasan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-menyunting-ejaan-dan-makna",
+      "title": "Menyunting ejaan dan makna",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "bm",
+      "unitId": "library-d4-bm-exp-menulis-alasan-cadangan",
+      "title": "Menulis alasan cadangan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "history",
+      "unitId": "library-d4-history-exp-sumber-primer-di-dalam-kotak-keluarga",
+      "title": "Sumber primer di dalam kotak keluarga",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "history",
+      "unitId": "library-d4-history-exp-kaedah-lisan-mengenali-sekolah",
+      "title": "Kaedah lisan mengenali sekolah",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "history",
+      "unitId": "library-d4-history-exp-kaedah-bertulis-membaca-rekod",
+      "title": "Kaedah bertulis membaca rekod",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "history",
+      "unitId": "library-d4-history-exp-arkeologi-dan-tinggalan",
+      "title": "Arkeologi dan tinggalan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "history",
+      "unitId": "library-d4-history-exp-kronologi-kehidupan-diri",
+      "title": "Kronologi kehidupan diri",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "history",
+      "unitId": "library-d4-history-exp-salasilah-dan-hubungan-keluarga",
+      "title": "Salasilah dan hubungan keluarga",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "history",
+      "unitId": "library-d4-history-exp-perubahan-kemudahan-setempat",
+      "title": "Perubahan kemudahan setempat",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "history",
+      "unitId": "library-d4-history-exp-kehidupan-nomad-prasejarah",
+      "title": "Kehidupan nomad prasejarah",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "history",
+      "unitId": "library-d4-history-exp-pertanian-dan-penempatan-awal",
+      "title": "Pertanian dan penempatan awal",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    },
+    {
+      "levelId": "d4",
+      "subjectId": "history",
+      "unitId": "library-d4-history-exp-memelihara-warisan-tempatan",
+      "title": "Memelihara warisan tempatan",
+      "referenceIds": [
+        "kpm-sumberku"
+      ],
+      "standardsCode": null,
+      "reviewStatus": "requires educator curriculum review"
+    }
+  ],
+  "limitations": [
+    "Not an assertion of full KSSR coverage or formal DSKP standard-by-standard approval.",
+    "Original passages are approximately 65–116 words, deliberately short for supported practice.",
+    "Six questions per unit include retrieval, completion, statement checking and context interpretation; they are not a complete exam assessment.",
+    "No new copyrighted textbook passages, external images or publisher books were copied.",
+    "Religious units are introductory adab and supervised learning; detailed fiqh or recitation assessment requires qualified teacher review."
+  ]
+}

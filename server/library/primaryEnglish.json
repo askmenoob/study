@@ -1,0 +1,1399 @@
+[
+  {
+    "id": "library-d1-en-the-sharing-basket",
+    "levelId": "d1",
+    "subjectId": "en",
+    "sourceIds": [
+      "kpm-sumberku",
+      "bookdash"
+    ],
+    "note": {
+      "title": "Read Names, Colours and Numbers",
+      "summary": "Read about Mei and Ravi sharing things at school.",
+      "body": [
+        "Listen to one sentence at a time. Find the name of the child, then point to the object that the child has.",
+        "A colour word tells us more about an object. In “a red book”, red tells us the colour of the book.",
+        "A number word tells us how many. Read “two blue pencils” slowly, and show two fingers as you say two."
+      ],
+      "keyPoints": [
+        "Find who has each object.",
+        "Match colour words with objects.",
+        "Use number words to count."
+      ],
+      "vocabulary": [
+        {
+          "term": "share",
+          "meaning": "Let someone else use something too."
+        },
+        {
+          "term": "two",
+          "meaning": "One and one."
+        }
+      ]
+    },
+    "reading": {
+      "title": "The Sharing Basket",
+      "summary": "Read about Mei and Ravi sharing things at school.",
+      "body": [
+        "At school, Mei has a red book. Ravi has two blue pencils.",
+        "They put the book and pencils in a green basket.",
+        "Then they share a yellow ball."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Mei’s red book and Ravi’s two blue pencils",
+          "visual": {
+            "label": "Mei’s red book and Ravi’s two blue pencils",
+            "items": [
+              {
+                "kind": "book",
+                "color": "red"
+              },
+              {
+                "kind": "pencil",
+                "color": "blue",
+                "count": 2
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 1,
+          "caption": "The green basket",
+          "visual": {
+            "label": "The green basket",
+            "items": [
+              {
+                "kind": "emptyBasket",
+                "color": "green"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "The yellow ball they share",
+          "visual": {
+            "label": "The yellow ball they share",
+            "items": [
+              {
+                "kind": "ball",
+                "color": "yellow"
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "What colour is Mei’s book?",
+          "options": [
+            "Blue",
+            "Red",
+            "Yellow",
+            "Green"
+          ],
+          "answer": 1,
+          "explanation": "Mei’s book is red.",
+          "hint": "Read the words just before “book”.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Mei has a red book."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "Blue",
+                "items": [
+                  {
+                    "kind": "book",
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Red",
+                "items": [
+                  {
+                    "kind": "book",
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Yellow",
+                "items": [
+                  {
+                    "kind": "book",
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Green",
+                "items": [
+                  {
+                    "kind": "book",
+                    "color": "green"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "How many pencils does Ravi have?",
+          "options": [
+            "One",
+            "Three",
+            "Two",
+            "Four"
+          ],
+          "answer": 2,
+          "explanation": "Ravi has two pencils.",
+          "hint": "Find the number before “blue pencils”.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Ravi has two blue pencils."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "One",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "color": "blue",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "label": "Three",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "color": "blue",
+                    "count": 3
+                  }
+                ]
+              },
+              {
+                "label": "Two",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "color": "blue",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "label": "Four",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "color": "blue",
+                    "count": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "The Sharing Basket: Find the Evidence",
+      "summary": "Return to the story and answer four questions using its details.",
+      "body": [
+        "Practise the story: The Sharing Basket.",
+        "Read the story again before choosing. Each answer can be found in the reading passage.",
+        "Use the hint when you need help. After answering, compare the explanation with the words in the story."
+      ],
+      "questions": [
+        {
+          "prompt": "What colour is the basket?",
+          "options": [
+            "Green",
+            "Blue",
+            "Red",
+            "Yellow"
+          ],
+          "answer": 0,
+          "explanation": "The basket is green.",
+          "hint": "Look at the sentence about putting things away.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "in a green basket."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "Green",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "Blue",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "color": "blue"
+                  }
+                ]
+              },
+              {
+                "label": "Red",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Yellow",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "color": "yellow"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "What do they share at the end?",
+          "options": [
+            "A book",
+            "Pencils",
+            "A basket",
+            "A ball"
+          ],
+          "answer": 3,
+          "explanation": "They share a ball at the end.",
+          "hint": "Read the sentence starting with “Then”.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Then they share a yellow ball."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "A book",
+                "items": [
+                  {
+                    "kind": "book",
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Pencils",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "color": "blue",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "label": "A basket",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "A ball",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "color": "yellow"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "What does Ravi have at the start?",
+          "options": [
+            "A ball",
+            "Pencils",
+            "A book",
+            "A basket"
+          ],
+          "answer": 1,
+          "explanation": "Ravi has pencils.",
+          "hint": "Find Ravi’s name.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Ravi has two blue pencils."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "A ball",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "Pencils",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "color": "blue",
+                    "count": 2
+                  }
+                ]
+              },
+              {
+                "label": "A book",
+                "items": [
+                  {
+                    "kind": "book",
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "A basket",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "color": "green"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "prompt": "What does Mei have at the start?",
+          "options": [
+            "A basket",
+            "A ball",
+            "A book",
+            "Pencils"
+          ],
+          "answer": 2,
+          "explanation": "At the start, Mei has a red book.",
+          "hint": "Read the sentence with Mei’s name.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Mei has a red book."
+          },
+          "support": {
+            "choices": [
+              {
+                "label": "A basket",
+                "items": [
+                  {
+                    "kind": "emptyBasket",
+                    "color": "green"
+                  }
+                ]
+              },
+              {
+                "label": "A ball",
+                "items": [
+                  {
+                    "kind": "ball",
+                    "color": "yellow"
+                  }
+                ]
+              },
+              {
+                "label": "A book",
+                "items": [
+                  {
+                    "kind": "book",
+                    "color": "red"
+                  }
+                ]
+              },
+              {
+                "label": "Pencils",
+                "items": [
+                  {
+                    "kind": "pencil",
+                    "color": "blue",
+                    "count": 2
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d2-en-a-pencil-finds-its-owner",
+    "levelId": "d2",
+    "subjectId": "en",
+    "sourceIds": [
+      "kpm-sumberku",
+      "bookdash"
+    ],
+    "note": {
+      "title": "Follow People and Places",
+      "summary": "Follow a lost pencil in a school reading corner.",
+      "body": [
+        "Names help you follow a story. When a sentence uses “he” or “she”, read the sentence before it to find the person. Keep track of what each child does as the story moves on.",
+        "Place words show where something is. “Under” means below an object, while “beside” means next to it. Read the whole sentence so you know which object the place word describes.",
+        "A story may give a reason using “so”. Read what happens before and after this word. This helps you connect an action with its purpose, such as moving something so another person can find it."
+      ],
+      "keyPoints": [
+        "Match each action with a name.",
+        "Use place words to find objects.",
+        "Look for a reason after “so”."
+      ],
+      "vocabulary": [
+        {
+          "term": "under",
+          "meaning": "Below something."
+        },
+        {
+          "term": "beside",
+          "meaning": "Next to something."
+        },
+        {
+          "term": "owner",
+          "meaning": "The person something belongs to."
+        }
+      ]
+    },
+    "reading": {
+      "title": "A Pencil Finds Its Owner",
+      "summary": "Follow a lost pencil in a school reading corner.",
+      "body": [
+        "Siti and Arun help in their school reading corner. Siti finds three books on a chair. Arun brings a blue basket. They put the books inside.",
+        "A small pencil is under the chair. Siti puts it beside the basket so its owner can find it.",
+        "After lunch, Jun comes back for his pencil. He thanks Siti. Then the three friends read a book together."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Three books for the reading corner",
+          "visual": {
+            "label": "Three books for the reading corner",
+            "items": [
+              {
+                "kind": "book",
+                "count": 3
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 0,
+          "caption": "Arun’s blue basket",
+          "visual": {
+            "label": "Arun’s blue basket",
+            "items": [
+              {
+                "kind": "emptyBasket",
+                "color": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 1,
+          "caption": "The small pencil",
+          "visual": {
+            "label": "The small pencil",
+            "items": [
+              {
+                "kind": "pencil"
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Where does Siti find the three books?",
+          "options": [
+            "On a table",
+            "In a cupboard",
+            "On a chair",
+            "Under a basket"
+          ],
+          "answer": 2,
+          "explanation": "The books are on a chair.",
+          "hint": "Find the first sentence about the books.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Siti finds three books on a chair."
+          }
+        },
+        {
+          "prompt": "What colour is Arun’s basket?",
+          "options": [
+            "Blue",
+            "Green",
+            "Red",
+            "Yellow"
+          ],
+          "answer": 0,
+          "explanation": "Arun brings a blue basket.",
+          "hint": "Read the describing word before “basket”.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Arun brings a blue basket."
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "A Pencil Finds Its Owner: Find the Evidence",
+      "summary": "Return to the story and answer four questions using its details.",
+      "body": [
+        "Practise the story: A Pencil Finds Its Owner.",
+        "Read the story again before choosing. Each answer can be found in the reading passage.",
+        "Use the hint when you need help. After answering, compare the explanation with the words in the story."
+      ],
+      "questions": [
+        {
+          "prompt": "Where is the pencil when Siti first finds it?",
+          "options": [
+            "Inside the basket",
+            "Beside the books",
+            "On the chair",
+            "Under the chair"
+          ],
+          "answer": 3,
+          "explanation": "At first, the pencil is under the chair.",
+          "hint": "Find the first mention of the pencil.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "A small pencil is under the chair."
+          }
+        },
+        {
+          "prompt": "Why does Siti put the pencil beside the basket?",
+          "options": [
+            "To use it after lunch",
+            "So its owner can find it",
+            "To keep it away from Jun",
+            "So Arun can colour the books"
+          ],
+          "answer": 1,
+          "explanation": "She wants the owner to find the pencil.",
+          "hint": "Look at the words after “so”.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Siti puts it beside the basket so its owner can find it."
+          }
+        },
+        {
+          "prompt": "Who comes back for the pencil?",
+          "options": [
+            "Arun",
+            "Siti",
+            "Jun",
+            "The teacher"
+          ],
+          "answer": 2,
+          "explanation": "Jun returns for his pencil.",
+          "hint": "Read the sentence after “After lunch”.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Jun comes back for his pencil."
+          }
+        },
+        {
+          "prompt": "What do the three friends do at the end?",
+          "options": [
+            "Read a book together",
+            "Eat lunch together",
+            "Look under the chair",
+            "Carry the basket outside"
+          ],
+          "answer": 0,
+          "explanation": "The last sentence says they read together.",
+          "hint": "Read the final sentence.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Then the three friends read a book together."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d3-en-the-leaf-we-kept",
+    "levelId": "d3",
+    "subjectId": "en",
+    "sourceIds": [
+      "kpm-sumberku",
+      "bookdash"
+    ],
+    "note": {
+      "title": "Read Events in Order",
+      "summary": "Read how two classmates choose leaves for a display in Ipoh.",
+      "body": [
+        "Sequence words help you follow events. “First” starts a set of actions, “next” introduces another action, and “finally” shows the last one. Use these words when you retell a story.",
+        "Characters can notice different things about the same object. Read what each person says or does before deciding what they think. A changed plan can make an ordinary event interesting.",
+        "To answer a question about a reason, look for “because” and read the words that follow it. Choose the reason stated in the story instead of adding a reason from your own experience."
+      ],
+      "keyPoints": [
+        "Follow first, next and finally.",
+        "Keep different characters’ ideas separate.",
+        "Find the stated reason for a choice."
+      ],
+      "vocabulary": [
+        {
+          "term": "display",
+          "meaning": "Objects arranged for people to look at."
+        },
+        {
+          "term": "torn",
+          "meaning": "Damaged by being pulled apart."
+        },
+        {
+          "term": "pattern",
+          "meaning": "An arrangement of shapes or marks."
+        }
+      ]
+    },
+    "reading": {
+      "title": "The Leaf We Kept",
+      "summary": "Read how two classmates choose leaves for a display in Ipoh.",
+      "body": [
+        "On Saturday, Nisha and Hakim visited their neighbourhood hall in Ipoh. Their class was making a leaf display. They brought fallen leaves from their gardens in a basket.",
+        "First, they spread the leaves on a table. Nisha noticed that one leaf was torn. Hakim wanted to leave it out, but Nisha kept it because its tiny holes looked like a pattern.",
+        "Next, they drew the leaves in a notebook and wrote their colours below the drawings. Finally, they showed the display to their teacher. She asked about the torn leaf. Nisha smiled and explained her choice."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "A basket for the fallen leaves",
+          "visual": {
+            "label": "A basket for the fallen leaves",
+            "items": [
+              {
+                "kind": "emptyBasket"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "A notebook for their drawings",
+          "visual": {
+            "label": "A notebook for their drawings",
+            "items": [
+              {
+                "kind": "book"
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Where do Nisha and Hakim take their leaves?",
+          "options": [
+            "Their school canteen",
+            "A neighbourhood hall in Ipoh",
+            "A shop near their gardens",
+            "Their teacher’s garden"
+          ],
+          "answer": 1,
+          "explanation": "They visit the neighbourhood hall in Ipoh.",
+          "hint": "Find the place in the opening sentence.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Nisha and Hakim visited their neighbourhood hall in Ipoh."
+          }
+        },
+        {
+          "prompt": "What do they do first with the leaves?",
+          "options": [
+            "Draw them in a notebook",
+            "Write their colours",
+            "Show them to the teacher",
+            "Spread them on a table"
+          ],
+          "answer": 3,
+          "explanation": "Spreading the leaves is marked “First”.",
+          "hint": "Look for the first sequence word.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "First, they spread the leaves on a table."
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "The Leaf We Kept: Find the Evidence",
+      "summary": "Return to the story and answer four questions using its details.",
+      "body": [
+        "Practise the story: The Leaf We Kept.",
+        "Read the story again before choosing. Each answer can be found in the reading passage.",
+        "Use the hint when you need help. After answering, compare the explanation with the words in the story."
+      ],
+      "questions": [
+        {
+          "prompt": "Why does Nisha keep the torn leaf?",
+          "options": [
+            "Its tiny holes look like a pattern",
+            "It is the largest leaf",
+            "It belongs to the teacher",
+            "Its colour matches the basket"
+          ],
+          "answer": 0,
+          "explanation": "Nisha likes the pattern made by the tiny holes.",
+          "hint": "Find “because” in the middle paragraph.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Nisha kept it because its tiny holes looked like a pattern."
+          }
+        },
+        {
+          "prompt": "What does Hakim first want to do with the torn leaf?",
+          "options": [
+            "Draw it on the wall",
+            "Give it to the teacher",
+            "Leave it out",
+            "Put it back in the garden"
+          ],
+          "answer": 2,
+          "explanation": "Hakim initially wants to leave the torn leaf out.",
+          "hint": "Find Hakim’s name in the second paragraph.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Hakim wanted to leave it out"
+          }
+        },
+        {
+          "prompt": "What do they write below their drawings?",
+          "options": [
+            "Their names",
+            "The leaves’ colours",
+            "The date of the visit",
+            "The number of holes"
+          ],
+          "answer": 1,
+          "explanation": "They label the drawings with the leaves’ colours.",
+          "hint": "Read what follows the notebook action.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "wrote their colours below the drawings."
+          }
+        },
+        {
+          "prompt": "Which action happens last?",
+          "options": [
+            "Nisha notices a torn leaf",
+            "The friends spread the leaves",
+            "The friends draw the leaves",
+            "Nisha explains her choice"
+          ],
+          "answer": 3,
+          "explanation": "Nisha explains after the teacher asks about the torn leaf.",
+          "hint": "Read the final two sentences.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Nisha smiled and explained her choice."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d4-en-a-better-reading-table",
+    "levelId": "d4",
+    "subjectId": "en",
+    "sourceIds": [
+      "kpm-sumberku",
+      "bookdash"
+    ],
+    "note": {
+      "title": "Connect a Problem with Its Solution",
+      "summary": "Find out how a trial helps pupils improve an open-day reading table.",
+      "body": [
+        "A story about solving a problem often includes a first plan, a difficulty and a revised plan. Notice what the characters discover during a trial. This helps explain why their arrangement changes.",
+        "Comparisons need a clear feature. Something may be easier to see without being larger or newer. Look for the feature the passage describes, such as the position of a sign or the visibility of a cover.",
+        "A useful solution can meet two needs at once. When answering, check that your option keeps both needs. Use the reported result of the trial as evidence that the new plan worked in this situation."
+      ],
+      "keyPoints": [
+        "Identify the difficulty in the first plan.",
+        "Compare the feature named in the passage.",
+        "Check how the solution meets both needs."
+      ],
+      "vocabulary": [
+        {
+          "term": "trial",
+          "meaning": "A test to see how something works."
+        },
+        {
+          "term": "arrangement",
+          "meaning": "The way things are placed."
+        },
+        {
+          "term": "instructions",
+          "meaning": "Words explaining what to do."
+        }
+      ]
+    },
+    "reading": {
+      "title": "A Better Reading Table",
+      "summary": "Find out how a trial helps pupils improve an open-day reading table.",
+      "body": [
+        "The pupils at a school in Kuching were preparing a quiet reading table for open day. Farah placed six books in a deep basket. Daniel made a sign saying, “Choose a story and return it here.” They expected younger children to visit with their families.",
+        "During a trial, Daniel’s little brother could read the sign but could not see the books at the bottom of the basket. Farah suggested putting the books flat on the table. Daniel worried that this would cover the sign.",
+        "They tried a second arrangement. Farah stood the sign behind the basket and put three books on the table, leaving three inside. Now the visitor could see some covers and still read the instructions. He chose a story about a fish. The pupils kept this arrangement because both the books and the sign were easy to see."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "Six books for the table",
+          "visual": {
+            "label": "Six books for the table",
+            "items": [
+              {
+                "kind": "book",
+                "count": 6
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 0,
+          "caption": "The basket used in the first arrangement",
+          "visual": {
+            "label": "The basket used in the first arrangement",
+            "items": [
+              {
+                "kind": "emptyBasket"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "A fish, the subject of the chosen story",
+          "visual": {
+            "label": "A fish, the subject of the chosen story",
+            "items": [
+              {
+                "kind": "fish"
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Who are the expected visitors?",
+          "options": [
+            "Older pupils arriving alone",
+            "Teachers bringing new books",
+            "Younger children with their families",
+            "Only the pupils who made the sign"
+          ],
+          "answer": 2,
+          "explanation": "The table is prepared for younger children visiting with families.",
+          "hint": "Read the end of the first paragraph.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "They expected younger children to visit with their families."
+          }
+        },
+        {
+          "prompt": "What problem does the trial reveal?",
+          "options": [
+            "The visitor cannot see books at the basket’s bottom",
+            "The visitor cannot read the sign",
+            "The books have no covers",
+            "The basket cannot hold six books"
+          ],
+          "answer": 0,
+          "explanation": "The deep basket hides the books from the visitor.",
+          "hint": "Separate what the visitor can do from what he cannot do.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "could not see the books at the bottom of the basket."
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "A Better Reading Table: Find the Evidence",
+      "summary": "Return to the story and answer four questions using its details.",
+      "body": [
+        "Practise the story: A Better Reading Table.",
+        "Read the story again before choosing. Each answer can be found in the reading passage.",
+        "Use the hint when you need help. After answering, compare the explanation with the words in the story."
+      ],
+      "questions": [
+        {
+          "prompt": "Why does Daniel worry about putting the books flat on the table?",
+          "options": [
+            "They might fall into the basket",
+            "They might cover the sign",
+            "They might be too heavy to lift",
+            "They might have the wrong stories"
+          ],
+          "answer": 1,
+          "explanation": "Daniel is concerned that the books will cover the instructions.",
+          "hint": "Find Daniel’s concern after Farah’s suggestion.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "Daniel worried that this would cover the sign."
+          }
+        },
+        {
+          "prompt": "How many books are left inside the basket in the second arrangement?",
+          "options": [
+            "Six",
+            "Two",
+            "Four",
+            "Three"
+          ],
+          "answer": 3,
+          "explanation": "Three books remain inside while three are on the table.",
+          "hint": "Read the numbers in the revised plan.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "put three books on the table, leaving three inside."
+          }
+        },
+        {
+          "prompt": "What is the chosen story about?",
+          "options": [
+            "A bird",
+            "A school",
+            "A fish",
+            "A garden"
+          ],
+          "answer": 2,
+          "explanation": "The visitor chooses a fish story.",
+          "hint": "Find the sentence about his choice.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "He chose a story about a fish."
+          }
+        },
+        {
+          "prompt": "Why do the pupils keep the second arrangement?",
+          "options": [
+            "Both the books and the sign are easy to see",
+            "All six books fit behind the sign",
+            "The basket hides every cover",
+            "The visitor no longer needs instructions"
+          ],
+          "answer": 0,
+          "explanation": "The revised arrangement makes both useful parts visible.",
+          "hint": "Read the reason in the last sentence.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "both the books and the sign were easy to see."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d5-en-labels-that-invite-readers",
+    "levelId": "d5",
+    "subjectId": "en",
+    "sourceIds": [
+      "kpm-sumberku",
+      "bookdash"
+    ],
+    "note": {
+      "title": "Use Dialogue to Explain a Change",
+      "summary": "Explore how feedback changes the labels at a class book exchange.",
+      "body": [
+        "Dialogue reveals a character’s response to an event. Read the speaker’s exact concern before explaining a change of plan. One person’s comment supports a conclusion about that person, not automatically about everyone.",
+        "Look for a contrast between the first attempt and the revised version. Ask what each version describes and what information it gives. A practical revision often changes the feature that caused the original difficulty.",
+        "Support an interpretation with an action or quotation from the story. For example, a character’s later choice may show how a revised plan helps. Keep your explanation close to that evidence and avoid inventing feelings."
+      ],
+      "keyPoints": [
+        "Use a speaker’s words to explain a concern.",
+        "Compare the first and revised plans.",
+        "Support an interpretation with a specific detail."
+      ],
+      "vocabulary": [
+        {
+          "term": "exchange",
+          "meaning": "An event where people give something and receive something else."
+        },
+        {
+          "term": "hesitated",
+          "meaning": "Paused because of uncertainty."
+        },
+        {
+          "term": "ability",
+          "meaning": "A person’s skill at doing something."
+        }
+      ]
+    },
+    "reading": {
+      "title": "Labels That Invite Readers",
+      "summary": "Explore how feedback changes the labels at a class book exchange.",
+      "body": [
+        "When a class in Penang organised a book exchange, Aina volunteered to write the labels. Each pupil could bring one book and choose another. The organisers wanted everyone to find a story they would enjoy, even if they did not know its title.",
+        "At first, Aina labelled the baskets “Easy” and “Difficult”. Her friend Vikram hesitated beside a basket. “I like short stories, but I do not like choosing a basket that calls my reading easy,” he said quietly. Aina realised that her labels described readers’ ability more than the stories themselves.",
+        "She asked the group to suggest labels about the books. They chose “Animals”, “Adventures” and “Everyday Life”. Aina also added a short note to each book, giving its page count and saying whether it had pictures. These details helped pupils judge the length without ranking their ability.",
+        "When the exchange opened, Vikram picked an animal story with many pictures. Aina asked if the new system helped. “Yes,” he said. “Now I can start with what interests me.” She decided to keep the topic labels for the next exchange."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 1,
+          "caption": "A basket used to sort the books",
+          "visual": {
+            "label": "A basket used to sort the books",
+            "items": [
+              {
+                "kind": "emptyBasket"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 2,
+          "caption": "Books with information notes",
+          "visual": {
+            "label": "Books with information notes",
+            "items": [
+              {
+                "kind": "book",
+                "count": 3
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "What is each pupil allowed to do at the exchange?",
+          "options": [
+            "Bring two books and choose two",
+            "Bring one book and choose another",
+            "Borrow a basket for a week",
+            "Choose a book without bringing one"
+          ],
+          "answer": 1,
+          "explanation": "The passage states one book brought and another chosen.",
+          "hint": "Find the exchange rule near the beginning.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "Each pupil could bring one book and choose another."
+          }
+        },
+        {
+          "prompt": "Why does Vikram hesitate at first?",
+          "options": [
+            "He cannot see the labels",
+            "He dislikes all short stories",
+            "He has already read every book",
+            "He dislikes a label calling his reading easy"
+          ],
+          "answer": 3,
+          "explanation": "His concern is how the label describes his reading.",
+          "hint": "Read his spoken explanation.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "I do not like choosing a basket that calls my reading easy"
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "Labels That Invite Readers: Find the Evidence",
+      "summary": "Return to the story and answer four questions using its details.",
+      "body": [
+        "Practise the story: Labels That Invite Readers.",
+        "Read the story again before choosing. Each answer can be found in the reading passage.",
+        "Use the hint when you need help. After answering, compare the explanation with the words in the story."
+      ],
+      "questions": [
+        {
+          "prompt": "What do the replacement basket labels describe?",
+          "options": [
+            "The stories’ topics",
+            "The readers’ ages",
+            "The books’ prices",
+            "The writers’ hometowns"
+          ],
+          "answer": 0,
+          "explanation": "Animals, adventures and everyday life are story topics.",
+          "hint": "Think about what the three new labels name.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "They chose “Animals”, “Adventures” and “Everyday Life”."
+          }
+        },
+        {
+          "prompt": "Which details does Aina add to each book?",
+          "options": [
+            "Its price and its owner’s age",
+            "Its year and its author’s address",
+            "Its page count and whether it has pictures",
+            "Its basket number and borrowing date"
+          ],
+          "answer": 2,
+          "explanation": "The notes describe length and pictures.",
+          "hint": "Find the sentence about the short notes.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "giving its page count and saying whether it had pictures."
+          }
+        },
+        {
+          "prompt": "What does Vikram say the new system lets him start with?",
+          "options": [
+            "The longest book",
+            "What interests him",
+            "The writer’s name",
+            "What his teacher chooses"
+          ],
+          "answer": 1,
+          "explanation": "Vikram says he can begin with his interests.",
+          "hint": "Read his reply to Aina’s question.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "Now I can start with what interests me."
+          }
+        },
+        {
+          "prompt": "What does Aina decide to keep for the next exchange?",
+          "options": [
+            "Only books without pictures",
+            "The original ability labels",
+            "Only the shortest stories",
+            "The topic labels"
+          ],
+          "answer": 3,
+          "explanation": "Aina keeps the topic labels after hearing Vikram’s response.",
+          "hint": "Read the final sentence.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "She decided to keep the topic labels for the next exchange."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "library-d6-en-the-story-pack-trial",
+    "levelId": "d6",
+    "subjectId": "en",
+    "sourceIds": [
+      "kpm-sumberku",
+      "bookdash"
+    ],
+    "note": {
+      "title": "Judge a Plan Using Limited Evidence",
+      "summary": "Use a small trial and visitor choices to evaluate a reading-event plan.",
+      "body": [
+        "When characters disagree about a plan, identify the purpose behind each suggestion. Then follow how a trial gives them information. Evidence from a small trial can guide a decision without settling every future question.",
+        "Distinguish an observation from an interpretation. “Two children wanted to exchange their books” reports what happened. “The same pack will not suit everyone” interprets that observation. Check that the interpretation stays within the evidence.",
+        "A careful conclusion names its limits. A plan that works for one group on one afternoon may need another check in a different setting. Look for phrases that tell you whose experience the claim covers and when it applies."
+      ],
+      "keyPoints": [
+        "Identify what the trial is meant to discover.",
+        "Connect the revised plan with observed choices.",
+        "Keep conclusions within the group and event studied."
+      ],
+      "vocabulary": [
+        {
+          "term": "assemble",
+          "meaning": "Put parts together."
+        },
+        {
+          "term": "identical",
+          "meaning": "Exactly the same."
+        },
+        {
+          "term": "evidence",
+          "meaning": "Information used to support a conclusion."
+        },
+        {
+          "term": "flexible",
+          "meaning": "Able to change to meet different needs."
+        }
+      ]
+    },
+    "reading": {
+      "title": "The Story-Pack Trial",
+      "summary": "Use a small trial and visitor choices to evaluate a reading-event plan.",
+      "body": [
+        "For a neighbourhood reading afternoon in Johor Bahru, Liyana’s class prepared story packs for younger children. Each pack contained a book, a pencil and a card for drawing a favourite scene. The class had enough materials for twenty packs, but nobody knew how many families would attend.",
+        "Amir suggested making all twenty packs immediately. Liyana preferred to assemble ten and keep the remaining materials separate. If visitors wanted different books, the pupils could offer a choice instead of opening finished packs. Their teacher asked them to test the idea with three families before deciding.",
+        "During the trial, two children wanted to exchange the books in their packs. Another child wanted only a book because she had brought her own drawing materials. The families liked the activity, but their choices showed that identical packs would not suit everyone.",
+        "The class set up three baskets: one for books, one for pencils and one for drawing cards. A volunteer explained that children could take the materials they needed. Amir recorded what visitors chose so the class would have evidence for planning another event.",
+        "By the end of the afternoon, eighteen books had been chosen, along with twelve pencils and fifteen cards. Liyana did not call the trial proof that every future event should use baskets. She said it showed that flexible choices had worked for this group, on this afternoon."
+      ],
+      "illustrations": [
+        {
+          "afterParagraph": 0,
+          "caption": "A book for a story pack",
+          "visual": {
+            "label": "A book for a story pack",
+            "items": [
+              {
+                "kind": "book"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 0,
+          "caption": "A pencil for drawing a favourite scene",
+          "visual": {
+            "label": "A pencil for drawing a favourite scene",
+            "items": [
+              {
+                "kind": "pencil"
+              }
+            ]
+          }
+        },
+        {
+          "afterParagraph": 3,
+          "caption": "Three baskets for separate materials",
+          "visual": {
+            "label": "Three baskets for separate materials",
+            "items": [
+              {
+                "kind": "emptyBasket",
+                "count": 3
+              }
+            ]
+          }
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "What is uncertain before the event?",
+          "options": [
+            "How many families will attend",
+            "Whether pencils are available",
+            "Where Johor Bahru is",
+            "Whether the class has any books"
+          ],
+          "answer": 0,
+          "explanation": "Attendance is unknown even though materials are available.",
+          "hint": "Look for “nobody knew”.",
+          "evidence": {
+            "paragraph": 0,
+            "text": "nobody knew how many families would attend."
+          }
+        },
+        {
+          "prompt": "Why does Liyana want to keep some materials separate?",
+          "options": [
+            "To stop children drawing scenes",
+            "To save all books for another event",
+            "To let visitors choose different books easily",
+            "To make sure only ten children can attend"
+          ],
+          "answer": 2,
+          "explanation": "Separate materials would make changing book choices easier.",
+          "hint": "Read the sentence explaining her suggestion.",
+          "evidence": {
+            "paragraph": 1,
+            "text": "If visitors wanted different books, the pupils could offer a choice instead of opening finished packs."
+          }
+        }
+      ]
+    },
+    "practice": {
+      "title": "The Story-Pack Trial: Find the Evidence",
+      "summary": "Return to the story and answer four questions using its details.",
+      "body": [
+        "Practise the story: The Story-Pack Trial.",
+        "Read the story again before choosing. Each answer can be found in the reading passage.",
+        "Use the hint when you need help. After answering, compare the explanation with the words in the story."
+      ],
+      "questions": [
+        {
+          "prompt": "Which observation supports offering materials separately?",
+          "options": [
+            "All three children ask for identical packs",
+            "One child wants only a book because she has her own drawing materials",
+            "No family enjoys the activity",
+            "Every child asks for an extra pencil"
+          ],
+          "answer": 1,
+          "explanation": "This child does not need every item in a complete pack.",
+          "hint": "Find a child whose needs differ from a full pack.",
+          "evidence": {
+            "paragraph": 2,
+            "text": "Another child wanted only a book because she had brought her own drawing materials."
+          }
+        },
+        {
+          "prompt": "Why does Amir record visitors’ choices?",
+          "options": [
+            "To decide who draws the best picture",
+            "To require each visitor to take a pencil",
+            "To count the pupils in his class",
+            "To provide evidence for planning another event"
+          ],
+          "answer": 3,
+          "explanation": "The records will support future planning.",
+          "hint": "Read the purpose after “so”.",
+          "evidence": {
+            "paragraph": 3,
+            "text": "Amir recorded what visitors chose so the class would have evidence for planning another event."
+          }
+        },
+        {
+          "prompt": "Which material is chosen most often?",
+          "options": [
+            "Books",
+            "Pencils",
+            "Drawing cards",
+            "All three are chosen equally"
+          ],
+          "answer": 0,
+          "explanation": "Eighteen books exceed fifteen cards and twelve pencils.",
+          "hint": "Compare the three totals.",
+          "evidence": {
+            "paragraph": 4,
+            "text": "eighteen books had been chosen, along with twelve pencils and fifteen cards."
+          }
+        },
+        {
+          "prompt": "Which conclusion matches Liyana’s final judgement?",
+          "options": [
+            "Baskets will suit every group at every event",
+            "Trials are unnecessary when materials are ready",
+            "Flexible choices worked for this group on this afternoon",
+            "Finished packs never help any children"
+          ],
+          "answer": 2,
+          "explanation": "Her conclusion is limited to the group and event observed.",
+          "hint": "Look at the limits she puts on her conclusion.",
+          "evidence": {
+            "paragraph": 4,
+            "text": "flexible choices had worked for this group, on this afternoon."
+          }
+        }
+      ]
+    }
+  }
+]

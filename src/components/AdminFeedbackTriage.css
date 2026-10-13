@@ -1,0 +1,27 @@
+.adminFeedbackTriage{scroll-margin-top:22px;margin:26px 0;padding:26px;border-radius:21px;border:1px solid #dee9f7;background:#f8fbff}
+.adminTriageHead{display:flex;justify-content:space-between;gap:20px;align-items:start}
+.adminTriageHead .adminFeedbackEyebrow{display:inline-flex;align-items:center;gap:7px}
+.adminTriageHead .adminFeedbackEyebrow svg{width:18px;height:18px}
+.adminTriageHead h2{margin:10px 0;font-size:1.4rem}
+.adminTriageHead p{color:#60758c;font-size:.88rem;line-height:1.6;margin:0}
+.adminTriageFilters{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}
+.adminTriageFilters button{padding:9px 14px;background:#fff;color:#2c537b;border:1px solid #ccdeef;border-radius:100px;font-weight:750;min-height:39px}
+.adminTriageFilters button[aria-pressed=true]{background:#2369bd;color:#fff;border-color:#2369bd}
+.adminTriageList{display:grid;gap:14px}
+.adminTriageList article{background:white;border:1px solid #e1eaf5;border-radius:17px;padding:19px}
+.adminTriageMeta{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.adminTriageMeta strong{font-size:.88rem;color:#214770;overflow-wrap:anywhere}
+.adminTriageStatus{border-radius:99px;padding:6px 10px;font-weight:800;font-size:.74rem}
+.adminTriageStatus.open{background:#fff0db;color:#98600c}
+.adminTriageStatus.in_review{background:#e7f2ff;color:#1c6ab9}
+.adminTriageStatus.resolved{background:#e3f5e8;color:#23773a}
+.adminTriageMessage{line-height:1.65;color:#284561;white-space:pre-wrap;overflow-wrap:anywhere}
+.adminTriageList article>small{display:block;color:#71849b;margin:8px 0 15px}
+.adminTriageReview{display:grid;grid-template-columns:minmax(140px,1fr) minmax(210px,2fr) auto;gap:12px;align-items:end}
+.adminTriageReview label{display:flex;flex-direction:column;gap:6px;font-size:.8rem;color:#415b78;font-weight:750}
+.adminTriageReview :is(select,textarea){background:white;color:#17395d;border:1px solid #c8d8eb;border-radius:10px;padding:10px;width:100%;font:inherit}
+.adminTriageReview textarea{resize:vertical}
+.adminTriageReview .miniButton{min-height:43px}
+.adminTriageEmpty{padding:25px;background:white;border-radius:12px;color:#627b94;text-align:center}
+@media(max-width:850px){.adminTriageReview{grid-template-columns:1fr}.adminTriageHead{flex-direction:column}.adminTriageHead .miniButton{width:100%}}
+@media(max-width:600px){.adminFeedbackTriage{padding:17px}.adminTriageFilters button{flex:1 1 80px}.adminTriageList article{padding:14px}}

@@ -1,0 +1,45 @@
+.tuitionDirectory{max-width:1240px;margin:0 auto;padding:clamp(18px,3vw,40px);color:#12274a}
+.tuitionIntro{display:flex;justify-content:space-between;align-items:center;gap:24px;background:linear-gradient(125deg,#e7f3ff,#f3f8ff 60%,#fff5e7);padding:clamp(24px,4vw,46px);border-radius:28px;box-shadow:0 10px 32px #123d6510}
+.tuitionIntro h1{font-size:clamp(1.7rem,3vw,2.7rem);line-height:1.16;margin:12px 0;color:#12264a;max-width:630px}
+.tuitionIntro p{max-width:620px;font-size:1rem;line-height:1.6;color:#506484;margin:0}
+.tuitionEyebrow{display:inline-flex;align-items:center;gap:8px;color:#075bc8;font-weight:800;font-size:.85rem}
+.tuitionEyebrow svg{width:20px;height:20px}
+.tuitionIntroIcon{width:110px;height:110px;display:grid;place-items:center;background:white;border-radius:32px;color:#0e6ced;box-shadow:0 10px 25px #316ba022;flex-shrink:0}
+.tuitionIntroIcon svg{width:64px;height:64px}
+.tuitionFilters{display:flex;flex-wrap:wrap;align-items:end;gap:14px;padding:22px 0}
+.tuitionFilters label{display:flex;flex:1 1 190px;flex-direction:column;gap:7px;color:#324764;font-size:.85rem;font-weight:700}
+.tuitionFilters input,.tuitionFilters select{width:100%;min-width:0;height:47px;border:1px solid #d8e4f2;border-radius:12px;padding:0 13px;background:#fff;color:#12274a;font:inherit}
+.tuitionFilters button{height:47px}
+.tuitionFilters :is(input,select,button):focus-visible,.tuitionCardAction:focus-visible{outline:3px solid #febf69;outline-offset:3px}
+.tuitionResultHeader{display:flex;align-items:center;justify-content:space-between;margin:8px 0 16px}
+.tuitionResultHeader h2{font-size:1.35rem;margin:0}
+.tuitionResultHeader span{font-weight:700;color:#62748a}
+.tuitionCards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:18px}
+.tuitionCard{background:#fff;border:1px solid #e3eefa;border-radius:22px;padding:22px;box-shadow:0 10px 28px #1d416b0e;display:flex;flex-direction:column;gap:9px}
+.tuitionCardHeader{display:flex;justify-content:space-between;gap:10px;align-items:start}
+.tuitionAvatar{display:grid;place-items:center;background:#e3f0ff;border-radius:18px;width:66px;height:66px;color:#2575d7}
+.tuitionAvatar svg{width:37px;height:37px}
+.tuitionBadge{display:inline-flex;align-items:center;gap:5px;padding:7px 10px;border-radius:999px;font-size:.74rem;font-weight:800;white-space:nowrap}
+.tuitionBadge svg{width:14px;height:14px}
+.tuitionBadge.imai{background:#fff0dc;color:#955000}
+.tuitionBadge.external{background:#e5f0ff;color:#1358b3}
+.tuitionCard h3{font-size:1.25rem;margin:4px 0 0;color:#152e54}
+.tuitionPosition{color:#526888;margin:0}
+.tuitionMeta{display:flex;align-items:center;gap:6px;color:#61728c;font-size:.9rem}
+.tuitionMeta svg{width:16px;height:16px}
+.tuitionCardLabel{font-size:.74rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:#687d9b;margin:12px 0 0}
+.tuitionTags{display:flex;flex-wrap:wrap;gap:6px}
+.tuitionTags span{padding:5px 9px;border-radius:8px;background:#eef6ff;color:#20598a;font-size:.77rem;font-weight:700}
+.tuitionLevels{color:#374f70;font-size:.9rem;line-height:1.5;margin:0}
+.tuitionCardDisclaimer{font-size:.79rem;line-height:1.5;color:#67748b;margin:auto 0 0;padding-top:12px}
+.tuitionCardAction{display:flex;justify-content:center;align-items:center;gap:8px;width:100%;margin-top:5px;font-size:.86rem}
+.tuitionCardAction svg{width:17px;height:17px}
+.tuitionEmpty{display:grid;place-items:center;text-align:center;min-height:180px;padding:22px;background:#f7fbff;border:1px dashed #bbd7f4;border-radius:20px;color:#556985}
+.tuitionEmpty svg{width:35px;height:35px;color:#2c79d7}
+.tuitionEmpty h3{margin:8px 0 0}
+.tuitionEmpty p{max-width:490px;line-height:1.5}
+.tuitionFootnote{margin-top:24px;font-size:.83rem;color:#687d92}
+@media(max-width:700px){.tuitionIntro{align-items:start;padding:24px}.tuitionIntroIcon{width:54px;height:54px;border-radius:14px}.tuitionIntroIcon svg{width:30px;height:30px}.tuitionDirectory{padding:16px}.tuitionFilters{gap:10px}.tuitionFilters label{flex:1 1 140px}.tuitionFilters button{width:100%}.tuitionCards{grid-template-columns:1fr}}
+
+/* Six parent actions must stay in one mobile row after adding Cari Guru. */
+@media(max-width:760px){.focusMobileNav.parentMobileNav{grid-template-columns:repeat(6,minmax(0,1fr))}.focusMobileNav.parentMobileNav button{font-size:10px;line-height:1.2;overflow-wrap:anywhere}}

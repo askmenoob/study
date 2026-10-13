@@ -1,0 +1,24 @@
+.adminTuitionOverview{margin:24px 0 32px;padding:28px;border:1px solid #dce9f5;border-radius:24px;background:linear-gradient(125deg,#eef7ff,#fff 72%,#fff4e7);box-shadow:0 10px 30px #22568210;color:#17375b}
+.adminTuitionHeader{display:flex;align-items:start;justify-content:space-between;gap:18px}
+.adminTuitionHeader .adminFeedbackEyebrow{display:inline-flex;gap:7px;align-items:center}
+.adminTuitionHeader .adminFeedbackEyebrow svg{width:20px;height:20px}
+.adminTuitionHeader h2{font-size:clamp(1.35rem,2.4vw,1.85rem);margin:10px 0}
+.adminTuitionHeader p{color:#5d7290;line-height:1.55;margin:0}
+.adminTuitionHeader .miniButton{flex:none}
+.adminTuitionMetrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:22px 0 18px}
+.adminTuitionMetrics article{display:flex;flex-direction:column;gap:6px;min-width:0;border:1px solid #e4edf7;border-radius:17px;background:white;padding:18px}
+.adminTuitionMetricIcon{width:38px;height:38px;border-radius:12px;background:#e7f2ff;display:grid;place-items:center;color:#146bc7}
+.adminTuitionMetricIcon svg{width:22px;height:22px}
+.adminTuitionMetrics article strong{font-size:1.8rem;line-height:1.25;font-variant-numeric:tabular-nums;color:#213d65}
+.adminTuitionMetrics article>span:last-child{font-size:.83rem;line-height:1.4;color:#526b88;font-weight:700}
+.adminTuitionExceptions{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}
+.adminTuitionExceptions p{flex:1 1 200px;border-radius:12px;background:#f7faff;border:1px solid #e6edf6;padding:12px 14px;margin:0;line-height:1.5;font-size:.8rem;color:#425a77}
+.adminTuitionExceptions strong{font-variant-numeric:tabular-nums;color:#164d89}
+.adminTuitionLinks{display:flex;gap:9px;flex-wrap:wrap}
+.adminTuitionLinks a{display:inline-flex;align-items:center;justify-content:space-between;gap:8px;min-height:43px;border-radius:11px;background:#206bc2;color:white;padding:10px 15px;font-size:.84rem;font-weight:800;text-decoration:none}
+.adminTuitionLinks a svg{width:18px;height:18px}
+.adminTuitionLinks a:focus-visible{outline:3px solid #f0ab47;outline-offset:3px}
+.adminTuitionLoading,.adminTuitionError{background:#f5f9fd;border-radius:14px;padding:20px;color:#4f6786;margin-top:16px}
+.adminTuitionFootnote{font-size:.77rem;color:#667b92;line-height:1.6;margin:18px 0 0}
+@media(max-width:800px){.adminTuitionMetrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.adminTuitionOverview{padding:18px;margin:16px 0 23px}.adminTuitionHeader{flex-direction:column}.adminTuitionHeader .miniButton{width:100%}.adminTuitionMetrics{gap:9px}.adminTuitionMetrics article{padding:14px}.adminTuitionLinks a{flex:1 1 150px}.adminTuitionExceptions p{flex:1 1 100%}}

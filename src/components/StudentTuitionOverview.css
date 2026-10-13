@@ -1,0 +1,32 @@
+.studentTuition{max-width:1050px;margin:28px auto 0;padding:24px 28px;border:1px solid #dceaf9;border-radius:24px;background:linear-gradient(115deg,#f3f9ff 0%,#fff 65%,#fff8ed 100%);box-shadow:0 10px 32px #184e8120;color:#193456}
+.studentTuitionHeader{display:flex;justify-content:space-between;align-items:flex-start;gap:15px}
+.studentTuitionEyebrow{display:inline-flex;align-items:center;gap:7px;color:#1166c9;font-size:.78rem;font-weight:850;text-transform:uppercase;letter-spacing:.02em}
+.studentTuitionEyebrow svg{width:19px;height:19px}
+.studentTuitionHeader h2{font-size:clamp(1.3rem,2vw,1.7rem);margin:8px 0 5px;color:#153659}
+.studentTuitionHeader p{font-size:.88rem;color:#5c7491;margin:0}
+.studentTuitionRefresh{width:42px;height:42px;flex:none;border-radius:12px;border:1px solid #c9dff6;background:white;color:#176ac8;display:grid;place-items:center}
+.studentTuitionRefresh svg{width:19px;height:19px}
+.studentTuitionSummary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:19px 0}
+.studentTuitionSummary>div{display:flex;gap:10px;align-items:center;padding:17px 20px;background:#e8f2ff;border-radius:17px}
+.studentTuitionSummary>div:nth-child(2){background:#fff1d9}
+.studentTuitionSummary svg{width:23px;height:23px;color:#246bb4}
+.studentTuitionSummary strong{font-size:1.45rem;font-variant-numeric:tabular-nums}
+.studentTuitionSummary span{font-size:.81rem;color:#506481;font-weight:700}
+.studentTuitionNotice{padding:16px 18px;background:#f6f9fe;border-radius:12px;color:#536987;line-height:1.55}
+.studentTuitionList{display:grid;gap:8px}
+.studentTuitionList article{display:flex;align-items:center;gap:12px;border:1px solid #e6edf6;background:white;border-radius:14px;padding:13px}
+.studentTuitionClassIcon{width:41px;height:41px;flex:none;display:grid;place-items:center;border-radius:12px;background:#e5f1ff;color:#246fce}
+.studentTuitionClassIcon svg{width:23px;height:23px}
+.studentTuitionList article>div{min-width:0;flex:1}
+.studentTuitionList h3{font-size:.95rem;margin:0 0 4px;color:#1e395c}
+.studentTuitionList p{font-size:.78rem;margin:0;color:#637990;line-height:1.5}
+.studentTuitionStatus{font-size:.73rem;font-weight:750;border-radius:99px;padding:6px 9px;white-space:nowrap}
+.studentTuitionStatus.active{background:#e0f5e7;color:#1b723b}
+.studentTuitionStatus.pending{background:#fff0d9;color:#90570b}
+.studentTuitionActions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:17px}
+.studentTuitionActions button{min-height:43px;display:inline-flex;align-items:center;justify-content:center;gap:7px;border-radius:11px;padding:9px 14px;font-weight:800;font-size:.86rem}
+.studentTuitionMaterials{background:#226dc7;border:1px solid #226dc7;color:white}
+.studentTuitionTutor{background:white;border:1px solid #bad6f2;color:#185cb1}
+.studentTuitionActions svg{width:18px;height:18px}
+.studentTuitionFootnote{color:#667e96;font-size:.73rem;line-height:1.6;margin:17px 0 0}
+@media(max-width:760px){.studentTuition{margin:16px 15px 0;padding:18px}.studentTuitionHeader h2{font-size:1.3rem}.studentTuitionSummary>div{padding:13px;flex-wrap:wrap}.studentTuitionSummary span{width:100%}.studentTuitionList article{align-items:start;flex-wrap:wrap}.studentTuitionStatus{margin-left:auto}.studentTuitionActions button{flex:1 1 135px}}

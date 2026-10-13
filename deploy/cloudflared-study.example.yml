@@ -1,0 +1,6 @@
+tunnel: REPLACE_WITH_YOUR_TUNNEL_ID
+credentials-file: /etc/cloudflared/credentials.json
+ingress:
+  - hostname: study.example.com
+    service: http://127.0.0.1:4178
+  - service: http_status:404

@@ -1,0 +1,19 @@
+FROM node:24-alpine AS build
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY index.html vite.config.ts tsconfig.json ./
+COPY src ./src
+COPY server/studyNotes.json ./server/studyNotes.json
+COPY server/library ./server/library
+COPY public ./public
+RUN npm run build:web
+
+FROM nginx:1.29-alpine
+ENV ACCESS_LOG_TRUSTED_TUNNEL_IP=127.0.0.1
+COPY deploy/nginx.conf /etc/nginx/templates/default.conf.template
+COPY --from=build /app/dist /usr/share/nginx/html
+# Build contexts may have a private umask; nginx workers must read public assets.
+RUN chmod -R a+rX /usr/share/nginx/html
+EXPOSE 80
+HEALTHCHECK --interval=15s --timeout=3s --retries=3 CMD wget -qO- http://127.0.0.1/ >/dev/null || exit 1

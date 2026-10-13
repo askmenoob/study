@@ -1,0 +1,21 @@
+.teacherTuitionSummary{background:linear-gradient(125deg,#e8f4ff,#fbfdff 55%,#fff6e9);border:1px solid #dbeaf7;border-radius:24px;padding:26px;margin:18px 0 28px;box-shadow:0 10px 28px #24557c13}
+.teacherTuitionIntro{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.teacherTuitionIntro>svg{width:70px;height:70px;padding:16px;box-sizing:border-box;border-radius:21px;background:white;color:#277ad4;box-shadow:0 8px 22px #22588910}
+.teacherTuitionEyebrow{display:inline-flex;align-items:center;gap:7px;color:#1666be;font-size:.81rem;font-weight:800;letter-spacing:.02em}
+.teacherTuitionEyebrow svg{width:20px;height:20px}
+.teacherTuitionIntro h2{margin:10px 0 7px;font-size:clamp(1.3rem,2vw,1.75rem);color:#1a395b}
+.teacherTuitionIntro p{margin:0;color:#5e7089;font-size:.92rem}
+.teacherTuitionStats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:22px 0}
+.teacherTuitionStats article{display:flex;align-items:center;gap:11px;min-width:0;padding:18px 15px;border-radius:17px;background:white;border:1px solid #e8f0fa}
+.teacherTuitionStats article>svg{flex:none;width:26px;height:26px;color:#2174c7}
+.teacherTuitionStats article>div{display:flex;flex-direction:column;min-width:0;gap:3px}
+.teacherTuitionStats strong{font-size:1.55rem;line-height:1.2;color:#1d3d68;font-variant-numeric:tabular-nums}
+.teacherTuitionStats span{font-size:.76rem;color:#526b84;line-height:1.45;font-weight:700}
+.teacherTuitionComing{display:grid;grid-template-columns:1fr 1fr;gap:14px;border-top:1px solid #d9e6f3;padding-top:18px}
+.teacherTuitionComing>div{display:flex;gap:10px;align-items:flex-start}
+.teacherTuitionComing svg{width:22px;height:22px;flex:none;color:#647fa4}
+.teacherTuitionComing span{display:flex;flex-direction:column;gap:3px}
+.teacherTuitionComing strong{font-size:.86rem;color:#355373}
+.teacherTuitionComing small{font-size:.75rem;line-height:1.6;color:#687d95}
+@media(max-width:950px){.teacherTuitionStats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.teacherTuitionSummary{padding:19px;margin:12px 0 22px}.teacherTuitionIntro>svg{width:52px;height:52px;padding:10px}.teacherTuitionStats{gap:9px}.teacherTuitionStats article{padding:13px 11px;gap:8px}.teacherTuitionStats article>svg{width:20px;height:20px}.teacherTuitionComing{grid-template-columns:1fr}}

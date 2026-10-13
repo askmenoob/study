@@ -1,0 +1,164 @@
+/* Decorative learner surfaces are scoped so parent and teacher screens retain their layout. */
+.learnerWelcome {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(210px, 320px);
+  align-items: center;
+  gap: 22px;
+  padding: 24px 28px;
+  margin-bottom: 30px;
+  border: 1px solid #eadfc4;
+  border-radius: 24px;
+  background: #fff9ed;
+  overflow: hidden;
+}
+.learnerWelcomeCopy { position: relative; z-index: 1; min-width: 0; }
+.learnerWelcome .learnerWelcomeIdentity {
+  margin: 0 0 9px;
+  color: #546052;
+  font-size: 12px;
+  font-weight: 750;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.learnerWelcome h2 {
+  max-width: 520px;
+  margin: 0;
+  color: #202f44;
+  font-size: clamp(26px, 3vw, 35px);
+  letter-spacing: -.035em;
+  line-height: 1.13;
+  text-wrap: balance;
+}
+.learnerWelcome .learnerWelcomeDescription {
+  max-width: 430px;
+  margin: 12px 0 16px;
+  color: #58636b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.learnerWelcomeStreak {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  max-width: 100%;
+  padding: 7px 11px;
+  border: 1px solid #e5d8bb;
+  border-radius: 999px;
+  background: #fffdf7;
+  color: #685124;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.learnerWelcomeStreak svg { flex: none; color: #9c621c; }
+.learnerWelcomeArt {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  border-radius: 16px;
+  mix-blend-mode: multiply;
+  justify-self: center;
+}
+.learnerWelcomeLeaf { position: absolute; right: 18px; top: 15px; color: #5d8c70; opacity: .6; transform: rotate(25deg); }
+.learnerWelcome--secondary { background: #f8f8ee; border-color: #e2e4d4; }
+.learnerWelcome--secondary h2 { font-size: clamp(25px, 2.8vw, 33px); }
+
+.subjectGraphic {
+  --graphic-ink: #514ab1;
+  --graphic-surface: #efedff;
+  --graphic-accent: #d4d0fa;
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  isolation: isolate;
+  flex: 0 0 56px;
+  width: 56px;
+  height: 56px;
+  border-radius: 17px 20px 17px 13px;
+  background: var(--graphic-surface);
+  color: var(--graphic-ink);
+  overflow: hidden;
+}
+.subjectGraphic--teal { --graphic-ink: #237460; --graphic-surface: #e5f5eb; --graphic-accent: #bfe4d2; }
+.subjectGraphic--amber { --graphic-ink: #92631a; --graphic-surface: #fff4d6; --graphic-accent: #f4d993; }
+.subjectGraphic--coral { --graphic-ink: #ad5948; --graphic-surface: #ffebe4; --graphic-accent: #f9cab9; }
+.subjectGraphic--violet { --graphic-ink: #84539d; --graphic-surface: #f4eaf9; --graphic-accent: #e6caef; }
+.subjectGraphic--blue { --graphic-ink: #3c699c; --graphic-surface: #e9f1fc; --graphic-accent: #c6ddf5; }
+.subjectGraphicShape { position: absolute; width: 34px; height: 34px; border-radius: 50%; top: -7px; right: -8px; background: var(--graphic-accent); z-index: -1; }
+.subjectGraphic::after { content: ""; position: absolute; bottom: 7px; left: 7px; width: 5px; height: 5px; border-radius: 1px; background: var(--graphic-ink); opacity: .3; transform: rotate(20deg); }
+.subjectGraphic > .subjectGraphicIcon { width: 29px; height: 29px; color: var(--graphic-ink); margin: 0; }
+
+.learnerSubjectGrid .subjectCard {
+  min-width: 0;
+  padding: 18px 16px;
+  gap: 12px;
+  border-color: #e5e7e8;
+  border-radius: 19px;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+.learnerSubjectGrid .subjectCard:hover { border-color: #c8c7e6; box-shadow: 0 8px 20px #2633470b; }
+.learnerSubjectGrid .subjectCard:focus-visible { outline: 3px solid #625ac7; outline-offset: 3px; }
+.learnerSubjectGrid .subjectCard > .subjectGraphic { width: 56px; height: 56px; border-radius: 17px 20px 17px 13px; background: var(--graphic-surface); color: var(--graphic-ink); }
+.learnerSubjectGrid .subjectCard .subjectGraphicIcon { margin: 0; width: 29px; height: 29px; color: var(--graphic-ink); flex: none; }
+.learnerSubjectGrid .subjectText { min-width: 0; flex: 1; }
+.learnerSubjectGrid .subjectText b { color: #263347; font-size: 14px; line-height: 1.4; overflow-wrap: anywhere; }
+.learnerSubjectGrid .subjectText small { color: #667184; font-size: 11px; line-height: 1.4; margin-top: 4px; }
+.learnerSubjectGrid .subjectCard > svg { flex: 0 0 17px; width: 17px; height: 17px; color: #7c8797; margin-left: 0; }
+.learnerSubjectGrid .subjectProgress { height: 4px; margin-top: 10px; border-radius: 999px; overflow: hidden; background: #edf0f4; }
+.learnerSubjectGrid .subjectProgress > i { display: block; height: 100%; max-width: 100%; border-radius: inherit; background: #7671bf; }
+
+.learnerTopicTitle { display: flex; align-items: center; gap: 13px; min-width: 0; }
+.learnerTopicTitle h2 { min-width: 0; overflow-wrap: anywhere; }
+.learnerTopicTitle > .subjectGraphic { flex-shrink: 0; }
+.learnerFeedback { display: flex; align-items: flex-start; gap: 9px; min-width: 0; }
+.learnerFeedback > svg { flex: 0 0 21px; width: 21px; height: 21px; margin-top: 2px; color: #43866d; }
+.learnerFeedback > div { min-width: 0; }
+
+@media (max-width: 760px) {
+  .learnerWelcome { grid-template-columns: minmax(0, 1fr) 190px; gap: 12px; padding: 22px; }
+  .learnerWelcome h2 { font-size: 28px; }
+  .learnerWelcomeArt { max-width: 190px; }
+}
+@media (max-width: 520px) {
+  .learnerWelcome { grid-template-columns: minmax(0, 1fr) 160px; gap: 6px 8px; padding: 20px; border-radius: 20px; margin-bottom: 24px; }
+  .learnerWelcomeCopy { display: contents; }
+  .learnerWelcome .learnerWelcomeIdentity, .learnerWelcome h2, .learnerWelcome .learnerWelcomeDescription { grid-column: 1 / -1; }
+  .learnerWelcome .learnerWelcomeIdentity { margin-bottom: 3px; padding-right: 16px; }
+  .learnerWelcome h2, .learnerWelcome--secondary h2 { font-size: 27px; max-width: 360px; }
+  .learnerWelcome .learnerWelcomeDescription { margin: 4px 0 2px; font-size: 13px; }
+  .learnerWelcomeStreak { grid-column: 1; align-self: center; border: 0; background: transparent; border-radius: 0; padding: 0; font-size: 11px; gap: 5px; }
+  .learnerWelcomeArt { grid-column: 2; width: 160px; max-width: 100%; }
+  .learnerWelcomeLeaf { right: 15px; top: 15px; width: 18px; }
+  .learnerSubjectGrid .subjectCard { padding: 16px; }
+  .learnerTopicTitle { gap: 10px; }
+}
+@media (max-width: 360px) {
+  .learnerWelcome { grid-template-columns: minmax(0, 1fr) 128px; padding: 17px; }
+  .learnerWelcome h2, .learnerWelcome--secondary h2 { font-size: 25px; }
+  .learnerWelcomeArt { width: 128px; }
+  .learnerWelcomeStreak { align-items: flex-start; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .learnerSubjectGrid .subjectCard { transition: none; }
+  .learnerSubjectGrid .subjectCard:hover { transform: none; }
+}
+
+.learnerSubjectGrid .subjectProgress { display: block; }
+.learnerTopicTitle > div, .learnerFeedback > b { min-width: 0; }
+.head.learnerSubjectsHeading { align-items: center; gap: 18px; margin-bottom: 20px; }
+.learnerSubjectsHeading > div { min-width: 0; }
+.learnerSubjectsHeading h2 { font-size: 30px; margin-top: 0; }
+.learnerSubjectsHeading p { font-size: 14px; line-height: 1.5; }
+.learnerSubjectsHeading .miniButton { max-width: 100%; white-space: normal; text-align: left; }
+.learnerSubjectsHeading .miniButton svg { flex: none; }
+@media (max-width: 800px) {
+  .head.learnerSubjectsHeading { align-items: flex-start; gap: 13px; }
+}
+@media (max-width: 640px) {
+  .learnerSubjectsHeading h2 { font-size: 28px; }
+  .learnerSubjectsHeading .miniButton { line-height: 1.5; }
+}
