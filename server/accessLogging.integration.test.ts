@@ -51,6 +51,7 @@ vi.mock("./teacherNetworkStore.js",()=>({migrateTeacherNetwork:vi.fn(),verifyTea
 vi.mock("./teacherNetworkRoutes.js",()=>({registerTeacherNetworkRoutes:vi.fn()}));
 vi.mock("./tuitionBookingStore.js",async importOriginal=>({...await importOriginal<typeof import("./tuitionBookingStore.js")>(),migrateTuitionBooking:vi.fn()}));
 vi.mock("./tuitionLearningStore.js",async importOriginal=>({...await importOriginal<typeof import("./tuitionLearningStore.js")>(),migrateTuitionLearning:vi.fn()}));
+vi.mock("./teacherKyc.js",async importOriginal=>({...await importOriginal<typeof import("./teacherKyc.js")>(),migrateTeacherKyc:vi.fn()}));
 vi.mock("./challengeStore.js", async importOriginal => ({ ...await importOriginal<typeof import("./challengeStore.js")>(), migrateChallenges: vi.fn() }));
 
 const previousSignalListeners = { SIGINT: process.listeners("SIGINT"), SIGTERM: process.listeners("SIGTERM") };

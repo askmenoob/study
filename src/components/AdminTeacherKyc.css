@@ -1,0 +1,6 @@
+.adminTeacherKyc{padding:16px;overflow-wrap:anywhere}
+.adminTeacherKyc form{grid-template-columns:minmax(0,1fr)}
+.adminTeacherKyc label.tuitionConsent{display:flex;flex-direction:row;align-items:flex-start;min-height:44px}
+.adminTeacherKyc input[type=checkbox]{width:20px;height:20px;min-width:20px;flex:0 0 20px;padding:0;margin:3px 0 0;appearance:auto}
+.adminTeacherKyc details{margin-top:16px}
+.adminTeacherKyc summary{cursor:pointer;min-height:44px}

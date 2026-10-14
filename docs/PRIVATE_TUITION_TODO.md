@@ -95,3 +95,8 @@ M0: PT-001–003 → M1: PT-004–013 → M2: PT-014–019 → M3: PT-020–024 
 - **PT-032 VERIFIED**: 2026-10-14 — GitHub Study verification CI; npmci build(typecheck/web/API/PWA), both content checks and 589 tests. Four-role browser/mobile UAT separately PASS.
 - **PT-033 VERIFIED**: 2026-10-14 — Production api/web deployed; DB/tunnel IDs unchanged. API DBhealth/freeOnlytrue, publicHTTP200, tuition unauth401; isolated rollback restore PASS.
 - **PT-034 IN_PROGRESS**: 2026-10-14 — Release teknikal, manual operator, bukti QA dan TODO sync disediakan. Support penuh bagi video/commerce/KYC/retention belum boleh diterima sehingga baki kebergantungan selesai.
+
+
+## PT-029 structured evidence slice — 14 October 2026
+
+Private admin evidence registry, append-only review versions/checklist/case reference, retry idempotency, concurrent-review protection and application-change invalidation implemented. Full integrated suite: 605 tests/107 files PASS. Two-admin staging browser flow, history, draft retention, parent denial and desktop/mobile checks PASS. Existing Smart Academy release 9685c91/5d0a735 preserved. PT-029 remains IN_PROGRESS until approved real-evidence verification and acceptance are supplied; retention remains PT-030 BLOCKED. See PRIVATE_TUITION_KYC_REVIEW.md.

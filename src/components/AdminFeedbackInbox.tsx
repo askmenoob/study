@@ -5,6 +5,7 @@ import { AdminUserDirectory } from "./AdminUserDirectory";
 import { AdminTeacherPanel } from "./AdminTeacherPanel";
 import { AdminTuitionOverview } from "./AdminTuitionOverview";
 import { AdminFeedbackTriage } from "./AdminFeedbackTriage";
+import { AcademyWorkspaceNav } from "./AcademyChrome";
 import "./AdminFeedbackInbox.css";
 
 const categoryLabels: Record<FeedbackCategory, string> = {
@@ -55,12 +56,12 @@ export function AdminFeedbackInbox({ email, onLogout }: { email?: string; onLogo
     return () => { alive = false; controller.abort(); };
   }, [refresh]);
 
-  return <div className="adminFeedbackShell">
-    <header className="adminFeedbackHeader"><div className="adminFeedbackBrand"><ShieldCheck aria-hidden="true" /><span><strong>IMAI Study</strong><small>Super Admin</small></span></div><div className="adminFeedbackAccount"><span>{email ?? "Akaun pentadbir"}</span><button type="button" className="miniButton" onClick={onLogout}><LogOut aria-hidden="true" />Log keluar</button></div></header>
+  return <div className="adminFeedbackShell academyUnified"><AcademyWorkspaceNav role="admin"/>
+    <header className="adminFeedbackHeader"><div className="adminFeedbackBrand"><ShieldCheck aria-hidden="true" /><span><strong>study.imai.my</strong><small>IMAI Smart Academy · Admin</small></span></div><div className="adminFeedbackAccount"><span>{email ?? "Akaun pentadbir"}</span><button type="button" className="miniButton" onClick={onLogout}><LogOut aria-hidden="true" />Log keluar</button></div></header>
     <main className="adminFeedbackMain">
-      <div className="adminFeedbackTitle adminDashboardTitle"><div><span className="adminFeedbackEyebrow">IMAI Study</span><h1>Dashboard Super Admin</h1><p>Semak pengguna berdaftar serta cadangan dan maklum balas ibu bapa.</p></div></div>
-      <AdminTuitionOverview />
-      <AdminUserDirectory />
+      <div className="adminFeedbackTitle adminDashboardTitle" id="academy-admin-home"><div><span className="adminFeedbackEyebrow">IMAI Study</span><h1>Selamat datang, Admin IMAI! 👋</h1><p>Semak pengguna berdaftar serta cadangan dan maklum balas ibu bapa.</p></div></div>
+      <div id="academy-admin-operations"><AdminTuitionOverview /></div>
+      <div id="academy-users"><AdminUserDirectory /></div>
       <AdminTeacherPanel />
       <AdminFeedbackTriage />
       <section aria-labelledby="admin-feedback-heading" aria-busy={busy}>

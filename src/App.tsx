@@ -13,6 +13,7 @@ import { TeacherDashboard } from "./components/TeacherDashboard";
 import { TuitionTeacherDirectory } from "./components/TuitionTeacherDirectory";
 import { ParentTuitionOverview } from "./components/ParentTuitionOverview";
 import { StudentTuitionOverview } from "./components/StudentTuitionOverview";
+import { AcademyTopbar, AcademyWelcomeBanner, AcademyStudentActions, AcademyParentInsights } from "./components/AcademyChrome";
 import { StudentTeacherMaterials } from "./components/StudentTeacherMaterials";
 import { ParentTeacherConnection } from "./components/ParentTeacherConnection";
 import { TeacherApplicationPanel } from "./components/TeacherApplicationPanel";
@@ -398,7 +399,7 @@ export default function App() {
   ];
   const activeNav = activeTheme === 'secondary' && ['subjects','topics','quiz','lesson','challenge','complete','diagnostic'].includes(screen) ? 'subjects' : !isParent && ['subjects','topics','quiz','lesson','revision','exam','challenge','complete','diagnostic'].includes(screen) ? 'learn' : screen === 'manage' ? 'settings' : screen;
   const navigate = (id:Screen) => {if(id==='library') openLibrary();else {if(id==='tutor')setTutorResourceId(undefined);setScreen(id);}setMenuOpen(false);};
-  return <StudySessionGate sessionId={hasFocusSession ? account.focusSessionId : undefined} onEnded={endFocusSession}><div className={`app focusApp ${isParent?'parentApp':'studentApp'}`} data-theme={activeTheme}>
+  return <StudySessionGate sessionId={hasFocusSession ? account.focusSessionId : undefined} onEnded={endFocusSession}><div className={`app focusApp academyUnified ${isParent?'parentApp':'studentApp'}`} data-theme={activeTheme}>
     <a className="skipLink" href="#study-main">Terus ke kandungan</a>
     <header className="focusMobileHeader"><button className="focusBrandButton" onClick={()=>navigate(isParent?'home':'learn')} aria-label="IMAI Study — Utama"><FocusBrand/></button><button className="iconButton" aria-label={menuOpen?'Tutup menu':'Buka menu'} aria-expanded={menuOpen} onClick={()=>setMenuOpen(!menuOpen)}>{menuOpen?<X/>:<Menu/>}</button></header>
     {menuOpen&&<button className="focusMenuBackdrop" aria-label="Tutup menu" onClick={()=>setMenuOpen(false)}/>}
@@ -413,6 +414,7 @@ export default function App() {
     </aside>
     <nav className={`focusMobileNav ${isParent ? "parentMobileNav" : ""}`} aria-label="Menu telefon">{navigation.map(item=><button key={item.id} aria-current={activeNav===item.id?'page':undefined} onClick={()=>navigate(item.id)}><item.icon/>{item.label}</button>)}</nav>
     <div className="focusMain" id="study-main" tabIndex={-1}>
+    <AcademyTopbar role={isParent?"parent":"student"} displayName={isParent ? (account.displayName ?? account.display_name ?? "Ibu Bapa") : study.profile.name}/>
     {syncNotice && <div className="syncNotice" role="status"><Cloud/><span>{syncNotice}</span><button type="button" aria-label="Tutup notis" onClick={() => setSyncNotice("")}><X/></button></div>}
     {isParent && deleteTarget && <div className="deleteOverlay"><form className="deleteDialog" onKeyDown={(event) => {
       if (event.key === "Escape" && !profileBusy) {setDeleteTarget(null);setDeleteName("");}
@@ -433,10 +435,13 @@ export default function App() {
     {screen === "tuition" && isParent && <TuitionTeacherDirectory studentId={study.profile.cloudId} hasStudent={Boolean(study.profile.cloudId)} onManage={()=>setScreen("manage")} onConnect={()=>setScreen("my-teacher")}/>}
     {screen === "home" && isParent && <>
       <ParentDashboard study={study} students={cloudStudents} busy={profileBusy} onSwitch={id=>void switchStudent(id).catch(()=>setSyncNotice("Profil belum dapat dimuatkan. Cuba lagi."))} onManage={()=>setScreen('manage')} onReports={()=>setScreen('parent')} onLinks={()=>setScreen('links')} onStudentMode={()=>void enterStudentMode()}/>
+      <AcademyParentInsights study={study} onReport={()=>setScreen("parent")} onTeacher={()=>setScreen("tuition")} onManage={()=>setScreen("manage")}/>
       <ParentTuitionOverview studentId={study.profile.cloudId} studentName={study.profile.name}
         onFindTeacher={()=>setScreen("tuition")} onConnections={()=>setScreen("my-teacher")} onManage={()=>setScreen("manage")}/>
     </>}
     {screen === "learn" && <>
+      {!isParent && <AcademyWelcomeBanner study={study} onLearn={()=>setScreen("subjects")}/>}
+      {!isParent && <AcademyStudentActions onLearn={()=>setScreen("subjects")} onTutor={()=>{setTutorResourceId(undefined);setScreen("tutor");}} onMaterials={()=>setScreen("teacher-materials")} onProgress={()=>setScreen("progress")} onLibrary={()=>openLibrary()}/>}
       {!isParent && <StudentTuitionOverview studentId={study.profile.cloudId}
         onMaterials={()=>setScreen("teacher-materials")}
         onTutor={()=>{setTutorResourceId(undefined);setScreen("tutor");}}/>}

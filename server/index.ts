@@ -30,6 +30,8 @@ import { migrateTuitionBooking, TuitionBookingRepository } from "./tuitionBookin
 import { registerTuitionBookingRoutes } from "./tuitionBookingRoutes.js";
 import { migrateTuitionLearning, TuitionLearningRepository } from "./tuitionLearningStore.js";
 import { registerTuitionLearningRoutes } from "./tuitionLearningRoutes.js";
+import { migrateTeacherKyc, TeacherKycRepository } from "./teacherKyc.js";
+import { registerTeacherKycRoutes } from "./teacherKycRoutes.js";
 
 const port = Number(process.env.PORT ?? 4181);
 const jwtSecret = process.env.JWT_SECRET;
@@ -421,6 +423,8 @@ await migrateChallenges(pool);
 await migrateFeedback(pool);
 await migrateFeedbackTriage(pool);
 await migrateTeacherNetwork(pool);
+await migrateTeacherKyc(pool);
+registerTeacherKycRoutes(app,new TeacherKycRepository(pool),superAdminAuth);
 await verifyTeacherJoinCodeKey(pool);
 await migrateTeacherContent(pool);
 registerFeedbackRoutes(

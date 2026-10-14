@@ -1,4 +1,4 @@
-import { ArrowRight, BookOpen, ChartNoAxesColumnIncreasing, Check, ChevronRight, Globe2, Heart, Leaf, Link, Calculator, Users, UserRound, FlaskConical, Sprout, FileText, ListChecks, Sparkles, ArrowUpRight } from 'lucide-react';
+import { ArrowRight, BookOpen, ChartNoAxesColumnIncreasing, Check, ChevronRight, Globe2, Heart, Leaf, Link, Calculator, Users, UserRound, FlaskConical, Sprout, FileText, ListChecks, Sparkles, ArrowUpRight, GraduationCap } from 'lucide-react';
 import { libraryResources, type LibraryResource } from '../../server/library/catalog';
 import { findLevel, findSubject, getTopics, getSubjectsForLevel } from '../data/curriculum';
 import { learnedUnits } from '../lib/learnedUnits';
@@ -6,7 +6,7 @@ import type { StudyState, LevelId, Topic } from '../types';
 import type { CloudStudent } from '../lib/api';
 
 export function FocusBrand() {
-  return <span className="focusBrand"><img src="/icons/focus-192.png" width="44" height="44" alt=""/><span><b>IMAI</b><span>Study</span></span></span>;
+  return <span className="focusBrand"><span className="academyBrandMark" aria-hidden="true"><GraduationCap/></span><span><b>study.imai.my</b><span>Private Tuition</span></span></span>;
 }
 export function SubjectMark({id}:{id:string}) {
   const Icon = id === 'en' ? Globe2 : id === 'math' ? Calculator : id === 'science' ? Leaf : id === 'islam' ? Sprout : id === 'moral' ? Heart : id === 'chem' ? FlaskConical : BookOpen;
@@ -71,7 +71,7 @@ export function weeklyLearning(attempts:StudyState['attempts'],levelId:LevelId,n
 }
 export function ParentDashboard({study,students,busy,onSwitch,onManage,onReports,onLinks,onStudentMode}:{study:StudyState;students:CloudStudent[];busy:boolean;onSwitch:(id:string)=>void;onManage:()=>void;onReports:()=>void;onLinks:()=>void;onStudentMode:()=>void;}) {
  const week=weeklyLearning(study.attempts,study.profile.levelId);const activity=study.attempts.filter(a=>a.levelId===study.profile.levelId).sort((a,b)=>b.completedAt.localeCompare(a.completedAt)).slice(0,3);
- return <main className="focusDashboard parentDashboard"><div className="focusParentTop"><button className="miniButton" onClick={onManage}><Users/>Urus anak</button></div><h1>Perkembangan anak</h1><p className="focusSubtitle">Menyokong langkah kecil mereka, setiap hari.</p>
+ return <main className="focusDashboard parentDashboard"><div className="focusParentTop"><button className="miniButton" onClick={onManage}><Users/>Urus anak</button></div><h1>Selamat datang, ibu bapa! 👋</h1><p className="focusSubtitle">Menyokong langkah kecil mereka, setiap hari.</p>
  {!students.length?<section className="focusEmpty"><img src="/focus-books.webp" alt="" width="240" height="180"/><h2>Jom kenalkan anak anda</h2><p>Tambah nama dan tahap anak untuk sediakan ruang belajar mereka.</p><button className="primary" onClick={onManage}><Users/>Tambah anak pertama</button></section>:<>
  <div className="focusChildren" aria-label="Pilih profil anak">{students.map((s,i)=>{
  const sameNameGroup=students.filter(other=>other.name.trim().toLowerCase()===s.name.trim().toLowerCase()&&other.level_id===s.level_id);
