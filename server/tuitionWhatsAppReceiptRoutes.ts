@@ -1,0 +1,12 @@
+import type {FastifyInstance} from "fastify";
+import {timingSafeEqual} from "node:crypto";
+import {z} from "zod";
+import {configuredWhatsAppReceipts,extractWhatsAppReceipts,verifyWhatsAppReceipt,type WhatsAppReceiptConfiguration,type TuitionWhatsAppReceiptRepository} from "./tuitionWhatsAppReceipts.js";
+export function registerWhatsAppReceiptRoutes(app:FastifyInstance,repository:Pick<TuitionWhatsAppReceiptRepository,"record">,configuration:()=>WhatsAppReceiptConfiguration=configuredWhatsAppReceipts){
+ app.register(async scoped=>{
+  scoped.removeContentTypeParser("application/json");scoped.addContentTypeParser("application/json",{parseAs:"buffer",bodyLimit:65536},(_request,raw,done)=>done(null,raw));
+  const path="/api/tuition/notifications/whatsapp/webhook";
+  scoped.get(path,async(request:any,reply)=>{reply.header("Cache-Control","private, no-store");try{const config=configuration(),input=z.object({"hub.mode":z.literal("subscribe"),"hub.verify_token":z.string().max(256),"hub.challenge":z.string().regex(/^\d{1,80}$/)}).strict().safeParse(request.query);if(!input.success)return reply.code(400).send({error:"INVALID_INPUT"});const received=Buffer.from(input.data["hub.verify_token"]),expected=Buffer.from(config.verifyToken);if(received.length!==expected.length||!timingSafeEqual(received,expected))return reply.code(401).send({error:"WHATSAPP_SIGNATURE_INVALID"});return reply.type("text/plain").send(input.data["hub.challenge"]);}catch(error:any){if(error?.statusCode)return reply.code(error.statusCode).send({error:error.code});return reply.code(500).send({error:"INTERNAL_ERROR"});}});
+  scoped.post(path,{bodyLimit:65536},async(request:any,reply)=>{reply.header("Cache-Control","private, no-store");try{const config=configuration();if(!Buffer.isBuffer(request.body)||!verifyWhatsAppReceipt(request.body,request.headers["x-hub-signature-256"],config.appSecret))return reply.code(401).send({error:"WHATSAPP_SIGNATURE_INVALID"});let body:unknown;try{body=JSON.parse(request.body.toString("utf8"));}catch{return reply.code(400).send({error:"INVALID_INPUT"});}await repository.record(extractWhatsAppReceipts(body,config.phoneNumberId));return{acknowledged:true};}catch(error:any){if(error?.statusCode)return reply.code(error.statusCode).send({error:error.code});request.log.error({event:"tuition_whatsapp_receipt_error"},"WhatsApp delivery receipt requires review");return reply.code(500).send({error:"INTERNAL_ERROR"});}});
+ });
+}

@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { readFileSync,statSync } from "node:fs";
 import nodemailer from "nodemailer";
 import type { DeliveryAdapters,TuitionDeliveryAdapter } from "./tuitionNotificationDelivery.js";
+import {configuredTuitionWhatsApp} from "./tuitionWhatsAppAdapter.js";
 
 type MailTransport={sendMail:(message:Record<string,unknown>)=>Promise<{accepted?:unknown[];messageId?:string}>;close:()=>void};
 type TransportFactory=(options:Record<string,unknown>)=>MailTransport;
@@ -29,5 +30,5 @@ export function configuredTuitionEmail(env:NodeJS.ProcessEnv=process.env,factory
  }catch{return null;}
 }
 export function configuredTuitionAdapters():DeliveryAdapters{
- const email=configuredTuitionEmail();return channel=>channel==="email"?email:null;
+ const email=configuredTuitionEmail(),whatsapp=configuredTuitionWhatsApp();return channel=>channel==="email"?email:whatsapp;
 }

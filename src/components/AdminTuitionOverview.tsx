@@ -26,7 +26,7 @@ export function TuitionAdminMetrics({ summary }: { summary: TuitionAdminSummary 
       <a href="#admin-tuition-applications">Semak guru <ClipboardCheck aria-hidden="true"/></a>
       <a href="#admin-teacher-heading">Semakan bahan <BookOpenCheck aria-hidden="true"/></a>
       <a href="#admin-feedback-triage">Inbox masalah <MessageSquareWarning aria-hidden="true"/></a>
-      <a href="#academy-commerce">Pakej sandbox <ClipboardCheck aria-hidden="true"/></a>
+      <a href="#academy-readiness">Persediaan aplikasi <ClipboardCheck aria-hidden="true"/></a><a href="#academy-commerce">Pakej sandbox <ClipboardCheck aria-hidden="true"/></a>
     </nav>
   </>;
 }

@@ -24,8 +24,9 @@ describe("teacher tuition overview", () => {
     expect(html).toContain("Sambungan murid aktif");
     expect(html).toContain("Permohonan menunggu");
     expect(html).toContain("Bahan guru direkodkan");
-    expect(html).toContain("Pendapatan tuisyen");
-    expect(html).toContain("Belum ada transaksi");
+    expect(html).toContain("Rekod kewangan guru");
+    expect(html).toContain("Ujian tanpa caj tidak menghasilkan pendapatan");
+    expect(html).not.toContain("Belum ada transaksi");
     expect(html).not.toContain("RM1,000");
     expect(html).not.toContain("Masuk Kelas");
     expect(html).toMatch(/>1<\/strong><span>Kelas aktif/);

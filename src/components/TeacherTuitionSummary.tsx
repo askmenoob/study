@@ -25,7 +25,7 @@ export function TeacherTuitionSummary({ profile, classes, enrollments, materialC
     </div>
     <div className="teacherTuitionComing">
       <div><CalendarClock aria-hidden="true"/><span><strong>Jadual kelas</strong><small>Urus slot dan permohonan dalam Jadual ketersediaan di bawah. Kelas aktif tidak semestinya mempunyai sesi yang dijadualkan.</small></span></div>
-      <div><CircleDollarSign aria-hidden="true"/><span><strong>Pendapatan tuisyen</strong><small>Belum tersedia. Belum ada transaksi atau jumlah pendapatan yang boleh dipaparkan.</small></span></div>
+      <div><CircleDollarSign aria-hidden="true"/><span><strong>Rekod kewangan guru</strong><small>Semak peruntukan dan draf bayaran sandbox. Ujian tanpa caj tidak menghasilkan pendapatan. <a href="#academy-earnings">Buka rekod kewangan</a></small></span></div>
     </div>
   </section>;
 }

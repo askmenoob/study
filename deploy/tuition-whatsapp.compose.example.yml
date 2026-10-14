@@ -1,0 +1,22 @@
+# Optional reviewed override. Not used by the normal production Compose command.
+# Approved template names, explicit active Graph version and protected files must be supplied.
+services:
+  api:
+    environment:
+      TUITION_WHATSAPP_PROVIDER: meta_cloud
+      TUITION_NOTIFICATION_WORKER_ENABLED: ${TUITION_NOTIFICATION_WORKER_ENABLED:-false}
+      TUITION_WHATSAPP_TEMPLATES_APPROVED: ${TUITION_WHATSAPP_TEMPLATES_APPROVED:-false}
+      TUITION_WHATSAPP_WEBHOOK_ENABLED: ${TUITION_WHATSAPP_WEBHOOK_ENABLED:-false}
+      TUITION_WHATSAPP_GRAPH_VERSION: ${TUITION_WHATSAPP_GRAPH_VERSION:?Choose an active Graph version}
+      TUITION_WHATSAPP_PHONE_NUMBER_ID: ${TUITION_WHATSAPP_PHONE_NUMBER_ID:?Approved business phone number ID required}
+      TUITION_WHATSAPP_TEMPLATE_LANGUAGE: ${TUITION_WHATSAPP_TEMPLATE_LANGUAGE:?Approved template language required}
+      TUITION_WHATSAPP_OTP_TEMPLATE: ${TUITION_WHATSAPP_OTP_TEMPLATE:?Approved OTP copy-code template required}
+      TUITION_WHATSAPP_BOOKING_TEMPLATE: ${TUITION_WHATSAPP_BOOKING_TEMPLATE:?Approved static booking-update template required}
+      TUITION_WHATSAPP_PAYMENT_TEMPLATE: ${TUITION_WHATSAPP_PAYMENT_TEMPLATE:?Approved static payment-update template required}
+      TUITION_WHATSAPP_TOKEN_FILE: /run/secrets/tuition_whatsapp_token
+      TUITION_WHATSAPP_APP_SECRET_FILE: /run/secrets/tuition_whatsapp_app_secret
+      TUITION_WHATSAPP_VERIFY_TOKEN_FILE: /run/secrets/tuition_whatsapp_verify_token
+    volumes:
+      - ./secrets/tuition-whatsapp-token:/run/secrets/tuition_whatsapp_token:ro
+      - ./secrets/tuition-whatsapp-app-secret:/run/secrets/tuition_whatsapp_app_secret:ro
+      - ./secrets/tuition-whatsapp-verify-token:/run/secrets/tuition_whatsapp_verify_token:ro

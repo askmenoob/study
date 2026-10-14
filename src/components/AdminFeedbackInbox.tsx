@@ -3,6 +3,8 @@ import { AdminTuitionCommerce } from "./AdminTuitionCommerce";
 import { AdminTuitionVideo } from "./TuitionVideo";
 import { AdminTuitionNotificationOutbox } from "./TuitionNotificationPreferences";
 import { AdminTuitionRetention } from "./AdminTuitionRetention";
+import {AdminTuitionPayouts,AdminTuitionAccounting} from "./TuitionFinance";
+import {AdminTuitionReadiness} from "./AdminTuitionReadiness";
 import { Inbox, LogOut, RefreshCw, ShieldCheck } from "lucide-react";
 import { FeedbackApiError, feedbackApi, type AdminFeedback, type FeedbackCategory } from "../lib/feedbackApi";
 import { AdminUserDirectory } from "./AdminUserDirectory";
@@ -67,7 +69,10 @@ export function AdminFeedbackInbox({ email, onLogout }: { email?: string; onLogo
       <div id="academy-admin-operations"><AdminTuitionOverview /></div>
       <div id="academy-users"><AdminUserDirectory /></div>
       <AdminTeacherPanel />
+      <AdminTuitionReadiness />
       <AdminTuitionCommerce />
+      <AdminTuitionPayouts />
+      <AdminTuitionAccounting />
       <AdminTuitionVideo />
       <AdminTuitionNotificationOutbox />
       <AdminTuitionRetention />
