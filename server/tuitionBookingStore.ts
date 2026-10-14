@@ -33,6 +33,7 @@ export async function migrateTuitionBooking(pool: Pick<Pool,"query">) {
     CREATE TABLE IF NOT EXISTS tuition_notifications(
       id uuid PRIMARY KEY, user_id uuid NOT NULL REFERENCES users(id), booking_id uuid NOT NULL REFERENCES tuition_bookings(id) ON DELETE CASCADE,
       event text NOT NULL, read_at timestamptz, created_at timestamptz NOT NULL DEFAULT now());
+    ALTER TABLE tuition_notifications ADD COLUMN IF NOT EXISTS recipient_role text CHECK(recipient_role IN ('parent','teacher'));
     DO $$ BEGIN
       IF EXISTS(SELECT 1 FROM pg_constraint WHERE conrelid='tuition_bookings'::regclass AND conname='tuition_bookings_student_id_fkey' AND confdeltype<>'c') THEN
         ALTER TABLE tuition_bookings DROP CONSTRAINT tuition_bookings_student_id_fkey;
@@ -95,7 +96,7 @@ export class TuitionBookingRepository {
     await client.query("INSERT INTO tuition_booking_events(id,booking_id,actor_id,action) VALUES($1,$2,$3,$4)",[randomUUID(),id,actor,action]);
     // Durable in-app notification; no representational external send.
     for (const recipient of new Set([parent,teacher])) await client.query(
-      "INSERT INTO tuition_notifications(id,user_id,booking_id,event) VALUES($1,$2,$3,$4)",[randomUUID(),recipient,id,action]);
+      "INSERT INTO tuition_notifications(id,user_id,booking_id,event,recipient_role) VALUES($1,$2,$3,$4,$5)",[randomUUID(),recipient,id,action,recipient===parent?"parent":"teacher"]);
   }
   async createSlot(teacher:string,input:SlotInput) {
     const start = Date.parse(input.startsAt), end=Date.parse(input.endsAt);

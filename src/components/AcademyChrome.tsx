@@ -39,6 +39,7 @@ const adminLinks=[
   {label:"Kelas & Permohonan",target:"academy-admin-operations",Icon:BookOpenCheck},
   {label:"Moderasi",target:"admin-feedback-triage",Icon:ShieldCheck},
   {label:"Inbox",target:"admin-feedback-heading",Icon:MessageSquare},
+  {label:"Pakej sandbox",target:"academy-commerce",Icon:ClipboardCheck},
 ];
 export function AcademyWorkspaceNav({role}: {role:"teacher"|"admin"}) {
   const links=role==="teacher"?teachingLinks:adminLinks;

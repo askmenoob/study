@@ -32,6 +32,16 @@ import { migrateTuitionLearning, TuitionLearningRepository } from "./tuitionLear
 import { registerTuitionLearningRoutes } from "./tuitionLearningRoutes.js";
 import { migrateTeacherKyc, TeacherKycRepository } from "./teacherKyc.js";
 import { registerTeacherKycRoutes } from "./teacherKycRoutes.js";
+import { migrateTuitionCommerce,TuitionCommerceRepository } from "./tuitionCommerce.js";
+import { TuitionPaymentService } from "./tuitionPaymentService.js";
+import { registerTuitionCommerceRoutes } from "./tuitionCommerceRoutes.js";
+import { migrateTuitionVideo,TuitionVideoRepository } from "./tuitionVideo.js";
+import { registerTuitionVideoRoutes } from "./tuitionVideoRoutes.js";
+import { migrateTuitionNotificationDelivery,TuitionNotificationDelivery } from "./tuitionNotificationDelivery.js";
+import { registerTuitionNotificationRoutes } from "./tuitionNotificationRoutes.js";
+import { configuredTuitionAdapters } from "./tuitionEmailAdapter.js";
+import { migrateTuitionRetention,TuitionRetentionRepository } from "./tuitionRetention.js";
+import { registerTuitionRetentionRoutes } from "./tuitionRetentionRoutes.js";
 
 const port = Number(process.env.PORT ?? 4181);
 const jwtSecret = process.env.JWT_SECRET;
@@ -440,11 +450,33 @@ registerTeacherNetworkRoutes(app, new PostgresTeacherNetworkRepository(pool), { 
 await migrateTuitionBooking(pool);
 registerTuitionBookingRoutes(app, new TuitionBookingRepository(pool), { auth, parentAuth, teacherAuth });
 await migrateTuitionLearning(pool);
+await migrateTuitionCommerce(pool);
+await migrateTuitionVideo(pool);
+await migrateTuitionNotificationDelivery(pool);
+await migrateTuitionRetention(pool);
+registerTuitionRetentionRoutes(app,new TuitionRetentionRepository(pool),superAdminAuth);
+const tuitionAdapters=configuredTuitionAdapters();
+const tuitionDelivery=new TuitionNotificationDelivery(pool,tuitionAdapters);
+const tuitionWorkerEnabled=process.env.TUITION_NOTIFICATION_WORKER_ENABLED==="true"&&!!tuitionAdapters("email");
+registerTuitionNotificationRoutes(app,tuitionDelivery,{auth,superAdminAuth},()=>({workerEnabled:tuitionWorkerEnabled,providerConfigured:!!tuitionAdapters("email")}));
+registerTuitionVideoRoutes(app,new TuitionVideoRepository(pool),{auth,teacherAuth,superAdminAuth});
+const tuitionCommerce=new TuitionCommerceRepository(pool);
+registerTuitionCommerceRoutes(app,tuitionCommerce,new TuitionPaymentService(tuitionCommerce),{parentAuth,superAdminAuth});
 registerTuitionLearningRoutes(app, new TuitionLearningRepository(pool), { auth, teacherAuth });
 await app.listen({ host: process.env.API_HOST ?? "0.0.0.0", port });
+let deliveryTask:Promise<void>|undefined;
+const deliveryTimer=tuitionWorkerEnabled?setInterval(()=>{
+  if(deliveryTask)return;
+  deliveryTask=(async()=>{await tuitionDelivery.enqueue();for(let count=0;count<5;count++){const result=await tuitionDelivery.runOne();if(result.status==="idle"||result.status==="provider_unconfigured")break;}})()
+    .catch(()=>{app.log.error({event:"tuition_delivery_worker_error"},"Notification worker requires review");})
+    .finally(()=>{deliveryTask=undefined;});
+},5000):undefined;
+deliveryTimer?.unref();
 
 const stop = async () => {
+  if(deliveryTimer)clearInterval(deliveryTimer);
   await app.close();
+  await deliveryTask;
   await closeDb();
   process.exit(0);
 };

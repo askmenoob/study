@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { TeacherClass } from "../lib/teacherNetworkApi";
 import { tuitionApi, tuitionRequest, malaysiaTime, malaysiaInputToIso, tuitionError, type TuitionSlot, type TuitionBooking } from "../lib/tuitionApi";
 import "./TuitionSchedule.css";
+import { TeacherVideoLink,ParticipantVideoLink } from "./TuitionVideo";
 
 export function TuitionSlotBooking({teacherId,studentId,replacesBookingId,onBooked}:{teacherId:string;studentId?:string;replacesBookingId?:string;onBooked?:()=>void}) {
   const [slots,setSlots]=useState<TuitionSlot[]>([]),[busy,setBusy]=useState(true),[error,setError]=useState(""),[notice,setNotice]=useState("");
@@ -43,7 +44,7 @@ export function TeacherSlotForm({classes,onChanged}:{classes:TeacherClass[];onCh
       {group&&<label>Kapasiti<input type="number" min={1} max={20} required value={capacity} onChange={e=>setCapacity(Number(e.target.value))} disabled={busy}/></label>}
       <label className="tuitionConsent"><input type="checkbox" checked={trial} onChange={e=>setTrial(e.target.checked)} disabled={busy}/><span>Sesi percubaan</span></label>
       <button className="primary" disabled={busy||!active.length}>{busy?"Menyimpan...":"Terbitkan slot"}</button></form>
-    {slots.map(s=><article key={s.id}><strong>{s.className}</strong><p>{malaysiaTime(s.startsAt)} – {malaysiaTime(s.endsAt)}</p><p>{s.kind==="group"?"Kumpulan":"1-ke-1"} · {s.remaining}/{s.capacity} tempat kosong{s.trial?" · Percubaan":""}</p><button type="button" className="miniButton" disabled={busy} onClick={()=>{if(!window.confirm("Tutup slot ini dan batalkan semua tempahan berkaitan?"))return;setBusy(true);setError("");void tuitionApi.closeSlot(s.id).then(()=>{setRefresh(n=>n+1);onChanged?.();}).catch(caught=>setError(tuitionError(caught))).finally(()=>setBusy(false));}}>Tutup slot</button></article>)}
+    {slots.map(s=><article key={s.id}><strong>{s.className}</strong><p>{malaysiaTime(s.startsAt)} – {malaysiaTime(s.endsAt)}</p><p>{s.kind==="group"?"Kumpulan":"1-ke-1"} · {s.remaining}/{s.capacity} tempat kosong{s.trial?" · Percubaan":""}</p><TeacherVideoLink slotId={s.id}/><button type="button" className="miniButton" disabled={busy} onClick={()=>{if(!window.confirm("Tutup slot ini dan batalkan semua tempahan berkaitan?"))return;setBusy(true);setError("");void tuitionApi.closeSlot(s.id).then(()=>{setRefresh(n=>n+1);onChanged?.();}).catch(caught=>setError(tuitionError(caught))).finally(()=>setBusy(false));}}>Tutup slot</button></article>)}
   </section>;
 }
 
@@ -61,6 +62,7 @@ export function TuitionBookingList({role,studentId}:{role:"parent"|"teacher"|"st
     {visible.map(b=><article key={b.id}><h3>{b.className}</h3><p>{b.teacherName} · {b.studentName}</p><p>{malaysiaTime(b.startsAt)} – {malaysiaTime(b.endsAt)}</p>
       <p>Status: {{pending:"Menunggu guru",accepted:"Disahkan",cancelled:"Dibatalkan"}[b.status]}{b.trial?" · Percubaan":""}</p>
       <p>Kehadiran: {b.attendance?{present:"Hadir",absent:"Tidak hadir",excused:"Berizin"}[b.attendance]:"Belum direkodkan"}</p>
+      {role!=="teacher"&&b.status==="accepted"&&<ParticipantVideoLink bookingId={b.id}/>}
       <div className="tuitionScheduleActions">{role==="teacher"&&b.status==="pending"&&Date.parse(b.startsAt)>Date.now()&&<><button type="button" className="miniButton" disabled={busy} onClick={()=>void act(()=>tuitionApi.decide(b.id,"accept"))}>Terima</button><button type="button" className="miniButton" disabled={busy} onClick={()=>void act(()=>tuitionApi.decide(b.id,"decline"))}>Tolak</button></>}
       {role!=="student"&&b.status!=="cancelled"&&Date.parse(b.startsAt)>Date.now()&&<button type="button" className="miniButton" disabled={busy} onClick={()=>void act(()=>tuitionApi.cancel(b.id))}>Batalkan</button>}
       {role==="parent"&&b.status!=="cancelled"&&Date.parse(b.startsAt)>Date.now()&&<button type="button" className="miniButton" disabled={busy} onClick={()=>setReschedule(b)}>Ubah masa</button>}

@@ -78,19 +78,19 @@ M0: PT-001–003 → M1: PT-004–013 → M2: PT-014–019 → M3: PT-020–024 
 - **PT-015 VERIFIED**: 2026-10-14 — Parent owned-child guardian consent-version + pending/accepted/cancelled idempotency; UI request/teacher accept PASS.
 - **PT-016 VERIFIED**: 2026-10-14 — Individual capacity1/group1-20, trial flag; last-seat concurrency and capacity PostgreSQL PASS.
 - **PT-017 VERIFIED**: 2026-10-14 — Cancel/reschedule before-start atomic, failed replacement retains original, audit+durable recipient notifications. Slot close cancels live reservations atomically. Polisi tiada refund; tiada caj.
-- **PT-018 BLOCKED**: 2026-10-14 — Pembekal video belum dipilih. Tiada room/token/link peserta dibuat atau didakwa siap.
+- **PT-018 BLOCKED**: 2026-10-14 — Pautan video terenkripsi/polisi admin/participant-time-window/focus gate siap serta QA PASS. Provider/account dan kelas sebenar belum dipilih; produksi disabled.
 - **PT-019 VERIFIED**: 2026-10-14 — PostgreSQL race last-seat, overlap, ownership, changed-payload idempotency, reschedule rollback, stale-role and student-delete integration PASS.
 - **PT-020 VERIFIED**: 2026-10-14 — Teacher privacy-attested assignment/rubric, scoped student answer, expectedVersion reviews/resubmission; UI 85/100 + feedback persisted.
 - **PT-021 VERIFIED**: 2026-10-14 — Accepted-after-start teacher attendance; parent/student scoped reads + notifications; real PostgreSQL ownership/status tests PASS.
 - **PT-022 VERIFIED**: 2026-10-14 — Homework relation checked server-side + existing curriculum Tutor. Real staging provider gemini-free:gemini-3.5-flash-lite response PASS; known identity/contact filters and provider homework reference minimization tested.
 - **PT-023 VERIFIED**: 2026-10-14 — Eight-week practice trends, weak topic>=3attempts/<60%, teacher homework averages, confirmed attendance; actual DB metrics tests and parent UI PASS. No diagnosis claims.
 - **PT-024 VERIFIED**: 2026-10-14 — Existing primary/secondary curriculum/game paths retained; content validators and regression PASS. 12levels/1200topics, library1200units checked.
-- **PT-025 BLOCKED**: 2026-10-14 — Kadar guru, pakej, komisen dan yuran belum diluluskan. Invoice/resit dan billing belum dilaksanakan.
-- **PT-026 BLOCKED**: 2026-10-14 — ToyyibPay dipilih; secret/category sandbox belum tersedia. Adapter sandbox + 6 ujian sintetik siap, tetapi checkout, webhook route, ledger idempotent dan transaksi sandbox sebenar belum siap.
-- **PT-027 BLOCKED**: 2026-10-14 — Arahan pengguna: tiada refund. Reconciliation, payout guru dan rekod tax/payment memerlukan aliran pembayaran serta kadar yang belum tersedia.
-- **PT-028 BLOCKED**: 2026-10-14 — Notifikasi dalam aplikasi siap dan diuji. Pembekal/config consent-aware WhatsApp/email serta notifikasi bayaran belum tersedia; tiada mesej luar dihantar.
+- **PT-025 BLOCKED**: 2026-10-14 — Pakej draft/approval, exact-cent commission/fees, immutable invoice/TEST receipt dan no-refund consent siap. Kadar sebenar belum diluluskan; harga QA tidak dipromosikan.
+- **PT-026 BLOCKED**: 2026-10-14 — Signed callback/independent confirmation, durable ledger, checkout/recovery dan idempotency siap/diuji sintetik PostgreSQL. Secret/category dan transaksi ToyyibPay sebenar belum tersedia; checkout disabled.
+- **PT-027 BLOCKED**: 2026-10-14 — Tiada refund didedahkan; balanced ledger/reconciliation CSV/duplicate-cancel-revocation holds siap. Bank/payout/tax acceptance memerlukan keputusan/account/bukti sebenar; tiada transfer.
+- **PT-028 BLOCKED**: 2026-10-14 — Consent OTP/encrypted outbox booking-payment/withdrawal/TLS SMTP opt-in/quarantine siap/diuji sintetik. Provider/account/destinasi belum diluluskan; WhatsApp disabled, worker produksi off, tiada mesej luar sebenar.
 - **PT-029 IN_PROGRESS**: 2026-10-14 — Approval/application/moderation, laporan keselamatan private queue, admin-reviewed pengalaman/kelayakan dan suspension/reactivation lulus UAT. Bukti KYC Guru Luar serta kriteria verifikasi identiti lengkap masih diperlukan.
-- **PT-030 BLOCKED**: 2026-10-14 — Role/guardian consent, minimization dan child-delete cascade diuji; inventori privacy siap. Tempoh retention tutor/support/bukti permohonan guru belum ditentukan. Retention belum diaktifkan.
+- **PT-030 BLOCKED**: 2026-10-14 — Admin versioned policy/holds dan count-only retention preview siap. Open support/current KYC excluded. Tempoh/wording belum diluluskan; defaults null, deletionEnabled=false, tiada purge.
 - **PT-031 VERIFIED**: 2026-10-14 — Production access/error logs observed, bounded booking/slot/homework requests, error sanitization and private support queue/triage PASS.
 - **PT-032 VERIFIED**: 2026-10-14 — GitHub Study verification CI; npmci build(typecheck/web/API/PWA), both content checks and 589 tests. Four-role browser/mobile UAT separately PASS.
 - **PT-033 VERIFIED**: 2026-10-14 — Production api/web deployed; DB/tunnel IDs unchanged. API DBhealth/freeOnlytrue, publicHTTP200, tuition unauth401; isolated rollback restore PASS.

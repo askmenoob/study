@@ -1,0 +1,9 @@
+import type { FastifyInstance } from "fastify";
+import { TuitionRetentionRepository,retentionPolicyInput,retentionHoldInput } from "./tuitionRetention.js";
+export function registerTuitionRetentionRoutes(app:FastifyInstance,repository:TuitionRetentionRepository,superAdminAuth:(request:any)=>Promise<void>){
+ const options={preHandler:superAdminAuth};async function call(request:any,reply:any,operation:()=>Promise<unknown>){reply.header("Cache-Control","private, no-store").header("Vary","Authorization");try{return await operation();}catch(error:any){if(error?.statusCode)return reply.code(error.statusCode).send({error:error.code});request.log.error({event:"tuition_retention_error"},"Retention review request failed");return reply.code(500).send({error:"INTERNAL_ERROR"});}}
+ app.get("/api/admin/tuition/retention",options,async(request:any,reply)=>{if(Object.keys(request.query??{}).length)return reply.code(400).send({error:"INVALID_INPUT"});return call(request,reply,async()=>({policy:await repository.policy(request.user.sub),deletionEnabled:false}));});
+ app.put("/api/admin/tuition/retention",options,async(request:any,reply)=>{const body=retentionPolicyInput.safeParse(request.body);if(!body.success)return reply.code(400).send({error:"INVALID_INPUT"});return call(request,reply,async()=>({policy:await repository.setPolicy(request.user.sub,body.data),deletionEnabled:false}));});
+ app.get("/api/admin/tuition/retention/preview",options,async(request:any,reply)=>{if(Object.keys(request.query??{}).length)return reply.code(400).send({error:"INVALID_INPUT"});return call(request,reply,()=>repository.preview(request.user.sub));});
+ app.put("/api/admin/tuition/retention/holds",options,async(request:any,reply)=>{const body=retentionHoldInput.safeParse(request.body);if(!body.success)return reply.code(400).send({error:"INVALID_INPUT"});return call(request,reply,()=>repository.hold(request.user.sub,body.data));});
+}

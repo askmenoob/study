@@ -52,6 +52,10 @@ vi.mock("./teacherNetworkRoutes.js",()=>({registerTeacherNetworkRoutes:vi.fn()})
 vi.mock("./tuitionBookingStore.js",async importOriginal=>({...await importOriginal<typeof import("./tuitionBookingStore.js")>(),migrateTuitionBooking:vi.fn()}));
 vi.mock("./tuitionLearningStore.js",async importOriginal=>({...await importOriginal<typeof import("./tuitionLearningStore.js")>(),migrateTuitionLearning:vi.fn()}));
 vi.mock("./teacherKyc.js",async importOriginal=>({...await importOriginal<typeof import("./teacherKyc.js")>(),migrateTeacherKyc:vi.fn()}));
+vi.mock("./tuitionCommerce.js",async importOriginal=>({...await importOriginal<typeof import("./tuitionCommerce.js")>(),migrateTuitionCommerce:vi.fn()}));
+vi.mock("./tuitionVideo.js",async importOriginal=>({...await importOriginal<typeof import("./tuitionVideo.js")>(),migrateTuitionVideo:vi.fn()}));
+vi.mock("./tuitionNotificationDelivery.js",async importOriginal=>({...await importOriginal<typeof import("./tuitionNotificationDelivery.js")>(),migrateTuitionNotificationDelivery:vi.fn()}));
+vi.mock("./tuitionRetention.js",async importOriginal=>({...await importOriginal<typeof import("./tuitionRetention.js")>(),migrateTuitionRetention:vi.fn()}));
 vi.mock("./challengeStore.js", async importOriginal => ({ ...await importOriginal<typeof import("./challengeStore.js")>(), migrateChallenges: vi.fn() }));
 
 const previousSignalListeners = { SIGINT: process.listeners("SIGINT"), SIGTERM: process.listeners("SIGTERM") };

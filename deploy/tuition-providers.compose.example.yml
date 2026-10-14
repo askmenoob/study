@@ -1,0 +1,21 @@
+# Optional operator-reviewed override. NOT included by the normal production compose command.
+# Create protected secret files and approve provider/account configuration before using this file.
+services:
+  api:
+    environment:
+      TOYYIBPAY_MODE: sandbox
+      TOYYIBPAY_CHECKOUT_ENABLED: ${TOYYIBPAY_CHECKOUT_ENABLED:-false}
+      TOYYIBPAY_SECRET_FILE: /run/secrets/toyyibpay_sandbox
+      TOYYIBPAY_CATEGORY_CODE: ${TOYYIBPAY_CATEGORY_CODE:?Sandbox category required}
+      TOYYIBPAY_CALLBACK_URL: https://study.imai.my/api/tuition/payments/toyyibpay/callback
+      TOYYIBPAY_RETURN_URL: https://study.imai.my/
+      TUITION_NOTIFICATION_WORKER_ENABLED: ${TUITION_NOTIFICATION_WORKER_ENABLED:-false}
+      TUITION_EMAIL_PROVIDER: ${TUITION_EMAIL_PROVIDER:-none}
+      TUITION_SMTP_HOST: ${TUITION_SMTP_HOST:-}
+      TUITION_SMTP_PORT: ${TUITION_SMTP_PORT:-587}
+      TUITION_SMTP_USER: ${TUITION_SMTP_USER:-}
+      TUITION_SMTP_FROM: ${TUITION_SMTP_FROM:-}
+      TUITION_SMTP_PASSWORD_FILE: /run/secrets/tuition_smtp_password
+    volumes:
+      - ./secrets/toyyibpay-sandbox:/run/secrets/toyyibpay_sandbox:ro
+      - ./secrets/tuition-smtp-password:/run/secrets/tuition_smtp_password:ro

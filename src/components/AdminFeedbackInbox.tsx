@@ -1,4 +1,8 @@
 import { useEffect, useState } from "react";
+import { AdminTuitionCommerce } from "./AdminTuitionCommerce";
+import { AdminTuitionVideo } from "./TuitionVideo";
+import { AdminTuitionNotificationOutbox } from "./TuitionNotificationPreferences";
+import { AdminTuitionRetention } from "./AdminTuitionRetention";
 import { Inbox, LogOut, RefreshCw, ShieldCheck } from "lucide-react";
 import { FeedbackApiError, feedbackApi, type AdminFeedback, type FeedbackCategory } from "../lib/feedbackApi";
 import { AdminUserDirectory } from "./AdminUserDirectory";
@@ -63,6 +67,10 @@ export function AdminFeedbackInbox({ email, onLogout }: { email?: string; onLogo
       <div id="academy-admin-operations"><AdminTuitionOverview /></div>
       <div id="academy-users"><AdminUserDirectory /></div>
       <AdminTeacherPanel />
+      <AdminTuitionCommerce />
+      <AdminTuitionVideo />
+      <AdminTuitionNotificationOutbox />
+      <AdminTuitionRetention />
       <AdminFeedbackTriage />
       <section aria-labelledby="admin-feedback-heading" aria-busy={busy}>
         <div className="adminFeedbackTitle"><div><span className="adminFeedbackEyebrow">Cadangan &amp; maklum balas</span><h2 id="admin-feedback-heading">Inbox ibu bapa</h2><p>Semua rekod yang dihantar oleh ibu bapa tersedia di sini.</p></div><button type="button" className="miniButton" disabled={busy} onClick={() => setRefresh((value) => value + 1)}><RefreshCw aria-hidden="true" />Muat semula</button></div>

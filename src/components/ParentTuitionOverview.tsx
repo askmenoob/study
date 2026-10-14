@@ -5,6 +5,8 @@ import { findSubject } from "../data/curriculum";
 import "./ParentTuitionOverview.css";
 import { TuitionBookingList,TuitionNotifications } from "./TuitionSchedule";
 import { FamilyHomeworkPanel, TuitionProgressReport } from "./TuitionHomework";
+import { ParentTuitionInvoices } from "./ParentTuitionInvoices";
+import { TuitionNotificationPreferences } from "./TuitionNotificationPreferences";
 
 export function ParentTuitionOverview({ studentId, studentName, onFindTeacher, onConnections, onManage }: {
   studentId?: string;
@@ -49,5 +51,5 @@ export function ParentTuitionOverview({ studentId, studentName, onFindTeacher, o
       </div>}
       <button type="button" className="parentTuitionConnectionsLink" onClick={onConnections}>Urus sambungan kelas <ArrowRight aria-hidden="true"/></button>
       </>}
-  </section>{studentId&&<><TuitionBookingList role="parent" studentId={studentId}/><FamilyHomeworkPanel studentId={studentId} canSubmit={false}/><TuitionProgressReport studentId={studentId}/><TuitionNotifications/></>}</>;
+  </section>{studentId&&<><TuitionBookingList role="parent" studentId={studentId}/><ParentTuitionInvoices studentId={studentId}/><FamilyHomeworkPanel studentId={studentId} canSubmit={false}/><TuitionProgressReport studentId={studentId}/><TuitionNotifications/><TuitionNotificationPreferences/></>}</>;
 }

@@ -1,6 +1,6 @@
 # Private Tuition operator guide
 
-14 October 2026. This guide describes the implemented booking and learning release. It does not authorize real payments, provider account changes or messages on behalf of an operator.
+14 October 2026. This guide describes booking and learning. The current sandbox commerce, private video-link, notification consent and retention-preview implementation is documented in [PRIVATE_TUITION_PROVIDER_OPERATIONS.md](PRIVATE_TUITION_PROVIDER_OPERATIONS.md). Provider activation, real payments, account changes and actual external test sends still require their operational prerequisites.
 
 ## Booking
 
@@ -29,11 +29,11 @@ Booking creation is limited to 30 requests per guardian per hour; slot publicati
 
 ## ToyyibPay boundary
 
-The repository includes a sandbox client following https://toyyibpay.com/apireference/ as checked on 14 October 2026. Its tests use synthetic responses. It is not connected to a live checkout or ledger in this release.
+The repository includes a sandbox client following https://toyyibpay.com/apireference/ as checked on 14 October 2026. Checkout, callback confirmation and a durable sandbox ledger now exist and are tested using synthetic gateway responses. Production checkout remains disabled without approved configuration; no actual provider transaction has been verified.
 
 Required future protected configuration: `TOYYIBPAY_MODE=sandbox`, `TOYYIBPAY_SECRET_FILE` (regular file, mode 600), `TOYYIBPAY_CATEGORY_CODE`, HTTPS callback and return URLs. Live mode is rejected by this client. Do not put secret values in the TODO, logs or chat.
 
-A provider HTTP 200 is insufficient: inspect the returned BillCode. Validate callback hashes with the documented formula and independently confirm the transaction's order, invoice, status and exact amount. A browser return URL never proves payment. A durable idempotent payment ledger, invoices, receipts, payout/reconciliation and real sandbox acceptance remain outstanding.
+A provider HTTP 200 is insufficient: inspect the returned BillCode. The server validates callback hashes and independently confirms order, invoice, status and exact amount. A browser return URL never proves payment. TEST invoices/receipts, a balanced idempotent ledger and reconciliation export are implemented. Approved rates, payout/tax/bank acceptance and actual ToyyibPay sandbox verification remain outstanding.
 
 ## Release and rollback
 
@@ -47,4 +47,4 @@ A provider HTTP 200 is insufficient: inspect the returned BillCode. Validate cal
 
 Admins can publish reviewed teacher experience and qualifications with an internal evidence note. Parent safety reports enter the existing private support queue. Suspending a teacher immediately rejects their old session's tuition requests and hides their slots and homework; staging verifies this behaviour.
 
-The following remain incomplete: external video provider; billing/rates/commission/ledger/invoices/payout; external consent-aware notifications; complete external-teacher KYC evidence; approved minor-data retention rules; final commercial support acceptance. Hosted CI in `askmenoob/study` passed the build, both content validators and all 589 tests on the initial reviewed snapshot. Do not mark the whole project complete from the booking/homework release.
+Source implementation now includes inactive sandbox packages/invoices/ledger, private approved-provider video links, encrypted consent-aware notification outbox with optional SMTP, and a non-destructive retention preview. Remaining acceptance needs approved provider accounts/rates/payout/tax requirements, real external evidence/delivery, complete teacher KYC evidence, minor privacy/retention decisions and final commercial support acceptance. The integrated source suite has 644 passing tests across 115 files. Initial hosted CI had 589 tests; see the release log for each later exact commit/run. Do not mark the whole project complete from synthetic evidence.
