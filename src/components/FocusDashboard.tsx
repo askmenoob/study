@@ -5,6 +5,7 @@ import { learnedUnits } from '../lib/learnedUnits';
 import type { StudyState, LevelId, Topic } from '../types';
 import type { CloudStudent } from '../lib/api';
 import type { ReactNode } from 'react';
+import { AcademyRoleIllustration } from './AcademyRoleIllustration';
 
 export function FocusBrand() {
   return <span className="focusBrand"><span className="academyBrandMark" aria-hidden="true"><GraduationCap/></span><span><b>study.imai.my</b><span>Private Tuition</span></span></span>;
@@ -72,7 +73,7 @@ export function weeklyLearning(attempts:StudyState['attempts'],levelId:LevelId,n
 }
 export function ParentDashboard({study,students,busy,onSwitch,onManage,onReports,onLinks,onStudentMode,overview}:{study:StudyState;students:CloudStudent[];busy:boolean;onSwitch:(id:string)=>void;onManage:()=>void;onReports:()=>void;onLinks:()=>void;onStudentMode:()=>void;overview?:ReactNode;}) {
  const week=weeklyLearning(study.attempts,study.profile.levelId);const activity=study.attempts.filter(a=>a.levelId===study.profile.levelId).sort((a,b)=>b.completedAt.localeCompare(a.completedAt)).slice(0,3);
- return <main className="focusDashboard parentDashboard"><div className="focusParentTop"><button className="miniButton" onClick={onManage}><Users/>Urus anak</button></div><h1>Selamat datang, ibu bapa! 👋</h1><p className="focusSubtitle">Menyokong langkah kecil mereka, setiap hari.</p>
+ return <main className="focusDashboard parentDashboard"><section className="academyIllustratedWelcome academyParentWelcome"><div className="academyRoleWelcomeCopy"><h1>Selamat datang, ibu bapa! 👋</h1><p className="focusSubtitle">Menyokong langkah kecil mereka, setiap hari.</p><div className="focusParentTop"><button className="miniButton" onClick={onManage}><Users/>Urus anak</button></div></div><AcademyRoleIllustration role="parent"/></section>
  {!students.length?<section className="focusEmpty"><img src="/focus-books.webp" alt="" width="240" height="180"/><h2>Jom kenalkan anak anda</h2><p>Tambah nama dan tahap anak untuk sediakan ruang belajar mereka.</p><button className="primary" onClick={onManage}><Users/>Tambah anak pertama</button></section>:<>
  <div className="focusChildren" aria-label="Pilih profil anak">{students.map((s,i)=>{
  const sameNameGroup=students.filter(other=>other.name.trim().toLowerCase()===s.name.trim().toLowerCase()&&other.level_id===s.level_id);

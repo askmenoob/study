@@ -5,5 +5,6 @@ import App from "./App";
 import "./components/SecondaryTheme.css";
 import "./components/AcademyDesignSystem.css";
 import "./components/AcademyShowcase.css";
+import "./components/AcademyRoleIllustration.css";
 
 createRoot(document.getElementById("root")!).render(<StrictMode><App/></StrictMode>);

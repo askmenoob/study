@@ -4,6 +4,7 @@ import { BookOpenCheck, ChartNoAxesColumnIncreasing, ClipboardCheck, GraduationC
 import type { StudyState } from "../types";
 import { findLevel, getSubjectsForLevel } from "../data/curriculum";
 import { subjectMastery } from "../lib/progress";
+import { AcademyRoleIllustration } from "./AcademyRoleIllustration";
 import "./AcademyChrome.css";
 
 export type AcademyRole = "student" | "parent" | "teacher" | "admin";
@@ -99,14 +100,14 @@ export function AcademyWorkspaceNav({role}: {role:"teacher"|"admin"}) {
 }
 
 export function AcademyWelcomeBanner({study,onLearn}: {study:StudyState;onLearn:()=>void}) {
- return <section className="academyWelcomeBanner" aria-labelledby="academy-welcome-title">
+ return <section className="academyWelcomeBanner academyIllustratedWelcome" aria-labelledby="academy-welcome-title">
   <div className="academyWelcomeWords">
    <h1 id="academy-welcome-title">Selamat kembali, {study.profile.name || "pelajar"}! 👋</h1>
    <p>Teruskan pembelajaran anda hari ini.</p>
    <div className="academyWelcomeDetails"><span><GraduationCap aria-hidden="true"/>{findLevel(study.profile.levelId).label}</span><span><Trophy aria-hidden="true"/>{study.streak} hari streak</span></div>
    <button type="button" className="primary" onClick={onLearn}>{study.profile.levelId.startsWith("t")?"Sambung belajar":"Sambung membaca"}<ArrowRight aria-hidden="true"/></button>
   </div>
-  {!study.profile.levelId.startsWith("t")&&<img src="/focus-books.webp" alt="" loading="lazy" width="250" height="190"/>}
+  <AcademyRoleIllustration role={study.profile.levelId.startsWith("t")?"secondary":"student"}/>
  </section>;
 }
 
