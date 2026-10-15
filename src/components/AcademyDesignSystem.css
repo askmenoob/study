@@ -112,6 +112,9 @@ button:disabled { cursor: not-allowed; }
 .authShell .studyLinkEntry input { border-color: #bfd0e6; color: #16325a; }
 .academyUnified .tuitionSchedule .tuitionSchedule { box-shadow: none; margin-bottom: 0; border: 0; padding: 22px 0 0; border-top: 1px solid var(--academy-border); border-radius: 0; }
 .authShell .authPasswordField { position: relative; }
+.authShell .authCard .authPasswordGroup>label { margin: 17px 0 8px; }
+.authShell .authPasswordField input { margin-top: 0; }
+.authShell .authCard .authPasswordHelp { display: block; margin: 8px 0 15px; font-size: 12px; line-height: 1.5; font-weight: 500; color: var(--academy-muted); }
 .authShell .authPasswordField input { padding-right: 52px; }
 .authPasswordToggle { position: absolute; right: 4px; top: 4px; width: 42px; height: 42px; display: grid; place-items: center; background: transparent; border: 0; border-radius: 8px; color: #19529c; }
 .authPasswordToggle svg { width: 20px; height: 20px; }

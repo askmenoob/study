@@ -1,5 +1,5 @@
 import { StudyFooter } from "./StudyFooter";
-import { useEffect, useState } from "react";
+import { useEffect, useId, useState } from "react";
 import { StudyLinkEntry } from "./StudyLinkEntry";
 import { PwaInstall } from "./PwaInstall";
 import { ArrowRight, BookOpen, ChartNoAxesColumnIncreasing, UsersRound, Eye, EyeOff } from "lucide-react";
@@ -11,6 +11,7 @@ import { FocusBrand } from "./FocusDashboard";
 type Props = { onAuthenticated: (user: AccountUser) => void };
 
 export function AuthGate({ onAuthenticated }: Props) {
+  const passwordId = useId();
   const [mode, setMode] = useState<"login" | "register">("login");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -78,9 +79,9 @@ export function AuthGate({ onAuthenticated }: Props) {
       <label>Email
         <input type="email" value={email} onChange={(e)=>setEmail(e.target.value)} required autoComplete="email" placeholder="nama@email.com"/>
       </label>
-      <label>Kata laluan
-        <div className="authPasswordField"><input type={passwordVisible ? "text" : "password"} value={password} onChange={(e)=>setPassword(e.target.value)} required minLength={8} autoComplete={mode === "login" ? "current-password" : "new-password"} aria-describedby={mode === "register" ? "authPasswordHelp" : undefined}/><button type="button" className="authPasswordToggle" aria-label={passwordVisible ? "Sembunyikan kata laluan" : "Tunjukkan kata laluan"} aria-pressed={passwordVisible} onClick={()=>setPasswordVisible(value=>!value)}>{passwordVisible?<EyeOff aria-hidden="true"/>:<Eye aria-hidden="true"/>}</button></div>
-      </label>
+      <div className="authPasswordGroup"><label htmlFor={passwordId}>Kata laluan</label>
+        <div className="authPasswordField"><input id={passwordId} type={passwordVisible ? "text" : "password"} value={password} onChange={(e)=>setPassword(e.target.value)} required minLength={8} autoComplete={mode === "login" ? "current-password" : "new-password"} aria-describedby={mode === "register" ? "authPasswordHelp" : undefined}/><button type="button" className="authPasswordToggle" aria-label={passwordVisible ? "Sembunyikan kata laluan" : "Tunjukkan kata laluan"} aria-pressed={passwordVisible} onClick={()=>setPasswordVisible(value=>!value)}>{passwordVisible?<EyeOff aria-hidden="true"/>:<Eye aria-hidden="true"/>}</button></div>
+      </div>
       {mode === "register" && <small id="authPasswordHelp" className="authPasswordHelp">Gunakan sekurang-kurangnya 8 aksara.</small>}
       {mode === "login" && <label className="authRemember">
         <input type="checkbox" checked={rememberMe} onChange={(e)=>setRememberMe(e.target.checked)} />
