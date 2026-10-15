@@ -5,6 +5,7 @@ import { accessError } from "./familyAccess.js";
 export const retentionPolicyInput=z.object({expectedVersion:z.number().int().min(0),tutorDays:z.number().int().min(1).max(36500).nullable(),supportDays:z.number().int().min(1).max(36500).nullable(),kycDays:z.number().int().min(1).max(36500).nullable(),policyApproved:z.literal(true),reviewNote:z.string().trim().min(10).max(1000)}).strict();
 export const retentionHoldInput=z.object({kind:z.enum(["tutor","support","kyc"]),entityId:z.string().uuid(),expectedVersion:z.number().int().min(0),active:z.boolean(),reviewNote:z.string().trim().min(10).max(500)}).strict();
 export async function migrateTuitionRetention(pool:Pick<Pool,"query">){await pool.query(`CREATE TABLE IF NOT EXISTS tuition_retention_policy(singleton boolean PRIMARY KEY DEFAULT true CHECK(singleton),tutor_days integer CHECK(tutor_days>0),support_days integer CHECK(support_days>0),kyc_days integer CHECK(kyc_days>0),version integer NOT NULL DEFAULT 0,approved_by uuid REFERENCES users(id),approved_at timestamptz);INSERT INTO tuition_retention_policy(singleton) VALUES(true) ON CONFLICT DO NOTHING;
+  CREATE TABLE IF NOT EXISTS tuition_retention_owner_approvals(id text PRIMARY KEY,tutor_days integer NOT NULL,support_days integer NOT NULL,kyc_days integer NOT NULL,approval_note text NOT NULL,previous_policy jsonb NOT NULL,applied_at timestamptz NOT NULL DEFAULT now());
   CREATE TABLE IF NOT EXISTS tuition_retention_holds(kind text NOT NULL CHECK(kind IN ('tutor','support','kyc')),entity_id uuid NOT NULL,active boolean NOT NULL DEFAULT true,version integer NOT NULL DEFAULT 1,updated_by uuid NOT NULL REFERENCES users(id),updated_at timestamptz NOT NULL DEFAULT now(),PRIMARY KEY(kind,entity_id));
   CREATE TABLE IF NOT EXISTS tuition_retention_events(id uuid PRIMARY KEY,actor_id uuid NOT NULL REFERENCES users(id),event text NOT NULL,kind text,entity_id uuid,note text NOT NULL,created_at timestamptz NOT NULL DEFAULT now());`);}
 type Client=Pick<PoolClient,"query">;
@@ -24,4 +25,23 @@ export class TuitionRetentionRepository{
  };
  const results:Record<string,unknown>={};for(const kind of ["tutor","support","kyc"] as const){const days=policy.approvedAt?policy[kind+"Days"]:null;results[kind]=(await client.query(`WITH records AS(${queries[kind]}) SELECT count(*)::int AS total,count(*) FILTER(WHERE $1::integer IS NOT NULL AND cutoff_at<now()-$1::integer*interval '1 day' AND lifecycle_ready AND NOT held)::int AS eligible,count(*) FILTER(WHERE $1::integer IS NOT NULL AND cutoff_at<now()-$1::integer*interval '1 day' AND lifecycle_ready AND held)::int AS held FROM records`,[days])).rows[0];}
  return{policy,dryRun:true,deletionEnabled:false,records:results,notice:"Pratonton sahaja. Tiada DELETE atau perubahan kandungan. Hold ini hanya untuk pratonton retention; aliran pemadaman anak dan backup sedia ada tidak diubah."};});}
+}
+
+// Invoked only by the explicit operator CLI after the owner's recorded instruction.
+// No HTTP route and no startup side effect; later admin policy edits are preserved.
+export async function applyOwnerApprovedFreeRetention(pool:Pool){
+ const client=await pool.connect();try{
+  await client.query("BEGIN");
+  const current=(await client.query("SELECT * FROM tuition_retention_policy WHERE singleton=true FOR UPDATE")).rows[0];
+  const id="free-study-owner-approval-20261016";
+  if((await client.query("SELECT 1 FROM tuition_retention_owner_approvals WHERE id=$1",[id])).rows[0]){await client.query("COMMIT");return{applied:false,reason:"already_applied"};}
+  if(!current||current.version!==0||current.approved_at||[current.tutor_days,current.support_days,current.kyc_days].some(value=>value!==null))throw accessError("OWNER_POLICY_CONFLICT",409);
+  await client.query("INSERT INTO tuition_retention_owner_approvals(id,tutor_days,support_days,kyc_days,approval_note,previous_policy) VALUES($1,90,365,365,$2,$3::jsonb)",[id,"Direct owner instruction approved 16 October 2026: 90/365/365 day review candidates only. Automatic deletion disabled; existing backups and holds preserved.",JSON.stringify(current)]);
+  await client.query("UPDATE tuition_retention_policy SET tutor_days=90,support_days=365,kyc_days=365,version=version+1,approved_at=now(),approved_by=NULL WHERE singleton=true");
+  await client.query("COMMIT");return{applied:true,approvalSource:id,automaticDeletion:false};
+ }catch(error){await client.query("ROLLBACK");throw error;}finally{client.release();}
+}
+export async function publicStudyPrivacy(pool:Pick<Pool,"query">){
+ const row=(await pool.query("SELECT tutor_days,support_days,kyc_days,version,approved_at IS NOT NULL AS approved FROM tuition_retention_policy WHERE singleton=true")).rows[0];
+ return{version:row?.version??0,retentionApproved:!!row?.approved,reviewCandidateDays:{tutor:row?.approved?row.tutor_days:null,support:row?.approved?row.support_days:null,kyc:row?.approved?row.kyc_days:null},automaticDeletion:false,backupDeletionAutomatic:false};
 }

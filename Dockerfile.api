@@ -12,6 +12,7 @@ ENV NODE_ENV=production
 COPY package*.json ./
 RUN npm ci --omit=dev && npm cache clean --force
 COPY --from=build /app/server/dist ./server/dist
+COPY scripts/apply-free-retention-policy.mjs ./scripts/apply-free-retention-policy.mjs
 USER node
 EXPOSE 4181
 CMD ["node","server/dist/index.js"]

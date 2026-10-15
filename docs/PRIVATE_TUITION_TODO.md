@@ -1,13 +1,17 @@
-# IMAI Private Tuition — Canonical TODO (Konsep C)
+# IMAI Study Percuma — Canonical TODO
 Tarikh mula: 2026-10-13 | Projek: study.imai.my | Source: /mnt/data/projects/imai-study
 
 ## Prinsip / skop
 - Upgrade **secara tambahan**, kekalkan ulang kaji, silibus KSSR/KSSM/STPM, AI Tutor, akaun keluarga, PWA serta rekod kemajuan sedia ada.
 - Dua kategori guru: **Guru IMAI** (dilantik/dikelola IMAI) dan **Guru Luar** (guru persendirian diluluskan). Kedua-duanya mesti melalui pengesahan, moderation dan privasi murid.
 - 4 role/UI: Pelajar, Ibu Bapa, Guru, Admin. Responsive desktop + mobile menurut mockup IMAI Smart Academy (biru lembut, putih, oren; cards; navigasi).
-- STATUS: PENDING | IN_PROGRESS | VERIFIED | BLOCKED. Hanya VERIFIED selepas semakan kod + test + bukti runtime; graf kemajuan berdasarkan nombor VERIFIED / total.
+- STATUS: PENDING | IN_PROGRESS | VERIFIED | BLOCKED | CANCELLED. CANCELLED preserves requirements removed by the owner; it is not verification. Hanya VERIFIED selepas semakan kod + test + bukti runtime; graf kemajuan berdasarkan nombor VERIFIED / total.
 - Jangan masukkan nama/email/telefon pelajar dalam public teacher directory; UI contoh bukan data produksi. Pengguna bawah umur hanya melalui akaun penjaga.
 - Tiada pembayaran/autobooking sebenar sebelum transaction safety, idempotency dan UAT. Tiada pembekal AI berbayar (polisi Study).
+
+## Owner decision — 16 October 2026
+
+study.imai.my is permanently free, supported by the existing voluntary coffee donation. PT-025–027 are cancelled, not successful paid integrations. Active scope: 31 tasks. See FREE_STUDY_PROGRAMME_20261016.md for the explicit free programme, manual room-link scope, mandatory current KYC workflow and owner-approved 90/365/365-day retention review. Joint production-account UAT follows coding and is not claimed completed by technical tests. Historical release notes below retain their original dates and counts.
 
 ## TODO Utama
 | ID | Fasa | Tugasan / acceptance criteria | Status |
@@ -29,23 +33,23 @@ Tarikh mula: 2026-10-13 | Projek: study.imai.my | Source: /mnt/data/projects/ima
 | PT-015 | 2 Booking | Booking request oleh penjaga bagi anak; status pending/accepted/cancelled | VERIFIED |
 | PT-016 | 2 Booking | Kelas 1-to-1 dan group dengan kapasiti serta kelas percubaan | VERIFIED |
 | PT-017 | 2 Booking | Reschedule/cancel dengan audit log + notifikasi & polisi | VERIFIED |
-| PT-018 | 2 Booking | Video-class integration secara selamat, link hanya kepada peserta berkaitan | BLOCKED |
+| PT-018 | 2 Booking | Integrasi pautan bilik video percuma disediakan guru; kawalan peserta dan waktu, tiada API penciptaan bilik | VERIFIED |
 | PT-019 | 2 Booking | Ujian transaksi race condition, double booking, ownership & cross-tenant | VERIFIED |
 | PT-020 | 3 Learning | Homework assign/submit/review, guru feedback & rubrik | VERIFIED |
 | PT-021 | 3 Learning | Jadual + kehadiran disahkan guru, parent visibility | VERIFIED |
 | PT-022 | 3 Learning | AI Tutor berasaskan silibus + homework, langkah-demi-langkah & data minimization | VERIFIED |
 | PT-023 | 3 Learning | Laporan perkembangan, trend/topik lemah, insights tanpa tuntutan tidak sah | VERIFIED |
 | PT-024 | 3 Learning | Kandungan sekolah rendah/menengah dan gamification sesuai umur | VERIFIED |
-| PT-025 | 4 Commerce | Pakej, kadar guru, komisen IMAI, yuran, invoice & resit | BLOCKED |
-| PT-026 | 4 Commerce | Gateway Malaysia sandbox, signed webhooks + idempotent ledger | BLOCKED |
-| PT-027 | 4 Commerce | Refund, reconciliation, payout guru, tax/payment records | BLOCKED |
-| PT-028 | 4 Commerce | Notifikasi booking & bayaran dengan consent, WhatsApp/email | BLOCKED |
-| PT-029 | 5 Governance | KYC guru, application & moderation Guru Luar, safety report, suspend workflow | IN_PROGRESS |
-| PT-030 | 5 Governance | Role permissions, consent ibu bapa, privacy & retention review untuk minor | BLOCKED |
+| PT-025 | 4 Commerce | Pakej, kadar guru, komisen IMAI, yuran, invoice & resit | CANCELLED |
+| PT-026 | 4 Commerce | Gateway Malaysia sandbox, signed webhooks + idempotent ledger | CANCELLED |
+| PT-027 | 4 Commerce | Refund, reconciliation, payout guru, tax/payment records | CANCELLED |
+| PT-028 | 4 Free Programme | Notifikasi dalam aplikasi untuk tempahan, kehadiran dan tugasan; skop penerima dan status baca | VERIFIED |
+| PT-029 | 5 Governance | KYC guru, application & moderation Guru Luar, safety report, suspend workflow | VERIFIED |
+| PT-030 | 5 Governance | Role permissions, consent ibu bapa, privacy & retention review untuk minor | VERIFIED |
 | PT-031 | 5 Governance | Production observability, access/error logs, rate limits, support ticket flow | VERIFIED |
 | PT-032 | 6 QA & Launch | CI typecheck, tests, content checks, accessibility, mobile smoke, UAT 4 role | VERIFIED |
 | PT-033 | 6 QA & Launch | Backup, staging rollout, rollback rehearsal, deployed health + production smoke | VERIFIED |
-| PT-034 | 6 QA & Launch | Publish release notes, TODO sync, operator manual, support readiness | IN_PROGRESS |
+| PT-034 | 6 QA & Launch | Publish release notes, TODO sync, operator manual, support readiness | VERIFIED |
 
 ## Execution milestones
 M0: PT-001–003 → M1: PT-004–013 → M2: PT-014–019 → M3: PT-020–024 → M4: PT-025–028 → M5: PT-029–031 → M6: PT-032–034.
@@ -114,6 +118,10 @@ M18 15 October 2026: corrected missing showcase artwork with four fictional role
 Audited all1,200 published readings/3,601 resources: previous125 visible graphical reading routes, now1,200 with local thematic artwork and resource-specific source-text maps.13 original transparent WebP themes total854,358bytes;338 authored paragraph illustrations retained. Library, teaching-first lessons, tutor selected notes and teacher text readers/previews integrated. Both content validators/build/typecheck/PWA and685/685 tests in123files,zero skips PASS. Actual browser28reading samples/56desktop-mobile captures cover12grades/13themes/multilingual text,320px enlarged text, map collapse and D1 picture frames, with no JS/console errors. See READING_GRAPHICS_AUDIT_20261015.md and full JSON/CSV inventory.26VERIFIED/6BLOCKED/2IN_PROGRESS and joint production-account UAT/provider gates unchanged. Promotion evidence is added to the release log after exact-commit CI and runtime verification.
 
 
-## M20 Teacher approval concurrency � 16 October 2026
+## M20 Teacher approval concurrency — 16 October 2026
 
 Fixed a reproduced PostgreSQL deadlock between applicant resubmission and admin approval by using account-before-application locks in both paths and reading the committed application after waiting. The real PostgreSQL regression verifies the updated approved profile and rejection of post-approval resubmission. See PRIVATE_TUITION_APPROVAL_CONCURRENCY_20261016.md. PT-029/PT-034 acceptance and the 26 VERIFIED / 6 BLOCKED / 2 IN_PROGRESS totals remain unchanged pending real operational evidence.
+
+## M21 Permanently free programme — 16 October 2026
+
+Owner changed the product from a paid-tuition roadmap to permanently free learning with voluntary coffee support, and approved retention review periods90/365/365. Paid requirements PT-025–027 are cancelled and preserved in history. Mandatory current KYC approval, factual privacy/current-policy disclosure, in-app-only notifications, retired commerce runtime/UI and API-safe PWA navigation are implemented and tested. Secure manual video links are evaluated as teacher-provided room integration; no actual external room/class is claimed. Active technical scope31 VERIFIED /3 CANCELLED; joint owner production-account UAT remains the next activity after coding. See FREE_STUDY_PROGRAMME_20261016.md and the release checkpoint for final promotion evidence.

@@ -6,26 +6,26 @@ type Decision="reviewed"|"needs_info"|"rejected";
 type Evidence={version:number;reviewerId:string;decision:Decision;caseReference:string;note:string;identityChecked:boolean;scopeChecked:boolean;safetyChecked:boolean;createdAt:string;matchesApplication:boolean};
 type Review={version:number;applicationFingerprint:string;status:Decision|"unreviewed"|"stale";history:Evidence[]};
 const labels:Record<Review["status"],string>={unreviewed:"Belum direkodkan",stale:"Permohonan berubah — semak semula",reviewed:"Bukti disemak",needs_info:"Perlu maklumat",rejected:"Bukti ditolak"};
-export function AdminTeacherKyc({applicationId}:{applicationId:string}){
+export function AdminTeacherKyc({applicationId,onStatusChange}:{applicationId:string;onStatusChange?:(id:string,ready:boolean)=>void}){
   const [open,setOpen]=useState(false),[refresh,setRefresh]=useState(0),[review,setReview]=useState<Review|null>(null);
   const [loading,setLoading]=useState(false),[busy,setBusy]=useState(false),[error,setError]=useState(""),[notice,setNotice]=useState("");
   const [decision,setDecision]=useState<Decision>("needs_info"),[reference,setReference]=useState(""),[note,setNote]=useState("");
   const [identity,setIdentity]=useState(false),[scope,setScope]=useState(false),[safety,setSafety]=useState(false);
   const [requestId,setRequestId]=useState(()=>crypto.randomUUID());
   useEffect(()=>{
-    if(!open)return;const controller=new AbortController();setLoading(true);setReview(null);setError("");
+    if(!open)return;const controller=new AbortController();setLoading(true);setReview(null);setError("");onStatusChange?.(applicationId,false);
     void tuitionRequest<{review:Review}>(`/admin/teacher-applications/${applicationId}/kyc`,{signal:controller.signal})
-      .then(data=>{if(!controller.signal.aborted)setReview(data.review);})
+      .then(data=>{if(!controller.signal.aborted){setReview(data.review);onStatusChange?.(applicationId,data.review.status==="reviewed");}})
       .catch(()=>{if(!controller.signal.aborted)setError("Rekod bukti belum dapat dimuatkan.");})
       .finally(()=>{if(!controller.signal.aborted)setLoading(false);});
     return()=>controller.abort();
-  },[open,applicationId,refresh]);
+  },[open,applicationId,refresh,onStatusChange]);
   const changed=()=>{setRequestId(crypto.randomUUID());setNotice("");};
   const submit=async(event:React.FormEvent)=>{
     event.preventDefault();if(busy||!review)return;setBusy(true);setError("");setNotice("");
     try{
       const result=await tuitionRequest<{review:Review}>(`/admin/teacher-applications/${applicationId}/kyc`,{method:"POST",body:JSON.stringify({expectedVersion:review.version,applicationFingerprint:review.applicationFingerprint,clientRequestId:requestId,decision,caseReference:reference.trim(),note:note.trim(),identityChecked:identity,scopeChecked:scope,safetyChecked:safety})});
-      setReview(result.review);setRequestId(crypto.randomUUID());setReference("");setNote("");setIdentity(false);setScope(false);setSafety(false);setDecision("needs_info");setNotice("Rekod bukti semakan disimpan. Keputusan akses guru diurus berasingan.");
+      setReview(result.review);onStatusChange?.(applicationId,result.review.status==="reviewed");setRequestId(crypto.randomUUID());setReference("");setNote("");setIdentity(false);setScope(false);setSafety(false);setDecision("needs_info");setNotice("Rekod bukti semakan disimpan. Keputusan akses guru diurus berasingan.");
     }catch(caught){
       const code=caught instanceof Error?caught.message:"";
       if(code==="APPLICATION_CHANGED"){setIdentity(false);setScope(false);setSafety(false);}

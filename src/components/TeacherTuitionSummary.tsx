@@ -1,4 +1,4 @@
-import { BookOpenCheck, CalendarClock, CircleDollarSign, ClipboardCheck, GraduationCap, Users } from "lucide-react";
+import { BookOpenCheck, CalendarClock, HeartHandshake, ClipboardCheck, GraduationCap, Users } from "lucide-react";
 import type { TeacherClass, TeacherEnrollment, TeacherNetworkProfile } from "../lib/teacherNetworkApi";
 import "./TeacherTuitionSummary.css";
 
@@ -25,7 +25,7 @@ export function TeacherTuitionSummary({ profile, classes, enrollments, materialC
     </div>
     <div className="teacherTuitionComing">
       <div><CalendarClock aria-hidden="true"/><span><strong>Jadual kelas</strong><small>Urus slot dan permohonan dalam Jadual ketersediaan di bawah. Kelas aktif tidak semestinya mempunyai sesi yang dijadualkan.</small></span></div>
-      <div><CircleDollarSign aria-hidden="true"/><span><strong>Rekod kewangan guru</strong><small>Semak peruntukan dan draf bayaran sandbox. Ujian tanpa caj tidak menghasilkan pendapatan. <a href="#academy-earnings">Buka rekod kewangan</a></small></span></div>
+      <div><HeartHandshake aria-hidden="true"/><span><strong>Berkongsi ilmu secara percuma</strong><small>Tiada yuran kelas atau komisen guru. Sokongan Buy me ☕ adalah sukarela dan tidak menentukan akses murid.</small></span></div>
     </div>
   </section>;
 }

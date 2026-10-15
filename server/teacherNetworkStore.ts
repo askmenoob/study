@@ -1,3 +1,4 @@
+import {assertTeacherKycReviewed} from "./teacherKyc.js";
 import { createHash, randomBytes, randomUUID } from "node:crypto";
 import type { Pool, PoolClient } from "pg";
 import { accessError } from "./familyAccess.js";
@@ -242,7 +243,7 @@ async function audit(client: Pick<PoolClient, "query">, actorId: string, action:
 }
 
 export class PostgresTeacherNetworkRepository {
-  constructor(private readonly pool: Pool, private readonly joinCodeSecret = teacherJoinCodeSecret()) {}
+  constructor(private readonly pool: Pool, private readonly joinCodeSecret = teacherJoinCodeSecret(), private readonly options:{requireKycReview?:boolean}={}) {}
 
   async submitApplication(userId: string, input: TeacherApplicationInput) {
     const client = await this.pool.connect();
@@ -339,6 +340,7 @@ export class PostgresTeacherNetworkRepository {
       if (!['pending','needs_info'].includes(application.status)) throw accessError("TEACHER_APPLICATION_STATE_CONFLICT", 409);
       if (!note) throw accessError("REVIEW_NOTE_REQUIRED", 400);
       if (decision === "approve") {
+        if(this.options.requireKycReview)await assertTeacherKycReviewed(client,applicationId);
         const finalSchoolName = schoolDisplayName?.trim() || application.school_name;
         const normalized = normalizeSchool(finalSchoolName);
         const schoolResult = await client.query(`INSERT INTO schools(id,display_name,normalized_name,state,district)

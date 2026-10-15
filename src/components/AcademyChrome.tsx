@@ -32,7 +32,6 @@ const teachingLinks=[
   {label:"Jadual Kelas",target:"academy-schedule",Icon:CalendarDays},
   {label:"Tugasan & Pelajar",target:"academy-homework",Icon:ClipboardCheck},
   {label:"Bahan Mengajar",target:"academy-materials",Icon:LibraryBig},
-  {label:"Rekod Kewangan",target:"academy-earnings",Icon:ChartNoAxesColumnIncreasing},
   {label:"Profil & Tetapan",target:"academy-teacher-settings",Icon:Settings},
 ];
 const adminLinks=[
@@ -42,8 +41,6 @@ const adminLinks=[
   {label:"Kelas & Permohonan",target:"academy-admin-operations",Icon:BookOpenCheck},
   {label:"Moderasi",target:"admin-feedback-triage",Icon:ShieldCheck},
   {label:"Inbox",target:"admin-feedback-heading",Icon:MessageSquare},
-  {label:"Pakej sandbox",target:"academy-commerce",Icon:ClipboardCheck},
-  {label:"Rekod Kewangan",target:"academy-finance",Icon:ChartNoAxesColumnIncreasing},
   {label:"Persediaan aplikasi",target:"academy-readiness",Icon:Settings},
   {label:"Privasi & Retention",target:"academy-retention",Icon:ShieldCheck},
 ];

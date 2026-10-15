@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
-import { AdminTuitionCommerce } from "./AdminTuitionCommerce";
+
 import { AdminTuitionVideo } from "./TuitionVideo";
-import { AdminTuitionNotificationOutbox } from "./TuitionNotificationPreferences";
 import { AdminTuitionRetention } from "./AdminTuitionRetention";
-import {AdminTuitionPayouts,AdminTuitionAccounting} from "./TuitionFinance";
+
 import {AdminTuitionReadiness} from "./AdminTuitionReadiness";
 import { Inbox, LogOut, RefreshCw, ShieldCheck } from "lucide-react";
 import { FeedbackApiError, feedbackApi, type AdminFeedback, type FeedbackCategory } from "../lib/feedbackApi";
@@ -72,10 +71,10 @@ export function AdminFeedbackInbox({ email, onLogout }: { email?: string; onLogo
       <div id="academy-users"><AdminUserDirectory /></div>
       <AdminTeacherPanel />
       <AdminTuitionReadiness />
-      <AdminTuitionCommerce />
-      <div id="academy-finance"><AdminTuitionPayouts /><AdminTuitionAccounting /></div>
+
+
       <AdminTuitionVideo />
-      <AdminTuitionNotificationOutbox />
+
       <AdminTuitionRetention />
       <AdminFeedbackTriage />
       <section aria-labelledby="admin-feedback-heading" aria-busy={busy}>

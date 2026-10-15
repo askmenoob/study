@@ -1,3 +1,4 @@
+import {freeStudyPolicy,registerFreeStudyRoutes} from "./freeStudy.js";
 import Fastify, { LogController } from "fastify";
 import cors from "@fastify/cors";
 import jwt from "@fastify/jwt";
@@ -32,23 +33,17 @@ import { migrateTuitionLearning, TuitionLearningRepository } from "./tuitionLear
 import { registerTuitionLearningRoutes } from "./tuitionLearningRoutes.js";
 import { migrateTeacherKyc, TeacherKycRepository } from "./teacherKyc.js";
 import { registerTeacherKycRoutes } from "./teacherKycRoutes.js";
-import { migrateTuitionCommerce,TuitionCommerceRepository } from "./tuitionCommerce.js";
-import { TuitionPaymentService } from "./tuitionPaymentService.js";
-import { registerTuitionCommerceRoutes } from "./tuitionCommerceRoutes.js";
+import { migrateTuitionCommerce } from "./tuitionCommerce.js";
 import { migrateTuitionVideo,TuitionVideoRepository } from "./tuitionVideo.js";
 import { registerTuitionVideoRoutes } from "./tuitionVideoRoutes.js";
 import { migrateTuitionNotificationDelivery,TuitionNotificationDelivery } from "./tuitionNotificationDelivery.js";
 import { registerTuitionNotificationRoutes } from "./tuitionNotificationRoutes.js";
-import { configuredTuitionAdapters } from "./tuitionEmailAdapter.js";
-import {migrateTuitionPayouts,TuitionPayoutRepository} from "./tuitionPayouts.js";
-import {registerTuitionPayoutRoutes} from "./tuitionPayoutRoutes.js";
+import {migrateTuitionPayouts} from "./tuitionPayouts.js";
 import {tuitionAdminReadiness} from "./tuitionReadiness.js";
 import {registerTuitionReadinessRoutes} from "./tuitionReadinessRoutes.js";
-import {tuitionAccountingRecords} from "./tuitionAccounting.js";
-import {registerTuitionAccountingRoutes} from "./tuitionAccountingRoutes.js";
 import {migrateWhatsAppDeliveryReceipts,TuitionWhatsAppReceiptRepository} from "./tuitionWhatsAppReceipts.js";
 import {registerWhatsAppReceiptRoutes} from "./tuitionWhatsAppReceiptRoutes.js";
-import { migrateTuitionRetention,TuitionRetentionRepository } from "./tuitionRetention.js";
+import { migrateTuitionRetention,TuitionRetentionRepository,publicStudyPrivacy } from "./tuitionRetention.js";
 import { registerTuitionRetentionRoutes } from "./tuitionRetentionRoutes.js";
 
 const port = Number(process.env.PORT ?? 4181);
@@ -144,7 +139,7 @@ function allowAi(key:string, limit:number) {
 
 app.get("/api/health", async () => {
   await pool.query("SELECT 1");
-  return { service: "imai-study-api", status: "ok", version: "1.6.0", ai: geminiStatus(), checkedAt: new Date().toISOString() };
+  return { service: "imai-study-api", status: "ok", version: "1.6.0", program: freeStudyPolicy, ai: geminiStatus(), checkedAt: new Date().toISOString() };
 });
 
 const registerBody = z.object({
@@ -212,7 +207,7 @@ app.setErrorHandler((error: any, _request, reply) => {
   if (["CHALLENGE_COMPLETED", "CHALLENGE_CONTENT_INVALID", "CHALLENGE_CONTEXT_CHANGED", "CHALLENGE_LEVEL_CHANGED", "CHALLENGE_NOT_FOUND", "CHALLENGE_QUESTIONS_UNAVAILABLE", "ANSWER_LOCKED", "INDEX_OUT_OF_ORDER", "SUBJECT_UNAVAILABLE"].includes(error.code)) {
     return reply.code(error.statusCode ?? 400).send({ error: error.code });
   }
-  if (["SESSION_EXPIRED", "PARENT_ACCESS_REQUIRED", "TEACHER_ACCESS_REQUIRED", "TEACHER_LEVEL_ACCESS_REQUIRED", "TEACHER_SCOPE_REQUIRED", "SUPER_ADMIN_ACCESS_REQUIRED", "SUPER_ADMIN_ROLE_LOCKED", "TEACHER_ACCOUNT_HAS_STUDENTS", "MATERIAL_REQUEST_CONFLICT", "MATERIAL_RATE_LIMIT", "MATERIAL_STATE_CONFLICT", "STUDENT_ACCESS_DENIED", "DUPLICATE_STUDENT", "STUDENT_NOT_FOUND", "USER_NOT_FOUND", "INVALID_INPUT", "ROLE_ACCESS_REQUIRED", "TEACHER_ALREADY_APPROVED", "TEACHER_APPLICATION_NOT_FOUND", "TEACHER_APPLICATION_STATE_CONFLICT", "REVIEW_NOTE_REQUIRED", "TEACHER_CLASS_NOT_FOUND", "CLASS_CODE_UNAVAILABLE", "CLASS_LEVEL_MISMATCH", "SUBJECT_CLASS_CONFLICT", "SUBJECT_CLASS_REQUEST_PENDING", "ENROLLMENT_NOT_FOUND", "ENROLLMENT_STATE_CONFLICT", "TEACHER_NOT_FOUND", "SESSION_ENDED", "FOCUS_SESSION_NOT_FOUND", "LINK_NOT_FOUND", "LINK_UNAVAILABLE",
+  if (["SESSION_EXPIRED", "PARENT_ACCESS_REQUIRED", "TEACHER_ACCESS_REQUIRED", "TEACHER_LEVEL_ACCESS_REQUIRED", "TEACHER_SCOPE_REQUIRED", "SUPER_ADMIN_ACCESS_REQUIRED", "SUPER_ADMIN_ROLE_LOCKED", "TEACHER_ACCOUNT_HAS_STUDENTS", "MATERIAL_REQUEST_CONFLICT", "MATERIAL_RATE_LIMIT", "MATERIAL_STATE_CONFLICT", "STUDENT_ACCESS_DENIED", "DUPLICATE_STUDENT", "STUDENT_NOT_FOUND", "USER_NOT_FOUND", "INVALID_INPUT", "ROLE_ACCESS_REQUIRED", "TEACHER_ALREADY_APPROVED", "TEACHER_KYC_REQUIRED", "TEACHER_APPLICATION_NOT_FOUND", "TEACHER_APPLICATION_STATE_CONFLICT", "REVIEW_NOTE_REQUIRED", "TEACHER_CLASS_NOT_FOUND", "CLASS_CODE_UNAVAILABLE", "CLASS_LEVEL_MISMATCH", "SUBJECT_CLASS_CONFLICT", "SUBJECT_CLASS_REQUEST_PENDING", "ENROLLMENT_NOT_FOUND", "ENROLLMENT_STATE_CONFLICT", "TEACHER_NOT_FOUND", "SESSION_ENDED", "FOCUS_SESSION_NOT_FOUND", "LINK_NOT_FOUND", "LINK_UNAVAILABLE",
     "PAPER_UNAVAILABLE", "ATTEMPT_NOT_FOUND", "REVISION_CONFLICT", "ATTEMPT_SUBMITTED", "CHECKED_ANSWER_LOCKED", "SIMULATION_NO_HINTS", "TIME_EXPIRED", "REQUEST_KEY_CONFLICT", "ATTEMPT_LIMIT_REACHED", "RETRY_ALREADY_EXISTS"].includes(error.code)) {
     return reply.code(error.statusCode).send({ error: error.code });
   }
@@ -454,28 +449,25 @@ registerFeedbackRoutes(
 registerFeedbackTriageRoutes(app, new PostgresFeedbackTriageRepository(pool), superAdminAuth);
 registerAdminUserRoutes(app, new PostgresAdminUserRepository(pool), superAdminAuth);
 registerTeacherContentRoutes(app, new PostgresTeacherContentRepository(pool), { auth, teacherAuth, superAdminAuth });
-registerTeacherNetworkRoutes(app, new PostgresTeacherNetworkRepository(pool), { auth, parentAuth, teacherAuth, superAdminAuth });
+registerTeacherNetworkRoutes(app, new PostgresTeacherNetworkRepository(pool,undefined,{requireKycReview:true}), { auth, parentAuth, teacherAuth, superAdminAuth });
 await migrateTuitionBooking(pool);
 registerTuitionBookingRoutes(app, new TuitionBookingRepository(pool), { auth, parentAuth, teacherAuth });
 await migrateTuitionLearning(pool);
 await migrateTuitionCommerce(pool);
 await migrateTuitionPayouts(pool);
-registerTuitionPayoutRoutes(app,new TuitionPayoutRepository(pool),{teacherAuth,superAdminAuth});
 await migrateTuitionVideo(pool);
 await migrateTuitionNotificationDelivery(pool);
 await migrateWhatsAppDeliveryReceipts(pool);
 registerWhatsAppReceiptRoutes(app,new TuitionWhatsAppReceiptRepository(pool));
 await migrateTuitionRetention(pool);
 registerTuitionReadinessRoutes(app,actor=>tuitionAdminReadiness(pool,actor),superAdminAuth);
-registerTuitionAccountingRoutes(app,(actor,input)=>tuitionAccountingRecords(pool,actor,input),superAdminAuth);
 registerTuitionRetentionRoutes(app,new TuitionRetentionRepository(pool),superAdminAuth);
-const tuitionAdapters=configuredTuitionAdapters();
+const tuitionAdapters=(_channel?:string)=>null;
 const tuitionDelivery=new TuitionNotificationDelivery(pool,tuitionAdapters);
-const tuitionWorkerEnabled=process.env.TUITION_NOTIFICATION_WORKER_ENABLED==="true"&&(!!tuitionAdapters("email")||!!tuitionAdapters("whatsapp"));
+const tuitionWorkerEnabled=false;
 registerTuitionNotificationRoutes(app,tuitionDelivery,{auth,superAdminAuth},()=>({workerEnabled:tuitionWorkerEnabled,providerConfigured:!!tuitionAdapters("email")||!!tuitionAdapters("whatsapp")}));
 registerTuitionVideoRoutes(app,new TuitionVideoRepository(pool),{auth,teacherAuth,superAdminAuth});
-const tuitionCommerce=new TuitionCommerceRepository(pool);
-registerTuitionCommerceRoutes(app,tuitionCommerce,new TuitionPaymentService(tuitionCommerce),{parentAuth,superAdminAuth});
+registerFreeStudyRoutes(app,{parentAuth,teacherAuth,superAdminAuth},()=>publicStudyPrivacy(pool));
 registerTuitionLearningRoutes(app, new TuitionLearningRepository(pool), { auth, teacherAuth });
 await app.listen({ host: process.env.API_HOST ?? "0.0.0.0", port });
 let deliveryTask:Promise<void>|undefined;

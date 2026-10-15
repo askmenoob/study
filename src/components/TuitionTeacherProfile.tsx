@@ -48,7 +48,7 @@ export function TuitionTeacherDetails({ teacher, hasStudent, onConnect, onManage
       <aside className="tuitionProfileAside">
         <div className="tuitionProfileBooking"><CalendarClock aria-hidden="true"/>
           <h2>Hubungkan kelas anak</h2>
-          <p>Slot yang diterbitkan guru boleh dipohon di bawah. Harga tuisyen dan pembayaran belum dibuka.</p>
+          <p>Slot yang diterbitkan guru boleh dipohon di bawah. Kelas dan pembelajaran adalah percuma sepenuhnya.</p>
           <p>Jika cikgu telah memberikan kod jemputan kelas, ibu bapa boleh memasukkannya dalam menu Guru Saya. Penyertaan memerlukan pengesahan guru.</p>
           <button className="primary" type="button" onClick={hasStudent ? onConnect : onManage}>
             {hasStudent ? "Masukkan kod kelas" : "Tambah profil anak"} <ArrowRight aria-hidden="true"/>

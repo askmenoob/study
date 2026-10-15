@@ -17,7 +17,7 @@ export function TuitionSlotBooking({teacherId,studentId,replacesBookingId,onBook
     setSaving(true);setError("");try{await tuitionApi.book(slotId,studentId,requestId,replacesBookingId);setNotice("Permohonan direkodkan. Tunggu pengesahan guru. Tiada bayaran dibuat.");setSlotId("");setConsent(false);setRequestId(crypto.randomUUID());setRefresh(n=>n+1);onBooked?.();}
     catch(caught){setError(tuitionError(caught));}finally{setSaving(false);}};
   return <section className="tuitionSchedule" aria-label="Slot kelas guru"><h2>{replacesBookingId?"Mohon ubah masa":"Jadual tersedia"}</h2><p>Semua waktu ialah waktu Malaysia (Asia/Kuala_Lumpur). Permohonan memerlukan pengesahan guru.</p>
-    {replacesBookingId&&<p>Tempahan asal dibatalkan hanya apabila permohonan masa baharu berjaya disimpan. Masa baharu perlu pengesahan guru. Polisi bayaran: tiada refund.</p>}
+    {replacesBookingId&&<p>Tempahan asal dibatalkan hanya apabila permohonan masa baharu berjaya disimpan. Masa baharu perlu pengesahan guru. Tiada caj untuk tempahan atau pertukaran waktu.</p>}
     {busy&&<p role="status">Memuatkan slot...</p>}{error&&<p role="alert">{error}</p>}{notice&&<p role="status">{notice}</p>}
     {!busy&&!error&&slots.length===0&&<p>Guru belum menerbitkan slot kelas.</p>}
     {slots.length>0&&<form onSubmit={submit}><label>Slot kelas<select aria-label="Slot kelas" required value={slotId} disabled={saving} onChange={e=>{setSlotId(e.target.value);setRequestId(crypto.randomUUID());setConsent(false);}}><option value="">Pilih masa</option>

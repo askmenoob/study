@@ -26,7 +26,7 @@ export function TuitionAdminMetrics({ summary }: { summary: TuitionAdminSummary 
       <a href="#admin-tuition-applications">Semak guru <ClipboardCheck aria-hidden="true"/></a>
       <a href="#admin-teacher-heading">Semakan bahan <BookOpenCheck aria-hidden="true"/></a>
       <a href="#admin-feedback-triage">Inbox masalah <MessageSquareWarning aria-hidden="true"/></a>
-      <a href="#academy-readiness">Persediaan aplikasi <ClipboardCheck aria-hidden="true"/></a><a href="#academy-commerce">Pakej sandbox <ClipboardCheck aria-hidden="true"/></a>
+      <a href="#academy-readiness">Persediaan aplikasi <ClipboardCheck aria-hidden="true"/></a>
     </nav>
   </>;
 }
@@ -54,6 +54,6 @@ export function AdminTuitionOverview() {
     {busy && <p className="adminTuitionLoading" role="status">Memuatkan ringkasan operasi...</p>}
     {error && <div role="alert" className="adminTuitionError"><p>{error}</p><button type="button" className="miniButton" onClick={() => setRefresh((n) => n + 1)}>Cuba lagi</button></div>}
     {!busy && !error && summary && <TuitionAdminMetrics summary={summary}/>}
-    <p className="adminTuitionFootnote">Kelas aktif merujuk rekod kelas dengan guru aktif yang diluluskan; sambungan aktif ialah pengesahan kelas, bukan kehadiran atau tempahan waktu. Pendaftaran, bayaran dan komisen tuisyen belum diaktifkan.</p>
+    <p className="adminTuitionFootnote">Kelas aktif merujuk rekod kelas dengan guru aktif yang diluluskan; sambungan aktif ialah pengesahan kelas, bukan kehadiran atau tempahan waktu. Program ini percuma sepenuhnya; tiada yuran kelas atau komisen guru.</p>
   </section>;
 }

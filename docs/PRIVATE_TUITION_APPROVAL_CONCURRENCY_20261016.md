@@ -1,4 +1,4 @@
-# Teacher application approval concurrency — 16 October 2026
+# Teacher application approval concurrency â€” 16 October 2026
 
 ## Observable defect and correction
 
@@ -18,4 +18,4 @@ Full integrated verification: 686 tests in 123 files, zero skips; TypeScript, we
 
 This corrects the application/approval implementation in PT-029 and supports PT-034 operational readiness. Their full acceptance remains open: real teacher identity evidence and approved verification criteria, joint production-account UAT and support acceptance are still required. The canonical totals remain 26 VERIFIED, 6 BLOCKED and 2 IN_PROGRESS.
 
-PT-018, PT-025–028 and PT-030 retain the recorded provider, commercial or privacy dependencies. ToyyibPay checkout and the external notification worker remain disabled, video remains unconfigured, retention periods remain unapproved and no paid transactions, external notifications or destructive retention action are performed.
+PT-018, PT-025â€“028 and PT-030 retain the recorded provider, commercial or privacy dependencies. ToyyibPay checkout and the external notification worker remain disabled, video remains unconfigured, retention periods remain unapproved and no paid transactions, external notifications or destructive retention action are performed.

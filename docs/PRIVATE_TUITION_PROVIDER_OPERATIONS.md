@@ -1,5 +1,7 @@
 # Tuition provider and governance operations
 
+> 16 October 2026: the commercial roadmap below is superseded by the permanently free programme. Class checkout, rates, invoices, commissions and payouts are retired, and external notification workers are off. Use [the free programme guide](FREE_STUDY_PROGRAMME_20261016.md) as the current operational contract. Legacy contracts are retained only for history.
+
 This extends the booking/homework/KYC release. The normal production Compose configuration activates no ToyyibPay checkout, video policy, email/WhatsApp worker or retention deletion. QA examples are synthetic and are never business rate/policy approvals.
 
 ## Sandbox commerce

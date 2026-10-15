@@ -24,7 +24,7 @@ export default defineConfig({
       registerType: "autoUpdate",
       injectRegister: "inline",
       // Inline registration needs explicit activation options in this plugin.
-      workbox: { skipWaiting: true, clientsClaim: true, globPatterns: ["**/*.{js,wasm,css,html,webp}"] },
+      workbox: { skipWaiting: true, clientsClaim: true, navigateFallbackDenylist: [/^\/api(?:\/|$)/], globPatterns: ["**/*.{js,wasm,css,html,webp}"] },
       includeAssets: ["icons/academy-apple-180.png", "icons/academy-favicon-32.png", "donation/duitnow-nik-azfar.jpg"],
       manifest: {
         id: "/",

@@ -69,12 +69,12 @@ export function TuitionTeacherDirectory({ onConnect, onManage, hasStudent, stude
         <div className="tuitionMeta"><MapPin aria-hidden="true"/> {teacher.state}</div>
         <p className="tuitionCardLabel">Subjek</p><div className="tuitionTags">{teacher.subjectIds.map((id) => <span key={id}>{subjectLabel(id)}</span>)}</div>
         <p className="tuitionCardLabel">Tahap</p><p className="tuitionLevels">{teacher.levelIds.map(levelLabel).join(" · ")}</p>
-        <p className="tuitionCardDisclaimer">Lihat slot tersedia dalam profil guru. Permohonan memerlukan pengesahan guru. Pembayaran belum dibuka.</p>
+        <p className="tuitionCardDisclaimer">Lihat slot tersedia dalam profil guru. Permohonan memerlukan pengesahan guru. Kelas dan pembelajaran adalah percuma.</p>
         <button type="button" className="primary tuitionCardAction" onClick={() => setSelectedTeacherId(teacher.id)}>
           Lihat profil guru <BookOpenCheck aria-hidden="true"/>
         </button>
       </article>)}
     </div>}
-    <p className="tuitionFootnote">Direktori ini hanya memaparkan guru aktif yang diluluskan. Waktu slot ialah waktu Malaysia. Pembayaran belum dibuka.</p>
+    <p className="tuitionFootnote">Direktori ini hanya memaparkan guru aktif yang diluluskan. Waktu slot ialah waktu Malaysia. Kelas dan pembelajaran adalah percuma.</p>
   </main>;
 }

@@ -1,5 +1,7 @@
 # Private Tuition operator guide
 
+> 16 October 2026: the commercial roadmap below is superseded by the permanently free programme. Class checkout, rates, invoices, commissions and payouts are retired, and external notification workers are off. Use [the free programme guide](FREE_STUDY_PROGRAMME_20261016.md) as the current operational contract. Legacy contracts are retained only for history.
+
 14 October 2026. This guide describes booking and learning. The current sandbox commerce, private video-link, notification consent and retention-preview implementation is documented in [PRIVATE_TUITION_PROVIDER_OPERATIONS.md](PRIVATE_TUITION_PROVIDER_OPERATIONS.md). Provider activation, real payments, account changes and actual external test sends still require their operational prerequisites.
 
 ## Booking

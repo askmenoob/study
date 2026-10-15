@@ -32,6 +32,11 @@ const hash=(value:unknown)=>createHash("sha256").update(JSON.stringify(value)).d
 const recordSelect=`SELECT version,reviewer_id AS "reviewerId",decision,case_reference AS "caseReference",note,
  identity_checked AS "identityChecked",scope_checked AS "scopeChecked",safety_checked AS "safetyChecked",
  created_at AS "createdAt",application_fingerprint FROM teacher_kyc_reviews WHERE application_id=$1 ORDER BY version DESC LIMIT 20`;
+export async function assertTeacherKycReviewed(client:Client,id:string){
+ const source=(await client.query(`SELECT to_jsonb(a)-'review_note'-'reviewed_by'-'reviewed_at'-'updated_at'-'status' AS source FROM teacher_applications a WHERE id=$1`,[id])).rows[0];
+ const latest=(await client.query("SELECT decision,identity_checked,scope_checked,safety_checked,application_fingerprint FROM teacher_kyc_reviews WHERE application_id=$1 ORDER BY version DESC LIMIT 1",[id])).rows[0];
+ if(!source||!latest||latest.decision!=="reviewed"||!latest.identity_checked||!latest.scope_checked||!latest.safety_checked||latest.application_fingerprint!==hash(source.source))throw accessError("TEACHER_KYC_REQUIRED",409);
+}
 export class TeacherKycRepository {
   constructor(private pool:Pool){}
   private async admin(client:Client,id:string,lock=false){

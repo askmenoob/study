@@ -1,3 +1,4 @@
+import {migrateTeacherKyc,TeacherKycRepository} from "./teacherKyc.js";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { randomUUID } from "node:crypto";
 import { mkdtemp, rm, writeFile } from "node:fs/promises";
@@ -83,6 +84,24 @@ describe.skipIf(!databaseUrl)("teacher network against disposable PostgreSQL", (
       if(approval)await approval;
     }
   },10000);
+
+  it("requires a current complete KYC review in the production approval policy",async()=>{
+    await migrateTeacherKyc(pool);
+    const applicantId=randomUUID();
+    await pool.query("INSERT INTO users(id,email,password_hash,display_name,role) VALUES($1,$2,'unused','KYC QA Applicant','parent')",[applicantId,`${applicantId}@tests.invalid`]);
+    const app=await network.submitApplication(applicantId,{fullName:"KYC QA Applicant",publicName:"Cikgu KYC",schoolName:"SK KYC QA",state:"Selangor",district:"Petaling",positionTitle:"Guru Akademik",academicYear:2026,levelIds:["d1"],subjectIds:["bm"],identityAttested:true,termsAttested:true});
+    const secured=new PostgresTeacherNetworkRepository(pool,undefined,{requireKycReview:true}),kyc=new TeacherKycRepository(pool);
+    const approve=()=>secured.reviewApplication(app.id,adminId,"approve","Synthetic approval acceptance only.");
+    await expect(approve()).rejects.toMatchObject({code:"TEACHER_KYC_REQUIRED",statusCode:409});
+    const record=async(decision:"reviewed"|"needs_info"|"rejected")=>{const view=await kyc.read(adminId,app.id);return kyc.record(adminId,app.id,{expectedVersion:view.version,applicationFingerprint:view.applicationFingerprint,clientRequestId:randomUUID(),decision,caseReference:"CASE-QA-FREE",note:"Synthetic identity scope and safety review only.",identityChecked:decision==="reviewed",scopeChecked:decision==="reviewed",safetyChecked:decision==="reviewed"});};
+    await record("needs_info");await expect(approve()).rejects.toMatchObject({code:"TEACHER_KYC_REQUIRED"});
+    await record("reviewed");await record("rejected");await expect(approve()).rejects.toMatchObject({code:"TEACHER_KYC_REQUIRED"});
+    await record("reviewed");await pool.query("UPDATE teacher_applications SET public_name='Cikgu Updated KYC' WHERE id=$1",[app.id]);
+    await expect(approve()).rejects.toMatchObject({code:"TEACHER_KYC_REQUIRED"});
+    expect((await pool.query("SELECT status FROM teacher_applications WHERE id=$1",[app.id])).rows[0].status).toBe("pending");
+    expect((await pool.query("SELECT count(*)::int AS count FROM teacher_profiles WHERE user_id=$1",[applicantId])).rows[0].count).toBe(0);
+    await record("reviewed");expect(await approve()).toMatchObject({status:"approved",publicName:"Cikgu Updated KYC"});
+  });
 
   it("requires parent consent then teacher acceptance before activating a class",async()=>{
     await expect(network.setTuitionDetails(parentId,teacherId,{experienceYears:5,qualifications:"Diploma Pendidikan",reviewNote:"Sijil dan pengalaman disemak."})).rejects.toMatchObject({code:"SUPER_ADMIN_ACCESS_REQUIRED"});
