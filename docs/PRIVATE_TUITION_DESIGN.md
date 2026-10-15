@@ -42,3 +42,7 @@ Forms use two equal columns above 640px and one column at or below 640px. Deskto
 ## Verification boundaries
 
 Browser UAT uses synthetic staging accounts and a disposable PostgreSQL database. Passing staging UAT proves the implemented interaction, rather than a live provider transaction or third-party service. Runtime/deployment evidence is recorded separately in the TODO and release log.
+
+## Approved showcase refinement — 15 October 2026
+
+The user reissued the approved four-role showcase as the controlling target. Compact dashboard composition, real next-session previews, recorded progress/activity, parent child-first overview, teacher teaching desk and admin application/feedback previews are implemented. All 20 required role/viewport cases pass; real QA booking/selection/authorization and 22 existing detail states pass. Full suite: 680/680 tests in 122 files, zero skipped. See STUDY_SHOWCASE_ACCEPTANCE_20261015.md for the comparison ledger, copy audit and intentional deviations. This evidence does not change the 26 VERIFIED / 6 BLOCKED / 2 IN_PROGRESS master status, activate providers, or claim the joint full-app UAT is complete.

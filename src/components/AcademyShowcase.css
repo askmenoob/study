@@ -1,0 +1,364 @@
+/* Approved Smart Academy dashboard composition. Extends the existing shared tokens. */
+:root,.academyUnified {
+ --academy-border:#dfeaf8;--academy-green:#22a879;--academy-orange:#f4a340;--academy-purple:#7952c8;
+ --academy-radius:16px;--academy-shadow:0 4px 18px #16325a05;
+}
+.academyUnified :is(h1,h2,h3,h4,p,button,a,span,strong,small,input,select,textarea,dl) {font-family:inherit}
+.academyUnified :is(h1,h2,h3) {font-weight:750}
+.academyUnified .focusSidebar,.academyWorkspaceSidebar {width:220px;padding:24px 16px}
+.academyUnified .focusMain {margin-left:220px}
+.teacherShell.academyUnified,.adminFeedbackShell.academyUnified {padding-left:0}
+.academyUnified.teacherShell .teacherHeader,.academyUnified.adminFeedbackShell .adminFeedbackHeader {margin-left:220px}
+.academyUnified.teacherShell .teacherMain,.academyUnified.adminFeedbackShell .adminFeedbackMain {margin-left:220px;width:calc(100% - 220px);padding:24px 28px 90px}
+.academyUnified.teacherShell .teacherTitle,.academyUnified.adminFeedbackShell .adminDashboardTitle {background:transparent;border:0;border-radius:0;padding:0;min-height:68px;margin-bottom:20px}
+.academyUnified .focusSidebar nav {margin-top:34px;gap:5px}
+.academyUnified .focusSidebar nav button,.academyWorkspaceSidebar nav a {min-height:44px;font-size:13px;padding:10px 12px;border-radius:9px;gap:11px}
+.academyWorkspaceSidebar nav {gap:5px}
+.academyWorkspaceSidebar nav svg,.academyUnified .focusSidebar nav button svg {width:18px;height:18px;flex-shrink:0}
+.academyUnified .focusBrand b,.academyWorkspaceBrand strong {font-size:16px}
+.academyUnified .focusBrand>span:last-child {letter-spacing:-.035em}
+.academySidebarLabel {margin-top:34px;margin-bottom:12px;font-size:10px}
+.academySidebarInfo {padding:16px;border-radius:14px}
+.academyUnified .focusSidebarBottom {gap:7px}
+.academyUnified .focusAccount {padding:14px 0}
+.academyUnified .focusSidebarBottom>button {min-height:40px}
+.academyUnified .academyTopbar {height:66px;min-height:66px;padding:10px 28px;position:relative;top:auto}
+.academyTopbarEyebrow {font-size:10px;letter-spacing:.04em}
+.academyTopbarContext {gap:4px}
+.academyTopbarContext>div strong {font-size:13px}
+.academyBreadcrumb {font-size:12px}
+.academyRoleBadge {font-size:11px;padding:6px 9px}
+.academyUnified .teacherHeader,.academyUnified .adminFeedbackHeader {height:auto;min-height:66px;padding:10px 28px;gap:14px}
+.teacherBrand,.adminFeedbackBrand {gap:10px}
+.teacherBrand>svg,.adminFeedbackBrand>svg {width:36px;height:36px;padding:8px;border-radius:11px}
+.teacherBrand strong,.adminFeedbackBrand strong {font-size:15px}
+.teacherBrand small,.adminFeedbackBrand small {font-size:11px}
+.teacherAccount>span,.adminFeedbackAccount>span {font-size:12px;max-width:230px;overflow-wrap:anywhere}
+.academyUnified .teacherMain,.academyUnified .adminFeedbackMain {max-width:1600px;padding:24px 28px 90px;margin:0 auto}
+.academyUnified .teacherTitle,.academyUnified .adminDashboardTitle {background:transparent;border:0;border-radius:0;box-shadow:none;padding:0;margin:0 0 20px;align-items:center;min-height:68px}
+.academyUnified :is(.teacherTitle,.adminDashboardTitle) h1 {font-size:clamp(23px,2.1vw,30px);margin:4px 0 6px;letter-spacing:-.035em}
+.academyUnified :is(.teacherTitle,.adminDashboardTitle) p {font-size:13px;margin:0;color:var(--academy-muted)}
+.academyUnified .teacherTitle .adminFeedbackEyebrow {font-size:11px;color:#167658}
+.academyUnified .adminDashboardTitle .adminFeedbackEyebrow {display:none}
+.academyUnified .teacherTitle .miniButton {min-height:40px;font-size:12px;padding:8px 12px}
+.academyUnified .academyWelcomeBanner {max-width:1544px;margin:0 auto;padding:24px 28px 18px;border:0;border-radius:0;box-shadow:none;background:transparent;min-height:125px;position:relative;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.academyUnified .academyWelcomeWords {max-width:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:0 20px;align-items:center;flex:1;min-width:0}
+.academyUnified .academyWelcomeWords h1 {font-size:clamp(23px,2.1vw,30px);line-height:1.3;letter-spacing:-.035em;margin:0 0 6px;grid-column:1}
+.academyUnified .academyWelcomeWords>p {font-size:13px;margin:0;color:var(--academy-muted);grid-column:1}
+.academyUnified .academyWelcomeDetails {margin:9px 0 0;gap:10px;grid-column:1}
+.academyUnified .academyWelcomeDetails>span {font-size:11px;background:white;padding:4px 8px;border:1px solid var(--academy-border)}
+.academyUnified .academyWelcomeWords>.primary {grid-column:2;grid-row:1/4;font-size:12px;min-height:42px;padding:9px 14px}
+.academyUnified .academyWelcomeBanner>img {width:94px;height:82px;object-fit:contain;margin:0}
+.academyDashboardBody {max-width:1544px;margin:0 auto;padding:0 28px}
+.academyOverviewGrid {display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,1fr);gap:18px;align-items:stretch;margin:0 0 18px;min-width:0}
+.academyPanel {min-width:0;background:#fff;border:1px solid var(--academy-border);border-radius:var(--academy-radius);box-shadow:var(--academy-shadow);padding:18px 20px;color:var(--academy-navy)}
+.academyPanelHeading {display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px;min-width:0}
+.academyPanelHeading h2 {display:flex;align-items:center;gap:8px;font-size:15px;margin:0;min-width:0;line-height:1.4}
+.academyPanelHeading h2>svg {width:18px;height:18px;color:var(--academy-blue);flex-shrink:0}
+.academyPanelHeading .academyLinkButton {font-size:11px;min-height:32px;padding:0;white-space:nowrap;gap:4px;text-decoration:none}
+.academyLinkButton svg {width:14px;height:14px;flex-shrink:0}
+.academyCaption {font-size:11px;color:var(--academy-muted);line-height:1.5;margin:10px 0 0}
+.academyNextClass {background:linear-gradient(125deg,#fff,#eff7ff)}
+.academyNextContent {display:flex;align-items:center;gap:13px;min-height:104px;padding:0 0 15px;min-width:0}
+.academyNextContent>div {min-width:0}
+.academyNextContent h3 {font-size:17px;margin:0 0 6px;overflow-wrap:anywhere}
+.academyNextContent p {font-size:12px;color:var(--academy-muted);line-height:1.6;margin:0;max-width:360px}
+.academyNextContent time {display:block;font-size:12px;line-height:1.6;color:#24528c}
+.academyNextClass>.primary {font-size:12px;padding:8px 16px;min-height:40px;display:inline-flex;align-items:center;gap:12px}
+.academyNextClass>.primary svg {width:16px;height:16px}
+.academyTileIcon {display:grid;place-items:center;flex-shrink:0;width:44px;height:44px;border-radius:12px;background:#eaf4ff;color:var(--academy-blue)}
+.academyTileIcon svg {width:24px;height:24px}
+.academyTileIcon.purple {background:#f2edfd;color:var(--academy-purple)}
+.academyTileIcon.green {background:#e8f8f2;color:#188363}
+.academyStatus {display:inline-flex;margin-top:6px;background:#e6f8ed;color:#177147;font-size:10px;padding:3px 7px;border-radius:6px}
+.academyPendingBadge {font-size:10px;background:#fff0dc;color:#985410;border-radius:6px;padding:4px 7px;flex-shrink:0}
+.academyUnified .academySubjectProgress {background:transparent;border:0;padding:0;border-radius:0}
+.academyUnified .academyProgressRow {grid-template-columns:minmax(100px,1.15fr) minmax(45px,1fr) 36px;gap:12px;min-height:37px}
+.academyUnified .academyProgressRow>span {font-size:12px}
+.academyUnified .academyProgressRow strong {font-size:11px;text-align:right}
+.academyProgressTrack {height:7px;background:#e8eff9;border-radius:10px;overflow:hidden}
+.academyProgressTrack i {height:100%;background:var(--academy-blue);display:block;border-radius:inherit}
+.academyProgressRow.tone-1 i {background:#22a879}.academyProgressRow.tone-2 i {background:#ef9137}.academyProgressRow.tone-3 i {background:#7952c8}
+.academyUnified .academyStudentQuick {max-width:1488px;margin:0 auto 18px;background:transparent;border:0;border-radius:0;padding:0 28px;box-shadow:none}
+.academyUnified .academyStudentQuick .academySectionHead {margin-bottom:10px;align-items:center}
+.academyUnified .academyStudentQuick .academySectionHead h2 {font-size:13px}
+.academyUnified .academyStudentQuick .academySectionHead>span {font-size:11px}
+.academyUnified .academyQuickGrid {gap:12px}
+.academyUnified .academyQuickCard {min-height:89px;padding:12px;display:grid;grid-template-columns:36px minmax(0,1fr);gap:2px 9px;background:white;border-radius:12px;box-shadow:var(--academy-shadow);align-content:center}
+.academyUnified .academyQuickCard>span {grid-row:1/3;width:36px;height:36px;border-radius:10px}
+.academyUnified .academyQuickCard>span svg {width:21px;height:21px}
+.academyUnified .academyQuickCard strong {font-size:12px;padding-right:5px}
+.academyUnified .academyQuickCard small {font-size:10px;line-height:1.4}
+.academyQuickArrow {display:none}
+.academyActivityStrip {display:grid;grid-template-columns:minmax(180px,.6fr) minmax(0,1.4fr);gap:18px;margin-bottom:18px}
+.academyStreak {display:flex;align-items:center;gap:14px}
+.academyStreak .academyTileIcon {color:#d97016;background:#fff1df;width:52px;height:52px;border-radius:50%}
+.academyStreak h2 {font-size:13px;margin:0 0 4px}
+.academyStreak strong {font-size:21px;color:#bf650d}
+.academyStreak p {font-size:11px;color:var(--academy-muted);margin:3px 0 0}
+.academyActivityChart .academyPanelHeading {margin-bottom:6px}
+.academyBars {display:grid;grid-template-columns:repeat(7,1fr);gap:12px;text-align:center}
+.academyBars>div {display:flex;flex-direction:column;align-items:center;gap:4px;min-width:0}
+.academyBars>div>span,.academyBars small {font-size:10px;color:#526986}
+.academyBars>div>div {height:42px;position:relative;width:20px;background:#f1f6fd;border-radius:4px;border-bottom:2px solid #d5e5fa}
+.academyBars i {position:absolute;bottom:0;left:0;right:0;background:#3e90ef;border-radius:4px}
+.academyUnified .academyDashboardBody>.tuitionHomework,.academyUnified .academyDashboardBody>.tuitionSchedule {max-width:none;margin-left:0;margin-right:0}
+/* Parent: identity/selector, progress + schedule, activity + weekly records. */
+.academyUnified .parentDashboard {max-width:1544px;padding:24px 28px 12px}
+.academyUnified .parentDashboard>h1 {font-size:clamp(23px,2.1vw,30px);margin:0 0 6px;letter-spacing:-.035em;padding-right:150px}
+.academyUnified .focusParentTop {float:right;margin:0 0 0 12px}
+.academyUnified .focusParentTop .miniButton {font-size:12px;min-height:40px}
+.academyUnified .focusSubtitle {font-size:13px;margin:0 0 20px}
+.academyUnified .focusChildren {display:flex;flex-wrap:wrap;gap:10px;margin:0 0 20px}
+.academyUnified .focusChildren button {flex:0 1 255px;min-width:0;padding:10px 14px;min-height:64px;border-radius:12px;gap:10px}
+.academyUnified .focusChildren button>span:last-child {min-width:0}
+.academyUnified .focusChildren b {font-size:13px;overflow-wrap:anywhere;display:block}
+.academyUnified .focusChildren small {font-size:11px}
+.academyUnified .focusPerson {width:36px;height:36px}
+.academyUnified .academyParentInsights {max-width:none;margin:0;padding:18px 20px;border-radius:16px;box-shadow:var(--academy-shadow)}
+.academyParentInsights .academySectionHead {gap:8px;margin:0 0 12px;align-items:center}
+.academyParentInsights .academySectionKicker {display:none}
+.academyParentInsights .academySectionHead h2 {font-size:15px;overflow-wrap:anywhere}
+.academyParentInsights .academySectionHead .academyLinkButton {font-size:11px;min-height:32px;padding:0;gap:3px}
+.academyParentInsights .academyInsightGrid {grid-template-columns:minmax(0,1fr);gap:8px}
+.academyParentInsights .academySubjectProgress>p {font-size:10px;line-height:1.5;margin:8px 0;color:var(--academy-muted)}
+.academyParentInsights .academyInsightSide {display:flex;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:6px;background:none;border:0;border-top:1px solid var(--academy-border);border-radius:0;padding:9px 0 0;text-align:left;min-height:0}
+.academyParentInsights .academyInsightIcon {width:26px;height:26px;background:#fff1dc;border-radius:8px;color:#bf650d}
+.academyParentInsights .academyInsightIcon svg {width:17px;height:17px}
+.academyParentInsights .academyInsightSide>strong {font-size:17px}
+.academyParentInsights .academyInsightSide>span:not(.academyInsightIcon) {font-size:10px}
+.academyParentInsights .academyInsightSide>small {display:none}
+.academyParentInsights .academyInsightSide .academyLinkButton {font-size:10px;min-height:32px;margin-left:auto;padding:0}
+.academyParentActivityGrid {display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:18px;margin-bottom:18px}
+.academyUnified .academyParentActivityGrid>.focusWeekly,.academyUnified .academyParentActivityGrid>.focusSection {padding:18px 20px;margin:0;border:1px solid var(--academy-border);border-radius:16px;background:#fff;box-shadow:var(--academy-shadow)}
+.academyUnified .academyParentActivityGrid h2 {font-size:15px;margin:0 0 12px}
+.academyUnified .focusWeekly article b {font-size:25px}
+.academyUnified .focusWeekly article>svg {width:24px;height:24px}
+.academyUnified .focusWeekly article>span {font-size:12px}
+.academyUnified .focusWeekly small {font-size:10px;margin-top:12px}
+.academyUnified .focusEmptyText {background:#f7faff;padding:12px 15px;border-radius:10px}
+.academyUnified .focusEmptyText h3 {font-size:13px;margin:6px 0}
+.academyUnified .focusEmptyText p {font-size:11px;margin:0;line-height:1.5}
+.academyUnified .focusEmptyText>svg {width:21px;height:21px}
+.academyUnified .focusParentActions {display:flex;flex-wrap:wrap;gap:10px;margin:0 0 10px}
+.academyUnified .focusParentActions button {width:auto;font-size:12px;padding:10px 15px;min-height:42px}
+.academyUnified .focusOpenStudent {font-size:12px;margin:0}
+.academyUnified .focusThanks {display:none}
+/* Compact operations dashboard; long editable records stay below the overview. */
+.academyUnified .teacherTuitionSummary,.academyUnified .adminTuitionOverview {background:transparent;border:0;box-shadow:none;padding:0;margin:0 0 20px;border-radius:0}
+.academyUnified .teacherTuitionIntro {margin:0 0 12px}
+.academyUnified .teacherTuitionIntro h2 {font-size:15px;margin:0 0 4px}
+.academyUnified .teacherTuitionIntro p {font-size:11px;margin:0}
+.academyUnified .teacherTuitionIntro>svg,.academyUnified .teacherTuitionEyebrow {display:none}
+.academyUnified .teacherTuitionStats {gap:12px}
+.academyUnified .teacherTuitionStats>article {padding:16px;border-radius:12px;background:#fff;border:1px solid var(--academy-border);min-height:92px;gap:12px;box-shadow:var(--academy-shadow)}
+.academyUnified .teacherTuitionStats strong {font-size:25px;line-height:1.3}
+.academyUnified .teacherTuitionStats span {font-size:11px;line-height:1.5}
+.academyUnified .teacherTuitionStats svg {width:37px;height:37px;padding:8px;border-radius:11px;background:#eaf4ff}
+.academyUnified .teacherTuitionStats>article:nth-child(2) svg {color:#198361;background:#e6f8ee}
+.academyUnified .teacherTuitionStats>article:nth-child(3) svg {color:#bf650d;background:#fff2e3}
+.academyUnified .teacherTuitionStats>article:nth-child(4) svg {color:#7952c8;background:#f1ebfb}
+.academyUnified .teacherTuitionComing {border:0;display:flex;justify-content:space-between;gap:20px;padding-top:10px;margin-top:0}
+.academyUnified .teacherTuitionComing>div:first-child {display:none}
+.academyUnified .teacherTuitionComing>div {align-items:flex-start;gap:8px}
+.academyUnified .teacherTuitionComing strong {font-size:11px;display:inline;margin-right:5px}
+.academyUnified .teacherTuitionComing small {display:inline;font-size:10px;line-height:1.5;color:var(--academy-muted)}
+.academyUnified .teacherTuitionComing>div>svg {width:16px;height:16px;margin:0}
+.academyDeskRow {display:flex;align-items:center;gap:12px;text-decoration:none;min-height:65px;padding:10px 0;border-top:1px solid #edf2fa;color:var(--academy-navy);min-width:0}
+.academyDeskRow:hover {background:#f8fbff}
+.academyDeskRow>span:not(.academyTileIcon) {flex:1;min-width:0}
+.academyDeskRow strong {display:block;font-size:12px;line-height:1.5;overflow-wrap:anywhere}
+.academyDeskRow small {display:block;font-size:11px;line-height:1.5;color:var(--academy-muted);overflow-wrap:anywhere;margin-top:3px}
+.academyDeskRow>.academyTileIcon {width:34px;height:34px;border-radius:9px}
+.academyDeskRow>.academyTileIcon svg {width:19px;height:19px}
+.academyDeskRow>svg {width:15px;height:15px;color:#50769e;flex-shrink:0}
+.academyUnified .teacherActionPanel {padding:18px 20px;border-radius:16px;margin-bottom:18px}
+.academyUnified .teacherActionPanel h2 {font-size:17px;margin:5px 0 10px}
+.academyUnified .teacherActionPanel p {font-size:12px;line-height:1.6}
+.academyUnified .adminTuitionHeader {padding:0;min-height:0;margin:0 0 14px;align-items:center}
+.academyUnified .adminTuitionHeader .adminFeedbackEyebrow {display:none}
+.academyUnified .adminTuitionHeader h2 {font-size:15px;margin:0 0 4px}
+.academyUnified .adminTuitionHeader p {font-size:11px;margin:0}
+.academyUnified .adminTuitionHeader .miniButton {font-size:11px;min-height:36px;padding:7px 11px}
+.academyUnified .adminTuitionMetrics {grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.academyUnified .adminTuitionMetrics>article {padding:15px;border-radius:12px;min-height:94px;display:grid;grid-template-columns:36px minmax(0,1fr);gap:3px 10px;align-content:center;box-shadow:var(--academy-shadow)}
+.academyUnified .adminTuitionMetricIcon {grid-row:1/3;width:36px;height:36px;border-radius:10px}
+.academyUnified .adminTuitionMetrics strong {font-size:25px;line-height:1.3}
+.academyUnified .adminTuitionMetrics>article>span:last-child {font-size:10px;line-height:1.5}
+.academyUnified .adminTuitionMetrics>article:nth-child(4n+1) .adminTuitionMetricIcon {color:#bd6108;background:#fff0de}
+.academyUnified .adminTuitionMetrics>article:nth-child(4n+2) .adminTuitionMetricIcon {color:#7952c8;background:#f1eaff}
+.academyUnified .adminTuitionMetrics>article:nth-child(4n+3) .adminTuitionMetricIcon {color:#168062;background:#e7f7ee}
+.academyUnified .adminTuitionExceptions {gap:12px;margin-top:12px}
+.academyUnified .adminTuitionExceptions p {font-size:10px;line-height:1.5;padding:9px 12px;border-radius:9px;background:#fff}
+.academyUnified .adminTuitionLinks {gap:8px;margin-top:12px}
+.academyUnified .adminTuitionLinks a {min-height:36px;font-size:11px;border-radius:8px;padding:8px 10px;background:#edf4ff;color:#1858aa}
+.academyUnified .adminTuitionFootnote {font-size:10px;line-height:1.6;margin-top:10px}
+.academyCompactEmpty {min-height:130px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;background:#f8fbff;border-radius:10px;color:var(--academy-muted);padding:15px}
+.academyCompactEmpty>svg {width:27px;height:27px;color:#7952c8}
+.academyCompactEmpty p {font-size:12px;text-align:center;margin:0}
+.academyUnified .academyAdminDesk .academyPanelHeading h2>svg {color:var(--academy-purple)}
+.academyUnified :is(.teacherForm,.teacherOwn,.teacherClassPanel,.adminUsers,.adminTeacherSection,.tuitionSchedule,.tuitionHomework) {box-shadow:var(--academy-shadow);border-color:var(--academy-border)}
+.academyUnified :is(.teacherForm,.teacherOwn,.tuitionSchedule,.tuitionHomework) h2 {font-size:19px}
+.academyUnified .focusDashboard.learnerDashboard,.academyUnified .focusDashboard.secondaryDashboard {max-width:1544px;padding:0 28px 28px}
+.academyUnified .learnerDashboard .focusGreeting {min-height:130px;padding:20px 24px;background:#eaf4ff;border:1px solid var(--academy-border);border-radius:16px;margin:0 0 18px}
+.academyUnified .learnerDashboard .focusGreeting h1 {font-size:24px;margin:0 0 7px}
+.academyUnified .learnerDashboard .focusGreeting p {font-size:13px;margin:0 0 12px}
+.academyUnified .learnerDashboard .focusGreeting button {font-size:12px;min-height:40px}
+.academyUnified .learnerDashboard .focusHeroArt {width:135px;height:115px}
+.academyUnified .focusCurrent {padding:20px 24px;margin:0 0 20px;min-height:175px}
+.academyUnified .focusCurrent h2 {font-size:21px}
+.academyUnified .focusSectionHeading h2 {font-size:18px}
+.academyUnified .secondaryGreeting {margin:15px 0 20px}
+.academyUnified .secondaryGreeting h1 {font-size:24px}
+.academyUnified .secondaryGreeting p {font-size:13px}
+@media(min-width:1700px) {
+ .academyUnified .academyStudentQuick {max-width:1544px}
+ .academyUnified .academyWelcomeBanner {min-height:140px}
+ .academyUnified .academyQuickCard {min-height:100px}
+ .academyNextContent {min-height:125px}
+}
+@media(min-width:761px) and (max-width:1050px) {
+ .academyUnified .focusSidebar,.academyWorkspaceSidebar {width:188px;padding:22px 12px}
+ .academyUnified .focusMain {margin-left:188px}
+ .academyUnified.teacherShell .teacherHeader,.academyUnified.adminFeedbackShell .adminFeedbackHeader {margin-left:188px}
+ .academyUnified.teacherShell .teacherMain,.academyUnified.adminFeedbackShell .adminFeedbackMain {margin-left:188px;width:calc(100% - 188px);padding:20px 18px 70px}
+ .academyUnified .focusBrand b,.academyWorkspaceBrand strong {font-size:14px}
+ .academyUnified .focusBrand {gap:6px}
+ .academyUnified .academyTopbar {padding:10px 18px}
+ .academyBreadcrumb,.academyTopbarName {display:none}
+ .academyUnified .academyWelcomeBanner {padding:20px 18px 16px}
+ .academyUnified .academyWelcomeWords {display:block}
+ .academyUnified .academyWelcomeWords>.primary {margin-top:10px}
+ .academyUnified .academyWelcomeBanner>img {display:none}
+ .academyDashboardBody {padding:0 18px}
+ .academyUnified .academyStudentQuick {padding:0 18px}
+ .academyOverviewGrid {grid-template-columns:1fr}
+ .academyUnified .academyQuickGrid {grid-template-columns:repeat(3,minmax(0,1fr))}
+ .academyUnified .teacherMain,.academyUnified .adminFeedbackMain,.academyUnified .parentDashboard {padding:20px 18px 70px}
+ .academyUnified .teacherTuitionStats,.academyUnified .adminTuitionMetrics {grid-template-columns:repeat(2,minmax(0,1fr))}
+ .academyParentActivityGrid {grid-template-columns:1fr}
+ .teacherAccount,.adminFeedbackAccount {gap:8px;flex-wrap:wrap;justify-content:flex-end}
+ .teacherAccount>span,.adminFeedbackAccount>span {display:none}
+ .academyUnified .teacherHeader,.academyUnified .adminFeedbackHeader {padding:10px 18px}
+ .academyUnified .teacherBrand small,.academyUnified .adminFeedbackBrand small {display:none}
+ .academyUnified .focusChildren button {flex-basis:100%}
+ .academyUnified .parentDashboard>h1 {padding-right:0;clear:both}
+}
+@media(max-width:760px) {
+ .academyUnified .focusSidebar {width:260px;padding:22px 16px}
+ .academyUnified .focusMain {margin-left:0}
+ .teacherShell.academyUnified,.adminFeedbackShell.academyUnified {padding-left:0}
+ .academyUnified.teacherShell .teacherHeader,.academyUnified.adminFeedbackShell .adminFeedbackHeader {margin-left:0;min-height:60px;flex-direction:row;align-items:center;flex-wrap:nowrap;padding:10px 16px}
+ .academyUnified.teacherShell .teacherMain,.academyUnified.adminFeedbackShell .adminFeedbackMain {margin-left:0;width:100%;padding:20px 16px 100px}
+ .academyUnified.teacherShell .teacherTitle,.academyUnified.adminFeedbackShell .adminDashboardTitle {padding:0;min-height:0;flex-direction:row;align-items:flex-start}
+ .academyStudentHome {display:flex;flex-direction:column}
+ .academyStudentHome>.academyWelcomeBanner {order:1;width:100%}
+ .academyStudentOverview,.academyStudentOverview>.academyOverviewGrid {display:contents}
+ .academyStudentOverview .academyNextClass {order:2;margin:0 16px 14px}
+ .academyStudentHome>.academyStudentQuick {order:3;width:100%}
+ .academyStudentOverview .academyProgressCard {order:4;margin:0 16px 14px}
+ .academyStudentHome>.academyDashboardBody:not(.academyStudentOverview) {order:5;width:100%}
+ .academyStudentHome>.focusDashboard {order:6;width:100%}
+ .academyUnified .focusMobileHeader {height:60px;padding:10px 16px;align-items:center}
+ .academyUnified .focusMobileHeader .focusBrand b {font-size:15px}
+ .academyUnified .focusMobileHeader .focusBrand>span:last-child>span {font-size:10px;margin-top:3px}
+ .academyUnified .academyTopbar {display:none}
+ .academyUnified .teacherHeader,.academyUnified .adminFeedbackHeader {min-height:60px;padding:10px 16px;gap:8px}
+ .teacherBrand strong,.adminFeedbackBrand strong {font-size:14px}
+ .teacherBrand small,.adminFeedbackBrand small {font-size:10px}
+ .teacherAccount>span,.adminFeedbackAccount>span {display:none}
+ .academyUnified .teacherAccount .miniButton,.academyUnified .adminFeedbackAccount .miniButton {font-size:11px;min-height:40px;padding:8px}
+ .academyUnified .teacherMain,.academyUnified .adminFeedbackMain {padding:20px 16px 100px}
+ .academyUnified .teacherTitle,.academyUnified .adminDashboardTitle {align-items:flex-start;gap:10px;margin-bottom:18px;min-height:0}
+ .academyUnified :is(.teacherTitle,.adminDashboardTitle) h1 {font-size:22px;margin:3px 0 6px}
+ .academyUnified :is(.teacherTitle,.adminDashboardTitle) p {font-size:11px;line-height:1.6}
+ .academyUnified .teacherTitle .miniButton {font-size:0;width:40px;min-width:40px;padding:8px}
+ .academyUnified .teacherTitle .miniButton>svg {width:19px;height:19px}
+ .academyUnified .academyWelcomeBanner {padding:20px 16px 16px;min-height:0}
+ .academyUnified .academyWelcomeWords {display:block}
+ .academyUnified .academyWelcomeWords h1 {font-size:23px}
+ .academyUnified .academyWelcomeWords>p {font-size:12px;line-height:1.5}
+ .academyUnified .academyWelcomeDetails {margin-top:10px;gap:6px;flex-wrap:wrap}
+ .academyUnified .academyWelcomeWords>.primary {display:inline-flex;align-items:center;gap:10px;margin-top:12px;min-height:44px}
+ .academyUnified .academyWelcomeBanner>img {display:none}
+ .academyDashboardBody {padding:0 16px}
+ .academyOverviewGrid {grid-template-columns:1fr;gap:14px;margin-bottom:14px}
+ .academyPanel {padding:16px;border-radius:14px}
+ .academyPanelHeading {gap:8px;margin-bottom:12px}
+ .academyPanelHeading h2 {font-size:14px;gap:7px}
+ .academyPanelHeading .academyLinkButton {font-size:10px;min-height:44px;white-space:normal;text-align:right}
+ .academyNextContent {min-height:95px}
+ .academyNextContent h3 {font-size:16px}
+ .academyNextClass>.primary {width:100%;justify-content:center;min-height:44px}
+ .academyUnified .academyProgressRow {min-height:37px;gap:8px;grid-template-columns:minmax(110px,1.3fr) minmax(50px,1fr) 31px}
+ .academyUnified .academyProgressRow>span {font-size:11px}
+ .academyUnified .academyStudentQuick {padding:0 16px;margin-bottom:14px}
+ .academyUnified .academyStudentQuick .academySectionHead>span {display:none}
+ .academyUnified .academyStudentQuick .academySectionHead h2 {font-size:13px}
+ .academyUnified .academyQuickGrid {grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+ .academyUnified .academyQuickCard {min-height:88px;padding:10px 4px;display:flex;align-items:center;text-align:center;gap:6px}
+ .academyUnified .academyQuickCard strong {font-size:10px;padding:0;line-height:1.4}
+ .academyUnified .academyQuickCard small {display:none}
+ .academyUnified .academyQuickCard>span {width:34px;height:34px}
+ .academyActivityStrip {grid-template-columns:1fr;gap:14px;margin-bottom:14px}
+ .academyStreak {padding:14px 16px}
+ .academyStreak h2 {font-size:12px}
+ .academyStreak strong {font-size:20px}
+ .academyUnified .parentDashboard {padding:20px 16px 16px}
+ .academyUnified .parentDashboard>h1 {font-size:23px;padding-right:0;clear:both}
+ .academyUnified .focusParentTop {float:none;display:flex;justify-content:flex-end;margin:0 0 12px}
+ .academyUnified .focusSubtitle {font-size:12px;margin:0 0 16px;line-height:1.6}
+ .academyUnified .focusChildren {gap:8px;margin-bottom:16px}
+ .academyUnified .focusChildren button {flex:1 1 145px;padding:10px;gap:7px;min-height:68px}
+ .academyUnified .focusChildren b {font-size:11px}
+ .academyUnified .focusChildren small {font-size:10px}
+ .academyUnified .focusPerson {width:30px;height:30px;flex-shrink:0}
+ .academyUnified .academyParentInsights {padding:16px}
+ .academyParentInsights .academySectionHead {align-items:flex-start}
+ .academyParentInsights .academySectionHead {flex-direction:row}
+ .academyParentInsights .academySectionHead h2 {font-size:14px}
+ .academyParentInsights .academySectionHead .academyLinkButton {font-size:10px;min-height:44px;flex-shrink:0}
+ .academyParentInsights .academyInsightSide .academyLinkButton {margin-left:0;min-height:44px;font-size:11px}
+ .academyParentActivityGrid {grid-template-columns:1fr;gap:14px}
+ .academyUnified .academyParentActivityGrid>.focusWeekly,.academyUnified .academyParentActivityGrid>.focusSection {padding:16px}
+ .academyUnified .focusParentActions {display:grid;grid-template-columns:1fr;gap:8px}
+ .academyUnified .focusParentActions button {width:100%;min-height:44px}
+ .academyUnified .teacherTuitionStats,.academyUnified .adminTuitionMetrics {grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .academyUnified .teacherTuitionStats>article {padding:12px 10px;gap:8px;min-height:91px}
+ .academyUnified .teacherTuitionStats strong {font-size:22px}
+ .academyUnified .teacherTuitionStats span {font-size:10px}
+ .academyUnified .teacherTuitionStats svg {width:30px;height:30px;padding:6px;flex-shrink:0}
+ .academyUnified .teacherTuitionIntro p {font-size:10px;line-height:1.5}
+ .academyUnified .teacherTuitionComing {padding-top:8px}
+ .academyUnified .teacherTuitionComing small {font-size:10px;line-height:1.6}
+ .academyUnified .teacherTuitionComing a {display:inline-block;min-height:30px;padding-top:5px}
+ .academyUnified .adminTuitionHeader {gap:10px;align-items:flex-start;flex-direction:row}
+ .academyUnified .adminTuitionHeader>div {flex:1;min-width:0}
+ .academyUnified .adminTuitionHeader>.miniButton {width:40px;flex:0 0 40px}
+ .academyUnified .adminTuitionHeader h2 {font-size:14px}
+ .academyUnified .adminTuitionHeader p {font-size:10px;line-height:1.5}
+ .academyUnified .adminTuitionHeader .miniButton {font-size:0;min-width:40px;min-height:40px;padding:8px}
+ .academyUnified .adminTuitionHeader .miniButton svg {width:18px;height:18px}
+ .academyUnified .adminTuitionMetrics>article {padding:12px 10px;gap:3px 8px;grid-template-columns:29px minmax(0,1fr);min-height:92px}
+ .academyUnified .adminTuitionMetricIcon {width:29px;height:29px;border-radius:8px}
+ .academyUnified .adminTuitionMetricIcon svg {width:18px;height:18px}
+ .academyUnified .adminTuitionMetrics strong {font-size:23px}
+ .academyUnified .adminTuitionMetrics>article>span:last-child {font-size:9px}
+ .academyUnified .adminTuitionExceptions {grid-template-columns:1fr;gap:6px;margin-top:10px}
+ .academyUnified .adminTuitionExceptions p {margin:0;padding:8px 10px}
+ .academyUnified .adminTuitionLinks {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .academyUnified .adminTuitionLinks a {min-height:44px;font-size:10px;justify-content:space-between}
+ .academyUnified .focusDashboard.learnerDashboard,.academyUnified .focusDashboard.secondaryDashboard {padding:0 16px 24px}
+ .academyUnified .learnerDashboard .focusGreeting {padding:18px;min-height:170px}
+ .academyUnified .learnerDashboard .focusGreeting h1 {font-size:21px}
+ .academyUnified .learnerDashboard .focusHeroArt {width:90px;height:90px}
+ .academyUnified .focusCurrent {padding:18px;min-height:0}
+ .academyUnified .focusCurrent h2 {font-size:20px}
+ .academyUnified .focusMobileNav,.academyWorkspaceMobileNav {padding-bottom:max(8px,env(safe-area-inset-bottom));min-height:66px}
+ .academyUnified .focusMobileNav button,.academyWorkspaceMobileNav :is(a,button) {min-height:48px;font-size:9px}
+ .academyUnified .teacherBrand {min-width:0}
+ .academyUnified .teacherAccount {gap:6px}
+ .academyUnified .teacherAccount {flex-wrap:nowrap}
+ .academyUnified .teacherAccount select {font-size:11px;max-width:112px;padding:8px;min-height:40px}
+}
+@media(prefers-reduced-motion:reduce) {html {scroll-behavior:auto!important}.academyUnified * {scroll-behavior:auto!important;transition:none!important}}

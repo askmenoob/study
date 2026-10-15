@@ -4,6 +4,7 @@ import { findLevel, findSubject, getTopics, getSubjectsForLevel } from '../data/
 import { learnedUnits } from '../lib/learnedUnits';
 import type { StudyState, LevelId, Topic } from '../types';
 import type { CloudStudent } from '../lib/api';
+import type { ReactNode } from 'react';
 
 export function FocusBrand() {
   return <span className="focusBrand"><span className="academyBrandMark" aria-hidden="true"><GraduationCap/></span><span><b>study.imai.my</b><span>Private Tuition</span></span></span>;
@@ -69,7 +70,7 @@ export function weeklyLearning(attempts:StudyState['attempts'],levelId:LevelId,n
  const recent=attempts.filter(a=>a.levelId===levelId&&new Date(a.completedAt)>=start&&new Date(a.completedAt)<=now);
  return {sessions:recent.length,units:new Set(recent.map(a=>a.topicId)).size};
 }
-export function ParentDashboard({study,students,busy,onSwitch,onManage,onReports,onLinks,onStudentMode}:{study:StudyState;students:CloudStudent[];busy:boolean;onSwitch:(id:string)=>void;onManage:()=>void;onReports:()=>void;onLinks:()=>void;onStudentMode:()=>void;}) {
+export function ParentDashboard({study,students,busy,onSwitch,onManage,onReports,onLinks,onStudentMode,overview}:{study:StudyState;students:CloudStudent[];busy:boolean;onSwitch:(id:string)=>void;onManage:()=>void;onReports:()=>void;onLinks:()=>void;onStudentMode:()=>void;overview?:ReactNode;}) {
  const week=weeklyLearning(study.attempts,study.profile.levelId);const activity=study.attempts.filter(a=>a.levelId===study.profile.levelId).sort((a,b)=>b.completedAt.localeCompare(a.completedAt)).slice(0,3);
  return <main className="focusDashboard parentDashboard"><div className="focusParentTop"><button className="miniButton" onClick={onManage}><Users/>Urus anak</button></div><h1>Selamat datang, ibu bapa! 👋</h1><p className="focusSubtitle">Menyokong langkah kecil mereka, setiap hari.</p>
  {!students.length?<section className="focusEmpty"><img src="/focus-books.webp" alt="" width="240" height="180"/><h2>Jom kenalkan anak anda</h2><p>Tambah nama dan tahap anak untuk sediakan ruang belajar mereka.</p><button className="primary" onClick={onManage}><Users/>Tambah anak pertama</button></section>:<>
@@ -79,9 +80,9 @@ export function ParentDashboard({study,students,busy,onSwitch,onManage,onReports
  const childLevel=findLevel(s.level_id as LevelId).label;
  return <button key={s.id} disabled={busy} aria-label={`${s.name} · ${childLevel}${profileSuffix}`} aria-pressed={s.id===study.profile.cloudId} onClick={()=>onSwitch(s.id)}><span className={`focusPerson person-${i%3}`}><UserRound/></span><span><b>{s.name}</b><small>{childLevel}{profileSuffix}</small></span></button>;
  })}</div>
- <section className="focusWeekly"><h2>Minggu ini</h2><div><article><BookOpen/><b>{week.sessions}</b><span>sesi latihan</span></article><article><Check/><b>{week.units}</b><span>unit dilatih</span></article></div><small>Daripada latihan topik {study.profile.name} yang telah disimpan.</small></section>
+ {overview}<div className="academyParentActivityGrid"><section className="focusWeekly"><h2>Minggu ini</h2><div><article><BookOpen/><b>{week.sessions}</b><span>sesi latihan</span></article><article><Check/><b>{week.units}</b><span>unit dilatih</span></article></div><small>Daripada latihan topik {study.profile.name} yang telah disimpan.</small></section>
  <section className="focusSection"><div className="focusSectionHeading"><h2>Aktiviti terkini {study.profile.name}</h2></div>{activity.length?<div className="focusActivity">{activity.map(a=><button key={a.id} onClick={onReports}><SubjectMark id={a.subjectId}/><span><b>{findSubject(a.subjectId).name}</b><small>{getTopics(a.levelId,a.subjectId).find(t=>t.id===a.topicId)?.name??'Latihan topik'}</small></span><time dateTime={a.completedAt}>{new Intl.DateTimeFormat('ms-MY',{day:'numeric',month:'short'}).format(new Date(a.completedAt))}<small>{new Intl.DateTimeFormat('ms-MY',{hour:'numeric',minute:'2-digit'}).format(new Date(a.completedAt))}</small></time><ChevronRight/></button>)}</div>:<div className="focusEmptyText"><BookOpen/><h3>Langkah pertama bermula di sini</h3><p>Selepas anak melengkapkan latihan, aktiviti mereka akan muncul di sini.</p></div>}</section>
- <div className="focusParentActions"><button className="primary" onClick={onReports}><ChartNoAxesColumnIncreasing/>Lihat laporan<ArrowRight/></button><button className="miniButton" onClick={onLinks}><Link/>Kongsi link belajar</button><button className="miniButton" onClick={onManage}><Users/>Urus anak</button></div>
+ </div><div className="focusParentActions"><button className="primary" onClick={onReports}><ChartNoAxesColumnIncreasing/>Lihat laporan<ArrowRight/></button><button className="miniButton" onClick={onLinks}><Link/>Kongsi link belajar</button><button className="miniButton" onClick={onManage}><Users/>Urus anak</button></div>
  <button className="textButton focusOpenStudent" disabled={busy} onClick={onStudentMode}>Buka Mod Murid pada peranti ini<ArrowRight/></button></>}
  <div className="focusThanks"><Heart/><p>Terima kasih kerana sentiasa menyokong pembelajaran anak-anak.</p><Sprout/></div></main>;
 }

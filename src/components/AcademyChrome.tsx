@@ -100,13 +100,13 @@ export function AcademyWorkspaceNav({role}: {role:"teacher"|"admin"}) {
 
 export function AcademyWelcomeBanner({study,onLearn}: {study:StudyState;onLearn:()=>void}) {
  return <section className="academyWelcomeBanner" aria-labelledby="academy-welcome-title">
-  <div className="academyWelcomeWords"><span className="academyWelcomeKicker"><Sparkles aria-hidden="true"/> RUANG BELAJAR SAYA</span>
+  <div className="academyWelcomeWords">
    <h1 id="academy-welcome-title">Selamat kembali, {study.profile.name || "pelajar"}! 👋</h1>
-   <p>Belajar lebih bijak bersama cikgu dan AI Tutor. Satu langkah kecil setiap hari.</p>
+   <p>Teruskan pembelajaran anda hari ini.</p>
    <div className="academyWelcomeDetails"><span><GraduationCap aria-hidden="true"/>{findLevel(study.profile.levelId).label}</span><span><Trophy aria-hidden="true"/>{study.streak} hari streak</span></div>
-   <button type="button" className="primary" onClick={onLearn}>Sambung belajar <ArrowRight aria-hidden="true"/></button>
+   <button type="button" className="primary" onClick={onLearn}>{study.profile.levelId.startsWith("t")?"Sambung belajar":"Sambung membaca"}<ArrowRight aria-hidden="true"/></button>
   </div>
-  <img src="/focus-books.webp" alt="" loading="lazy" width="250" height="190"/>
+  {!study.profile.levelId.startsWith("t")&&<img src="/focus-books.webp" alt="" loading="lazy" width="250" height="190"/>}
  </section>;
 }
 
@@ -135,9 +135,9 @@ export function AcademyParentInsights({study,onReport,onTeacher,onManage}: {stud
     <button type="button" className="academyLinkButton" onClick={onReport}>Lihat laporan <ArrowRight aria-hidden="true"/></button></div>
    {!study.profile.cloudId?<div className="academyEmptyState"><p>Tambah profil anak untuk melihat perkembangan sebenar.</p><button type="button" className="miniButton" onClick={onManage}>Tambah anak</button></div>
    : <div className="academyInsightGrid">
-    <div className="academySubjectProgress">{subjects.slice(0,4).map(subject=>{
+    <div className="academySubjectProgress">{subjects.slice(0,4).map((subject,index)=>{
       const value=subjectMastery(recent,study.profile.levelId,subject.id);
-      return <div key={subject.id} className="academyProgressRow"><span>{subject.name}</span><div className="academyProgressTrack" role="progressbar" aria-valuenow={value} aria-valuemin={0} aria-valuemax={100} aria-label={`Penguasaan ${subject.name}`}><i style={{width:`${value}%`}}/></div><strong>{value}%</strong></div>
+      return <div key={subject.id} className={`academyProgressRow tone-${index%4}`}><span>{subject.name}</span><div className="academyProgressTrack" role="progressbar" aria-valuenow={value} aria-valuemin={0} aria-valuemax={100} aria-label={`Penguasaan ${subject.name}`}><i style={{width:`${value}%`}}/></div><strong>{value}%</strong></div>
     })}<p>Penguasaan ini berdasarkan latihan yang disimpan, bukan keputusan peperiksaan.</p></div>
     <div className="academyInsightSide"><span className="academyInsightIcon"><Trophy aria-hidden="true"/></span><strong>{counts}</strong><span>Sesi latihan direkodkan</span><small>{findLevel(study.profile.levelId).label}</small>
     <button type="button" className="academyLinkButton" onClick={onTeacher}>Cari guru untuk anak <ArrowRight aria-hidden="true"/></button></div>

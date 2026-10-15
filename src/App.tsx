@@ -13,6 +13,8 @@ import { TeacherDashboard } from "./components/TeacherDashboard";
 import { TuitionTeacherDirectory } from "./components/TuitionTeacherDirectory";
 import { ParentTuitionOverview } from "./components/ParentTuitionOverview";
 import { StudentTuitionOverview } from "./components/StudentTuitionOverview";
+import { AcademyLearningActivity, AcademyNextClass, AcademyProgressCard, academyFocusSection } from "./components/AcademyDashboard";
+import { FamilyHomeworkPanel } from "./components/TuitionHomework";
 import { AcademyTopbar, AcademyWelcomeBanner, AcademyStudentActions, AcademyParentInsights } from "./components/AcademyChrome";
 import { StudentTeacherMaterials } from "./components/StudentTeacherMaterials";
 import { ParentTeacherConnection } from "./components/ParentTeacherConnection";
@@ -45,7 +47,7 @@ import { isSuperAdminRole, isTeacherRole, shouldLoadFamily } from "./lib/account
 import { getFocusSession, startStudentSession, deleteStudent, createStudent, getAttempts, getMe, getStudents, saveAttemptCloud, tokenStore, updateStudent, type AccountUser, type CloudStudent } from "./lib/api";
 import type { AttemptAnswer, AttemptRecord, LevelId, StudyState, Topic, Question } from "./types";
 
-type Screen = "learn" | "manage" | "links" | "settings" | "my-teacher" | "progress" | "lesson" | "exam" | "complete" | "home" | "revision" | "subjects" | "topics" | "quiz" | "diagnostic" | "parent" | "tutor" | "library" | "teacher-materials" | "challenge" | "tuition";
+type Screen = "learn" | "manage" | "links" | "settings" | "my-teacher" | "progress" | "lesson" | "exam" | "complete" | "home" | "revision" | "subjects" | "topics" | "quiz" | "diagnostic" | "parent" | "tutor" | "library" | "teacher-materials" | "challenge" | "tuition" | "classes" | "homework";
 
 const initialStudyLink = typeof window === "undefined" ? null : captureStudyLink(window.location, window.history);
 
@@ -413,11 +415,12 @@ export default function App() {
     {id:'home' as Screen,label:'Utama',icon:Home}, {id:'parent' as Screen,label:'Laporan',icon:ChartNoAxesColumnIncreasing},
     {id:'tuition' as Screen,label:'Cari Guru',icon:BookOpenCheck}, {id:'my-teacher' as Screen,label:'Guru Saya',icon:BookOpenCheck}, {id:'links' as Screen,label:'Kongsi link',icon:Link}, {id:'settings' as Screen,label:'Tetapan',icon:Settings},
   ] : [
-    {id:'learn' as Screen,label:'Belajar',icon:Home}, {id:'library' as Screen,label:'Library',icon:BookOpen}, {id:'teacher-materials' as Screen,label:'Guru Saya',icon:BookOpenCheck},
-    ...(activeTheme === 'secondary' ? [{id:'subjects' as Screen,label:'Latihan',icon:ListChecks}] : []),
-    {id:'progress' as Screen,label:'Prestasi',icon:ChartNoAxesColumnIncreasing}, {id:'tutor' as Screen,label:'AI Tutor',icon:Sparkles},
+    {id:'learn' as Screen,label:'Dashboard',icon:Home}, {id:'classes' as Screen,label:'Kelas Saya',icon:BookOpenCheck},
+    {id:'subjects' as Screen,label:'Latihan',icon:ListChecks}, {id:'tutor' as Screen,label:'AI Tutor',icon:Sparkles},
+    {id:'homework' as Screen,label:'Tugasan',icon:BookOpenCheck}, {id:'library' as Screen,label:'Library',icon:BookOpen},
+    {id:'progress' as Screen,label:'Prestasi',icon:ChartNoAxesColumnIncreasing}, {id:'teacher-materials' as Screen,label:'Bahan Guru',icon:LibraryBig},
   ];
-  const activeNav = activeTheme === 'secondary' && ['subjects','topics','quiz','lesson','challenge','complete','diagnostic'].includes(screen) ? 'subjects' : !isParent && ['subjects','topics','quiz','lesson','revision','exam','challenge','complete','diagnostic'].includes(screen) ? 'learn' : screen === 'manage' ? 'settings' : screen;
+  const activeNav = !isParent && ['subjects','topics','quiz','lesson','revision','exam','challenge','complete','diagnostic'].includes(screen) ? 'subjects' : screen === 'manage' ? 'settings' : screen;
   const navigate = (id:Screen) => {
     if(id==='library') openLibrary();else {if(id==='tutor')setTutorResourceId(undefined);setScreen(id);}
     setMenuOpen(false);
@@ -458,19 +461,21 @@ export default function App() {
 
     {screen === "tuition" && isParent && <TuitionTeacherDirectory studentId={study.profile.cloudId} hasStudent={Boolean(study.profile.cloudId)} onManage={()=>setScreen("manage")} onConnect={()=>setScreen("my-teacher")}/>}
     {screen === "home" && isParent && <>
-      <ParentDashboard study={study} students={cloudStudents} busy={profileBusy} onSwitch={id=>void switchStudent(id).catch(()=>setSyncNotice("Profil belum dapat dimuatkan. Cuba lagi."))} onManage={()=>setScreen('manage')} onReports={()=>setScreen('parent')} onLinks={()=>setScreen('links')} onStudentMode={()=>void enterStudentMode()}/>
-      <AcademyParentInsights study={study} onReport={()=>setScreen("parent")} onTeacher={()=>setScreen("tuition")} onManage={()=>setScreen("manage")}/>
+      <ParentDashboard study={study} students={cloudStudents} busy={profileBusy} onSwitch={id=>void switchStudent(id).catch(()=>setSyncNotice("Profil belum dapat dimuatkan. Cuba lagi."))} onManage={()=>setScreen('manage')} onReports={()=>setScreen('parent')} onLinks={()=>setScreen('links')} onStudentMode={()=>void enterStudentMode()} overview={<div className="academyOverviewGrid"><AcademyParentInsights study={study} onReport={()=>setScreen("parent")} onTeacher={()=>setScreen("tuition")} onManage={()=>setScreen("manage")}/><AcademyNextClass key={study.profile.cloudId??"no-child"} role="parent" studentId={study.profile.cloudId} onDetails={()=>academyFocusSection("academy-parent-tuition")}/></div>}/>
+      <div id="academy-parent-tuition">
       <ParentTuitionOverview studentId={study.profile.cloudId} studentName={study.profile.name}
         onFindTeacher={()=>setScreen("tuition")} onConnections={()=>setScreen("my-teacher")} onManage={()=>setScreen("manage")}/>
+      </div>
     </>}
-    {screen === "learn" && <>
-      {!isParent && <AcademyWelcomeBanner study={study} onLearn={()=>setScreen("subjects")}/>}
+    {screen === "learn" && <div className="academyStudentHome">
+      {!isParent && <AcademyWelcomeBanner study={study} onLearn={()=>{const reading=libraryResources.find(item=>item.kind==="reading"&&item.levelIds.includes(study.profile.levelId)&&item.unitId);if(!study.profile.levelId.startsWith("t")&&reading)openLibrary(reading.id);else setScreen("subjects");}}/>}
+      {!isParent && <div className="academyDashboardBody academyStudentOverview"><div className="academyOverviewGrid"><AcademyNextClass role="student" studentId={study.profile.cloudId} onDetails={()=>setScreen("classes")}/><AcademyProgressCard study={study} onProgress={()=>setScreen("progress")}/></div></div>}
       {!isParent && <AcademyStudentActions onLearn={()=>setScreen("subjects")} onTutor={()=>{setTutorResourceId(undefined);setScreen("tutor");}} onMaterials={()=>setScreen("teacher-materials")} onProgress={()=>setScreen("progress")} onLibrary={()=>openLibrary()}/>}
-      {!isParent && <StudentTuitionOverview studentId={study.profile.cloudId}
-        onMaterials={()=>setScreen("teacher-materials")}
-        onTutor={()=>{setTutorResourceId(undefined);setScreen("tutor");}}/>}
+      {!isParent && <div className="academyDashboardBody"><AcademyLearningActivity study={study} onProgress={()=>setScreen("progress")}/>{study.profile.cloudId&&<FamilyHomeworkPanel studentId={study.profile.cloudId} canSubmit={true}/>}</div>}
       <LearnerDashboard study={study} profileKey={`${account.id}:${study.profile.cloudId}`} onAllSubjects={()=>setScreen('subjects')} onSubject={id=>{setSubjectId(id);setScreen('topics');}} onRead={openLibrary} onLesson={(t,id)=>startQuiz(t,id)} onLibrary={()=>openLibrary()} onRevision={()=>setScreen('revision')} onProgress={()=>setScreen(isParent?'parent':'progress')} onTutor={()=>{setTutorResourceId(undefined);setScreen('tutor');}}/>
-    </>}
+    </div>}
+    {screen === "classes" && !isParent && <StudentTuitionOverview studentId={study.profile.cloudId} onMaterials={()=>setScreen("teacher-materials")} onTutor={()=>{setTutorResourceId(undefined);setScreen("tutor");}}/>}
+    {screen === "homework" && !isParent && <main className="content"><h1>Tugasan Saya</h1>{study.profile.cloudId?<FamilyHomeworkPanel studentId={study.profile.cloudId} canSubmit={true}/>:<p>Profil pelajar diperlukan untuk melihat tugasan.</p>}</main>}
     {screen === "links" && isParent && !study.profile.cloudId && <main className="content"><h1>Kongsi link belajar</h1><p>Tambah profil anak dahulu untuk sediakan link belajar mereka.</p><button className="primary" onClick={()=>setScreen('manage')}>Tambah anak<Plus/></button></main>}
     {screen === "settings" && <main className="content focusSettings"><h1>Tetapan</h1><p>Ruang Study anda, mudah diurus.</p><section><h2>{isParent?'Akaun ibu bapa':study.profile.name}</h2><p>{isParent?'Urus profil anak dan sediakan sesi belajar yang sesuai.':`${level.label} · Kemajuan latihan disimpan selepas selesai.`}</p>{isParent?<button className="primary" onClick={()=>setScreen('manage')}><UserRound/>Urus anak</button>:<button className="miniButton" onClick={()=>setScreen('learn')}>Kembali belajar<ArrowRight/></button>}</section>{isParent&&<TeacherApplicationPanel defaultName={account.displayName??account.display_name??""} onApproved={()=>void refreshAccount()}/>}<section><PwaInstall/></section>{isParent && <ParentFeedbackForm />}{!hasFocusSession&&<section><h2>{isParent?'Selesai menggunakan Study?':'Peranti ini untuk ibu bapa?'}</h2><p>{isParent?'Anda boleh log masuk semula untuk melihat laporan anak.':'Ibu bapa perlu log masuk untuk mengurus profil dan laporan.'}</p><button className="miniButton" onClick={logout}><LogOut/>{isParent?'Log keluar':'Log masuk ibu bapa'}</button></section>}</main>}
     {screen === "my-teacher" && isParent && (study.profile.cloudId?<ParentTeacherConnection studentId={study.profile.cloudId} studentName={study.profile.name} onOpenMaterials={()=>setScreen("teacher-materials")}/>:<main className="content"><h1>Guru Saya</h1><p>Tambah profil anak dahulu sebelum menyertai kelas guru.</p><button className="primary" onClick={()=>setScreen("manage")}>Tambah anak</button></main>)}

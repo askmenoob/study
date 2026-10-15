@@ -26,10 +26,14 @@ The image is concept art; it is **not** a pixel-accurate Figma source. Sample me
 4. Exact pixel parity requires editable design source, font/image assets, responsive variations and real screenshot-side comparison; generated pixels alone are not code. Treat visual parity as open until reference-based screenshot QA is performed.
 
 ## Final release gates
-- [ ] Both desktop (1440x900) and mobile (390x844) screenshots for each role inspected against reference
-- [ ] Keyboard focus + long names, blank data, API errors, 2+ children, large class lists
-- [ ] Actual role-based browser UAT (Pelajar/Ibu Bapa/Guru/Admin)
-- [ ] Accessibility labels and touch targets checked; voice remains restricted to Years 1-2 by existing policy
+- [x] Desktop 1440x900/1920x1080, tablet 768x1024 and mobile 390x844/360x800 screenshots for each role inspected against the user-supplied reference in multiple comparison passes (15 October 2026).
+- [x] Exercised keyboard menu/destination focus, long names, zero/one/multiple children and API error/retry states; operational tables remain scrollable. Large production-scale class-list load testing remains outside visual QA.
+- [x] Authenticated isolated QA browser UAT (Pelajar/Ibu Bapa/Guru IMAI/Guru Luar/Admin), real booking confirmation and sibling isolation; user joint full-app acceptance remains pending.
+- [x] Basic labels/focus/touch/reduced-motion checks for exercised flows; existing voice-age restrictions preserved; not WCAG certification.
 - [ ] Payments: sandbox signed-webhook/idempotency and payouts; deploy only with authorized provider configuration
 - [ ] True video-class integration and student-safety/privacy review
 - [ ] Grade-curriculum regression suite and backup / rollback rehearsal
+
+## Approved showcase refinement — 15 October 2026
+
+The user reissued the approved four-role showcase as the controlling target. Compact dashboard composition, real next-session previews, recorded progress/activity, parent child-first overview, teacher teaching desk and admin application/feedback previews are implemented. All 20 required role/viewport cases pass; real QA booking/selection/authorization and 22 existing detail states pass. Full suite: 680/680 tests in 122 files, zero skipped. See STUDY_SHOWCASE_ACCEPTANCE_20261015.md for the comparison ledger, copy audit and intentional deviations. This evidence does not change the 26 VERIFIED / 6 BLOCKED / 2 IN_PROGRESS master status, activate providers, or claim the joint full-app UAT is complete.

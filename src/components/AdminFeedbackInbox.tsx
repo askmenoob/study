@@ -12,6 +12,7 @@ import { AdminTeacherPanel } from "./AdminTeacherPanel";
 import { AdminTuitionOverview } from "./AdminTuitionOverview";
 import { AdminFeedbackTriage } from "./AdminFeedbackTriage";
 import { AcademyWorkspaceNav } from "./AcademyChrome";
+import { AcademyAdminApplications } from "./AcademyAdminPreview";
 import "./AdminFeedbackInbox.css";
 
 const categoryLabels: Record<FeedbackCategory, string> = {
@@ -62,11 +63,11 @@ export function AdminFeedbackInbox({ email, onLogout }: { email?: string; onLogo
     return () => { alive = false; controller.abort(); };
   }, [refresh]);
 
-  return <div className="adminFeedbackShell academyUnified"><AcademyWorkspaceNav role="admin"/>
+  return <div className="adminFeedbackShell academyUnified academyRoleAdmin"><AcademyWorkspaceNav role="admin"/>
     <header className="adminFeedbackHeader"><div className="adminFeedbackBrand"><ShieldCheck aria-hidden="true" /><span><strong>study.imai.my</strong><small>IMAI Smart Academy · Admin</small></span></div><div className="adminFeedbackAccount"><span>{email ?? "Akaun pentadbir"}</span><button type="button" className="miniButton" onClick={onLogout}><LogOut aria-hidden="true" />Log keluar</button></div></header>
     <main className="adminFeedbackMain">
       <div className="adminFeedbackTitle adminDashboardTitle" id="academy-admin-home"><div><span className="adminFeedbackEyebrow">IMAI Study</span><h1>Selamat datang, Admin IMAI! 👋</h1><p>Semak pengguna berdaftar serta cadangan dan maklum balas ibu bapa.</p></div></div>
-      <div id="academy-admin-operations"><AdminTuitionOverview /></div>
+      <div id="academy-admin-operations"><AdminTuitionOverview /></div><div className="academyOverviewGrid academyAdminDesk"><AcademyAdminApplications/><section className="academyPanel"><div className="academyPanelHeading"><h2><Inbox aria-hidden="true"/>Maklum Balas Terkini</h2><a className="academyLinkButton" href="#admin-feedback-heading">Lihat semua</a></div>{busy?<p role="status">Memuatkan maklum balas...</p>:error?<p role="alert">{error}</p>:feedback.length?feedback.slice(0,3).map(item=><a className="academyDeskRow" href="#admin-feedback-heading" key={item.id}><span className="academyTileIcon purple"><Inbox aria-hidden="true"/></span><span><strong>{categoryLabels[item.category]} · {item.referenceId}</strong><small>{displayDate(item.createdAt)}</small></span></a>):<div className="academyCompactEmpty"><Inbox aria-hidden="true"/><p>Belum ada maklum balas direkodkan.</p></div>}</section></div>
       <div id="academy-users"><AdminUserDirectory /></div>
       <AdminTeacherPanel />
       <AdminTuitionReadiness />

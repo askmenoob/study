@@ -100,3 +100,7 @@ M0: PT-001–003 → M1: PT-004–013 → M2: PT-014–019 → M3: PT-020–024 
 ## PT-029 structured evidence slice — 14 October 2026
 
 Private admin evidence registry, append-only review versions/checklist/case reference, retry idempotency, concurrent-review protection and application-change invalidation implemented. Full integrated suite: 605 tests/107 files PASS. Two-admin staging browser flow, history, draft retention, parent denial and desktop/mobile checks PASS. Existing Smart Academy release 9685c91/5d0a735 preserved. PT-029 remains IN_PROGRESS until approved real-evidence verification and acceptance are supplied; retention remains PT-030 BLOCKED. See PRIVATE_TUITION_KYC_REVIEW.md.
+
+## Approved showcase refinement — 15 October 2026
+
+The user reissued the approved four-role showcase as the controlling target. Compact dashboard composition, real next-session previews, recorded progress/activity, parent child-first overview, teacher teaching desk and admin application/feedback previews are implemented. All 20 required role/viewport cases pass; real QA booking/selection/authorization and 22 existing detail states pass. Full suite: 680/680 tests in 122 files, zero skipped. See STUDY_SHOWCASE_ACCEPTANCE_20261015.md for the comparison ledger, copy audit and intentional deviations. This evidence does not change the 26 VERIFIED / 6 BLOCKED / 2 IN_PROGRESS master status, activate providers, or claim the joint full-app UAT is complete.
