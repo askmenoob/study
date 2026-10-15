@@ -4,7 +4,7 @@ import type { LearningResource } from '../data/resources';
 import { readingArtPath, readingFocus, readingFractions, readingTheme, readingThemes } from '../data/readingGraphics';
 import './ReadingGraphics.css';
 
-type VisualResource = Pick<LearningResource,'subjectId'|'title'|'summary'|'body'|'language'>;
+type VisualResource = Pick<LearningResource,'subjectId'|'title'|'summary'|'body'|'language'> & Partial<Pick<LearningResource,'unitId'>>;
 export function ReadingArtwork({ resource, preview=false }: {resource:VisualResource;preview?:boolean}) {
   const theme=readingTheme(resource), english=resource.language==='en';
   return <div className={`readingArtwork readingArtwork-${theme}${preview?' readingArtworkPreview':''}`} style={{'--reading-accent':readingThemes[theme].accent} as CSSProperties}>

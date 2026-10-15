@@ -1,4 +1,5 @@
 import type { LearningResource } from './resources';
+import scienceReadingThemes from './scienceReadingThemes.json';
 
 // Theme artwork is decorative. Educational labels and quantities below come
 // only from the selected resource, never from the image or attached answers.
@@ -25,14 +26,19 @@ const subjectThemes: Record<string, ReadingTheme> = {
   islam:'faith', syariah:'faith', usuluddin:'faith', tahfiz:'faith', economics:'enterprise', business:'enterprise',
   accounting:'enterprise', ict:'digital', visual_art:'creative', sports_science:'health',
 };
-export function readingTheme(resource: Pick<LearningResource,'subjectId'|'title'|'summary'>): ReadingTheme {
-  // Science spans several domains. Match the authored title/summary, not a
-  // stray word elsewhere in a story, and retain a neutral nature default.
+export function readingTheme(resource: Pick<LearningResource,'subjectId'|'title'|'summary'> & Partial<Pick<LearningResource,'unitId'>>): ReadingTheme {
+  // Published science has an explicit reviewed unit/topic assignment. A new
+  // published unit must be assigned before its coverage test can pass.
   if (resource.subjectId === 'science') {
-    const topic = `${resource.title} ${resource.summary}`.toLowerCase();
-    if (/elektrik|litar|tenaga|cahaya|bunyi|daya|gerak|magnet|haba/.test(topic)) return 'energy';
-    if (/bahan|campuran|larut|asid|alkali|pepejal|cecair|gas|karat/.test(topic)) return 'matter';
-    if (/bumi|bulan|planet|suria|angkasa|cuaca/.test(topic)) return 'world';
+    const assigned=(scienceReadingThemes as Record<string,ReadingTheme>)[resource.unitId??''];
+    if(assigned) return assigned;
+    // Teacher-created text has no catalogue unit ID. Its title selects a
+    // broad decorative theme; incidental words in its summary are not used.
+    const topic = resource.title.toLowerCase();
+    if (/\b(?:benih|bercambah|percambahan|tumbuhan|haiwan|hidupan|fotosintesis|daun|ekosistem|nutrien|mikroorganisma)\b/.test(topic)) return 'nature';
+    if (/\b(?:elektrik\w*|litar|tenaga|cahaya|bayang\w*|bunyi|daya|geseran|gerakan|magnet\w*|haba|suhu|konduktor|penebat|tekanan|pantulan|pembiasan|kelajuan|inersia|kuasa|tuil|takal|mesin|gelombang)\b/.test(topic)) return 'energy';
+    if (/\b(?:bumi|bulan|planet|suria|angkasa|cuaca|batuan|bintang|galaksi|meteor|hakisan)\b/.test(topic)) return 'world';
+    if (/\b(?:campuran|larut\w*|kelarutan|asid|alkali|pepejal|cecair|gas|karat\w*|ketumpatan|jirim|penyejatan|pendidihan|kondensasi|pembekuan|pengaratan|polimer|aloi)\b|sifat bahan/.test(topic)) return 'matter';
   }
   return subjectThemes[resource.subjectId] ?? 'language';
 }

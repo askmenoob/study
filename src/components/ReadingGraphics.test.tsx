@@ -8,12 +8,14 @@ import { ReadingArtwork, ReadingVisualGuide } from './ReadingGraphics';
 import { IllustratedReading } from './IllustratedReading';
 import { LearningLibrary } from './LearningLibrary';
 import { getSubjectsForLevel, levels } from '../data/curriculum';
+import scienceReadingThemes from '../data/scienceReadingThemes.json';
 
 it('covers all 1200 published readings with an actual local image and traceable reading map',()=>{
   const readings=resources.filter(resource=>resource.kind==='reading');
   expect(readings).toHaveLength(1200);
   const failures:string[]=[];
   for(const resource of resources) {
+    if(resource.subjectId==='science') expect(resource.unitId! in scienceReadingThemes,resource.id).toBe(true);
     const theme=readingTheme(resource),path=readingArtPath(theme),html=renderToStaticMarkup(createElement(ReadingVisualGuide,{resource}));
     if(!existsSync(`public${path}`)||!html.includes(path)||!html.includes('<ol class="readingFocusMap">')) failures.push(resource.id);
     const points=readingFocus(resource.body);
@@ -54,6 +56,12 @@ it('uses meaningful subject themes, English copy, escaped multilingual text and 
   expect(Object.keys(readingThemes)).toHaveLength(13);
   expect(readingTheme({subjectId:'chemistry',title:'Buffer',summary:'Acid'})).toBe('matter');
   expect(readingTheme({subjectId:'science',title:'Litar elektrik',summary:'Tenaga'})).toBe('energy');
+  expect(readingTheme({subjectId:'science',title:'Benih mula bercambah',summary:'Bahan untuk tugas kelas.'})).toBe('nature');
+  expect(readingTheme({subjectId:'science',unitId:'library-d4-science-cahaya-dan-bayang',title:'Bayang di halaman',summary:'Perhatikan satu penyiasatan.'})).toBe('energy');
+  expect(readingTheme({subjectId:'science',title:'Gas dalam bekas',summary:'Perhatikan sifat jirim.'})).toBe('matter');
+  expect(readingTheme({subjectId:'science',title:'Tugas pemerhatian',summary:'Catat pertumbuhan.'})).toBe('nature');
+  expect(readingTheme({subjectId:'science',unitId:'library-t3-science-expand-pertukaran-gas-pada-alveolus',title:'Pertukaran gas',summary:'Tekanan udara.'})).toBe('nature');
+  expect(readingTheme({subjectId:'science',unitId:'library-t5-science-expanded-c87b5804e3',title:'Kadar tindak balas',summary:'Pemboleh ubah.'})).toBe('matter');
   expect(readingTheme({subjectId:'tahfiz',title:'',summary:''})).toBe('faith');
   const resource={subjectId:'en',title:'The Book',summary:'Read and discover.',body:['A book is open.'],language:'en' as const};
   const html=renderToStaticMarkup(createElement(ReadingVisualGuide,{resource}));
