@@ -11,10 +11,10 @@
 .referenceCard > a { margin: 0 15px 8px 0; }
 .referenceCard details p { font-size: 13px; line-height: 1.7; }
 .resourceReview { padding: 12px 15px; border-radius: 10px; background: #faf2e5; color: #7d5c2d; font-size: 12px; line-height: 1.7; }
-.practiceHint { margin: 14px 0; color: var(--focus-plum, #795078); font-size: 14px; line-height: 1.7; }
+.practiceHint { margin: 14px 0; color: var(--focus-plum, #1569e8); font-size: 14px; line-height: 1.7; }
 .practiceHint summary { min-height: 44px; padding: 10px 0; cursor: pointer; font-weight: 650; }
 .practiceHint p { margin: 6px 0; color: var(--focus-muted, #596482); }
-.furtherReading a { color: var(--focus-plum, #795078); line-height: 1.7; }
+.furtherReading a { color: var(--focus-plum, #1569e8); line-height: 1.7; }
 .furtherReading svg { width: 14px; height: 14px; vertical-align: middle; }
 .furtherReading small { display: block; margin-bottom: 12px; color: var(--focus-muted, #596482); font-size: 12px; }
 @media (max-width: 640px) {

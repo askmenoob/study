@@ -2,14 +2,14 @@
 .practiceChoices p { margin: 0; color: var(--focus-muted, #596482); font-size: 14px; line-height: 1.65; }
 .practiceChoices small { color: var(--focus-muted, #596482); font-size: 13px; line-height: 1.6; }
 .practiceChoices button {
-  border: 1px solid #cfb9ce; background: #fff; border-radius: 11px; padding: 12px 15px;
-  color: #5d3561; font-size: 14px; font-weight: 700; text-align: left;
+  border: 1px solid #bfd0e6; background: #fff; border-radius: 11px; padding: 12px 15px;
+  color: #19529c; font-size: 14px; font-weight: 700; text-align: left;
   white-space: normal; min-height: 48px; line-height: 1.5;
 }
-.practiceChoices > button { background: var(--focus-plum, #795078); border-color: var(--focus-plum, #795078); color: #fff; }
-.practiceChoices button:hover:enabled { background: #f8f1f6; }
-.practiceChoices > button:hover:enabled { background: #5d3561; border-color: #5d3561; }
-.practiceChoices button:focus-visible { outline: 3px solid var(--focus-plum, #795078); outline-offset: 3px; }
+.practiceChoices > button { background: var(--focus-plum, #1569e8); border-color: var(--focus-plum, #1569e8); color: #fff; }
+.practiceChoices button:hover:enabled { background: #edf5ff; }
+.practiceChoices > button:hover:enabled { background: #19529c; border-color: #19529c; }
+.practiceChoices button:focus-visible { outline: 3px solid var(--focus-plum, #1569e8); outline-offset: 3px; }
 .practiceReview { display: flex; gap: 10px; flex-wrap: wrap; }
 .topic:has(.practiceChoices) { grid-template-columns: minmax(0, 1fr) minmax(110px, .5fr) minmax(0, 1.25fr); gap: 24px; padding: 24px; }
 .practiceSessionLabel { margin: 0 0 20px; color: var(--focus-muted, #596482); font-size: 15px; line-height: 1.65; }
@@ -18,17 +18,17 @@
 
 .quiz { max-width: 860px; padding: 32px 28px 80px; color: var(--focus-ink, #171c3b); }
 .quiz .quizTop { color: var(--focus-muted, #596482); gap: 16px; line-height: 1.5; font-size: 14px; }
-.quiz .quizTop .back { min-height: 44px; padding: 10px 0; color: #5d3561; flex: none; }
+.quiz .quizTop .back { min-height: 44px; padding: 10px 0; color: #19529c; flex: none; }
 .quiz .quizTop > span { min-width: 0; overflow-wrap: anywhere; }
 .quiz .quizTop > b { flex: none; }
 .quiz > section { border: 1px solid var(--focus-border, #e3e6ed); border-radius: 18px; padding: 30px; background: #fff; }
 .quiz .qbar { background: #e9e5ed; height: 8px; margin-bottom: 28px; }
-.quiz .qbar i { background: var(--focus-plum, #795078); height: 8px; }
-.quiz section > small { color: #5d3561; font-size: 13px; }
+.quiz .qbar i { background: var(--focus-plum, #1569e8); height: 8px; }
+.quiz section > small { color: #19529c; font-size: 13px; }
 .quiz h2 { font-size: clamp(23px, 3vw, 29px); line-height: 1.55; letter-spacing: -.02em; margin: 18px 0 26px; }
 .quiz .opts { gap: 12px; }
 .quiz .opts button { min-height: 66px; color: var(--focus-ink, #171c3b); font-size: 16px; line-height: 1.6; border: 1px solid #d9dbe5; border-radius: 12px; padding: 15px 17px; gap: 14px; }
-.quiz .opts button:hover:enabled { background: #faf4f8; border-color: var(--focus-plum, #795078); }
+.quiz .opts button:hover:enabled { background: #faf4f8; border-color: var(--focus-plum, #1569e8); }
 .quiz .opts button:disabled { opacity: 1; cursor: default; }
 .quiz .opts button span { flex-shrink: 0; width: 36px; height: 36px; border-radius: 9px; background: #f3f3f8; color: var(--focus-muted, #596482); font-size: 14px; }
 .quiz .opts .ok { border-color: #438c68; background: #edf8f0; color: #22623f; }
@@ -37,9 +37,9 @@
 .quiz .opts .no span { background: #f7dad6; color: #9c3733; }
 .quiz .explain { margin-top: 24px; background: var(--focus-sky, #e9f1fc); border-radius: 13px; padding: 22px; }
 .quiz .explain p { color: var(--focus-ink, #171c3b); line-height: 1.75; }
-.quiz .primary { min-height: 48px; background: var(--focus-plum, #795078); color: #fff; border-radius: 11px; padding: 13px 18px; font-size: 15px; }
-.quiz .primary:hover:enabled { background: #5d3561; }
-.quiz button:focus-visible { outline: 3px solid var(--focus-plum, #795078); outline-offset: 3px; }
+.quiz .primary { min-height: 48px; background: var(--focus-plum, #1569e8); color: #fff; border-radius: 11px; padding: 13px 18px; font-size: 15px; }
+.quiz .primary:hover:enabled { background: #19529c; }
+.quiz button:focus-visible { outline: 3px solid var(--focus-plum, #1569e8); outline-offset: 3px; }
 @media (max-width: 950px) {
   .topic:has(.practiceChoices) { grid-template-columns: 1fr; gap: 22px; }
   .topic:has(.practiceChoices) .bar { margin-bottom: 22px; }

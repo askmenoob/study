@@ -1,0 +1,142 @@
+/* Shared Smart Academy v3 tokens. Imported after legacy and age-specific layouts. */
+:root,
+.academyUnified,
+.focusApp[data-theme='secondary'] {
+  --academy-blue: #1569e8;
+  --academy-navy: #16325a;
+  --academy-muted: #59708c;
+  --academy-canvas: #f4f8ff;
+  --academy-border: #dce7f5;
+  --focus-plum: var(--academy-blue);
+  --focus-ink: var(--academy-navy);
+  --focus-muted: var(--academy-muted);
+  --focus-border: var(--academy-border);
+  --focus-rose: #e8f2ff;
+  --focus-sky: #eaf4ff;
+  --secondary-deep: #1257b4;
+  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--academy-navy);
+  background: var(--academy-canvas);
+}
+body { background: var(--academy-canvas); }
+:is(button,a,input,textarea,select,summary):focus-visible { outline: 3px solid #1569e8; outline-offset: 3px; }
+:is(input,select,textarea) { accent-color: var(--academy-blue); }
+button:disabled { cursor: not-allowed; }
+.academyUnified :is(button,input,select,textarea) { font-family: inherit; }
+.academyUnified :is(.primary,.profile button), .authShell .primary, .sessionMessage .primary {
+  background: var(--academy-blue); border: 1px solid transparent; color: #fff;
+  border-radius: 12px; min-height: 46px; box-shadow: 0 4px 12px #1569e815;
+}
+.academyUnified :is(.primary,.profile button):hover:not(:disabled), .authShell .primary:hover:not(:disabled) { background: #1257b4; }
+.academyUnified :is(.miniButton,.back,.textButton) { color: #19529c; }
+.academyUnified .miniButton { background: #fff; border-color: #cbdcf0; border-radius: 11px; white-space: normal; }
+.academyUnified .miniButton:hover:not(:disabled) { background: #eaf4ff; border-color: #9ebfe9; }
+.academyUnified :is(input,select,textarea):not([type='checkbox']):not([type='radio']):not([type='range']) {
+  min-height: 46px; max-width: 100%; border: 1px solid #bfd0e6; border-radius: 10px;
+  background: #fff; color: var(--academy-navy); padding: 11px 12px; font-size: 1rem;
+}
+.academyUnified textarea { resize: vertical; line-height: 1.6; }
+.academyUnified :is(input,textarea)::placeholder { color: #6c8099; opacity: 1; }
+.academyUnified :is(input,select,textarea):disabled { background: #f1f5fb; color: #64748b; }
+.academyUnified :is(input[type='checkbox'],input[type='radio']) { accent-color: var(--academy-blue); min-width: 18px; min-height: 18px; flex-shrink: 0; }
+.academyUnified :is(h1,h2,h3) { color: var(--academy-navy); line-height: 1.3; }
+.academyUnified :is(.content,.quiz,.tutorPanel,.libraryPage,.examRevision,.challengeJourney) { min-width: 0; }
+.academyUnified .focusMain { background: var(--academy-canvas); }
+.academyUnified.focusApp[data-theme='secondary'] .focusSidebar { background: #fff; border-color: var(--academy-border); }
+.focusDrawerClose { display: none; }
+.academyUnified .syncNotice { position: relative; top: auto; left: auto; right: auto; z-index: auto; margin: 16px 32px 0; background: #eaf4ff; color: #19529c; border: 1px solid var(--academy-border); box-shadow: none; }
+.academyUnified .syncNotice button { min-width: 44px; min-height: 44px; }
+.academyUnified .focusMain .content { max-width: 1250px; padding: 30px 32px 48px; }
+.academyUnified .focusSettings > section { margin: 22px 0; padding: 24px; background: #fff; border: 1px solid var(--academy-border); border-radius: 18px; }
+.academyUnified .focusSettings > section h2 { margin-top: 0; }
+.academyUnified .focusManage { min-height: auto; padding: 35px 32px 50px; gap: 35px; }
+.academyUnified .focusManage h1 { font-size: clamp(30px,3vw,42px); line-height: 1.2; }
+.academyUnified .focusManage .profile { padding: 22px; border-color: var(--academy-border); box-shadow: 0 6px 22px #16325a08; }
+.academyUnified .quiz { padding: 30px 28px 55px; }
+.academyUnified :is(.qcard,.result) { border: 1px solid var(--academy-border); border-radius: 20px; box-shadow: 0 6px 22px #16325a08; }
+.academyUnified .opts button { min-height: 52px; border-color: #cadbf0; border-radius: 12px; }
+.academyUnified .opts button:not(.ok):not(.no):hover:enabled { background: #edf5ff; border-color: #1569e8; }
+.academyUnified :is(.qbar,.bar,.subjectProgress) > i { background: var(--academy-blue); }
+.academyUnified :is(.tutorPanel>.orb,.challengeOrb,.lessonOrb) { color: var(--academy-blue); background: #e8f2ff; }
+.academyUnified :is(.tutorPanel>small,.tutorSelectedNote summary,.challengeEyebrow,.challengeTextButton) { color: #19529c; }
+.academyUnified .tutorChat>.user { background: #1569e8; }
+.academyUnified .tutorMessageRole { color: #e9f3ff; }
+.academyUnified .tutorChat>.ai .tutorMessageRole { color: #19529c; }
+.academyUnified :is(.teacherClasses,.teacherActionPanel,.teacherForm,.teacherOwn,.tuitionSchedule,.teacherConnections section,.joinClass,.trustPanel) {
+  border-color: var(--academy-border); border-radius: 18px; box-shadow: 0 5px 20px #16325a06;
+}
+.academyUnified :is(.teacherStatus:not(.status-published):not(.status-rejected):not(.status-withdrawn),.classCounts span,.adminFeedbackCategory,.adminUserRole.role-super_admin) { color: #19529c; background: #e8f2ff; }
+.academyUnified :is(.teacherMaterialCard,.teacherClassGrid>article,.connectionGrid>article,.adminApplicationGrid>article) { border-color: var(--academy-border); }
+.academyUnified :is(.teacherHeader,.adminFeedbackHeader) { height: auto; position: relative; top: auto; flex-wrap: wrap; gap: 14px; }
+.academyUnified :is(.academyTopbar,.adminTuitionHeader,.studentTuitionHeader,.tuitionProfileHero,.examHeading) { height: auto; position: static; }
+.academyUnified .examHeading { padding: 0; border: 0; background: transparent; backdrop-filter: none; flex-wrap: wrap; }
+.academyUnified .teacherAccount { min-width: 0; }
+.academyUnified .teacherAccount>span, .academyUnified .adminFeedbackAccount>span { overflow-wrap: anywhere; }
+.academyTeacherProfile dl { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; margin: 22px 0 0; }
+.academyTeacherProfile dl div { min-width: 0; }
+.academyTeacherProfile dt { color: var(--academy-muted); font-size: .85rem; }
+.academyTeacherProfile dd { margin: 6px 0 0; font-weight: 700; overflow-wrap: anywhere; }
+.academyWorkspaceSidebar { overflow-y: auto; }
+.academyWorkspaceSidebar nav { gap: 5px; }
+.academyWorkspaceSidebar nav a { min-height: 44px; }
+.academyWorkspaceSidebar nav a[aria-current='location'] { background: #e8f2ff; color: #135fc9; box-shadow: inset 3px 0 #1569e8; font-weight: 800; }
+.academyWorkspaceSidebar nav a:first-child:not([aria-current]) { background: transparent; color: #4d6586; box-shadow: none; }
+.academyUnified [id^='academy-'], .academyUnified [id^='admin-'] { scroll-margin-top: 24px; }
+.academyMenuOverlay { position: fixed; inset: 0; z-index: 120; background: #16325a66; display: flex; justify-content: flex-end; }
+.academyMenuDialog { width: min(360px,100%); height: 100%; overflow-y: auto; background: #fff; padding: 24px 20px max(24px,env(safe-area-inset-bottom)); box-shadow: -12px 0 35px #16325a20; }
+.academyMenuHeading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
+.academyMenuHeading h2 { margin: 0; font-size: 1.35rem; }
+.academyMenuDialog nav { display: flex; flex-direction: column; gap: 6px; margin: 0; }
+.academyMenuDialog nav a { display: flex; align-items: center; gap: 12px; min-height: 48px; padding: 12px; border-radius: 12px; text-decoration: none; color: var(--academy-navy); font-weight: 650; }
+.academyMenuDialog nav a svg { width: 20px; height: 20px; color: #19529c; }
+.academyMenuDialog nav a[aria-current] { background: #e8f2ff; color: #135fc9; }
+.authShell { color: var(--academy-navy); max-width: 1180px; gap: 65px; padding-top: 65px; }
+.authBrand .focusBrand { display: flex; align-items: center; gap: 12px; }
+.authBrand .academyBrandMark { width: 48px; height: 48px; display: grid; place-items: center; border-radius: 14px; background: #e8f2ff; color: #1569e8; }
+.authBrand .academyBrandMark svg { width: 32px; height: 32px; }
+.authBrand .focusBrand>span:last-child { display: grid; gap: 4px; color: #16325a; }
+.authBrand .focusBrand b { font-size: 24px; letter-spacing: -.03em; background: none; color: #16325a; border: 0; padding: 0; border-radius: 0; }
+.authBrand .focusBrand>span:last-child>span { font-size: 14px; color: #59708c; }
+.authShell .authCard { border-color: var(--academy-border); border-radius: 22px; padding: 32px; box-shadow: 0 12px 35px #16325a08; }
+.authShell .authCard h2 { color: var(--academy-navy); }
+.authShell .authIntro h1 em { color: var(--academy-blue); }
+.authShell .authCard input { border-color: #bfd0e6; border-radius: 10px; font-size: 16px; }
+.authShell .authSwitch { color: #19529c; }
+.authShell .authIllustration { background: linear-gradient(135deg,#e8f3ff,#f4f8ff); }
+.authShell .authNote { color: #59708c; }
+.authShell .studyLinkEntry,.authShell .pwaInstall { border-color: var(--academy-border); background: #fff; border-radius: 16px; }
+.authShell .studyLinkEntry>summary { color: #19529c; }
+.authShell .studyLinkEntry input { border-color: #bfd0e6; color: #16325a; }
+.academyUnified .tuitionSchedule .tuitionSchedule { box-shadow: none; margin-bottom: 0; border: 0; padding: 22px 0 0; border-top: 1px solid var(--academy-border); border-radius: 0; }
+.authShell .authPasswordField { position: relative; }
+.authShell .authPasswordField input { padding-right: 52px; }
+.authPasswordToggle { position: absolute; right: 4px; top: 4px; width: 42px; height: 42px; display: grid; place-items: center; background: transparent; border: 0; border-radius: 8px; color: #19529c; }
+.authPasswordToggle svg { width: 20px; height: 20px; }
+.sessionMessage { color: var(--academy-navy); }
+.sessionMessage .orb,.loadingScreen .orb { background: #e8f2ff; color: #1569e8; }
+.studyFooter { color: var(--academy-muted); }
+.donationTrigger,.donationDownload { border-color: var(--academy-border); color: #19529c; }
+@media(max-width:760px) {
+  .focusDrawerClose { display: inline-flex; align-self: flex-end; margin: 0 0 12px auto; }
+  .academyUnified .focusMain .content { padding: 24px 17px 40px; }
+  .academyUnified .syncNotice { margin: 14px 17px 0; }
+  .academyUnified .focusSettings>section { padding: 20px 17px; }
+  .academyUnified .focusManage { padding: 24px 17px 40px; gap: 20px; }
+  .academyUnified .focusManage .profile { grid-template-columns: 1fr; padding: 18px; }
+  .academyUnified .quiz { padding: 24px 17px 40px; }
+  .academyUnified .focusMobileNav,.academyUnified .parentMobileNav { grid-template-columns: repeat(5,minmax(0,1fr)); }
+  .academyUnified .focusMobileNav button,.academyWorkspaceMobileNav :is(a,button) { min-height: 48px; font-size: 10px; }
+  .academyWorkspaceMobileNav button { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 5px; padding: 3px 1px; border: 0; background: none; color: #566c85; font-weight: 700; border-radius: 9px; }
+  .academyWorkspaceMobileNav button svg { width: 21px; height: 21px; }
+  .academyWorkspaceMobileNav a:first-child { color: #566c85; }
+  .academyWorkspaceMobileNav a[aria-current] { background: #e8f2ff; color: #135fc9; border-radius: 10px; }
+  .academyTeacherProfile dl { grid-template-columns: 1fr 1fr; gap: 16px; }
+  .authShell { padding: 28px 18px 36px; gap: 26px; }
+  .authShell .authBrand { margin-bottom: 26px; }
+  .authShell .authCard { padding: 25px; }
+}
+@media(max-width:380px) {
+  .authShell .authCard { padding: 21px; }
+  .academyTeacherProfile dl { grid-template-columns: 1fr; }
+}
+@media(prefers-reduced-motion:reduce) { .academyUnified * { scroll-behavior: auto; } }

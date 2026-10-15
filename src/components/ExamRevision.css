@@ -18,25 +18,25 @@
   min-height: 48px
 }
 .examRevision button:hover:not(:disabled) {
-  background: var(--focus-rose, #f1e4ed);
-  border-color: #cfb9ce
+  background: var(--focus-rose, #e8f2ff);
+  border-color: #bfd0e6
 }
 .examRevision button:disabled {
   cursor: not-allowed;
   opacity: .55
 }
 .examRevision button:focus-visible,.examRevision input:focus-visible,.examRevision textarea:focus-visible,.examRevision summary:focus-visible {
-  outline: 3px solid var(--focus-plum, #795078);
+  outline: 3px solid var(--focus-plum, #1569e8);
   outline-offset: 3px
 }
 .examRevision .examPrimary {
-  background: var(--focus-plum, #795078);
+  background: var(--focus-plum, #1569e8);
   color: #fff;
-  border-color: var(--focus-plum, #795078)
+  border-color: var(--focus-plum, #1569e8)
 }
 .examRevision .examPrimary:hover:not(:disabled) {
-  background: #5d3561;
-  border-color: #5d3561
+  background: #19529c;
+  border-color: #19529c
 }
 .examHeading {
   display: flex;
@@ -46,7 +46,7 @@
   margin-bottom: 24px
 }
 .examHeading small {
-  color: var(--focus-plum, #795078);
+  color: var(--focus-plum, #1569e8);
   font-weight: 800;
   letter-spacing: .04em
 }
@@ -92,8 +92,8 @@
   margin-top: 0
 }
 .examNotice {
-  background: var(--focus-rose, #f1e4ed);
-  color: #5d3561
+  background: var(--focus-rose, #e8f2ff);
+  color: #19529c
 }
 .examWarning button {
   margin-top: 4px
@@ -109,7 +109,7 @@
   padding: 28px
 }
 .examCard>small {
-  color: var(--focus-plum, #795078);
+  color: var(--focus-plum, #1569e8);
   font-weight: 800
 }
 .examCard h3 {
@@ -132,7 +132,7 @@
 }
 .examSource a {
   display: inline-block;
-  color: #5d3561;
+  color: #19529c;
   margin-top: 7px
 }
 .examBadges {
@@ -245,11 +245,11 @@
   color: #92400e
 }
 .examSync-saving {
-  color: #5d3561
+  color: #19529c
 }
 .examClock {
-  background: var(--focus-rose, #f1e4ed);
-  color: #5d3561;
+  background: var(--focus-rose, #e8f2ff);
+  color: #19529c;
   font-weight: 800;
   padding: 8px 12px;
   border-radius: 9px;
@@ -270,9 +270,9 @@
   padding: 10px
 }
 .examQuestionNav .examQuestionActive {
-  background: var(--focus-plum, #795078);
+  background: var(--focus-plum, #1569e8);
   color: #fff;
-  border-color: var(--focus-plum, #795078)
+  border-color: var(--focus-plum, #1569e8)
 }
 .examQuestionMeta {
   display: flex;
@@ -284,7 +284,7 @@
 }
 .examQuestionMeta small {
   font-size: 13px;
-  color: var(--focus-plum, #795078);
+  color: var(--focus-plum, #1569e8);
   font-weight: 700
 }
 .examQuestion h3 {
@@ -319,14 +319,14 @@
   cursor: pointer
 }
 .examChoices input {
-  accent-color: var(--focus-plum, #795078);
+  accent-color: var(--focus-plum, #1569e8);
   width: 18px;
   height: 18px;
   flex-shrink: 0
 }
 .examChoices .examChoiceSelected {
-  background: var(--focus-rose, #f1e4ed);
-  border-color: var(--focus-plum, #795078)
+  background: var(--focus-rose, #e8f2ff);
+  border-color: var(--focus-plum, #1569e8)
 }
 .examChoices:disabled label {
   cursor: default
@@ -423,7 +423,7 @@
 .examNote summary {
   cursor: pointer;
   font-weight: 700;
-  color: #5d3561;
+  color: #19529c;
   line-height: 1.6
 }
 .examNote p {
@@ -457,7 +457,7 @@
 .examSelfMark input {
   width: 18px;
   height: 18px;
-  accent-color: var(--focus-plum, #795078);
+  accent-color: var(--focus-plum, #1569e8);
   margin-top: 4px;
   flex-shrink: 0
 }
@@ -700,14 +700,14 @@
   color: var(--focus-muted, #596482)
 }
 .examRevision .examEmptyVisual button {
-  background: var(--focus-plum, #795078);
+  background: var(--focus-plum, #1569e8);
   color: #fff;
-  border-color: var(--focus-plum, #795078)
+  border-color: var(--focus-plum, #1569e8)
 }
 .examRevision .examEmptyVisual button:hover {
-  background: #5d3561;
+  background: #19529c;
   color: #fff;
-  border-color: #5d3561
+  border-color: #19529c
 }
 @media(max-width:640px) {
   .examRevision .examEmptyVisual {
@@ -737,14 +737,14 @@
 .examModeOptions > div { background: #f8f9fc; padding: 20px; }
 .examModeOptions b { font-size: 17px; }
 .examChoices label { color: var(--focus-ink, #171c3b); }
-.examChoices:not(:disabled) label:hover { border-color: var(--focus-plum, #795078); }
-.examChoices label:has(input:focus-visible) { outline: 3px solid var(--focus-plum, #795078); outline-offset: 3px; }
+.examChoices:not(:disabled) label:hover { border-color: var(--focus-plum, #1569e8); }
+.examChoices label:has(input:focus-visible) { outline: 3px solid var(--focus-plum, #1569e8); outline-offset: 3px; }
 .examQuestion h3, .examReview ol { max-width: 66ch; }
 .examReview > p, .examReview ol, .examNote p { color: var(--focus-ink, #171c3b); }
 .examNote summary { min-height: 44px; display: flex; align-items: center; }
 .examWrittenAnswer :is(input, textarea)::placeholder { color: var(--focus-muted, #596482); opacity: 1; }
-.examScores > div { background: var(--focus-rose, #f1e4ed); border-color: transparent; }
-.examScores strong { color: #5d3561; font-variant-numeric: tabular-nums; }
+.examScores > div { background: var(--focus-rose, #e8f2ff); border-color: transparent; }
+.examScores strong { color: #19529c; font-variant-numeric: tabular-nums; }
 .examQuestionFooter { position: static; width: auto; }
 .examConflict table { line-height: 1.6; }
 @media (max-width: 640px) {

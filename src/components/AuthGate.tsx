@@ -2,10 +2,11 @@ import { StudyFooter } from "./StudyFooter";
 import { useEffect, useState } from "react";
 import { StudyLinkEntry } from "./StudyLinkEntry";
 import { PwaInstall } from "./PwaInstall";
-import { ArrowRight, BookOpen, ChartNoAxesColumnIncreasing, UsersRound } from "lucide-react";
+import { ArrowRight, BookOpen, ChartNoAxesColumnIncreasing, UsersRound, Eye, EyeOff } from "lucide-react";
 import { loginAccount, registerAccount, type AccountUser } from "../lib/api";
 import { hasPreviewAccess, loginPreview } from "../lib/previewAccess";
 import "./AuthGate.css";
+import { FocusBrand } from "./FocusDashboard";
 
 type Props = { onAuthenticated: (user: AccountUser) => void };
 
@@ -13,6 +14,7 @@ export function AuthGate({ onAuthenticated }: Props) {
   const [mode, setMode] = useState<"login" | "register">("login");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [passwordVisible, setPasswordVisible] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
   const [displayName, setDisplayName] = useState("");
   const [error, setError] = useState("");
@@ -55,7 +57,7 @@ export function AuthGate({ onAuthenticated }: Props) {
   };
   return <><main className="authShell">
     <section className="authIntro">
-      <div className="authBrand"><img src="/icons/focus-192.png" alt="" width="48" height="48"/><span>IMAI <strong>Study</strong></span></div>
+      <div className="authBrand"><FocusBrand/></div>
       <h1>Sedikit demi sedikit.<br/><em>Perubahan besar.</em></h1>
       <p>Bantu anak belajar mengikut tahap mereka. Ikuti setiap langkah kemajuan dalam satu akaun keluarga.</p>
       <div className="authIllustration"><img src="/focus-books.webp" alt="" width="400" height="300"/><span>KSSR · KSSM · SPM · STPM</span></div>
@@ -77,7 +79,7 @@ export function AuthGate({ onAuthenticated }: Props) {
         <input type="email" value={email} onChange={(e)=>setEmail(e.target.value)} required autoComplete="email" placeholder="nama@email.com"/>
       </label>
       <label>Kata laluan
-        <input type="password" value={password} onChange={(e)=>setPassword(e.target.value)} required minLength={8} autoComplete={mode === "login" ? "current-password" : "new-password"} aria-describedby={mode === "register" ? "authPasswordHelp" : undefined}/>
+        <div className="authPasswordField"><input type={passwordVisible ? "text" : "password"} value={password} onChange={(e)=>setPassword(e.target.value)} required minLength={8} autoComplete={mode === "login" ? "current-password" : "new-password"} aria-describedby={mode === "register" ? "authPasswordHelp" : undefined}/><button type="button" className="authPasswordToggle" aria-label={passwordVisible ? "Sembunyikan kata laluan" : "Tunjukkan kata laluan"} aria-pressed={passwordVisible} onClick={()=>setPasswordVisible(value=>!value)}>{passwordVisible?<EyeOff aria-hidden="true"/>:<Eye aria-hidden="true"/>}</button></div>
       </label>
       {mode === "register" && <small id="authPasswordHelp" className="authPasswordHelp">Gunakan sekurang-kurangnya 8 aksara.</small>}
       {mode === "login" && <label className="authRemember">

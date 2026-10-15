@@ -17,7 +17,8 @@ describe('profile themes', () => {
   it('returns the correct theme after switching between sibling sessions', () => {
     expect(['d2','t4','d1'].map(grade => studyTheme('student', grade as LevelId)))
       .toEqual(['primary','secondary','primary']);
-    expect(themeColor('secondary')).toBe('#167a79');
-    expect(themeColor('primary')).toBe('#795078');
+    expect(themeColor('secondary')).toBe('#1569e8');
+    expect(themeColor('primary')).toBe('#1569e8');
+    expect(themeColor('parent')).toBe('#1569e8');
   });
 });

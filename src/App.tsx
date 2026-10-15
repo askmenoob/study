@@ -67,6 +67,26 @@ export default function App() {
   const [cloudStudents, setCloudStudents] = useState<CloudStudent[]>([]);
   const [study, setStudy] = useState<StudyState>(() => loadState());
   const [menuOpen, setMenuOpen] = useState(false);
+  const sidebarRef = useRef<HTMLElement>(null);
+  const menuTriggerRef = useRef<HTMLButtonElement>(null);
+  useEffect(() => {
+    if (!menuOpen) return;
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    sidebarRef.current?.querySelector<HTMLElement>("nav button")?.focus();
+    const keydown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") { setMenuOpen(false); menuTriggerRef.current?.focus(); }
+      if (event.key === "Tab") {
+        const controls = Array.from(sidebarRef.current?.querySelectorAll<HTMLElement>("button,a,select,input") ?? []).filter(item => item.getClientRects().length && !item.hasAttribute("disabled"));
+        const first = controls[0], last = controls[controls.length - 1];
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+      }
+    };
+    const resize = () => { if (window.innerWidth > 760) setMenuOpen(false); };
+    window.addEventListener("keydown", keydown); window.addEventListener("resize", resize);
+    return () => { document.body.style.overflow = previous; window.removeEventListener("keydown", keydown); window.removeEventListener("resize", resize); };
+  }, [menuOpen]);
   const [screen, setScreen] = useState<Screen>("home");
   useEffect(() => {
     setMenuOpen(false);
@@ -401,9 +421,9 @@ export default function App() {
   const navigate = (id:Screen) => {if(id==='library') openLibrary();else {if(id==='tutor')setTutorResourceId(undefined);setScreen(id);}setMenuOpen(false);};
   return <StudySessionGate sessionId={hasFocusSession ? account.focusSessionId : undefined} onEnded={endFocusSession}><div className={`app focusApp academyUnified ${isParent?'parentApp':'studentApp'}`} data-theme={activeTheme}>
     <a className="skipLink" href="#study-main">Terus ke kandungan</a>
-    <header className="focusMobileHeader"><button className="focusBrandButton" onClick={()=>navigate(isParent?'home':'learn')} aria-label="IMAI Study — Utama"><FocusBrand/></button><button className="iconButton" aria-label={menuOpen?'Tutup menu':'Buka menu'} aria-expanded={menuOpen} onClick={()=>setMenuOpen(!menuOpen)}>{menuOpen?<X/>:<Menu/>}</button></header>
+    <header className="focusMobileHeader"><button className="focusBrandButton" onClick={()=>navigate(isParent?'home':'learn')} aria-label="IMAI Study — Utama"><FocusBrand/></button><button ref={menuTriggerRef} className="iconButton" aria-label={menuOpen?'Tutup menu':'Buka menu'} aria-expanded={menuOpen} aria-controls="study-sidebar" onClick={()=>setMenuOpen(!menuOpen)}>{menuOpen?<X/>:<Menu/>}</button></header>
     {menuOpen&&<button className="focusMenuBackdrop" aria-label="Tutup menu" onClick={()=>setMenuOpen(false)}/>}
-    <aside className={`focusSidebar ${menuOpen?'isOpen':''}`} aria-label="Navigasi Study"><button className="focusBrandButton" onClick={()=>navigate(isParent?'home':'learn')}><FocusBrand/></button>
+    <aside ref={sidebarRef} id="study-sidebar" className={`focusSidebar ${menuOpen?'isOpen':''}`} role={menuOpen?'dialog':undefined} aria-modal={menuOpen?true:undefined} aria-label="Navigasi Study">{menuOpen&&<button type="button" className="miniButton focusDrawerClose" onClick={()=>{setMenuOpen(false);menuTriggerRef.current?.focus();}}>Tutup menu<X aria-hidden="true"/></button>}<button className="focusBrandButton" onClick={()=>navigate(isParent?'home':'learn')}><FocusBrand/></button>
       <nav aria-label="Menu utama">{navigation.map(item=><button key={item.id} aria-current={activeNav===item.id?'page':undefined} onClick={()=>navigate(item.id)}><item.icon/><span>{item.label}</span></button>)}</nav>
       <div className="focusSidebarBottom"><div className="focusAccount"><span className="focusUserAvatar"><UserRound/></span><strong>{isParent?'Ibu / Bapa':study.profile.name}</strong><small>{isParent?'Akaun penjaga':level.label}</small></div>
       {isParent&&account.roles?.includes("teacher")&&<AccountRoleSwitcher account={account} onSwitched={(user)=>void changeWorkspace(user)}/>}
@@ -412,7 +432,7 @@ export default function App() {
       {!hasFocusSession&&<button onClick={logout}><LogOut/>{isParent?'Log keluar':'Log masuk ibu bapa'}</button>}
       </div>
     </aside>
-    <nav className={`focusMobileNav ${isParent ? "parentMobileNav" : ""}`} aria-label="Menu telefon">{navigation.map(item=><button key={item.id} aria-current={activeNav===item.id?'page':undefined} onClick={()=>navigate(item.id)}><item.icon/>{item.label}</button>)}</nav>
+    <nav className={`focusMobileNav ${isParent ? "parentMobileNav" : ""}`} aria-label="Menu telefon">{navigation.slice(0,4).map(item=><button key={item.id} aria-current={activeNav===item.id?'page':undefined} onClick={()=>navigate(item.id)}><item.icon/>{item.label}</button>)}<button type="button" aria-label="Buka semua menu" aria-expanded={menuOpen} onClick={()=>setMenuOpen(value=>!value)}><Menu aria-hidden="true"/>Menu</button></nav>
     <div className="focusMain" id="study-main" tabIndex={-1}>
     <AcademyTopbar role={isParent?"parent":"student"} displayName={isParent ? (account.displayName ?? account.display_name ?? "Ibu Bapa") : study.profile.name}/>
     {syncNotice && <div className="syncNotice" role="status"><Cloud/><span>{syncNotice}</span><button type="button" aria-label="Tutup notis" onClick={() => setSyncNotice("")}><X/></button></div>}

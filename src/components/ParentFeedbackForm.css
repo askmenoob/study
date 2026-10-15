@@ -1,6 +1,6 @@
 .parentFeedback { padding: 0 !important; overflow: hidden; }
 .parentFeedbackHeading { display: flex; align-items: flex-start; gap: 13px; padding: 24px 24px 0; }
-.parentFeedbackHeading > svg { flex: none; width: 25px; height: 25px; margin-top: 3px; color: var(--focus-plum, #795078); }
+.parentFeedbackHeading > svg { flex: none; width: 25px; height: 25px; margin-top: 3px; color: var(--focus-plum, #1569e8); }
 .parentFeedbackHeading > div { min-width: 0; }
 .parentFeedbackHeading h2 { margin: 0; font-size: 24px; }
 .parentFeedbackHeading p { margin: 8px 0 0; color: var(--focus-muted, #596482); }
@@ -13,7 +13,7 @@
 .parentFeedback :is(select, textarea):disabled { background: #f4f5f8; color: #697186; }
 .parentFeedbackCount { justify-self: end; color: var(--focus-muted, #596482); font-variant-numeric: tabular-nums; }
 .parentFeedbackReply { display: flex; align-items: flex-start; gap: 10px; min-height: 44px; padding: 11px 0 4px; }
-.parentFeedbackReply input { flex: none; width: 18px; height: 18px; margin: 2px 0 0; accent-color: var(--focus-plum, #795078); }
+.parentFeedbackReply input { flex: none; width: 18px; height: 18px; margin: 2px 0 0; accent-color: var(--focus-plum, #1569e8); }
 .parentFeedbackPrivacy { margin: 0; padding: 13px 15px; border-radius: 11px; background: #fff9ed; color: #705b32; font-size: 13px; line-height: 1.6; }
 .parentFeedbackNotice { display: flex; align-items: flex-start; gap: 9px; margin: 16px 0 0; padding: 13px 15px; border-radius: 11px; background: #eef8f1; color: #276746; }
 .parentFeedbackNotice svg { flex: none; width: 19px; margin-top: 2px; }

@@ -8,6 +8,6 @@ export function studyTheme(role: string | undefined, levelId: LevelId): StudyThe
   return levelId.startsWith('t') ? 'secondary' : 'primary';
 }
 
-export function themeColor(theme: StudyTheme): string {
-  return theme === 'secondary' ? '#167a79' : '#795078';
+export function themeColor(_theme: StudyTheme): string {
+  return '#1569e8';
 }

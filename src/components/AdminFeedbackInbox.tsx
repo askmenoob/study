@@ -71,8 +71,7 @@ export function AdminFeedbackInbox({ email, onLogout }: { email?: string; onLogo
       <AdminTeacherPanel />
       <AdminTuitionReadiness />
       <AdminTuitionCommerce />
-      <AdminTuitionPayouts />
-      <AdminTuitionAccounting />
+      <div id="academy-finance"><AdminTuitionPayouts /><AdminTuitionAccounting /></div>
       <AdminTuitionVideo />
       <AdminTuitionNotificationOutbox />
       <AdminTuitionRetention />

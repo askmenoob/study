@@ -38,7 +38,7 @@
   border: 1px solid #d8c6d7;
   border-radius: 999px;
   background: #fff;
-  color: #795078;
+  color: #1569e8;
   font: inherit;
   font-size: 13px;
   font-weight: 600;
@@ -53,14 +53,14 @@
 
 .donationTrigger:hover,
 .donationDownload:hover {
-  border-color: #795078;
+  border-color: #1569e8;
   background: #f8f2f7;
 }
 
 .donationTrigger:focus-visible,
 .donationDownload:focus-visible,
 .donationClose:focus-visible {
-  outline: 3px solid #795078;
+  outline: 3px solid #1569e8;
   outline-offset: 3px;
 }
 
@@ -126,7 +126,7 @@
   border: 0;
   border-radius: 50%;
   background: #f5eff4;
-  color: #795078;
+  color: #1569e8;
   font: inherit;
   font-size: 28px;
   line-height: 1;

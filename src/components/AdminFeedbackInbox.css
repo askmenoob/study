@@ -2,13 +2,13 @@
 .adminFeedbackHeader { position: static; min-height: 74px; height: auto; display: flex; justify-content: space-between; gap: 20px; padding: 14px clamp(20px, 5vw, 64px); border-bottom: 1px solid var(--focus-border, #e3e6ed); background: #fff; }
 .adminFeedbackBrand,
 .adminFeedbackAccount { display: flex; align-items: center; gap: 12px; min-width: 0; }
-.adminFeedbackBrand > svg { width: 37px; height: 37px; padding: 8px; border-radius: 11px; background: #eee2ed; color: var(--focus-plum, #795078); }
+.adminFeedbackBrand > svg { width: 37px; height: 37px; padding: 8px; border-radius: 11px; background: #e8f2ff; color: var(--focus-plum, #1569e8); }
 .adminFeedbackBrand span { display: grid; line-height: 1.25; }
 .adminFeedbackBrand small { color: var(--focus-muted, #596482); }
 .adminFeedbackAccount > span { color: var(--focus-muted, #596482); overflow-wrap: anywhere; }
 .adminFeedbackMain { max-width: 1060px; margin: auto; padding: 44px 28px 70px; }
 .adminFeedbackTitle { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; margin-bottom: 26px; }
-.adminFeedbackEyebrow { color: var(--focus-plum, #795078); font-size: 13px; font-weight: 800; }
+.adminFeedbackEyebrow { color: var(--focus-plum, #1569e8); font-size: 13px; font-weight: 800; }
 .adminFeedbackTitle h1 { margin: 7px 0 9px; }
 .adminFeedbackTitle h2 { margin: 7px 0 9px; }
 .adminDashboardTitle { margin-bottom: 28px; }
@@ -19,7 +19,7 @@
 .adminFeedbackError { color: #9c3733; background: #fff1f0; }
 .adminFeedbackError p { margin-top: 0; }
 .adminFeedbackEmpty { text-align: center; color: var(--focus-muted, #596482); }
-.adminFeedbackEmpty svg { width: 34px; height: 34px; color: var(--focus-plum, #795078); }
+.adminFeedbackEmpty svg { width: 34px; height: 34px; color: var(--focus-plum, #1569e8); }
 .adminFeedbackEmpty h2 { margin-bottom: 4px; }
 .adminFeedbackEmpty p { margin: 0; }
 .adminFeedbackList { display: grid; gap: 16px; }
@@ -27,7 +27,7 @@
 .adminFeedbackMeta,
 .adminFeedbackReference { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 .adminFeedbackCategory { padding: 5px 9px; border-radius: 999px; font-size: 12px; font-weight: 800; }
-.adminFeedbackCategory { color: #5d3561; background: #f1e4ed; }
+.adminFeedbackCategory { color: #19529c; background: #e8f2ff; }
 .category-problem { color: #8b4337; background: #fff0ed; }
 .category-other { color: #3c617b; background: #edf5fa; }
 .adminFeedbackReference { margin-top: 17px; }

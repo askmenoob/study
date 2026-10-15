@@ -1,7 +1,7 @@
 .illustratedReading { display: grid; gap: 26px; }
 .readingPanel { padding: 24px; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 16px; background: #fff; overflow-wrap: anywhere; }
 .readingPanel p { margin: 14px 0; line-height: inherit; }
-.readingParagraph { display: inline-block; padding: 4px 8px; border-radius: 6px; background: var(--focus-rose, #f1e4ed); color: var(--focus-plum, #795078); font-size: 11px; font-weight: 650; line-height: 1.5; }
+.readingParagraph { display: inline-block; padding: 4px 8px; border-radius: 6px; background: var(--focus-rose, #e8f2ff); color: var(--focus-plum, #1569e8); font-size: 11px; font-weight: 650; line-height: 1.5; }
 .readingPanel figure { margin: 20px 0 0; }
 .readingPanel figcaption { margin-top: 10px; color: var(--focus-muted, #596482); font-size: 13px; line-height: 1.65; text-align: center; }
 .readingPanel .learningPicture { background: var(--focus-sky, #e9f1fc); }
@@ -13,13 +13,13 @@
 .readingPreview .learningPictureMany > span { width: 34px; height: 34px; }
 .readingSourceList { display: grid; gap: 16px; }
 .readingSourceList article { padding: 22px; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 16px; background: #fff; }
-.readingSourceList a { display: inline-flex; min-height: 44px; align-items: center; color: var(--focus-plum, #795078); overflow-wrap: anywhere; }
+.readingSourceList a { display: inline-flex; min-height: 44px; align-items: center; color: var(--focus-plum, #1569e8); overflow-wrap: anywhere; }
 .readingSourceList small { display: block; color: var(--focus-muted, #596482); }
 .readingSourceList p { color: var(--focus-muted, #596482); line-height: 1.7; }
 .readerSourceNote { margin-top: 26px; padding: 16px 18px; border: 1px solid var(--focus-border, #e3e6ed); border-radius: 12px; color: var(--focus-muted, #596482); font-size: 13px; line-height: 1.7; }
 .readerSourceNote summary { cursor: pointer; color: var(--focus-ink, #171c3b); font-weight: 650; }
-.readerSourceNote a { display: inline-block; min-height: 44px; margin-right: 16px; color: var(--focus-plum, #795078); }
-.readingContextLabel { font-weight: 700; color: var(--focus-plum, #795078); }
+.readerSourceNote a { display: inline-block; min-height: 44px; margin-right: 16px; color: var(--focus-plum, #1569e8); }
+.readingContextLabel { font-weight: 700; color: var(--focus-plum, #1569e8); }
 .unitLessonText .readingPanel { font-size: inherit; }
 @media (max-width: 540px) {
   .illustratedReading { gap: 18px; }

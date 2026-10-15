@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { useEffect, useRef, useState } from "react";
 import { BookOpenCheck, ChartNoAxesColumnIncreasing, ClipboardCheck, GraduationCap, Home, LibraryBig, Menu, MessageSquare, Settings, ShieldCheck, Sparkles, Users, CalendarDays, UserRound, ArrowRight, Trophy } from "lucide-react";
 import type { StudyState } from "../types";
 import { findLevel, getSubjectsForLevel } from "../data/curriculum";
@@ -30,7 +31,8 @@ const teachingLinks=[
   {label:"Jadual Kelas",target:"academy-schedule",Icon:CalendarDays},
   {label:"Tugasan & Pelajar",target:"academy-homework",Icon:ClipboardCheck},
   {label:"Bahan Mengajar",target:"academy-materials",Icon:LibraryBig},
-  {label:"Profil & Tetapan",target:"academy-teacher-home",Icon:Settings},
+  {label:"Rekod Kewangan",target:"academy-earnings",Icon:ChartNoAxesColumnIncreasing},
+  {label:"Profil & Tetapan",target:"academy-teacher-settings",Icon:Settings},
 ];
 const adminLinks=[
   {label:"Dashboard",target:"academy-admin-home",Icon:Home},
@@ -40,20 +42,53 @@ const adminLinks=[
   {label:"Moderasi",target:"admin-feedback-triage",Icon:ShieldCheck},
   {label:"Inbox",target:"admin-feedback-heading",Icon:MessageSquare},
   {label:"Pakej sandbox",target:"academy-commerce",Icon:ClipboardCheck},
+  {label:"Rekod Kewangan",target:"academy-finance",Icon:ChartNoAxesColumnIncreasing},
+  {label:"Persediaan aplikasi",target:"academy-readiness",Icon:Settings},
+  {label:"Privasi & Retention",target:"academy-retention",Icon:ShieldCheck},
 ];
 export function AcademyWorkspaceNav({role}: {role:"teacher"|"admin"}) {
   const links=role==="teacher"?teachingLinks:adminLinks;
-  const items=links.map(({label,target,Icon})=><a key={label} href={`#${target}`}><Icon aria-hidden="true"/><span>{label}</span></a>);
+  const [active,setActive]=useState(links[0].target);
+  const [open,setOpen]=useState(false);
+  const menuButton=useRef<HTMLButtonElement>(null);
+  const menuRef=useRef<HTMLElement>(null);
+  const menuId=`academy-${role}-menu`;
+  useEffect(()=>{
+    const sync=()=>{const target=window.location.hash.slice(1);if(links.some(item=>item.target===target))setActive(target);};
+    sync();window.addEventListener("hashchange",sync);
+    return()=>window.removeEventListener("hashchange",sync);
+  },[links]);
+  useEffect(()=>{
+    if(!open)return;
+    const previous=document.body.style.overflow;
+    document.body.style.overflow="hidden";
+    menuRef.current?.querySelector<HTMLElement>("a")?.focus();
+    const keydown=(event:KeyboardEvent)=>{
+      if(event.key==="Escape"){setOpen(false);menuButton.current?.focus();}
+      if(event.key==="Tab"){
+        const controls=Array.from(menuRef.current?.querySelectorAll<HTMLElement>("a,button")??[]);
+        const first=controls[0],last=controls[controls.length-1];
+        if(event.shiftKey&&document.activeElement===first){event.preventDefault();last?.focus();}
+        else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first?.focus();}
+      }
+    };
+    const resize=()=>{if(window.innerWidth>760)setOpen(false);};
+    window.addEventListener("keydown",keydown);window.addEventListener("resize",resize);
+    return()=>{document.body.style.overflow=previous;window.removeEventListener("keydown",keydown);window.removeEventListener("resize",resize);};
+  },[open]);
+  const select=(target:string)=>{setActive(target);setOpen(false);};
+  const item=({label,target,Icon}:typeof links[number])=><a key={label} href={`#${target}`} aria-current={active===target?"location":undefined} onClick={()=>select(target)}><Icon aria-hidden="true"/><span>{label}</span></a>;
   return <>
     <aside className="academyWorkspaceSidebar" aria-label={`Navigasi ${roles[role].title}`}>
       <a className="academyWorkspaceBrand" href={`#${role==="teacher"?"academy-teacher-home":"academy-admin-home"}`}>
         <span><GraduationCap aria-hidden="true"/></span><span><strong>study.imai.my</strong><small>Private Tuition</small></span>
       </a>
       <div className="academySidebarLabel">MENU UTAMA</div>
-      <nav>{items}</nav>
+      <nav>{links.map(item)}</nav>
       <div className="academySidebarInfo"><Sparkles aria-hidden="true"/><strong>IMAI Smart Academy</strong><p>Belajar • Berkembang • Capai Impian</p></div>
     </aside>
-    <nav className="academyWorkspaceMobileNav" aria-label={`Menu telefon ${roles[role].title}`}>{items.slice(0,5)}</nav>
+    <nav className="academyWorkspaceMobileNav" aria-label={`Menu telefon ${roles[role].title}`}>{links.slice(0,4).map(item)}<button ref={menuButton} type="button" aria-label="Buka semua menu" aria-expanded={open} aria-controls={menuId} onClick={()=>setOpen(true)}><Menu aria-hidden="true"/><span>Menu</span></button></nav>
+    {open&&<div className="academyMenuOverlay" onClick={event=>{if(event.target===event.currentTarget){setOpen(false);menuButton.current?.focus();}}}><section ref={menuRef} id={menuId} className="academyMenuDialog" role="dialog" aria-modal="true" aria-label={`Semua menu ${roles[role].title}`}><div className="academyMenuHeading"><h2>Menu {roles[role].title}</h2><button type="button" className="miniButton" onClick={()=>{setOpen(false);menuButton.current?.focus();}}>Tutup</button></div><nav>{links.map(item)}</nav></section></div>}
   </>;
 }
 
