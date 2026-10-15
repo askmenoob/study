@@ -29,7 +29,7 @@
 .tutorChat > .ai p { color: var(--focus-ink, #171c3b); }
 .tutorChat > .user p { color: #fff; }
 .tutorChat > .tutorWelcome { width: 100%; max-width: 100%; background: var(--focus-sky, #e9f1fc); border-color: #dce7f7; border-radius: 16px; padding: 24px; }
-.tutorMessageRole { font-size: 13px; color: #f0dcec; }
+.tutorMessageRole { font-size: 13px; color: #e9f3ff; }
 .tutorNotice, .tutorChat p.tutorNotice { font-size: 13px; padding: 13px 15px; background: #fff8e8; color: #796033; border: 1px solid #eadab7; border-radius: 10px; line-height: 1.65; }
 .tutorSupport { display: block; color: var(--focus-muted, #596482); font-size: 13px; line-height: 1.6; margin-top: 16px; }
 .tutorSources { border-top: 1px solid var(--focus-border, #e3e6ed); margin-top: 20px; padding-top: 16px; }

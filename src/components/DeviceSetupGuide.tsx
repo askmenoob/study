@@ -83,14 +83,14 @@ export function DeviceSetupGuide() {
     <summary><MonitorSmartphone aria-hidden="true"/><span>Persediaan peranti anak</span></summary>
     <div className="deviceSetupBody">
       <p className="deviceSetupIntro">Pilih peranti yang digunakan oleh anak. Study tidak dapat mengesan atau mengesahkan lock sistem operasi daripada PWA.</p>
-      <label className="deviceSetupSelect" htmlFor={selectId}>Peranti anak
+      <div className="deviceSetupSelect"><label htmlFor={selectId}>Peranti anak</label>
         <select id={selectId} value={platform} onChange={(event) => setPlatform(event.target.value as Platform | "")}>
           <option value="">Pilih peranti anak</option>
           <option value="android">Android</option>
           <option value="ios">iPhone / iPad</option>
           <option value="windows">Windows</option>
         </select>
-      </label>
+      </div>
       {guide && <section className="deviceSetupPlatform" aria-label={"Panduan " + guide.title}>
         <div className="deviceSetupTitle"><h3>{guide.title}</h3><span>{guide.method}</span></div>
         <p className="deviceSetupPrerequisites">{guide.prerequisites}</p>

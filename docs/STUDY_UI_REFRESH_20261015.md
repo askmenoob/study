@@ -31,3 +31,13 @@ This evidence verifies the redesigned UI and regression checks. Joint full-app U
 ## Release boundary
 
 The production release replaces the web container only. The API image, PostgreSQL and tunnel are retained. Deployment requires a successful exact-commit CI run, a checksum-verified backup, a tagged prior web image, and unchanged shared Cloudflared configuration/backups. Post-release checks verify the new web entry/icons/theme and existing protected API boundaries.
+
+## Detail-state completion
+
+The follow-up carries the same palette into installation notices, generated learning links, controlled-session banners, loading/ended states, Library hover states and donation-dialog chrome. Subject marks and educational illustrations retain their semantic colors; the existing QR asset is unchanged.
+
+The device selector now has a separate explicit label: before the fix, the label text contained every option and an exact `Peranti anak` label lookup returned zero controls; after the fix it returns one correctly associated select. All three platform guides remain unchanged in content and require no device configuration during verification.
+
+Teacher/admin anchor navigation now moves keyboard focus to the chosen destination after closing the menu. Guardian/student drawers move focus into the new content after selection. The mobile admin table has a visible horizontal-scroll hint and a named focusable region; a real ArrowRight interaction verifies horizontal keyboard scrolling at 320px. The Library search field retains its integrated input shape rather than receiving a second field border from the shared form rules.
+
+Additional synthetic browser evidence: 22 detail states, no JS exceptions or API 5xx, at 320/390px; device guides, teacher profile, install details, donation open/Escape, real class roster, user table, focus destinations, age-appropriate guided reader, secondary reader typography/spacing/bookmark controls, challenge introduction, and controlled session → exit request → guardian approval → ended screen. A separate 320px keyboard-scroll check passes. No audio/model call, external message, real room, payment or OS-setting action is performed. Final affected existing tests: 16/16 across three files; type checking and web build pass. Full exact-commit CI remains the promotion gate.

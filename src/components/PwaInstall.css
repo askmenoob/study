@@ -11,4 +11,4 @@
 @media(max-width:420px){.pwaInstallAction{align-items:flex-start;flex-direction:column}.pwaInstallAction button{width:100%}}
 
 .parentPwaInstall{max-width:1108px;margin:20px auto 0;padding:0 18px}
-.pwaInstall .pwaInstallHelp{border-color:#e3e6ed;background:#fff;border-radius:12px}.pwaInstall summary{min-height:44px;color:#1569e8}.pwaInstall .pwaInstallAction{background:#f1e6f2;border-color:#d8c3da;border-radius:14px}.pwaInstall .pwaInstallAction button{background:#1569e8;color:#fff;min-height:44px;border-radius:10px}.pwaInstall .pwaInstallNotice:empty{display:none}.pwaInstall .pwaInstallHelp p,.pwaInstall .pwaInstallHelp li{line-height:1.65}
+.pwaInstall .pwaInstallHelp{border-color:#e3e6ed;background:#fff;border-radius:12px}.pwaInstall summary{min-height:44px;color:#1569e8}.pwaInstall .pwaInstallAction{background:#eaf4ff;border-color:#dce7f5;border-radius:14px}.pwaInstall .pwaInstallAction button{background:#1569e8;color:#fff;min-height:44px;border-radius:10px}.pwaInstall .pwaInstallNotice:empty{display:none}.pwaInstall .pwaInstallHelp p,.pwaInstall .pwaInstallHelp li{line-height:1.65}

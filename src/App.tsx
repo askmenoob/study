@@ -418,7 +418,11 @@ export default function App() {
     {id:'progress' as Screen,label:'Prestasi',icon:ChartNoAxesColumnIncreasing}, {id:'tutor' as Screen,label:'AI Tutor',icon:Sparkles},
   ];
   const activeNav = activeTheme === 'secondary' && ['subjects','topics','quiz','lesson','challenge','complete','diagnostic'].includes(screen) ? 'subjects' : !isParent && ['subjects','topics','quiz','lesson','revision','exam','challenge','complete','diagnostic'].includes(screen) ? 'learn' : screen === 'manage' ? 'settings' : screen;
-  const navigate = (id:Screen) => {if(id==='library') openLibrary();else {if(id==='tutor')setTutorResourceId(undefined);setScreen(id);}setMenuOpen(false);};
+  const navigate = (id:Screen) => {
+    if(id==='library') openLibrary();else {if(id==='tutor')setTutorResourceId(undefined);setScreen(id);}
+    setMenuOpen(false);
+    if(menuOpen)requestAnimationFrame(()=>document.getElementById('study-main')?.focus({preventScroll:true}));
+  };
   return <StudySessionGate sessionId={hasFocusSession ? account.focusSessionId : undefined} onEnded={endFocusSession}><div className={`app focusApp academyUnified ${isParent?'parentApp':'studentApp'}`} data-theme={activeTheme}>
     <a className="skipLink" href="#study-main">Terus ke kandungan</a>
     <header className="focusMobileHeader"><button className="focusBrandButton" onClick={()=>navigate(isParent?'home':'learn')} aria-label="IMAI Study — Utama"><FocusBrand/></button><button ref={menuTriggerRef} className="iconButton" aria-label={menuOpen?'Tutup menu':'Buka menu'} aria-expanded={menuOpen} aria-controls="study-sidebar" onClick={()=>setMenuOpen(!menuOpen)}>{menuOpen?<X/>:<Menu/>}</button></header>

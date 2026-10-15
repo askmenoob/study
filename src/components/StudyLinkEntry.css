@@ -9,4 +9,4 @@
 .studyLinkEntry small{font-size:12px;line-height:1.6;color:#475569}
 .studyLinkEntry button{justify-content:center}
 .studyLinkEntry summary:focus-visible,.studyLinkEntry input:focus-visible{outline:3px solid #6366f1;outline-offset:3px}
-.studyLinkEntry{background:#edf2fa;border:1px solid #e0e6f1;border-radius:14px;padding:16px 20px;color:#596482}.studyLinkEntry>summary{min-height:44px;color:#633e6c;font-weight:700}.studyLinkEntry input{min-height:46px;width:100%;border-radius:10px;border:1px solid #bcc5d5;background:#fff;padding:12px}.studyLinkEntry form{display:grid;gap:12px}.studyLinkEntry p{line-height:1.65}.studyLinkEntry small{font-size:12px;line-height:1.6}
+.studyLinkEntry{background:#edf2fa;border:1px solid #e0e6f1;border-radius:14px;padding:16px 20px;color:#596482}.studyLinkEntry>summary{min-height:44px;color:#19529c;font-weight:700}.studyLinkEntry input{min-height:46px;width:100%;border-radius:10px;border:1px solid #bcc5d5;background:#fff;padding:12px}.studyLinkEntry form{display:grid;gap:12px}.studyLinkEntry p{line-height:1.65}.studyLinkEntry small{font-size:12px;line-height:1.6}

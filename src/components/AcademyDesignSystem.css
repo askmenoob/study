@@ -36,6 +36,9 @@ button:disabled { cursor: not-allowed; }
   background: #fff; color: var(--academy-navy); padding: 11px 12px; font-size: 1rem;
 }
 .academyUnified textarea { resize: vertical; line-height: 1.6; }
+.academyUnified .libraryPage .librarySearch input:not([type='checkbox']):not([type='radio']) { border: 0; padding: 0; background: transparent; border-radius: 0; }
+.adminUsersScrollHint { display: none; }
+.adminUsersTableWrap:focus-visible { outline: 3px solid #1569e8; outline-offset: 3px; }
 .academyUnified :is(input,textarea)::placeholder { color: #6c8099; opacity: 1; }
 .academyUnified :is(input,select,textarea):disabled { background: #f1f5fb; color: #64748b; }
 .academyUnified :is(input[type='checkbox'],input[type='radio']) { accent-color: var(--academy-blue); min-width: 18px; min-height: 18px; flex-shrink: 0; }
@@ -114,9 +117,13 @@ button:disabled { cursor: not-allowed; }
 .authPasswordToggle svg { width: 20px; height: 20px; }
 .sessionMessage { color: var(--academy-navy); }
 .sessionMessage .orb,.loadingScreen .orb { background: #e8f2ff; color: #1569e8; }
+.focusSessionBanner { background: #eaf4ff; border-color: var(--academy-border); color: var(--academy-navy); }
+.focusSessionActions .miniButton,.sessionMessage .miniButton { border-color: #bfd0e6; color: #19529c; background: #fff; }
+.focusSessionActions .miniButton:hover:not(:disabled),.sessionMessage .miniButton:hover:not(:disabled) { background: #edf5ff; border-color: #9ebfe9; }
 .studyFooter { color: var(--academy-muted); }
 .donationTrigger,.donationDownload { border-color: var(--academy-border); color: #19529c; }
 @media(max-width:760px) {
+  .adminUsersScrollHint { display: block; margin: 0 0 12px; color: var(--academy-muted); font-size: .82rem; line-height: 1.5; }
   .focusDrawerClose { display: inline-flex; align-self: flex-end; margin: 0 0 12px auto; }
   .academyUnified .focusMain .content { padding: 24px 17px 40px; }
   .academyUnified .syncNotice { margin: 14px 17px 0; }

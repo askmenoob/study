@@ -13,7 +13,7 @@ const displayDate = (value: string) => {
 
 export function AdminUserTable({ users }: { users: AdminUserSummary[] }) {
   if (!users.length) return <div className="adminUsersEmpty"><UsersRound aria-hidden="true" /><p>Belum ada pengguna berdaftar.</p></div>;
-  return <div className="adminUsersTableWrap"><table className="adminUsersTable">
+  return <><p className="adminUsersScrollHint">Tatal ke sisi untuk melihat peranan dan tarikh daftar.</p><div className="adminUsersTableWrap" role="region" aria-label="Senarai pengguna" tabIndex={0}><table className="adminUsersTable">
     <caption>Senarai email pengguna berdaftar</caption>
     <thead><tr><th scope="col">Email</th><th scope="col">Peranan</th><th scope="col">Tarikh daftar</th></tr></thead>
     <tbody>{users.map((user) => <tr key={user.email}>
@@ -21,7 +21,7 @@ export function AdminUserTable({ users }: { users: AdminUserSummary[] }) {
       <td data-label="Peranan"><span className={`adminUserRole role-${user.role}`}>{user.role === "super_admin" ? "Super Admin" : user.role === "teacher" ? "Guru" : "Ibu bapa"}</span></td>
       <td data-label="Tarikh daftar"><time dateTime={user.createdAt}>{displayDate(user.createdAt)}</time></td>
     </tr>)}</tbody>
-  </table></div>;
+  </table></div></>;
 }
 
 type DirectoryViewProps = {

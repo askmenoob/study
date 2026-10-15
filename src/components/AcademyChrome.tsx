@@ -76,7 +76,13 @@ export function AcademyWorkspaceNav({role}: {role:"teacher"|"admin"}) {
     window.addEventListener("keydown",keydown);window.addEventListener("resize",resize);
     return()=>{document.body.style.overflow=previous;window.removeEventListener("keydown",keydown);window.removeEventListener("resize",resize);};
   },[open]);
-  const select=(target:string)=>{setActive(target);setOpen(false);};
+  const select=(target:string)=>{
+    setActive(target);setOpen(false);
+    requestAnimationFrame(()=>{
+      const destination=document.getElementById(target);
+      if(destination){destination.tabIndex=-1;destination.focus({preventScroll:true});}
+    });
+  };
   const item=({label,target,Icon}:typeof links[number])=><a key={label} href={`#${target}`} aria-current={active===target?"location":undefined} onClick={()=>select(target)}><Icon aria-hidden="true"/><span>{label}</span></a>;
   return <>
     <aside className="academyWorkspaceSidebar" aria-label={`Navigasi ${roles[role].title}`}>

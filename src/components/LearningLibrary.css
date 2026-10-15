@@ -46,7 +46,7 @@
 .libraryPage .resourceCardTop > button[aria-pressed=true] { color: var(--focus-plum, #1569e8); background: var(--focus-rose, #e8f2ff); }
 .libraryPage .resourceCardTop svg { width: 19px; height: 19px; }
 .libraryPage .resourceBadge { display: inline-flex; align-items: center; border-radius: 7px; padding: 5px 9px; font-size: 11px; font-weight: 700; line-height: 1.5; }
-.libraryPage .resourceBadge.note { color: #704a70; background: var(--focus-rose, #e8f2ff); }
+.libraryPage .resourceBadge.note { color: #19529c; background: var(--focus-rose, #e8f2ff); }
 .libraryPage .resourceBadge.reading { color: #375b84; background: var(--focus-sky, #e9f1fc); }
 .libraryPage .resourceBadge.practice { color: #7d5c2d; background: #fcf0d8; }
 .libraryPage .resourceCard > small { margin-top: 14px; color: var(--focus-muted, #596482); font-size: 11px; line-height: 1.65; }
@@ -55,7 +55,7 @@
 .libraryPage .resourceCard > div:last-child { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-top: auto; }
 .libraryPage .resourceCard > div:last-child > span { color: var(--focus-muted, #596482); font-size: 11px; }
 .libraryPage .openResource { display: inline-flex; align-items: center; gap: 9px; min-height: 44px; padding: 9px 12px; border: 0; border-radius: 9px; background: var(--focus-rose, #e8f2ff); color: #19529c; font-size: 13px; font-weight: 700; }
-.libraryPage .openResource:hover { background: #e8d5e4; }
+.libraryPage .openResource:hover { background: #dce7f5; }
 .libraryPage .openResource svg { width: 16px; height: 16px; }
 .libraryLoadMore { display: flex; align-items: center; flex-direction: column; gap: 10px; margin-top: 28px; }
 .libraryLoadMore small { color: var(--focus-muted, #596482); font-size: 12px; }
