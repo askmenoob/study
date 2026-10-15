@@ -73,3 +73,13 @@ Above-the-fold copy audit: retained meaningful role greeting, subject names and 
 5. The existing large-bundle build warning remains. No performance score, cross-browser/device certification or full WCAG conformance is claimed.
 
 Canonical TODO remains **26 VERIFIED / 6 BLOCKED / 2 IN_PROGRESS** of 34. Provider/commercial/identity/privacy acceptance is not promoted from frontend evidence. Production release evidence is appended after deployment verification.
+
+## Verified production release
+
+Implementation commit: private `dc0c3be320ff9ed172e2be625268ad949c200c0e`, published `aee9e1664f50fe84c14331a1c5474c4201f8be3e`. Exact public-commit CI [38705604478](https://github.com/askmenoob/study/actions/runs/38705604478) passed npm ci, full build/typecheck/PWA, both content validators and 680/680 tests in122files.
+
+Frontend-only Docker deployment completed on15October2026. Live entry `/assets/index-TBUwkghl.js`; web image `sha256:5d15dc08c929ee1ad89a7e364ae7824700c8ca478ac888174d8f0f119e65d4e4`. Backup `20261015T163025` passed SHA256 checks; rollback image `imai-study-web:before-showcase-94785ed-20261015` retained. API, PostgreSQL and tunnel identities match the saved baseline; the unrelated Cloudflared diff and five backup variants match exactly.
+
+A first promotion was automatically rolled back because the old verification helper expected all commerce tables to be empty. The fresh predeployment backup `20261015T162826` proves one package record already existed before promotion. The helper now compares current aggregate counts to that backup, rather than assuming zero. The successful retry preserved that one package and zero invoices, delivery jobs, payout drafts and WhatsApp receipt records. This was a stale verification-baseline failure, not a frontend or data-migration failure. No database records were modified during deployment.
+
+Postrelease checks PASS: public HTTPS login/visibility, manifest/icons, API free-only health, protected endpoints401, inactive WhatsApp webhook503 and exact deployed JS entry. Checkout and notification worker remain off, video remains disabled/provider null, retention periods remain null/unapproved. The full20role/viewport matrix also passed using the actual production HTTPS HTML/JS/CSS with all API requests routed to the isolated QA backend. This validates authenticated rendering of the deployed frontend; it does not claim a real production-user authenticated workflow or the user's joint UAT. Synthetic tokens never reached the production API, and no synthetic accounts or records were created in production.

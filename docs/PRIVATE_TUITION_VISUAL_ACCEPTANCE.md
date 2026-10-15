@@ -32,8 +32,9 @@ The image is concept art; it is **not** a pixel-accurate Figma source. Sample me
 - [x] Basic labels/focus/touch/reduced-motion checks for exercised flows; existing voice-age restrictions preserved; not WCAG certification.
 - [ ] Payments: sandbox signed-webhook/idempotency and payouts; deploy only with authorized provider configuration
 - [ ] True video-class integration and student-safety/privacy review
-- [ ] Grade-curriculum regression suite and backup / rollback rehearsal
+- [x] Grade/curriculum regression680/680, current backup SHA256 checks and automatic frontend rollback exercised on15October; database-restore rehearsal remains the previously recorded isolated release evidence.
 
 ## Approved showcase refinement — 15 October 2026
 
 The user reissued the approved four-role showcase as the controlling target. Compact dashboard composition, real next-session previews, recorded progress/activity, parent child-first overview, teacher teaching desk and admin application/feedback previews are implemented. All 20 required role/viewport cases pass; real QA booking/selection/authorization and 22 existing detail states pass. Full suite: 680/680 tests in 122 files, zero skipped. See STUDY_SHOWCASE_ACCEPTANCE_20261015.md for the comparison ledger, copy audit and intentional deviations. This evidence does not change the 26 VERIFIED / 6 BLOCKED / 2 IN_PROGRESS master status, activate providers, or claim the joint full-app UAT is complete.
+Production M17 deployed: source dc0c3be/public aee9e16, exact-commit CI38705604478 PASS. Backup20261015T163025, current public asset and20deployed-frontend/QA-API role-viewports verified. See STUDY_SHOWCASE_ACCEPTANCE_20261015.md for rollback-baseline correction and production-account UAT limits.
