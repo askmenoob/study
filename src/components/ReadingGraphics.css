@@ -27,7 +27,7 @@
 .readingFractionGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
 .readingFractionModel{display:flex;gap:12px;align-items:center;font-size:14px;min-width:0}
 .readingFractionModel>b{min-width:3ch;color:var(--reading-accent)}
-.readingFractionStrip{display:flex;flex:1;height:30px;border:1px solid #38567b;border-radius:6px;overflow:hidden;background:#fff}
+.readingFractionStrip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);flex:1;height:30px;border:1px solid #38567b;border-radius:6px;overflow:hidden;background:#fff}
 .readingFractionStrip span{flex:1;min-width:0;border-right:1px solid #38567b;background:#fff}
 .readingFractionStrip span:last-child{border:0}
 .readingFractionStrip .shaded{background:var(--reading-accent)}
