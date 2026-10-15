@@ -29,5 +29,8 @@ describe("approved teacher materials for students", () => {
     expect(html).toContain("Bahan daripada Guru Disahkan IMAI");
     expect(html).toContain("boleh disemak atau ditarik balik");
     expect(html).not.toContain("telah diluluskan super admin");
+    expect(html).toContain('/reading-art/language-v1.webp');
+    expect(html).toContain('Panduan grafik bacaan');
+    expect(html).toContain('Baca suku kata dengan jelas.');
   });
 });

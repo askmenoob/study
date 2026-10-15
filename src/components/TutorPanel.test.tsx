@@ -47,7 +47,7 @@ describe("tutor context controls", () => {
     expect(html).toContain('value="library-d4-science-cahaya-dan-bayang-note" selected=""');
     expect(html).toContain("Baca nota dipilih:");
     expect(html).toContain("cahaya bergerak lurus");
-    expect(html).not.toContain('href=');
+    expect(html).not.toContain('<a ');expect(html).not.toContain('href="http');
   });
 
   it("ignores practice and out-of-level initial resources", () => {

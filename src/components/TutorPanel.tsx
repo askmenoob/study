@@ -6,6 +6,8 @@ import { askTutorCloud } from "../lib/api";
 import { makeUuid } from "../lib/id";
 import type { LevelId, TutorMessage } from "../types";
 import "./TutorPanel.css";
+import { ReadingVisualGuide } from "./ReadingGraphics";
+import { IllustratedReading } from "./IllustratedReading";
 
 type Props = {
   studentId?: string;
@@ -62,7 +64,8 @@ function TutorContext({ studentId, levelId, initialSubjectId, initialTopicId, in
       {topic && <p>Topik: <strong>{topic.name}</strong></p>}
       {selectedNote && <details className="tutorSelectedNote">
         <summary><BookOpen aria-hidden="true" /> Baca nota dipilih: {selectedNote.title}</summary>
-        {selectedNote.body.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+        <ReadingVisualGuide resource={selectedNote}/>
+        <IllustratedReading body={selectedNote.body} illustrations={selectedNote.illustrations}/>
       </details>}
     </div>
     <TutorConversation key={conversationKey} studentId={studentId} levelId={levelId} subjectId={subjectId} topicId={topicId} resourceId={selectedNote?.id} />

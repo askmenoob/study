@@ -14,7 +14,10 @@ it("opens teaching first in every D1 subject, including direct Library practice 
     expect(html).not.toContain("unitAnswer");
     const library=renderToStaticMarkup(createElement(LearningLibrary,{levelId:"d1",stage:"KSSR",levelLabel:"Darjah 1",subjects:getSubjectsForLevel("d1"),onOpenSubject:()=>{},initialResourceId:`${topic.unitId}-practice`,allowExternalLinks:false}));
     expect(library).toContain("Jom belajar dahulu"); expect(library).not.toContain("libraryQuestion");
-    expect(library).not.toContain("href=");
+    // React may preload the local illustration with <link href>. The focus
+    // boundary forbids navigable external links, not local image preloads.
+    expect(library).not.toContain("<a ");
+    expect(library).not.toContain('href="http');
   }
 });
 

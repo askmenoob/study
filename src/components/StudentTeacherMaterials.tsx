@@ -2,14 +2,19 @@ import { useEffect, useMemo, useState } from "react";
 import { ArrowLeft, BookOpenCheck, RefreshCw, Search } from "lucide-react";
 import { teacherContentApi, type TeacherMaterial } from "../lib/teacherContentApi";
 import "./StudentTeacherMaterials.css";
+import { ReadingArtwork, ReadingVisualGuide } from "./ReadingGraphics";
+
+function teacherVisualResource(material:TeacherMaterial) {
+  return {title:material.title,summary:material.summary,subjectId:material.subjectId,body:material.body.split(/\r?\n\s*\r?\n/u).filter(p=>p.trim()),language:(["en","lit_en","mgmt_math","stpm_math","ict","physics","chemistry","biology"].includes(material.subjectId)?"en":"ms") as "en"|"ms"};
+}
 
 export function StudentTeacherMaterialList({ materials, onOpen }: { materials: TeacherMaterial[]; onOpen: (material: TeacherMaterial) => void }) {
   if (!materials.length) return <div className="teacherStudentEmpty"><BookOpenCheck aria-hidden="true" /><h2>Belum ada bahan guru</h2><p>Jika kelas sudah aktif, guru anda belum berkongsi bahan.</p></div>;
-  return <div className="teacherStudentGrid">{materials.map((item) => <article key={item.id}><span>{item.kind === "note" ? "Nota guru" : "Bacaan guru"}</span><small>{item.subjectId.toUpperCase()} · {item.className}</small><h2>{item.title}</h2><p>{item.summary}</p><p><strong>{item.teacherName}</strong><br/>{item.schoolName}</p><button className="primary" onClick={() => onOpen(item)}>Buka bahan</button></article>)}</div>;
+  return <div className="teacherStudentGrid">{materials.map((item) => <article key={item.id}><span>{item.kind === "note" ? "Nota guru" : "Bacaan guru"}</span><small>{item.subjectId.toUpperCase()} · {item.className}</small><ReadingArtwork resource={teacherVisualResource(item)} preview/><h2>{item.title}</h2><p>{item.summary}</p><p><strong>{item.teacherName}</strong><br/>{item.schoolName}</p><button className="primary" onClick={() => onOpen(item)}>Buka bahan</button></article>)}</div>;
 }
 
 export function StudentTeacherMaterialReader({material,levelLabel,subjects,onBack}:{material:TeacherMaterial;levelLabel:string;subjects:{id:string;name:string}[];onBack:()=>void}) {
-  return <main className="teacherStudentPage"><button className="back" onClick={onBack}><ArrowLeft /> Kembali ke bahan guru</button><article className="teacherStudentReader"><span className="teacherStudentApproved">Bahan daripada Guru Disahkan IMAI</span><small>{levelLabel} · {subjects.find((item) => item.id === material.subjectId)?.name ?? material.subjectId} · {material.className}</small><h1>{material.title}</h1><p>{material.summary}</p><p><strong>{material.teacherName}</strong> · {material.schoolName}</p><div className="teacherStudentBody">{material.body}</div><footer>Bahan sumbangan guru ini diterbitkan oleh guru yang akaunnya telah disahkan IMAI. Ia boleh disemak atau ditarik balik oleh super admin dan bukan dokumen rasmi KPM atau keputusan PBD.</footer></article></main>;
+  return <main className="teacherStudentPage"><button className="back" onClick={onBack}><ArrowLeft /> Kembali ke bahan guru</button><article className="teacherStudentReader"><span className="teacherStudentApproved">Bahan daripada Guru Disahkan IMAI</span><small>{levelLabel} · {subjects.find((item) => item.id === material.subjectId)?.name ?? material.subjectId} · {material.className}</small><h1>{material.title}</h1><p>{material.summary}</p><p><strong>{material.teacherName}</strong> · {material.schoolName}</p><ReadingVisualGuide resource={teacherVisualResource(material)}/><div className="teacherStudentBody">{material.body}</div><footer>Bahan sumbangan guru ini diterbitkan oleh guru yang akaunnya telah disahkan IMAI. Ia boleh disemak atau ditarik balik oleh super admin dan bukan dokumen rasmi KPM atau keputusan PBD.</footer></article></main>;
 }
 
 export function StudentTeacherMaterials({ studentId, levelLabel, subjects, onOpenLibrary, onManageTeacher }: { studentId: string; levelLabel: string; subjects: { id: string; name: string }[]; onOpenLibrary?: () => void; onManageTeacher?: () => void }) {

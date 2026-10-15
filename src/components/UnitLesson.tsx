@@ -9,6 +9,7 @@ import { useLearningSpeech } from "../lib/useLearningSpeech";
 import { markUnitLearned } from "../lib/learnedUnits";
 import "./UnitLearning.css";
 import { IllustratedReading } from "./IllustratedReading";
+import { ReadingVisualGuide } from "./ReadingGraphics";
 
 export interface UnitLessonProps { unitId: string; profileKey: string; onBack: () => void; onStart: () => void }
 export function UnitLesson({ unitId, profileKey, onBack, onStart }: UnitLessonProps) {
@@ -33,6 +34,7 @@ export function UnitLesson({ unitId, profileKey, onBack, onStart }: UnitLessonPr
   return <main className={`unitLesson${frames ? " unitLessonEarly" : ""}`}>
     <button className="back" onClick={() => {speech.stop();onBack();}}><ArrowLeft/> Kembali</button>
     <div className="unitLessonHeading"><span>{learningPolicy(unit.levelId).approach}</span><h1>{unit.note.title}</h1><p>{unit.note.summary}</p></div>
+    {page===-1&&<ReadingVisualGuide resource={{...unit.reading,subjectId:unit.subjectId,language}}/>}
     <div className="unitLessonJourney" aria-label="Langkah pembelajaran"><span className="current"><BookOpen aria-hidden="true"/> Baca dan fahami</span><span>Cuba aktiviti</span></div>
     <div className="unitLessonProgress" role="progressbar" aria-label="Kemajuan bacaan unit" aria-valuemin={0} aria-valuemax={pages} aria-valuenow={Math.max(0,page+1)}><span style={{width:`${Math.max(0,page+1)/pages*100}%`}}/></div>
     {page < 0 ? <section className="unitLessonWelcome">
@@ -44,7 +46,8 @@ export function UnitLesson({ unitId, profileKey, onBack, onStart }: UnitLessonPr
     </section> : <section className="unitTeachingCard">
       <p className="unitStep">{frames ? "Belajar bersama" : page === 0 ? "Nota dan contoh" : "Bacaan untuk latihan"} · {page+1}/{pages}</p>
       {frames && <LearningPicture visual={frames[page].visual}/>}
-      <div className="unitLessonText">{!frames && page === 1 && unit.reading.illustrations?.length ? <IllustratedReading body={unit.reading.body} illustrations={unit.reading.illustrations}/> : text.split("\n\n").map((p,i) => <p key={i} dir="auto">{p}</p>)}</div>
+      {!frames&&<ReadingVisualGuide resource={{...(page===0?unit.note:unit.reading),subjectId:unit.subjectId,language}}/>}
+      <div className="unitLessonText">{!frames ? <IllustratedReading body={page===0?unit.note.body:unit.reading.body} illustrations={page===0?unit.note.illustrations:unit.reading.illustrations}/> : text.split("\n\n").map((p,i) => <p key={i} dir="auto">{p}</p>)}</div>
       {voiceEnabled && <div className="learningSpeech"><button className="speechButton" onClick={() => void speech.speak(text)} disabled={speech.busy}><Volume2/>{speech.busy ? "Menyediakan audio…" : "Dengar contoh"}</button><button aria-label="Hentikan audio" onClick={speech.stop}><Square/></button></div>}
       {voiceEnabled && speech.message && <p role="status" className="learningSpeechMessage">{speech.message}</p>}
       {voiceEnabled && frames && support === "listen" && <p className="unitScope">Tekan pembesar suara. Dengar semula jika perlu.</p>}
