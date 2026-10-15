@@ -327,6 +327,12 @@ export class PostgresTeacherNetworkRepository {
     const client = await this.pool.connect();
     try {
       await client.query("BEGIN");
+      // Match submitApplication: lock the applicant before the application. Otherwise
+      // approval's user foreign keys can deadlock against a concurrent resubmission.
+      const applicant = await client.query(`SELECT id FROM users WHERE id=(
+        SELECT user_id FROM teacher_applications WHERE id=$1) FOR UPDATE`, [applicationId]);
+      if (!applicant.rows[0]) throw accessError("TEACHER_APPLICATION_NOT_FOUND", 404);
+      // Read again after waiting so approval uses the committed resubmission.
       const result = await client.query("SELECT * FROM teacher_applications WHERE id=$1 FOR UPDATE", [applicationId]);
       const application = result.rows[0];
       if (!application) throw accessError("TEACHER_APPLICATION_NOT_FOUND", 404);

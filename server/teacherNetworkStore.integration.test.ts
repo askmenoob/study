@@ -49,6 +49,41 @@ describe.skipIf(!databaseUrl)("teacher network against disposable PostgreSQL", (
     await network.reviewApplication(secondApplication.id,adminId,"approve","Identiti dan sekolah disemak.");
   });
 
+  it("serializes application approval with applicant resubmission without a deadlock",async()=>{
+    const applicantId=randomUUID();
+    await pool.query("INSERT INTO users(id,email,password_hash,display_name,role) VALUES($1,$2,'unused','Concurrent Applicant','parent')",[applicantId,`${applicantId}@tests.invalid`]);
+    const application=await network.submitApplication(applicantId,{fullName:"Concurrent Applicant",publicName:"Cikgu Concurrent",schoolName:"SK Concurrent",state:"Selangor",district:"Petaling",positionTitle:"Guru Akademik",academicYear:2026,levelIds:["d1"],subjectIds:["bm"],identityAttested:true,termsAttested:true});
+    const resubmission=await pool.connect();
+    let approval:Promise<{value?:any;error?:any}>|undefined;
+    try{
+      await resubmission.query("BEGIN");
+      await resubmission.query("SET LOCAL statement_timeout='4s'");
+      const {rows:[{pid}]}=await resubmission.query("SELECT pg_backend_pid() AS pid");
+      // Hold the first lock taken by submitApplication while approval starts.
+      await resubmission.query("SELECT id FROM users WHERE id=$1 FOR UPDATE",[applicantId]);
+      approval=network.reviewApplication(application.id,adminId,"approve","Identiti dan sekolah disemak.").then(value=>({value}),error=>({error}));
+      let waiting=false;
+      for(let attempt=0;attempt<150;attempt++){
+        waiting=(await pool.query("SELECT EXISTS(SELECT 1 FROM pg_stat_activity WHERE $1::int=ANY(pg_blocking_pids(pid))) AS waiting",[pid])).rows[0].waiting;
+        if(waiting)break;
+        await new Promise(resolve=>setTimeout(resolve,10));
+      }
+      expect(waiting).toBe(true);
+      // Resubmission must still be able to take its second lock and commit.
+      await resubmission.query("SELECT id FROM teacher_applications WHERE id=$1 FOR UPDATE",[application.id]);
+      await resubmission.query("UPDATE teacher_applications SET public_name='Cikgu Terkini' WHERE id=$1",[application.id]);
+      await resubmission.query("COMMIT");
+      const result=await approval;
+      expect(result.error).toBeUndefined();
+      expect(result.value).toMatchObject({status:"approved",publicName:"Cikgu Terkini"});
+      expect((await pool.query("SELECT public_name FROM teacher_profiles WHERE user_id=$1",[applicantId])).rows[0].public_name).toBe("Cikgu Terkini");
+      await expect(network.submitApplication(applicantId,{fullName:"Concurrent Applicant",publicName:"Must Not Replace",schoolName:"SK Concurrent",state:"Selangor",district:"Petaling",positionTitle:"Guru Akademik",academicYear:2026,levelIds:["d1"],subjectIds:["bm"],identityAttested:true,termsAttested:true})).rejects.toMatchObject({code:"TEACHER_ALREADY_APPROVED"});
+    }finally{
+      await resubmission.query("ROLLBACK");resubmission.release();
+      if(approval)await approval;
+    }
+  },10000);
+
   it("requires parent consent then teacher acceptance before activating a class",async()=>{
     await expect(network.setTuitionDetails(parentId,teacherId,{experienceYears:5,qualifications:"Diploma Pendidikan",reviewNote:"Sijil dan pengalaman disemak."})).rejects.toMatchObject({code:"SUPER_ADMIN_ACCESS_REQUIRED"});
     await expect(network.setTuitionDetails(adminId,teacherId,{experienceYears:5,qualifications:"Hubungi +60123456789",reviewNote:"Sijil dan pengalaman disemak."})).rejects.toMatchObject({code:"INVALID_INPUT"});

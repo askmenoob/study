@@ -112,3 +112,8 @@ M18 15 October 2026: corrected missing showcase artwork with four fictional role
 ## M19 Reading graphics audit â€” 15 October 2026
 
 Audited all1,200 published readings/3,601 resources: previous125 visible graphical reading routes, now1,200 with local thematic artwork and resource-specific source-text maps.13 original transparent WebP themes total854,358bytes;338 authored paragraph illustrations retained. Library, teaching-first lessons, tutor selected notes and teacher text readers/previews integrated. Both content validators/build/typecheck/PWA and685/685 tests in123files,zero skips PASS. Actual browser28reading samples/56desktop-mobile captures cover12grades/13themes/multilingual text,320px enlarged text, map collapse and D1 picture frames, with no JS/console errors. See READING_GRAPHICS_AUDIT_20261015.md and full JSON/CSV inventory.26VERIFIED/6BLOCKED/2IN_PROGRESS and joint production-account UAT/provider gates unchanged. Promotion evidence is added to the release log after exact-commit CI and runtime verification.
+
+
+## M20 Teacher approval concurrency — 16 October 2026
+
+Fixed a reproduced PostgreSQL deadlock between applicant resubmission and admin approval by using account-before-application locks in both paths and reading the committed application after waiting. The real PostgreSQL regression verifies the updated approved profile and rejection of post-approval resubmission. See PRIVATE_TUITION_APPROVAL_CONCURRENCY_20261016.md. PT-029/PT-034 acceptance and the 26 VERIFIED / 6 BLOCKED / 2 IN_PROGRESS totals remain unchanged pending real operational evidence.
